@@ -1,0 +1,5 @@
+name: Happy Coding
+markdown: kramdown
+permalink: /:categories/:slug
+gems:
+  - jemoji
