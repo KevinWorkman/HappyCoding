@@ -1,0 +1,13 @@
+---
+layout: default
+title: Tutorials
+---
+	<h1>{{ page.title }}</h1>
+	
+	<p>Tutorials are designed to be followed in a particular order, to teach you how to code.</p>
+	
+	<ul class="posts">
+	  {% for post in site.categories.tutorials %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
