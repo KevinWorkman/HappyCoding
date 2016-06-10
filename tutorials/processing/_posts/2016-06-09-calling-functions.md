@@ -10,32 +10,19 @@ test: "testing 123 abc"
 
 ## Calling Functions
 
-Functions are how we tell the computer what to do, or how we ask the computer
-for information. Different languages can have different functions, but the
-idea is often the same: you call a function to perform tasks, or to get
-information.
+Functions are how we tell the computer what to do, or how we ask the computer for information. Different languages can have different functions, but the idea is often the same: you call a function to perform tasks, or to get information.
 
-If you think of a function as a to-do list of instructions to carry out, then
-calling a function is like handing the computer a to-do list and saying "go do
-this list of instructions". Further, you can have multiple to-do lists
-(functions), each with its name written at the top- that way you can say "go
-do the to-do list titled 'daily chores' now". Functions can (and usually do)
-call other functions, so you can think of a to-do list with another to-do
-list's name as one of the tasks!
+If you think of a function as a to-do list of instructions to carry out, then calling a function is like handing the computer a to-do list and saying "go do this list of instructions". Further, you can have multiple to-do lists (functions), each with its name written at the top- that way you can say "go do the to-do list titled 'daily chores' now". Functions can (and usually do)
+call other functions, so you can think of a to-do list with another to-do list's name as one of the tasks!
 
-To call a function, you simply type its name, followed by a list of any
-arguments it uses inside parentheses.
+To call a function, you simply type its name, followed by a list of any arguments it uses inside parentheses.
 
-For example, to change the background color, you call the background()
-function and give it a single number from 0-255 representing the brightness.
+For example, to change the background color, you call the background() function and give it a single number from 0-255 representing the brightness.
 
-    
-    
     void draw() {
     	background(0);
     }
     
-
 Try changing the number to achieve different results.
 
 ### Function Overloading
