@@ -10,7 +10,7 @@ test: "testing 123 abc"
 
 ## Calling Functions
 
-{{test}}
+{{post.test}}
 
 Functions are how we tell the computer what to do, or how we ask the computer for information. Different languages can have different functions, but the idea is often the same: you call a function to perform tasks, or to get information.
 
