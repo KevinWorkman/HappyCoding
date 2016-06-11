@@ -12,11 +12,11 @@ function setupThemeChooser(){
   
   $('#themeChooser').on('change', function() {
   
-    var theme	= $('#themeChooser').val();
+    var selectedTheme	= $('#themeChooser').val();
     
-    Cookies.set('theme', theme);
+    Cookies.set('theme', selectedTheme);
     
-    if("dark" == theme){
+    if("dark" == selectedTheme){
       $("#bootstrapCss").attr("href", "/css/bootstrap.cyborg.css");
     }
     else{
