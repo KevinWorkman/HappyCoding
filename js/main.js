@@ -3,6 +3,7 @@ function setupThemeChooser(){
   $('#themeChooser').append(new Option("light", "light"));
   
   if(Cookies.get('theme')){
+    console.log("theme: " + Cookies.get('theme'));
     $('#themeChooser').val(Cookies.get('theme'));
   }
   
