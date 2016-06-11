@@ -1,4 +1,7 @@
 function setupThemeChooser(){
+  
+  console.log("setupThemeChooser");
+  
   $('#themeChooser').append(new Option("dark", "dark"));
   $('#themeChooser').append(new Option("light", "light"));
   
