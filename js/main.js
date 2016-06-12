@@ -17,11 +17,11 @@ function setupThemeChooser(){
 		
 		if("dark" == selectedTheme){
 			$("#bootstrapCss").attr("href", "/css/bootstrap.cyborg.css");
-			$("#favicon").attr("href", "/css/faviconDark.png");
+			$("#favicon").attr("href", "/images/faviconDark.png");
 		}
 		else{
 			$("#bootstrapCss").attr("href", "/css/bootstrap.css");
-			$("#favicon").attr("href", "/css/favicon.png");
+			$("#favicon").attr("href", "/images/favicon.png");
 		}
 	});
 }
