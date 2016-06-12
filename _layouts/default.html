@@ -7,7 +7,7 @@
 
 			
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+			<link rel="shortcut icon" type="image/png" href="/images/favicon.png" id="favicon" />
 			
 			<script src="/js/js.cookie.js"></script>
 			<script src="/js/jquery-3.0.0.min.js"></script>
@@ -15,14 +15,15 @@
     			<script src="/js/main.js"></script>
     			
     			<script>
-    				console.log("here");
 				var theme = Cookies.get('theme');
 				if(theme){
 					if("dark" == theme){
 						$("#bootstrapCss").attr("href", "/css/bootstrap.cyborg.css");
+						$("#favicon").attr("href", "/images/faviconDark.png");
 					}
 					else{
 						$("#bootstrapCss").attr("href", "/css/bootstrap.css");
+						$("#favicon").attr("href", "/images/favicon.png");
 					}
 				}
 			</script>
