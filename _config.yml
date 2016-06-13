@@ -1,7 +1,8 @@
 name: Happy Coding
 markdown: kramdown
-highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 permalink: /:categories/:slug
 gems:
   - jemoji
-  - rouge
