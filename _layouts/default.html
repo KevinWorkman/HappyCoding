@@ -3,10 +3,10 @@
 	<head>
 		<title>{{ page.title }}</title>
 
-		<link href="/css/bootstrap.cyborg.css" rel="stylesheet" id="bootstrapCss">
-
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.cyborg.css" id="bootstrap-css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css" id="main-css">
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css" id="syntax-css">
+		
 		<link rel="shortcut icon" type="image/png" href="/images/favicon.png" id="favicon" />
 
 		<script src="/js/js.cookie.js"></script>
@@ -18,11 +18,13 @@
 			var theme = Cookies.get('theme');
 			if(theme){
 				if("dark" == theme){
-					$("#bootstrapCss").attr("href", "/css/bootstrap.cyborg.css");
+					$("#bootstrap-css").attr("href", "/css/bootstrap.cyborg.css");
+					$("#syntax-css").attr("href", "/css/syntax-dark.css");
 					$("#favicon").attr("href", "/images/faviconDark.png");
 				}
 				else{
-					$("#bootstrapCss").attr("href", "/css/bootstrap.css");
+					$("#bootstrap-css").attr("href", "/css/bootstrap.css");
+					$("#syntax-css").attr("href", "/css/syntax-light.css");
 					$("#favicon").attr("href", "/images/favicon.png");
 				}
 			}
