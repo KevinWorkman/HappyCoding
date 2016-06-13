@@ -11,16 +11,18 @@ function setupThemeChooser(){
 	
 	$('#themeChooser').on('change', function() {
 	
-		var selectedTheme	= $('#themeChooser').val();
+		var selectedTheme = $('#themeChooser').val();
 		
 		Cookies.set('theme', selectedTheme);
 		
 		if("dark" == selectedTheme){
-			$("#bootstrapCss").attr("href", "/css/bootstrap.cyborg.css");
+			$("#bootstrap-css").attr("href", "/css/bootstrap.cyborg.css");
+			$("#syntax-css").attr("href", "/css/syntax-dark.css");
 			$("#favicon").attr("href", "/images/faviconDark.png");
 		}
 		else{
-			$("#bootstrapCss").attr("href", "/css/bootstrap.css");
+			$("#bootstrap-css").attr("href", "/css/bootstrap.css");
+			$("#syntax-css").attr("href", "/css/syntax-light.css");
 			$("#favicon").attr("href", "/images/favicon.png");
 		}
 	});
