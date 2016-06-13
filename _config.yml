@@ -3,3 +3,6 @@ markdown: kramdown
 permalink: /:categories/:slug
 gems:
   - jemoji
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
