@@ -4,3 +4,4 @@ highlighter: rouge
 permalink: /:categories/:slug
 gems:
   - jemoji
+  - rouge
