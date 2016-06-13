@@ -32,11 +32,11 @@ Try changing the number to achieve different results.
 The background() function has also been overloaded, meaning there is another
 function with the same name that takes a different set of arguments.
 
-    
-    
-    void draw() {
-    	background(255, 0, 0);
-    }
+```
+void draw() {
+	background(255, 0, 0);
+}
+```
     
 
 This form of the function takes three numbers: one for red, one for blue, and
