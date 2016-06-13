@@ -21,9 +21,11 @@ To call a function, you simply type its name, followed by a list of any argument
 
 For example, to change the background color, you call the background() function and give it a single number from 0-255 representing the brightness.
 
-    void draw() {
-    	background(0);
-    }
+```java
+void draw() {
+    background(0);
+}
+```
     
 Try changing the number to achieve different results.
 
@@ -49,18 +51,18 @@ use each. For example, the
 ellipse:
 
     
-    
-    void draw() {
-    	ellipse(75, 50, 25, 25);
-    }
+```
+void draw() {
+	ellipse(75, 50, 25, 25);
+}
+```
     
 
 Much of programming consists of calling different functions in a particular
 order to achieve a desired goal. For example, can you guess what the following
 program does?
 
-    
-    
+
     void draw() {
       background(0);
       
