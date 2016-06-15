@@ -10,7 +10,16 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+	margin: 0;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+	background: url(http://photos.kevinworkman.com/Pictures/2013/i-2WjDL3s/0/O/lights3.jpg);
+	background-size: 100px 80px;
+	background-repeat: no-repeat;
 }
 article,
 aside,
@@ -1081,13 +1090,7 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
+
 input,
 button,
 select,
