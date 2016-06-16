@@ -3,19 +3,20 @@
 	<head>
 		<title>{{ page.title }}</title>
 
-
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap.cyborg.css" id="bootstrap-css" class="dark-css">
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap-extension-dark.css" id="bootstrap-extension-css" class="dark-css">
 		<link rel="stylesheet" type="text/css" href="/css/main-dark.css" class="dark-css">
+		<link rel="stylesheet" type="text/css" href="/css/syntax-dark.css" class="dark-css">
 		
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap.readable.css" class="light-css" disabled>
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap-extension-light.css" class="light-css" disabled>
 		<link rel="stylesheet" type="text/css" href="/css/main-light.css" class="light-css" disabled>
+		<link rel="stylesheet" type="text/css" href="/css/syntax-light.css" class="light-css" disabled>
 		
 		<link rel="stylesheet" type="text/css" href="/css/main.css" id="main-css">
-		<link rel="stylesheet" type="text/css" href="/css/syntax-dark.css" id="syntax-css">
 		
-		<link rel="shortcut icon" type="image/png" href="/images/favicon.png" id="favicon" />
+		<link rel="shortcut icon" type="image/png" href="/images/faviconDark.png" id="favicon" class="dark-css" />
+		<link rel="shortcut icon" type="image/png" href="/images/favicon.png" id="favicon" class="light-css" disabled />
 
 		<script src="/js/js.cookie.js"></script>
 		<script src="/js/jquery-2.2.4.js"></script>
@@ -30,21 +31,20 @@
 					$(".dark-css").removeAttr('disabled');
 					$(".light-css").attr('disabled', 'disabled');
 					
-					
 					//$("#bootstrap-css").attr("href", "/css/bootstrap.cyborg.css");
 					//$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-dark.css");
-					$("#syntax-css").attr("href", "/css/syntax-dark.css");
-					$("#favicon").attr("href", "/images/faviconDark.png");
+					//$("#syntax-css").attr("href", "/css/syntax-dark.css");
+					//$("#favicon").attr("href", "/images/faviconDark.png");
 				}
 				else{
-					
+
 					$(".light-css").removeAttr('disabled');
 					$(".dark-css").attr('disabled', 'disabled');
 					
 				//	$("#bootstrap-css").attr("href", "/css/bootstrap.readable.css");
 				//	$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-light.css");
-					$("#syntax-css").attr("href", "/css/syntax-light.css");
-					$("#favicon").attr("href", "/images/favicon.png");
+				//	$("#syntax-css").attr("href", "/css/syntax-light.css");
+				//	$("#favicon").attr("href", "/images/favicon.png");
 				}
 			}
 		</script>
@@ -69,9 +69,12 @@
 							<li class="nav-item"><a class="nav-link" href="/tutorials/java">More Tutorials?</a></li>
 						</ul>
 
+						<form class="navbar-form navbar-right">
+							<select id="themeChooser" class="form-control"></select>
+						</form>
+						
 						<ul class="nav navbar-right">
 							<li class="nav-item"><a class="nav-link" href="https://github.com/KevinWorkman/HappyCoding"><img id="github-img" src="/images/GitHub-Mark-Light-32px.png" /></a></li>
-							<li class="nav-item"><select id="themeChooser" class="form-control"></select></li>
 						</ul>
 					</div>
 			</nav>
