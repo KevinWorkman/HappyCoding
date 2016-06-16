@@ -23,8 +23,8 @@ function setupThemeChooser(){
 			
 		//	$("#bootstrap-css").attr("href", "/css/bootstrap.cyborg.css");
 		//	$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-dark.css");
-			$("#syntax-css").attr("href", "/css/syntax-dark.css");
-			$("#favicon").attr("href", "/images/faviconDark.png");
+		//	$("#syntax-css").attr("href", "/css/syntax-dark.css");
+		//	$("#favicon").attr("href", "/images/faviconDark.png");
 		}
 		else{
 			
@@ -33,8 +33,8 @@ function setupThemeChooser(){
 			
 		//	$("#bootstrap-css").attr("href", "/css/bootstrap.readable.css");
 		//	$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-light.css");
-			$("#syntax-css").attr("href", "/css/syntax-light.css");
-			$("#favicon").attr("href", "/images/favicon.png");
+		//	$("#syntax-css").attr("href", "/css/syntax-light.css");
+		//	$("#favicon").attr("href", "/images/favicon.png");
 		}
 		
 		setRandomBackground();
