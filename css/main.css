@@ -1,3 +1,9 @@
+body{
+  	background: url(http://photos.kevinworkman.com/Pictures/2013/i-2WjDL3s/0/O/lights3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
 a {
     text-decoration: none;
     color: #00ff00;
