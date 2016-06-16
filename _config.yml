@@ -5,4 +5,10 @@ kramdown:
 permalink: /:categories/:slug
 gems:
   - jemoji
-test: "testing variables"
+  
+defaults:
+ -
+    scope:
+      path: ""
+    values:
+      test: "testing variables"
