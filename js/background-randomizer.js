@@ -73,7 +73,7 @@ function setRandomBackground(){
 		backgroundUrl = lightBackgrounds[Math.floor(Math.random()*lightBackgrounds.length)];
 	}
 	
-	$("body").css("background", "url(" + backgroundUrl + ")");
+	$("body").css("background-image", "url(" + backgroundUrl + ")");
 }
 
 $(setRandomBackground);
