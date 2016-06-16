@@ -27,6 +27,8 @@ function setupThemeChooser(){
 			$("#syntax-css").attr("href", "/css/syntax-light.css");
 			$("#favicon").attr("href", "/images/favicon.png");
 		}
+		
+		setRandomBackground();
 	});
 }
 
