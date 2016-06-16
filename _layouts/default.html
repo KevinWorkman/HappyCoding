@@ -15,8 +15,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="/css/main.css" id="main-css">
 		
-		<link rel="shortcut icon" type="image/png" href="/images/faviconDark.png" id="favicon" class="dark-css" />
-		<link rel="shortcut icon" type="image/png" href="/images/favicon.png" id="favicon" class="light-css" disabled />
+		<link rel="shortcut icon" type="image/png" href="/images/faviconDark.png" id="favicon" />
 
 		<script src="/js/js.cookie.js"></script>
 		<script src="/js/jquery-2.2.4.js"></script>
@@ -30,11 +29,11 @@
 				if("dark" == theme){
 					$(".dark-css").removeAttr('disabled');
 					$(".light-css").attr('disabled', 'disabled');
-					
+
 					//$("#bootstrap-css").attr("href", "/css/bootstrap.cyborg.css");
 					//$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-dark.css");
 					//$("#syntax-css").attr("href", "/css/syntax-dark.css");
-					//$("#favicon").attr("href", "/images/faviconDark.png");
+					$("#favicon").attr("href", "/images/faviconDark.png");
 				}
 				else{
 
@@ -44,7 +43,7 @@
 				//	$("#bootstrap-css").attr("href", "/css/bootstrap.readable.css");
 				//	$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-light.css");
 				//	$("#syntax-css").attr("href", "/css/syntax-light.css");
-				//	$("#favicon").attr("href", "/images/favicon.png");
+					$("#favicon").attr("href", "/images/favicon.png");
 				}
 			}
 		</script>
