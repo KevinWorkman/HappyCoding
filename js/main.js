@@ -1,6 +1,5 @@
 function setupThemeChooser(){
 	
-	console.log("setupThemeChooser");
 	
 	$('#themeChooser').append(new Option("dark", "dark"));
 	$('#themeChooser').append(new Option("light", "light"));
@@ -12,6 +11,8 @@ function setupThemeChooser(){
 	$('#themeChooser').on('change', function() {
 	
 		var selectedTheme = $('#themeChooser').val();
+		
+		console.log("theme: " + selectedTheme);
 		
 		Cookies.set('theme', selectedTheme);
 		
