@@ -1086,11 +1086,14 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
-  line-height: 1.42857143;
-  color: #333333;
-  background-color: #ffffff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #333333;
+	background-color: #ffffff;
+	background: url(http://photos.kevinworkman.com/Pictures/2013/i-2WjDL3s/0/O/lights3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 input,
 button,
