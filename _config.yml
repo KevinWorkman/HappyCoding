@@ -5,3 +5,4 @@ kramdown:
 permalink: /:categories/:slug
 gems:
   - jemoji
+test: "testing variables"
