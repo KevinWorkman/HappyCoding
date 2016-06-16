@@ -3,7 +3,6 @@ layout: post
 title: "Calling Functions"
 date: 2016-06-09
 slug: calling-functions
-test: "testing 123 abc"
 ---
 
 #  [Basic Concepts](index.jsp)
