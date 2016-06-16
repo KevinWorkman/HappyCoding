@@ -4,6 +4,7 @@
 		<title>{{ page.title }}</title>
 
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap.cyborg.css" id="bootstrap-css">
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap-extension-dark.css" id="bootstrap-extension-css">
 		<link rel="stylesheet" type="text/css" href="/css/main.css" id="main-css">
 		<link rel="stylesheet" type="text/css" href="/css/syntax-dark.css" id="syntax-css">
 		
@@ -19,11 +20,13 @@
 			if(theme){
 				if("dark" == theme){
 					$("#bootstrap-css").attr("href", "/css/bootstrap.cyborg.css");
+					$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-dark.css");
 					$("#syntax-css").attr("href", "/css/syntax-dark.css");
 					$("#favicon").attr("href", "/images/faviconDark.png");
 				}
 				else{
 					$("#bootstrap-css").attr("href", "/css/bootstrap.readable.css");
+					$("#bootstrap-extension-css").attr("href", "/css/bootstrap-extension-light.css");
 					$("#syntax-css").attr("href", "/css/syntax-light.css");
 					$("#favicon").attr("href", "/images/favicon.png");
 				}
