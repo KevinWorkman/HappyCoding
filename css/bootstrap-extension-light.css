@@ -3,6 +3,10 @@
 	box-shadow: 0 0 10px 10px #ffffff;
 }
 
+.navbar-default{
+	background-color: #eeeeee;
+}
+
 .navbar-default .navbar-nav li a{
 	color: black;
 }
