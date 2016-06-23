@@ -14,3 +14,13 @@
 .navbar-default .navbar-brand{
 	color: black;
 }
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color: #222222;
+	background-color: #dddddd;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
+	color: #222222;
+	background-color: #dddddd;
+}
