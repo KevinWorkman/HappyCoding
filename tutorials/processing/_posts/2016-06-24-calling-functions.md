@@ -12,10 +12,10 @@ A function is a **single instruction** that tells the computer to do **one thing
 
 Writing a computer program is a little bit like writing driving instructions for another person to follow. An individual step of those directions might be something like "drive 5 miles" or "turn left", and you might write each step on its own line. The other person then follows those steps in order, one after the other, in order to get to the destination.
 
-```java
-  drive 5 miles
-  turn left
-  drive 3 miles
+```
+drive 5 miles
+turn left
+drive 3 miles
 ```
 
 That's very similar to how a computer follows code that you write. Except instead of driving directions, we give the computer a series of **functions** that it **calls**, one after the other, to accomplish our end goal.
@@ -26,7 +26,7 @@ To call a function (which is just another way to say "tell the computer to follo
 
 - Write the name of the function.
 - Add parentheses `()` after the function's name.
-- Inside the parenthesis, add any **parameters** that the function requires.
+- Inside the parenthesis, add any **parameters** that the function requires, separated by commas.
 - End the line with a semicolon `;`.
 
 ## What's a parameter?
@@ -38,12 +38,55 @@ It's the same idea when we're writing code. Computers are very dumb, so they onl
 We might write our driving instructions in code like this:
 
 ```java
-  drive(5);
-  turnLeft();
-  drive(3);
+drive(5);
+turnLeft();
+drive(3);
 ```
 
 Notice that our `turnLeft` function doesn't take any parameters, because we don't need any extra information to follow that step!
 
 ## Let's write some code!
 
+Let's call Processing's `ellipse` function, which tells the computer to draw a circle.
+
+The `ellipse` function takes 4 parameters: an `x` position, a `y` position, a `width`, and a `height`. The first two parameters tell the computer where the circle should be, and the last two parameters tell the computer how big the circle should be.
+
+So to draw a circle at `x` position of `50`, a `y` position of `75`, with a `width` and `height` of `20`, we'd write this line of code:
+
+```java
+ellipse(50, 75, 20, 20);
+```
+
+Open up your Processing editor, type that line of code, and then hit the run button. You should see something that looks like this:
+
+![ellipse](/tutorials/processing/calling-functions-1.png)
+
+Try changing the parameters to see what happens. Can you draw an ellipse in the upper-left corner? The lower-right corner? Can you make an ellipse that fills up the whole window? Can you make a very tall ellipse, or a very fat ellipse?
+
+## The Processing Reference
+
+Processing has a ton of other functions you can call. How do you know what they are and what parameters they take? Let me introduce you to your new best friend: [the Processing reference](https://processing.org/reference/). 
+
+That page lists every function you can call in Processing, and clicking on a particular function gives you information about what parameters it needs. This is going to be your first stop whenever you start wondering how you might do something in Processing.
+
+You might as well just bookmark that page now. (Seriously, it's one of my default tabs in chrome!)
+
+That might seem overwhelming, but let's keep it simple. Let's say we're sick of drawing circles: we've put them in the upper-left corner, we've made them fat, we've made them skinny. Yawn. Let's take it up a notch and start drawing **rectangles**!!!
+
+With that goal, we can look at the Processing reference and ask ourselves, "do any of these functions look like they might draw a rectangle?" (Go ahead, try to find it!)
+
+Sure enough, the reference tells us that Processing has a [`rect`](https://processing.org/reference/rect_.html) function. The reference tells us that it takes 4 parameters: an `x` and `y` position of the upper-left corner of the rectangle, and a `width` and a `height` specifying the size.
+
+So we can modify our program to draw a rectangle instead:
+
+```java
+rect(10, 20, 80, 70);
+```
+
+Type this line of code into your Processing editor and hit the run button, and you should see this:
+
+![rect](/tutorials/processing/calling-functions-1.png)
+
+##You are now a programmer.
+
+You now know how to ask yourself how to do something, look it up in the reference, and write a line of code to test it out. **That's 95% of what a programmer does.** From here it's just a matter of 
