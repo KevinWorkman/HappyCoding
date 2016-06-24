@@ -12,11 +12,11 @@ A program is a set of instructions that interact with a computer. You probably u
 
  Computers can't understand English (at least not yet), so these instructions are written in a language that computers can understand. We call this type of language **code**.
  
- ## What is programming?
+## What is programming?
  
  We know that a program is a set of instructions that tell a computer what to do, and we know that those instructions are written in code. Programming (also called **coding**) is the process of writing that code.
  
- ## What is code?
+## What is code?
  
 Just like there are a bunch of different human languages, there are also a bunch of different kinds of code languages. Different code languages are good at different things: if you wanted to create the server part of a website, you might use Java. If you wanted to write low-level drivers that interact with hardware, you might use C++. If you wanted to create an interactive website, you might use JavaScript.
 
