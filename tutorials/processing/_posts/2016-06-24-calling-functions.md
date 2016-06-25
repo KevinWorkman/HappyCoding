@@ -89,4 +89,11 @@ Type this line of code into your Processing editor and hit the run button, and y
 
 ##You are now a programmer.
 
-You now know how to ask yourself how to do something, look it up in the reference, and write a line of code to test it out. **That's 95% of what a programmer does.** From here it's just a matter of 
+You now know how to ask yourself how to do something, look it up in the reference, and write a line of code to test it out. **That's 95% of what a programmer does.** From here it's just a matter of figuring out how to do more and more stuff. 
+
+For example, we might ask ourselves how we might increase the size of the window. We go to [the Processing reference](https://processing.org/reference/) and look for a function that might help with that. We eventually find the [`size`](https://processing.org/reference/size_.html) function, which takes two parameters: a `width` and a `height`. We can call this function to tell Processing how big the window should be, adding it to our set of instructions:
+
+```java
+size(500, 500);
+ellipse(250, 250, 300, 200);
+```
