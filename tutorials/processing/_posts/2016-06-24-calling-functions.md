@@ -94,6 +94,12 @@ You now know how to ask yourself how to do something, look it up in the referenc
 For example, we might ask ourselves how we might increase the size of the window. We go to [the Processing reference](https://processing.org/reference/) and look for a function that might help with that. We eventually find the [`size`](https://processing.org/reference/size_.html) function, which takes two parameters: a `width` and a `height`. We can call this function to tell Processing how big the window should be, adding it to our set of instructions:
 
 ```java
-size(500, 500);
-ellipse(250, 250, 300, 200);
+size(500, 300);
+ellipse(250, 150, 300, 100);
 ```
+
+This program tells Processing to make the window `500` pixels wide and `300` pixels tall. It then tells Processing to draw a circle with an `x` of `250`, `y` of `150`, `width` of `300`, and a `height` of `100`. Type these lines of code into your Processing editor and hit run, and you should see this:
+
+![ellipse in a bigger window](/tutorials/processing/calling-functions-1.png)
+
+
