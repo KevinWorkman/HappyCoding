@@ -1,3 +1,7 @@
 #github-img{
 	content: url("/images/GitHub-Mark-Light-32px.png");
 }
+
+pre code{
+	color:white;
+}
