@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutorial
 title: "What is Programming?"
 slug: what-is-programming
 ---
