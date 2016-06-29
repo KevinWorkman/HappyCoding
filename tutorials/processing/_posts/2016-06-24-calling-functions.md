@@ -134,7 +134,7 @@ fill(255, 255, 0);
 ellipse(150, 150, 100, 100);
 ```
 
-![colored circles](/tutorials/processing/calling-functions-4.png)
+![colored circles](/tutorials/processing/calling-functions-5.png)
 
 Notice that the call to `fill(255, 255, 0)` mixes red and green together to make yellow. If you're unfamiliar with RGB colors, try playing with the parameters to mix different colors together.
 
