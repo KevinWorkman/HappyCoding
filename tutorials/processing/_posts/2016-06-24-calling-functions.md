@@ -8,9 +8,7 @@ This tutorial teaches you how to write Processing code. In Processing (and many 
 
 ## What's a function?
 
-A function is a **single instruction** that tells the computer to do **one thing**.
-
-Writing a computer program is a little bit like writing driving instructions for another person to follow. An individual step of those directions might be something like "drive 5 miles" or "turn left", and you might write each step on its own line. The other person then follows those steps in order, one after the other, in order to get to the destination.
+Writing a program is a little bit like writing driving instructions for another person to follow. A single step of those directions might be something like "drive 5 miles" or "turn left", and you might write each step on its own line. The other person then follows those steps in order, one after the other, to travel to the destination.
 
 ```
 drive 5 miles
@@ -18,7 +16,9 @@ turn left
 drive 3 miles
 ```
 
-That's very similar to how a computer follows code that you write. Except instead of driving directions, we give the computer a series of **functions** that it **calls**, one after the other, to accomplish our end goal.
+This is similar to how a computer program works. A program is a set of instructions that tells the computer to follow a series of steps. Each step is written on its own line, and the computer follows the instructions one at a time.
+
+A function is **one of those steps**. Calling a function is giving the computer a **single instruction** that tells it to do **one thing**.
 
 ## How do I call a function?
 
@@ -33,7 +33,7 @@ To call a function (which is just another way to say "tell the computer to follo
 
 In our driving instructions, imagine if one of the steps just said "drive" - that wouldn't be enough information! How far should we drive? That step requires more information: specifically, a distance.
 
-It's the same idea when we're writing code. Computers are very dumb, so they only know what to do what we tell them. When you ask a computer to jump, it's going to ask you: how high? We pass that extra information into a function via its **parameters**.
+It's the same idea when we're writing code. Computers are very dumb, so they only know how to do what we tell them. When you ask a computer to jump, it's going to ask you: how high? We pass that extra information into a function via its **parameters**.
 
 We might write our driving instructions in code like this:
 
@@ -87,7 +87,7 @@ Type this line of code into your Processing editor and hit the run button, and y
 
 ![rect](/tutorials/processing/calling-functions-1.png)
 
-##You are now a programmer.
+## You are now a programmer.
 
 You now know how to ask yourself how to do something, look it up in the reference, and write a line of code to test it out. **That's 95% of what a programmer does.** From here it's just a matter of figuring out how to do more and more stuff. 
 
@@ -100,6 +100,54 @@ ellipse(250, 150, 300, 100);
 
 This program tells Processing to make the window `500` pixels wide and `300` pixels tall. It then tells Processing to draw a circle with an `x` of `250`, `y` of `150`, `width` of `300`, and a `height` of `100`. Type these lines of code into your Processing editor and hit run, and you should see this:
 
-![ellipse in a bigger window](/tutorials/processing/calling-functions-1.png)
+![ellipse in a bigger window](/tutorials/processing/calling-functions-3.png)
 
+What if we then want to change the color of our circle? Again, we'd look in the Processing reference until we found a function that tells the computer to draw in a certain color. We'd find [the `fill` function](https://processing.org/reference/fill_.html), which takes 3 parameters: a red, a green, and a blue value. You can mix these values just like you mix paint. Check out [this Wikipedia article](https://en.wikipedia.org/wiki/RGB_color_model) for more information on that.
 
+To change our ellipse to red, we'd call `fill(255, 0, 0)` before drawing our ellipse. This is like dipping a paintbrush in red before drawing on a canvas:
+
+```java
+size(200, 200);
+fill(255, 0, 0);
+ellipse(50, 50, 100, 100);
+```
+
+This program calls the `size` function to make the window `200` pixels wide and `200` pixels tall. It then calls the `fill` function with a `red` value of `255` and `green` and `blue` values of `0` to change the color to red. Finally, it calls the `ellipse` function to draw a circle in the upper-left corner of the window.
+
+![red ellipse](/tutorials/processing/calling-functions-4.png)
+
+We can expand our program to draw 4 circles, all with different colors:
+
+```java
+size(200, 200);
+
+fill(255, 0, 0);
+ellipse(50, 50, 100, 100);
+
+fill(0, 255, 0);
+ellipse(150, 50, 100, 100);
+
+fill(0, 0, 255);
+ellipse(50, 150, 100, 100);
+
+fill(255, 255, 0);
+ellipse(150, 150, 100, 100);
+```
+
+![colored circles](/tutorials/processing/calling-functions-4.png)
+
+Notice that the call to `fill(255, 255, 0)` mixes red and green together to make yellow. If you're unfamiliar with RGB colors, try playing with the parameters to mix different colors together.
+
+## Homework
+
+The best way to learn how to program is by, well, programming. Give yourself a goal, then consult the Processing reference to figure out how to accomplish that goal. Write some code and see what happens. If you aren't quite sure about the kinds of things you can create, here are a few ideas:
+
+- Draw a smiley face.
+- Draw a flower or a garden.
+- Draw a rainbow.
+- Draw a dog or cat.
+- Draw a house.
+
+Come up with a scene that you want to draw, and then write a program that draws it. Write Processing code that calls functions to draw the scene.
+
+## Next: Using Variables
