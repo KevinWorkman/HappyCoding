@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutorial
 title: "Calling Functions"
 slug: calling-functions
 ---
