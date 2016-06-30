@@ -22,7 +22,7 @@ This line of code passes the values `100`, `200`, `30`, and `20` into the `ellip
 
 ![ellipse](/tutorials/processing/using-variables-1.png)
 
-##Operators
+## Operators
 
 At their most simple level, computers are just calculators. They crunch numbers by modifying values with **operators**: things like `+`, `-`, `*`, and `/`. 
 
@@ -36,7 +36,7 @@ This line of code does the exact same thing: passes the values `100`, `200`, `30
 
 The difference is that these values are obtained by applying operators to other values.
 
-##Things Change
+## Things Change
 
 The ability to apply operators becomes more useful when we need to change something in a bunch of places. Let's say we have this code that draws a target that fills the window:
 
@@ -63,7 +63,7 @@ This program works because we know that the size of the window is `200x200`, so 
 
 But what if we want to change the size of the window?
 
-##The Bad Way
+## The Bad Way
 
 To change the size of the window, we can change the parameters we're passing into the `size` function:
 
@@ -107,7 +107,7 @@ The center of the circles is pretty easy to calculate, since it's just the width
 
 But now what if we want to change the size of the window again? Ugh, we'd have to go through and do all that math again. That might not seem like a big deal, but it becomes more and more annoying as your programs get bigger.
 
-##The Slightly Better Way
+## The Slightly Better Way
 
 Instead of doing all that math in our heads, why don't we just let the computer handle it for us? We can use operators to figure out the correct location and size of our circles:
 
@@ -147,7 +147,7 @@ This is **better** since we don't have to do any math, but we still have to chan
 
 Luckily for us, it can! This is where **variables** become useful:
 
-##What are variables?
+## What are variables?
 
 Variables are **names** that hold **values**. 
 
@@ -168,7 +168,7 @@ The big change here is that we're using the `width` and `height` variables to ca
 
 Now if we want to change the size of the window, we only have to change the parameters we pass into the `size` function. We don't have to change anything else, since the `width` and `height` variables will change accordingly.
 
-##The Best Way
+## The Best Way
 
 This becomes even more useful as our programs grow in size. Here's our target program, now using the `width` and `height` variables:
 
@@ -187,10 +187,10 @@ ellipse(width/2, height/2, width/2, height/2);
 
 Now whenever we want to change the size of the window, we only have to change one line!
 
-##Homework
+## Homework
 
 - Remeber that thing you drew in the previous homework? Use the `width` and `height` variables so that it works iwth any sized window. It might be helpful to draw your figure out on a piece of paper first, that way you can visualize your figure as percentages of width and height.
 
 - Create a program that displays a different color depending on the `width` and `height` variables.
 
-##Next: Creating Variables
+# Next: Creating Variables
