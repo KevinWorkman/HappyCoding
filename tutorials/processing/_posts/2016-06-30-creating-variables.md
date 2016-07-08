@@ -132,26 +132,42 @@ ellipse(targetX, targetY, targetSize/2, targetSize/2);
 
 Finally, this section of code draws the middle ring of the target. First it changes the fill color to red, then it draws a circle at the same position, but with a diameter of `targetSize/2` (which is the same thing as `targetSize*.5`). This makes the middle ring even smaller than the second ring.
 
+## Changing Variables
+
 If we want to change the size and position of the target, now all we have to do is change the values of the variables!
+
+```java
+float targetX = 25;
+float targetY = 75;
+float targetSize = 50;
+```
+
+The rest of the code stays the same, but now our target is smaller and more towards the left of the window:
+
+![smaller target](/tutorials/processing/creating-variables-4.png)
+
+Or we could move the target to the center of the window:
+
+```java
+float targetX = width/2;
+float targetY = height/2;
+float targetSize = 125;
+```
+
+[centered target](/tutorials/processing/creating-variables-5.png)
+
+We're using the `width` and `height` variables to calculate a value that the `targetX` and `targetY` variables hold, and that's completely fine! Remember: you can use a variable anywhere you can use a value, including when creating another variable!
 
 ## Summary
 
-Variables have a **type**, a **name**, and a **value**. They make it easier to organize our code, and down the road we'll be able to do cooler things animations using variables.
+To create a variables, give it a **type**, a **name**, and a **value**. To use a variable, just write its name wherever you would normally use a value.
 
-But for now, focus on using variables to make it easier to change the values you're passing into 
+Variables make it easier to change our code. If we use a variable in our code, we only have to change the value the variable holds, and everywhere that uses that variable will also change.
 
-variables save us time and headaches
-do cool things like random
+Down the road we'll use variable to do cooler things like animation, user input, and randomization. But for now, just focus on using variables to make your code easier to change.
 
 ## Homework
 
-Remember your drawing from the previous homework? Instead of basing it off the width and height, change it to draw at a random location and size
+- Remember your drawing from the previous homework? Instead of basing it off the `width` and `height`, change it to draw at a location and size that you store in variables. Test that your code works with different values for each variable.
 
-Draw it with random colors
-
-Create a shape made from random points
-
-Flowers, smiley faces, cats, unicorns
-
-showing current time?
-
+# Next: Creating Functions
