@@ -6,13 +6,13 @@ slug: creating-variables
 
 In the previous tutorial, we learned about [using variables](/tutorials/processing/using-variables). 
 
-Variables are names that hold values, and we can use a variable anywhere we can use a value just by writing its name. That let's us do things like this:
+Variables are names that hold values, and we can use a variable anywhere we can use a value just by writing its name. That lets us do things like this:
 
 ```java
 ellipse(width/2, height/2, width, height);
 ```
 
-This program uses the `width` and `height` variables to draw a cirlce that fills up the window.
+This program uses the `width` and `height` variables to draw a circle that fills up the window.
 
 ![circle](/tutorials/processing/creating-variables-1.png)
 
@@ -57,7 +57,7 @@ The `text` function takes 3 parameters: a `String` value (in other words, some t
 
 ![Happy coding message](/tutorials/processing/creating-variables-2.png)
 
-If you're not familiar with the `text` function, that's okay- you can read more about the in [the reference](https://processing.org/reference/)!
+If you're not familiar with the `text` function, that's okay. You can read more about the in [the reference](https://processing.org/reference/)!
 
 ## Using our Variables
 
@@ -78,7 +78,7 @@ ellipse(width/2, height/2, width/2, height/2);
 
 This code uses the predefined `width` and `height` variables to draw a target that fills up the window.
 
-![target](/tutorials/processing/creating-variables-3.png)
+![target](/tutorials/processing/using-variables-5.png)
 
 We can modify this code to use our own variables instead, so the target is no longer dependent on the size of the window, but is still easy to change:
 
@@ -99,6 +99,10 @@ fill(255, 0, 0);
 ellipse(targetX, targetY, targetSize/2, targetSize/2);
 ```
 
+This code now uses our own variables to draw a target.
+
+![target](/tutorials/processing/creating-variables-3.png)
+
 Let's take it one section at a time:
 
 ```java
@@ -113,7 +117,7 @@ float targetY = 85;
 float targetSize = 100;
 ```
 
-This section of the code creates 3 variables: `targetX` holds the horizontal position of the center of the target, `targetY` holds the vertical position of the center of the target, and `targetSize` holds the diameter of the target.
+This section of the code creates 3 variables: `targetX` holds the horizontal position of the center of the target, `targetY` holds the vertical position of the center of the target, and `targetSize` holds the diameter of the target. Note that unlike the `width` and `height` variables, the names of these variable are completely up to us. We could have named them anything we wanted.
 
 ```java
 fill(255, 0, 0);
