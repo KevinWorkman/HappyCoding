@@ -12,7 +12,7 @@ ellipse(width/2, height/2, width, height);
 
 This program uses the `width` and `height` variables to draw a cirlce that fills up the window.
 
-![circle](/tutorials/processing/images/creating-variables-1.png)
+![circle](/tutorials/processing/creating-variables-1.png)
 
 Processing gives us variables like `width` and `height`, but we aren't limited to using only what Processing gives us. We can create our own variables!
 
@@ -95,13 +95,51 @@ fill(255, 0, 0);
 ellipse(targetX, targetY, targetSize/2, targetSize/2);
 ```
 
+Let's take it one section at a time:
 
+```java
+size(150, 150);
+```
 
-Let's do something similar, only instead of basing the width and height on the width and height, let's base it on variables that we create
+This section of the code tells Processing to create a window that's `150` pixels wide and `150` pixels high.
 
-random?
+```java
+float targetX = 75;
+float targetY = 85;
+float targetSize = 100;
+```
 
-variables have a type, a name, and a value
+This section of the code creates 3 variables: `targetX` holds the horizontal position of the center of the target, `targetY` holds the vertical position of the center of the target, and `targetSize` holds the diameter of the target.
+
+```java
+fill(255, 0, 0);
+ellipse(targetX, targetY, targetSize, targetSize);
+```
+
+This section of code draws the outer-most ring of the target. First it changes the fill color to red, then it draws a circle centered at `targetX,targetY` with a diameter of `targetSize`.
+
+```java
+fill(255, 255, 255);
+ellipse(targetX, targetY, targetSize*.75, targetSize*.75);
+```
+
+This section of code draws the second ring of the target. First it changes the fill color to white, then it draws a circle at the same position, but with a diameter of `targetSize*.75`. This makes the second ring a little smaller than the outer ring.
+
+```java
+fill(255, 0, 0);
+ellipse(targetX, targetY, targetSize/2, targetSize/2);
+```
+
+Finally, this section of code draws the middle ring of the target. First it changes the fill color to red, then it draws a circle at the same position, but with a diameter of `targetSize/2` (which is the same thing as `targetSize*.5`). This makes the middle ring even smaller than the second ring.
+
+If we want to change the size and position of the target, now all we have to do is change the values of the variables!
+
+## Summary
+
+Variables have a **type**, a **name**, and a **value**. They make it easier to organize our code, and down the road we'll be able to do cooler things animations using variables.
+
+But for now, focus on using variables to make it easier to change the values you're passing into 
+
 variables save us time and headaches
 do cool things like random
 
