@@ -8,7 +8,9 @@ In the previous tutorial, we learned about [using variables](/tutorials/processi
 
 Variables are names that hold values, and we can use a variable anywhere we can use a value just by writing its name. That let's us do things like this:
 
+```java
 ellipse(width/2, height/2, width, height);
+```
 
 This program uses the `width` and `height` variables to draw a cirlce that fills up the window.
 
@@ -76,6 +78,8 @@ ellipse(width/2, height/2, width/2, height/2);
 
 This code uses the predefined `width` and `height` variables to draw a target that fills up the window.
 
+![target](/tutorials/processing/creating-variables-3.png)
+
 We can modify this code to use our own variables instead, so the target is no longer dependent on the size of the window, but is still easy to change:
 
 ```java
@@ -116,7 +120,7 @@ fill(255, 0, 0);
 ellipse(targetX, targetY, targetSize, targetSize);
 ```
 
-This section of code draws the outer-most ring of the target. First it changes the fill color to red, then it draws a circle centered at `targetX,targetY` with a diameter of `targetSize`.
+This section of code draws the outer-most ring of the target. First it changes the fill color to red, then it draws a circle centered at `targetX, targetY` with a diameter of `targetSize`.
 
 ```java
 fill(255, 255, 255);
@@ -154,7 +158,7 @@ float targetY = height/2;
 float targetSize = 125;
 ```
 
-[centered target](/tutorials/processing/creating-variables-5.png)
+![centered target](/tutorials/processing/creating-variables-5.png)
 
 We're using the `width` and `height` variables to calculate a value that the `targetX` and `targetY` variables hold, and that's completely fine! Remember: you can use a variable anywhere you can use a value, including when creating another variable!
 
