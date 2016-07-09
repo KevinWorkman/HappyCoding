@@ -166,16 +166,36 @@ float targetSize = 125;
 
 We're using the `width` and `height` variables to calculate a value that the `targetX` and `targetY` variables hold, and that's completely fine! Remember: you can use a variable anywhere you can use a value, including when creating another variable!
 
+## Function Types
+
+So far, the functions we've seen cause our programs to **do something** (like draw a circle or change the color). But there are also functions that **give you a value** instead of doing something. You can then store that value in a variable, or use it anywhere else we can use a value.
+
+For example, the `random()` function gives you a random value between two parameters. (As always, you can read more about it in [the reference](https://processing.org/reference/random_.html).) This might not sound very useful, but it allows us to add some variety to our programs instead of having the same thing happen every time our code runs. We might use that to draw a target at a random location:
+
+```java
+float targetX = random(0, width);
+float targetY = random(0, height);
+float targetSize = 50;
+```
+
+Now the `targetX` variable will hold a random value between `0` and `width`, and `targetX` will hold a random value between `0` and `height`. This causes our target to appear in a different position every time we run the program. We could also give the target a random size, or even random colors!
+
+Variables allow us to "remember" a value so we can reuse it in multiple places. Without variables, using random values would be very difficult!
+
 ## Summary
 
 To create a variables, give it a **type**, a **name**, and a **value**. To use a variable, just write its name wherever you would normally use a value.
 
 Variables make it easier to change our code. If we use a variable in our code, we only have to change the value the variable holds, and everywhere that uses that variable will also change.
 
-Down the road we'll use variable to do cooler things like animation, user input, and randomization. But for now, just focus on using variables to make your code easier to change.
+Functions can give you a value instead of doing something, and variables let us do stuff with those values.
+
+Down the road we'll use variable to do cooler things like animation and user input. But for now, just focus on using variables to make your code easier to change.
 
 ## Homework
 
 - Remember your drawing from the previous homework? Instead of basing it off the `width` and `height`, change it to draw at a location and size that you store in variables. Test that your code works with different values for each variable.
+- Make a program that randomizes your drawing. Draw it at a random location, with random sizes and random colors. This is called [procedural generation](https://en.wikipedia.org/wiki/Procedural_generation)!
+- Make a program that shows the current time. Hint: check the reference for useful functions! Get creative: make the clock change color throughout the day, or show the time in dog years.
 
 # Next: Creating Functions
