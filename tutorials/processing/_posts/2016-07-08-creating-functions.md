@@ -58,11 +58,11 @@ Let's start out with a basic program that doesn't use any of our own functions:
 
 ```java
 size(200, 200);
-background(0);
+background(200);
 ellipse(100, 100, 25, 25);
 ```
 
-This code creates a `200x200` window, draws a black background, and then draws a circle in the middle of the window:
+This code creates a `200x200` window, draws a gray background, and then draws a circle in the middle of the window:
 
 ![circle](/tutorials/processing/creating-functions-1.png)
 
@@ -97,7 +97,7 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  background(200);
   ellipse(mouseX, mouseY, 25, 25);
 }
 ```
@@ -111,7 +111,7 @@ We call each call to the `draw()` function a **frame**. To better see what's hap
 ```java
 void setup() {
   size(200, 200);
-  background(0);
+  background(200);
 }
 
 void draw() {
@@ -170,7 +170,7 @@ Now that we've written the `drawTarget()` function, we can write a `draw()` func
 
 ```java
 void setup(){
-  size(150, 15);
+  size(150, 150);
 }
 
 void draw() {
@@ -199,12 +199,12 @@ We could also draw a target that follows the mouse:
 
 ```java
 void draw() {
-  background(200, 200, 200);
+  background(200);
   drawTarget(mouseX, mouseY, 100);
 }
 ```
 
-Every frame, this program clears the background and then draws a target at the mouse's position.
+Every frame, this program draws a gray background (which clears any targets from previous frames) and then draws a target at the mouse's position.
 
 ![target following mouse](/tutorials/processing/creating-functions-6.gif)
 
