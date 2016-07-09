@@ -4,7 +4,7 @@ title: "Creating Functions"
 slug: creating-functions
 ---
 
-We now know how to call funcations, use variables, and create our own variables. We've also seen that functions can give us a value instead of doing something.
+We now know how to call functions, use variables, and create our own variables. We've also seen that functions can give us a value instead of doing something.
 
 This tutorial combines all of that to allow us to create our own functions.
 
@@ -81,7 +81,7 @@ void draw() {
 
 Both of these functions have a `void` return type, which just means that they **do something** instead of giving you a value. The `setup()` function handles telling Processing how big the window should be, and the `draw()` function draws the background and the circle.
 
-## The draw() Loop
+## The `draw()` Loop
 
 This might not seem like a big improvement, but there's something very powerful going on behind the scenes: Processing calls the `setup()` function **once** at the beginning of the program, and then calls the `draw()` function **60 times per second**.
 
@@ -102,16 +102,15 @@ void draw() {
 }
 ```
 
-60 times per second, this function draws a black background and then draws an ellipse wherever the mouse is.
+60 times per second, this function draws a gray background and then draws an ellipse wherever the mouse is.
 
 ![mouse circle](/tutorials/processing/creating-functions-2.gif)
 
-We call each call to the `draw()` function a **frame**. To better see what's happening each frame, we can move the call to the `background()` function to be inside the `setup()` function instead:
+We call each call to the `draw()` function a **frame**. To better see what's happening each frame, we can get rid of the call to the `background()` function:
 
 ```java
 void setup() {
   size(200, 200);
-  background(200);
 }
 
 void draw() {
@@ -119,7 +118,7 @@ void draw() {
 }
 ```
 
-Now the `background()` color is only drawn **once**, at the very beginning of the program. We're no longer clearing out old frames, so we can see previous circles we've drawn.
+Now the `background()` color is not drawn. This means we're no longer clearing out old frames, so we can see previous circles we've drawn.
 
 ![mouse circle without clearing old frames](/tutorials/processing/creating-functions-3.gif)
 
@@ -195,6 +194,8 @@ void draw() {
 
 The `drawTarget()` function doesn't have to change at all. Each time we call it, the `drawTarget()` function takes the parameters and follows the steps in its **body**, which in this case allows us to draw a target at different locations and sizes.
 
+![4 targets](/tutorials/processing/creating-functions-4.png)
+
 We could also draw a target that follows the mouse:
 
 ```java
@@ -206,7 +207,7 @@ void draw() {
 
 Every frame, this program draws a gray background (which clears any targets from previous frames) and then draws a target at the mouse's position.
 
-![target following mouse](/tutorials/processing/creating-functions-6.gif)
+![target following mouse](/tutorials/processing/creating-functions-5.gif)
 
 Or we could fill the screen up with random targets:
 
