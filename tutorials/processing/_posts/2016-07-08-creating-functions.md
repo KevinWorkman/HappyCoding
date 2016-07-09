@@ -146,3 +146,80 @@ fill(255, 0, 0);
 ellipse(targetX, targetY, targetSize/2, targetSize/2);
 ```
 
+This program uses variables to draw a target.
+
+![variables target](/tutorials/processing/creating-variables-3.png)
+
+We can convert this code into a function. We'd just use the `targetX`, `targetY`, and `targetSize` variables as parameters instead:
+
+```java
+void drawTarget(float targetX, float targetY, float targetSize) {
+
+  fill(255, 0, 0);
+  ellipse(targetX, targetY, targetSize, targetSize);
+
+  fill(255, 255, 255);
+  ellipse(targetX, targetY, targetSize*.75, targetSize*.75);
+
+  fill(255, 0, 0);
+  ellipse(targetX, targetY, targetSize/2, targetSize/2);
+}
+```
+
+Now that we've written the `drawTarget()` function, we can write a `draw()` function that calls it:
+
+```java
+void setup(){
+  size(150, 15);
+}
+
+void draw() {
+  drawTarget(75, 85, 100);
+}
+```
+
+We're able to treat the `drawTarget()` function as a single step, even though it's really doing a bunch of stuff when we call it. For example, this allows us to draw 4 targets with different locations and sizes:
+
+```java
+void setup() {
+  size(400, 400);
+}
+
+void draw() {
+  drawTarget(100, 100, 200);
+  drawTarget(300, 100, 100);
+  drawTarget(100, 300, 150);
+  drawTarget(300, 300, 175);
+}
+```
+
+The `drawTarget()` function doesn't have to change at all. Each time we call it, the `drawTarget()` function takes the parameters and follows the steps in its **body**, which in this case allows us to draw a target at different locations and sizes.
+
+We could also draw a target that follows the mouse:
+
+```java
+void draw() {
+  background(200, 200, 200);
+  drawTarget(mouseX, mouseY, 100);
+}
+```
+
+Every frame, this program clears the background and then draws a target at the mouse's position.
+
+![target following mouse](/tutorials/processing/creating-functions-6.gif)
+
+Or we could fill the screen up with random targets:
+
+```java
+void draw() {
+  drawTarget(random(0, width), random(0, height), random(25, 100));
+}
+```
+
+Every frame, this program draws a target with a random `targetX` between `0` and `width`, a random `targetY` between `0` and `height`, and a random `targetSize` between `25` and `100`. And since we aren't calling the `background()` function every frame, our old frames are not cleared out.
+
+![random targets](/tutorials/processing/creating-functions-6.gif)
+
+## Summary
+
+
