@@ -88,6 +88,8 @@ It's very common to combine these operators to form more complicated logic. Just
 boolean isMammal = !canSwim && !canFly;
 ```
 
+(If this bothers you because it doesn't account for animals like bats, beavers, and dolphins... check out the homework!)
+
 There is a [whole field of study](https://en.wikipedia.org/wiki/Boolean_algebra) devoted to `boolean` logic, so check that out if it sounds interesting. But for now, just know that `boolean` values contain `true` or `false`, and you can use operators like `&&`, `||`, and `!` on them.
 
 ## If Statements
@@ -139,4 +141,6 @@ This does the exact same thing as our old code, except now we do the inequality 
 
 ## Else-If Statements
 
-An `if` statement executes some code if its `boolean` value is `true`, and it 
+An `if` statement executes some code if its `boolean` value is `true`, and it simply skips that code if it's `false`. But what if we want to take different actions depending on multiple cases?
+
+Let's say we want to add logic that also shows a message when the grade is a B. We could split it up into multiple `if` statements:
