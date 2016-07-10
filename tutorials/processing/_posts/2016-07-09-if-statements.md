@@ -46,5 +46,45 @@ An `if` statement takes a `boolean` value and only executes its body if that val
 
 To write an `if` statement, write the keyword `if`, then inside parentheses `()` insert a `boolean` value, and then in curly brackets `{}` write the code that should only execute when that value is true. We call that last part the **body** of the `if` statement.
 
-Here's an example that draws a 
+Here's an example that draws a congratulations message, but only if your grade is an A:
 
+```java
+float score = 95;
+boolean isGradeA = score >= 90;
+if(isGradeA){
+   background(0, 255, 0);
+   fill(0);
+   text("Congratulations!", 7, 50);
+}
+```
+
+This code uses an `if` statement to check whether `isGradeA` is `true`, and if it is, it draws a green background, changes the fill color to black, and then writes `"Congratulations!"` to the screen.
+
+Since `score` is `95` (and `95` is greater than `90`), then we get the congratulations message:
+
+![congratulations message](/tutorials/processing/if-statements-1.png)
+
+If `isGradeA` is **not** true (in other words, if it's `false` (in other other words, if `score` is less than `90`)), then the program doesn't do anything. Try changing `score` to `85`, and you'll see a blank window:
+
+![boring gray nothing](/tutorials/processing/if-statements-2.png)
+
+Since `isGradeA` is now `false`, the body of the `if` statement is **not** executed, and it skips over all of the code inside the body.
+
+## Boolean Values and Variables
+
+So far we've been splitting up the inequality and the `if` statement into two steps: first we create a `boolean` variable, and then we use that variable in an `if` statement. But we could combine that into a single step:
+
+```java
+float score = 95;
+if(score >= 90){
+   background(0, 255, 0);
+   fill(0);
+   text("Congratulations!", 7, 50);
+}
+```
+
+This does the exact same thing as our old code, except now we do the inequality (which gives us a `boolean` value) inside the `if` statement instead of splitting it into its own step. We aren't storing the `boolean` value inside a variable, we're just using the value directly. This will make our lives easier as we do more complicated things.
+
+## Else-If Statements
+
+An `if` statement executes some code if its `boolean` value is `true`, and it 
