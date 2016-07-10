@@ -40,7 +40,55 @@ This code creates a `float` variable named `score` and sets it equal to `95`. It
 
 ## Boolean Operators
 
-Similar to how you can add two `float` variables using the `+`  You can also operator directly on `boolean` values. 
+Similar to how you can add two `float` values using the `+` operator to get a third `float` value, or subtract them using the `-` operator,  you can also operate on two `boolean` values to get a third `boolean` value.
+
+### And
+
+You can combine two `boolean` values using the **and** operator. The **and** operator evaluates to `true` whenever the two `boolean`  values are also `true`.
+
+For example, if we had these two `boolean` variables:
+
+```java
+boolean canSwim = true;
+boolean canFly = true;
+```
+
+We could then use the **and** operator to make a third value that was only `true` when both of these `boolean` values are also `true`. To use the **and** operator, type two ampersands `&&` between two `boolean` values:
+
+```java
+boolean isDuck = canSwim && canFly;
+```
+
+The `isDuck` variable will only be `true` when **both** `canSwim` **and** `canFly` are also true. If either one of them is false, then `isFlyingBird` will also be false.
+
+### Or
+
+We can also use the **or** operator, which works a lot like the **and** operator. The difference is, the **or** operator evaluates to true if **either** of the two `boolean` values is `true`.
+
+To use the **or** operator, type two pipes `||` (they're above the enter key, or shift+\) between two `boolean` values:
+
+```java
+boolean isFishOrBird = canSwim || canFly;
+```
+
+### Not
+
+In addition to operating on two `boolean` values, we can also switch a single `boolean` value. Values that are `true` evaluate to `false`, and values that are `false` evaluate to `true`. This is called the **not** operator, and you use it by typing an exclamation point `!` before the value you want to switch.
+
+```java
+boolean sinks = !canSwim;
+boolean falls = !canFly;
+```
+
+### Combining Operators
+
+It's very common to combine these operators to form more complicated logic. Just keep in mind that operators give you new values, which you can then use more operators on. So you can do things like this:
+
+```java
+boolean isMammal = !canSwim && !canFly;
+```
+
+There is a [whole field of study](https://en.wikipedia.org/wiki/Boolean_algebra) devoted to `boolean` logic, so check that out if it sounds interesting. But for now, just know that `boolean` values contain `true` or `false`, and you can use operators like `&&`, `||`, and `!` on them.
 
 ## If Statements
 
