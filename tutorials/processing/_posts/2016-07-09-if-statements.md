@@ -38,6 +38,10 @@ boolean isGradeA = score >= 90;
 
 This code creates a `float` variable named `score` and sets it equal to `95`. It then creates a `boolean` variable named `isGradeA` and sets it equal to the result of the inequality. In this case, the inequality is `true` because `95` is greater than `90`. So at the end of this code, `isGradeA` is holding the `boolean` value of `true`.
 
+## Boolean Operators
+
+Similar to how you can add two `float` variables using the `+`  You can also operator directly on `boolean` values. 
+
 ## If Statements
 
 Now that we know what `boolean` values are, we're ready to talk about `if` statements.
