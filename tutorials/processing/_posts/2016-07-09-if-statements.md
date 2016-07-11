@@ -164,8 +164,95 @@ This code uses an `if` statement to check whether `score` is greater than or equ
 
 ![study more](/tutorials/processing/if-statements-3.png)
 
+You can think about the code like this: "If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise, display the `Study more!' message instead."
+
 ## Else-If Statements
 
-An `if` statement executes some code if its `boolean` value is `true`, and it simply skips that code if it's `false`. But what if we want to take different actions depending on multiple cases?
+An `if` statement executes some code if its `boolean` value is `true`, and an `else` statement executs code if the value is `false`. But what if we want to take different actions depending on multiple cases? This is where `else-if` statements come in handy.
 
-Let's say we want to add logic that also shows a message when the grade is a B. We could split it up into multiple `if` statements:
+An `else-if` statement is like a mix between an `else` statement and an `if` statement. You put an `else-if` statement after an `if` statement, and if the `if` statement's value is `false`, then the `else-if` statement's value is checked, exactly like an `if` statement. It's probably easier just to show you:
+
+```java
+float score = 85;
+
+if(score >= 90){
+   background(0, 255, 0);
+   fill(0);
+   text("Congratulations!", 7, 50);
+}
+else if(score >= 80){
+  background(0, 0, 255);
+  fill(255);
+  text("Good job!", 18, 50);
+}
+```
+
+This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. The program jumps down to the `else-if` statement and checks the `boolean` value inside the `else-if` statement. Since `85` is greater than `80`, the inequality is `true`, and the code inside the body of the `else-if` is executed. The code then draws a blue background, changes the fill color to white, and displays the "Good job!" message.
+
+![good job message](/tutorials/processing/if-statements-4.png)
+
+You can think about the code like this: "If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise check whether the score is greater than or equal to 80. If it is, then display the `Good job!' message instead."
+
+Note that if `score` was `75`, then the `boolean` values of both the `if` statement and the `else-if` statement would evaluate to `false`, so neither one of them would be executed.
+
+## If Else-If Else Combinations
+
+You can follow an `if` statement with multiple `else-if` statements, and you can follow an `else-if` statement with an `else` statement. So we could expand our program to detect every grade:
+
+```java
+float score = 75;
+
+if(score >= 90){
+   background(0, 255, 0);
+   fill(0);
+   text("Congratulations!", 7, 50);
+}
+else if(score >= 80){
+  background(0, 0, 255);
+  fill(255);
+  text("Good job!", 18, 50);
+}
+else if(score >= 70){
+  background(255, 255, 0);
+  fill(0);
+  text("Just okay.", 16, 50);
+}
+else if(score >= 60){
+  background(255, 128, 0);
+  fill(0);
+  text("Not good!", 18, 50);
+}
+else{
+  background(255, 0, 0);
+  fill(0);
+  text("Study more!", 15, 50);
+}
+```
+
+This code uses an `if` statement to detect whether `score >= 90`. If it is, then it draws a "Congratulations!" message. If not, it goes to the first `else-if` statement and checks whether `score >= 80`. If it is, then it draws a "Good job!" message. If not, then it goes to the next `else-if` statement and checks whether `score >= 70`. If it is, then it draws a "Just okay." message. If not, then it goes to the next `else-if` statement and checks whether `score >= 60`. If it is, then it draws a "Not good!" message. If not, then it goes to the `else` statement and draws a "Study more!" message.
+
+Try changing the `score` variable to see the different messages.
+
+## Avoid Unncessary Checks
+
+Only one body of code is entered in a string of `if else-if else` statements. As soon as the code enters one of the `if` or `else-if` statements, it stops checking subsequent `else-if` statements.
+
+Look at this line of code, from our above program:
+
+```java
+else if(score >= 80){
+```
+
+Notice that we're only checking whether `score >= 80`. But for the grade to be a B, it also has to be `< 90`. Why aren't we checking for that?
+
+We aren't checking to make sure that `score < 90`, because **we already know that is `true`**. We know this because if `score` was `>= 90`, then the **first** `if statement` would have been entered, and we wouldn't even be executing this line of code.
+
+Think about it this way: first we check whether the grade is an A. If it is, then we display the "Congratulations!" message **and don't check against any other grades** since we already know the grade is an A. If it's not an A, then we know that `score < 90`, since the grade wasn't an A. We can then check whether the grade is a B by only checking whether `score > 80`. It it is, the nwe display the "Good job!" message **and don't check against any other grades** since we already know the grade is a B. If it's not a B, then we know that `score < 80`, and we continue that logic for the rest of the program.
+
+## Homework
+
+- Expand the `boolean` example to work for more animals. How would you represent a bat (which can fly but isn't a bird) or a penguin (which can't fly but is a bird)?
+- Create a program that uses `boolean` logic to identify a type of animal. Do a Google search for "animal identification key" for some handy guies. 
+- Create a program that displays black if the mouse is on the left half of the screen, and white if the moust is on the right half of the screen.
+- Expand that program to show 4 different colors: red when the mouse is in the upper-left corner, green when the mouse is in the upper-right corner, blue when the mouse is in the lower-left corner, and yellow when the mouse is in the lower-right corner.
+- Create a greeting program that shows a different message depending on what time of day it is. At least include morning, afternoon, evening, and night.
