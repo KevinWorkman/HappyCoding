@@ -6,9 +6,10 @@ slug: if-statements
 
 We now know how to call functions, use variables, and create our own variables and functions.
 
-We've seen that values have different types, which tells the computer what kind of data a value is, or what type of value a variable holds.
+We've seen that values have different types. A type tells the computer what kind of data a value is, or what type of value a variable holds.
 
-This tutorial introduces the idea of **if statements**, which allow us to do different actions depending on the value a variable holds.
+This tutorial introduces **if statements**, which allow us to perform different actions depending on what value a variable holds.
+
 ## Boolean Values
 
 Before we get into `if` statements, let's talk about a new type of value: the `boolean` type.
@@ -21,7 +22,7 @@ float accountBalance = -123.45;
 String message = "Happy Coding!";
 ```
 
-The new `boolean` type can only holds two values: `true` or `false`.
+The new `boolean` type can only hold two values: `true` or `false`.
 
 ```java
 boolean isCodingFun = true;
@@ -36,7 +37,9 @@ float score = 95;
 boolean isGradeA = score >= 90;
 ```
 
-This code creates a `float` variable named `score` and sets it equal to `95`. It then creates a `boolean` variable named `isGradeA` and sets it equal to the result of the inequality. In this case, the inequality is `true` because `95` is greater than `90`. So at the end of this code, `isGradeA` is holding the `boolean` value of `true`.
+This code creates a `float` variable named `score` and sets it equal to `95`. It then creates a `boolean` variable named `isGradeA` and sets it equal to the result of the inequality `score >= 90`. In this case, the inequality is `true` because `95` is greater than `90`. So at the end of this code, `isGradeA` is holding the `boolean` value of `true`.
+
+It might make more sense to read the **right** side first. First we take the inequality `score >= 90` and get a `boolean` value from it (in this case, `true`), and then point the `isGradeA` variable to that value.
 
 ## Boolean Operators
 
@@ -61,6 +64,8 @@ boolean isDuck = canSwim && canFly;
 
 The `isDuck` variable will only be `true` when **both** `canSwim` **and** `canFly` are also true. If either one of them is false, then `isFlyingBird` will also be false.
 
+Again, it might make more sense to read the **right** side first. First we evaluate the `&&` operator, which gives us a `boolean` value of `true`. Then we point the `isFlyingBird` variable to that value.
+
 ### Or
 
 We can also use the **or** operator, which works a lot like the **and** operator. The difference is, the **or** operator evaluates to true if **either** of the two `boolean` values is `true`.
@@ -71,6 +76,8 @@ To use the **or** operator, type two pipes `||` (they're above the enter key, or
 boolean isFishOrBird = canSwim || canFly;
 ```
 
+First we evaluate the `||` operator which gives us a `boolean` value, and then we point the `isFishOrBird` variable to that value.
+
 ### Not
 
 In addition to operating on two `boolean` values, we can also switch a single `boolean` value. Values that are `true` evaluate to `false`, and values that are `false` evaluate to `true`. This is called the **not** operator, and you use it by typing an exclamation point `!` before the value you want to switch.
@@ -80,6 +87,8 @@ boolean sinks = !canSwim;
 boolean falls = !canFly;
 ```
 
+First we evaluate the `!` operator which gives us a `boolean` value, and then we point the `sinks` variable to that value.
+
 ### Combining Operators
 
 It's very common to combine these operators to form more complicated logic. Just keep in mind that operators give you new values, which you can then use more operators on. So you can do things like this:
@@ -87,6 +96,8 @@ It's very common to combine these operators to form more complicated logic. Just
 ```java
 boolean isMammal = !canSwim && !canFly;
 ```
+
+First this code toggles (or **negates**) the `canSwim` and `canFly` variables to create two new `boolean` values. It then takes those values and feeds them into the `&&` operator, which gives us yet another `boolean` value. Then we point the `isMammal` variable to that value.
 
 (If this bothers you because it doesn't account for animals like bats, beavers, and dolphins... check out the homework!)
 
@@ -141,7 +152,7 @@ This does the exact same thing as our old code, except now we do the inequality 
 
 ## Else Statements
 
-An `if` statement executes some code if its `boolean` value is `true`, and it simply skips that code if it's `false`. But what if we want to do one thing if the value is `true` and a different thing if it's `false`? For this, we can use an `else` statement.
+An `if` statement executes some code if its `boolean` value is `true`, and it skips that code if the `boolean` value is `false`. But what if we want to do one thing if the value is `true` and a different thing if it's `false`? For this, we can use an `else` statement.
 
 To use an `else` statement, just type the word `else` after an `if` statement, and then inside curly brackets `{}` put the code you want to execute when the `boolean` value is `false`:
 
@@ -247,12 +258,12 @@ Notice that we're only checking whether `score >= 80`. But for the grade to be a
 
 We aren't checking to make sure that `score < 90`, because **we already know that is `true`**. We know this because if `score` was `>= 90`, then the **first** `if statement` would have been entered, and we wouldn't even be executing this line of code.
 
-Think about it this way: first we check whether the grade is an A. If it is, then we display the "Congratulations!" message **and don't check against any other grades** since we already know the grade is an A. If it's not an A, then we know that `score < 90`, since the grade wasn't an A. We can then check whether the grade is a B by only checking whether `score > 80`. It it is, the nwe display the "Good job!" message **and don't check against any other grades** since we already know the grade is a B. If it's not a B, then we know that `score < 80`, and we continue that logic for the rest of the program.
+Think about it this way: first we check whether the grade is an A. If it is, then we display the "Congratulations!" message **and don't check against any other grades** since we already know the grade is an A. If it's not an A, then we know that `score < 90`. We can then check whether the grade is a B by only checking whether `score > 80`. It it is, then we display the "Good job!" message **and don't check against any other grades** since we already know the grade is a B. If it's not a B, then we know that `score < 80`, and we continue that logic for the rest of the program.
 
 ## Homework
 
 - Expand the `boolean` example to work for more animals. How would you represent a bat (which can fly but isn't a bird) or a penguin (which can't fly but is a bird)?
-- Create a program that uses `boolean` logic to identify a type of animal. Do a Google search for "animal identification key" for some handy guies. 
-- Create a program that displays black if the mouse is on the left half of the screen, and white if the moust is on the right half of the screen.
+- Create a program that uses `boolean` logic to identify a type of animal. Do a Google search for "animal identification key" for some handy guides. 
+- Create a program that displays black if the mouse is on the left half of the screen, and white if the mouse is on the right half of the screen.
 - Expand that program to show 4 different colors: red when the mouse is in the upper-left corner, green when the mouse is in the upper-right corner, blue when the mouse is in the lower-left corner, and yellow when the mouse is in the lower-right corner.
 - Create a greeting program that shows a different message depending on what time of day it is. At least include morning, afternoon, evening, and night.
