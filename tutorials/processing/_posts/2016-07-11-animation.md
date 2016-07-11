@@ -74,6 +74,65 @@ First, this code declares a variable named `circleY` and initializes it to point
 
 ![falling circle](/tutorials/processing/animation-1.gif)
 
+## Scope
+
+Notice that we're declaring the `circleY` variable at the top of the sketch, outside the `draw()` function. That line of code is run once at the very beginning of the program.
+
+What if we declared the `circleY` variable inside the `draw()` function?
+
+```java
+void draw(){
+  float circleY = 25;
+
+  background(200);
+  ellipse(50, circleY, 10, 10);
+  
+  circleY = circleY + 1;
+}
+```
+
+Every frame, this program declares a variable named `circleY` and initializes it to point to `25`. It then draws a circle and reassigns the value. But then during the next time, we declare a new variable named `circleY` and initialize it to `25`. In other words, the variable "forgets" its old value, since we're recreating it every frame. If you want a variable to remember its value between frames, then you have to declare it at the top of your sketch!
+
+Similarly, what if we declare the `circleY` variable inside the `setup()` function?
+
+```java
+void setup(){
+   size(200, 200);
+   float circleY = 25;
+}
+
+void draw(){
+  background(200);
+  ellipse(50, circleY, 10, 10);
+  
+  circleY = circleY + 1;
+}
+```
+
+You might think this makes sense because the `setup()` function is only called once at the beginning of the program, but this code has a big problem: if you declare a variable inside a function, you can only access it inside that function! Since we declare the `circleY` variable inside the `setup()` function, we can only access it inside the `setup()` function. So when we try to use it in the `draw()` function, we'll get an error.
+
+Where you can access a variable is called its **scope**. So to make sure the variable is in-scope between multiple calls to the `draw()` function, we have to declare it at the top of the sketch. I call this a **sketch-level variable**.
+
+A common thing to do is **declare** a variable at the top of the sketch, then **assign** it in the `setup()` function, and then **reassign** it in the `draw()` function:
+
+```java
+float circleY;
+
+void setup(){
+  size(200, 200);
+  circleY = height/2;
+}
+
+void draw(){
+  background(200);
+  ellipse(100, circleY, 20, 20);
+  
+  circleY = circleY + 1;
+}
+```
+
+This program declares the `circleY` variable at the sketch level. Then in the `setup()` function, it sets the size and initializes the `circleY` variable to point to `height/2`. Note that if we tried this assignment at the top of the sketch, it wouldn't work because the size hadn't been set yet! Finally, the `draw()` funtion uses the `circleY` variable and then reassigns it to create an animation.
+
 ## Resetting
 
 Now we have an animation, but our circle falls off the window and never comes back. That's not very interesting.
@@ -100,3 +159,5 @@ This code is mostly the same: we declare a variable named `circleY`, initialize 
 The new part is the `if` statement. After we reassign the `circleY` variable, we check whether its new value is greater than `height`. If it is, then we reassign it to point to the value `0`. The next time the `draw()` function is called, `circleY` will be `0`, the circle will be drawn at the top of the window, and we start the animation over again.
 
 ![resetting circle](/tutorials/processing/animation-2.gif)
+
+
