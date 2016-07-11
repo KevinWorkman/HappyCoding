@@ -139,6 +139,31 @@ if(score >= 90){
 
 This does the exact same thing as our old code, except now we do the inequality (which gives us a `boolean` value) inside the `if` statement instead of splitting it into its own step. We aren't storing the `boolean` value inside a variable, we're just using the value directly. This will make our lives easier as we do more complicated things.
 
+## Else Statements
+
+An `if` statement executes some code if its `boolean` value is `true`, and it simply skips that code if it's `false`. But what if we want to do one thing if the value is `true` and a different thing if it's `false`? For this, we can use an `else` statement.
+
+To use an `else` statement, just type the word `else` after an `if` statement, and then inside curly brackets `{}` put the code you want to execute when the `boolean` value is `false`:
+
+```java
+float score = 85;
+
+if(score >= 90){
+   background(0, 255, 0);
+   fill(0);
+   text("Congratulations!", 7, 50);
+}
+else{
+  background(255, 0, 0);
+  fill(0);
+  text("Study more!", 15, 50);
+}
+```
+
+This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. Instead, the program jumps to the code inside the body of the `else` statement, which draws a red background, changes the fill color to black, and displays the "Study more!" message.
+
+![study more](/tutorials/processing/if-statements-3.png)
+
 ## Else-If Statements
 
 An `if` statement executes some code if its `boolean` value is `true`, and it simply skips that code if it's `false`. But what if we want to take different actions depending on multiple cases?
