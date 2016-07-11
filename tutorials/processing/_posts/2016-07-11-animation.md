@@ -74,3 +74,29 @@ First, this code declares a variable named `circleY` and initializes it to point
 
 ![falling circle](/tutorials/processing/animation-1.gif)
 
+## Resetting
+
+Now we have an animation, but our circle falls off the window and never comes back. That's not very interesting.
+
+To fix this, we can use an `if` statement to check whether the circle has fallen off the bottom of the window. We know the circle is below the bottom of the window when `circleY` is greater than `height`. When this happens, we can reassign `circleY` to move it back to the top of the window. 
+
+```java
+float circleY = 25;
+
+void draw(){
+  background(200);
+  ellipse(50, circleY, 20, 20);
+  
+  circleY = circleY + 1;
+  
+  if(circleY > height){
+    circleY = 0; 
+  }
+}
+```
+
+This code is mostly the same: we declare a variable named `circleY`, initialize it to `25`, and use that variable to draw a circle. We then reassign `circleY` every frame, which creates our animation.
+
+The new part is the `if` statement. After we reassign the `circleY` variable, we check whether its new value is greater than `height`. If it is, then we reassign it to point to the value `0`. The next time the `draw()` function is called, `circleY` will be `0`, the circle will be drawn at the top of the window, and we start the animation over again.
+
+![resetting circle](/tutorials/processing/animation-2.gif)
