@@ -235,6 +235,32 @@ This program creates variables to hold the position of the ball (`circleX` and `
 
 This is where things get really interesting. Try playing around with the variables in this program to see what happens. What happens if you randomize the position or speed, either at the beginning or when you go off the edge of the window? What happens if you use `mouseX` and `mouseY` to set the speed or position?
 
+## Shortcuts
+
+When reassigning a variable to another value that's based on its old value, we can use shortcuts in our code. For example, look at this line of code:
+
+```java
+circleY = circleY + 10;
+```
+
+This line of code can be shortened to use the **add assign** operator `+=`instead:
+
+```java
+circleY += 10;
+```
+
+This code does the exact same thing, except it's less typing for us. It adds `10` to `circleY` and then reassigns `circleY` to that new value, all in one step.
+
+Similarly, if we're adding `1` to a variable, we can use the **increment** `++` operator:
+
+```java
+circleY++;
+```
+
+This code adds `1` to `circleY` and then reassigns `circleY` to that value, all in one step.
+
+There are similar shortcuts for subtraction, multiplication, and division. You don't **have** to use the shortcuts, but you'll probably see them in other people's code, so it's good to be familiar with them.
+
 ## Homework
 
 - Add gravity to the bouncing ball program. Hint: `ySpeed` changes `circleY` every frame. Gravity changes `ySpeed` every frame!
@@ -242,3 +268,5 @@ This is where things get really interesting. Try playing around with the variabl
 - Create an animation that shows a full day- start out with a sunrise, show the sun moving across the sky, then sunset, and finally the moon and stars. The prettier the better!
 - Remember your drawing program from previous homeworks? Animate it by either bouncing it around the screen or by changing it over time.
 - Create a [random walk](https://en.wikipedia.org/wiki/Random_walk) animation.
+
+# Next: User Input
