@@ -160,4 +160,85 @@ The new part is the `if` statement. After we reassign the `circleY` variable, we
 
 ![resetting circle](/tutorials/processing/animation-2.gif)
 
+## Bouncing
 
+When the circle reaches the bottom of the window, we could make the it bounce instead of teleporting it back to the top of the window.
+
+One way to do this is to use another variable to hold the direction the circle should travel.
+
+```java
+float circleY = 25;
+float ySpeed = 1;
+
+void draw(){
+  background(200);
+  ellipse(50, circleY, 20, 20);
+  
+  circleY = circleY + ySpeed;
+}
+```
+
+This program does the exact same thing as our previous program, except it's using a `ySpeed` variable to hold the value we add to `circleY` during the reassignment.
+
+Now when we detect the circle has fallen off the bottom of the window (when `circleY > height`), we can reassign the `ySpeed` variable:
+
+```java
+float circleY = 25;
+float ySpeed = 1;
+
+void draw(){
+  background(200);
+  ellipse(50, circleY, 20, 20);
+  
+  circleY = circleY + ySpeed;
+  
+  if(circleY > height){
+   ySpeed = ySpeed * -1; 
+  }
+}
+```
+
+Everything about this code is the same, except now when `circleY > 25`, we multiply the `ySpeed` variable by `-1`, which makes it negative. The next time the `draw()` function is called, `ySpeed` will now be `-1`. Adding that to `circleY` causes `circleY` to decrease, which moves the circle up.
+
+![bouncing circle](/tutorials/processing/animation-3.gif)
+
+We can expand that to make the ball bounce off all of the sides of the screen:
+
+```java
+float circleX = 50;
+float circleY = 0;
+
+float xSpeed = 1;
+float ySpeed = 1;
+
+void draw() {
+  background(200);
+
+  ellipse(circleX, circleY, 20, 20);
+
+  circleX = circleX + xSpeed;
+  circleY = circleY + ySpeed;
+
+  if (circleX < 0 || circleX > width) {
+    xSpeed = xSpeed * -1;
+  }
+
+  if (circleY < 0 || circleY > height) {
+    ySpeed = ySpeed * -1;
+  }
+}
+```
+
+This program creates variables to hold the position of the ball (`circleX` and `circleY`), and two variables to hold the speed of the ball (`xSpeed` and `ySpeed`). Every frame, the code draws a ball at that position, and then moves the position by that speed. It then uses an `if` statement to check whether the ball has gone off the left or right side of the window, and reverses the `xSpeed` variable if it has. Similarly, it uses another `if` statement to check whether the ball has gone of the top or bottom of the window, and reverses the `ySpeed` variable if it has. This causes the ball to bounce off every side of the window.
+
+![bouncing ball](/tutorials/processing/animation-4.png)
+
+This is where things get really interesting. Try playing around with the variables in this program to see what happens. What happens if you randomize the position or speed, either at the beginning or when you go off the edge of the window? What happens if you use `mouseX` and `mouseY` to set the speed or position?
+
+## Homework
+
+- Add gravity to the bouncing ball program. Hint: `ySpeed` changes `circleY` every frame. Gravity changes `ySpeed` every frame!
+- Add a rectangle to the bouncing ball program. The ball should bounce off the rectangle as well as the edges of the window.
+- Create an animation that shows a full day- start out with a sunrise, show the sun moving across the sky, then sunset, and finally the moon and stars. The prettier the better!
+- Remember your drawing program from previous homeworks? Animate it by either bouncing it around the screen or by changing it over time.
+- Create a [random walk](https://en.wikipedia.org/wiki/Random_walk) animation.
