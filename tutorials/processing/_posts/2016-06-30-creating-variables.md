@@ -197,5 +197,6 @@ Down the road we'll use variable to do cooler things like animation and user inp
 - Remember your drawing from the previous homework? Instead of basing it off the `width` and `height`, change it to draw at a location and size that you store in variables. Test that your code works with different values for each variable.
 - Make a program that randomizes your drawing. Draw it at a random location, with random sizes and random colors. This is called [procedural generation](https://en.wikipedia.org/wiki/Procedural_generation)!
 - Make a program that shows the current time. Hint: check the reference for useful functions! Get creative: make the clock change color throughout the day, or show the time in dog years.
+- Make a program that uses variables to calculate something useful for you: how long will you be paying student loans? What percentage of your income goes to rent? What grade do you need to get on your final to get an A in the class?
 
 # Next: Creating Functions
