@@ -1,0 +1,171 @@
+---
+layout: tutorial
+title: "Creating Classes"
+slug: creating-classes
+---
+
+We've now learned how to use classes like the predefined `PVector` class. We know that classes describe a state by defining variables, and we know that instances of a class give values to those variables to describe the state of particular object.
+
+This tutorial teaches you how to define your own classes, which allows you to describe any state you can think of.
+
+## State
+
+The first step in creating your own class is identifying what **state** you want to capture to describe objects. Let's start with an example that doesn't use any classes or objects:
+
+```java
+float circleX = 50;
+float circleY = 50;
+
+float xSpeed = 1;
+float ySpeed = 2;
+
+void draw() {
+  background(200);
+
+    circleX += xSpeed;
+    if (circleX < 0 || circleX > width) {
+      xSpeed *= -1;
+    }
+
+    circleY += ySpeed;
+    if (circleY < 0 || circleY > height) {
+      ySpeed *= -1;
+    }
+
+    ellipse(circleX, circleY, 20, 20);
+}
+```
+
+This program uses four variables to store the state of a circle that bounces around the window.
+
+![bouncing ball](/tutorials/processing/creating-classes-1.gif)
+
+So we know that our state consists of four variables: `circleX`, `circleY`, `xSpeed`, and `ySpeed`.
+
+## Writing a Class
+
+Now that we know the state, we can **encapsulate** those variables inside a class.
+
+To write a class, you use the `class` keyword, then give your class a name. Then inside curly brackets `{}`, you write the **body** of the class. The body consists of the variables, constructors, and functions you want inside the class.
+
+A constructor looks a lot like a method, except it doesn't have a return type and it's always the same name as the class. Most constructors take values as parameters and use those to set class-level variables to store the state of the object.
+
+```java
+class Circle{
+ float x;
+ float y;
+ float xSpeed;
+ float ySpeed;
+ 
+ Circle(float x, float y, float xSpeed, float ySpeed){
+   this.x = x;
+   this.y = y;
+   this.xSpeed = xSpeed;
+   this.ySpeed = ySpeed;
+ }
+  
+}
+```
+
+This section of code creates a class that contains four variables, as well as a constructor that takes parameters for setting those variables.
+
+## The `this` Keyword
+
+You might be wondering what's going on with the code inside the `Circle` constructor. Remember that a constructor usually takes parameters for setting class-level variables, so often you'll have parameters with the same name as class-level variables. When this happens, you can use the `this` keyword to specifically refer to class-level variables. So take this line of code:
+
+```java
+this.x = x;
+```
+
+This line of code is really saying "set the class-level variable `x` to the value of the parameter variable `x`."
+
+You could also just give your parameters different names.
+
+## Using Your Classes
+
+Now that we have a `Circle` class, we can get rid of all of our sketch-level variables and use an instance of our class instead.
+
+We create the instance by using the `new` keyword to call the `Circle` constructor, which we pass our parameters into. We store that in a variable named `circle`, and we can use the **dot operator** on that variable to access the variables in that instance.
+
+```java
+Circle circle = new Circle(50, 50, 1, 2);
+
+void draw() {
+  background(200);
+
+    circle.x += circle.xSpeed;
+    if (circle.x < 0 || circle.x > width) {
+      circle.xSpeed *= -1;
+    }
+
+    circle.y += circle.ySpeed;
+    if (circle.y < 0 || circle.y > height) {
+      circle.ySpeed *= -1;
+    }
+
+    ellipse(circle.x, circle.y, 20, 20);
+}
+
+class Circle{
+ float x;
+ float y;
+ float xSpeed;
+ float ySpeed;
+ 
+ Circle(float x, float y, float xSpeed, float ySpeed){
+   this.x = x;
+   this.y = y;
+   this.xSpeed = xSpeed;
+   this.ySpeed = ySpeed;
+ }
+  
+}
+```
+
+## Let Objects Handle Themselves
+
+When writing a class, you should try to **encapsulate** everything about the object inside that class. So far we've moved the variables inside the class, but we still do the movement, bouncing, and drawing outside the class.
+
+To fix this, we can create functions for handling the movement and drawing inside the `Circle` class. We do that exactly like we'd create sketch-level functions. The only thing we have to make sure of is that we use the sketch-level variables inside our sketch-level functions:
+
+```java
+class Circle {
+  float x;
+  float y;
+  float xSpeed;
+  float ySpeed;
+
+  Circle(float x, float y, float xSpeed, float ySpeed) {
+    this.x = x;
+    this.y = y;
+    this.xSpeed = xSpeed;
+    this.ySpeed = ySpeed;
+  }
+
+  void move() {
+    x += xSpeed;
+    if (x < 0 || x > width) {
+      xSpeed *= -1;
+    }
+
+    y += ySpeed;
+    if (y < 0 || y > height) {
+      ySpeed *= -1;
+    }
+  }
+  
+  void display(){
+   ellipse(circle.x, circle.y, 20, 20); 
+  }
+}
+```
+
+And now that we have these functions, our `draw()` function becomes much simpler:
+
+```java
+void draw() {
+  background(200);
+  circle.move();
+  circle.display();
+}
+```
