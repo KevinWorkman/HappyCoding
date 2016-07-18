@@ -340,8 +340,8 @@ class Circle {
 
 ## Homework
 
-- Modify the bouncing circles program to make every cirlce have a random color and size.
-- Make it so all of the bounces move to the position of the cursor when the user clicks the mouse.
+- Modify the bouncing circles program to make every circle have a random color and size.
+- Make it so all of the circles restart at the position of the cursor when the user clicks the mouse.
 - Create a fireworks program. When the user clicks, display an explosion at that position. Hint: your explosion can just be 100 red circles that fly off in random directions.
 - Create a [flocking](https://en.wikipedia.org/wiki/Flocking_(behavior)) simulation. Start with circles that move randomly around the screen. Then add logic that makes every circle follow the circle closest to it, or the average position of the 10 closest circles.
 - Remember the scene you drew in a previous homework? Convert it to use objects, and then animate it by having those objects move over time. For example if I drew a garden scene, maybe I would use `Flower` objects that grow over time.
