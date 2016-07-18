@@ -39,7 +39,6 @@ Let's start with an example program that stores the state of a circle (in this c
 ```java
 float circleX = 50;
 float circleY = 25;
-background(200);
 ellipse(circleX, circleY, 15, 15);
 ```
 
@@ -55,29 +54,66 @@ PVector circlePosition = new PVector(50, 25);
 
 This line of code uses the `new` keyword to call the `PVector` constructor, which takes two parameters: and x and a y. The `circlePosition` variable points to a `PVector` object with an x of `50` and a `y` of `25`.
 
-## The Bad Way: Parallel Arrays
+## Using Instances
 
-Let's look at this example program that uses arrays to store the position of three circles:
+A class tells us what variables a state has, and an instance gives values to those variables to describe a particular object.
+
+Once we have a variable that points to an instance, we can access the variables of that instance using the **dot operator** and then the name of the variable.
 
 ```java
-float[] circleX = {25, 50, 75};
-float[] circleY = {50, 75, 25};
-
-void draw() {
-  background(200);
-
-  for (int i = 0; i < circleX.length; i++) {
-    ellipse(circleX[i], circleY[i], 10, 10);
-  }
-}
+ellipse(circlePosition.x, circlePosition.y, 15, 15);
 ```
 
-This program uses two arrays: one to store the x positions of the circles, and one to store their y positions. This approach of using multiple arrays to store data is called **parallel arrays**. We try to avoid this approach for a few reasons:
+## Different instances can have different values!
 
-- If you want to add or remove a circle, you have to change code in two places.
-- If you want to know where a circle is, you have to look in two places. This would get worse as we add color, speed, size, etc.
-- What happens if your arrays are different lengths? This isn't a big problem if you're coding by yourself, but becomes a problem when you're working with other people.
+Just like different cats can have different colored fur, sizes, weights, and names, different instances of the same class can have different values for the variables in that class. So we could do something like this:
 
-The x and y variables represent the position of a circle: in other words, they represent the **state** of a circle.
+```java
+PVector redCircle = new PVector(25, 25);
+PVector greenCircle = new PVector(75, 25);
+PVector blueCircle = new PVector(25, 75);
+PVector yelllowCircle = new PVector(75, 75);
 
-That state can change if you change your shirt or stand up, at which point one of the primitives inside that state will also change.
+fill(255, 0, 0);
+ellipse(redCircle.x, redCircle.y, 40, 40);
+
+fill(0, 255, 0);
+ellipse(greenCircle.x, greenCircle.y, 40, 40);
+
+fill(0, 0, 255);
+ellipse(blueCircle.x, blueCircle.y, 40, 40);
+
+
+fill(255, 255, 0);
+ellipse(yelllowCircle.x, yelllowCircle.y, 40, 40);
+```
+
+This code creates four instances of `PVector`, each with different `x,y` coordinates.
+
+## Objects have functions
+
+In addition to containing variables, objects can also contain functions. Usually a function inside an object modifies the state of the object by changing the variables, or it does something based on the state.
+
+To call an instances's function, you use the **dot operator**, then the name of the function, then any parameters the function requires in parentheses `()`.
+
+For example, the `PVector` class has an `add()` function that adds values to its `x,y` position:
+
+```java
+PVector circlePosition = new PVector(37, 5);
+circlePosition.add(13, 20);
+ellipse(circlePosition.x, circlePosition.y, 15, 15);
+```
+
+This program creates a `PVector` representing position `37,5`, then adds `13,20` to that position, making it `50,25` when we access the `x` and `y` variables.
+
+## Object Oriented Programming
+
+The examples in this tutorial are purposely oversimplified, since learning about objects can already be very confusing. This isn't just learning a new syntax, it's also learning **a new way of thinking about the world**, or at least thinking about programming.
+
+## Homework
+
+- What is the difference between a class and an instance?
+- Think about some real life objects. What variables would be in their class? What values would instances have?
+- Write a program that shows balls bouncing around the screen. Use an array of `PVector` instances to track them.
+
+## Next: Creating Objects
