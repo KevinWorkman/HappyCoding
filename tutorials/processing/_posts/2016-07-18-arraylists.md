@@ -8,7 +8,9 @@ Now we know how to use objects and create our own classes. We know how to use ar
 
 Arrays are great if you know exactly how many values you're going to need ahead of time. But this often isn't the case: what if we want to add an object whenever the user clicks, or we want to add objects over time?
 
-This tutorial teaches you about the `ArrayList` class, which has the ability to grow over time.
+You can't increase the size of an array, so the only way to do this is to create a new bigger array, copy the values from the old array into the new array, then add the new object to the new array. This is a real pain in the neck.
+
+This tutorial teaches you about the `ArrayList` class, which uses arrays internally and handles all of that stuff for us. In other words, an `ArrayList` has the ability to grow over time.
 
 ## Creating an `ArrayList`
 
@@ -62,3 +64,135 @@ for(int i = circles.size()-1; i >= 0; i--){
    }
 }
 ```
+
+## Example
+
+The `ArrayList` class contains a bunch of other functions, but the `add()`, `get()`, and `remove()` functions will get us pretty far. Let's create a fireworks program that shows an explosion when the user clicks by adding 100 circles that go off in random directions.
+
+First off, let's create a `Circle` class that knows how to move and draw itself:
+
+```java
+class Circle {
+
+  float x;
+  float y;
+  float xSpeed = random(-3, 3);
+  float ySpeed = random(-3, 3);
+  
+  Circle(float x, float y){
+    this.x = x;
+    this.y = y;
+  }
+ 
+  void move() {
+    x += xSpeed;
+    y += ySpeed;
+  }
+
+  void display() {
+    ellipse(x, y, 20, 20);
+  }
+  
+  boolean isOffScreen(){
+    return x < 0 || x > width || y < 0 || y > height;
+  }
+}
+```
+
+You might notice the `isOffScreen()` function. That returns a `boolean` value of `true` if `x<0` (the circle is off the left side) or `x>width` (the circle is off the right side) or `y<0` (the circle is off the top) or `y>height` (the circle is off the bottom side). This will be useful for removing circles we can't see anymore.
+
+Now that we have a `Circle` class, we can create an `ArrayList` that will hold instances of it:
+
+```java
+ArrayList<Circle> circles = new ArrayList<Circle>();
+```
+
+Then in the `mousePressed()` function we can add a bunch of `Circle` instances to our `ArrayList`:
+
+```java
+void mousePressed(){
+  for(int i = 0; i < 100; i++){
+    circles.add(new Circle(mouseX, mouseY));   
+  }
+}
+```
+
+Finally, our `draw()` function loops over the `ArrayList`, tells each `Circle` instance to move and draw itself, and then removes a `Circle` if it's off the screen:
+
+```java
+void draw() {
+  background(200);
+
+  for (int i = circles.size()-1; i >= 0; i--) {
+    circles.get(i).move();
+    circles.get(i).display();
+    
+    if(circles.get(i).isOffScreen()){
+      circles.remove(i);
+    }
+  }
+}
+```
+
+Notice that we're looping backwards through the `ArrayList`, to avoid the problem of skipping indexes when we call the `remove()` function inside a `for` loop.
+
+Putting all of that together, our program looks like this:
+
+```java
+ArrayList<Circle> circles = new ArrayList<Circle>();
+
+void setup() {
+  size(300, 300);
+}
+
+void mousePressed(){
+  for(int i = 0; i < 100; i++){
+    circles.add(new Circle(mouseX, mouseY));   
+  }
+}
+
+void draw() {
+  background(200);
+
+  for (int i = circles.size()-1; i >= 0; i--) {
+    circles.get(i).move();
+    circles.get(i).display();
+    
+    if(circles.get(i).isOffScreen()){
+      circles.remove(i);
+    }
+  }
+}
+
+class Circle {
+
+  float x;
+  float y;
+  float xSpeed = random(-3, 3);
+  float ySpeed = random(-3, 3);
+  
+  Circle(float x, float y){
+    this.x = x;
+    this.y = y;
+  }
+ 
+  void move() {
+    x += xSpeed;
+    y += ySpeed;
+  }
+
+  void display() {
+    ellipse(x, y, 20, 20);
+  }
+  
+  boolean isOffScreen(){
+    return x < 0 || x > width || y < 0 || y > height;
+  }
+}
+```
+
+## Homework
+
+- Modify the fireworks program to use random colors and sizes. Make the circles fade over time.
+- Remember the scene you drew in a previous homework? Use `ArrayLists` to add user interaction. For example if I drew a garden scene, I might use an `ArrayList` of `Flower` instances to add flowers whenever the user clicks.
+- Modify your flocking program (from a previous homework) to use an `ArrayList` instead of arrays. Add objects to your simulation whenever the user clicks.
