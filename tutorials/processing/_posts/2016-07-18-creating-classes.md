@@ -155,7 +155,7 @@ class Circle {
   }
   
   void display(){
-   ellipse(circle.x, circle.y, 20, 20); 
+   ellipse(x, y, 20, 20); 
   }
 }
 ```
@@ -169,3 +169,179 @@ void draw() {
   circle.display();
 }
 ```
+
+Now we just tell the `Circle` to move and display itself, and it knows how to do that.
+
+## Creating Many Instances
+
+Now that we've encapsulated all of the information needed to draw a bouncing circle inside the `Circle` class, it becomes very easy to add more circles: we just create more instances of the `Circle` class.
+
+To do that, we can use an array that holds our `Circle` instances.
+
+```java
+Circle[] circles = new Circle[1000];
+```
+
+Note that this doesn't actually create any `Circle` instances yet! It just creates an array that can hold them. You still have to create the instances and add them to an array:
+
+```java
+for (int i = 0; i < circles.length; i++) {
+    circles[i] = new Circle(random(width), random(height), random(-3, 3), random(-3, 3));
+}
+```
+
+Then you can loop over the array to move and draw all of them:
+
+```java
+for (int i = 0; i < circles.length; i++) {
+    circles[i].move();
+    circles[i].display();
+}
+```
+
+Putting it all together, it looks like this:
+
+```java
+Circle[] circles = new Circle[1000];
+
+void setup() {
+  size(300, 300);
+  for (int i = 0; i < circles.length; i++) {
+    circles[i] = new Circle(random(width), random(height), random(-3, 3), random(-3, 3));
+  }
+}
+
+void draw() {
+  background(200);
+
+  for (int i = 0; i < circles.length; i++) {
+    circles[i].move();
+    circles[i].display();
+  }
+}
+
+class Circle {
+  float x;
+  float y;
+  float xSpeed;
+  float ySpeed;
+
+  Circle(float x, float y, float xSpeed, float ySpeed) {
+      this.x = x;
+      this.y = y;
+      this.xSpeed = xSpeed;
+      this.ySpeed = ySpeed;
+  }
+
+  void move() {
+    x += xSpeed;
+    if (x < 0 || x > width) {
+      xSpeed *= -1;
+    }
+
+    y += ySpeed;
+    if (y < 0 || y > height) {
+      ySpeed *= -1;
+    }
+  }
+
+  void display() {
+    ellipse(x, y, 20, 20);
+  }
+}
+```
+
+Now if we want to add more circles, we only have to make one change. If we want to modify the logic of every circle (to wrap to the left side of the screen when it goes off the right side, or to change color, or to change size), then we only have to change the code in one place: inside the `Circle` class.
+
+## Implied Constructor
+
+We're giving every instance of `Circle` a random position and speed by passing parameters into the constructor. Instead of taking them as parameters, we could just create them in the constructor:
+
+```java
+Circle() {
+    x = random(width);
+    y = random(height);
+    xSpeed = random(-3, 3);
+    ySpeed = random(-3, 3);
+  }
+```
+
+(Notice that we don't need to use the `this` keyword, since we don't have any parameters with the same name, so Processing knows that we're talking about the class-level variables.)
+
+Now the constructor doesn't take any parameters, so we can just call the constructor without passing in any values:
+
+```java
+Circle c = new Circle();
+```
+
+We could further simplify our code by initializing the variables in the same line as when we declare them at top of the `Circle` class. If we do that, then our constructor will be empty, and we can remove it.
+
+```java
+class Circle {
+  float x = random(width);
+  float y = random(height);
+  float xSpeed = random(-3, 3);
+  float ySpeed = random(-3, 3);
+ 
+  void move() {
+    x += xSpeed;
+    if (x < 0 || x > width) {
+      xSpeed *= -1;
+    }
+
+    y += ySpeed;
+    if (y < 0 || y > height) {
+      ySpeed *= -1;
+    }
+  }
+
+  void display() {
+    ellipse(x, y, 20, 20);
+  }
+}
+```
+
+Even though the `Circle` class doesn't have a constructor, you can still create instances of it using the `new` keyword along with the class name.
+
+```java
+Circle c = new Circle();
+```
+
+In other words, if you don't specify a constructor, a class still contains a no-args constructor (a constructor that takes no arguments). This is called an **implied constructor**. 
+
+## Objects can contain other objects!
+
+So far our classes have contained primitive values representing their state. But nothing prevents you from using other objects inside your class!
+
+For example, here is our `Circle` class rewritten to use `PVector` instances:
+
+```java
+class Circle {
+  PVector position = new PVector(random(width), random(height));
+  PVector speed = new PVector(random(-3, 3), random(-3, 3));
+ 
+  void move() {
+    position.add(speed);
+    
+    if (position.x < 0 || position.x > width) {
+      speed.x *= -1;
+    }
+
+    if (position.y < 0 || position.y > height) {
+      speed.y *= -1;
+    }
+  }
+
+  void display() {
+    ellipse(position.x, position.y, 20, 20);
+  }
+}
+```
+
+## Homework
+
+- Modify the bouncing circles program to make every cirlce have a random color and size.
+- Make it so all of the bounces move to the position of the cursor when the user clicks the mouse.
+- Create a fireworks program. When the user clicks, display an explosion at that position. Hint: your explosion can just be 100 red circles that fly off in random directions.
+- Create a [flocking](https://en.wikipedia.org/wiki/Flocking_(behavior)) simulation. Start with circles that move randomly around the screen. Then add logic that makes every circle follow the circle closest to it, or the average position of the 10 closest circles.
+- Remember the scene you drew in a previous homework? Convert it to use objects, and then animate it by having those objects move over time. For example if I drew a garden scene, maybe I would use `Flower` objects that grow over time.
