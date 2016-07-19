@@ -5,6 +5,7 @@ kramdown:
 permalink: /:categories/:slug
 gems:
   - jemoji
+  - jekyll-last-modified-at
   
 defaults:
  -
