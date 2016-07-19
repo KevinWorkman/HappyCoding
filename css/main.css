@@ -6,6 +6,22 @@ p {
 	font-size: 1.1em;
 }
 
+.tutorial-link-box{
+	width:200px;
+	height:300px;
+}
+
+.tutorial-link-box img{
+	width:100%;
+	height:100px;
+}
+
+.tutorial-link-box a{
+}
+
+.tutorial-link-box p{
+}
+
 footer {
 	border-top: 1px solid #d5d5d5;
 	font-size: .8em;
