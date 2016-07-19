@@ -10,6 +10,8 @@ p {
 	width:200px;
 	height:300px;
 	display: inline-block;
+	vertical-align:top;
+	margin:10px;
 }
 
 .tutorial-link-box img{
@@ -17,7 +19,11 @@ p {
 	height:100px;
 }
 
-.tutorial-link-box a{
+.tutorial-link-box a.title{
+	font-size: 1.2em;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .tutorial-link-box p{
