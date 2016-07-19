@@ -2,12 +2,22 @@
 layout: default
 title: Tutorials
 ---
-	<h1>{{ page.title }}</h1>
-	
-	<p>Tutorials are designed to be followed in a particular order, to teach you how to code.</p>
-	
-	<ul class="posts">
-	  {% for post in site.categories.tutorials %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<h1>{{ page.title }}</h1>
+
+<p>Want to learn how to program? Follow these tutorials:</p>
+
+<ul class="posts">
+	<li><a href="/tutorials/processing/what-is-programming">What is programming?</a></li>
+	<li><a href="/tutorials/processing/calling-functions">Calling Functions</a></li>
+	<li><a href="/tutorials/processing/using-variables">Using Variables</a></li>
+	<li><a href="/tutorials/processing/creating-variables">Creating Variables</a></li>
+	<li><a href="/tutorials/processing/creating-functions">Creating Functions</a></li>
+	<li><a href="/tutorials/processing/if-statements">If Statements</a></li>
+	<li><a href="/tutorials/processing/animation">Animation</a></li>
+	<li><a href="/tutorials/processing/for-loops">For Loops</a></li>
+	<li><a href="/tutorials/processing/arrays">Arrays</a></li>
+	<li><a href="/tutorials/processing/input">Input</a></li>
+	<li><a href="/tutorials/processing/using-objects">Using Objects</a></li>
+	<li><a href="/tutorials/processing/creating-classes">Creating Classes</a></li>
+	<li><a href="/tutorials/processing/arraylists">ArrayLists</a></li>
+</ul>
