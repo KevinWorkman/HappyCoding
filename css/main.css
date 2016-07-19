@@ -9,6 +9,7 @@ p {
 .tutorial-link-box{
 	width:200px;
 	height:300px;
+	display: inline-block;
 }
 
 .tutorial-link-box img{
