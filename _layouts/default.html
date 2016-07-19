@@ -74,7 +74,7 @@
 			<footer>
 				<ul>
 					<li><a href="/">Happy Coding!</a></li>
-					<li>This page was last modified on {{ page.last_modified_at }}</li>
+					<li>This page was last modified on {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }}</li>
 					<li>Backgrounds by <a href="http://subtlepatterns.com/">Subtle Patterns</a></li>
 				</ul>
 			</footer>
