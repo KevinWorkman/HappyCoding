@@ -38,7 +38,7 @@ void draw() {
 
 This program uses four variables to store the state of a circle that bounces around the window.
 
-![bouncing ball](/tutorials/processing/creating-classes-1.gif)
+![bouncing ball](/tutorials/processing/images/creating-classes-1.gif)
 
 So we know that our state consists of four variables: `circleX`, `circleY`, `xSpeed`, and `ySpeed`.
 
