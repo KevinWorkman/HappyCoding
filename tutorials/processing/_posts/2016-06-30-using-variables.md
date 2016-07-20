@@ -20,7 +20,7 @@ ellipse(100, 200, 30, 20);
 
 This line of code passes the values `100`, `200`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse, respectively.
 
-![ellipse](/tutorials/processing/using-variables-1.png)
+![ellipse](/tutorials/processing/images/using-variables-1.png)
 
 ## Operators
 
@@ -57,7 +57,7 @@ This program creates a window that's `200x200` pixels. It then changes its fill 
 
 The result is a program that draws three circles that look like a target:
 
-![target](/tutorials/processing/using-variables-2.png)
+![target](/tutorials/processing/images/using-variables-2.png)
 
 This program works because we know that the size of the window is `200x200`, so we can set the center of the circles to `100,100` so they show up in the middle of the window. We can also set the size of the first circle to `200x200` to fill the window, then the second circle to be a little smaller, and the third circle to be even smaller than that.
 
@@ -82,7 +82,7 @@ ellipse(100, 100, 100, 100);
 
 But if we just do that, we end up with the target drawn in the upper-left corner:
 
-![target in upper-left corner](/tutorials/processing/using-variables-3.png)
+![target in upper-left corner](/tutorials/processing/images/using-variables-3.png)
 
 This makes sense: we've changed the size of the window, but we haven't changed the position or size of the circles we're drawing. Since our window is now `400x400` pixels, that means that position `100,100` is in the upper-left corner, and a size of `200,200` only fills up part of the window, not the whole thing.
 
@@ -103,7 +103,7 @@ ellipse(200, 200, 200, 200);
 
 The center of the circles is pretty easy to calculate, since it's just the width and height of the window divided by 2. The size of the first circle is the same as the size of the window, so it fills the whole thing up. Then the size of the second circle is 75% of the size of the window, and the smallest circle is 50% of the size of the window.
 
-![target in upper-left corner](/tutorials/processing/using-variables-4.png)
+![target in upper-left corner](/tutorials/processing/images/using-variables-4.png)
 
 But now what if we want to change the size of the window again? Ugh, we'd have to go through and do all that math again. That might not seem like a big deal, but it becomes more and more annoying as your programs get bigger.
 
@@ -141,7 +141,7 @@ ellipse(150/2, 150/2, 150/2, 150/2);
 
 We only have to change the value we're operating on, not the operators themselves.
 
-![150x150 target](/tutorials/processing/using-variables-5.png)
+![150x150 target](/tutorials/processing/images/using-variables-5.png)
 
 This is **better** since we don't have to do any math, but we still have to change our code in a bunch of different places. Wouldn't it be nice of Processing could keep track of the width and height of the window for us?
 
@@ -164,7 +164,7 @@ ellipse(width/2, height/2, width, height);
 
 The big change here is that we're using the `width` and `height` variables to calculate the position and size of the ellipse. `width/2` gives us the horizontal center of the window, and `height/2` gives us its vertical center. Similarly, `width` gives us the full width of the window, and `height` gives us its height.
 
-![circle using variables](/tutorials/processing/using-variables-6.png)
+![circle using variables](/tutorials/processing/images/using-variables-6.png)
 
 Now if we want to change the size of the window, we only have to change the parameters we pass into the `size` function. We don't have to change anything else, since the `width` and `height` variables will change accordingly.
 
