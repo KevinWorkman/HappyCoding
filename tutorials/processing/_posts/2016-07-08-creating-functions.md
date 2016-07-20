@@ -64,7 +64,7 @@ ellipse(100, 100, 25, 25);
 
 This code creates a `200x200` window, draws a gray background, and then draws a circle in the middle of the window:
 
-![circle](/tutorials/processing/creating-functions-1.png)
+![circle](/tutorials/processing/images/creating-functions-1.png)
 
 We can modify this program to use our own functions instead. For example, we might split up the setup and drawing code into two functions:
 
@@ -104,7 +104,7 @@ void draw() {
 
 60 times per second, this function draws a gray background and then draws an ellipse wherever the mouse is.
 
-![mouse circle](/tutorials/processing/creating-functions-2.gif)
+![mouse circle](/tutorials/processing/images/creating-functions-2.gif)
 
 We call each call to the `draw()` function a **frame**. To better see what's happening each frame, we can get rid of the call to the `background()` function:
 
@@ -120,7 +120,7 @@ void draw() {
 
 Now the `background()` color is not drawn. This means we're no longer clearing out old frames, so we can see previous circles we've drawn.
 
-![mouse circle without clearing old frames](/tutorials/processing/creating-functions-3.gif)
+![mouse circle without clearing old frames](/tutorials/processing/images/creating-functions-3.gif)
 
 ## Writing Functions
 
@@ -147,7 +147,7 @@ ellipse(targetX, targetY, targetSize/2, targetSize/2);
 
 This program uses variables to draw a target.
 
-![variables target](/tutorials/processing/creating-variables-3.png)
+![variables target](/tutorials/processing/images/creating-variables-3.png)
 
 We can convert this code into a function. We'd just use the `targetX`, `targetY`, and `targetSize` variables as parameters instead:
 
@@ -194,7 +194,7 @@ void draw() {
 
 The `drawTarget()` function doesn't have to change at all. Each time we call it, the `drawTarget()` function takes the parameters and follows the steps in its **body**, which in this case allows us to draw a target at different locations and sizes.
 
-![4 targets](/tutorials/processing/creating-functions-4.png)
+![4 targets](/tutorials/processing/images/creating-functions-4.png)
 
 We could also draw a target that follows the mouse:
 
@@ -207,7 +207,7 @@ void draw() {
 
 Every frame, this program draws a gray background (which clears any targets from previous frames) and then draws a target at the mouse's position.
 
-![target following mouse](/tutorials/processing/creating-functions-5.gif)
+![target following mouse](/tutorials/processing/images/creating-functions-5.gif)
 
 Or we could fill the screen up with random targets:
 
@@ -219,7 +219,7 @@ void draw() {
 
 Every frame, this program draws a target with a random `targetX` between `0` and `width`, a random `targetY` between `0` and `height`, and a random `targetSize` between `25` and `100`. And since we aren't calling the `background()` function every frame, our old frames are not cleared out.
 
-![random targets](/tutorials/processing/creating-functions-6.gif)
+![random targets](/tutorials/processing/images/creating-functions-6.gif)
 
 ## Summary
 
