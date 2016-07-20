@@ -14,7 +14,7 @@ ellipse(width/2, height/2, width, height);
 
 This program uses the `width` and `height` variables to draw a circle that fills up the window.
 
-![circle](/tutorials/processing/creating-variables-1.png)
+![circle](/tutorials/processing/images/creating-variables-1.png)
 
 Processing gives us variables like `width` and `height`, but we aren't limited to using only what Processing gives us. We can create our own variables!
 
@@ -55,7 +55,7 @@ text(message, 10, 50);
 
 The `text` function takes 3 parameters: a `String` value (in other words, some text inside quotation marks), and an `x` and `y` position to display it on the screen.
 
-![Happy coding message](/tutorials/processing/creating-variables-2.png)
+![Happy coding message](/tutorials/processing/images/creating-variables-2.png)
 
 If you're not familiar with the `text` function, that's okay. You can read more about the in [the reference](https://processing.org/reference/)!
 
@@ -78,7 +78,7 @@ ellipse(width/2, height/2, width/2, height/2);
 
 This code uses the predefined `width` and `height` variables to draw a target that fills up the window.
 
-![target](/tutorials/processing/using-variables-5.png)
+![target](/tutorials/processing/images/using-variables-5.png)
 
 We can modify this code to use our own variables instead, so the target is no longer dependent on the size of the window, but is still easy to change:
 
@@ -101,7 +101,7 @@ ellipse(targetX, targetY, targetSize/2, targetSize/2);
 
 This code now uses our own variables to draw a target.
 
-![target](/tutorials/processing/creating-variables-3.png)
+![target](/tutorials/processing/images/creating-variables-3.png)
 
 Let's take it one section at a time:
 
@@ -152,7 +152,7 @@ float targetSize = 50;
 
 The rest of the code stays the same, but now our target is smaller and more towards the left of the window:
 
-![smaller target](/tutorials/processing/creating-variables-4.png)
+![smaller target](/tutorials/processing/images/creating-variables-4.png)
 
 Or we could move the target to the center of the window:
 
@@ -162,7 +162,7 @@ float targetY = height/2;
 float targetSize = 125;
 ```
 
-![centered target](/tutorials/processing/creating-variables-5.png)
+![centered target](/tutorials/processing/images/creating-variables-5.png)
 
 We're using the `width` and `height` variables to calculate a value that the `targetX` and `targetY` variables hold, and that's completely fine! Remember: you can use a variable anywhere you can use a value, including when creating another variable!
 
