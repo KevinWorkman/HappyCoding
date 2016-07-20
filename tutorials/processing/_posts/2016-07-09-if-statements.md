@@ -127,11 +127,11 @@ This code uses an `if` statement to check whether `isGradeA` is `true`, and if i
 
 Since `score` is `95` (and `95` is greater than `90`), then we get the congratulations message:
 
-![congratulations message](/tutorials/processing/if-statements-1.png)
+![congratulations message](/tutorials/processing/images/if-statements-1.png)
 
 If `isGradeA` is **not** true (in other words, if it's `false` (in other other words, if `score` is less than `90`)), then the program doesn't do anything. Try changing `score` to `85`, and you'll see a blank window:
 
-![boring gray nothing](/tutorials/processing/if-statements-2.png)
+![boring gray nothing](/tutorials/processing/images/if-statements-2.png)
 
 Since `isGradeA` is now `false`, the body of the `if` statement is **not** executed, and it skips over all of the code inside the body.
 
@@ -173,7 +173,7 @@ else{
 
 This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. Instead, the program jumps to the code inside the body of the `else` statement, which draws a red background, changes the fill color to black, and displays the "Study more!" message.
 
-![study more](/tutorials/processing/if-statements-3.png)
+![study more](/tutorials/processing/images/if-statements-3.png)
 
 You can think about the code like this: "If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise, display the `Study more!' message instead."
 
@@ -200,7 +200,7 @@ else if(score >= 80){
 
 This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. The program jumps down to the `else-if` statement and checks the `boolean` value inside the `else-if` statement. Since `85` is greater than `80`, the inequality is `true`, and the code inside the body of the `else-if` is executed. The code then draws a blue background, changes the fill color to white, and displays the "Good job!" message.
 
-![good job message](/tutorials/processing/if-statements-4.png)
+![good job message](/tutorials/processing/images/if-statements-4.png)
 
 You can think about the code like this: "If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise check whether the score is greater than or equal to 80. If it is, then display the `Good job!' message instead."
 
