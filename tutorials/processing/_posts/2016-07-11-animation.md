@@ -72,7 +72,7 @@ void draw(){
 
 First, this code declares a variable named `circleY` and initializes it to point to the value `25`. Every time the `draw()` function is called, the code draws a gray background, and then draws a circle with a vertical position of `circleY`. Then, the code adds `1` to the `circleY` variable! Now the next time `draw()` is called, `circleY` will be `26`, which causes the circle to be drawn just a little bit lower in the window. We repeat that 60 times per second, which makes it look like the circle is falling.
 
-![falling circle](/tutorials/processing/animation-1.gif)
+![falling circle](/tutorials/processing/images/animation-1.gif)
 
 ## Scope
 
@@ -158,7 +158,7 @@ This code is mostly the same: we declare a variable named `circleY`, initialize 
 
 The new part is the `if` statement. After we reassign the `circleY` variable, we check whether its new value is greater than `height`. If it is, then we reassign it to point to the value `0`. The next time the `draw()` function is called, `circleY` will be `0`, the circle will be drawn at the top of the window, and we start the animation over again.
 
-![resetting circle](/tutorials/processing/animation-2.gif)
+![resetting circle](/tutorials/processing/images/animation-2.gif)
 
 ## Bouncing
 
@@ -200,7 +200,7 @@ void draw(){
 
 Everything about this code is the same, except now when `circleY > 25`, we multiply the `ySpeed` variable by `-1`, which makes it negative. The next time the `draw()` function is called, `ySpeed` will now be `-1`. Adding that to `circleY` causes `circleY` to decrease, which moves the circle up.
 
-![bouncing circle](/tutorials/processing/animation-3.gif)
+![bouncing circle](/tutorials/processing/images/animation-3.gif)
 
 We can expand that to make the ball bounce off all of the sides of the screen:
 
@@ -231,7 +231,7 @@ void draw() {
 
 This program creates variables to hold the position of the ball (`circleX` and `circleY`), and two variables to hold the speed of the ball (`xSpeed` and `ySpeed`). Every frame, the code draws a ball at that position, and then moves the position by that speed. It then uses an `if` statement to check whether the ball has gone off the left or right side of the window, and reverses the `xSpeed` variable if it has. Similarly, it uses another `if` statement to check whether the ball has gone of the top or bottom of the window, and reverses the `ySpeed` variable if it has. This causes the ball to bounce off every side of the window.
 
-![bouncing ball](/tutorials/processing/animation-4.png)
+![bouncing ball](/tutorials/processing/images/animation-4.png)
 
 This is where things get really interesting. Try playing around with the variables in this program to see what happens. What happens if you randomize the position or speed, either at the beginning or when you go off the edge of the window? What happens if you use `mouseX` and `mouseY` to set the speed or position?
 
