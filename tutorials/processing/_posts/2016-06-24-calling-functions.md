@@ -59,7 +59,7 @@ ellipse(50, 75, 20, 20);
 
 Open up your Processing editor, type that line of code, and then hit the run button. You should see something that looks like this:
 
-![ellipse](/tutorials/processing/calling-functions-1.png)
+![ellipse](/tutorials/processing/images/calling-functions-1.png)
 
 Try changing the parameters to see what happens. Can you draw an ellipse in the upper-left corner? The lower-right corner? Can you make an ellipse that fills up the whole window? Can you make a very tall ellipse, or a very fat ellipse?
 
@@ -85,7 +85,7 @@ rect(10, 20, 80, 70);
 
 Type this line of code into your Processing editor and hit the run button, and you should see this:
 
-![rect](/tutorials/processing/calling-functions-1.png)
+![rect](/tutorials/processing/images/calling-functions-1.png)
 
 ## You are now a programmer.
 
@@ -100,7 +100,7 @@ ellipse(250, 150, 300, 100);
 
 This program tells Processing to make the window `500` pixels wide and `300` pixels tall. It then tells Processing to draw a circle with an `x` of `250`, `y` of `150`, `width` of `300`, and a `height` of `100`. Type these lines of code into your Processing editor and hit run, and you should see this:
 
-![ellipse in a bigger window](/tutorials/processing/calling-functions-3.png)
+![ellipse in a bigger window](/tutorials/processing/images/calling-functions-3.png)
 
 What if we then want to change the color of our circle? Again, we'd look in the Processing reference until we found a function that tells the computer to draw in a certain color. We'd find [the `fill` function](https://processing.org/reference/fill_.html), which takes 3 parameters: a red, a green, and a blue value. You can mix these values just like you mix paint. Check out [this Wikipedia article](https://en.wikipedia.org/wiki/RGB_color_model) for more information on that.
 
@@ -114,7 +114,7 @@ ellipse(50, 50, 100, 100);
 
 This program calls the `size` function to make the window `200` pixels wide and `200` pixels tall. It then calls the `fill` function with a `red` value of `255` and `green` and `blue` values of `0` to change the color to red. Finally, it calls the `ellipse` function to draw a circle in the upper-left corner of the window.
 
-![red ellipse](/tutorials/processing/calling-functions-4.png)
+![red ellipse](/tutorials/processing/images/calling-functions-4.png)
 
 We can expand our program to draw 4 circles, all with different colors:
 
@@ -134,7 +134,7 @@ fill(255, 255, 0);
 ellipse(150, 150, 100, 100);
 ```
 
-![colored circles](/tutorials/processing/calling-functions-5.png)
+![colored circles](/tutorials/processing/images/calling-functions-5.png)
 
 Notice that the call to `fill(255, 255, 0)` mixes red and green together to make yellow. If you're unfamiliar with RGB colors, try playing with the parameters to mix different colors together.
 
