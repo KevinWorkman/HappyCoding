@@ -18,7 +18,7 @@ In other words, primitive values have no **state** associated with them.
 
 ## States
 
-Think of a state as a snapshot of something. It's like a picture, or a written description of a particular item (or person, place, thing...). Think about how you would describe your state right now: How old are you? What color shirt are you wearing? Are you sitting or standing?
+Think of a state as a description of something. It's like a picture, or a set of facts about a particular item (or person, place, thing...). Think about how you would describe your state right now: How old are you? What color shirt are you wearing? Are you sitting or standing?
 
 The value of any one of those items might be a primitive: Maybe you're 30 years old, and `30` by itself is a primitive. Maybe you're wearing a `blue` shirt, and `blue` by itself is a primitive (or three primitives representing RGB). Maybe you're sitting down, so we'd just store that as a `boolean` value of `true`, which is a primitive.
 
@@ -32,6 +32,12 @@ We describe the state of objects in code in a similar way. We use **classes** to
 
 A class holds the variables that represent a concept: a `Cat` class might have `furColor`, `weight`, and `size` variables. We create instances of that class by filling in those blanks: a variable of type `Cat` named `stanley` might have `furColor = tan`, `weight = 14lbs`, and `size = 16inches`. We might also have a different variable of type `Cat` named `tiger` that holds a different state!
 
+Think about classes and instances like this:
+
+- Classes are types, similar to primitive types like `int` and `float`. And just like primitive types, class types tell Processing what kind of value a variable will hold. 
+
+- Instances are values, similar to primitive values like '7' and '3.14`.
+
 ## Creating Instances
 
 Let's start with an example program that stores the state of a circle (in this case, its position) in two variables:
@@ -41,6 +47,9 @@ float circleX = 50;
 float circleY = 25;
 ellipse(circleX, circleY, 15, 15);
 ```
+
+![circle](/tutorials/processing/images/using-objects-1.png)
+
 
 This is a very simple example, but imagine it getting more complicated as we add speed, color, and size, along with multiple circles. Eventually we'll want to store all of that in objects, but for now let's just use the two position values as an example.
 
@@ -66,7 +75,7 @@ ellipse(circlePosition.x, circlePosition.y, 15, 15);
 
 ## Different instances can have different values!
 
-Just like different cats can have different colored fur, sizes, weights, and names, different instances of the same class can have different values for the variables in that class. So we could do something like this:
+Different cats can have different colored fur, sizes, weights, and names. Similarly, different instances of the same class can have different values for the variables in that class. So we could do something like this:
 
 ```java
 PVector redCircle = new PVector(25, 25);
@@ -83,12 +92,13 @@ ellipse(greenCircle.x, greenCircle.y, 40, 40);
 fill(0, 0, 255);
 ellipse(blueCircle.x, blueCircle.y, 40, 40);
 
-
 fill(255, 255, 0);
 ellipse(yelllowCircle.x, yelllowCircle.y, 40, 40);
 ```
 
 This code creates four instances of `PVector`, each with different `x,y` coordinates.
+
+![four circles](/tutorials/processing/images/using-objects-2.png)
 
 ## Objects have functions
 
@@ -106,6 +116,8 @@ ellipse(circlePosition.x, circlePosition.y, 15, 15);
 
 This program creates a `PVector` representing position `37,5`, then adds `13,20` to that position, making it `50,25` when we access the `x` and `y` variables.
 
+![circle](/tutorials/processing/images/using-objects-3.png)
+
 ## Object Oriented Programming
 
 The examples in this tutorial are purposely oversimplified, since learning about objects can already be very confusing. This isn't just learning a new syntax, it's also learning **a new way of thinking about the world**, or at least thinking about programming.
@@ -116,4 +128,4 @@ The examples in this tutorial are purposely oversimplified, since learning about
 - Think about some real life objects. What variables would be in their class? What values would instances have?
 - Write a program that shows balls bouncing around the screen. Use an array of `PVector` instances to track them.
 
-## Next: Creating Objects
+## Next: [Creating Objects](/tutorials/processing/creating-objects)
