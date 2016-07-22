@@ -30,11 +30,13 @@
 					$(".dark-css").removeAttr('disabled');
 					$(".light-css").attr('disabled', 'disabled');
 					$("#favicon").attr("href", "/images/faviconDark.png");
+					randomizeNavDark();
 				}
 				else{
 					$(".light-css").removeAttr('disabled');
 					$(".dark-css").attr('disabled', 'disabled');
 					$("#favicon").attr("href", "/images/favicon.png");
+					randomizeNavLight();
 				}
 			}
 		</script>
