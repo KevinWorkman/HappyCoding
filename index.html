@@ -11,5 +11,5 @@ title: Happy Coding
 
 <h2>New Tutorials</h2>
 {% for post in site.posts limit:1 %}
-<p><a href="post.url">post.title</a></p>
+<p><a href="{{post.url}}">{{post.title}}</a></p>
 {% endfor %}
