@@ -2,7 +2,14 @@
 layout: default
 title: Happy Coding
 ---
-<div>
-  <h1>Happy Coding!</h1>
-  <p>Just doing some setup...</p>
+<div class="jumbotron">
+	<h1>You can code.</h1>
+	<p>Happy Coding is a collection of tutorials and examples that start at the absolute basics and take you to the more advanced things you can do with code.</p>
+	<p>We're starting out with Processing, but stay tuned for Java, HTML, and JavaScript tutorials as well.</p>
+	<p><a class="btn btn-primary btn-lg" href="/tutorials" role="button">Start coding!</a></p>
 </div>
+
+<h2>New Tutorials</h2>
+{% for post in site.posts limit:1 %}
+<p><a href="post.url">post.title</a></p>
+{% endfor %}
