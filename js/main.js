@@ -33,9 +33,10 @@ function setupThemeChooser(){
 function randomizeNavLight(){
 	var letters = 'ABCDEF'.split('');
 	var color = '#';
-	for (var i = 0; i < 6; i++ ) {
+	for (var i = 0; i < 3; i++ ) {
 		color += letters[Math.floor(Math.random() * 6)];
 	}
+	console.log("color: " + color);
 	$(".navbar").css('background-color', color);
 }
 
@@ -45,7 +46,8 @@ function randomizeNavDark(){
 	for (var i = 0; i < 6; i++ ) {
 		color += letters[Math.floor(Math.random() * 10)];
 	}
-	$(".navbar").css('background-color', color);	
+	$(".navbar").css('background-color', color);
+	console.log("color: " + color);
 }
 
 
