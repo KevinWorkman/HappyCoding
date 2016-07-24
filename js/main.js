@@ -1,54 +1,78 @@
+var theme = "light";
+var themeInterval;
+
+
+function getThemeFromCookie(){
+	if(Cookies.get('theme')){
+		theme = Cookies.get('theme');
+	}
+	
+
+}
+
+function getNavColorFromCookie(){
+	var navColor = Cookies.get('navColor');
+	if(navColor){
+		$(".navbar").removeClass("transition");
+		$(".navbar").css('background-color', navColor);
+		setTimeout(function(){ $(".navbar").addClass("transition");}, 0);
+	}
+	else{
+		randomizeNavColor();
+	}
+}
+
 function setupThemeChooser(){
 
 	$('#themeChooser').append(new Option("dark", "dark"));
 	$('#themeChooser').append(new Option("light", "light"));
-	
-	if(Cookies.get('theme')){
-		$('#themeChooser').val(Cookies.get('theme'));
-	}
+	$('#themeChooser').val(theme);
 	
 	$('#themeChooser').on('change', function() {
-	
-		var selectedTheme = $('#themeChooser').val();
-		
-		Cookies.set('theme', selectedTheme);
-		
-		if("dark" == selectedTheme){
-			$(".dark-css").removeAttr('disabled');
-			$(".light-css").attr('disabled', 'disabled');
-			$("#favicon").attr("href", "/images/faviconDark.png");
-			randomizeNavDark();
-		}
-		else{
-			$(".light-css").removeAttr('disabled');
-			$(".dark-css").attr('disabled', 'disabled');
-			$("#favicon").attr("href", "/images/favicon.png");
-			randomizeNavLight();
-		}
-		
+		theme = $('#themeChooser').val();
+		doThemeCss();
+		$(".navbar").removeClass("transition");
+		randomizeNavColor();
+		setTimeout(function(){ $(".navbar").addClass("transition");}, 0);
 		setRandomBackground();
+		
+		Cookies.set('theme', theme);
 	});
 }
 
-function randomizeNavLight(){
-	var letters = 'ABCDEF'.split('');
-	var color = '#';
-	for (var i = 0; i < 3; i++ ) {
-		color += letters[Math.floor(Math.random() * 6)];
+function randomizeNavColor(){
+	var letters;
+	if(theme == "light"){
+		letters = 'ABCDEF'.split('');
 	}
-	console.log("color: " + color);
-	$(".navbar").css('background-color', color);
-}
-
-function randomizeNavDark(){
-	var letters = '0123456789'.split('');
+	else{
+		letters = '0123456789'.split('');
+	}
 	var color = '#';
 	for (var i = 0; i < 6; i++ ) {
-		color += letters[Math.floor(Math.random() * 10)];
+		color += letters[Math.floor(Math.random() * letters.length)];
 	}
 	$(".navbar").css('background-color', color);
-	console.log("color: " + color);
+	Cookies.set('navColor', color);
 }
 
+function doThemeCss(){
+	
+	if("dark" == theme){
+		$(".dark-css").removeAttr('disabled');
+		$(".light-css").attr('disabled', 'disabled');
+		$("#favicon").attr("href", "/images/faviconDark.png");
+	}
+	else{
+		$(".light-css").removeAttr('disabled');
+		$(".dark-css").attr('disabled', 'disabled');
+		$("#favicon").attr("href", "/images/favicon.png");
+	}	
+}
 
+getThemeFromCookie();
+doThemeCss();
+$(getNavColorFromCookie);
+$(setRandomBackground);
 $(setupThemeChooser);
+setInterval(randomizeNavColor,10000);

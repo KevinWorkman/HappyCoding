@@ -1,9 +1,17 @@
 body {
-	transition:2s;
+	transition: background-image 1s linear;
 }
 
 p {
 	font-size: 1.1em;
+}
+
+.navbar a{
+	transition: none;
+}
+
+.transition{
+	transition: background-color 10s linear;
 }
 
 .tutorial-link-box{

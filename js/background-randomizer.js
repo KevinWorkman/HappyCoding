@@ -62,11 +62,10 @@ var darkBackgrounds = [
 ];
 
 function setRandomBackground(){
-	var selectedTheme = $('#themeChooser').val();
 	
 	var backgroundUrl;
 	
-	if("dark" == selectedTheme){
+	if("dark" == theme){
 		backgroundUrl = darkBackgrounds[Math.floor(Math.random()*darkBackgrounds.length)];
 	}
 	else{
@@ -75,5 +74,3 @@ function setRandomBackground(){
 	
 	$("body").css("background-image", "url(" + backgroundUrl + ")");
 }
-
-$(setRandomBackground);

@@ -20,31 +20,13 @@
 		<script src="/js/js.cookie.js"></script>
 		<script src="/js/jquery-2.2.4.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
-		<script src="/js/main.js"></script>
 		<script src="/js/background-randomizer.js"></script>
-    		
-    		<script>
-			var theme = Cookies.get('theme');
-			if(theme){
-				if("dark" == theme){
-					$(".dark-css").removeAttr('disabled');
-					$(".light-css").attr('disabled', 'disabled');
-					$("#favicon").attr("href", "/images/faviconDark.png");
-					randomizeNavDark();
-				}
-				else{
-					$(".light-css").removeAttr('disabled');
-					$(".dark-css").attr('disabled', 'disabled');
-					$("#favicon").attr("href", "/images/favicon.png");
-					randomizeNavLight();
-				}
-			}
-		</script>
-    		
+		<script src="/js/main.js"></script>
+		
 	</head>
 	<body>
 		<div class="container">
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default transition">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 							<span class="icon-bar"></span>
