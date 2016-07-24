@@ -11,6 +11,7 @@ p {
 }
 
 .transition{
+	-webkit-transition: background-color 10s linear;
 	transition: background-color 10s linear;
 }
 
