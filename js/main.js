@@ -1,24 +1,26 @@
 var theme = "light";
 var themeInterval;
 
-
 function getThemeFromCookie(){
 	if(Cookies.get('theme')){
 		theme = Cookies.get('theme');
 	}
-	
-
 }
 
 function getNavColorFromCookie(){
-	var navColor = Cookies.get('navColor');
-	if(navColor){
-		$(".navbar").removeClass("transition");
-		$(".navbar").css('background-color', navColor);
-		setTimeout(function(){ $(".navbar").addClass("transition");}, 0);
+	if(Modernizr.csstransitions){
+		var navColor = Cookies.get('navColor');
+		if(navColor){
+			$(".navbar").removeClass("transition");
+			$(".navbar").css('background-color', navColor);
+			setTimeout(function(){ $(".navbar").addClass("transition");}, 0);
+		}
+		else{
+			randomizeNavColor();
+		}
 	}
 	else{
-		randomizeNavColor();
+		randomizeNavColor();	
 	}
 }
 
@@ -75,4 +77,6 @@ doThemeCss();
 $(getNavColorFromCookie);
 $(setRandomBackground);
 $(setupThemeChooser);
-setInterval(randomizeNavColor,10000);
+if(Modernizr.csstransitions){
+	setInterval(randomizeNavColor,10000);
+}
