@@ -251,6 +251,8 @@ class Circle {
 }
 ```
 
+![1000 bouncing balls](/tutorials/processing/images/creating-classes-2.gif)
+
 Now if we want to add more circles, we only have to make one change. If we want to modify the logic of every circle (to wrap to the left side of the screen when it goes off the right side, or to change color, or to change size), then we only have to change the code in one place: inside the `Circle` class.
 
 ## Implied Constructor
