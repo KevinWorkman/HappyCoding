@@ -34,4 +34,14 @@ So I decided to shift my focus away from maintaining the uploader part of Static
 
 ## What does "Happy Coding" mean?
 
-"Happy Coding" is a little like "Happy Hunting" - it's a way of 
+I first ~~stole~~ heard it from my high school programming teacher. Saying "happy coding" is a little like saying "happy hunting" - it's a way of wishing good luck to somebody. "I heard you have a big programming project tonight. Happy coding!"
+
+But more than that, I'm trying to invoke a "Bob Ross" style of programming. Programming isn't always an exact science or a precise math. It's more an **art** :art: or a **craft** than people realize. It involves making a ton of mistakes, and that's okay! Those mistakes make the process unique to you, and they can actually be a good thing by surprising you or just making you a better programmer.
+
+## What's next?
+
+I've already started writing up the basic tutorials that take you from the basics to more complicated topics in computer science. From here I want to add a bunch of example code, and then from there it's a matter of adding more tutorials on html, JavaScript, libGDX, Android, you name it! I'd also like to add a forum, but that's another post for another day.
+
+Until then........ Happy Coding!
+
+:turtle:
