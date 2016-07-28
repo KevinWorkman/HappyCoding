@@ -18,9 +18,12 @@
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
 	/*color: white;
 	background-color: black;*/
+	color:black;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
 	/*color: white;
 	background-color: black;*/
+	color:black;
+	cursor: pointer;
 }

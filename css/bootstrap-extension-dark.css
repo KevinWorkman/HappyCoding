@@ -8,11 +8,11 @@
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-	/*color: black;
-	background-color: white;*/
+	color: white;
+	cursor: pointer;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
-	/*color: black;
-	background-color: white;*/
+	color: white;
+	cursor: pointer;
 }
