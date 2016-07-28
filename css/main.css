@@ -6,13 +6,10 @@ p {
 	font-size: 1.1em;
 }
 
-.navbar a{
-	transition: none;
-}
 
 .transition{
-	-webkit-transition: background-color 10s linear;
-	transition: background-color 10s linear;
+	-webkit-transition: background-color 10s linear, color 10s linear;
+	transition: background-color 10s linear, color 10s linear;
 }
 
 .tutorial-link-box{

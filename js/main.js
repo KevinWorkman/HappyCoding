@@ -1,5 +1,4 @@
 var theme = "light";
-var themeInterval;
 
 function getThemeFromCookie(){
 	if(Cookies.get('theme')){
@@ -24,39 +23,59 @@ function getNavColorFromCookie(){
 	}
 }
 
-function setupThemeChooser(){
+function toggleTheme(){
 
-	$('#themeChooser').append(new Option("dark", "dark"));
-	$('#themeChooser').append(new Option("light", "light"));
-	$('#themeChooser').val(theme);
-	
-	$('#themeChooser').on('change', function() {
-		theme = $('#themeChooser').val();
+		if(theme == "light"){
+			theme = "dark";
+		}
+		else{
+			theme = "light";	
+		}
+		
 		doThemeCss();
 		$(".navbar").removeClass("transition");
+		$(".random-color").removeClass("transition");
 		randomizeNavColor();
-		setTimeout(function(){ $(".navbar").addClass("transition");}, 0);
+		setTimeout(function(){ $(".navbar").addClass("transition"); $(".random-color").addClass("transition");}, 0);
 		setRandomBackground();
 		
 		Cookies.set('theme', theme);
-	});
 }
 
 function randomizeNavColor(){
-	var letters;
+	
+	var bgLetters;
+	var fgLetters;
+	
 	if(theme == "light"){
-		letters = 'ABCDEF'.split('');
+		bgLetters = 'ABCDEF'.split('');
+		fgLetters = '0123456789'.split('');
 	}
 	else{
-		letters = '0123456789'.split('');
+		bgLetters = '0123456789'.split('');
+		fgLetters = 'ABCDEF'.split('');
 	}
-	var color = '#';
+	var bgColor = '#';
 	for (var i = 0; i < 6; i++ ) {
-		color += letters[Math.floor(Math.random() * letters.length)];
+		bgColor += bgLetters[Math.floor(Math.random() * bgLetters.length)];
 	}
-	$(".navbar").css('background-color', color);
-	Cookies.set('navColor', color);
+	$(".navbar").css('background-color', bgColor);
+	
+	$( ".random-color" ).each(function( index ) {
+	
+		var fgColor = '#';
+		for (var i = 0; i < 6; i++ ) {
+			fgColor += fgLetters[Math.floor(Math.random() * fgLetters.length)];
+		}
+		$(this).css('color', fgColor);
+	});
+	
+	Cookies.set('navColor', bgColor);
 }
+
+
+
+
 
 function doThemeCss(){
 	
@@ -76,7 +95,6 @@ getThemeFromCookie();
 doThemeCss();
 $(getNavColorFromCookie);
 $(setRandomBackground);
-$(setupThemeChooser);
 if(Modernizr.csstransitions){
 	setInterval(randomizeNavColor,10000);
 }
