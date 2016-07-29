@@ -6,80 +6,14 @@ title: Tutorials
 
 <p>Want to learn how to program? Follow these tutorials:</p>
 
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/what-is-programming"><img src="/tutorials/processing/images/calling-functions-5.png" /></a>
-	<a class="title" href="/tutorials/processing/what-is-programming">What is programming?</a>
-	<p>Learn the concepts behind programming and get ready to write some code.</p>
-</div>
+<hr />
 
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/calling-functions"><img src="/tutorials/processing/images/calling-functions-5.png" /></a>
-	<a class="title" href="/tutorials/processing/calling-functions">Calling Functions</a>
-	<p>Learn how to tell the computer what to do.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/using-variables"><img src="/tutorials/processing/images/using-variables-5.png" /></a>
-	<a class="title" href="/tutorials/processing/using-variables">Using Variables</a>
-	<p>Learn how to get information from Processing.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/creating-variables"><img src="/tutorials/processing/images/creating-variables-5.png" /></a>
-	<a class="title" href="/tutorials/processing/creating-variables">Creating Variables</a>
-	<p>Learn how to store your own information.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/creating-functions"><img src="/tutorials/processing/images/creating-functions-6.gif" /></a>
-	<a class="title" href="/tutorials/processing/creating-functions">Creating Functions</a>
-	<p>Learn how to write your own functions.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/if-statements"><img src="/tutorials/processing/images/if-statements-4.png" /></a>
-	<a class="title" href="/tutorials/processing/if-statements">If Statements</a>
-	<p>Learn how to make decisions in your code.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/animation"><img src="/tutorials/processing/images/animation-1.gif" /></a>
-	<a class="title" href="/tutorials/processing/animation">Animation</a>
-	<p>Learn how to create animated visualizations.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/for-loops"><img src="/tutorials/processing/images/for-loops-1.png" /></a>
-	<a class="title" href="/tutorials/processing/for-loops">For Loops</a>
-	<p>Use patterns to repeat work without repeating code.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/arrays"><img src="/tutorials/processing/images/arrays-1.gif" /></a>
-	<a class="title" href="/tutorials/processing/arrays">Arrays</a>
-	<p>Create variables that hold multiple values.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/input"><img src="/tutorials/processing/images/input-8.gif" /></a>
-	<a class="title" href="/tutorials/processing/input">Input</a>
-	<p>React to mouse and keyboard input from the user to make interactive programs.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/using-objects"><img src="/tutorials/processing/images/using-objects-1.png" /></a>
-	<a class="title" href="/tutorials/processing/using-objects">Using Objects</a>
-	<p>Store a state in a variable.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/creating-classes"><img src="/tutorials/processing/images/creating-classes-2.gif" /></a>
-	<a class="title" href="/tutorials/processing/creating-classes">Creating Classes</a>
-	<p>Create your own classes and store whatever state you can think of.</p>
-</div>
-
-<div class="tutorial-link-box">
-	<a href="/tutorials/processing/arraylists"><img src="/tutorials/processing/images/arraylists-1.gif" /></a>
-	<a class="title" href="/tutorials/processing/arraylists">ArrayLists</a>
-	<p>Create an object that stores other objects.</p>
-</div>
+{% assign name = site.categories.tutorials | sort: 'sort-key' %}
+{% for post in  name%}
+	<div class="tutorial-link-box">
+		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+		<p>{{ post.tag }}</p>
+	</div>
+	
+{% endfor %}

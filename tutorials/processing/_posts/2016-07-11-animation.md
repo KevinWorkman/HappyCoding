@@ -2,6 +2,9 @@
 layout: tutorial
 title: "Animation"
 slug: animation
+thumbnail: "/tutorials/processing/images/animation-4.gif"
+tag: "Create animated visualizations."
+sort-key: 700
 ---
 
 We now know about functions, variables, and if statements.

@@ -2,6 +2,9 @@
 layout: tutorial
 title: "Calling Functions"
 slug: calling-functions
+thumbnail: "/tutorials/processing/images/calling-functions-5.png"
+tag: "Tell the computer what to do."
+sort-key: 200
 ---
 
 This tutorial teaches you how to write Processing code. In Processing (and many other languages), one of the basic building blocks we'll use while writing code is **calling functions**.

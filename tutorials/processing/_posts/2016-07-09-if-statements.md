@@ -2,6 +2,9 @@
 layout: tutorial
 title: "If Statements"
 slug: if-statements
+thumbnail: "/tutorials/processing/images/if-statements-1.png"
+tag: "Make decisions in your code."
+sort-key: 600
 ---
 
 We now know how to call functions, use variables, and create our own variables and functions.

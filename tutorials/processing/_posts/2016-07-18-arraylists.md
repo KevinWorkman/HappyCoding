@@ -2,6 +2,9 @@
 layout: tutorial
 title: "ArrayLists"
 slug: arraylists
+thumbnail: "/tutorials/processing/images/arraylists-1.gif"
+tag: Create an object that stores other objects.
+sort-key: 1200
 ---
 
 Now we know how to use objects and create our own classes. We know how to use arrays to create variables that hold multiple values, and we know how to create arrays of objects.

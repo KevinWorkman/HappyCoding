@@ -2,6 +2,9 @@
 layout: tutorial
 title: "What is Programming?"
 slug: what-is-programming
+thumbnail: "/tutorials/processing/images/input-10.gif"
+tag: Get ready to write some code.
+sort-key: 100
 ---
 
 This tutorial series teaches you how to write code in order to create your own programs. But before we dive in, it's a good idea to define some of the terms we'll be using.

@@ -2,6 +2,9 @@
 layout: tutorial
 title: "Using Variables"
 slug: using-variables
+thumbnail: "/tutorials/processing/images/using-variables-5.png"
+tag: "Get information from the computer."
+sort-key: 300
 ---
 
 Now you know how to [call functions](/tutorials/processing/calling-functions) by passing in parameters to tell the computer to follow a series of steps to accomplish some goal.

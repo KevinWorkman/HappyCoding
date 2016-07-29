@@ -2,6 +2,9 @@
 layout: tutorial
 title: "Using Objects"
 slug: using-objects
+thumbnail: "/tutorials/processing/images/using-objects-2.png"
+tag: "Srote a state in a variable."
+sort-key: 1100
 ---
 
 We've now learned how to use variables, functions, and `if` statements. We know how to modify variables over time to create animations, and we know how to get user input.

@@ -2,6 +2,9 @@
 layout: tutorial
 title: "Creating Variables"
 slug: creating-variables
+thumbnail: "/tutorials/processing/images/creating-variables-3.png"
+tag: "Store your own information."
+sort-key: 400
 ---
 
 In the previous tutorial, we learned about [using variables](/tutorials/processing/using-variables). 
