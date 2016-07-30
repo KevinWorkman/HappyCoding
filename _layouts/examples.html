@@ -7,7 +7,7 @@ layout: default
 	{{ page.content }}
 {% endunless %}
 
-{% for post in site.categories.[page.category] %}
+{% for post in site.categories.[page.categories] %}
 	<div class="tutorial-link-box">
 		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
 		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
