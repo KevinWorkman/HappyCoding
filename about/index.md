@@ -17,11 +17,13 @@ The best thing to do is post something on [the forum](http://forum.happycoding.i
 
 You can also find me on [twitter](https://twitter.com/StaticVoidGames) and [facebook](http://www.facebook.com/StaticVoidGames).
 
+This entire site is [hosted on GitHub](https://github.com/KevinWorkman/HappyCoding), so you can also submit issues there.
+
 If all else fails, feel free to email me at kevin@HappyCoding.io.
 
 **Who are you?**
 
-My name is Kevin Workman. I love coding. I've been programming since high school (so, uh, over ten years now). By day I do prototype development, but I've always been more interested in creative coding and the education side of things. Coding opens up new worlds of creativity, and I'd love to share that with more people.
+My name is Kevin Workman. I :heart: coding. I've been programming since high school (so, uh, over ten years now). By day I do [prototype](https://en.wikipedia.org/wiki/Prototype) development, but I've always been more interested in [creative coding](https://en.wikipedia.org/wiki/Creative_coding) and the education side of things. Coding opens up new worlds of creativity, and I'd love to share that with more people.
 
 **What makes Happy Coding different than other tutorial sites?**
 
