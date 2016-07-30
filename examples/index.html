@@ -1,20 +1,8 @@
 ---
-layout: default
+layout: examples
 title: Examples
 ---
-<h1>Examples</h1>
 
-<p>Here are example programs, organized by the topics the use.</p>
+<p>Here are example programs, organized by the topics they use.</p>
 
 <p>Feel free to tweak any of these examples to come up with your own programs. Post your creations on the forum, or on twitter or facebook!</p>
-
-<hr />
-
-{% for post in  site.categories.examples%}
-	<div class="tutorial-link-box">
-		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
-		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
-		<p>{{ post.tag }}</p>
-	</div>
-	
-{% endfor %}
