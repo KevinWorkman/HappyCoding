@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>{{page.category}} Examples</h1>
+
+{% unless page.content == '' %}
+	{{ page.content }}
+{% endunless %}
+
+{% for post in site.categories.[page.category] %}
+	<div class="tutorial-link-box">
+		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+		<p>{{ post.tag }}</p>
+	</div>
+{% endfor %}
