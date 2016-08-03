@@ -153,4 +153,4 @@ The best way to learn how to program is by, well, programming. Give yourself a g
 
 Come up with a scene that you want to draw, and then write a program that draws it. Write Processing code that calls functions to draw the scene.
 
-## Next: Using Variables
+## Next: [Using Variables](/tutorials/processing/using-variables)
