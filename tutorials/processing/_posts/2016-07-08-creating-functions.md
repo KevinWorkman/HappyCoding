@@ -237,4 +237,4 @@ We can also use the `setup()` and `draw()` functions to make programs that are i
 - Create a `drawNeighborhood()` function that draws 9 blocks. Take in parameters for the neighborhood location, size, color, etc. Call the `drawBlock()` function to draw the blocks.
 - Create a `drawCity()` function that fills the window with neighborhoods.
 
-## Next: If Statements
+## Next: [If Statements](/tutorials/processing/if-statements)
