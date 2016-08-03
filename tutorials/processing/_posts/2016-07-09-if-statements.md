@@ -270,3 +270,5 @@ Think about it this way: first we check whether the grade is an A. If it is, the
 - Create a program that displays black if the mouse is on the left half of the screen, and white if the mouse is on the right half of the screen.
 - Expand that program to show 4 different colors: red when the mouse is in the upper-left corner, green when the mouse is in the upper-right corner, blue when the mouse is in the lower-left corner, and yellow when the mouse is in the lower-right corner.
 - Create a greeting program that shows a different message depending on what time of day it is. At least include morning, afternoon, evening, and night.
+
+## Next: [Animation](/tutorials/processing/animation)
