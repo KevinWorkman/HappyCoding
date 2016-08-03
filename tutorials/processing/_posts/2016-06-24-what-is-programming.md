@@ -45,6 +45,4 @@ Over the next couple days, think about these questions:
 - What have you heard about different programming languages?
 - What types of programs are you hoping to create?
 
-## Let's write some code!
-
-Now we know what we're getting ourselves into, let's start writing code. We'll start with the smallest building block: **writing functions**.
+## Next: [Let's write some code!](/tutorials/processing/calling-functions)
