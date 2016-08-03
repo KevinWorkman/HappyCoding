@@ -84,12 +84,14 @@ function doThemeCss(){
 		$(".dark-css").prop('disabled', false);
 		$(".light-css").prop('disabled', true);
 		$("#favicon").attr("href", "/images/faviconDark.png");
+		$("#github-img").attr("src", "/images/GitHub-Mark-Light-32px.png");
 	}
 	else{
 		//$(".light-css").removeAttr('disabled');
 		$(".light-css").prop('disabled', false);
 		$(".dark-css").prop('disabled', true);
 		$("#favicon").attr("href", "/images/favicon.png");
+		$("#github-img").attr("src", "/images/GitHub-Mark-32px.png");
 	}	
 }
 
