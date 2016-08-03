@@ -131,4 +131,4 @@ The examples in this tutorial are purposely oversimplified, since learning about
 - Think about some real life objects. What variables would be in their class? What values would instances have?
 - Write a program that shows balls bouncing around the screen. Use an array of `PVector` instances to track them.
 
-## Next: [Creating Objects](/tutorials/processing/creating-objects)
+# Next: [Creating Classes](/tutorials/processing/creating-classes)
