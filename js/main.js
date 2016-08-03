@@ -80,13 +80,15 @@ function randomizeNavColor(){
 function doThemeCss(){
 	
 	if("dark" == theme){
-		$(".dark-css").removeAttr('disabled');
-		$(".light-css").attr('disabled', 'disabled');
+		//$(".dark-css").removeAttr('disabled');
+		$(".dark-css").prop('disabled', false);
+		$(".light-css").prop('disabled', true);
 		$("#favicon").attr("href", "/images/faviconDark.png");
 	}
 	else{
-		$(".light-css").removeAttr('disabled');
-		$(".dark-css").attr('disabled', 'disabled');
+		//$(".light-css").removeAttr('disabled');
+		$(".light-css").prop('disabled', false);
+		$(".dark-css").prop('disabled', true);
 		$("#favicon").attr("href", "/images/favicon.png");
 	}	
 }
