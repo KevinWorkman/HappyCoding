@@ -272,4 +272,4 @@ There are similar shortcuts for subtraction, multiplication, and division. You d
 - Remember your drawing program from previous homeworks? Animate it by either bouncing it around the screen or by changing it over time.
 - Create a [random walk](https://en.wikipedia.org/wiki/Random_walk) animation.
 
-# Next: User Input
+# Next: [For Loops](/tutorials/processing/for-loops)
