@@ -202,4 +202,4 @@ Down the road we'll use variable to do cooler things like animation and user inp
 - Make a program that shows the current time. Hint: check the reference for useful functions! Get creative: make the clock change color throughout the day, or show the time in dog years.
 - Make a program that uses variables to calculate something useful for you: how long will you be paying student loans? What percentage of your income goes to rent? What grade do you need to get on your final to get an A in the class?
 
-# Next: Creating Functions
+# Next: [Creating Functions](/tutorials/processing/creating-functions)
