@@ -196,4 +196,4 @@ Now whenever we want to change the size of the window, we only have to change on
 
 - Create a program that displays a different color depending on the `width` and `height` variables.
 
-# Next: Creating Variables
+# Next: [Creating Variables](/tutorials/processing/creating-variables)
