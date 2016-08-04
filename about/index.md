@@ -11,6 +11,8 @@ I'm going to fill this website with tutorials, example code, and ideas to get yo
 
 I'm also hoping to build a community of people who want to talk about learning how to code or programming in general at [forum.HappyCoding.io](http://forum.happycoding.io) 
 
+<hr/>
+
 **I have a question or a request!**
 
 The best thing to do is post something on [the forum](http://forum.happycoding.io/).
@@ -21,9 +23,13 @@ This entire site is [hosted on GitHub](https://github.com/KevinWorkman/HappyCodi
 
 If all else fails, feel free to email me at kevin@HappyCoding.io.
 
+<hr/>
+
 **Who are you?**
 
 My name is Kevin Workman. I :heart: coding. I've been programming since high school (so, uh, over ten years now). By day I do [prototype](https://en.wikipedia.org/wiki/Prototype) development, but I've always been more interested in [creative coding](https://en.wikipedia.org/wiki/Creative_coding) and the education side of things. Coding opens up new worlds of creativity, and I'd love to share that with more people.
+
+<hr/>
 
 **What makes Happy Coding different than other tutorial sites?**
 
@@ -32,6 +38,8 @@ People learn in different ways, and I don't think education is a zero-sum game. 
 I love what people like [Daniel Shiffman](http://shiffman.net/) and sites like [Fun Programming](http://funprogramming.org/), [Khan Academy](https://www.khanacademy.org/computing/computer-programming), and [Code Academy](https://www.codecademy.com/) are doing. I'm a big fan of all of the above.
 
 But I'm designing this site for people who learn like I learn. I'm building the type of site that I wish existed when I was learning programming.
+
+<hr/>
 
 **Where did you get the background images?**
 

@@ -33,6 +33,7 @@ function toggleTheme(){
 		}
 		
 		doThemeCss();
+		doImageButtons();
 		$(".navbar").removeClass("transition");
 		$(".random-color").removeClass("transition");
 		randomizeNavColor();
@@ -73,32 +74,35 @@ function randomizeNavColor(){
 	Cookies.set('navColor', bgColor);
 }
 
-
-
-
-
 function doThemeCss(){
 	
 	if("dark" == theme){
-		//$(".dark-css").removeAttr('disabled');
 		$(".dark-css").prop('disabled', false);
 		$(".light-css").prop('disabled', true);
 		$("#favicon").attr("href", "/images/faviconDark.png");
-		$("#github-img").attr("src", "/images/GitHub-Mark-Light-32px.png");
 	}
 	else{
-		//$(".light-css").removeAttr('disabled');
 		$(".light-css").prop('disabled', false);
 		$(".dark-css").prop('disabled', true);
 		$("#favicon").attr("href", "/images/favicon.png");
-		$("#github-img").attr("src", "/images/GitHub-Mark-32px.png");
 	}	
+	
+}
+
+function doImageButtons(){
+	if("light" == theme){
+		$("#github-img").attr("src", "/images/GitHub-Mark-32px.png");
+	}
+	else{
+		$("#github-img").attr("src", "/images/GitHub-Mark-Light-32px.png");
+	}
 }
 
 getThemeFromCookie();
 doThemeCss();
 $(getNavColorFromCookie);
 $(setRandomBackground);
+$(doImageButtons);
 if(Modernizr.csstransitions){
 	setInterval(randomizeNavColor,10000);
 }
