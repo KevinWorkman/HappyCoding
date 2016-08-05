@@ -7,7 +7,7 @@ tag: "Draw a smiley face. :smile_cat:"
 categories: examples, processing, calling-functions
 ---
 
-``java
+```java
 size(200, 200);
 
 //green
