@@ -53,8 +53,8 @@ ellipse(rightEyeX, eyeY, pupilWidth, pupilHeight);
 
 //random mouth size and Y
 float mouthWidth = random(faceWidth*.2, faceWidth*.8);
-float mouthHeight = random(faceHeight*.1, faceWidth*.3);
-float mouthY = faceY + random(faceY*.1, faceY*.25);
+float mouthHeight = random(faceHeight*.1, faceHeight*.3);
+float mouthY = faceY + random(faceHeight*.1, faceHeight*.25);
 
 //random mouth color
 fill(random(255), random(255), random(255));
