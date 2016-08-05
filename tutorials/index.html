@@ -8,8 +8,8 @@ title: Tutorials
 
 <hr />
 
-{% assign name = site.categories.tutorials | sort: 'sort-key' %}
-{% for post in  name%}
+{% assign tutorials = site.categories.tutorials | sort: 'sort-key' %}
+{% for post in  tutorials %}
 	<div class="tutorial-link-box">
 		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
 		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
