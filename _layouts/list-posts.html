@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign pageCategories = page.categories | join ' ' | append: ' '%}
+{% assign pageCategoriesSize = page.categories.size %}
+<h1>{{ cat }}</h1>
+{% for post in site.posts %}
+	{% assign postCategories = '' %}
+	{% for thispostcat in post.categories limit: pageCategoriesSize %}
+		{% assign postCategories = postCategories | append: thispostcat %}
+		{% assign postCategories = postCategories | append: ' ' %}
+	{% endfor %}
+
+	{% if (postCategories == pageCategories) %}
+	<div class="tutorial-link-box">
+		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+		<p>{{ post.tag }}</p>
+	</div>
+	{% endif %}
+{% endfor %}

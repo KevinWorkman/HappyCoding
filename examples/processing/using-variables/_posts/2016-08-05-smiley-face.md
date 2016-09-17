@@ -7,7 +7,7 @@ tag: "Scale a smiley face."
 ---
 
 ```java
-size(800, 400);
+size(200, 200);
 
 //green
 fill(0, 255, 0);
@@ -39,7 +39,7 @@ line(width*.3, height*.625, width*.7, height*.625);
 
 This code uses the `width` and `height` variables to draw a smiley face that changes size depending on the size of the window.
 
-![smiley face](/examples/processing/calling-functions/images/smiley-face-1.png)
+![smiley face](/examples/processing/using-variables/images/smiley-face-1.png)
 
 If we change the first line of our code to `size(400, 200)`, then we get a wider smiley face:
 

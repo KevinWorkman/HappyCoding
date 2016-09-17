@@ -6,10 +6,3 @@ permalink: /:categories/:slug
 gems:
   - jemoji
   - jekyll-sitemap
-  
-defaults:
- -
-    scope:
-      path: ""
-    values:
-      test: "testing variables"

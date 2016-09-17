@@ -2,7 +2,7 @@
 layout: tutorial
 title: "Random Face"
 slug: random-face
-thumbnail: "/examples/processing/creating-variables/images/random-face-thumbnail-1.png"
+thumbnail: "/examples/processing/creating-variables/images/random-face-4.png"
 tag: "Procedurally generate a smiley face."
 ---
 
@@ -66,7 +66,10 @@ line(faceX - mouthWidth/2, mouthY, faceX + mouthWidth/2, mouthY);
 
 This code uses variables along with the `random()` function to procedurally generate random faces. Every time you run the program, you get a different face.
 
-![random faces](/examples/processing/creating-variables/images/random-face-1.gif)
+![random faces](/examples/processing/creating-variables/images/random-face-1.png)
+![random faces](/examples/processing/creating-variables/images/random-face-2.png)
+![random faces](/examples/processing/creating-variables/images/random-face-3.png)
+![random faces](/examples/processing/creating-variables/images/random-face-4.png)
 
 This code might seem complicated, but when writing a program like this, you only focus on one small part at a time.
 

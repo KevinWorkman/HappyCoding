@@ -17,7 +17,7 @@ I'm also hoping to build a community of people who want to talk about learning h
 
 The best thing to do is post something on [the forum](http://forum.happycoding.io/).
 
-You can also find me on [twitter](https://twitter.com/StaticVoidGames) and [facebook](http://www.facebook.com/StaticVoidGames).
+You can also find me on [twitter](https://twitter.com/KevinAWorkman) and [facebook](http://www.facebook.com/HappyCoding.io).
 
 This entire site is [hosted on GitHub](https://github.com/KevinWorkman/HappyCoding), so you can also submit issues there.
 

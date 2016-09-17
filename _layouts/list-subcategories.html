@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+{% assign page_depth = page.url | split: '/' | size %}
+{% assign page_parent = page.url | split: '/' | last %}
+{% assign sorted_pages = site.pages | sort: 'sort-key' %}
+{% for node in sorted_pages %}
+
+	{% if node.url == '/' %}
+		{{ continue }}
+	{% else %}
+		{% assign split_path = node.url | split: "/" %}
+		{% assign node_last = split_path | last %}
+		{% assign node_parent = node.url | remove: node_last | split: '/' | last %}
+		{% assign node_url = node.url %}
+		{% assign node_thumbnail = node.thumbnail %}
+		{% for slug in split_path offset:1 %}
+			{% assign slug = slug %}
+			{% assign slug_depth = forloop.index %}
+		{% endfor %}
+		{% if slug_depth == page_depth and page_parent == node_parent %}
+			<div class="tutorial-link-box">
+				<a href="{{ node.url }}" ><img src="{{ node.thumbnail }}" />
+				<a class="title" href="{{ node.url }}" >{{ node.title }}</a>
+				<p>{{ node.tag }}</p>
+			</div>
+		{% endif %}
+		{% if slug_depth == 1 and page.url == '/' and slug != 'search.json' and   slug != 'sitemap.xml' %}
+			<div class="tutorial-link-box">
+				<a href="{{ node.url }}" ><img src="{{ node.thumbnail }}" />
+				<a class="title" href="{{ node.url }}" >{{ node.title }}</a>
+				<p>{{ node.tag }}</p>
+			</div>
+		{% endif %}
+	{% endif %}
+{% endfor %}

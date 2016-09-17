@@ -4,7 +4,7 @@ title: "Smiley Face"
 slug: smiley-face
 thumbnail: "/examples/processing/calling-functions/images/smiley-face-1.png"
 tag: "Draw a smiley face."
-categories: examples, processing, calling-functions
+categories: [examples,processing,calling-functions]
 ---
 
 ```java
