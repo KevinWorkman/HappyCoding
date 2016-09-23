@@ -34,7 +34,7 @@ One thing I will resist is if you scrape the content of the site and upload it t
 
 ## Can I submit changes to the content?
 
-Absolutely! Happy Coding is a [GitHub project](https://github.com/KevinWorkman/HappyCoding), so the process of submitting a change is pretty standard. More info on this coming soon.
+Absolutely! Happy Coding is a [GitHub project](https://github.com/KevinWorkman/HappyCoding), so the process of submitting a change is pretty standard. Go [here](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing) for more info on how you can contribute.
 
 ## I still have a question!
 
