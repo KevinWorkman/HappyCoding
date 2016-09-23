@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 The content on [HappyCoding.io](http://HappyCoding.io) is released under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) (view the long version [here](https://creativecommons.org/licenses/by/4.0/legalcode)) open source license.
 
 ## What does this mean?
