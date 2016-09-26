@@ -31,4 +31,4 @@ Happy Coding is also on [Facebook](http://www.facebook.com/HappyCoding.io), alth
 
 ### [Email](mailto:kevin@HappyCoding.io.)
 
-If all else fails, feel free to email me at [kevin@HappyCoding.io](mailto:kevin@HappyCoding.io.)
+If all else fails, feel free to email me at [kevin@HappyCoding.io](mailto:kevin@HappyCoding.io)
