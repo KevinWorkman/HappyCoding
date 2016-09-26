@@ -38,4 +38,4 @@ Absolutely! Happy Coding is a [GitHub project](https://github.com/KevinWorkman/H
 
 ## I still have a question!
 
-Please [contact me](http://forum.HappyCoding.io) if you have any other questions, or if you just want to chat about anything on the site.
+Please [contact me](http://HappyCoding.io/about/contact.html) if you have any other questions, or if you just want to chat about anything on the site.
