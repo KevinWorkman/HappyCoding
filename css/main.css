@@ -6,6 +6,9 @@ p {
 	font-size: 1.1em;
 }
 
+.content img{
+	max-width:95%;
+}
 
 .transition{
 	-webkit-transition: background-color 10s linear, color 10s linear;

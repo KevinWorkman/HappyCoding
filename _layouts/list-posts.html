@@ -4,7 +4,8 @@ layout: default
 {% assign pageCategories = page.categories | join ' ' | append: ' '%}
 {% assign pageCategoriesSize = page.categories.size %}
 <h1>{{ cat }}</h1>
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: 'sort-key' %}
+{% for post in sorted_posts %}
 	{% assign postCategories = '' %}
 	{% for thispostcat in post.categories limit: pageCategoriesSize %}
 		{% assign postCategories = postCategories | append: thispostcat %}

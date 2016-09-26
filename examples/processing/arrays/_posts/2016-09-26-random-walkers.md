@@ -73,9 +73,7 @@ Now that we have this code, we can easily make our program show `1000` random wa
 int count = 1000;
 ```
 
-Or we could only show 6 colors, and set them equal to the colors of the rainbow:
-
-![rainbow random walkers](images/random-walkers-4.png)
+![random walkers](images/random-walkers-4.png)
 
 Or we could modify the walking code so that they move up and down more than left and right:
 
@@ -84,7 +82,7 @@ x[i] += random(-.1, .1);
 y[i] += random(-1, 1);
 ```
 
-![vertical random walkers](images/random-walkers-5.png)
+![vertical random walkers](images/random-walkers-6.png)
     
 ## Tweak Ideas
 
