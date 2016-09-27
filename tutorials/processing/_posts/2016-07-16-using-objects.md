@@ -3,7 +3,7 @@ layout: tutorial
 title: "Using Objects"
 slug: using-objects
 thumbnail: "/tutorials/processing/images/using-objects-2.png"
-tag: "Srote a state in a variable."
+tag: "Store a state in a variable."
 sort-key: 1100
 ---
 
