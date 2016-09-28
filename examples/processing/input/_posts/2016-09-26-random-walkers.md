@@ -21,15 +21,6 @@ float[] b = new float[0];
 void setup() {
   size(200, 200);
 
-  for (int i = 0; i < x.length; i++) {
-    x[i] = random(width);
-    y[i] = random(height);
-
-    r[i] = random(256);
-    g[i] = random(256);
-    b[i] = random(256);
-  }
-
   background(200);
 
   noSmooth();
