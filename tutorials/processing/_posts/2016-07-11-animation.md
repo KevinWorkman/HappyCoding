@@ -234,7 +234,7 @@ void draw() {
 
 This program creates variables to hold the position of the ball (`circleX` and `circleY`), and two variables to hold the speed of the ball (`xSpeed` and `ySpeed`). Every frame, the code draws a ball at that position, and then moves the position by that speed. It then uses an `if` statement to check whether the ball has gone off the left or right side of the window, and reverses the `xSpeed` variable if it has. Similarly, it uses another `if` statement to check whether the ball has gone of the top or bottom of the window, and reverses the `ySpeed` variable if it has. This causes the ball to bounce off every side of the window.
 
-![bouncing ball](/tutorials/processing/images/animation-4.png)
+![bouncing ball](/tutorials/processing/images/animation-4.gif)
 
 This is where things get really interesting. Try playing around with the variables in this program to see what happens. What happens if you randomize the position or speed, either at the beginning or when you go off the edge of the window? What happens if you use `mouseX` and `mouseY` to set the speed or position?
 
