@@ -12,6 +12,8 @@ In other words, this site is now at the [minimum viable product](https://en.wiki
 
 We even have our [first question on the forum](http://forum.happycoding.io/t/processing-code-problem/16) and our [first open source contribution](https://github.com/KevinWorkman/HappyCoding/commits?author=bigbass1997) (thanks Luke!), which is pretty neat.
 
+Writing the examples was really fun, and it brought me back to exactly what I love about programming: creating bite-sized programs that invite experimentation. That feeling of "what would happen if I changed this variable..." is exactly how programming should feel, and it's the whole point of starting this site.
+
 ![random walker art](/examples/processing/animation/images/random-walker-3.png)
 
 (If you like this art, see [the random walker example](/examples/processing/animation/random-walker) to find out how to create it!)
