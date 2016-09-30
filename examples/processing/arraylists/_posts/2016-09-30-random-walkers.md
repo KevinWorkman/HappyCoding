@@ -1,0 +1,75 @@
+---
+layout: tutorial
+title: Random Walkers
+slug: random-walkers
+thumbnail: /examples/processing/arraylists/images/random-walkers-1.gif
+tag: Randomly colored random walkers.
+sort-key: 300
+---
+
+This example takes [the previous Random Walker example](/examples/processing/input/random-walker.html) and uses an `ArrayList` instead of an array.
+
+```java
+ArrayList<RandomWalker> randomWalkers = new ArrayList<RandomWalker>();
+
+void setup() {
+  size(200, 200);
+
+  background(200);
+
+  noSmooth();
+  frameRate(1000);
+}
+
+void draw() {
+  for (RandomWalker rw : randomWalkers) {
+    rw.step();
+    rw.draw();
+  }
+}
+
+void mouseDragged() {
+  randomWalkers.add(new RandomWalker());
+}
+
+class RandomWalker {
+  float x = mouseX;
+  float y = mouseY;
+  float r = random(256);
+  float g = random(256);
+  float b = random(256);
+
+  void step() {
+
+    x += random(-1, 1);
+    y += random(-1, 1);
+
+    if (x < 0) {
+      x = width;
+    }
+    if (x > width) {
+      x = 0;
+    }
+
+    if (y < 0) {
+      y = height;
+    }
+    if (y > height) {
+      y = 0;
+    }
+  }
+
+  void draw() {
+    stroke(r, g, b);
+    point(x, y);
+  }
+}
+```
+
+![random walkers](images/random-walkers-2.gif)
+    
+## Tweak Ideas
+
+- Make it so the random walkers die when they exit the screen by removing them from the `ArrayList`.
+- Make it so the random walkers die after a certain number of steps.
+- Base the movement direction of each random walker off the direction the mouse is moving when the user clicks.
