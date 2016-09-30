@@ -22,7 +22,16 @@ title: Happy Coding
 
 <hr />
 
+<h2>New Examples</h2>
+{% for post in site.categories.examples reversed limit:3 | sort: 'sort' %}
+	<div class="tutorial-link-box">
+		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+		<p>{{ post.tag }}</p>
+	</div>
+{% endfor %}
 
+<hr />
 
 <h2>Latest Blog Post</h2>
 {% for post in site.categories.blog limit:1 %}
