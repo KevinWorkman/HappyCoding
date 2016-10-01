@@ -18,10 +18,10 @@ Before we get into variables, let's take a step back and talk about **values**.
 Values are the numbers you've been passing into functions as parameters. For example:
 
 ```java
-ellipse(100, 200, 30, 20);
+ellipse(50, 75, 30, 20);
 ```
 
-This line of code passes the values `100`, `200`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse, respectively.
+This line of code passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse, respectively.
 
 ![ellipse](/tutorials/processing/images/using-variables-1.png)
 
@@ -32,12 +32,14 @@ At their most simple level, computers are just calculators. They crunch numbers 
 You can apply an operator to two values to get a third value, and you can then use that new value just like you can use any other value. So we can rewrite the above line of code like this:
 
 ```java
-ellipse(50+50, 300-100, 3*10, 40/2);
+ellipse(10+40, 300-225, 3*10, 40/2);
 ```
 
-This line of code does the exact same thing: passes the values `100`, `200`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse, respectively.
+This line of code does the exact same thing: passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse, respectively.
 
 The difference is that these values are obtained by applying operators to other values.
+
+{% include codepen.html slugh-hash="wzAJNL" height="175" %}
 
 ## Things Change
 
@@ -55,6 +57,8 @@ ellipse(100, 100, 150, 150);
 fill(255, 0, 0);
 ellipse(100, 100, 100, 100);
 ```
+
+{% include codepen.html slugh-hash="xEXqBX" height="275" %}
 
 This program creates a window that's `200x200` pixels. It then changes its fill color to red and draws a circle at `100,100` with a size of `200, 200`. This fills the window with a red circle, since `100,100` is the center of the window and `200,200` is the size of the window. The program then changes its fill color to white and draws a slightly smaller white circle overtop of the red circle. Then it changes the color back to red and draws a smaller circle overtop of that white circle.
 
@@ -148,7 +152,7 @@ We only have to change the value we're operating on, not the operators themselve
 
 This is **better** since we don't have to do any math, but we still have to change our code in a bunch of different places. Wouldn't it be nice of Processing could keep track of the width and height of the window for us?
 
-Luckily for us, it can! This is where **variables** become useful:
+Luckily for us, it can! This is where **variables** become useful.
 
 ## What are variables?
 
@@ -188,7 +192,9 @@ fill(255, 0, 0);
 ellipse(width/2, height/2, width/2, height/2);
 ```
 
-Now whenever we want to change the size of the window, we only have to change one line!
+{% include codepen.html slugh-hash="QKqpPw" height="225" %}
+
+Now whenever we want to change the size of the window, we only have to change one line! Try changing the parameters we're passing into the `size()` function to see the target change size automatically.
 
 ## Homework
 

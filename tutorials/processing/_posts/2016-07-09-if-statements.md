@@ -138,6 +138,8 @@ If `isGradeA` is **not** true (in other words, if it's `false` (in other other w
 
 Since `isGradeA` is now `false`, the body of the `if` statement is **not** executed, and it skips over all of the code inside the body.
 
+{% include codepen.html slugh-hash="pEWPJb" height="175" %}
+
 ## Boolean Values and Variables
 
 So far we've been splitting up the inequality and the `if` statement into two steps: first we create a `boolean` variable, and then we use that variable in an `if` statement. But we could combine that into a single step:
@@ -246,6 +248,8 @@ else{
 This code uses an `if` statement to detect whether `score >= 90`. If it is, then it draws a "Congratulations!" message. If not, it goes to the first `else-if` statement and checks whether `score >= 80`. If it is, then it draws a "Good job!" message. If not, then it goes to the next `else-if` statement and checks whether `score >= 70`. If it is, then it draws a "Just okay." message. If not, then it goes to the next `else-if` statement and checks whether `score >= 60`. If it is, then it draws a "Not good!" message. If not, then it goes to the `else` statement and draws a "Study more!" message.
 
 Try changing the `score` variable to see the different messages.
+
+{% include codepen.html slugh-hash="dpVWoq" height="175" %}
 
 ## Avoid Unncessary Checks
 

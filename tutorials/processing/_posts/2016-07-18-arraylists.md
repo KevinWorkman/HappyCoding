@@ -196,6 +196,8 @@ class Circle {
 
 ![explosions](/tutorials/processing/images/arraylists-1.gif)
 
+{% include codepen.html slugh-hash="LRzyra" height="375" %}
+
 ## Homework
 
 - Modify the fireworks program to use random colors and sizes. Make the circles fade over time.

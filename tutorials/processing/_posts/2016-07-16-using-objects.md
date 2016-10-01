@@ -53,7 +53,6 @@ ellipse(circleX, circleY, 15, 15);
 
 ![circle](/tutorials/processing/images/using-objects-1.png)
 
-
 This is a very simple example, but imagine it getting more complicated as we add speed, color, and size, along with multiple circles. Eventually we'll want to store all of that in objects, but for now let's just use the two position values as an example.
 
 The `circleX` and `circleY` variables represent the state of the circle, and we want to store that state in an object instead. So we need a **class** that contains `x` and `y` variables. Luckily, Processing has a **class** named `PVector` that represents a position.
@@ -102,6 +101,8 @@ ellipse(yelllowCircle.x, yelllowCircle.y, 40, 40);
 This code creates four instances of `PVector`, each with different `x,y` coordinates.
 
 ![four circles](/tutorials/processing/images/using-objects-2.png)
+
+{% include codepen.html slugh-hash="NRajBb" height="175" %}
 
 ## Objects have functions
 

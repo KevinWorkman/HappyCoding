@@ -77,6 +77,8 @@ First, this code declares a variable named `circleY` and initializes it to point
 
 ![falling circle](/tutorials/processing/images/animation-1.gif)
 
+{% include codepen.html slugh-hash="ORxmyK" height="175" %}
+
 ## Scope
 
 Notice that we're declaring the `circleY` variable at the top of the sketch, outside the `draw()` function. That line of code is run once at the very beginning of the program.
@@ -134,7 +136,7 @@ void draw(){
 }
 ```
 
-This program declares the `circleY` variable at the sketch level. Then in the `setup()` function, it sets the size and initializes the `circleY` variable to point to `height/2`. Note that if we tried this assignment at the top of the sketch, it wouldn't work because the size hadn't been set yet! Finally, the `draw()` funtion uses the `circleY` variable and then reassigns it to create an animation.
+This program declares the `circleY` variable at the sketch level. Then in the `setup()` function, it sets the size and initializes the `circleY` variable to point to `height/2`. Note that if we tried this assignment at the top of the sketch, it wouldn't work because the size hasn't been set yet! Finally, the `draw()` funtion uses the `circleY` variable and then reassigns it to create an animation.
 
 ## Resetting
 
@@ -162,6 +164,8 @@ This code is mostly the same: we declare a variable named `circleY`, initialize 
 The new part is the `if` statement. After we reassign the `circleY` variable, we check whether its new value is greater than `height`. If it is, then we reassign it to point to the value `0`. The next time the `draw()` function is called, `circleY` will be `0`, the circle will be drawn at the top of the window, and we start the animation over again.
 
 ![resetting circle](/tutorials/processing/images/animation-2.gif)
+
+{% include codepen.html slugh-hash="GjrmoL" height="175" %}
 
 ## Bouncing
 
@@ -235,6 +239,8 @@ void draw() {
 This program creates variables to hold the position of the ball (`circleX` and `circleY`), and two variables to hold the speed of the ball (`xSpeed` and `ySpeed`). Every frame, the code draws a ball at that position, and then moves the position by that speed. It then uses an `if` statement to check whether the ball has gone off the left or right side of the window, and reverses the `xSpeed` variable if it has. Similarly, it uses another `if` statement to check whether the ball has gone of the top or bottom of the window, and reverses the `ySpeed` variable if it has. This causes the ball to bounce off every side of the window.
 
 ![bouncing ball](/tutorials/processing/images/animation-4.gif)
+
+{% include codepen.html slugh-hash="rrGmZj" height="175" %}
 
 This is where things get really interesting. Try playing around with the variables in this program to see what happens. What happens if you randomize the position or speed, either at the beginning or when you go off the edge of the window? What happens if you use `mouseX` and `mouseY` to set the speed or position?
 
