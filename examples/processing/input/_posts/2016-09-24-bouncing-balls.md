@@ -63,6 +63,8 @@ This code uses the [`append()`](https://processing.org/reference/append_.html) f
 
 ![bouncing balls](images/bouncing-balls-1.gif)
 
+{% include codepen.html slug-hash="qaPXAA" height="275" %}
+
 ## Tweak Ideas
 
 - What happens if you use the `mouseDragged()` function instead of the `mousePressed()` function?

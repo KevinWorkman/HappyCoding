@@ -64,6 +64,8 @@ void mousePressed() {
 This code uses the [`append()`](https://processing.org/reference/append_.html) function which takes an array and a new element, and returns a new array that contains everything the first array held, plus the new element. By setting our arrays equal to these new arrays, we're essentially adding new values to the arrays.
 
 ![random walkers](images/random-walkers-1.gif)
+
+{% include codepen.html slug-hash="GjrvWd" height="275" %}
     
 ## Tweak Ideas
 

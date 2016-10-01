@@ -29,6 +29,8 @@ This code uses a nested `for` loop to loop over every pixel in the window. For e
 
 ![random colors](/examples/processing/for-loops/images/random-colors-1.png)
 
+{% include codepen.html slug-hash="ALQopv" height="175" %}
+
 ## Tweak Ideas
 
 - Instead of drawing a random color, use the [`noise()`](https://processing.org/reference/noise_.html) function to come up with a shade of gray for each pixel. Read more about [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) for more info.

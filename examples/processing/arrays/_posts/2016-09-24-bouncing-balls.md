@@ -60,6 +60,8 @@ void draw() {
 
 ![10 bouncing balls](/examples/processing/arrays/images/bouncing-balls-1.gif)
 
+{% include codepen.html slug-hash="vXZJyW" height="175" %}
+
 Now that we have this code, we can easily make our program show `100` balls, just by changing the first line:
 
 ```java

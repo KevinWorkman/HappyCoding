@@ -81,6 +81,8 @@ This code uses variables along with the `random()` function to procedurally gene
 
 ![random faces](/examples/processing/creating-functions/images/random-faces-1.gif)
 
+{% include codepen.html slug-hash="rrGzLB" height="275" %}
+
 ## Tweak Ideas
 
 - Randomly generate an entire crowd.

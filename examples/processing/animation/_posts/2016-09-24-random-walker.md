@@ -64,6 +64,9 @@ This code does what we described above: starts a point in the middle of the scre
 
 ![random walker](/examples/processing/animation/images/random-walker-1.gif)
 
+{% include codepen.html slug-hash="xEXLEE" height="175" %}
+
+
 From here we could expand our code to include another random walker:
 
 ```java
@@ -138,7 +141,9 @@ This program adds another set of variables and does the exact same logic.
 
 ![two random walkers](/examples/processing/animation/images/random-walker-2.gif)
 
-Or we could go back to a single walker, but add `random(-1, 1)` to the value we pass into the `stroke()` function:
+{% include codepen.html slug-hash="Gjrvjx" height="175" %}
+
+Or we could go back to a single walker, but add `random(-1, 1)` to the value we pass into the `stroke()` function. In other words, we could walk **the color** as well as **the position**.
 
 ![randomly grayscale random walker](/examples/processing/animation/images/random-walker-4.png)
 

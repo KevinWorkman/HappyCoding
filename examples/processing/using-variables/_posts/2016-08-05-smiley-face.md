@@ -69,6 +69,8 @@ Keep in mind that our original window had a `width` and a `height` of `200`. The
 
 We repeat that process for every number we want to scale. That might seem like an annoying process, but it becomes more automatic with practice.
 
+{% include codepen.html slug-hash="YGAxqx" height="275" %}
+
 ## Tweak Ideas
 
 - Change the color of the face based on the size of the window. Make wider faces more red, taller faces more blue.

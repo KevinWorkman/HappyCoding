@@ -80,6 +80,8 @@ This code might seem complicated, but when writing a program like this, you only
 
 The point is, you don't write this entire program at one time. You focus on one small piece at a time.
 
+{% include codepen.html slug-hash="WGkEwL" height="275" %}
+
 ## Tweak Ideas
 
 - Randomly generate a flower, or a tree, or your favorite animal.

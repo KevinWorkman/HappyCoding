@@ -41,11 +41,13 @@ void draw() {
 
 This program uses `if` statements to display a different message depending on what time of day it is:
 
-![good morning(/examples/processing/if-statements/images/good-morning-1.png)
+![good morning](/examples/processing/if-statements/images/good-morning-1.png)
 
 This program also uses the `draw()` function, so our code is run 60 times per second. This means that our message will change as soon as the time of day changes. Test this out by running this code and then changing the time on your computer.
 
 If we didn't use the `draw()` function, our program would only check the time once, at the very beginning of the program.
+
+{% include codepen.html slug-hash="YGAxWA" height="175" %}
 
 ## Tweak Ideas
 

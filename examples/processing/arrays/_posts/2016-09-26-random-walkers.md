@@ -67,6 +67,8 @@ void draw(){
 
 ![100 random walkers](images/random-walkers-2.gif)
 
+{% include codepen.html slug-hash="yazorB" height="275" %}
+
 Now that we have this code, we can easily make our program show `1000` random walkers, just by changing the first line:
 
 ```java

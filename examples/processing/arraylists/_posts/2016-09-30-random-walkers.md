@@ -68,7 +68,7 @@ class RandomWalker {
 
 ![random walkers](images/random-walkers-2.gif)
 
-{% include codepen.html slugh-hash="vXZxYJ" height="275" %}
+{% include codepen.html slug-hash="vXZxYJ" height="275" %}
     
 ## Tweak Ideas
 
