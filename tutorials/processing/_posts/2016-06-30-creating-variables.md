@@ -143,7 +143,7 @@ ellipse(targetX, targetY, targetSize/2, targetSize/2);
 
 Finally, this section of code draws the middle ring of the target. First it changes the fill color to red, then it draws a circle at the same position, but with a diameter of `targetSize/2` (which is the same thing as `targetSize*.5`). This makes the middle ring even smaller than the second ring.
 
-{% include codepen.html slugh-hash="rrGyEr" height="225" %}
+{% include codepen.html slug-hash="rrGyEr" height="225" %}
 
 ## Changing Variables
 
@@ -185,7 +185,7 @@ float targetSize = 50;
 
 Now the `targetX` variable will hold a random value between `0` and `width`, and `targetX` will hold a random value between `0` and `height`. This causes our target to appear in a different position every time we run the program. We could also give the target a random size, or even random colors!
 
-{% include codepen.html slugh-hash="xEXqoP" height="225" %}
+{% include codepen.html slug-hash="xEXqoP" height="225" %}
 
 (Hint: Click the "rerun" button that appears in the lower-right when you mouse over the right side of the editor.)
 

@@ -196,7 +196,7 @@ class Circle {
 
 ![explosions](/tutorials/processing/images/arraylists-1.gif)
 
-{% include codepen.html slugh-hash="LRzyra" height="375" %}
+{% include codepen.html slug-hash="LRzyra" height="375" %}
 
 ## Homework
 

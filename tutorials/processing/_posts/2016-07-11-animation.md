@@ -77,7 +77,7 @@ First, this code declares a variable named `circleY` and initializes it to point
 
 ![falling circle](/tutorials/processing/images/animation-1.gif)
 
-{% include codepen.html slugh-hash="ORxmyK" height="175" %}
+{% include codepen.html slug-hash="ORxmyK" height="175" %}
 
 ## Scope
 
@@ -165,7 +165,7 @@ The new part is the `if` statement. After we reassign the `circleY` variable, we
 
 ![resetting circle](/tutorials/processing/images/animation-2.gif)
 
-{% include codepen.html slugh-hash="GjrmoL" height="175" %}
+{% include codepen.html slug-hash="GjrmoL" height="175" %}
 
 ## Bouncing
 
@@ -240,7 +240,7 @@ This program creates variables to hold the position of the ball (`circleX` and `
 
 ![bouncing ball](/tutorials/processing/images/animation-4.gif)
 
-{% include codepen.html slugh-hash="rrGmZj" height="175" %}
+{% include codepen.html slug-hash="rrGmZj" height="175" %}
 
 This is where things get really interesting. Try playing around with the variables in this program to see what happens. What happens if you randomize the position or speed, either at the beginning or when you go off the edge of the window? What happens if you use `mouseX` and `mouseY` to set the speed or position?
 

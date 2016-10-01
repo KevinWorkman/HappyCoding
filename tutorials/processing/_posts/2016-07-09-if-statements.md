@@ -138,7 +138,7 @@ If `isGradeA` is **not** true (in other words, if it's `false` (in other other w
 
 Since `isGradeA` is now `false`, the body of the `if` statement is **not** executed, and it skips over all of the code inside the body.
 
-{% include codepen.html slugh-hash="pEWPJb" height="175" %}
+{% include codepen.html slug-hash="pEWPJb" height="175" %}
 
 ## Boolean Values and Variables
 
@@ -249,7 +249,7 @@ This code uses an `if` statement to detect whether `score >= 90`. If it is, then
 
 Try changing the `score` variable to see the different messages.
 
-{% include codepen.html slugh-hash="dpVWoq" height="175" %}
+{% include codepen.html slug-hash="dpVWoq" height="175" %}
 
 ## Avoid Unncessary Checks
 

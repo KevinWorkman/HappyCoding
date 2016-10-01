@@ -44,6 +44,8 @@ This code calls a series of functions do draw a smiley face:
 
 The `arc()` function takes 6 parameters: the first 4 parameters define an ellipse, and the last 2 parameters specify a limit (in [radians](https://en.wikipedia.org/wiki/Radian)) that causes the computer to only draw part of the ellipse. In radians, `0` is the right-most point of the ellipse, and `pi` (we're using `3.14` which is close enough) is the left-most point of the ellipse. That lets us draw only half the ellipse for the mouth.
 
+{% include codepen.html slug-hash="LRzjYb" height="275" %}
+
 ## Tweak Ideas
 
 - Change the face to a frown face :frowning:

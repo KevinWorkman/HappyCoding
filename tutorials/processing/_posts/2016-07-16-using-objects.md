@@ -102,7 +102,7 @@ This code creates four instances of `PVector`, each with different `x,y` coordin
 
 ![four circles](/tutorials/processing/images/using-objects-2.png)
 
-{% include codepen.html slugh-hash="NRajBb" height="175" %}
+{% include codepen.html slug-hash="NRajBb" height="175" %}
 
 ## Objects have functions
 

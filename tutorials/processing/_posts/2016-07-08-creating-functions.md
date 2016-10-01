@@ -109,7 +109,7 @@ void draw() {
 
 ![mouse circle](/tutorials/processing/images/creating-functions-2.gif)
 
-{% include codepen.html slugh-hash="ZpXKzZ" height="275" %}
+{% include codepen.html slug-hash="ZpXKzZ" height="275" %}
 
 We call each call to the `draw()` function a **frame**. To better see what's happening each frame, we can get rid of the call to the `background()` function:
 
@@ -201,7 +201,7 @@ The `drawTarget()` function doesn't have to change at all. Each time we call it,
 
 ![4 targets](/tutorials/processing/images/creating-functions-4.png)
 
-{% include codepen.html slugh-hash="amLWbV" height="475" %}
+{% include codepen.html slug-hash="amLWbV" height="475" %}
 
 We could also draw a target that follows the mouse:
 

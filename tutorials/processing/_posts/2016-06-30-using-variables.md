@@ -39,7 +39,7 @@ This line of code does the exact same thing: passes the values `50`, `75`, `30`,
 
 The difference is that these values are obtained by applying operators to other values.
 
-{% include codepen.html slugh-hash="wzAJNL" height="175" %}
+{% include codepen.html slug-hash="wzAJNL" height="175" %}
 
 ## Things Change
 
@@ -58,7 +58,7 @@ fill(255, 0, 0);
 ellipse(100, 100, 100, 100);
 ```
 
-{% include codepen.html slugh-hash="xEXqBX" height="275" %}
+{% include codepen.html slug-hash="xEXqBX" height="275" %}
 
 This program creates a window that's `200x200` pixels. It then changes its fill color to red and draws a circle at `100,100` with a size of `200, 200`. This fills the window with a red circle, since `100,100` is the center of the window and `200,200` is the size of the window. The program then changes its fill color to white and draws a slightly smaller white circle overtop of the red circle. Then it changes the color back to red and draws a smaller circle overtop of that white circle.
 
@@ -192,7 +192,7 @@ fill(255, 0, 0);
 ellipse(width/2, height/2, width/2, height/2);
 ```
 
-{% include codepen.html slugh-hash="QKqpPw" height="225" %}
+{% include codepen.html slug-hash="QKqpPw" height="225" %}
 
 Now whenever we want to change the size of the window, we only have to change one line! Try changing the parameters we're passing into the `size()` function to see the target change size automatically.
 
