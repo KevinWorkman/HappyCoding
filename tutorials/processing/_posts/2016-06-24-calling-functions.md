@@ -64,6 +64,12 @@ Open up your Processing editor, type that line of code, and then hit the run but
 
 ![ellipse](/tutorials/processing/images/calling-functions-1.png)
 
+If you don't feel like opening up your Processing editor, you can run the code directly in this online editor:
+
+{% include codepen.html slugh-hash="EgwaxP" height="173" %}
+
+If this is your first time seeing the online editor, you might want to [read more about it](/about/codepen.html).
+
 Try changing the parameters to see what happens. Can you draw an ellipse in the upper-left corner? The lower-right corner? Can you make an ellipse that fills up the whole window? Can you make a very tall ellipse, or a very fat ellipse?
 
 ## The Processing Reference
@@ -86,7 +92,7 @@ So we can modify our program to draw a rectangle instead:
 rect(10, 20, 80, 70);
 ```
 
-Type this line of code into your Processing editor and hit the run button, and you should see this:
+Type this line of code into your Processing editor (or into the online editor above) and hit the run button, and you should see this:
 
 ![rect](/tutorials/processing/images/calling-functions-1.png)
 
@@ -100,6 +106,8 @@ For example, we might ask ourselves how we might increase the size of the window
 size(500, 300);
 ellipse(250, 150, 300, 100);
 ```
+
+{% include codepen.html slugh-hash="PGJwXL" height="393" %}
 
 This program tells Processing to make the window `500` pixels wide and `300` pixels tall. It then tells Processing to draw a circle with an `x` of `250`, `y` of `150`, `width` of `300`, and a `height` of `100`. Type these lines of code into your Processing editor and hit run, and you should see this:
 
@@ -140,6 +148,8 @@ ellipse(150, 150, 100, 100);
 ![colored circles](/tutorials/processing/images/calling-functions-5.png)
 
 Notice that the call to `fill(255, 255, 0)` mixes red and green together to make yellow. If you're unfamiliar with RGB colors, try playing with the parameters to mix different colors together.
+
+{% include codepen.html slugh-hash="ozGgmd" height="362" %}
 
 ## Homework
 

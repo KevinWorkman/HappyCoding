@@ -15,7 +15,9 @@ function getNavColorFromCookie(){
 		if(navColor){
 			$(".navbar").removeClass("transition");
 			$(".navbar").css('background-color', navColor);
-			setTimeout(function(){ $(".navbar").addClass("transition");}, 0);
+			setTimeout(function(){
+				$(".navbar").addClass("transition");
+			}, 0);
 		}
 		else{
 			randomizeNavColor();
