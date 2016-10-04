@@ -3,6 +3,8 @@ layout: default
 title: Useful Links
 ---
 
+This page contains a bunch of useful and/or interesting links. Some of these are utilitarian, some of them are great time wasters when you're bored, and some of them are just neat to look at.
+
 ## Discussion
 
 - [forum.HappyCoding.io](http://forum.HappyCoding.io)
@@ -18,6 +20,8 @@ title: Useful Links
 - [GitHub Blog](https://github.com/blog)
 
 ## Outreach
+
+These organizations help reach out to girls, minorities, and other under-represented groups in Computer Science. Some of them offer curriculums specifically designed for this, or they hold workshops and educational camps that you (or your kids) can attend.
 
 - [Girls Make Games](http://girlsmakegames.com/)
 - [Black Girls Code](http://www.blackgirlscode.com/)
@@ -49,6 +53,8 @@ title: Useful Links
 
 ## Learn
 
+- [Daniel Shiffman](http://shiffman.net/)
+- [Coding Rainbow](http://codingrainbow.com/)
 - [Computer Science Education Week](https://csedweek.org/)
 - [Hour of Code](https://hourofcode.com)
 - [Code.org](https://code.org/)
@@ -58,6 +64,8 @@ title: Useful Links
 
 ## Code Jams
 
+Code jams are like programming competitions, but with less of a focus on strict rules and more of a focus on the fun of getting something done in a short amount of time. You'd be surprised what you can do in 48 hours, or in a month!
+
 - [Ludum Dare](http://ludumdare.com/compo/)
 - [Compo Hub](http://compohub.net/)
 - [One Game a Month](http://www.onegameamonth.com/)
@@ -66,7 +74,13 @@ title: Useful Links
 
 ## Art
 
-##Stack Overflow
+- [Aaron Koblin](http://www.aaronkoblin.com/)
+- [Casey REAS](http://reas.com/)
+- [Ben Fry](http://www.benfry.com/projects/)
+- [Processing Exhibition](https://processing.org/exhibition/)
+- [Processing.js Exhibition](http://processingjs.org/exhibition/)
+
+## Stack Overflow
 
 - [Processing Supertag](http://stackoverflow.com/questions/tagged/processing%20processing.js%20p5.js%20processing-ide?mode=any) (Individual tags: [`processing`](http://stackoverflow.com/questions/tagged/processing), [`processing.js`](http://stackoverflow.com/questions/tagged/processing.js), [`p5.js`](http://stackoverflow.com/questions/tagged/p5.js) and [`processing-ide`](http://stackoverflow.com/questions/tagged/processing-ide))
 - [Jekyll Tag](http://stackoverflow.com/questions/tagged/jekyll)
@@ -83,8 +97,12 @@ title: Useful Links
 
 ## Wikipedia
 
+These are fun entry points into some really interesting topics. Down the rabbit hole! :rabbit:
+
 - [Emergence](https://en.wikipedia.org/wiki/Emergence)
 - [Creative Coding](https://en.wikipedia.org/wiki/Creative_coding)
+- [The Singularity](https://en.wikipedia.org/wiki/Technological_singularity)
+- [Ant Colony Optimization](https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms)
 
 ## Reference
 
@@ -92,3 +110,30 @@ title: Useful Links
 - [Processing.js Reference](http://processingjs.org/reference/)
 - [P5.js Reference](https://p5js.org/reference/)
 - [Java API](https://docs.oracle.com/javase/8/docs/api/)
+
+## GitHub
+
+- [Happy Coding](https://github.com/KevinWorkman/HappyCoding)
+- [Processing Foundation](https://github.com/processing)
+- [Processing Core](https://github.com/processing/processing)
+- [P5.js](https://github.com/processing/p5.js)
+
+## Game Engines
+
+- [libGDX](https://libgdx.badlogicgames.com/) If you're interested in game development, learning libGDX should be your goal.
+- [JMonkeyEngine](http://jmonkeyengine.org/) I've never actually used JMonkeyEngine, but their 3D demos are pretty impressive.
+- [JogAmp](https://jogamp.org/) (Not really a game engine, but an OpenGL wrapper that lets you do OpenGL from Java.)
+
+## Sound
+
+Need sounds for your program or game?
+
+- [Freesound.org](https://www.freesound.org/) Find public domain sounds and music.
+- [sfxr](http://www.drpetter.se/project_sfxr.html) Generate chiptune sound files.
+- [bfxr](http://www.bfxr.net/) Sequel to sfxr.
+
+## Coding for Younger Kids
+
+- [Scratch](https://scratch.mit.edu/)
+- [Secret Coders](http://www.secret-coders.com/)
+- [Lightbot](https://lightbot.com/)
