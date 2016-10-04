@@ -128,9 +128,12 @@ These are fun entry points into some really interesting topics. Down the rabbit 
 
 Need sounds for your program or game?
 
-- [Freesound.org](https://www.freesound.org/) Find public domain sounds and music.
-- [sfxr](http://www.drpetter.se/project_sfxr.html) Generate chiptune sound files.
-- [bfxr](http://www.bfxr.net/) Sequel to sfxr.
+- [Freesound.org](https://www.freesound.org/) 
+ - Find public domain sounds and music.
+- [sfxr](http://www.drpetter.se/project_sfxr.html) 
+ - Generate chiptune sound files.
+- [bfxr](http://www.bfxr.net/) 
+ - Sequel to sfxr.
 
 ## Coding for Younger Kids
 
