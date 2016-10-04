@@ -103,6 +103,10 @@ These are fun entry points into some really interesting topics. Down the rabbit 
 - [Creative Coding](https://en.wikipedia.org/wiki/Creative_coding)
 - [The Singularity](https://en.wikipedia.org/wiki/Technological_singularity)
 - [Ant Colony Optimization](https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms)
+- [Swarm Intelligence](https://en.wikipedia.org/wiki/Swarm_intelligence)
+- [Evolutionary Computation](https://en.wikipedia.org/wiki/Evolutionary_computation)
+- [Cellular Automaton](https://en.wikipedia.org/wiki/Cellular_automaton)
+- [Flocking](https://en.wikipedia.org/wiki/Flocking_(behavior))
 
 ## Reference
 
@@ -121,31 +125,31 @@ These are fun entry points into some really interesting topics. Down the rabbit 
 ## Game Engines
 
 - [libGDX](https://libgdx.badlogicgames.com/) 
- - If you're interested in game development, learning libGDX should be your goal.
+  - If you're interested in game development, learning libGDX should be your goal.
 - [JMonkeyEngine](http://jmonkeyengine.org/) 
- - I've never actually used JMonkeyEngine, but their 3D demos are pretty impressive.
+  - I've never actually used JMonkeyEngine, but their 3D demos are pretty impressive.
 - [JogAmp](https://jogamp.org/) 
- - Not really a game engine, but an OpenGL wrapper that lets you do OpenGL from Java.
+  - Not really a game engine, but an OpenGL wrapper that lets you do OpenGL from Java.
 
 ## Sound
 
 Need sounds for your program or game?
 
 - [Freesound.org](https://www.freesound.org/) 
- - Find public domain sounds and music.
+  - Find public domain sounds and music.
 - [sfxr](http://www.drpetter.se/project_sfxr.html) 
- - Generate chiptune sound files.
+  - Generate chiptune sound files.
 - [bfxr](http://www.bfxr.net/) 
- - Sequel to sfxr.
+  - Sequel to sfxr.
  
  ## Code Challenges
  
 - [Code Golf](http://codegolf.stackexchange.com/) 
- - Check out the [`graphical-output`](http://codegolf.stackexchange.com/questions/tagged/graphical-output) tag!
+  - Check out the [`graphical-output`](http://codegolf.stackexchange.com/questions/tagged/graphical-output) tag!
 - [Code Hunt](https://www.codehunt.com/)
- - Programming "game" by Microsoft. They do [interesting stuff](https://www.microsoft.com/en-us/research/project/code-hunt/) with data collection.
+  - Programming "game" by Microsoft. They do [interesting stuff](https://www.microsoft.com/en-us/research/project/code-hunt/) with data collection.
 - [Project Euler](https://projecteuler.net/) 
- - More math-oriented programming challenges.
+  - More math-oriented programming challenges.
 - [Google Code Jam](https://code.google.com/codejam)
 - [CodingBat](http://codingbat.com/java)
 - [CodeEval](https://www.codeeval.com/)
@@ -161,9 +165,9 @@ Need sounds for your program or game?
 
 - [Weka](http://www.cs.waikato.ac.nz/ml/weka/)
 - [Kaggle](https://www.kaggle.com/)
- - Offers [big data](https://en.wikipedia.org/wiki/Big_data) sets and interesting competitions about analyzing it. Sometimes prizes include money or job interviews.
+  - Offers [big data](https://en.wikipedia.org/wiki/Big_data) sets and interesting competitions about analyzing it. Sometimes prizes include money or job interviews.
  
  ## Other
  
 - [Google Summer of Code](https://developers.google.com/open-source/gsoc/)
- - Internships working on open source projects through Google!
+  - Internships working on open source projects through Google!
