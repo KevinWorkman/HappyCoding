@@ -82,10 +82,10 @@ Code jams are like programming competitions, but with less of a focus on strict 
 
 ## Stack Overflow
 
-- [Processing Supertag](http://stackoverflow.com/questions/tagged/processing%20processing.js%20p5.js%20processing-ide?mode=any) (Individual tags: [`processing`](http://stackoverflow.com/questions/tagged/processing), [`processing.js`](http://stackoverflow.com/questions/tagged/processing.js), [`p5.js`](http://stackoverflow.com/questions/tagged/p5.js) and [`processing-ide`](http://stackoverflow.com/questions/tagged/processing-ide))
+- [Processing Supertag](http://stackoverflow.com/questions/tagged/processing%20processing.js%20p5.js%20processing-ide?mode=any)
+ - (Individual tags: [`processing`](http://stackoverflow.com/questions/tagged/processing), [`processing.js`](http://stackoverflow.com/questions/tagged/processing.js), [`p5.js`](http://stackoverflow.com/questions/tagged/p5.js) and [`processing-ide`](http://stackoverflow.com/questions/tagged/processing-ide))
 - [Jekyll Tag](http://stackoverflow.com/questions/tagged/jekyll)
 - [GitHub Pages tag](http://stackoverflow.com/questions/tagged/github-pages)
-- [Code Golf](http://codegolf.stackexchange.com/) (check out the [`graphical-output`](http://codegolf.stackexchange.com/questions/tagged/graphical-output) tag!)
 - [User Experience](http://ux.stackexchange.com/)
 - [Arqade](http://gaming.stackexchange.com/)
 - [Code Review](http://codereview.stackexchange.com/)
@@ -120,9 +120,12 @@ These are fun entry points into some really interesting topics. Down the rabbit 
 
 ## Game Engines
 
-- [libGDX](https://libgdx.badlogicgames.com/) If you're interested in game development, learning libGDX should be your goal.
-- [JMonkeyEngine](http://jmonkeyengine.org/) I've never actually used JMonkeyEngine, but their 3D demos are pretty impressive.
-- [JogAmp](https://jogamp.org/) (Not really a game engine, but an OpenGL wrapper that lets you do OpenGL from Java.)
+- [libGDX](https://libgdx.badlogicgames.com/) 
+ - If you're interested in game development, learning libGDX should be your goal.
+- [JMonkeyEngine](http://jmonkeyengine.org/) 
+ - I've never actually used JMonkeyEngine, but their 3D demos are pretty impressive.
+- [JogAmp](https://jogamp.org/) 
+ - Not really a game engine, but an OpenGL wrapper that lets you do OpenGL from Java.
 
 ## Sound
 
@@ -134,9 +137,33 @@ Need sounds for your program or game?
  - Generate chiptune sound files.
 - [bfxr](http://www.bfxr.net/) 
  - Sequel to sfxr.
+ 
+ ## Code Challenges
+ 
+- [Code Golf](http://codegolf.stackexchange.com/) 
+ - Check out the [`graphical-output`](http://codegolf.stackexchange.com/questions/tagged/graphical-output) tag!
+- [Code Hunt](https://www.codehunt.com/)
+ - Programming "game" by Microsoft. They do [interesting stuff](https://www.microsoft.com/en-us/research/project/code-hunt/) with data collection.
+- [Project Euler](https://projecteuler.net/) 
+ - More math-oriented programming challenges.
+- [Google Code Jam](https://code.google.com/codejam)
+- [CodingBat](http://codingbat.com/java)
+- [CodeEval](https://www.codeeval.com/)
+- [CodeChef](https://www.codechef.com/)
 
 ## Coding for Younger Kids
 
 - [Scratch](https://scratch.mit.edu/)
 - [Secret Coders](http://www.secret-coders.com/)
 - [Lightbot](https://lightbot.com/)
+
+## Data Mining
+
+- [Weka](http://www.cs.waikato.ac.nz/ml/weka/)
+- [Kaggle](https://www.kaggle.com/)
+ - Offers [big data](https://en.wikipedia.org/wiki/Big_data) sets and interesting competitions about analyzing it. Sometimes prizes include money or job interviews.
+ 
+ ## Other
+ 
+- [Google Summer of Code](https://developers.google.com/open-source/gsoc/)
+ - Internships working on open source projects through Google!
