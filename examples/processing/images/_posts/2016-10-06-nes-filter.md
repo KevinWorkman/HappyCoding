@@ -91,3 +91,4 @@ Finally, the nested `for` loop inside the `setup()` function loops over every pi
 - Check out [this Wikipedia article](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes) and use the color palette from a different video game system.
 - Instead of applying the filter to an image, can you apply this filter to one of your other Processing sketches?
 - Make the filter look more "8 bit" by using blockier pixels.
+- Generate a random color palette and use that instead of the NES palette.
