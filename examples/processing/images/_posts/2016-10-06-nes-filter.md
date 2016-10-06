@@ -92,3 +92,4 @@ Finally, the nested `for` loop inside the `setup()` function loops over every pi
 - Instead of applying the filter to an image, can you apply this filter to one of your other Processing sketches?
 - Make the filter look more "8 bit" by using blockier pixels.
 - Generate a random color palette and use that instead of the NES palette.
+- Use the colors from one image as a palette to filter another image. (Hint: Use a picture of your significant other's eye as a palette to color a picture of you. Print it out and frame it. You've got yourself a nerdy and artistic gift. :gift:)
