@@ -80,7 +80,7 @@ void draw() {
 
 If this seems complicated, take it one section at a time. I got the values for the `nesPalette` array by looking at [this Wikipedia article](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes) (and then I was even lazier and googled "nes rgb values" and found [this page](http://www.thealmightyguru.com/Games/Hacking/Wiki/index.php?title=NES_Palette) which contained exactly the values I was looking for).
 
-The `getClosestNesColor()` takes an input color and returns the closest color from the `nesPalette` array. It does this by treating the `R,G,B` values of both the `in` color and every color in the `nesPalette` array as 3D points (in other words, it treats the `R,G,B` values as `X,Y,Z` values). Then the code just uses the `dist()` function (which returns the distance between two points) to find the cloest color.
+The `getClosestNesColor()` takes an input color and returns the closest color from the `nesPalette` array. It does this by treating the `R,G,B` values of both the `in` color and every color in the `nesPalette` array as 3D points (in other words, it treats the `R,G,B` values as `X,Y,Z` values). Then the code just uses the `dist()` function (which returns the distance between two points) to find the closest color.
 
 Finally, the nested `for` loop inside the `setup()` function loops over every pixel in the image, gets the color of that pixel, finds the closest color in the `nesPalette`, and then changes the pixel to that color.
 
