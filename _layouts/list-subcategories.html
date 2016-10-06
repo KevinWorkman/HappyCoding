@@ -20,18 +20,10 @@ layout: default
 			{% assign slug_depth = forloop.index %}
 		{% endfor %}
 		{% if slug_depth == page_depth and page_parent == node_parent %}
-			<div class="tutorial-link-box">
-				<a href="{{ node.url }}" ><img src="{{ node.thumbnail }}" />
-				<a class="title" href="{{ node.url }}" >{{ node.title }}</a>
-				<p>{{ node.tag }}</p>
-			</div>
+			{% include thumbnail.html url=node.url thumbnail=node.thumbnail title=node.title tag=node.tag  %}
 		{% endif %}
 		{% if slug_depth == 1 and page.url == '/' and slug != 'search.json' and   slug != 'sitemap.xml' %}
-			<div class="tutorial-link-box">
-				<a href="{{ node.url }}" ><img src="{{ node.thumbnail }}" />
-				<a class="title" href="{{ node.url }}" >{{ node.title }}</a>
-				<p>{{ node.tag }}</p>
-			</div>
+			{% include thumbnail.html url=node.url thumbnail=node.thumbnail title=node.title tag=node.tag  %}
 		{% endif %}
 	{% endif %}
 {% endfor %}

@@ -13,11 +13,7 @@ layout: default
 	{% endfor %}
 
 	{% if (postCategories == pageCategories) %}
-	<div class="tutorial-link-box">
-		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
-		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
-		<p>{{ post.tag }}</p>
-	</div>
+		{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tag=post.tag  %}
 	{% endif %}
 {% endfor %}
 

@@ -12,23 +12,14 @@ title: Happy Coding
 
 <h2>New Tutorials</h2>
 {% for post in site.categories.tutorials reversed limit:3 | sort: 'sort' %}
-	<div class="tutorial-link-box">
-		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
-		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
-		<p>{{ post.tag }}</p>
-	</div>
-	
+	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tag=post.tag  %}
 {% endfor %}
 
 <hr />
 
 <h2>New Examples</h2>
 {% for post in site.categories.examples reversed limit:3 | sort: 'sort' %}
-	<div class="tutorial-link-box">
-		<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
-		<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
-		<p>{{ post.tag }}</p>
-	</div>
+	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tag=post.tag  %}
 {% endfor %}
 
 <hr />
