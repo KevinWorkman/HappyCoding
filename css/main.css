@@ -23,9 +23,10 @@ p {
 	margin:10px;
 }
 
-.tutorial-link-box img{
-	width:100%;
+.tutorial-link-box .thumbnail-image{
+	width:200px;
 	height:100px;
+	max-width:100%;
 }
 
 .tutorial-link-box a.title{
