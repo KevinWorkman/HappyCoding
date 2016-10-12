@@ -7,7 +7,7 @@ This site uses [CodePen.io](http://codepen.io/) to embed runnable code directly 
 
 This means that you can run any code from the tutorials or examples directly in the page. You don't need a CodePen account or to do anything special. Here's an example:
 
-{% include codepen.html slugh-hash="zKEkKA" height="275" %}
+{% include codepen.html slug-hash="zKEkKA" height="275" %}
 
 To run the code, first click the `Run Pen` button. This loads the code and starts executing it.
 
