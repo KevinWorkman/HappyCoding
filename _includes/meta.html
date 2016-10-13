@@ -2,6 +2,12 @@
 
 		<meta property="og:site_name" content="Happy Coding" />
 		<meta property="og:url" content="http://HappyCoding.io{{page.url}}" />
-		{% if page.title %}<meta property="og:title" content="{{page.title}}" />{% endif %}
+		{% if page.og-title %}<meta property="og:title" content="{{page.og-title}}" />{% endif %}
 		{% if page.og-image %}<meta property="og:image" content="http://HappyCoding.io{{page.og-image}}" />{% endif %}
 		{% if page.og-description %}<meta property="og:description" content="{{page.og-description}}" />{% endif %}
+		
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@KevinAWorkman">
+		<meta name="twitter:creator" content="@KevinAWorkman">
+		{% if page.twitter-title %}<meta name="twitter:title" content="{{page.twitter-title}}">{% endif %}
+		{% if page.twitter-image %}<meta property="twitter:image" content="http://HappyCoding.io{{page.twitter-image}}" />{% endif %}
