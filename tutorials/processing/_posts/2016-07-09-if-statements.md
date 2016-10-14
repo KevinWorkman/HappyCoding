@@ -7,7 +7,7 @@ tag: Make decisions in your code.
 sort-key: 600
 meta-title: If Statements
 meta-description: Learn how to use if statements to make decisions in your code.
-meta-image: /examples/processing/if-statements/images/if-statements-5.png
+meta-image: /tutorials/processing/images/if-statements-5.png
 ---
 
 We now know how to call functions, use variables, and create our own variables and functions.
