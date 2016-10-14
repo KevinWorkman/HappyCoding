@@ -6,6 +6,9 @@ thumbnail: /examples/processing/using-variables/images/jack-o-lantern-1.png
 tag: Draw a Jack-o'-lantern.
 categories: [examples,processing,using-variables]
 sort-key: 300
+meta-title: Jack-o'-lantern
+meta-description: Use Processing to draw a Jack-o'-lantern!
+meta-image: /examples/processing/using-variables/images/jack-o-lantern-5.png
 ---
 
 :jack_o_lantern: 🎃 :jack_o_lantern:
@@ -41,6 +44,8 @@ arc(width*.5, height*.65, width*.4, height*.2, 3.14, 2*3.14);
 line(width*.3, height*.65, width*.7, height*.65);
 
 ```
+
+{% include codepen.html slug-hash="dpjGXK" height="275" %}
 
 Try changing the parmaters passed into the `size()` function to change the size of the window, and the size of the Jack-o'-lantern will change automatically.
 

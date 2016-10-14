@@ -2,8 +2,11 @@
 layout: tutorial
 title: "Random Jack-o'-Lantern"
 slug: random-jack-o-lantern
-thumbnail: "/examples/processing/creating-variables/images/random-jack-o-lantern-1.png"
+thumbnail: /examples/processing/creating-variables/images/random-jack-o-lantern-1.png
 tag: "Procedurally generate a Jack-o'-lantern."
+meta-title: Random Jack-o'-Lantern
+meta-description: Procedurally generate a Jack-o'-lantern.
+meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern-2.png
 ---
 
 ```java
@@ -56,6 +59,8 @@ float mouthY = centerY + random(jHeight*.1, jHeight*.35);
 arc(centerX, mouthY, mouthWidth, mouthHeight, 3.14, 2*3.14);
 line(centerX-mouthWidth/2, mouthY, centerX + mouthWidth/2, mouthY);
 ```
+
+{% include codepen.html slug-hash="KgBVgV" height="275" %}
 
 This code uses variables along with the `random()` function to procedurally generate random Jack-o'-lanterns. Every time you run the program, you get a different Jack-o'-lantern.
 
