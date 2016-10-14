@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+<div style="max-width:800px; margin-left:auto; margin-right:auto;">
 <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
 <p>{{ page.date | date: "%B %-d, %Y" }}</p>
 <hr />
 {{ content }}
+</div>
 
 {% include comments.html %}
