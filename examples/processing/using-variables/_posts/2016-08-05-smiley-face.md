@@ -1,9 +1,12 @@
 ---
 layout: tutorial
-title: "Smiley Face"
+title: Smiley Face
 slug: smiley-face
-thumbnail: "/examples/processing/using-variables/images/smiley-face-2.png"
-tag: "Scale a smiley face."
+thumbnail: /examples/processing/using-variables/images/smiley-face-2.png
+tag: Scale a smiley face.
+meta-title: Smiley Face
+meta-description: This example uses variables to scale a drawing of a face.
+meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 ---
 
 ```java

@@ -1,9 +1,12 @@
 ---
 layout: tutorial
-title: "Random Colors"
+title: Random Colors
 slug: random-colors
 thumbnail: /examples/processing/for-loops/images/random-colors-1.png
 tag: Make every pixel a different color.
+meta-title: Random Colors
+meta-description: This example uses nested for loops to make every pixel a random color.
+meta-image: /examples/processing/for-loops/images/random-colors-2.png
 ---
 
 ```java

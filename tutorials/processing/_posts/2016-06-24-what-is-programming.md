@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "What is Programming?"
+title: What is Programming?
 slug: what-is-programming
-thumbnail: "/tutorials/processing/images/input-10.gif"
+thumbnail: /tutorials/processing/images/input-10.gif
 tag: Get ready to write some code.
 sort-key: 100
+meta-title: What is Programming?
+meta-description: Before diving into the code, let's talk about the terms we'll be using.
+meta-image: /examples/processing/arraylists/images/random-walkers-3.png
 ---
 
 This tutorial series teaches you how to write code in order to create your own programs. But before we dive in, it's a good idea to define some of the terms we'll be using.

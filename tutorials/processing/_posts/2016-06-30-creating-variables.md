@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "Creating Variables"
+title: Creating Variables
 slug: creating-variables
-thumbnail: "/tutorials/processing/images/creating-variables-3.png"
-tag: "Store your own information."
+thumbnail: /tutorials/processing/images/creating-variables-3.png
+tag: Store your own information.
 sort-key: 400
+meta-title: Creating Variables
+meta-description: Learn how to create your own variables in Processing.
+meta-image: /tutorials/processing/images/creating-functions-7.gif
 ---
 
 In the previous tutorial, we learned about [using variables](/tutorials/processing/using-variables). 

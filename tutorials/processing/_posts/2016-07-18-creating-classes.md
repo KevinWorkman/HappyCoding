@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "Creating Classes"
+title: Creating Classes
 slug: creating-classes
-thumbnail: "/tutorials/processing/images/creating-classes-2.gif"
-tag: "Store whatever state you can think of."
+thumbnail: /tutorials/processing/images/creating-classes-4.gif
+tag: Store whatever state you can think of.
 sort-key: 1200
+meta-title: Creating Classes
+meta-description: Learn how to create classes in Processing.
+meta-image: /tutorials/processing/images/creating-classes-3.png
 ---
 
 We've now learned how to use classes like the predefined `PVector` class. We know that classes describe a state by defining variables, and we know that instances of a class give values to those variables to describe the state of particular object.

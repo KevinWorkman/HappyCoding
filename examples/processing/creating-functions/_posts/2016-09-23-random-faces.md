@@ -1,9 +1,12 @@
 ---
 layout: tutorial
-title: "Random Faces"
+title: Random Faces
 slug: random-faces
-thumbnail: "/examples/processing/creating-functions/images/random-faces-1.gif"
-tag: "Procedurally generate infinite smiley faces."
+thumbnail: /examples/processing/creating-functions/images/random-faces-1.gif
+tag: Procedurally generate infinite smiley faces.
+meta-title: Random Faces
+meta-description: This example uses functions to procedurally generate random faces.
+meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 ---
 
 Working from [this simpler example](/examples/processing/creating-variables/random-face) that draws a single random face whenever the program runs, we can use functions to draw a new random face every second:

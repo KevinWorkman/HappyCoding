@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "ArrayLists"
+title: ArrayLists
 slug: arraylists
-thumbnail: "/tutorials/processing/images/arraylists-1.gif"
+thumbnail: /tutorials/processing/images/arraylists-1.gif
 tag: Create an object that stores other objects.
 sort-key: 1300
+meta-title: ArrayLists
+meta-description: Learn how to use ArrayLists in Processing.
+meta-image: /examples/processing/arraylists/images/random-walkers-3.png
 ---
 
 Now we know how to use objects and create our own classes. We know how to use arrays to create variables that hold multiple values, and we know how to create arrays of objects.

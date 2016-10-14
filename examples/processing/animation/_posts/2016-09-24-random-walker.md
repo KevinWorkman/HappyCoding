@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "Random Walker"
+title: Random Walker
 slug: random-walker
 thumbnail: /examples/processing/animation/images/random-walker-2.gif
 tag: aka the scribbler
 sort-key: 200
+meta-title: Random Walker
+meta-description: Animate a random walker that scribbles on the screen.
+meta-image: /examples/processing/animation/images/random-walker-5.png
 ---
 
 A [random walker](https://en.wikipedia.org/wiki/Random_walk) is a simple idea: start at some point, and then every frame, move in a random direction. As time goes on, you'll randomly walk all around the screen. You can think of this like randomly scribbling on a piece of paper.

@@ -2,6 +2,9 @@
 layout: blog-post
 title: "Hello World"
 slug: hello-world
+meta-title: Hello World
+meta-description: The first blog post on the new site!
+meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 ---
 
 I love coding.

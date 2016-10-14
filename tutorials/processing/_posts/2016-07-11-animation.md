@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "Animation"
+title: Animation
 slug: animation
-thumbnail: "/tutorials/processing/images/animation-4.gif"
-tag: "Create animated visualizations."
+thumbnail: /tutorials/processing/images/animation-4.gif
+tag: Create animated visualizations.
 sort-key: 700
+meta-title: Animation
+meta-description: Learn how to create animations in Processing.
+meta-image: /examples/processing/animation/images/random-walker-5.png
 ---
 
 We now know about functions, variables, and if statements.

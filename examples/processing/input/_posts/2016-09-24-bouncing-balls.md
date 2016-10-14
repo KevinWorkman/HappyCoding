@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "Bouncing Balls"
+title: Bouncing Balls
 slug: bouncing-balls
 thumbnail: /examples/processing/input/images/bouncing-balls-1.gif
 tag: Make a random bouncing ball pit.
 sort-key: 100
+meta-title: Bouncing Balls
+meta-description: This examples detects user input to create a bunch of bouncing balls.
+meta-image: /examples/processing/input/images/bouncing-balls-2.png
 ---
 
 Note: This example uses [parallel arrays](https://en.wikipedia.org/wiki/Parallel_array). In other words, we're storing our data across multiple arrays. This is a good way to learn about arrays, but in real life you should use classes instead of parrallel arrays. If you haven't learned about classes yet, don't worry about it too much.

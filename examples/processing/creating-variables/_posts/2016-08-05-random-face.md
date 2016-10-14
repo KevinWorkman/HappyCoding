@@ -1,9 +1,12 @@
 ---
 layout: tutorial
-title: "Random Face"
+title: Random Face
 slug: random-face
-thumbnail: "/examples/processing/creating-variables/images/random-face-4.png"
-tag: "Procedurally generate a smiley face."
+thumbnail: /examples/processing/creating-variables/images/random-face-4.png
+tag: Procedurally generate a smiley face.
+meta-title: Random Face
+meta-description: This example uses variables to procedurally generate random faces.
+meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 ---
 
 ```java

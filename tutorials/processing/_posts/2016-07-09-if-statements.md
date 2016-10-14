@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "If Statements"
+title: If Statements
 slug: if-statements
-thumbnail: "/tutorials/processing/images/if-statements-1.png"
-tag: "Make decisions in your code."
+thumbnail: /tutorials/processing/images/if-statements-6.png
+tag: Make decisions in your code.
 sort-key: 600
+meta-title: If Statements
+meta-description: Learn how to use if statements to make decisions in your code.
+meta-image: /examples/processing/if-statements/images/good-morning-5.png
 ---
 
 We now know how to call functions, use variables, and create our own variables and functions.

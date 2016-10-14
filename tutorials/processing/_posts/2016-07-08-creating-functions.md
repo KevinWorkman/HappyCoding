@@ -1,10 +1,13 @@
 ---
 layout: tutorial
-title: "Creating Functions"
+title: Creating Functions
 slug: creating-functions
-thumbnail: "/tutorials/processing/images/creating-functions-6.gif"
-tag: "Write your own custom functions."
+thumbnail: /tutorials/processing/images/creating-functions-9.gif
+tag: Write your own custom functions.
 sort-key: 500
+meta-title: Creating Functions
+meta-description: Learn how to write your own functions in Processing.
+meta-image: /tutorials/processing/images/creating-functions-7.gif
 ---
 
 We now know how to call functions, use variables, and create our own variables. We've also seen that functions can give us a value instead of doing something.

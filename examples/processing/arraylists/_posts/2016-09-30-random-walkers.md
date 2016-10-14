@@ -5,6 +5,9 @@ slug: random-walkers
 thumbnail: /examples/processing/arraylists/images/random-walkers-1.gif
 tag: Randomly colored random walkers.
 sort-key: 300
+meta-title: Random Walkers
+meta-description: This example uses random walkers to create scribble art!
+meta-image: /examples/processing/arraylists/images/random-walkers-3.png
 ---
 
 This example takes [the previous Random Walker example](/examples/processing/input/random-walker.html) and uses an `ArrayList` instead of an array.

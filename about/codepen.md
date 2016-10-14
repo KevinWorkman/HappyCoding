@@ -1,6 +1,9 @@
 ---
 layout: default
 title: "CodePen"
+meta-title: About CodePen
+meta-description: Learn more about how HappyCoding.io uses CodePen!
+meta-image: /images/random-walkers-1.png
 ---
 
 This site uses [CodePen.io](http://codepen.io/) to embed runnable code directly into the tutorials and examples.
