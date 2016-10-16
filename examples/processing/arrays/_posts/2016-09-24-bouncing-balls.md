@@ -3,7 +3,7 @@ layout: tutorial
 title: Bouncing Balls
 slug: bouncing-balls
 thumbnail: /examples/processing/arrays/images/bouncing-balls-1.gif
-tag: Make a random bouncing ball pit.
+tagline: Make a random bouncing ball pit.
 sort-key: 100
 meta-title: Bouncing Balls
 meta-description: This examples uses arrays to create a bunch of bouncing balls.

@@ -3,7 +3,7 @@ layout: tutorial
 title: Creating Functions
 slug: creating-functions
 thumbnail: /tutorials/processing/images/creating-functions-9.gif
-tag: Write your own custom functions.
+tagline: Write your own custom functions.
 sort-key: 500
 meta-title: Creating Functions
 meta-description: Learn how to write your own functions in Processing.

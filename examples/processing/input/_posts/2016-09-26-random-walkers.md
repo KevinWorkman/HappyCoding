@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Walkers
 slug: random-walkers
 thumbnail: /examples/processing/input/images/random-walkers-2.gif
-tag: Randomly colored random walkers.
+tagline: Randomly colored random walkers.
 sort-key: 200
 meta-title: Random Walkers
 meta-description: This example detects user input to create scribble art!

@@ -3,7 +3,7 @@ layout: tutorial
 title: ArrayLists
 slug: arraylists
 thumbnail: /tutorials/processing/images/arraylists-1.gif
-tag: Create an object that stores other objects.
+tagline: Create an object that stores other objects.
 sort-key: 1300
 meta-title: ArrayLists
 meta-description: Learn how to use ArrayLists in Processing.

@@ -3,7 +3,7 @@ layout: tutorial
 title: Smiley Face
 slug: smiley-face
 thumbnail: /examples/processing/calling-functions/images/smiley-face-1.png
-tag: Draw a smiley face.
+tagline: Draw a smiley face.
 categories: [examples,processing,calling-functions]
 sort-key: 100
 meta-title: Smiley Face

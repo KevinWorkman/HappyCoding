@@ -3,7 +3,7 @@ layout: tutorial
 title: Using Variables
 slug: using-variables
 thumbnail: /tutorials/processing/images/using-variables-5.png
-tag: Get information from the computer.
+tagline: Get information from the computer.
 sort-key: 300
 meta-title: Using Variables
 meta-description: Learn how to use variables to get information from Processing.

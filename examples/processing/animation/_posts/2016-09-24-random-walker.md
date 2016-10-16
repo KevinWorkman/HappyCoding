@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Walker
 slug: random-walker
 thumbnail: /examples/processing/animation/images/random-walker-2.gif
-tag: aka the scribbler
+tagline: aka the scribbler
 sort-key: 200
 meta-title: Random Walker
 meta-description: Animate a random walker that scribbles on the screen.

@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Walkers
 slug: random-walkers
 thumbnail: /examples/processing/arraylists/images/random-walkers-1.gif
-tag: Randomly colored random walkers.
+tagline: Randomly colored random walkers.
 sort-key: 300
 meta-title: Random Walkers
 meta-description: This example uses random walkers to create scribble art!

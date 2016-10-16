@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Faces
 slug: random-faces
 thumbnail: /examples/processing/creating-functions/images/random-faces-1.gif
-tag: Procedurally generate infinite smiley faces.
+tagline: Procedurally generate infinite smiley faces.
 meta-title: Random Faces
 meta-description: This example uses functions to procedurally generate random faces.
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png

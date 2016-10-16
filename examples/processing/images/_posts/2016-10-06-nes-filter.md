@@ -3,7 +3,7 @@ layout: tutorial
 title: NES Filter
 slug: nes-filter
 thumbnail: /examples/processing/images/images/nes-filter-2.png
-tag: Color an image using the NES palette.
+tagline: Color an image using the NES palette.
 meta-title: Nintendo Image Filter
 meta-description: Use Processing to create a NES image filter!
 meta-image: /examples/processing/images/images/nes-filter-3.png

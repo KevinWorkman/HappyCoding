@@ -3,7 +3,7 @@ layout: tutorial
 title: Using Objects
 slug: using-objects
 thumbnail: /tutorials/processing/images/using-objects-2.png
-tag: Store a state (not just a value) in a variable.
+tagline: Store a state (not just a value) in a variable.
 sort-key: 1100
 meta-title: Using Objects
 meta-description: Learn how to use objects to store a state (not just a value) in Processing.

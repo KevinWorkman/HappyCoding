@@ -3,7 +3,7 @@ layout: tutorial
 title: Calling Functions
 slug: calling-functions
 thumbnail: /tutorials/processing/images/calling-functions-5.png
-tag: Tell the computer what to do.
+tagline: Tell the computer what to do.
 sort-key: 200
 meta-title: Calling Functions
 meta-description: "Learn the first step to coding: calling functions!"

@@ -3,7 +3,7 @@ layout: tutorial
 title: If Statements
 slug: if-statements
 thumbnail: /tutorials/processing/images/if-statements-6.png
-tag: Make decisions in your code.
+tagline: Make decisions in your code.
 sort-key: 600
 meta-title: If Statements
 meta-description: Learn how to use if statements to make decisions in your code.

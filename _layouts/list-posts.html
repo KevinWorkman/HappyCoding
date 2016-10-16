@@ -13,7 +13,7 @@ layout: default
 	{% endfor %}
 
 	{% if (postCategories == pageCategories) %}
-		{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tag=post.tag  %}
+		{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline  %}
 	{% endif %}
 {% endfor %}
 

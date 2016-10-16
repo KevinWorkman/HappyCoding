@@ -3,7 +3,7 @@ layout: tutorial
 title: Jack-o'-Lantern
 slug: jack-o-lantern
 thumbnail: /examples/processing/using-variables/images/jack-o-lantern-1.png
-tag: Draw a Jack-o'-lantern.
+tagline: Draw a Jack-o'-lantern.
 categories: [examples,processing,using-variables]
 sort-key: 300
 meta-title: Jack-o'-lantern

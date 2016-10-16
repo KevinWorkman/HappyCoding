@@ -3,7 +3,7 @@ layout: tutorial
 title: What is Programming?
 slug: what-is-programming
 thumbnail: /tutorials/processing/images/input-10.gif
-tag: Get ready to write some code.
+tagline: Get ready to write some code.
 sort-key: 100
 meta-title: What is Programming?
 meta-description: Before diving into the code, let's talk about the terms we'll be using.

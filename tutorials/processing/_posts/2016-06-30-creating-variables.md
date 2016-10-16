@@ -3,7 +3,7 @@ layout: tutorial
 title: Creating Variables
 slug: creating-variables
 thumbnail: /tutorials/processing/images/creating-variables-3.png
-tag: Store your own information.
+tagline: Store your own information.
 sort-key: 400
 meta-title: Creating Variables
 meta-description: Learn how to create your own variables in Processing.

@@ -3,7 +3,7 @@ layout: tutorial
 title: Creating Classes
 slug: creating-classes
 thumbnail: /tutorials/processing/images/creating-classes-4.gif
-tag: Store whatever state you can think of.
+tagline: Store whatever state you can think of.
 sort-key: 1200
 meta-title: Creating Classes
 meta-description: Learn how to create classes in Processing.
