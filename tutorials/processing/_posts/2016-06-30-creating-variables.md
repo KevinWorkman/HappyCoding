@@ -8,6 +8,7 @@ sort-key: 400
 meta-title: Creating Variables
 meta-description: Learn how to create your own variables in Processing.
 meta-image: /tutorials/processing/images/creating-functions-7.png
+tags: [tutorial,processing,basic]
 ---
 
 In the previous tutorial, we learned about [using variables](/tutorials/processing/using-variables). 

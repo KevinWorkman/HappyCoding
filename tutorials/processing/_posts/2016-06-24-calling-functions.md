@@ -8,6 +8,7 @@ sort-key: 200
 meta-title: Calling Functions
 meta-description: "Learn the first step to coding: calling functions!"
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
+tags: [tutorial,processing,basic]
 ---
 
 This tutorial teaches you how to write Processing code. In Processing (and many other languages), one of the basic building blocks we'll use while writing code is **calling functions**.

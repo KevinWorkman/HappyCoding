@@ -8,6 +8,7 @@ sort-key: 1300
 meta-title: ArrayLists
 meta-description: Learn how to use ArrayLists in Processing.
 meta-image: /examples/processing/arraylists/images/random-walkers-3.png
+tags: [tutorial,processing,basic]
 ---
 
 Now we know how to use objects and create our own classes. We know how to use arrays to create variables that hold multiple values, and we know how to create arrays of objects.

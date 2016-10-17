@@ -7,7 +7,7 @@
   "categories": "{{ post.categories | jsonify }}",
   "url": "{{ post.url }}",
   "thumbnail": "{{post.thumbnail}}",
-  "hashtags": "{{post.hashtags | jsonify}}"
+  "tags": "{{post.tags | jsonify}}"
  }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

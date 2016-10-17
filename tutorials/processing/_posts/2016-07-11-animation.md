@@ -8,6 +8,7 @@ sort-key: 700
 meta-title: Animation
 meta-description: Learn how to create animations in Processing.
 meta-image: /examples/processing/animation/images/random-walker-5.png
+tags: [tutorial,processing,basic]
 ---
 
 We now know about functions, variables, and if statements.

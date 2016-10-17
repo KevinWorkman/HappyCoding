@@ -8,6 +8,7 @@ sort-key: 300
 meta-title: Using Variables
 meta-description: Learn how to use variables to get information from Processing.
 meta-image: /tutorials/processing/images/creating-functions-7.png
+tags: [tutorial,processing,basic]
 ---
 
 Now you know how to [call functions](/tutorials/processing/calling-functions) by passing in parameters to tell the computer to follow a series of steps to accomplish some goal.

@@ -8,6 +8,7 @@ sort-key: 1100
 meta-title: Using Objects
 meta-description: Learn how to use objects to store a state (not just a value) in Processing.
 meta-image: /examples/processing/using-objects/images/eyes-5.png
+tags: [tutorial,processing,basic]
 ---
 
 We've now learned how to use variables, functions, and `if` statements. We know how to modify variables over time to create animations, and we know how to get user input.
