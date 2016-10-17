@@ -67,7 +67,9 @@ If you want to play around with this, check out [the Twitter Card validator](htt
  
 These tags allow you to do all kinds of cool things, like embedding parts of your website into other websites. This is how YouTube links are automatically shown as videos, for example. So I spent a little too much time trying to figure out exactly what our links should look like. Maybe they should show small thumbnails instead of big thumbnails?
  
-(images coming soon)
+![twitter small](/blog/images/twitter-cards-and-open-graph/twitter-small.png)
+
+(I could still go either way on this one, so I'd be curious to hear from people on whether they like big thumbnails or small thumbnails more. Pedants of the world unite!)
  
 I also spent a little too much time reading the recommended [best practices](https://developers.facebook.com/docs/sharing/best-practices) for these tags.
  
