@@ -63,7 +63,7 @@ These tags generate this when you share this page on Facebook:
 
 If you want to play around with this, check out [the Twitter Card validator](https://cards-dev.twitter.com/validator) or [the Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/). Try plugging in random pages from this site (or any site!) to see what the crawlers see.
  
-## Too Much Freedom
+## Back and Forth
  
 These tags allow you to do all kinds of cool things, like embedding parts of your website into other websites. This is how YouTube links are automatically shown as videos, for example. So I spent a little too much time trying to figure out exactly what our links should look like. Maybe they should show small thumbnails instead of big thumbnails?
  
