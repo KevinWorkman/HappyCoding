@@ -17,7 +17,9 @@ For example, this is what it looked like when I shared last week's blog:
  
 And this is what it looks like when I share this blog:
 
-(images coming soon)
+![twitter after](/blog/images/twitter-cards-and-open-graph/twitter-after.png)
+
+![facebook after](/blog/images/twitter-cards-and-open-graph/facebook-after.png)
  
 Where are those images coming from? How does it know the title and description?
  
@@ -43,7 +45,7 @@ For example, Twitter uses [Twitter Cards](https://dev.twitter.com/cards/overview
  
 These tags generate this when you share this page on Twitter:
 
-(images coming soon)
+![twitter after](/blog/images/twitter-cards-and-open-graph/twitter-after.png)
  
 Similarly, Facebook uses [Open Graph](https://developers.facebook.com/docs/sharing/webmasters), which looks like this:
  
@@ -57,7 +59,7 @@ Similarly, Facebook uses [Open Graph](https://developers.facebook.com/docs/shari
  
 These tags generate this when you share this page on Facebook:
 
-(images coming soon)
+![facebook after](/blog/images/twitter-cards-and-open-graph/facebook-after.png)
 
 If you want to play around with this, check out [the Twitter Card validator](https://cards-dev.twitter.com/validator) or [the Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/). Try plugging in random pages from this site (or any site!) to see what the crawlers see.
  
