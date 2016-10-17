@@ -4,7 +4,7 @@ title: Twitter Cards and Open Graph
 slug: twitter-cards-and-open-graph
 meta-title: Twitter Cards and Open Graph
 meta-description: Ever wonder how Twitter and Facebook figure out what to show when you share a link?
-meta-image: /examples/processing/creating-classes/images/flyers-5.png
+meta-image: /examples/processing/creating-classes/images/flyers-4.png
 ---
  
 When you share a link to Twitter or Facebook, do you ever wonder how it knows what thumbnail and description to use? How does it know whether the page contains a video? Have you ever noticed that some websites seem to have better-looking links when you share them?
@@ -17,9 +17,7 @@ For example, this is what it looked like when I shared last week's blog:
  
 And this is what it looks like when I share this blog:
 
-![twitter after](/blog/images/twitter-cards-and-open-graph/twitter-after.png)
-
-![facebook after](/blog/images/twitter-cards-and-open-graph/facebook-after.png)
+(images coming soon)
  
 Where are those images coming from? How does it know the title and description?
  
@@ -45,7 +43,7 @@ For example, Twitter uses [Twitter Cards](https://dev.twitter.com/cards/overview
  
 These tags generate this when you share this page on Twitter:
 
-![twitter after](/blog/images/twitter-cards-and-open-graph/twitter-after.png)
+(images coming soon)
  
 Similarly, Facebook uses [Open Graph](https://developers.facebook.com/docs/sharing/webmasters), which looks like this:
  
@@ -59,7 +57,7 @@ Similarly, Facebook uses [Open Graph](https://developers.facebook.com/docs/shari
  
 These tags generate this when you share this page on Facebook:
 
-![facebook after](/blog/images/twitter-cards-and-open-graph/facebook-after.png)
+(images coming soon)
 
 If you want to play around with this, check out [the Twitter Card validator](https://cards-dev.twitter.com/validator) or [the Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/). Try plugging in random pages from this site (or any site!) to see what the crawlers see.
  
@@ -67,9 +65,7 @@ If you want to play around with this, check out [the Twitter Card validator](htt
  
 These tags allow you to do all kinds of cool things, like embedding parts of your website into other websites. This is how YouTube links are automatically shown as videos, for example. So I spent a little too much time trying to figure out exactly what our links should look like. Maybe they should show small thumbnails instead of big thumbnails?
  
-![twitter small](/blog/images/twitter-cards-and-open-graph/twitter-small.png)
-
-![facebook small](/blog/images/twitter-cards-and-open-graph/facebook-small.png)
+(images coming soon)
  
 I also spent a little too much time reading the recommended [best practices](https://developers.facebook.com/docs/sharing/best-practices) for these tags.
  
@@ -79,7 +75,7 @@ But in the end I just decided to go with a standard 600x300 thumbnail for each p
  
 If you think this sounds like a lot of rigmarole for a tiny feature, then I mostly agree with you. A big part of me has trouble caring about this sort of thing. I got the site working, so who cares what it looks like? Who is even going to notice whether the links have thumbnails or not? The answer is that even though nobody will really notice little things like this, people do care (even if just on a subconscious level).
  
-By that I mean, the little stuff adds up. Even if you don't **notice** which font a website uses, you'll **care** if the font isn't quite right. You might not even know that you care, you'll just "feel" like you don't really like the website. That can be frustrating for programmers like me who aren't artists and have to rely on [programmer art](https://en.wikipedia.org/wiki/Programmer_art) for everything, because we'd rather spend our time on the interesting bits instead of making it look nice.
+By that I mean, the little stuff adds up. Even if you don't **notice** which font a website uses, you'll **care** if the font isn't quite right (note to self: remember to spend time obesessing over whether the font is quite right or not). You might not even know that you care, you'll just "feel" like you don't really like the website. That can be frustrating for programmers like me who aren't artists and have to rely on [programmer art](https://en.wikipedia.org/wiki/Programmer_art) for everything, because we'd rather spend our time on the interesting bits instead of making it look nice.
  
 The problem is that if you don't make it look nice, people assume that the interesting bits are crappy too. A smarter guy than me (hi Mr. B) described this as "signalling low quality" which is probably a better way to say it. The funny thing is that I'm not sure there's a way to signal high quality: people don't notice when everything looks good, they just notice when it looks bad. So you end up spending a lot of time on stuff that, hopefully, nobody will even notice!
  
