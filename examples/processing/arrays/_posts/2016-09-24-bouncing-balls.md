@@ -8,6 +8,7 @@ sort-key: 100
 meta-title: Bouncing Balls
 meta-description: This examples uses arrays to create a bunch of bouncing balls.
 meta-image: /examples/processing/input/images/bouncing-balls-2.png
+tags: [example, processing, array, animation, random]
 ---
 
 Note: This example uses [parallel arrays](https://en.wikipedia.org/wiki/Parallel_array). In other words, we're storing our data across multiple arrays. This is a good way to learn about arrays, but in real life you should use classes instead of parrallel arrays. If you haven't learned about classes yet, don't worry about it too much.

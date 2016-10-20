@@ -1,0 +1,86 @@
+---
+layout: default
+title: Tags
+---
+
+<p id="loading">Loading...</p>
+
+<div id="posts">
+</div>
+
+{% raw %}
+<script>
+
+function getParameterByName(name, url) {
+	if (!url) url = window.location.href;
+	name = name.replace(/[\[\]]/g, "\\$&");
+	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	results = regex.exec(url);
+	if (!results) return null;
+	if (!results[2]) return '';
+	return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var tag = getParameterByName("tag");
+
+var thumbnailHtml = '<div class="tutorial-link-box"><a href="{{ include.url }}" ><img class="thumbnail-image" src="{{ include.thumbnail }}" /><a class="title" href="{{ include.url }}" >{{ include.title }}</a><p>{{ include.tagline }}</p></div>';
+
+if(tag){
+	$.getJSON( "/api/site.json", function( data ) {
+	
+		var tutorialsDiv = $("<div>", {id: "tutorials"});
+		var examplesDiv = $("<div>", {id: "examples"});
+		var othersDiv = $("<div>", {id: "others"});
+		
+		tutorialsDiv.append("<h2>Tutorials tagged " + tag + "</h2>");
+		examplesDiv.append("<h2>Examples tagged " + tag + "</h2>");
+		othersDiv.append("<h2>Other Stuff tagged " + tag + "</h2>");
+		
+		var containsTutorials = false;
+		var containsExamples = false;
+		var containsOther = false;
+	
+		console.log("data: " + data);
+		$.each( data, function(index, post ) {
+			console.log(post.title);
+			if($.inArray(tag, post.tags) > -1){
+			
+				var replacedHtml = thumbnailHtml.replace("{{ include.url }}", post.url).replace("{{ include.url }}", post.url).replace("{{ include.thumbnail }}", post.thumbnail).replace("{{ include.title }}", post.title).replace("{{ include.tagline }}", post.tagline);
+			
+				if($.inArray("tutorials", post.categories) > -1){
+					tutorialsDiv.append(replacedHtml);
+					containsTutorials = true;
+				}
+				else if($.inArray("examples", post.categories) > -1){
+					examplesDiv.append(replacedHtml);
+					containsExamples = true;
+				}
+				else{
+					othersDiv.append(replacedHtml);
+					containsOther = true;
+				}
+				
+			}
+		});
+		
+		if(containsTutorials){
+			$("#posts").append(tutorialsDiv);
+		}
+		
+		if(containsExamples){
+			$("#posts").append(examplesDiv);
+		}
+		
+		if(containsOther){
+			$("#posts").append(othersDiv);
+		}
+		
+		if(!containsTutorials && !containsExamples && !containsOther){
+			$("#posts").append("<p>I can't find anything tagged with that.</p>");
+		}
+		
+		$("#loading").remove();
+	});
+}
+</script>
+{% endraw %}

@@ -15,14 +15,14 @@ meta-image: /images/random-walkers-1.png
 
 <h2>New Tutorials</h2>
 {% for post in site.categories.tutorials reversed limit:3 | sort: 'sort' %}
-	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline  %}
+	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline tags=post.tags  %}
 {% endfor %}
 
 <hr />
 
 <h2>New Examples</h2>
 {% for post in site.categories.examples reversed limit:3 | sort: 'sort' %}
-	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline  %}
+	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline tags=post.tags  %}
 {% endfor %}
 
 <hr />

@@ -20,10 +20,10 @@ layout: default
 			{% assign slug_depth = forloop.index %}
 		{% endfor %}
 		{% if slug_depth == page_depth and page_parent == node_parent %}
-			{% include thumbnail.html url=node.url thumbnail=node.thumbnail title=node.title tagline=node.tagline  %}
+			{% include thumbnail.html url=node.url thumbnail=node.thumbnail title=node.title tagline=node.tagline tags=node.tags %}
 		{% endif %}
 		{% if slug_depth == 1 and page.url == '/' and slug != 'search.json' and   slug != 'sitemap.xml' %}
-			{% include thumbnail.html url=node.url thumbnail=node.thumbnail title=node.title tagline=node.tagline  %}
+			{% include thumbnail.html url=node.url thumbnail=node.thumbnail title=node.title tagline=node.tagline tags=node.tags  %}
 		{% endif %}
 	{% endif %}
 {% endfor %}

@@ -7,6 +7,7 @@ tagline: "Procedurally generate a Jack-o'-lantern."
 meta-title: Random Jack-o'-Lantern
 meta-description: Procedurally generate a Jack-o'-lantern.
 meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern-2.png
+tags: [example, processing, procedural-generation, 🎃]
 ---
 
 ```java

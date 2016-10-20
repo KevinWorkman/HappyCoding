@@ -7,6 +7,7 @@ tagline: Say hello based on the time of day.
 meta-title: Good Morning
 meta-description: This example uses if statements to say hello based on the time of day.
 meta-image: /examples/processing/if-statements/images/good-morning-2.png
+tags: [example, processing, if]
 ---
 
 ```java

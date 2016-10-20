@@ -8,6 +8,7 @@ sort-key: 300
 meta-title: Random Walkers
 meta-description: This example uses random walkers to create scribble art!
 meta-image: /examples/processing/arraylists/images/random-walkers-3.png
+tags: [example, processing, animation, arraylist, random-walker, generative-art, emergence]
 ---
 
 This example takes [the previous Random Walker example](/examples/processing/input/random-walker.html) and uses an `ArrayList` instead of an array.

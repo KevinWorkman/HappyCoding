@@ -7,6 +7,7 @@ tagline: Procedurally generate infinite smiley faces.
 meta-title: Random Faces
 meta-description: This example uses functions to procedurally generate random faces.
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
+tags: [example, processing, procedural-generation]
 ---
 
 Working from [this simpler example](/examples/processing/creating-variables/random-face) that draws a single random face whenever the program runs, we can use functions to draw a new random face every second:

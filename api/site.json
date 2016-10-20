@@ -4,10 +4,11 @@
 {% for post in site.posts %}
  {
   "title": "{{ post.title }}",
-  "categories": "{{ post.categories | jsonify }}",
+  "categories": {{ post.categories | jsonify }},
   "url": "{{ post.url }}",
   "thumbnail": "{{post.thumbnail}}",
-  "tags": "{{post.tags | jsonify}}"
+  "tagline": "{{post.tagline}}",
+  "tags": {{post.tags | jsonify}}
  }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
