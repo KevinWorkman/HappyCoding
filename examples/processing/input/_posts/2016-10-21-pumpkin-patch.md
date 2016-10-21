@@ -7,7 +7,7 @@ tagline: Click to add a pumpkin to the patch.
 sort-key: 300
 meta-title: Pumpkin Patch
 meta-description: This example detects user input to grow a pumpkin patch! 🎃
-meta-image: /examples/processing/arraylists/images/pumpkin-patch-3.png
+meta-image: /examples/processing/input/images/pumpkin-patch-3.png
 tags: [example, processing, input, 🎃]
 ---
 
