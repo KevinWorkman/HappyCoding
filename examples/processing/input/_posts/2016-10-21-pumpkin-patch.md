@@ -61,7 +61,7 @@ void mousePressed() {
 }
 ```
 
-![random walkers](/examples/processing/arraylists/images/pumpkin-patch-1.gif)
+![pumpkin patch](/examples/processing/input/images/pumpkin-patch-1.gif)
 
 {% include codepen.html slug-hash="kkzpzg" height="375" %}
 
