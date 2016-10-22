@@ -25,9 +25,10 @@ var tag = getParameterByName("tag");
 
 var thumbnailHtml = '<div class="tutorial-link-box"><a href="{{ include.url }}" ><img class="thumbnail-image" src="{{ include.thumbnail }}" /><a class="title" href="{{ include.url }}" >{{ include.title }}</a><p>{{ include.tagline }}</p></div>';
 
-if(tag){
-	$.getJSON( "/api/site.json", function( data ) {
-	
+$.getJSON( "/api/site.json", function( data ) {
+
+	if(tag){
+		
 		var tutorialsDiv = $("<div>", {id: "tutorials"});
 		var examplesDiv = $("<div>", {id: "examples"});
 		var othersDiv = $("<div>", {id: "others"});
@@ -40,9 +41,7 @@ if(tag){
 		var containsExamples = false;
 		var containsOther = false;
 	
-		console.log("data: " + data);
 		$.each( data, function(index, post ) {
-			console.log(post.title);
 			if($.inArray(tag, post.tags) > -1){
 			
 				var replacedHtml = thumbnailHtml.replace("{{ include.url }}", post.url).replace("{{ include.url }}", post.url).replace("{{ include.thumbnail }}", post.thumbnail).replace("{{ include.title }}", post.title).replace("{{ include.tagline }}", post.tagline);
@@ -59,7 +58,6 @@ if(tag){
 					othersDiv.append(replacedHtml);
 					containsOther = true;
 				}
-				
 			}
 		});
 		
@@ -78,9 +76,48 @@ if(tag){
 		if(!containsTutorials && !containsExamples && !containsOther){
 			$("#posts").append("<p>I can't find anything tagged with that.</p>");
 		}
+	}
+	else{
+		var tagMap = [];
 		
-		$("#loading").remove();
-	});
-}
+		$.each( data, function(index, post ) {
+					
+			$.each( post.tags, function(tagIndex, oneTag) {
+			
+				if(tagMap[oneTag]){
+					tagMap[oneTag].count++;
+				}
+				else{
+					tagMap[oneTag] = {tag:oneTag, count:1};
+				}
+			});
+		});
+		
+		var tagArray = [];
+		
+		for (var oneTag in tagMap) {
+			tagArray.push(tagMap[oneTag]);
+		}
+		
+		function shuffleArray(array) {
+			for (var i = array.length - 1; i > 0; i--) {
+				var j = Math.floor(Math.random() * (i + 1));
+				var temp = array[i];
+				array[i] = array[j];
+				array[j] = temp;
+			}
+			return array;
+		}
+		
+		shuffleArray(tagArray);
+		
+		for (var tagIndex in tagArray) {
+			$("#posts").append('<a href="/tags/?tag=' + tagArray[tagIndex].tag + '" style="font-size: ' + Math.max(12, Math.min(72, (8*tagArray[tagIndex].count))) + 'pt; margin:25px;">' + tagArray[tagIndex].tag + '</a> ');
+		}
+	}
+	
+	$("#loading").remove();
+});
+
 </script>
 {% endraw %}

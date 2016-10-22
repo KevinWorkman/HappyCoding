@@ -74,5 +74,6 @@ You can read more about the `bezier()` function in [the reference](https://proce
 ## Tweak Ideas
 
 - Add leaves to the vines.
+- Make the vines have more twists and spirals.
 - Make the pumpkins grow over time.
 - Click to plant a vine. Make the vine automatically grow and have pumpkins sprout.
