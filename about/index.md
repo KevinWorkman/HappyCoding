@@ -40,7 +40,3 @@ I love what people like [Daniel Shiffman](http://shiffman.net/) and sites like [
 But I'm designing this site for people who learn like I learn. I'm building the type of site that I wish existed when I was learning programming.
 
 <hr/>
-
-**Where did you get the background images?**
-
-They all come from [Subtle Patterns](http://subtlepatterns.com/)!
