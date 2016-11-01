@@ -3,12 +3,12 @@ void setup() {
 }
  
 void keyPressed(){
-  saveFrame("squares-1-light.png");
+  saveFrame("squares-1-dark.png");
 }
 
 void draw() {
   noStroke();
-  fill(random(200, 256));
+  fill(random(0, 32));
   rect(random(width), random(height), 30, 30);
 }
  

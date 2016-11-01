@@ -26,5 +26,5 @@ function setRandomBackground(){
 	}
 	
 	$("body").css("background-image", "url(" + backgroundUrl + ")");
-	$("#background-link").html("<a href='/images/backgrounds/code/" + backgroundObj.code + "'>View the source code that generated the background.</a>");
+	$("#background-link").html("View the code that generated the background <a href='/images/backgrounds/code/" + backgroundObj.code + "'>here</a>. Learn how to contribute your own background <a href='https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds'>here</a>.");
 }

@@ -3,13 +3,19 @@ void setup() {
 }
  
 void keyPressed(){
-  saveFrame("circles-1-dark.png");
+  saveFrame("circles-1-light.png");
 }
 
 void draw() {
   noStroke();
-  fill(random(0, 64));
-  ellipse(random(width), random(height), 30, 30);
+  
+  float x = random(width);
+  float y = random(height);
+  
+  for(int size = 30; size >= 0; size--){
+    fill(random(224, 256));
+    ellipse(x, y, size, size);
+  }
 }
  
 void ellipse(float x, float y, float w, float h) {
