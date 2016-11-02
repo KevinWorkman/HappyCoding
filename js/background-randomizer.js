@@ -1,5 +1,8 @@
 var backgrounds = [
 	{img: "circles-1", code: "Circles.pde"},
+	{img: "diamond-circles-1", code: "DiamondCircles.pde"},
+	{img: "diamond-circles-2", code: "DiamondCircles.pde"},
+	{img: "diamond-circles-3", code: "DiamondCircles.pde"},
 	{img: "diamonds-1", code: "Diamonds.pde"},
 	{img: "diamonds-2", code: "Diamonds.pde"},
 	{img: "diagonal-1", code: "Diagonal.pde"},
