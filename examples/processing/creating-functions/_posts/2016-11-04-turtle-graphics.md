@@ -78,4 +78,4 @@ I ~~pretty much stole~~ borrowed this algorithm from [Secret Coders](http://www.
 
 - Add to the program so you can tell the turtle whether to draw when it moves or not.
 - Draw a turtle using turtle graphics. 🐢 :turtle: 🐢
-- Look up examples of turtle graphics art (like the [Secret Coders art gallery](http://www.secret-coders.com/turtle-art-gallery/) and then make your own!
+- Look up examples of turtle graphics art (like the [Secret Coders art gallery](http://www.secret-coders.com/turtle-art-gallery/)) and then make your own!
