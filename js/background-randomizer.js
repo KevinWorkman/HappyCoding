@@ -8,6 +8,7 @@ var backgrounds = [
 	{img: "diagonal-1", code: "Diagonal.pde"},
 	{img: "diagonal-2", code: "Diagonal.pde"},
 	{img: "random-walker-1", code: "RandomWalker.pde"},
+	{img: "rotated-squares-1", code: "RotatedSquares.pde"},
 	{img: "squares-1", code: "Squares.pde"},
 	{img: "squares-2", code: "Square.pde"},
 	{img: "squares-3", code: "Square.pde"}
