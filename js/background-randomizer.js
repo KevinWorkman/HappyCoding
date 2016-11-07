@@ -10,14 +10,14 @@ var backgrounds = [
 	{img: "lines-1", code: "Lines.pde"},
 	{img: "random-walker-1", code: "RandomWalker.pde"},
 	{img: "rotated-squares-1", code: "RotatedSquares.pde"},
+	{img: "rotating-lines-1", code: "RotatingLines.pde"},
+	{img: "rotating-lines-2", code: "RotatingLines.pde"},
 	{img: "squares-1", code: "Squares.pde"},
 	{img: "squares-2", code: "Square.pde"},
 	{img: "squares-3", code: "Square.pde"}
 ];
 
 var backgroundObj = backgrounds[Math.floor(Math.random()*backgrounds.length)];
-
-//backgroundObj = backgrounds[backgrounds.length-1];
 
 function setRandomBackground(){
 	
