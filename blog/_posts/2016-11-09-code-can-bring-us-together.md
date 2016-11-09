@@ -7,7 +7,7 @@ meta-description: I don't have anything smart or comforting to say, but this see
 meta-image: /examples/processing/creating-functions/images/turtle-graphics-2.png
 ---
 
-I know a lot of people are sad, frustrated, ashamed, and angry today. I know a lot of people feel alone or divided, caught up in the "us vs them" frenzy that got us here. I know a lot of people are having conversations with scared kids who don't understand. And I don't have a lot to add to any of that, other than I empathise with you.
+I know a lot of people are sad, frustrated, ashamed, and angry today. I know a lot of people feel alone or divided, caught up in the "us vs them" frenzy that got us here. I know a lot of people are having conversations with scared kids who don't understand. And I don't have a lot to add to any of that, other than I empathize with you.
 
 I don't have anything smart or comforting to say, but this seemed like the right time to reflect on why I'm putting together this site. It might be a little pretentious to tie my dumb little tutorial website into everything happening, and I know I tend to get a little rambly when it comes to this stuff, but here it is:
 
