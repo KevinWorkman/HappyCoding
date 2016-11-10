@@ -31,6 +31,8 @@ Computer science has never been more open to new people than it is today. When I
 
 I almost don't want to post this, because I don't want to capitalize on current events just for page views. But I also think it's important for people to hear: if you're curious about code, or want to talk about it, or are stuck on a problem, then you're welcome here. No judgement. No gatekeeping. You don't have to prove that you're the right kind of nerd to fit in here. You're already the right kind of nerd.
 
+This might all seem a little ridiculous or self-important, but I honestly believe that this stuff matters. We get almost all of our information digitally, and so much of our communication and exposure to other people is through social networks. So in that way, code is also responsible for dividing us, as the clickbaity digital bubbles we form around ourselves increase our us-vs-them otherism. I don't know what the solution to that problem is, **but somebody will figure it out**, and that person will bring us together... using code.
+
 I could ramble on about this stuff forever, so I'll stop myself there. Please don't hesitate to [contact me](/about/contact) or post in [the forum](http://forum.HappyCoding.io) if you have any questions or just want to say hi. I'd love to hear from you.
 
 Happy coding.
