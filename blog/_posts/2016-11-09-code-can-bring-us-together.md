@@ -19,7 +19,7 @@ And I know that the joy of learning applies to pretty much everything, not just 
 
 I'm here for you no matter who you are. Whether you're gay or straight, or somewhere in between. Boy or girl, or somewhere in between. Black or white or brown or purple. Young or old. Whether you use tabs or spaces to indent your code. You're all completely, openly, lovingly welcomed here.
 
-I was lucky (read: privileged) enough to be taught about computer science in high school. I was lucky enough to have a computer in my house, to have a teacher who ~~wanted to~~ fought to teach programming, to have the time to pursue it, and to go to college for it. But most people weren't that lucky.
+I was lucky (read: privileged) enough to be taught about computer science in high school. I was lucky enough to have a computer in my house, to have a teacher who ~~wanted to~~ *fought* to teach programming, to have the time to pursue it, and to go to college for it. But most people weren't that lucky.
 
 So I think it's partly my responsibility to pay that forward. To try to bring that to people who might not have otherwise experienced it. To reach out to people and say "this is what code is!" and try to make them see that it's not just ones and zeroes. It's art. It's beauty. It's creativity.
 
