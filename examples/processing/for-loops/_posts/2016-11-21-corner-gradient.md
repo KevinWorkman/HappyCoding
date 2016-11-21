@@ -49,7 +49,7 @@ This code uses the `dist()` function to get the distance between each pixel and 
 
 Try playing with the parameters passed into the `stroke()` function to come up with different colors, or move the points around to create different types of gradients.
 
-![gradient](/examples/processing/for-loops/images/radial-gradient-4.png) ![gradient](/examples/processing/for-loops/images/radial-gradient-5.png) ![gradient](/examples/processing/for-loops/images/radial-gradient-6.png) ![gradient](/examples/processing/for-loops/images/radial-gradient-7.png)
+![gradient](/examples/processing/for-loops/images/corner-gradient-4.png) ![gradient](/examples/processing/for-loops/images/corner-gradient-5.png) ![gradient](/examples/processing/for-loops/images/corner-gradient-6.png) ![gradient](/examples/processing/for-loops/images/corner-gradient-7.png)
 
 
 ## Tweak Ideas
