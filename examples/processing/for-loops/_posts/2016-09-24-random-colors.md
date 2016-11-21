@@ -8,6 +8,7 @@ meta-title: Random Colors
 meta-description: This example uses nested for loops to make every pixel a random color.
 meta-image: /examples/processing/for-loops/images/random-colors-2.png
 tags: [example, processing, for-loop]
+sort-key: 100
 ---
 
 ```java

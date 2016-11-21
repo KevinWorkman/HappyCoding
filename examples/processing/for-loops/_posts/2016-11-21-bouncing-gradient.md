@@ -89,6 +89,8 @@ void draw() {
 }
 ```
 
+{% include codepen.html slug-hash="WopyWr" height="331" %}
+
 This code consists of two main parts: it has three points that bounce around the screen, and it uses nested `for` loops to loop over every pixel in the window. For each pixel, it creates a color based on that pixel's distance from the three bouncing points, and then draws the pixel in that color. This creates a gradient that transitions through different colors as the points bounce around.
 
 ![gradient](/examples/processing/for-loops/images/bouncing-gradient-3.png)

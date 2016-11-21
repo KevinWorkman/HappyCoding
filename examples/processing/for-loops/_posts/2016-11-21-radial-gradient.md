@@ -8,6 +8,7 @@ meta-title: Radial Gradient
 meta-description: This example uses nested for loops to create a radial gradient.
 meta-image: /examples/processing/for-loops/images/radial-gradient-2.png
 tags: [example, processing, for-loop]
+sort-key: 300
 ---
 
 ```java
@@ -26,6 +27,8 @@ void draw() {
   }
 }
 ```
+
+{% include codepen.html slug-hash="dOvKwq" height="331" %}
 
 This code uses a nested `for` loop to loop over every pixel in the window. For each pixel, it creates a color based on that pixel's distance from the center, and draws the pixel in that color. This creates a [radial color gradient](https://en.wikipedia.org/wiki/Color_gradient#Radial_gradients).
 

@@ -31,6 +31,8 @@ void draw() {
 }
 ```
 
+{% include codepen.html slug-hash="jVBKJq" height="331" %}
+
 This code uses nested `for` loops to loop over every pixel in the window. For each pixel, it creates a color based on that pixel's distance from the corners, and then draws the pixel in that color. This creates a corner gradient.
 
 ![gradient](/examples/processing/for-loops/images/corner-gradient-3.png)
