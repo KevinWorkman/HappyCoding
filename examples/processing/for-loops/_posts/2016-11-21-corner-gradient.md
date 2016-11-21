@@ -8,7 +8,7 @@ meta-title: Corner Gradient
 meta-description: This example uses nested for loops to create a corner gradient.
 meta-image: /examples/processing/for-loops/images/corner-gradient-2.png
 tags: [example, processing, for-loop]
-sort-key:500
+sort-key: 500
 ---
 
 ```java
