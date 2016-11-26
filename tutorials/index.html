@@ -1,17 +1,7 @@
 ---
-layout: default
+layout: list-subcategories
 title: Tutorials
 meta-title: Tutorials
 meta-description: The Bob Ross approach to learning how to code.
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 ---
-<h1>{{ page.title }}</h1>
-
-<p>Want to learn how to program? Follow these tutorials:</p>
-
-<hr />
-
-{% assign tutorials = site.categories.tutorials | sort: 'sort-key' %}
-{% for post in  tutorials %}
-	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline tags=post.tags  %}
-{% endfor %}

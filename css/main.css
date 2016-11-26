@@ -6,6 +6,10 @@ p {
 	font-size: 1.1em;
 }
 
+pre{
+	tab-size:4;	
+}
+
 .content img{
 	max-width:95%;
 }

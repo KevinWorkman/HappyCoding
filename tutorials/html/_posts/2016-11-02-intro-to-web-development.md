@@ -2,14 +2,14 @@
 layout: tutorial
 title: Intro to Web Development
 slug: intro-to-web-development
-thumbnail: /tutorials/processing/images/input-10.gif
+thumbnail: /tutorials/html/images/html-2.png
 tagline: Getting on the information superhighway.
 sort-key: 100
 meta-title: Intro to Web Development
 meta-description: Getting on the information superhighway.
-meta-image: /examples/processing/arraylists/images/random-walkers-3.png
-tags: [tutorial,web,basic]
-published: false
+meta-image: /tutorials/html/images/html-3.png
+tags: [tutorial,html,basic]
+published: true
 ---
 
 Web development is a huge topic that covers lots of different things. Figuring out exactly where to start can be pretty daunting, so hopefully this tutorial series breaks things down for you and provides a good place to start.
@@ -53,4 +53,4 @@ Over the next couple days, think about these questions:
 - What are some different ways you interact with the internet? What types of things are the server and client doing in each case?
 - What types of websites are you hoping to create?
 
-## Next: [HTML isn't a four letter word](/tutorials/web/html)
+## Next: [HTML isn't a four letter word](/tutorials/html/html)

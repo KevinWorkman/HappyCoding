@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
+<h1>{{ page.title }}</h1>
 {% assign pageCategories = page.categories | join ' ' | append: ' '%}
 {% assign pageCategoriesSize = page.categories.size %}
-<h1>{{ cat }}</h1>
 {% assign sorted_posts = site.posts | sort: 'sort-key' %}
 {% for post in sorted_posts %}
 	{% assign postCategories = '' %}
