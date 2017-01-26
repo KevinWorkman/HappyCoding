@@ -91,6 +91,8 @@ To do all this, go to the Elements tab of the developer tools panel. (Firefox ca
 
 Another way to get here is by right-clicking an element in the webpage itself, and then clicking **Inspect** in the menu. This will bring you to the **Elements** tab of the developer tools, with the element you clicked already selected.
 
+<img alt="inspecting element demo gif" src="/tutorials/javascript/images/developer-tools-1.gif" style="border:thin solid black;" />
+
 Clicking a particular element shows another panel that displays that element's CSS styles. This is really useful if you want to know exactly what's causing an element to look a certain way. Also check out the **Computed** tab to show the final result of all of the cascading styles.
 
 You can even use this to change the styles of an element, which is a good way to play with different CSS values to get an element exactly how you want it to look. All of these changes are temporary: they don't make any changs to any of your files! So if you want to keep your changes, make sure to copy them. If you don't want to keep them, just refresh the page.
