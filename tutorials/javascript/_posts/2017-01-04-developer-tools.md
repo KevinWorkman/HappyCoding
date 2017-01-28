@@ -2,12 +2,12 @@
 layout: tutorial
 title: Developer Tools
 slug: developer-tools
-thumbnail: /tutorials/javascript/images/calling-javascript-3.png
+thumbnail: /tutorials/javascript/images/developer-tools-2.png
 tagline: Meet your new best friend.
 sort-key: 200
 meta-title: Developer Tools
-meta-description: Allow me to introduce you to your new best friend.
-meta-image: /tutorials/javascript/images/calling-javascript-3.png
+meta-description: Meet your new best friend.
+meta-image: /tutorials/javascript/images/developer-tools-3.png
 tags: [tutorial, javascript, basic]
 ---
 
