@@ -2,7 +2,7 @@
 layout: blog-post
 title: JavaScript Tutorials
 meta-title: JavaScript Tutorials
-meta-description: Join the challenge and write code for 100 days!
+meta-description: Happy Coding now has JavaScript tutorials!
 meta-image: /tutorials/javascript/images/calling-javascript-4.png
 ---
 
