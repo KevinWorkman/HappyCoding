@@ -242,3 +242,5 @@ Figuring out the answers to those questions is a huge part of what programming i
 - Create a Google Map that shows your favorite places in your home town. Put a pin at each location, and when the user clicks the pin show a description of what you like about that place. You could even add pictures you've taken!
 - The [Google Charts Library](https://developers.google.com/chart/) allows you to create interactive charts. Create a visualization of a simple data set.
 - Find another JavaScript library that does something cool and use it! (I'd love to see what you find!)
+
+## Next: [JQuery](/tutorials/javascript/jquery)

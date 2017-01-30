@@ -129,4 +129,4 @@ The developer tools contain a ton more: you can test different internet connecti
 - Play around with the CSS by inspecting elements. Don't worry, nothing you do can break a website, so get creative! And if you want to go back to the default styles, just refresh the page.
 - If you come up with a cool-looking style for this website, consider [contributing your code](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing)!
 
-## Next: [Interactive HTML](tutorials/javascript/interactive-html)
+## Next: [Creating Variables](/tutorials/javascript/creating-variables)
