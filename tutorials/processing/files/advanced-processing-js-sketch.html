@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Advanced Sketch</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+
+		<style>
+			body{
+				background-color: gray;
+				
+			}
+		</style>
+	</head>
+	<body>
+	<div style="margin-left:50px; text-align: center;">
+		<h1>My Advanced Example Sketch</h1>
+		<script type="application/processing">
+			void setup(){
+				size(200, 200);
+				backgroundShade = random(255);
+			}
+			
+			void draw(){
+				background(64);
+				ellipse(mouseX, mouseY, 20, 20);
+				
+				document.getElementById("label").innerHTML = "Mouse coordinates: " + mouseX + ", " + mouseY;
+			}
+		</script>
+		<canvas id="sketch"> </canvas>
+		<p id="label"></p>
+	</div>
+	</body>
+</html>
