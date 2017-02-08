@@ -3,7 +3,7 @@ layout: tutorial
 title: Hour of Code
 thumbnail: /tutorials/processing/images/hour-of-code-11.png
 tagline: Learn the basics of programming in an hour!
-sort-key: 1700
+sort-key: -100
 meta-title: Hour of Code
 meta-description: Learn the basics of programming in an hour!
 meta-image: /tutorials/processing/images/hour-of-code-12.png
