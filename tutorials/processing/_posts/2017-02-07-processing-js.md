@@ -3,7 +3,7 @@ layout: tutorial
 title: Processing.js
 thumbnail: /tutorials/processing/images/processing-js-1.png
 tagline: Embed your sketch in a webpage.
-sort-key: 1650
+sort-key: 1800
 meta-title: Processing.js
 meta-description: Embed your sketch in a webpage.
 meta-image: /tutorials/processing/images/processing-js-2.png

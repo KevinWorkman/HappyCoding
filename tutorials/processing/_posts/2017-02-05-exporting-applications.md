@@ -3,7 +3,7 @@ layout: tutorial
 title: Exporting Applications
 thumbnail: /tutorials/processing/images/exporting-applications-5.png
 tagline: Share your programs with other people.
-sort-key: 1600
+sort-key: 1700
 meta-title: Exporting Applications
 meta-description: Share your programs with other people.
 meta-image: /tutorials/processing/images/exporting-applications-6.png
