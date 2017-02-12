@@ -6,7 +6,7 @@ tagline: Add dark styles to your personal webpage.
 sort-key: 400
 meta-title: Personal Webpage (dark styles)
 meta-description: Give you personal webpage a sp00ky dark theme!
-meta-image: /examples/html/images/personal-page-light-styles-2.png
+meta-image: /examples/html/images/personal-page-dark-styles-2.png
 tags: [example, html, css]
 ---
 
