@@ -1,0 +1,39 @@
+body{
+	background-color: #323232;
+	color: white;	
+}
+
+#content{
+	width: 600px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: black;
+	padding: 25px;
+}
+
+a{
+	color: orange;
+}
+
+navigation a{
+	border: thin solid white;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+navigation a:hover{
+	background-color: orange;
+	color: black;
+}
+
+img{
+	width: 75%;
+	border: thick solid orange;
+}
+
+footer{
+	margin-top: 100px;
+	border-top: thin solid white;
+	font-size: 10pt;
+}

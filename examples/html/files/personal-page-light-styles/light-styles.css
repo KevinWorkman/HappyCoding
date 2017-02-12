@@ -1,0 +1,32 @@
+body{
+	background-color:lightgray;	
+}
+
+#content{
+	width: 600px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;	
+	background-color: white;
+	padding: 25px;
+}
+
+navigation a{
+	border: thin solid black;
+	padding: 5px;
+	border-radius: 25px;
+}
+
+navigation a:hover{
+	background-color: lightblue;
+}
+
+img{
+	width:75%;	
+}
+
+footer{
+	margin-top: 100px;
+	border-top: thin solid black;
+	font-size: 10pt;
+}

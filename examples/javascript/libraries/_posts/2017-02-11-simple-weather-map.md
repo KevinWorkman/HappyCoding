@@ -18,9 +18,9 @@ Hi there! If you're viewing this source to see how I coded this map, please note
 Instead, check out the example source at the bottom of the page!
 -->
 
-<iframe src="/examples/javascript/files/simple-weather-map.html" width="100%" height="750px" style="border: thin solid black;"></iframe>
+<iframe src="/examples/javascript/libraries/files/simple-weather-map.html" width="100%" height="750px" style="border: thin solid black;"></iframe>
 
-(Click [here](/examples/javascript/files/simple-weather-map.html) to view this in its own window.)
+(Click [here](/examples/javascript/libraries/files/simple-weather-map.html) to view this in its own window.)
 
 This example uses the [Google Maps JavaScript library](https://developers.google.com/maps/documentation/javascript/tutorial) and data from the [Iowa State Universitry Mesonet](https://mesonet.agron.iastate.edu/ogc/) to create a weather map.
 
