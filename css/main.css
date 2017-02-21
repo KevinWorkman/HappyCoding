@@ -2,6 +2,20 @@ body {
 	transition: background-image 1s linear;
 }
 
+#twitter-img{
+	height:16px; 	
+}
+
+#facebook-img{
+	height:16px; 	
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.nav-img{
+		display:none !important;
+	}
+}
+
 p {
 	font-size: 1.1em;
 }

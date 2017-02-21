@@ -97,9 +97,13 @@ function doThemeCss(){
 function doImageButtons(){
 	if("light" == theme){
 		$("#github-img").attr("src", "/images/GitHub-Mark-32px.png");
+		$("#twitter-img").attr("src", "/images/twitter-black.png");
+		$("#facebook-img").attr("src", "/images/facebook-black.png");
 	}
 	else{
 		$("#github-img").attr("src", "/images/GitHub-Mark-Light-32px.png");
+		$("#twitter-img").attr("src", "/images/twitter-white.png");
+		$("#facebook-img").attr("src", "/images/facebook-white.png");
 	}
 }
 
