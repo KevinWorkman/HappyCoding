@@ -17,7 +17,7 @@ My real goal with this website is to build a community of people who love learni
 
 And I know that the joy of learning applies to pretty much everything, not just code. But code is what I know and love, so here I am. If you've ever wondered how it all works, or if you just want to poke around, or if you want to get a job or go to college... I'm here for you.
 
-I'm here for you no matter who you are. Whether you're gay or straight, or somewhere in between. Boy or girl, or somewhere in between. Black or white or brown or purple. Young or old. Whether you use tabs or spaces to indent your code. You're all completely, openly, lovingly welcomed here.
+I'm here for you no matter who you are. Whether you're gay or straight, or somewhere in between. Boy or girl, or somewhere in between. Young or old. Whether you use tabs or spaces to indent your code. You're all completely, openly, lovingly welcomed here.
 
 I was lucky (read: privileged) enough to be taught about computer science in high school. I was lucky enough to have a computer in my house, to have a teacher who ~~wanted to~~ *fought* to teach programming, to have the time to pursue it, and to go to college for it. But most people weren't that lucky.
 
