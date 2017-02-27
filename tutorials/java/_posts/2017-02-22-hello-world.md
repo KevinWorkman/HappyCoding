@@ -204,3 +204,5 @@ Note that we didn't have to import the `System` class, because it's in the `java
 - Explain in your own words what the `javac` and `java` commands do.
 - Write a program that takes a single command line argument: the user's name. Print out a message saying hello to that name. What if the user provides their first and last name? Show a friendly error message if the user does not supply any command line arguments.
 - Write a program that takes any amount of digits as command line arguments and prints out their total. So `java Adder 1 2 3` prints out `6`, and `java Adder 1 2 3 4` prints out `10`. Hint: if you need to convert a `String` value to an `int` value, find the `Integer` class in [the Java API](https://docs.oracle.com/javase/8/docs/api/) and look for useful functions.
+
+## Next: [Creating Classes](/tutorials/java/creating-classes)
