@@ -150,52 +150,60 @@ For example, let's say you want to use the `ArrayList` class. Find the `ArrayLis
 
 ## Import Statements
 
-Let's say you created a program that uses the `ArrayList` class (you remember the `ArrayList` class from [the Processing tutorials](/tutorials/processing/arraylists), right?). Type this code into your basic text editor and save it to a file named `ArrayListExample.java`:
+Let's say you created a program that uses the `Scanner` class, which allows you to get user input from the command prompt. You can read more about the `Scanner` class in [the Java API](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
+
+For now, type this code into your basic text editor and save it to a file named `Greeter.java`:
 
 ```java
-public class ArrayListExample{
+public class Greeter{	
 	public static void main(String[] args){
-		ArrayList<String> list = new ArrayList<String>();
-		list.add("one");
-		list.add("two");
-		list.add("three");
-		System.out.println(list.get(0));
+		
+		System.out.println("What's your name? (Please type your name and press enter.");
+		
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
+		
+		System.out.println("Hello " + name + "!");
 	}
 }
 ```
 
-Now try to compile your program by opening a command prompt to the directory that contains this file, then typing `javac ArrayListExample.java` and pressing enter. You'll get an error:
+Now try to compile your program by opening a command prompt to the directory that contains this file, then typing `javac Greeter.java` and pressing enter. You'll get an error:
 
 ```
-C:\Users\Kevin\Desktop\HelloJava>javac ArrayListExample.java
-ArrayListExample.java:3: error: cannot find symbol
-                ArrayList<String> list = new ArrayList<String>();
+C:\Users\Kevin\Desktop\HelloJava>javac Greeter.java
+Greeter.java:6: error: cannot find symbol
+                Scanner scanner = new Scanner(System.in);
                 ^
 ```
 
-We'll talk more about how to read this error later, but for now just know that this error says it can't find the `ArrayList` class. It's in the Java API, so what's going on?
+We'll talk more about how to read this error [later](/tutorials/java/errors), but for now just know that this error says it can't find the `Scanner` class. It's in the Java API, so what's going on?
 
-In the Java API webpage, notice that the `ArrayList` class is inside the `java.util` package:
+In the Java API webpage, notice that the `Scanner` class is inside the `java.util` package:
 
 <img src ="/tutorials/java/images/hello-world-2.png" style="border: thin solid darkgray" />
 
 This means that we have to **import** the class before we can use it. Import statements go at the top of our code:
 
 ```java
-import java.util.ArrayList;
+import java.util.Scanner;
 
-public class ArrayListExample{
+public class Greeter{	
 	public static void main(String[] args){
-		ArrayList<String> list = new ArrayList<String>();
-		list.add("one");
-		list.add("two");
-		list.add("three");
-		System.out.println(list.get(0));
+		
+		System.out.println("What's your name? (Please type your name and press enter.");
+		
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
+		
+		System.out.println("Hello " + name + "!");
 	}
 }
 ```
 
 Now we can compile and run this code, and it works! Hooray! :tada:
+
+This program prompts the user for their name, which they can enter by typing into the command prompt and pressing enter. Then the code uses the `Scanner` class to read what the user typed. You can use the `Scanner` class to interact with the user, even without a fancy user interface!
 
 Note that we didn't have to import the `System` class, because it's in the `java.lang` package (check for yourself by looking it up in [the Java API](https://docs.oracle.com/javase/8/docs/api/)!. Anything in the `java.lang` package does not need to be imported.
 
@@ -203,6 +211,23 @@ Note that we didn't have to import the `System` class, because it's in the `java
 
 - Explain in your own words what the `javac` and `java` commands do.
 - Write a program that takes a single command line argument: the user's name. Print out a message saying hello to that name. What if the user provides their first and last name? Show a friendly error message if the user does not supply any command line arguments.
-- Write a program that takes any amount of digits as command line arguments and prints out their total. So `java Adder 1 2 3` prints out `6`, and `java Adder 1 2 3 4` prints out `10`. Hint: if you need to convert a `String` value to an `int` value, find the `Integer` class in [the Java API](https://docs.oracle.com/javase/8/docs/api/) and look for useful functions.
+- Write a program that uses the `Scanner` class to ask for numbers from the user. After every number, print out the total of all of the entered numbers, as well as the min, max, and average.
+- Write a program that requests a width, height, and character, and outputs a box of that character. For example, if the user enters a width of 3, height of 4, and character of %, you'd print:
+
+```
+%%%
+%%%
+%%%
+%%%
+```
+
+- Also request whether the box should be filled. So if a user enters a width of 5, height of 4, character of &, and that the box should **not** be filled, you'd print:
+
+```
+&&&&&
+&   &
+&   &
+&&&&&
+```
 
 ## Next: [Creating Classes](/tutorials/java/creating-classes)
