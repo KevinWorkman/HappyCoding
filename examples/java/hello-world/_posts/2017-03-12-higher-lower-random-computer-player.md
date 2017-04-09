@@ -10,7 +10,7 @@ meta-image: /examples/java/hello-world/images/higher-lower-random-computer-playe
 tags: [example, java, hello-world, higher-lower]
 ---
 
-This program creates a computer that plays the higher-lower number guessing game with you.You picks a number, and the computer tries to guess what it is. Each time the computer guesses, you tell it whether the number you're thinking of is higher or lower than your number. The computer "remembers" your answers and gets closer with every guess.
+This program creates a computer that plays the higher-lower number guessing game with you. You pick a number, and the computer tries to guess what it is. Each time the computer guesses, you tell it whether the number you're thinking of is higher or lower than your number. The computer "remembers" your answers and gets closer with every guess.
 
 ```java
 import java.util.Scanner;
