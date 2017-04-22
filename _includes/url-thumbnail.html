@@ -1,0 +1,6 @@
+{% assign post = site.posts | where:"url", include.url | first %}
+<div class="tutorial-link-box">
+	<a href="{{ post.url }}" ><img class="thumbnail-image" src="{{ post.thumbnail }}" />
+	<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+	<p>{{ post.tagline }}</p>
+</div>
