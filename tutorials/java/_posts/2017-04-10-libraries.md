@@ -28,7 +28,7 @@ The rest of the tutorial will use the [JFreeChart](http://www.jfree.org/jfreecha
 
 You've probably seen `.zip` files before, which are **archive files**, or files that hold other files. Similarly, `.jar` files are another kind of archive file, but they usually contain `.class` files. Java libraries usually come packaged in `.jar` files. (Actually, they're usually in `.zip` files that contain `.jar` files, which contain `.class` files!)
 
-Anyway, now that we've decided on a libary to use, the next step is to download it. Library websites usually contain a download page, and JFreeChart's is [here](http://www.jfree.org/jfreechart/download.html)
+Anyway, now that we've decided on a libary to use, the next step is to download it. Library websites usually contain a download page, and JFreeChart's is [here](http://www.jfree.org/jfreechart/download.html).
 
 Download the `.zip` file and extract it wherver you want. That gives you a directory that contains a bunch of `.jar` files.
 
