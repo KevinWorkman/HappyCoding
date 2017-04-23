@@ -1,4 +1,8 @@
 {% assign post = site.posts | where:"url", include.url | first %}
+{% unless post %}
+	{% assign post = site.pages | where:"url", include.url | first %}
+{% endunless %}
+
 <div class="tutorial-link-box">
 	<a href="{{ post.url }}" ><img class="thumbnail-image" src="{{ post.thumbnail }}" />
 	<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
