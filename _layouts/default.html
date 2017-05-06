@@ -64,6 +64,19 @@
 					</div>
 			</nav>
 			<div class="content">
+			
+			{% assign breadcrumb = page.url | split: '/' %}
+			{% unless breadcrumb.size < 3 %}
+				{% assign breadcrumbUrl = "" %}
+				{% for section in breadcrumb %}
+					{% unless section == "" %}
+						{% assign breadcrumbUrl = breadcrumbUrl | append: "/" | append: section %}
+						<a href="{{ breadcrumbUrl }}">{{ section }}</a> {% unless forloop.last %} /{% endunless %} 
+					{% endunless %}
+				{% endfor %}
+			<hr/>
+			{% endunless %}
+
 			{{ content }}
 			</div>
 			
