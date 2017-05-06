@@ -77,6 +77,24 @@ public class FreePaycheckCalculator{
 
 The code uses the `LocalDate` and `DateTimeFormatter` classes to get the user's next paycheck date. Then it adds 2 weeks to the date until it finds 3 paychecks in the same month. It keeps doing that until it finds 10 months that have three paychecks in it.
 
+```
+> javac FreePaycheckCalculator.java
+> java FreePaycheckCalculator
+When is your next paycheck? Example: March 14
+May 19
+Here are the months you'll get a free paycheck:
+June 2017
+December 2017
+June 2018
+November 2018
+May 2019
+November 2019
+May 2020
+October 2020
+April 2021
+October 2021
+```
+
 Buy yourself something nice, or donate to [the Processing Foundation](https://processingfoundation.org/)!
 
 ## Tweak Ideas
