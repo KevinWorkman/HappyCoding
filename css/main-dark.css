@@ -4,11 +4,9 @@ pre code{
 
 a{
 	color: #00ddff;
-	transition: 1s;
 }
 
 a:hover, a:focus{
 	color: #ffdd00;
 	text-decoration: underline;
-	transition: 1s;
 }

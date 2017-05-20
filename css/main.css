@@ -1,5 +1,45 @@
+@font-face {
+	font-family: 'Fixedsys';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/fixedsys/fixedsys.eot');
+	src: url('../fonts/fixedsys/fixedsys?#iefix') format('embedded-opentype'),
+	 url('../fonts/fixedsys/fixedsys.woff') format('woff'),
+	 url('../fonts/fixedsys/fixedsys.ttf') format('truetype'),
+	 url('../fonts/fixedsys/fixedsys#FixedsysExcelsior301Regular') format('svg');
+	-webkit-font-smoothing: aliased;
+	font-smooth: never;
+}
+
 body {
 	transition: background-image 1s linear;
+}
+
+.navbar-brand{
+	font-family: 'Fixedsys', monospace;
+	font-size: 24pt;
+	line-height: 21px;
+	padding-right: 0px;
+}
+
+.nav-link{
+	font-family: 'Fixedsys', monospace;
+	font-size: 16pt;
+}
+
+.nav > li > a{
+	padding-left: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+}
+
+.navbar-right {
+	padding-right:10px;	
+}
+
+.nav.navbar-right > li > a{
+	padding-left: 0px;
+	padding-right: 5px;
 }
 
 #twitter-img{
@@ -14,10 +54,31 @@ body {
 	.nav-img{
 		display:none !important;
 	}
+	
+	.nav > li > a{
+		padding-left: 5px;
+	}
+
+}
+
+@media (min-width:992px){
+	.nav > li > a{
+		padding-left: 20px;
+	}
+}
+
+@media (min-width:1200px){
+	.nav > li > a{
+		padding-left: 30px;
+	}
 }
 
 p {
 	font-size: 1.1em;
+}
+
+a{
+	transition: color 1s;
 }
 
 pre{
