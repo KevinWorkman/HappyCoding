@@ -71,7 +71,7 @@ Here's an example that creates an interactive dropdown menu:
 	<title>Bootstrap Dropdown Example</title>
 	
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-	<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
