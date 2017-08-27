@@ -112,7 +112,7 @@ We could probably write some logic that encodes `<` as `&lt;` and `>` as `&gt;`,
 
 ## Commons Lang
 
-Let's use a library called [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/). It provides a bunch of utility classes and functions, but we're just using it as a simple example. The steps you follow to use this library apply to any lirary you want to use.
+Let's use a library called [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/). It provides a bunch of utility classes and functions, but we're just using it as a simple example. The steps you follow to use this library apply to any library you want to use.
 
 Go to [the Commons Lang download page](http://commons.apache.org/proper/commons-lang/download_lang.cgi) and download the **binary** zip file. Unzip that to wherver you want- putting it on your desktop for now is fine. 
 
