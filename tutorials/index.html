@@ -6,21 +6,46 @@ meta-description: The Bob Ross approach to learning how to code.
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 ---
 
+<style>
+	.tutorial-section{
+		border: thin solid black;
+		padding: 10px;
+		margin: 10px;
+		display: inline-block;
+	}
+	
+	.container{
+		text-align: center;
+	}
+</style>
+
 <h1>Tutorials</h1>
 
+<div class="tutorial-section">
 {% include url-thumbnail.html url="/tutorials/processing/" %}
+</div>
+<br/>
 
-<hr/>
+<div class="tutorial-section">
+{% include url-thumbnail.html url="/tutorials/html/" %}
+{% include url-thumbnail.html url="/tutorials/javascript/" %}
+</div>
+<br/>
 
-	{% include url-thumbnail.html url="/tutorials/html/" %}
-	{% include url-thumbnail.html url="/tutorials/javascript/" %}
-<hr/>
-
+<div class="tutorial-section">
 {% include url-thumbnail.html url="/tutorials/java/" %}
 {% include url-thumbnail.html url="/tutorials/java-server/" %}
+</div>
+<br/>
 
-<hr/>
+<div class="tutorial-section">
+{% include url-thumbnail.html url="/tutorials/p5js/" %}
+</div>
+<br/>
 
+<div class="tutorial-section">
 {% include url-thumbnail.html url="/tutorials/how-to/" %}
+</div>
+<br/>
 
-</hr/>
+<img src="http://localhost:4000/teaching/guides/images/curriculum-1.png" />
