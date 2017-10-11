@@ -108,4 +108,4 @@ Note that this URL does not contain the `root` directory.
 
 Also note that you can link between web apps, just like you can link between web pages- because that's what these are!
 
-
+# Next: [Servlets](/tutorials/java-server/servlets)

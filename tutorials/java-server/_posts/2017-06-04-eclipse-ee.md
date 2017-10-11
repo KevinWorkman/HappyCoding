@@ -14,7 +14,7 @@ So far we've been writing all of our code in a basic text editor, and compiling 
 
 But as our code gets more complicated, using an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) like [Eclipse](https://eclipse.org/) will make our lives much easier.
 
-This tutorial assumes you're already familiar with Eclipse from [the Eclipse tutorial](/tutorials/java/eclipse), so I won't spend a ton of time introducing ideas like workspaces, and projects. Instead, this tutorial talks about using Eclipse to develop web apps.
+This tutorial assumes you're already familiar with Eclipse from [the Eclipse tutorial](/tutorials/java/eclipse), so I won't spend a ton of time introducing ideas like workspaces and projects. Instead, this tutorial talks about using Eclipse to develop web apps.
 
 ## Enterprise Edition
 
@@ -97,7 +97,7 @@ Now we're ready to write some code!
 
 ## Writing Code
 
-Let's start by creating a servlet. Right-click the `src` directory, then go to the `New` directory, and select the `Class` option. Name your class `HelloWorldServlet`, and click the `Finish` button.
+Let's start by creating a servlet. Right-click the `src` directory, then go to the `New` menu, and select the `Class` option. Name your class `HelloWorldServlet`, and click the `Finish` button.
 
 That should open up the Java editor. Enter this code into it:
 
@@ -177,7 +177,7 @@ With your project open, open the `Run` menu, and then click the `Run Configurati
 
 That opens up a configuration panel where you can change a bunch of settings. Here are the ones we care about now:
 
-- `Context Path` is the part of the URL after the domain. If you leave this as `/`, then your webapp will be at `http://localhost:8080`. IF you change it to `HelloWorld`, your webapp will be at `http://localhost:8080/HelloWorld/`. Let's change it to `HelloWorld` for now.
+- `Context Path` is the part of the URL after the domain. If you leave this as `/`, then your webapp will be at `http://localhost:8080`. If you change it to `HelloWorld`, your webapp will be at `http://localhost:8080/HelloWorld/`. Let's change it to `HelloWorld` for now.
 - The `Options` tab allows you to specify which Jetty version to use. The default uses a Jetty server that comes with the Eclipse plugin, but let's use the version of Jetty we already have. Select the `Use Jetty at path` radio button, and then click the `External...` button and navigate to your Jetty directory.
 
 Your run configuration should look like this:
@@ -199,3 +199,5 @@ Eclipse gives you a bunch of cool features: it tells you about compiler error di
 But you don't **have** to use Eclipse. You can stick with a basic text editor and the console if you want. And in fact, I think it's really important to understand the basics of what's going on behind the scenes (knowing how to run Jetty and how it's finding web apps and mapping them to URLs). You could also use another IDE designed for writing code instead of Eclipse if you want.
 
 No matter how you write code, the process is the same: you create a `web.xml` file that maps a URL to a servlet class, you create a servlet class that contains your logic, and you create JSP files that render your view, which can use static files in the visible directory. You then run the server and visit your web app in a browser. Eclipse just makes stuff like compiling and running a little simpler. There's no magic!
+
+# Next: [Post Requests](/tutorials/java-server/post)

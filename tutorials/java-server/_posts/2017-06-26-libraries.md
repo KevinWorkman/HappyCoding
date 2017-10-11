@@ -106,7 +106,7 @@ response.getOutputStream().println("<p>Here's the text you entered: " + text + "
 
 So if `text` is `<h1>oh no</h1>`, then the HTML that gets rendered to the screen is `<p>Here's the text you entered: <h1>oh no</h1></p>`.
 
-Allowing users to input arbitrary HTML can cause problems on your site. It can lead to bad formatting, or even worse, exploits like [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting). You can read more about that, but basically, we need to replace any problematic characters in the text into [character entities](https://www.w3schools.com/html/html_entities.asp) so that it renders as text instead of HTML. This is called [escaping](https://en.wikipedia.org/wiki/Escape_character).
+Allowing users to input arbitrary HTML can cause problems on your site. It can lead to bad formatting, or even worse, exploits like [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting). You can read more about that, but basically, we need to replace any problematic characters in the text with [character entities](https://www.w3schools.com/html/html_entities.asp) so that it renders as text instead of HTML. This is called [escaping](https://en.wikipedia.org/wiki/Escape_character).
 
 We could probably write some logic that encodes `<` as `&lt;` and `>` as `&gt;`, but let's use a library instead!
 
@@ -114,11 +114,11 @@ We could probably write some logic that encodes `<` as `&lt;` and `>` as `&gt;`,
 
 Let's use a library called [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/). It provides a bunch of utility classes and functions, but we're just using it as a simple example. The steps you follow to use this library apply to any library you want to use.
 
-Go to [the Commons Lang download page](http://commons.apache.org/proper/commons-lang/download_lang.cgi) and download the **binary** zip file. Unzip that to wherver you want- putting it on your desktop for now is fine. 
+Go to [the Commons Lang download page](http://commons.apache.org/proper/commons-lang/download_lang.cgi) and download the **binary** zip file. Unzip that to wherever you want- putting it on your desktop for now is fine. 
 
 ## The `lib` Directory
 
-To use a library, the first thing you need to do is copy its `.jar` file into `WEB-INF/lib` inside your web app directory.
+To use a library, the first thing you need to do is copy its `.jar` file into the `WEB-INF/lib` folder inside your web app directory.
 
 So to use Commons Lang, find the `commons-lang3-3.6.jar` file (the version number might be slightly different for you) inside the `commons-lang` directory you just unzipped, and copy that `.jar` file into a `/WEB-INF/lib` folder inside your web app directory. Your web app directory should look like this:
 
@@ -134,7 +134,7 @@ When the server runs your code, it automatically adds the `lib` directory to the
 
 ## Using Library Code
 
-Like we learned in [the Java libraries tutorial](/tutorials/java/libraries), you can use classes and functions in a Java library just like you can use regular Java classes- because that's exactly what they are. So we can consult the [Appache Commons API](http://commons.apache.org/proper/commons-lang/apidocs/) to find a class and function that's useful for escaping text. Eventually we'll find the `StringEscapeUtils.escapeHtml4()` function. We can use it in our servlet code like this:
+Like we learned in [the Java libraries tutorial](/tutorials/java/libraries), you can use classes and functions in a Java library just like you can use regular Java classes- because that's exactly what they are. So we can consult the [Apache Commons API](http://commons.apache.org/proper/commons-lang/apidocs/) to find a class and function that's useful for escaping text. Eventually we'll find the `StringEscapeUtils.escapeHtml4()` function. We can use it in our servlet code like this:
 
 ```java
 import java.io.IOException;
@@ -173,7 +173,7 @@ public class HtmlEscapeServlet extends HttpServlet {
 }
 ```
 
-The only thing that changed is that we have an extra `import` statement, and our `doPost()` function no calls the `StringEscapeUtils.escapeHtml4()` function to get the escaped text. Hint: try printing out the value of `escapedHtml` to see what it looks like!
+The only thing that changed is that we have an extra `import` statement, and our `doPost()` function now calls the `StringEscapeUtils.escapeHtml4()` function to get the escaped text. Hint: try printing out the value of `escapedHtml` to see what it looks like!
 
 ## Compiling
 
@@ -213,3 +213,5 @@ Now you can run this project from Eclipse, or you can export it as a `.war` file
 - Use a library like [JSoup](https://jsoup.org/) to allow users to enter some HTML, but no harmful HTML.
 - Use a JSON library to convert Java objects to JSON that you use in JavaScript.
 - Find a [machine learning](https://en.wikipedia.org/wiki/Machine_learning) library and [do something cool](https://www.quora.com/What-are-some-real-world-examples-of-applications-of-machine-learning-in-the-field)!
+
+# Next: [Sanitizing User Input](/tutorials/java-server/sanitizing-user-input)
