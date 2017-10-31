@@ -144,7 +144,7 @@ Hopefully this shows you why you shouldn't just display user input. What can we 
 
 ## Sanitizing User Input
 
-Now we know that we shouldn't just allow the user to enter arbitrary content. So we face a decision: what should we do with user HTML? We basically have five options:
+Now we know that we shouldn't just allow the user to enter arbitrary content. So we face a decision: what should we do with user-entered HTML content? We basically have five options:
 
 - **Disallow** content so you show an error if the user tries to submit bad content.
 
@@ -287,7 +287,7 @@ Now the `doPost()` function uses the `escapeHtml4()` function to escape the cont
 
 ![html rendered as text](/tutorials/java-server/images/sanitizing-user-input-4.png)
 
-This approach of escaping content is useful if you want a very basic text editor that does not offer any styling, and you want the render text exactly how the users entered it.
+This approach of escaping content is useful if you want a very basic text editor that does not offer any styling, and you want to render text exactly how the users entered it.
 
 ## Cleaning Content
 
@@ -334,7 +334,7 @@ This option is useful if you want to allow the user to enter HTML to format thei
 
 ## Stripping Content
 
-We could also be more strict and just not allow any HTML tags through. This is basically just a just a stricter version of the cleaning option we just saw, so we can use jSoup to do this as well:
+We could also be more strict and just not allow any HTML tags through. This is basically just a stricter version of the cleaning option we just saw, so we can use jSoup to do this as well:
 
 ```java
 this.content = Jsoup.clean(request.getParameter("content"), Whitelist.none());
