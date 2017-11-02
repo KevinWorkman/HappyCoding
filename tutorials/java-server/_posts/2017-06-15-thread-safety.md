@@ -122,14 +122,14 @@ Notice that the total is no longer a multiple of ten! Here's what's happening:
 - You click the button, which sends a `POST` request to the server. This creates a thread, which calls our `doPost()` function, which adds 1 to the total, then 1 again, then again... until it has added 10 to the total.
 - Then the code redirects you back to the page, which sends another `GET` request, creates another thread, and renders 10 to the page.
 - Now you click the button again. This sends another `POST` request, creates another thread, and calls our `doPost()` function. It adds 1 to the total, then 1 again...
-- **This is where things get interesting:** in a new tab, you navigate to the page. This sends a `GET` request to the server, which creates another thread. This thread is executed at the same time as the thread that's still running the `POST` request! So you catch the `total` variable an an "in-between" state, and it renders 13 to the page.
+- **This is where things get interesting:** in a new tab, you navigate to the page. This sends a `GET` request to the server, which creates another thread. This thread is executed at the same time as the thread that's still running the `POST` request! So you catch the `total` variable an "in-between" state, and it renders 13 to the page.
 - Then the `POST` request completes, and you'll see 20 is rendered to the first tab.
 
 This is called a [race condition](https://en.wikipedia.org/wiki/Race_condition), because the result depends on the order of the instructions being carried out by different threads. You don't really have to understand exactly how threads work, but the point is that multiple requests can happen simultaneously. This means that your data can be accessed in ways you didn't plan for, which can lead to unexpected behaviors.
 
 ## Thread Safety
 
-Now we understand the problem, so let's talk about the solutions. There are a ton of different ways to make sure your code works when multiple threads are running it: in other words, to make your code **thread-safe**. This is a [huge topic\(https://en.wikipedia.org/wiki/Thread_safety) and can get very complicated, but I'll try to outline a few simple approaches that will solve a lot of the most common problems.
+Now we understand the problem, so let's talk about the solutions. There are a ton of different ways to make sure your code works when multiple threads are running it: in other words, to make your code **thread-safe**. This is a [huge topic](https://en.wikipedia.org/wiki/Thread_safety) and can get very complicated, but I'll try to outline a few simple approaches that will solve a lot of the most common problems.
 
 ## Synchronization
 
@@ -496,7 +496,7 @@ We need to use the enhanced `for` because we need the "snapshot" feature provide
 
 Anyway, run this servlet, load the page, click the button, and then open the page in a new tab. You'll see that the second page loads fine, but it doesn't see the change being made by the first request until you refresh after the first request completely finishes.
 
-There are a bunch of different data structures designed to be thread-safe, but that doesn't automatically make your code thread safe. You still have to understand the implications of multiple threads accessing your code. You should also note that choosing a data structure is a process of weighing pros and cons: the `CopyOnWriteArrayList` can be pretty inefficient since it's copying all of its underlying data whenever you make a change, for example. You have to weight that inefficiency against the benefits it gives you.
+There are a bunch of different data structures designed to be thread-safe, but that doesn't automatically make your code thread-safe. You still have to understand the implications of multiple threads accessing your code. You should also note that choosing a data structure is a process of weighing pros and cons: the `CopyOnWriteArrayList` can be pretty inefficient since it's copying all of its underlying data whenever you make a change, for example. You have to weigh that inefficiency against the benefits it gives you.
 
 ## More Advanced Threading
 
@@ -514,3 +514,5 @@ Concurrency is its own field of study, so it's not possible to list all of the t
 
 - Go back and make sure all of your servlets are thread-safe.
 - Create a web app where users can add or subtract from RGB values. Make the current value the background color. Don't let it go below 0 or above 255!
+
+# Next: [Hosting on AWS](/tutorials/java-server/hosting-aws)
