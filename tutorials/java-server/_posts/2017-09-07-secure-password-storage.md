@@ -730,3 +730,5 @@ Like most things, which approach you choose really depends on how you want your 
 - Why should you use passwords that are long and random? Why should you not reuse passwords?
 - Why should you be very careful when using public wifi connections?
 - Why is it a bad idea to use the same password for multiple sites?
+
+# Next: [Thread Safety](/tutorials/java-server/thread-safety)
