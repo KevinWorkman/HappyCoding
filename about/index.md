@@ -27,7 +27,7 @@ If all else fails, feel free to email me at kevin@HappyCoding.io.
 
 **Who are you?**
 
-My name is Kevin Workman. I :heart: coding. I've been programming since high school (so, uh, over ten years now). By day I do [prototype](https://en.wikipedia.org/wiki/Prototype) development, but I've always been more interested in [creative coding](https://en.wikipedia.org/wiki/Creative_coding) and the education side of things. Coding opens up new worlds of creativity, and I'd love to share that with more people.
+My name is Kevin Workman. I :heart: coding. I've been programming since high school (so, uh, over ten years now). By day I work at Google, but I've always been more interested in [creative coding](https://en.wikipedia.org/wiki/Creative_coding) and the education side of things. Coding opens up new worlds of creativity, and I'd love to share that with more people.
 
 <hr/>
 
@@ -38,5 +38,11 @@ People learn in different ways, and I don't think education is a zero-sum game. 
 I love what people like [Daniel Shiffman](http://shiffman.net/) and sites like [Fun Programming](http://funprogramming.org/), [Khan Academy](https://www.khanacademy.org/computing/computer-programming), and [Code Academy](https://www.codecademy.com/) are doing. I'm a big fan of all of the above.
 
 But I'm designing this site for people who learn like I learn. I'm building the type of site that I wish existed when I was learning programming.
+
+<hr/>
+
+**Got any stats?**
+
+[Yep!](/about/stats)
 
 <hr/>

@@ -142,7 +142,7 @@ Need sounds for your program or game?
 - [bfxr](http://www.bfxr.net/) 
   - Sequel to sfxr.
  
- ## Code Challenges
+## Code Challenges
  
 - [Code Golf](http://codegolf.stackexchange.com/) 
   - Check out the [`graphical-output`](http://codegolf.stackexchange.com/questions/tagged/graphical-output) tag!
@@ -167,7 +167,7 @@ Need sounds for your program or game?
 - [Kaggle](https://www.kaggle.com/)
   - Offers [big data](https://en.wikipedia.org/wiki/Big_data) sets and interesting competitions about analyzing it. Sometimes prizes include money or job interviews.
  
- ## Other
+## Other
  
 - [Google Summer of Code](https://developers.google.com/open-source/gsoc/)
   - Internships working on open source projects through Google!
