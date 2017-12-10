@@ -1,0 +1,198 @@
+---
+layout: default
+title: Stats
+---
+
+<style>
+.google-visualization-tooltip{
+	width: auto !important;
+	height: auto !important;
+	padding: 5px;
+	pointer-events: none;
+}
+</style>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<h1>Site Statistics</h1>
+<p id="duration-div"></p>
+
+<p><strong>Tutorials:</strong> <span id="tutorial-count">Loading...</span></p>
+<p><strong>Examples:</strong> <span id="example-count">Loading...</span></p>
+<p><strong>Blogs:</strong> <span id="blog-count">Loading...</span></p>
+<p><strong>Teaching:</strong> <span id="teaching-count">Loading...</span></p>
+<p><strong>Gallery:</strong> <span id="gallery-count">Loading...</span></p>
+
+<hr/>
+
+<div id="chart-div"></div>
+
+<script>
+
+var dataLoaded = false;
+var libraryLoaded = false;
+var chartDataArray = [];
+
+var start = getParameterByName('start');
+var end = getParameterByName('end');
+
+if(start || end){
+	var duration = 'Between ';
+	if(start){
+		duration += start + ' and ';
+	}
+	else{
+		duration += 'site creation and ';
+	}
+	
+	if(end){
+		duration += end + '.';	
+	}
+	else{
+		duration += 'now.';
+	}
+	console.log("duration: " + duration);
+	
+	$('#duration-div').html(duration);
+}
+
+function maybeDrawChart(){
+	if(dataLoaded && libraryLoaded){
+		drawChart();	
+	}	
+}
+window.onresize = maybeDrawChart;
+
+function getParameterByName(name, url) {
+	if (!url) url = window.location.href;
+	name = name.replace(/[\[\]]/g, "\\$&");
+	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	results = regex.exec(url);
+	if (!results) return null;
+	if (!results[2]) return '';
+	return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+function createTooltip(post, label, count, includeTitle){
+	var tooltip = '<strong>' + post.date.substring(0, 10) + '</strong><br/>' +
+		capitalizeFirstLetter(label) + ': ' + count;
+	if(includeTitle){
+		tooltip += '<br/>';
+		if(post.categories[1]){
+			tooltip += capitalizeFirstLetter(post.categories[1]) + ': ';
+		}
+		tooltip += post.title;
+		
+		if(post.thumbnail){
+			tooltip += '<br/><img stlye="width:50px;" src="' + post.thumbnail + '" />'; 	
+		}
+	} 
+	return tooltip;			
+}
+
+function compareByDate(postOne, postTwo) {
+	if (postOne.date < postTwo.date){
+		return -1;
+	}
+	if (postOne.date > postTwo.date){
+		return 1;
+	}
+	return 0;
+}
+
+function capitalizeFirstLetter(string) {
+	return string.charAt(0).toUpperCase() + string.substring(1);
+}
+
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(function(){ libraryLoaded = true; maybeDrawChart(); });
+
+$.getJSON( "/api/site.json", function( posts ) {
+	
+	posts.sort(compareByDate);
+
+	var tutorialCount = 0;
+	var exampleCount = 0;
+	var blogCount = 0;
+	var teachingCount = 0;
+	var galleryCount = 0;
+	
+	var countMap= {};
+		
+	$.each( posts, function(index, post ) {
+			
+		if(start && post.date < start){
+			return;	
+		}
+		
+		if(end && post.date > end){
+			return;	
+		}
+	
+		var tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount);
+		var exampleTooltip = createTooltip(post, 'Examples', exampleCount);
+		var blogTooltip = createTooltip(post, 'Blogs', blogCount);
+		var teachingTooltip = createTooltip(post, 'Teaching', teachingCount);
+		var galleryTooltip = createTooltip(post, 'Gallery', galleryCount);
+		
+		var category = post.categories[0];
+		
+		if('tutorials' == category){
+			tutorialCount++;
+			tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount, true);
+		}
+		else if('examples' == category){
+			exampleCount++;
+			exampleTooltip = createTooltip(post, 'Examples', exampleCount, true);
+		}
+		else if('blog' == category){
+			blogCount++;
+			blogTooltip = createTooltip(post, 'Blogs', blogCount, true);
+		}
+		else if('teaching' == category){
+			teachingCount++;
+			teachingTooltip = createTooltip(post, 'Teaching', teachingCount, true);
+		}
+		else if('gallery' == category){
+			galleryCount++;
+			galleryTooltip = createTooltip(post, 'Gallery', galleryCount, true);
+		}
+		else{
+			console.log('OTHER: ' + post.date + ': ' + post.title + ' - ' + post.categories[0]);	
+		}
+
+		var rowArray = [new Date(post.date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip];
+		chartDataArray.push(rowArray);
+	});
+	
+	$('#tutorial-count').text(tutorialCount);
+	$('#example-count').text(exampleCount);
+	$('#blog-count').text(blogCount);
+	$('#teaching-count').text(teachingCount);
+	$('#gallery-count').text(galleryCount);
+		
+	dataLoaded = true;
+	maybeDrawChart();
+});
+
+function drawChart() {
+	var data = new google.visualization.DataTable();
+	data.addColumn('date', 'Date');
+	data.addColumn('number', 'Tutorials');
+	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+	data.addColumn('number', 'Examples');
+	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+	data.addColumn('number', 'Blogs');
+	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+	data.addColumn('number', 'Teaching');
+	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+	data.addColumn('number', 'Gallery');
+	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+	data.addRows(chartDataArray);
+	
+	var options = {title: 'Posts by Date', isStacked: true, tooltip: {isHtml: true}, height:500};
+	var chart = new google.visualization.AreaChart(document.getElementById('chart-div'));
+	chart.draw(data, options);
+}
+
+</script>
