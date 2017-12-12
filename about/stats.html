@@ -2,13 +2,17 @@
 layout: default
 title: Stats
 ---
-
 <style>
 .google-visualization-tooltip{
 	width: auto !important;
 	height: auto !important;
 	padding: 5px;
 	pointer-events: none;
+}
+
+td, th{
+	padding: 0;
+	padding-left: 5px;
 }
 </style>
 
@@ -25,13 +29,32 @@ title: Stats
 
 <hr/>
 
-<div id="chart-div"></div>
+<h2>Total Posts Over Time</h2>
+
+<div id="posts-chart-div"></div>
+
+<hr/>
+
+<h2>Printed Pages</h2>
+
+<p>This is a <strong>very</strong> rough estimate of how many pages it would take to print the site out. It (incorrectly) assumes that a line is 150 characters long and a page is 66 lines. It doesn't count images or embedded CodePens.</p>
+
+<p><strong>Printed pages:</strong> <span id="printed-pages-count">Loading...</span></p>
+
+<div id="printed-pages-chart-div"></div>
+
+<hr/>
+
+<h2>Longest Posts</h2>
+
+<div id="printed-pages-table-div"></div>
 
 <script>
 
 var dataLoaded = false;
 var libraryLoaded = false;
-var chartDataArray = [];
+var postsChartDataArray = [];
+var printedPagesChartDataArray = []
 
 var start = getParameterByName('start');
 var end = getParameterByName('end');
@@ -51,14 +74,14 @@ if(start || end){
 	else{
 		duration += 'now.';
 	}
-	console.log("duration: " + duration);
 	
 	$('#duration-div').html(duration);
 }
 
 function maybeDrawChart(){
 	if(dataLoaded && libraryLoaded){
-		drawChart();	
+		drawPostsChart();
+		drawPrintedPagesChart();
 	}	
 }
 window.onresize = maybeDrawChart;
@@ -83,9 +106,9 @@ function createTooltip(post, label, count, includeTitle){
 		}
 		tooltip += post.title;
 		
-		if(post.thumbnail){
-			tooltip += '<br/><img stlye="width:50px;" src="' + post.thumbnail + '" />'; 	
-		}
+		//if(post.thumbnail){
+		//	tooltip += '<br/><img stlye="width:50px;" src="' + post.thumbnail + '" />'; 	
+		//}
 	} 
 	return tooltip;			
 }
@@ -100,6 +123,16 @@ function compareByDate(postOne, postTwo) {
 	return 0;
 }
 
+function compareByPrintedPages(postOne, postTwo) {
+	if (postOne.printedPages > postTwo.printedPages){
+		return -1;
+	}
+	if (postOne.printedPages < postTwo.printedPages){
+		return 1;
+	}
+	return 0;
+}
+
 function capitalizeFirstLetter(string) {
 	return string.charAt(0).toUpperCase() + string.substring(1);
 }
@@ -107,7 +140,8 @@ function capitalizeFirstLetter(string) {
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(function(){ libraryLoaded = true; maybeDrawChart(); });
 
-$.getJSON( "/api/site.json", function( posts ) {
+$.getJSON("/api/site.json", function( posts ) {
+		
 	
 	posts.sort(compareByDate);
 
@@ -116,8 +150,7 @@ $.getJSON( "/api/site.json", function( posts ) {
 	var blogCount = 0;
 	var teachingCount = 0;
 	var galleryCount = 0;
-	
-	var countMap= {};
+	var printedPagesCount = 0;
 		
 	$.each( posts, function(index, post ) {
 			
@@ -134,7 +167,7 @@ $.getJSON( "/api/site.json", function( posts ) {
 		var blogTooltip = createTooltip(post, 'Blogs', blogCount);
 		var teachingTooltip = createTooltip(post, 'Teaching', teachingCount);
 		var galleryTooltip = createTooltip(post, 'Gallery', galleryCount);
-		
+
 		var category = post.categories[0];
 		
 		if('tutorials' == category){
@@ -162,7 +195,13 @@ $.getJSON( "/api/site.json", function( posts ) {
 		}
 
 		var rowArray = [new Date(post.date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip];
-		chartDataArray.push(rowArray);
+		postsChartDataArray.push(rowArray);
+		
+		printedPagesCount += post.printedPages;
+		var printedPagesToolTip = createTooltip(post, 'Printed pages', printedPagesCount, true) + ' (' + post.printedPages + ')';
+		
+		var printedPagesRowArray = [new Date(post.date), printedPagesCount, printedPagesToolTip];
+		printedPagesChartDataArray.push(printedPagesRowArray);
 	});
 	
 	$('#tutorial-count').text(tutorialCount);
@@ -170,12 +209,31 @@ $.getJSON( "/api/site.json", function( posts ) {
 	$('#blog-count').text(blogCount);
 	$('#teaching-count').text(teachingCount);
 	$('#gallery-count').text(galleryCount);
-		
+	$('#printed-pages-count').text(printedPagesCount);
+	
+	createPrintedPagesTable(posts);
+	
 	dataLoaded = true;
 	maybeDrawChart();
 });
 
-function drawChart() {
+function createPrintedPagesTable(posts){
+	posts.sort(compareByPrintedPages);
+	
+	var tableHtml = '<table><tr><th>Post</th><th>Printed Pages</th></tr>';
+	
+	for(var i = 0; i < 10; i++){
+		var post = posts[i];
+		tableHtml += '<tr><td><a href="' + post.url + '">' + post.title + '</a></td>';
+		tableHtml += '<td>' + post.printedPages + '</td></tr>'
+	}
+	
+	tableHtml += '</table>'
+	
+	$('#printed-pages-table-div').html(tableHtml);
+}
+
+function drawPostsChart() {
 	var data = new google.visualization.DataTable();
 	data.addColumn('date', 'Date');
 	data.addColumn('number', 'Tutorials');
@@ -188,10 +246,22 @@ function drawChart() {
 	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
 	data.addColumn('number', 'Gallery');
 	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-	data.addRows(chartDataArray);
+	data.addRows(postsChartDataArray);
 	
-	var options = {title: 'Posts by Date', isStacked: true, tooltip: {isHtml: true}, height:500};
-	var chart = new google.visualization.AreaChart(document.getElementById('chart-div'));
+	var options = {isStacked: true, tooltip: {isHtml: true}, height:500};
+	var chart = new google.visualization.AreaChart(document.getElementById('posts-chart-div'));
+	chart.draw(data, options);
+}
+
+function drawPrintedPagesChart() {
+	var data = new google.visualization.DataTable();
+	data.addColumn('date', 'Date');
+	data.addColumn('number', 'Printed pages');
+	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+	data.addRows(printedPagesChartDataArray);
+	
+	var options = {isStacked: true, tooltip: {isHtml: true}, height:500};
+	var chart = new google.visualization.AreaChart(document.getElementById('printed-pages-chart-div'));
 	chart.draw(data, options);
 }
 
