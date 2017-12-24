@@ -193,16 +193,23 @@ $.getJSON("/api/site.json", function( posts ) {
 		else{
 			console.log('OTHER: ' + post.date + ': ' + post.title + ' - ' + post.categories[0]);	
 		}
-
-		var rowArray = [new Date(post.date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip];
-		postsChartDataArray.push(rowArray);
 		
 		printedPagesCount += post.printedPages;
-		var printedPagesToolTip = createTooltip(post, 'Printed pages', printedPagesCount, true) + ' (' + post.printedPages + ')';
+		var printedPagesTooltip = createTooltip(post, 'Printed pages', printedPagesCount, true) + ' (' + post.printedPages + ')';
+
+		addDataRow(post.date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip);
 		
-		var printedPagesRowArray = [new Date(post.date), printedPagesCount, printedPagesToolTip];
-		printedPagesChartDataArray.push(printedPagesRowArray);
 	});
+	
+	if(end){
+		var endTitle = '<strong>' + end + '</strong><br/>';
+		addDataRow(end, tutorialCount, endTitle + 'Tutorials: ' + tutorialCount, exampleCount, endTitle + 'Examples: ' + exampleCount, blogCount, endTitle + 'Blogs: ' + blogCount, teachingCount, endTitle + 'Teaching: ' + teachingCount, galleryCount, endTitle + 'Gallery: ' + galleryCount, printedPagesCount, endTitle + 'Printed pages: ' + printedPagesCount);
+	}
+	else{
+		var today = new Date().toISOString().substring(0, 10);
+		var endTitle = '<strong>' + today + '</strong><br/>';
+		addDataRow(today, tutorialCount, endTitle + 'Tutorials: ' + tutorialCount, exampleCount, endTitle + 'Examples: ' + exampleCount, blogCount, endTitle + 'Blogs: ' + blogCount, teachingCount, endTitle + 'Teaching: ' + teachingCount, galleryCount, endTitle + 'Gallery: ' + galleryCount, printedPagesCount, endTitle + 'Printed pages: ' + printedPagesCount);
+	}
 	
 	$('#tutorial-count').text(tutorialCount);
 	$('#example-count').text(exampleCount);
@@ -213,9 +220,36 @@ $.getJSON("/api/site.json", function( posts ) {
 	
 	createPrintedPagesTable(posts);
 	
+	//removeZeroesFromData();
+	
 	dataLoaded = true;
 	maybeDrawChart();
 });
+
+function addDataRow(date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip){
+	
+	if(tutorialCount == 0){
+		tutorialCount = null;	
+	}
+	if(exampleCount == 0){
+		exampleCount = null;	
+	}
+	if(blogCount == 0){
+		blogCount = null;	
+	}
+	if(teachingCount == 0){
+		teachingCount = null;	
+	}
+	if(galleryCount == 0){
+		galleryCount = null;	
+	}
+	
+	var rowArray = [new Date(date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip];
+	postsChartDataArray.push(rowArray);
+		
+	var printedPagesRowArray = [new Date(date), printedPagesCount, printedPagesTooltip];
+	printedPagesChartDataArray.push(printedPagesRowArray);
+}
 
 function createPrintedPagesTable(posts){
 	posts.sort(compareByPrintedPages);
