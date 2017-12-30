@@ -212,7 +212,7 @@ Note that our simple hash function is pretty bad: different passwords  can have 
 
 Let's say I'm an attacker and I have a copy of your database, containing your usernames and hashed passwords. I don't want to brute force attack your site, because sending data over the internet and waiting for a response takes a long time (especially when I'm sending thousands of requests). Instead, what I'll do is try to guess which hash function you're using, and then I'll brute force attack my copy of your database.
 
-For example, I could take the 10,000 most common passwords](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords), run each one through your hash function (or every hash function I can think of), and then compare the result of that hash to the database. If my hash value matches any of your password hashes, then I've figured out that user's password.
+For example, I could take the [10,000 most common passwords](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords), run each one through your hash function (or every hash function I can think of), and then compare the result of that hash to the database. If my hash value matches any of your password hashes, then I've figured out that user's password.
 
 If that doesn't work, then I'm back to brute force generating passwords and computing their hash values, and that still takes a very long time for good (long and random) passwords.
 
