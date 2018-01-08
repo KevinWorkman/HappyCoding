@@ -12,40 +12,82 @@ meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 		padding: 10px;
 		margin: 10px;
 		display: inline-block;
+		width: 250px;
 	}
 	
-	.container{
-		text-align: center;
+	.tutorial-section p{
+		margin-top: -10px;
+		margin-left: 8px;
 	}
 </style>
 
 <h1>Tutorials</h1>
 
+<hr/>
+
+<h2>Not sure where to start? Start here.</h2>
+
 <div class="tutorial-section">
 {% include url-thumbnail.html url="/tutorials/processing/" %}
+
+<p>Dive into creative coding with Processing.</p>
 </div>
+
 <br/>
+<hr/>
+
+<h2>Web Development</h2>
 
 <div class="tutorial-section">
 {% include url-thumbnail.html url="/tutorials/html/" %}
-{% include url-thumbnail.html url="/tutorials/javascript/" %}
+<p>No prior experience necessary.</p>
 </div>
-<br/>
 
 <div class="tutorial-section">
-{% include url-thumbnail.html url="/tutorials/java/" %}
-{% include url-thumbnail.html url="/tutorials/java-server/" %}
+{% include url-thumbnail.html url="/tutorials/javascript/" %}
+<p><strong>Prerequisites:</strong> Processing and HTML</p>
 </div>
-<br/>
 
 <div class="tutorial-section">
 {% include url-thumbnail.html url="/tutorials/p5js/" %}
+<p><strong>Prerequisites:</strong> Processing, HTML, and JavaScript</p>
 </div>
+
 <br/>
+<hr/>
+
+<h2>Java</h2>
+
+<div class="tutorial-section">
+{% include url-thumbnail.html url="/tutorials/java/" %}
+<p><strong>Prerequisite:</strong> Processing</p>
+</div>
+
+<div class="tutorial-section">
+{% include url-thumbnail.html url="/tutorials/java-server/" %}
+<p><strong>Prerequisite:</strong> Java</p>
+</div>
+
+<div class="tutorial-section">
+{% include url-thumbnail.html url="/tutorials/android/" %}
+<p><strong>Prerequisite:</strong> Java</p>
+</div>
+
+<br/>
+<hr/>
+
+<h2>Miscellaneous</h2>
 
 <div class="tutorial-section">
 {% include url-thumbnail.html url="/tutorials/how-to/" %}
+<p>General how-to guides not specific to any language.</p>
 </div>
+
 <br/>
+<hr/>
+
+<h2>Roadmap</h2>
+
+<p>Here's the recommended order of the tutorials:</p>
 
 <img src="http://localhost:4000/teaching/guides/images/curriculum-1.png" />
