@@ -10,6 +10,8 @@ meta-image: /tutorials/android/images/hello-world-9.png
 tags: [tutorial, android, hello-world]
 ---
 
+{% include toc.md %}
+
 Android development requires a little bit of setup before diving into the code, so let's do that now.
 
 ## Android Studio
