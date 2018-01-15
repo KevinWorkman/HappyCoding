@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: Hello World
-thumbnail: /tutorials/android/images/hello-world-8.png
+thumbnail: /tutorials/android/images/hello-world-10.png
 tagline: Create your first Android app.
 sort-key: 100
 meta-title: Hello Android World
