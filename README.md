@@ -1,5 +1,7 @@
 # Happy Coding
 
+![alt](images/geekslider-logo.png)
+
 [HappyCoding.io](http://HappyCoding.io) is a website devoted to programming tutorials and examples.
 
 [Happy Coding is entirely open source](http://happycoding.io/license.html): everything from the example code to the code that puts the actual site together. You're looking at that source code.
