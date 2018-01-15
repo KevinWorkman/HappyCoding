@@ -1,6 +1,6 @@
 # Happy Coding
 
-![alt](https://github.com/geekslider/HappyCoding/blob/geekslider-patch-1/images/geekslider-logo.png?raw=true)
+![alt](images/geekslider-logo.png)
 
 [HappyCoding.io](http://HappyCoding.io) is a website devoted to programming tutorials and examples.
 
