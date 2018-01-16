@@ -10,6 +10,8 @@ meta-image: /tutorials/p5js/images/hello-world-3.png
 tags: [tutorial, p5.js, javascript, hello-world]
 ---
 
+{% include toc.md %}
+
 Now that we know how to write P5.js code (using one of the editors we [just talked about](/tutorials/p5js/editors)) and run it in a browser, we can start diving into the fun stuff.
 
 Let's start with an example program. Remember that P5.js requires a `.html` file for the browser to render, so let's start with that:
@@ -165,3 +167,5 @@ We could also do Google searches for stuff like "P5.js draw rectangle" for a ton
 
 - Modify the above program to draw a yellow triangle.
 - Read through [the P5.js reference](https://p5js.org/reference/) and write small example programs to test different things out. If you have a question, don't be afraid to post in [the forum](http://forum.HappyCoding.io)!
+
+## Next: [Review](/tutorials/p5js/review)

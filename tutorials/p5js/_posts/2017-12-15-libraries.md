@@ -10,6 +10,8 @@ meta-image: /tutorials/p5js/images/libraries-3.png
 tags: [tutorial, p5.js, javascript, libraries]
 ---
 
+{% include toc.md %}
+
 So far we've learned that P5.js is a JavaScript library, which you can use just like any other JavaScript library. This also means that you can use other JavaScript libraries alongside P5.js.
 
 Like we learned in [the JavaScript libraries tutorial](/tutorials/javascript/libraries), a JavaScript library is just a bunch of JavaScript code that we can use in our JavaScript. To use a JavaScript library, first add a `<script>` tag with a `src` attribute that points to the location of the library:

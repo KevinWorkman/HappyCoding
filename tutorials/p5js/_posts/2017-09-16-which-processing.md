@@ -10,6 +10,8 @@ meta-image: /tutorials/p5js/images/which-processing-2.png
 tags: [tutorial, p5.js, processing, processing.js, javascript]
 ---
 
+{% include toc.md %}
+
 Before we dive into learning about P5.js, let's take a minute to talk about how it fits into everything else we've learned about so far.
 
 ## A Brief Processing History
@@ -87,3 +89,5 @@ Plus, a lot of the cooler things about P5.js require an understanding of HTML an
 All of that being said, that's just my opinion, and it's what I personally recommend. But if you're a novice and you're dead set on starting with P5.js, then check out [the P5.js getting started guide](https://p5js.org/get-started/) and [the learn guide](https://p5js.org/learn/). I also recommend [this video playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) by Daniel Shiffman.
 
 Of course, if you start learning P5.js and you find it a bit overwhelming, you can always come back here and start learning the basics in Processing! :smile_cat:
+
+## Next: [P5.js Editors](/tutorials/p5js/editors)
