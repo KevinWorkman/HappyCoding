@@ -11,6 +11,8 @@ meta-image: /examples/processing/arraylists/images/random-walkers-3.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 Now we know how to use objects and create our own classes. We know how to use arrays to create variables that hold multiple values, and we know how to create arrays of objects.
 
 Arrays are great if you know exactly how many values you're going to need ahead of time. But this often isn't the case: what if we want to add an object whenever the user clicks, or we want to add objects over time?

@@ -11,6 +11,8 @@ tags: [tutorial, processing, advanced, collision-detection]
 id: 1001
 ---
 
+{% include toc.md %}
+
 At this point you should be familiar with functions, animations, and `if` statements. This tutorial introduces **collision detection**, which allows you to determine when two shapes touch. If you can determine that two shapes touch, you can trigger some action- think of detecting when the user has moused over a button, or when a game character touches the floor or a badguy, or when your animation reaches a certain state.
 
 Collision detection can be accomplished using code that ranges from simple `if` statements to complicated algorithms handling thousands of objects at once, and even libraries that simulate realistic physics. We'll start with something simple and work our way up from there.

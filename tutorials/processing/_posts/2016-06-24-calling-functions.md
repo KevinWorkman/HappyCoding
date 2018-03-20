@@ -11,6 +11,8 @@ meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 This tutorial teaches you how to write Processing code. In Processing (and many other languages), one of the basic building blocks we'll use while writing code is **calling functions**.
 
 ## What's a function?

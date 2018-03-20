@@ -11,6 +11,8 @@ meta-image: /tutorials/processing/images/libraries-6.png
 tags: [tutorial, processing, basic, library]
 ---
 
+{% include toc.md %}
+
 At this point, you know all of the basics about how to use Processing. You know how to write code, and you know how to use objects and create your own classes.
 
 For example, you know how to use the `PVector` class to store a point, and you know how to use the `PImage` class to draw an image. You know how to call functions on these objects (like the `PVector.add()` and `PImage.resize()` functions) to run code that's inside these classes.

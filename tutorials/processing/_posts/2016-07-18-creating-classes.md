@@ -11,6 +11,8 @@ meta-image: /tutorials/processing/images/creating-classes-3.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 We've now learned how to use classes like the predefined `PVector` class. We know that classes describe a state by defining variables, and we know that instances of a class give values to those variables to describe the state of particular object.
 
 This tutorial teaches you how to define your own classes, which allows you to describe any state you can think of.

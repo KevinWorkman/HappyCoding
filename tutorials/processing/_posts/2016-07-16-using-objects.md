@@ -11,6 +11,8 @@ meta-image: /examples/processing/using-objects/images/eyes-5.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 We've now learned how to use variables, functions, and `if` statements. We know how to modify variables over time to create animations, and we know how to get user input.
 
 We know that variables and values have a type, which tells the computer what kind of value it is. We also know how to use arrays to create a variable that holds multiple values.

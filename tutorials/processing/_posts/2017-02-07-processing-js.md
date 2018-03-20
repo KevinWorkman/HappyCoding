@@ -10,6 +10,8 @@ meta-image: /tutorials/processing/images/processing-js-2.png
 tags: [tutorial, processing, basic]
 ---
 
+{% include toc.md %}
+
 Processing allows you to [export applications](/tutorials/processing/export-applications), which gives you a `.zip` file that runs on a particular operating system. You can then upload that file (to a site like [Game Jolt](http://gamejolt.com/) or [itch.io](https://itch.io/), or even [your own webpage](/tutorials/html/)), and then other people can download it, unzip it, and run the application to see your sketch.
 
 But that process does **not** create a webpage that contains your sketch embedded directly in the page itself. You can create a webpage that **links** to the files for download, but it's not embedded in the webpage itself.

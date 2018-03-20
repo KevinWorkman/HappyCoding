@@ -11,6 +11,8 @@ meta-image: /tutorials/processing/images/if-statements-5.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 We now know how to call functions, use variables, and create our own variables and functions.
 
 We've seen that values have different types. A type tells the computer what kind of data a value is, or what type of value a variable holds.

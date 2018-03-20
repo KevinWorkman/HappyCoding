@@ -11,6 +11,8 @@ meta-image: /examples/processing/animation/images/random-walker-5.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 We now know about functions, variables, and if statements.
 
 We know that the `draw()` function is called 60 times per second, and we know how to use operators like `+` and `-` to get new values.

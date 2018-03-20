@@ -10,6 +10,8 @@ meta-image: /tutorials/processing/images/hour-of-code-12.png
 tags: [tutorial, processing, hour-of-code]
 ---
 
+{% include toc.md %}
+
 The [Hour of Code](https://hourofcode.com) is a challenge: spend an hour of your time learning how to code. You'd be amazed at what you can accomplish in that amount of time!
 
 The Hour of Code was organized by [Code.org](http://code.org/) as a way to get more people involved in programming- especially people who might not consider themselves "typical" computer scientists. The "official" Hour of Code takes place during [Computer Science Education Week](http://csedweek.org/) in December, but you can try it out any time!

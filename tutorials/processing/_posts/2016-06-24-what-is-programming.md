@@ -11,6 +11,8 @@ meta-image: /examples/processing/arraylists/images/random-walkers-3.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 The Processing tutorials teach you how to write code in order to make your own programs. But before we dive in, let's define some of the terms we'll be using.
 
 ## What's a program?

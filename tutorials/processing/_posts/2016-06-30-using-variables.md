@@ -11,6 +11,8 @@ meta-image: /tutorials/processing/images/creating-functions-7.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 Now you know how to [call functions](/tutorials/processing/calling-functions) by passing in parameters to tell the computer to follow a series of steps to accomplish some goal.
 
 Knowing exactly what parameters to use can be annoying, so this tutorial shows you how you can use **variables** to make your life a little easier.

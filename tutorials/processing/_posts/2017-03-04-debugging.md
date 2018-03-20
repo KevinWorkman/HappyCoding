@@ -10,6 +10,8 @@ meta-image: /tutorials/processing/images/debugging-7.png
 tags: [tutorial, processing]
 ---
 
+{% include toc.md %}
+
 As you write code, you'll inevitably encounter errors. This can be frustrating, but it's a huge part of being a programmer. Every programmer encounters errors, every single time they sit down to write code. Errors can happen for several different reasons, and this tutorial shows you how to **debug** your code to fix any errors in it.
 
 ## Compiler Errors

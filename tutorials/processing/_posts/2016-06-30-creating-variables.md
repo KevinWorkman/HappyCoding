@@ -11,6 +11,8 @@ meta-image: /tutorials/processing/images/creating-functions-7.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 In the previous tutorial, we learned about [using variables](/tutorials/processing/using-variables). 
 
 Variables are names that hold values, and we can use a variable anywhere we can use a value just by writing its name. That lets us do things like this:

@@ -10,6 +10,8 @@ meta-image: /tutorials/processing/images/exporting-applications-6.png
 tags: [tutorial, processing, basic]
 ---
 
+{% include toc.md %}
+
 So far our programs have only worked locally (on our own computer), but by now you probably want to share your programs with other people.
 
 To allow other people to run one of our programs, we have to include all of the files it needs to run on a particular operating system. Windows needs different files than Linux, for example. To create this OS-specific bundle, we can export our sketch as an application.

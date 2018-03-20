@@ -11,6 +11,8 @@ meta-image: /tutorials/processing/images/creating-functions-7.png
 tags: [tutorial,processing,basic]
 ---
 
+{% include toc.md %}
+
 We now know how to call functions, use variables, and create our own variables. We've also seen that functions can give us a value instead of doing something.
 
 This tutorial combines all of that to allow us to create our own functions.
