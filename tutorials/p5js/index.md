@@ -9,9 +9,9 @@ meta-image: /tutorials/p5js/images/hello-world-3.png
 sort-key: 600
 ---
 
-<h1>P5.js Tutorials</h1>
+# P5.js Tutorials
 
-<p>These tutorials assume you're already familiar with the basics of programming and that you've already read <a href="/tutorials/processing/">the Processing tutorials</a> and <a href="/tutorials/javascript/">the JavaScript tutorials</a>.</p>
+These tutorials assume you're already familiar with the basics of programming and that you've already read [the Processing tutorials](/tutorials/processing/) and [the JavaScript tutorials](/tutorials/javascript/).
 
 {% include url-thumbnail.html url="/tutorials/p5js/which-processing" %}
 {% include url-thumbnail.html url="/tutorials/p5js/editors" %}
