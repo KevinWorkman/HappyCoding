@@ -10,6 +10,8 @@ meta-image: /tutorials/java/images/processing-in-java-5.png
 tags: [tutorial, java, processing]
 ---
 
+{% include toc.md %}
+
 At this point you've probably used [Processing](/tutorials/processing) through the Processing editor, which allows you to write Processing code and automatically run it. You've also learned how to use [Java libraries](/tutorials/java/libraries), which allow you to use classes and functions written by other people in your Java code. This tutorial combines those ideas and shows you how to use Processing as a Java library.
 
 ## Processing is Java
@@ -292,7 +294,7 @@ This code uses the `this` keyword to pass a reference to the current instance in
 
 You can use the above approach of accepting a `PApplet` argument into your code to create a library that you can then use in a Processing sketch in the Processing editor.
 
-Then you would [export a `.jar` file](/tutorials/java/exporting-jars) that contains your code. Make sure your classes are in packages!
+Then you would [export a `.jar` file](/tutorials/java/exporting-jars) that contains your code. Make sure your classes are in packages: classes inside `.jar` files must be inside a package to be visible to other classes inside a package. (The alternative is to not use packages at all, which is generally a bad idea.)
 
 Now that you have a `.jar` file, you can drag it directly onto the Processing editor, or you can package it up as a "real" Processing library for other people to use. See [the Processing wiki](https://github.com/processing/processing/wiki/Library-Basics) for more info.
 
