@@ -18,3 +18,4 @@ This multiple deployment feature is extremely useful. It allows you to write you
 These tutorials assume you're already familiar with the basics of programming and that you've already read <a href="/tutorials/processing/">the Processing tutorials</a> and <a href="/tutorials/java/">the Java tutorials</a>. You should be familiar with object oriented programming. If you're planning on deploying to Android, you should also probably read <a href="/tutorials/android">the Android tutorials</a> as well.
 
 {% include url-thumbnail.html url="/tutorials/libgdx/setup" %}
+{% include url-thumbnail.html url="/tutorials/libgdx/hello-world" %}
