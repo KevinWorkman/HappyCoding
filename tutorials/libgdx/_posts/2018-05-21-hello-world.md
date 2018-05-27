@@ -187,6 +187,8 @@ public class HelloWorldGame extends ApplicationAdapter {
 }
 ```
 
+![bouncing green circle](/tutorials/libgdx/images/hello-world-5.gif)
+
 The `circleX` and `circleY` variables hold the position of the circle, and the `xSpeed` and `ySpeed` variables hold the horizontal and vertical speed of the circle. In the `render()` function, we move the circle by its speed, and then check whether it's going outside the bounds of the screen. If so, we reverse the speed of the circle, which makes it bounce of the edges of the screen.
 
 ## Delta Time
@@ -217,14 +219,7 @@ Now our circle will move at the same speed no matter what the frame rate of the 
 
 You should always store your rates as per-second values and multiply them by the delta time to get the distance for the current frame!
 
+# Homework
 
-
-
-
-
-
-
-
-
-
-
+- If you started with the Processing tutorials, recreate some of your basic Processing sketches in libGDX. Keep it simple for now and don't worry about user input or making it into a game.
+- Implement the [random walker](http://happycoding.io/examples/processing/animation/random-walker) in libGDX.
