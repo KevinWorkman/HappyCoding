@@ -27,3 +27,11 @@
 	color:black;
 	cursor: pointer;
 }
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: black;	
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: white;
+}
