@@ -10,6 +10,8 @@ meta-image: /tutorials/java/images/creating-classes-3.png
 tags: [tutorial, java]
 ---
 
+{% include toc.md %}
+
 Remember from [the Processing tutorials](/tutorials/processing/creating-classes) that you can create a class to store variables and functions in a single unit, and then you can create **instances** of that class using the `new` keyword.
 
 Let's say we have this class:

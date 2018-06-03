@@ -10,6 +10,8 @@ meta-image: /tutorials/java/images/libraries-3.png
 tags: [tutorial, java, libraries]
 ---
 
+{% include toc.md %}
+
 So far, we've relied on the classes that come standard with Java, which you can read about in [the Java API](https://docs.oracle.com/javase/8/docs/api/). These classes were written by the developers who create Java itself, and you can use them on any computer that has Java installed.
 
 However, you aren't limited to just using those classes. You've already seen how to create your own classes that interact with each other. You can also use classes that have been written by other people!

@@ -11,6 +11,8 @@ meta-image: /tutorials/html/javascript/interactive-html-2.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 Now you know how to write JavaScript code, and you know how to set up events in your HTML to call functions that you write. So far we've only used basic functions like `alert()` and `console.log()` to interact with the user. But "real" JavaScript usually modifies something on the page to interact with the user.
 
 ## Referencing HTML Elements

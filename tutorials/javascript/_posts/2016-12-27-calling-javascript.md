@@ -11,6 +11,8 @@ meta-image: /tutorials/javascript/images/calling-javascript-4.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 If you're following these tutorials in order, then at this point you should be familiar with programming in Processing and with setting up a basic webpage using HTML and CSS.
 
 You might have noticed that HTML isn't really a programming language. It's a **markup language**, which means that it allows you to specify the content of a webpage. But it doesn't really contain any logic- the stuff like `if` statements, `for` loops, and functions that you learned about in Processing.

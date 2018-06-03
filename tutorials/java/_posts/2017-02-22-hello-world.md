@@ -10,6 +10,8 @@ meta-image: /tutorials/java/images/hello-world-4.png
 tags: [tutorial, java]
 ---
 
+{% include toc.md %}
+
 Now that you [installed Java](/tutorials/java/setup), it's time to write some code!
 
 This tutorial assumes that you've already been through [the Processing tutorials](/tutorials/processing) and understand what code is, and what objects and classes are.

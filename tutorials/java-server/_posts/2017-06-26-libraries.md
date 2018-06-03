@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/libraries-6.png
 tags: [tutorial, java, server, libraries]
 ---
 
+{% include toc.md %}
+
 At this point, we've learned how to write server code using servlets and JSP. This lets us run Java code on a server, perform logic based on user web requests, and formulate responses that are then rendered into HTML. But at its core, you're really just writing Java. And like we learned in [the Java libraries tutorial](/tutorials/java/libraries), you can use libraries to expand what your code can do. You should already be familiar with the basics of what a Java library is, and what the classpath is. This tutorial shows you how to use Java libraries in your server code.
 
 ## Example Web App

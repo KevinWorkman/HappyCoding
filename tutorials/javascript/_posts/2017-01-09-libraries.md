@@ -11,6 +11,8 @@ meta-image: /tutorials/html/javascript/libraries-2.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 Now you know how to write JavaScript code, how to use functions like `getElementById()` to make your webpage interactive, and how to create objects using function constructors and object literals.
 
 This tutorial takes all of that and shows you how to use JavaScript libraries.

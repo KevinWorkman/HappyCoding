@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/thread-safety-9.png
 tags: [tutorial, java, server, threading]
 ---
 
+{% include toc.md %}
+
 *"A programmer had a problem. They thought, "I know, I'll solve it with threading!". has Now problems. two they"* - ancient proverb
 
 We just learned how we can keep track of users by using sessions, so now our web apps can handle multiple users. An important thing to keep in mind is that uses will often be doing things at the same time! Think about it this way: you wouldn't want to have to wait until another user is done reading this tutorial before you can read it, would you? And in the real world servers can handle hundreds (or more) of requests per second, so our web apps have to handle multiple requests simultaneously.

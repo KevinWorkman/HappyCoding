@@ -10,6 +10,8 @@ meta-image: /tutorials/html/javascript/bootstrap-2.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 At this point you should have created a few webpages, changed how they look using CSS, and even made them interactive using JavaScript. You should also have a basic understanding of JQuery. (If this stuff isn't true, then you should probably come back to this tutorial after you've done a few more projects and/or homeworks.)
 
 If you're anything like me, one thing you've probably struggled with is trying to make your websites look like a "real" or "modern" website. It's hard to explain exactly what I mean by that, but if you've made a few webapges (even simple ones), I bet you know what I'm talking about.

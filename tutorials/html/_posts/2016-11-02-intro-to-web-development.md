@@ -12,6 +12,8 @@ tags: [tutorial,html,basic]
 published: true
 ---
 
+{% include toc.md %}
+
 Web development is a huge topic that covers lots of different things. Figuring out exactly where to start can be pretty daunting, so hopefully this tutorial series breaks things down for you and provides a good place to start.
 
 In its most basic form, web development involves two things: a server and a client.

@@ -11,6 +11,8 @@ meta-image: /tutorials/javascript/images/developer-tools-3.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 Before we get any further into web development, I need to introduce you to a set of tools that you'll be using all of the time. These are the **developer tools** that come with every web browser. These developer tools allow you to get more info about a website, to debug your JavaScript, and to see why that one component is 5 pixels to the right of where it should be.
 
 Most browsers will be pretty similar: try pressing the `F12` key (or `ctrl shift i` if you don't have a `F12` key), or look for it in the menu.

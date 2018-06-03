@@ -11,6 +11,8 @@ meta-image: /tutorials/html/javascript/creating-functions-2.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 This tutorial assumes you've worked through the Processing tutorials, and you already know what a function is. (If not, go read [the Processing tutorials](/tutorials/processing) now!) So I won't spend a lot of time explaining what a function is or why they're useful. I'll just focus on the major differences between creating functions in JavaScript vs creating them in Processing.
 
 ## Calling JavaScript

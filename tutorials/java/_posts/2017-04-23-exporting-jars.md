@@ -10,6 +10,8 @@ meta-image: /tutorials/java/images/exporting-jars-6.png
 tags: [tutorial, java, jar]
 ---
 
+{% include toc.md %}
+
 So far, we've been writing, compiling, and running code on our own computer. That is fine for development, but eventually you'll probably want to package your code up so other people can run it on their own computers.
 
 Remember from [the Java libraries tutorial](/tutorials/java/libraries) that a `.jar` file is an [archive file](https://en.wikipedia.org/wiki/Archive_file), which is a file that contains other files. You've probably seen `.zip` archive files before, and a `.jar` file is a lot like that. The only difference is that a `.jar` file is specifically designed to hold files related to Java code, and you can execute a Java program by running a `.jar` file.

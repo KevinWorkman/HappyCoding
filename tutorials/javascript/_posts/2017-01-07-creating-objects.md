@@ -11,6 +11,8 @@ meta-image: /tutorials/html/javascript/creating-objects-2.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 Now you know how to write JavaScript code, you know how to use event callbacks, and you know how to use the Document Object Model (aka the DOM) to use objects and functions to interact with the webpage.
 
 From the Processing tutorials, you also know the basics of creating your own classes, which allows you to create objects with their own functions and variables.

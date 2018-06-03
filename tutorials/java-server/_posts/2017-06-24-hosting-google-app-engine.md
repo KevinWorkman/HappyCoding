@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/hosting-google-app-engine-6.png
 tags: [tutorial, java, server, hosting, google-app-engine]
 ---
 
+{% include toc.md %}
+
 So far, we've been developing locally by turning our own computers into a server that we access using the `localhost:8080` URL. Running locally is a good habit to get into, because you want to test your changes before you unveil them to the entire world. But if you want other people to be able to visit your web app, you have to host your server somewhere.
 
 It's possible to use your computer as a "real" server that other people can access. You can google something like "turn my computer into a server" if you want to do that, but this tutorial uses [Google App Engine](https://cloud.google.com/appengine/) to host our server in the Google cloud.

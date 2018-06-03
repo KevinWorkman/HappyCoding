@@ -11,6 +11,8 @@ meta-image: /tutorials/javascript/images/calling-javascript-4.png
 tags: [tutorial, javascript, basic]
 ---
 
+{% include toc.md %}
+
 This tutorial assumes you've worked through the Processing tutorials, and you already know what a variable is. (If not, go read [the Processing tutorials](/tutorials/processing) now!) So I won't spend a lot of time explaining what variables are or why they're useful. I'll just focus on the major differences between creating variables in JavaScript vs creating them in Processing.
 
 ## The Basics

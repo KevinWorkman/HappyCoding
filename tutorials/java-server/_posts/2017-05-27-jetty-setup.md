@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/jetty-setup-5.png
 tags: [tutorial, java, server]
 ---
 
+{% include toc.md %}
+
 When we use the term *server*, we might mean two different things:
 
 - Hardware, or the computer that receives and sends messages and files.

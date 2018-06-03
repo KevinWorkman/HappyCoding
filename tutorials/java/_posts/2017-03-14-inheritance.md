@@ -10,6 +10,8 @@ meta-image: /tutorials/java/images/inheritance-3.png
 tags: [tutorial, java]
 ---
 
+{% include toc.md %}
+
 By now you should be pretty familiar with creating classes that contain variables and functions. You should understand that different instances of the same class contain the same types of variables and functions, but those instances can have different values for those variables and do different things based on those values. Here's an example:
 
 ```java
