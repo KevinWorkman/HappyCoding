@@ -4,7 +4,7 @@ title: Simple Reference
 thumbnail:  /tutorials/processing/images/hour-of-code-11.png
 tagline: Just the drawing functions.
 sort-key: 3000
-meta-title: Processing Collision Detection
+meta-title: Simple Processing Reference
 meta-description: This simplified reference contains just the drawing functions.
 meta-image:  /tutorials/processing/images/hour-of-code-12.png
 tags: [tutorial, processing]
