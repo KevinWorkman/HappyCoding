@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/databases-3.png
 tags: [tutorial, java, server, database]
 ---
 
+{% include toc.md %}
+
 So far, we've been keeping all of our data in memory, using data structures like `ArrayList` and `HashMap`. This is fine for small example projects, but it has a pretty huge downside: whenever your code is restarted (any time you make a change), all of your memory is reset and you lose all of your data.
 
 Obviously that's not going to work for real web applications, which are updated all the time and have to maintain data over multiple years!

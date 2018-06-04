@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/uploading-files-2.png
 tags: [tutorial, java, server, file-upload]
 ---
 
+{% include toc.md %}
+
 Now we know how to get user input using HTML forms, and we know how to store that data in a database. We can then use that data to render HTML from a servlet or JSP file.
 
 But so far, all of our user input has been text-based. We've seen stuff like text fields, text areas, dropdown boxes, and checkboxes. But we haven't seen file uploads yet.

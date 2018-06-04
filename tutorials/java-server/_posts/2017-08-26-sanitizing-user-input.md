@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/sanitizing-user-input-8.png
 tags: [tutorial, java, server, post, sanitizing-user-input]
 ---
 
+{% include toc.md %}
+
 > *Never trust anything that comes from the client.* - ancient proverb
 
 Now we know how to get user input using HTML forms and POST requests that trigger the `doPost()` function of our servlet classes.

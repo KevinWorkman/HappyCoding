@@ -9,6 +9,7 @@ meta-description: Learn how to use Eclipse to write server code.
 meta-image: /tutorials/java/images/eclipse-15.png
 tags: [tutorial, java, server, eclipse]
 ---
+{% include toc.md %}
 
 So far we've been writing all of our code in a basic text editor, and compiling our servlet classes via the command prompt. It's important to understand the basics of how a web app works: stuff like running the server (in Jetty, that's the `start.jar` file), setting up `web.xml`, and writing and compiling servlet classes and copying them into the `WEB-INF/classes` directory.
 

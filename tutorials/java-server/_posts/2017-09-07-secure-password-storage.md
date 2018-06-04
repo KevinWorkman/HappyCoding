@@ -10,6 +10,8 @@ meta-image: /tutorials/java-server/images/secure-password-storage-2.png
 tags: [tutorial, java, server, post, secure-password-storage]
 ---
 
+{% include toc.md %}
+
 If you remember nothing else from this tutorial, remember: **never store user passwords directly!**
 
 Now we know how to handle user registration and login using [post requests](/tutorials/java-server/post-requests), and we know how to use [sessions](/tutorials/java-server/sessions) to keep track of which user is making requests. If we want to allow users to register and login using a username and a password, then we have to somehow store their password when they register so that we can check the password when they login.
