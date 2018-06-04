@@ -20,3 +20,4 @@ These tutorials assume you're already familiar with the basics of programming an
 {% include url-thumbnail.html url="/tutorials/libgdx/setup" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/hello-world" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/input" %}
+{% include url-thumbnail.html url="/tutorials/libgdx/game-screens" %}
