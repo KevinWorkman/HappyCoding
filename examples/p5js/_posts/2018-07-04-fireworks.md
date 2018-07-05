@@ -27,6 +27,7 @@ let endColor;
 let houses;
 
 function setup() {
+	pixelDensity(1);
 	const canvas = createCanvas(600, 600);
 	canvas.parent('sketch-holder');
 	endColor = color(64, 0);
@@ -175,6 +176,7 @@ let endColor;
 let houses;
 
 function setup() {
+	pixelDensity(1);
 	createCanvas(600, 600);
 	endColor = color(64, 0);
 	makeHouses();
