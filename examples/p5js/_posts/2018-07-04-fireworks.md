@@ -57,8 +57,10 @@ function makeHouses() {
 }
 
 function mousePressed() {
-	particles.push(new Firework(mouseX, height));
-	return false;
+	if(mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height){
+		particles.push(new Firework(mouseX, height));
+		return false;	
+	}
 }
 
 function draw() {
