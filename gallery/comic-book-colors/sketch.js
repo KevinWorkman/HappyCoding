@@ -63,7 +63,7 @@ function windowResized(){
 }
 
 function loadComic(){
-	averagesImage = loadImage('//s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/' + comicName + '-averages-1.png', redraw);
+	averagesImage = loadImage('//s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/' + comicName + '-averages-1.png', function(){redraw();});
 	
 	select('#line-clusters').elt.src = '//s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/' + comicName + '-line-clusters-1.png';
 	
