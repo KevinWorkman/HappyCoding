@@ -1,0 +1,51 @@
+---
+title: Comic Book Colors - Interactive Visualization
+layout: default
+thumbnail: /gallery/comic-book-colors/images/thumbnail-1.png
+meta-title: Comic Book Colors - Interactive Visualization
+meta-description: Color is very important to comic books- here's why!
+meta-image: /gallery/comic-book-colors/images/thumbnail-2.png
+---
+
+<h1>Comic Book Colors</h1>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+<script src="comic-data.js"></script>
+<script src="sketch.js"></script>
+<style>
+	#buttonDiv button{
+		margin: 10px;
+		padding: 10px;
+	}
+</style>
+
+<p>Click a button to visualize a comic:</p>
+
+<div id="buttonDiv">
+	<button onclick="setComic('chew');">Chew</button>
+	<button onclick="setComic('east-of-west');">East of West</button>
+	<button onclick="setComic('fatale');">Fatale</button>
+	<button onclick="setComic('invincible');">Invincible</button>
+	<button onclick="setComic('lazarus');">Lazarus</button>
+	<button onclick="setComic('manhattan-projects');">Manhattan Projects</button>
+	<button onclick="setComic('morning-glories');">Morning Glories</button>
+	<button onclick="setComic('ody-c');">Ody-C</button>
+	<button onclick="setComic('pretty-deadly');">Pretty Deadly</button>
+	<button onclick="setComic('revival');">Revival</button>
+	<button onclick="setComic('saga-1');">Saga Volume 1</button>
+	<button onclick="setComic('saga-2');">Saga Volume 2</button>
+	<button onclick="setComic('walking-dead');">Walking Dead</button>
+</div>
+
+<h2 id="name"></h2>
+
+<p>Each page reduced to 4 colors, each color 1 line:</p>
+
+<img id="line-clusters" src="" style="width:75%; height:100px; image-rendering:pixelated; display:block;" />
+
+<br/>
+
+<p>Average color of the first 100 pages. Click a square to see the page.</p>
+
+<div id="sketch-holder" style="width:300px; max-width:95%;"></div>
