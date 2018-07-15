@@ -51,7 +51,7 @@ function mousePressed(){
 	  delete thumbnails[thumbnailIndex];
 	}
 	else{
-	  thumbnails[thumbnailIndex] = loadImage('http//s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/thumbnails/' + comicName + '-thumbnail-' + thumbnailIndex.toString().padStart(3, '0') + '.png', redraw);
+	  thumbnails[thumbnailIndex] = loadImage('http://s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/thumbnails/' + comicName + '-thumbnail-' + thumbnailIndex.toString().padStart(3, '0') + '.png', redraw);
 	}
 	redraw();
 	return false;
@@ -63,9 +63,9 @@ function windowResized(){
 }
 
 function loadComic(){
-	averagesImage = loadImage('http//s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/' + comicName + '-averages-1.png', redraw);
+	averagesImage = loadImage('http://s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/' + comicName + '-averages-1.png', redraw);
 	
-	select('#line-clusters').elt.src = 'http//s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/' + comicName + '-line-clusters-1.png';
+	select('#line-clusters').elt.src = 'http://s3.happycoding.io/gallery/comic-book-colors/images/comics/' + comicName + '/' + comicName + '-line-clusters-1.png';
 	
 	select('#name').html(comics.get(comicName).title);
 }
