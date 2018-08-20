@@ -5,13 +5,26 @@ meta-title: Happy Blogging
 meta-description: Blogs about Happy Coding and random stuff I'm thinking about.
 meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern-2.png
 ---
+
+<style>
+.blog-thumbnail{
+	width: 600px;	
+}
+</style>
+
 <h1>{{ page.title }}</h1>
 
 <hr/>
 
 {% for post in site.categories.blog %}
-	<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</a></h2>
-	{{ post.content | truncatewords:100}}... (<a href="{{ post.url }}">read more</a>)
+	<a href="{{ post.url }}" title="{{ post.title }}">
+		<h2>{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</h2>
+		{% if post.meta-image %}
+		<img class="blog-thumbnail" src="{{ post.meta-image }}" />
+		{% endif %}
+	</a>
+	<p>{{ post.meta-description }}</p>
+	<p>(<a href="{{ post.url }}">read more</a>)</p>
 	<hr />
 {% endfor %}
 
