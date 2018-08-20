@@ -31,8 +31,14 @@ meta-image: /images/random-walkers-1.png
 
 <h2>Latest Blog Post</h2>
 {% for post in site.categories.blog limit:1 %}
-	<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</a></h2>
-	{{ post.content | truncatewords:100}}... (<a href="{{ post.url }}">read more</a>)
+	<a href="{{ post.url }}" title="{{ post.title }}">
+		<h2>{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</h2>
+		{% if post.meta-image %}
+		<img class="blog-thumbnail" src="{{ post.meta-image }}" />
+		{% endif %}
+	</a>
+	<p>{{ post.meta-description }}</p>
+	<p>(<a href="{{ post.url }}">read more</a>)</p>
 {% endfor %}
 
 
