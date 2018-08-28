@@ -19,3 +19,7 @@ These tutorials assume you're already familiar with the basics of programming an
 {% include url-thumbnail.html url="/tutorials/p5js/review" %}
 {% include url-thumbnail.html url="/tutorials/p5js/web" %}
 {% include url-thumbnail.html url="/tutorials/p5js/libraries" %}
+
+## Extra Credit
+
+{% include url-thumbnail.html url="/tutorials/p5js/random" %}
