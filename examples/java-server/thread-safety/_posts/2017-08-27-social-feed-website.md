@@ -100,7 +100,7 @@ Specifically, let's add a call to `Thread.sleep()` in the code that renders the 
 
 The only change here is that we've added a call to `Thread.sleep(5000)` when we iterate over the `posts` list. This means that each post will take 5 seconds to render, which makes it easier for us to test what happens when a post is added while they're being rendered.
 
-Tese the code by following these steps:
+Test the code by following these steps:
 
 - Run the server
 - Register a user.
