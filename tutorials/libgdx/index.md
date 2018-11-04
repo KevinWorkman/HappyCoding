@@ -25,3 +25,4 @@ These tutorials assume you're already familiar with the basics of programming an
 {% include url-thumbnail.html url="/tutorials/libgdx/images" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/sound" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/libraries" %}
+{% include url-thumbnail.html url="/tutorials/libgdx/pathfinding" %}
