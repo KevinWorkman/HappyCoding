@@ -1,13 +1,13 @@
 ---
 title: Gallery
 layout: default
-thumbnail: /gallery/images/one-roomba-1.png
+thumbnail: /gallery/movie-colors/images/thumbnail-1.png
 meta-title: Gallery
 meta-description: Bigger examples of what code can do.
-meta-image: /gallery/images/one-roomba-2.png
+meta-image: /gallery/movie-colors/images/thumbnail-2.png
 ---
 
-<h1>Gallery</h1>
+# Gallery
 
 {% include url-thumbnail.html url="/gallery/movie-colors/index" %}
 
