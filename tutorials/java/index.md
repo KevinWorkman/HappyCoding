@@ -9,9 +9,9 @@ meta-image: /tutorials/java/images/setup-6.png
 sort-key: 400
 ---
 
-<h1>Java Tutorials</h1>
+# Java Tutorials
 
-<p>These tutorials assume you're already familiar with the basics of programming and that you've already read <a href="/tutorials/processing/">the Processing tutorials</a>. You can build on that knowledge to "graduate" to Java!</p>
+These tutorials assume you're already familiar with the basics of programming and that you've already read [the Processing tutorials](/tutorials/processing/). You can build on that knowledge to "graduate" to Java!
 
 {% include url-thumbnail.html url="/tutorials/java/setup" %}
 {% include url-thumbnail.html url="/tutorials/java/hello-world" %}
@@ -23,8 +23,11 @@ sort-key: 400
 {% include url-thumbnail.html url="/tutorials/java/eclipse" %}
 {% include url-thumbnail.html url="/tutorials/java/exporting-jars" %}
 
-<h1>Advanced Java Tutorials</h1>
+---
 
-<p>Check these out as you need them.</p>
+# Advanced Java Tutorials
+
+Check these out as you need them.
 
 {% include url-thumbnail.html url="/tutorials/java/processing-in-java" %}
+{% include url-thumbnail.html url="/tutorials/java/unit-testing" %}
