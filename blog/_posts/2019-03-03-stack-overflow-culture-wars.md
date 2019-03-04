@@ -148,9 +148,9 @@ So far, the answer has been: Stack Overflow is built for all of the above. And I
 
 One source of this friction is that different people approach Stack Overflow for completely different reasons. There are different types of askers:
 
-- **Moochers** who want help on a very specific problem (usually a homework assignment) and don't want to do their own research. These posts are often just copy-pastes of assignments, or a request for somebody to do their homework for them. These users have been called [help vampires](https://meta.stackexchange.com/questions/19665/the-help-vampire-problem). Note: I'm not saying that every student is in this group! But the truth is, it's very common to see *"please do my assignment for me"* posts.
-- **Experts** who are stuck on an advanced problem. These questions are usually very high in quality, but are also very hard to answer. This is probably the rarest type of question.
-- **Most users** are somewhere in the middle of the above two extremes. These users want to do their own work, but often don't have the experience needed to debug their problem. These users mean well, but their questions usually need to be edited before they're answerable.
+- **Moochers** who want help on a very specific problem (usually a homework assignment) and don't want to do their own research. These posts are often just copy-pastes of assignments, or a request for somebody to do their homework for them. These users have been called [help vampires](https://meta.stackexchange.com/questions/19665/the-help-vampire-problem) because [they feed on generous individuals who tend towards helping others, and leave their victims exhausted, bitter and dispirited.](http://slash7.com/2006/12/22/vampires/). Note: I'm not saying that every student is in this group! But the truth is, it's very common to see *"please do my assignment for me"* posts.
+- **Experts** who are stuck on an advanced problem. They've researched the problem, they've done their own debugging, and they've isolated the problem into one small example that they can't explain. These questions are usually very high in quality, but are also very hard to answer.
+- **Most people** are somewhere in the middle of the above two extremes. These users want to do their own work, but often don't have the experience needed to debug their problem. These users mean well, but their questions usually need to be edited before they're answerable. 
 
 And different types of answerers:
 
@@ -172,7 +172,7 @@ For example, the [Java tag](https://stackoverflow.com/questions/tagged/java) can
 
 Compare that to the [Processing](https://stackoverflow.com/questions/tagged/processing) or [p5.js](https://stackoverflow.com/questions/tagged/p5.js) tags. These tags only get a few questions per day, and generally only a [few people](https://stackoverflow.com/tags/processing/topusers) lurk and answer questions. This means that more time is spent on each answer, which leads to a different ecosystem than more popular tags. As a result, the Processing tags tend to have higher quality answers (imho), and are friendlier to novices than the Java tag.
 
-It's slightly more complicated than that. Questions usually contain multiple tags, so there's an interesting collision between these ecosystems. For example, when a Processing question gets tagged with the Java tag, all of a sudden it has all those Java eyeballs on it. These questions are often closed because they don't have a `main()` method, or as duplicates of the [canonical `NullPointerException` question](https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it). This gets pretty frustrating, because these are **not** valid reasons to close a Processing question: Processing does not require a `main()` method and can throw a `NullPointerException` from Processing's internal code. I got so frustrated by Java users incorrectly closing Processing questions that I made [this](https://meta.stackoverflow.com/questions/321127/processing-java) Meta post. The point is: the rules and regulations of one part of Stack Overflow often don't make sense in other parts of Stack Overflow.
+It's slightly more complicated than that. Questions usually contain multiple tags, so there's an interesting collision between these ecosystems. For example, when a Processing question gets tagged with the Java tag, all of a sudden it has all those Java eyeballs on it. These questions are often closed because they don't have a `main()` method, or as duplicates of the [canonical NullPointerException question](https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it). This gets pretty frustrating, because these are **not** valid reasons to close a Processing question: Processing does not require a `main()` method and can throw a `NullPointerException` from Processing's internal code. I got so frustrated by Java users incorrectly closing Processing questions that I made [this](https://meta.stackoverflow.com/questions/321127/processing-java) Meta post. The point is: the rules and regulations of one part of Stack Overflow often don't make sense in other parts of Stack Overflow.
 
 I think this is a big cause of friction. When we talk about what Stack Overflow is, or what it should be, we're casting a net over 1000 different corners, all with their own users, rules, and expectations.
 
@@ -221,63 +221,21 @@ I love Stack Overflow. I think it has its share of problems, especially where it
 
 I won't claim to have all the answers, but here are some of my random thoughts:
 
-## Closing is Good
-
-Before I joined Stack Overflow, I spent a ton of time on various programming forums. I started out on the old [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) forums, and I racked up something like 15,000 posts before [Oracle](https://en.wikipedia.org/wiki/Oracle_Corporation) bought Java and shut those forums down. From there I went on to moderate two other Java forums, and I'm pretty active on the [Processing forum](https://discourse.processing.org/) as well.
-
-Here are a couple things I've found to be true:
-
-- More people **ask** questions than answer questions. By a lot.
-- People on the internet are mean. This goes for people **asking** questions as well as answering them.
-- There are no bad questions, but there are bad places or times to ask a question.
-
-Most questions that people ask are general questions like *"How do I make a website?"* or even *"Can somebody do my homework for me?"* - questions that either **shouldn't** be answered, or questions where the only real answer is to Google it. On most forums, almost every question is one of these unanswerable questions. And many of the people posting these questions get **really mean** if you ask them for more details or suggest that they might start by Googling the error message.
-
-So as an answerer, your "job" becomes more about community management than about helping people. You wade through 10 *"gimme teh codez"* posts to get to 1 interesting question, which takes a ton of time. This actually gets very depressing: I absolutely love helping people learn how to code, but it's extremely demoralizing to wade through all the bad.
-
-This is the problem that Stack Overflow solves. For the most part, these types of low quality questions are very quickly downvoted and deleted from Stack Overflow, so as an answerer, you can get right to the "good" questions without wasting a lot of your time and mental health. This is why I've quit almost every forum I used to visit (the exceptions are [the Processing forum](https://discourse.processing.org/) and of course [the HappyCoding.io forum](https://forum.happycoding.io)).
-
-The fact that questions are so easily removed is a **good** thing for Stack Overflow. It means that if you take the time to ask a meaningful question, you're more likely to get a meaningful answer.
-
-## Reopening Should be Easier
-
-On the other hand, I understand how it feels to have your question downvoted or closed, especially if you're new to coding. It's hard not to take personally, especially since you're already feeling frustrated from banging your head against your problem in the first place. And it doesn't help if people leave snarky comments.
-
-The problem with closing is that we lose a lot of people who mean well, but who don't have the experience necessary to properly debug their problem. These aren't *"gimme teh codez"* questions- they're often *"how do I debug this?"* type questions. These questions are usually too broad in their original form, but with some coaching could be made to be more answerable.
-
-The problem is, right now if you post this type of question, you're inundated with downvotes, and your question is closed and then quickly forgotten. Even if you go through the trouble of editing your post to improve your question, the people who originally downvoted or closed it are long gone.
-
-So I think one way to alleviate the frustration - without sacrificing the overall quality - is reframing the closing process. Stack Overflow should make it easier to **reopen** questions after they've been closed. I strongly believe there should be an easy way to notify users who downvoted or closed a question after that question is then edited. Some of this happens in the [Reopen Review Queue](https://stackoverflow.com/review/reopen/), but it's not very obvious, especially for people who are new to Stack Overflow.
-
-In its current form, your question being closed feels like a dead end. But in reality, this is where the learning process **starts**. Picture a classroom environment, where a student raises their hand and tells the teacher their code doesn't work. The teacher rightfully doesn't just take the keyboard from the student's hands and fix the problem for them. Instead, they ask the student for more details: what error are you getting? What research have you done? What did your debugging tell you?
-
-This is how it should feel when a question is closed, but right now it feels like an insult.
-
-## Conversations
-
-Another thing that makes Stack Overflow hard for novices is that it purposely makes it **harder** to have conversations. It says so right at the top of [the tour](https://stackoverflow.com/tour):
-
-> This site is all about **getting answers**. It's not a discussion forum. There's no chit-chat. - [Stack Overflow](https://stackoverflow.com/tour)
-
-This is great for people scouring the internet for solutions to their problems: you don't have to read through a bunch of off-topic banter just to get to the line of code you're looking for. But it makes it harder to have the back-and-forth required for the kind of problem solving help that beginners need.
-
-Stack Overflow does have a chat feature, but it's not really used by newbies. Just thinking out loud here, but if the friendlier closing process above was coupled with an easier chat feature, then people could get the kind of one-on-one help they need.
-
 ## The Process
 
 I've been doing this "online mentoring" thing (read: procrastinating from my day job by posting on the internet) for a while now. And I firmly believe that the best way to help people is **not** to just dump a bunch of code in their lap. Instead, the best thing you can do is walk them through **the process** of breaking a problem down into smaller steps and approaching each step one at a time. [Teach somebody to fish](https://en.wiktionary.org/wiki/give_a_man_a_fish_and_you_feed_him_for_a_day;_teach_a_man_to_fish_and_you_feed_him_for_a_lifetime), and all that.
 
 ### First and Last Resorts
 
-I think one major difference between beginners and more experienced developers is that beginners tend to treat Stack Overflow as the first thing they should do, whereas people with more experience treat it as the **last** thing they should do.
+I think one major difference between beginners and more experienced developers is that beginners tend to treat Stack Overflow as the **first** thing they should do, whereas people with more experience treat it as the **last** thing they should do.
 
 For example, if I encounter a problem in my code, I know that I should first debug it, then read the documentation for whatever I'm working on, then try to isolate the problem... and only if I have the smallest piece of code that reproduces the problem, **that** is when I'll ask a question on Stack Overflow.
 
-But beginners don't always have the experience needed to go through that process, or to even know that they **should** go through that process. They might not even know how to debug code, or how to isolate the problem.
+But beginners don't always have the experience needed to go through that process, or to even know that they **should** go through that process. They might not know how to debug code, or how to isolate the problem.
 
 So when somebody asks a question like *"How do I build a website?"* or *"Why doesn't this code work?"* - what they're really asking is *"How do I research how to build a website?"* or *"How do I debug code?"* It's like the ultimate [XY problem](https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem): you think you're asking about code, but you're actually asking about general problem solving.
 
-This is one of the hardest things to learn, and it's one of the hardest things to teach. The only way to learn it is by practicing it over and over again. A lot of novices don't even know what questions to ask, or how to ask those questions, because they haven't broken the problem down into small enough steps yet.
+This is one of the hardest things to learn, and it's one of the hardest things to teach. The only way to learn it is by practicing it over and over again. A lot of beginners don't even know what questions to ask, or how to ask those questions, because they haven't broken the problem down into small enough steps yet.
 
 Think about it this way: if you were planning on building yourself a house, it wouldn't be reasonable to call up a professional carpenter and ask *"How do I build a house?"*. Instead, you'd need to break it down into more specific goals: where do I get lumber, what nails do I need to build a frame, how deep should my foundation be, etc. (I know nothing about building a house, so I'm sure these questions could be further broken down into smaller parts.)
 
@@ -297,6 +255,48 @@ What if, when a user asked a too-broad question, they were (politely) directed t
 
 This is why I wrote the general [How to Program](/tutorials/how-to/program) guide and the [Processing Debugging](/tutorials/processing/debugging) tutorial. I often link to these resources in the comments I leave on Stack Overflow, instead of just closing and moving on. I like to think that this makes the Processing tags a friendlier place than the rest of Stack Overflow. But this only works if the whole community is on board.
 
+## Closing is Good
+
+Before I joined Stack Overflow, I spent a ton of time on various programming forums. I started out on the old [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) forums, and I racked up something like 15,000 posts before [Oracle](https://en.wikipedia.org/wiki/Oracle_Corporation) bought Java and shut those forums down. From there I went on to moderate two other Java forums, and I'm pretty active on the [Processing forum](https://discourse.processing.org/) as well.
+
+Here are a couple things I've found to be true:
+
+- People **asking** questions outnumber the people **answering** them. By a lot.
+- People on the internet are mean. This goes for people asking questions as well as answering them.
+- There are no bad questions, but there are bad places or times to ask a question.
+
+Most questions that people ask are general questions like *"How do I make a website?"* or even *"Can somebody do my homework for me?"* - questions that either **shouldn't** be answered, or questions where the only real answer is to Google it. On most forums, almost every question is one of these unanswerable questions. And many of the people posting these questions get **really mean** if you ask them for more details or suggest that they might start by Googling the error message.
+
+So as an answerer, your "job" becomes more about community management than about helping people. You wade through 10 *"gimme teh codez"* posts to get to 1 interesting question, which takes a ton of time. This actually gets very depressing: I absolutely love helping people learn how to code, but it's extremely demoralizing to wade through all the bad.
+
+This is the problem that Stack Overflow solves. For the most part, these types of low quality questions are very quickly downvoted and deleted from Stack Overflow, so as an answerer, you can get right to the "good" questions without wasting a lot of your time and mental health. This is why I've quit almost every forum I used to visit (the exceptions are [the Processing forum](https://discourse.processing.org/) and of course [the HappyCoding.io forum](https://forum.happycoding.io)).
+
+The fact that questions are so easily removed is a **good** thing for Stack Overflow. It means that if you take the time to ask a meaningful question, you're more likely to get a meaningful answer.
+
+## Reopening Should be Easier
+
+On the other hand, I understand how it feels to have your question downvoted or closed, especially if you're new to coding. It's hard not to take personally, especially since you're already feeling frustrated from banging your head against your problem in the first place. And it doesn't help if people leave snarky comments.
+
+The problem with closing is that we lose a lot of people who mean well, but who don't have the experience necessary to properly debug their problem. These aren't *"gimme teh codez"* questions- they're often *"how do I debug this?"* questions. These questions are usually too broad in their original form, but with some coaching could be made to be more answerable.
+
+The problem is, right now if you post this type of question, you're inundated with downvotes, and your question is closed and then quickly forgotten. Even if you go through the trouble of editing your post to improve your question, the people who originally downvoted or closed it are long gone.
+
+So I think one way to alleviate the frustration - without sacrificing the overall quality - is reframing the closing process. Stack Overflow should make it easier to **reopen** questions after they've been closed. I strongly believe there should be an easy way to notify users who downvoted or closed a question after that question is then edited. Some of this happens in the [Reopen Review Queue](https://stackoverflow.com/review/reopen/), but it's not very obvious, especially for people who are new to Stack Overflow.
+
+In its current form, your question being closed feels like a dead end. But in reality, this is where the learning process **starts**. Picture a classroom environment, where a student raises their hand and tells the teacher their code doesn't work. The teacher rightfully doesn't just take the keyboard from the student's hands and fix the problem for them. Instead, they ask the student for more details: What error are you getting? What research have you done? What did your debugging tell you?
+
+That is how it **should** feel when a question is closed, but right now it feels like an insult.
+
+## Conversations
+
+Another thing that makes Stack Overflow hard for beginners is that it purposely makes it **harder** to have conversations. It says so right at the top of [the tour](https://stackoverflow.com/tour):
+
+> This site is all about **getting answers**. It's not a discussion forum. There's no chit-chat. - [Stack Overflow Tour](https://stackoverflow.com/tour)
+
+This is great for people scouring the internet for solutions to their problems: you don't have to read through a bunch of off-topic banter just to get to the line of code you're looking for. But it makes it harder to have the back-and-forth required for the kind of problem solving help that beginners need.
+
+Stack Overflow does have a chat feature, but it's not really used by newbies. Just thinking out loud here, but if the friendlier closing process above was coupled with an easier chat feature, then people could get the kind of one-on-one help they need.
+
 ## Stack Underflow
 
 There are places on the internet specifically designed for beginners. [Java Ranch](https://javaranch.com/) and the [Processing forum](https://discourse.processing.org/) come to mind. So taking a step back, the question becomes: should Stack Overflow even try to be more welcoming to beginners, or should they leave that up to these other places?
@@ -307,7 +307,7 @@ Interestingly, this already happens on other Stack Exchange sites, like [English
 
 So, should Stack Overflow try to be more welcoming, or should it create a new site for beginner programming questions, or should it leave it up to other places on the internet?
 
-I honestly don't know which side of this argument I land on. One one hand, I do think that solving beginner problems is different from solving advanced technical questions, and requires different tools. But on the other hand, it feels pretty gatekeeper-y to draw a line between beginners and experts. After all, we're all beginners at something, right?
+I honestly don't know which side of this argument I land on. On one hand, I do think that solving beginner problems is different from solving advanced technical questions, and requires different tools. But on the other hand, it feels pretty gatekeeper-y to draw a line between beginners and experts. After all, we're all beginners at something, right?
 
 But I do think that Stack Overflow, as a company, needs to decide which of the options it's going for **and then do something about it** if it wants to solve the problem.
 
