@@ -44,12 +44,12 @@ This basic servlet just adds an attribute to the request and then forwards that 
 
 
 ```
-javac -cp C:/Users/kevin/Desktop/jetty/lib/servlet-api-3.1.jar -source 1.7 -target 1.7 SimpleServlet.java
+javac -cp C:/Users/kevin/Desktop/jetty/lib/servlet-api-3.1.jar -source 1.8 -target 1.8 SimpleServlet.java
 ```
 
-**Note: Remember to compile with Java 7!** Notice that we're using the `-source` and `-target` arguments to compile our code using Java 7 compatibility. This is because App Engine only supports Java 7. You can ignore the warning about the bootstrap classpath not being set.
+**Note: Remember to compile with Java 8!** Notice that we're using the `-source` and `-target` arguments to compile our code using Java 8 compatibility. This is because App Engine only supports Java 8. (Learn more [here](https://cloud.google.com/appengine/docs/java/).) You can ignore the warning about the bootstrap classpath not being set.
 
-Anyway, that gives us the `.class` file that we actually want. Then here's the JSP file:
+That gives us the `.class` file that we actually want. Then here's the JSP file:
 
 
 ```jsp
@@ -89,8 +89,6 @@ Now we just need a `web.xml` file to map a URL to the servlet:
 
 </web-app>
 ```
-
-**Note: Use version 2.5!** Notice that we're using web-app version 2.5 in the top-level web-app tag. This is because Google App Engine only supports up to version 2.5. This shouldn't really make a difference to us.
 
 Putting it all together, our web app directory should look like this:
 
