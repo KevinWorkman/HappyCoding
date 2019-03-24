@@ -17,4 +17,6 @@ Google Cloud contains a lot of really fun stuff, but it's not exactly friendly t
 
 {% include url-thumbnail.html url="/tutorials/google-cloud/setup" %}
 
+{% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}
+
 # More tutorials coming soon!

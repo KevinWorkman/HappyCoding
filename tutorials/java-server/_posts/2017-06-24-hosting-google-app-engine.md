@@ -20,7 +20,7 @@ Note that this is more involved than the [basic file hosting](/tutorials/html/ho
 
 ## Example Web App
 
-Let's create an example web app and using the console. Let's start with a simple servlet:
+Let's create an example web app using the command line. Let's start with a simple servlet:
 
 ```java
 import java.io.IOException;
