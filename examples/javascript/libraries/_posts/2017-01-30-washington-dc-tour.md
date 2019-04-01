@@ -161,7 +161,7 @@ I then add a click listener to each marker, so when the user clicks I update the
 - Instead of tossing markers on a map, create an itinerary and a walking (or driving) path that you show on the map.
 - You could also work in street view, 45 degree tilt, or other Google Maps features.
 
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
 
   var map;
