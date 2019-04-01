@@ -208,7 +208,7 @@ Data in Datastore is represented by **entities**. You can think of an entity sim
 An entity has a **kind**, which is similar to a class name. To create an entity of a particular kind, pass a `String` value into the `Entity` constructor:
 
 ```java
-Entity myEntity = new Entity(“myKind”);
+Entity myEntity = new Entity("myKind");
 ```
 
 This line of code creates an `Entity` of type `myKind` and stores it in a `myEntity` variable.
@@ -245,7 +245,33 @@ for (Entity entity : results.asIterable()) {
 
 Then inside this loop, we can use the `entity.getProperty()` function to get the properties that were set on each entity when it was stored in Datastore.
 
+If your results only contain a single result, then you can call the `asSingleEntity()` function instead of the `asIterable()` function.
+
 By storing entities when the user creates them and loading them when we need to use the magain, we can use Datastore as persistent storage even when our web app is shut down or restarted.
+
+## Updating Entities
+
+By default, the `datastore.put()` function will create a new entry that contains the `Entity` you pass to it. If instead you want to update an existing entry, then you can either:
+
+Load an `Entity`, change its properties, and then pass it into the `datastore.put()` function.
+
+```
+Entity entity = results.asSingleEntity();
+entity.setProperty("propertyToUpdate", value);
+datastore.put(entity);
+```
+
+Pass in an ID to the `Entity` constructor when you first create it, and then use that same ID when you want to update it.
+
+```
+Entity entity = new Entity("MyKind", id);
+entity.setProperty("propertyToUpdate", value);
+datastore.put(entity);
+```
+
+The `datastore.put()` function will check the ID of the `Entity` you give it, and either update the existing entry or create a new one.
+
+[Here](https://github.com/KevinWorkman/GoogleCloudExamples/blob/master/authentication/users-api/user-nicknames/src/main/java/io/happycoding/servlets/NicknameServlet.java) is an example that updates entities after they've been stored in Datastore.
 
 ## Admin Page
 
