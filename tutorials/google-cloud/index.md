@@ -21,5 +21,6 @@ The full code for the examples used in these tutorials is available [here](https
 {% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/authentication" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/maps" %}
 
 # More tutorials coming soon!
