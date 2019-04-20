@@ -115,6 +115,7 @@ pre{
 	width:200px;
 	height:100px;
 	max-width:100%;
+  border: thin solid #202020;
 }
 
 .tutorial-link-box a.title{
