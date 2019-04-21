@@ -22,7 +22,7 @@ Datastore is great for storing basic data like strings or numbers, but it does n
 
 To understand what Blobstore is doing for us, let's think about how we'd implement file uploads without using Blobstore.
 
-On the client side, we can use `<input type="file">` to how a file selector. (You can play with an example [here](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_file).) We can put this inside a `<form>` element, just like any other `<input>` element.
+On the client side, we can use `<input type="file">` to show a file selector. (You can play with an example [here](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_file).) We can put this inside a `<form>` element, just like any other `<input>` element.
 
 When the user submits the form, the request would trigger a servlet. The file would be sent to the servlet as a stream of data, which we would have to parse. [This](https://stackoverflow.com/a/2424824/873165) Stack Overflow answer summarizes what we'd have to do just to parse the data.
 
@@ -159,7 +159,7 @@ public class FormHandlerServlet extends HttpServlet {
 }
 ```
 
-The `FormHandlerServlet` class has a `doPost()` function that's triggered when Blobstore forwards the request to the `/my-form-handler` URL. The `doPost()` function gets the value entered in the textarea, and it then gets the URL for the uploaded image. The `getUploadedFileUrl()` function might seem intimidating, but most of that is checking for corner cases. The core of the logic for getting the image URL is in the last 3 lines of code.
+The `FormHandlerServlet` class has a `doPost()` function that's triggered when Blobstore forwards the request to the `/my-form-handler` URL. The `doPost()` function gets the value entered in the text area, and it then gets the URL for the uploaded image. The `getUploadedFileUrl()` function might seem intimidating, but most of that is checking for corner cases. The core of the logic for getting the image URL is in the last 3 lines of code.
 
 We can then use that URL to create an `<img>` element. In a real project, we'd probably do something like store the image URL in Datastore so we could later retrieve it.
 
