@@ -24,5 +24,6 @@ The full code for the examples used in these tutorials is available [here](https
 {% include url-thumbnail.html url="/tutorials/google-cloud/maps" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/blobstore" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/natural-language" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/translation" %}
 
 # More tutorials coming soon!
