@@ -9,11 +9,12 @@ meta-image: /tutorials/java-server/images/servlets-7.png
 sort-key: 500
 ---
 
-<h1>Java Server Tutorials</h1>
+# Java Server Tutorials
 
-<p>These tutorials assume you're already familiar with the basics of programming and that you've already read <a href="/tutorials/java/">the Java tutorials</a>. You should also be familiar with client-side web programming from the <a href="/tutorials/html/">HTML</a> and <a href="/tutorials/javascript/">JavaScript</a> tutorials.</p>
+These tutorials assume you're already familiar with the basics of programming and that you've already read [the Java tutorials](/tutorials/java). You should also be familiar with client-side web programming from the [HTML](/tutorials/html) and [JavaScript](/tutorials/javascript) tutorials.
 
 {% include url-thumbnail.html url="/tutorials/java-server/jetty-setup" %}
+{% include url-thumbnail.html url="/tutorials/java-server/client-server" %}
 {% include url-thumbnail.html url="/tutorials/java-server/servlets" %}
 {% include url-thumbnail.html url="/tutorials/java-server/jsp" %}
 {% include url-thumbnail.html url="/tutorials/java-server/eclipse-ee" %}
@@ -29,7 +30,7 @@ sort-key: 500
 {% include url-thumbnail.html url="/tutorials/java-server/databases" %}
 {% include url-thumbnail.html url="/tutorials/java-server/uploading-files" %}
 
-<h1>Advanced</h1>
+# Advanced
 
 {% include url-thumbnail.html url="/tutorials/java-server/rest-api" %}
 {% include url-thumbnail.html url="/tutorials/java-server/struts" %}
