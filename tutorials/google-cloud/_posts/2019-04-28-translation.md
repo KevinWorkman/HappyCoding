@@ -220,6 +220,8 @@ To run this example, first make sure your `GOOGLE_APPLICATION_CREDENTIALS` envir
 mvn appengine:devserver
 ```
 
+Then navigate to `localhost:8080`. You should see something like this:
+
 ![Minimal Google Translate page](/tutorials/google-cloud/images/translation-1.png)
 
 # Learn More
