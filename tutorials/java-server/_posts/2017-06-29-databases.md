@@ -551,7 +551,7 @@ The rest of the code is identical to the code we used with our local Derby datab
 Like its name suggests, Google Cloud SQL is part of [Google Cloud Platform](https://cloud.google.com/) and provides a database service. In other words, it allows you to host a database in the Google cloud. To set up a Google Cloud SQL database:
 
 - Go to the [Cloud SQL](https://cloud.google.com/sql/) dashboard.
-- Click the `TRY IT FRE` button. 
+- Click the `TRY IT FREE` button. 
 - It'll ask you to set up a payment account. Check out the Google Cloud SQL price guide [here](https://cloud.google.com/sql/pricing) (running a small database for a month costs about 7 dollars).
 - After you setup your payment account, you'll be redirected to the [Google Cloud Platform console](https://console.cloud.google.com/home/dashboard).
 - Create a new Google Cloud Platform project, or choose an existing project if you're already using App Engine for server hosting.
