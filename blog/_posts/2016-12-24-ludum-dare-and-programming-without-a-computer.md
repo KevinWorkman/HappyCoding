@@ -9,7 +9,7 @@ meta-image: https://pbs.twimg.com/media/CzWVc-ZUAAAVoBA.jpg
 
 I just moved to California (more on that in a different blog post). I flew out, and my stuff was shipped separately. So there was a two week period where I didn't have a computer, or internet, or... anything.
 
-Right in the middle of that two weeks was [Ludum Dare](http://ludumdare.com/compo/). Ludum Dare is a programming competition (but a little more relaxed, more of a "game jam" then a competition) where you have 48 hours to make a game around a theme that's announced Friday night.
+Right in the middle of that two weeks was [Ludum Dare](http://ludumdare.com/compo/). Ludum Dare is a programming competition (but a little more relaxed, more of a "game jam" than a competition) where you have 48 hours to make a game around a theme that's announced Friday night.
 
 But I didn't have a computer or even a reliable internet connection, so surely I couldn't enter... right?
 
@@ -68,6 +68,6 @@ You can check out the Ludum Dare entry page [here](http://ludumdare.com/compo/lu
 
 (you might have to click the HTML tab to hide the code and make room for the game)
 
-This Ludum Dare's theme was "One Room", and the idea behind my game is that you're one [Roomba](https://en.wikipedia.org/wiki/Roomba) (because circles are easy to draw) trapped in a world with red badguys and existential angst. Whether that's a window into how I was feeling after moving across the country, I leave up the the reader!
+This Ludum Dare's theme was "One Room", and the idea behind my game is that you're one [Roomba](https://en.wikipedia.org/wiki/Roomba) (because circles are easy to draw) trapped in a world with red badguys and existential angst. Whether that's a window into how I was feeling after moving across the country, I leave up to the reader!
 
 Anyway, I consider this a success, but I hope I never have to do it again. The next Ludum Dare is in April if this sounds fun to you!
