@@ -1,117 +1,55 @@
----
----
+const backgrounds = [
+	{img: "circles-1", code: "Circles.pde"},
+	{img: "diamond-circles-1", code: "DiamondCircles.pde"},
+	{img: "diamond-circles-2", code: "DiamondCircles.pde"},
+	{img: "diamond-circles-3", code: "DiamondCircles.pde"},
+	{img: "diamonds-1", code: "Diamonds.pde"},
+	{img: "diamonds-2", code: "Diamonds.pde"},
+	{img: "diagonal-1", code: "Diagonal.pde"},
+	{img: "diagonal-2", code: "Diagonal.pde"},
+	{img: "lines-1", code: "Lines.pde"},
+	{img: "random-walker-1", code: "RandomWalker.pde"},
+	{img: "rotated-squares-1", code: "RotatedSquares.pde"},
+	{img: "rotating-lines-1", code: "RotatingLines.pde"},
+	{img: "rotating-lines-2", code: "RotatingLines.pde"},
+	{img: "squares-1", code: "Squares.pde"},
+	{img: "squares-2", code: "Square.pde"},
+	{img: "squares-3", code: "Square.pde"},
+	{img: "worms-1", code: "Worms.pde"},
+	{img: "worms-2", code: "Worms.pde"}
+];
 
-var theme = "light";
+const backgroundObj = backgrounds[Math.floor(Math.random()*backgrounds.length)];
 
-function getThemeFromCookie(){
-	if(Cookies.get('theme')){
-		theme = Cookies.get('theme');
-	}
-}
-
-function getNavColorFromCookie(){
-	if(Modernizr.csstransitions){
-		var navColor = Cookies.get('navColor');
-		if(navColor){
-			$(".navbar").removeClass("transition");
-			$(".navbar").css('background-color', navColor);
-			setTimeout(function(){
-				$(".navbar").addClass("transition");
-			}, 0);
-		}
-		else{
-			randomizeNavColor();
-		}
-	}
-	else{
-		randomizeNavColor();	
-	}
-}
-
-function toggleTheme(){
-
-		if(theme == "light"){
-			theme = "dark";
-		}
-		else{
-			theme = "light";	
-		}
-		
-		doThemeCss();
-		doImageButtons();
-		$(".navbar").removeClass("transition");
-		$(".random-color").removeClass("transition");
-		randomizeNavColor();
-		setTimeout(function(){ $(".navbar").addClass("transition"); $(".random-color").addClass("transition");}, 0);
-		setRandomBackground();
-		
-		Cookies.set('theme', theme);
+function setRandomBackground(){
+	const backgroundUrl = "/images/backgrounds/" + backgroundObj.img + "-light.png";
+	
+	document.getElementsByTagName("body")[0].style.backgroundImage = "url(" + backgroundUrl + ")";
+	document.querySelector("#background-link").innerHTML = "View the code that generated the background <a href='/images/backgrounds/code/" + backgroundObj.code + "'>here</a>. Learn how to contribute your own background <a href='https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds'>here</a>.";
 }
 
 function randomizeNavColor(){
-	
-	var bgLetters;
-	var fgLetters;
-	
-	if(theme == "light"){
-		bgLetters = 'ABCDEF'.split('');
-		fgLetters = '0123456789'.split('');
-	}
-	else{
-		bgLetters = '0123456789'.split('');
-		fgLetters = 'ABCDEF'.split('');
-	}
-	var bgColor = '#';
+  const bgLetters = 'ABCDEF'.split('');
+  const fgLetters = '0123456789'.split('');
+	let bgColor = '#';
 	for (var i = 0; i < 6; i++ ) {
 		bgColor += bgLetters[Math.floor(Math.random() * bgLetters.length)];
 	}
-	$(".navbar").css('background-color', bgColor);
+	document.getElementsByTagName("nav")[0].style.backgroundColor = bgColor;
 	
-	$( ".random-color" ).each(function( index ) {
-	
+	Array.from(document.querySelectorAll( ".random-color" )).forEach(el => {
 		var fgColor = '#';
 		for (var i = 0; i < 6; i++ ) {
 			fgColor += fgLetters[Math.floor(Math.random() * fgLetters.length)];
 		}
-		$(this).css('color', fgColor);
+		el.style.color = fgColor;
 	});
-	
-	Cookies.set('navColor', bgColor);
 }
 
-function doThemeCss(){
-	
-	if("dark" == theme){
-		$(".dark-css").prop('disabled', false);
-		$(".light-css").prop('disabled', true);
-		$("#favicon").attr("href", "/images/faviconDark.png");
-	}
-	else{
-		$(".light-css").prop('disabled', false);
-		$(".dark-css").prop('disabled', true);
-		$("#favicon").attr("href", "/images/favicon.png");
-	}	
-	
+window.onload = function(){
+  setRandomBackground();
 }
 
-function doImageButtons(){
-	if("light" == theme){
-		$("#github-img").attr("src", "/images/GitHub-Mark-32px.png");
-		$("#twitter-img").attr("src", "/images/twitter-black.png");
-		$("#facebook-img").attr("src", "/images/facebook-black.png");
-	}
-	else{
-		$("#github-img").attr("src", "/images/GitHub-Mark-Light-32px.png");
-		$("#twitter-img").attr("src", "/images/twitter-white.png");
-		$("#facebook-img").attr("src", "/images/facebook-white.png");
-	}
-}
-
-getThemeFromCookie();
-doThemeCss();
-$(getNavColorFromCookie);
-$(setRandomBackground);
-$(doImageButtons);
 if(Modernizr.csstransitions){
-	setInterval(randomizeNavColor,10000);
+	setInterval(randomizeNavColor, 10000);
 }

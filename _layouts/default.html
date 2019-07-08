@@ -3,69 +3,46 @@
 	<head>
 		<meta charset="UTF-8">
 		
-		<style>
-		</style>
-		
-		<title>{{ page.title }} - Happy Coding</title>
+    {% if page.title == "Happy Coding" %}
+        <title>Happy Coding</title>
+    {% else %}
+        <title>{{ page.title }} - Happy Coding</title>
+    {% endif %} 
 		
 		{% include meta.html %}
 
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap.darkly.css" id="bootstrap-css" class="dark-css">
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap-extension-dark.css" id="bootstrap-extension-css" class="dark-css">
-		<link rel="stylesheet" type="text/css" href="/css/main-dark.css" class="dark-css">
-		<link rel="stylesheet" type="text/css" href="/css/syntax-dark.css" class="dark-css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap" >
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap.flatly.css" class="light-css">
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap-extension-light.css" class="light-css">
-		<link rel="stylesheet" type="text/css" href="/css/main-light.css" class="light-css">
-		<link rel="stylesheet" type="text/css" href="/css/syntax-light.css" class="light-css">
-		
-		<link rel="stylesheet" type="text/css" href="/css/main.css" id="main-css">
-		
-		<link rel="shortcut icon" type="image/png" href="/images/favicon.png" id="favicon" />
+		<link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
 
 		<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-		<script src="/js/js.cookie.js"></script>
-		<script src="/js/jquery-2.2.4.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/modernizr-transitions.js"></script>
-		<script src="/js/background-randomizer.js"></script>
 		<script src="/js/main.js"></script>
 		
 		<meta name="google-site-verification" content="_MHA_HyjRN41hU7ocjslu4AdeVWgiS_9QAiSuonBmEI" />
 	</head>
 	<body>
 		<div class="container">
-			<nav class="navbar navbar-default transition">
+			<nav class="transition">
 			
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand random-color transition" href="/">Happy Coding</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li class="nav-item"><a class="nav-link random-color transition" href="/tutorials">Tutorials</a></li>
-						<li class="nav-item"><a class="nav-link random-color transition" href="/examples">Examples</a></li>
-						<li class="nav-item"><a class="nav-link random-color transition" href="/blog">Blog</a></li>
-						<li class="nav-item"><a class="nav-link random-color transition" href="/about">About</a></li>
-						<li class="nav-item"><a class="nav-link random-color transition" href="/teaching">Teaching</a></li>
-						<li class="nav-item"><a class="nav-link random-color transition" href="http://forum.HappyCoding.io">Forum</a></li>
-					</ul>
+        <a class="navbar-brand random-color transition" href="/">Happy Coding</a>
+        <a class="nav-link random-color transition" href="/tutorials">Tutorials</a>
+        <a class="nav-link random-color transition" href="/examples">Examples</a>
+        <a class="nav-link random-color transition" href="/blog">Blog</a>
+        <a class="nav-link random-color transition" href="/about">About</a>
+        <a class="nav-link random-color transition" href="/teaching">Teaching</a>
+        <a class="nav-link random-color transition" href="http://forum.HappyCoding.io">Forum</a>
+      
+        <a class="nav-link" href="https://twitter.com/KevinAWorkman">
+          <img class="nav-img" src="/images/twitter.png" /></a>
+        <a class="nav-link" href="https://www.facebook.com/HappyCoding.io/">
+          <img class="nav-img" src="/images/facebook.png" /></a>
+        <a class="nav-link" href="https://github.com/KevinWorkman/HappyCoding">
+          <img class="nav-img" src="/images/GitHub-Mark-32px.png" /></a>
 					
-					<ul class="nav navbar-nav navbar-right">
-						<li class="nav-item nav-img"><a style="" class="nav-link" href="https://twitter.com/KevinAWorkman"><img id="twitter-img" src="/images/twitter-black.png" /></a></li>
-						<li class="nav-item nav-img"><a style="" class="nav-link" href="https://www.facebook.com/HappyCoding.io/"><img id="facebook-img" src="/images/facebook-black.png" /></a></li>
-						<li class="nav-item nav-img"><a style="padding-top:14px; padding-bottom:14px;" class="nav-link" href="https://github.com/KevinWorkman/HappyCoding"><img id="github-img" src="/images/GitHub-Mark-32px.png" /></a></li>
-						<li class="nav-item"><a class="nav-link"><span class="glyphicon glyphicon-adjust" aria-label="Toggle Theme" onclick="toggleTheme()"></span></a></li>
-					</ul>
-					
-					
-				</div>
-				
+									
 			</nav>
 			
 			<div class="content">
@@ -88,11 +65,11 @@
 			
 			<footer>
 				<hr/>
-					<a style="" class="nav-link" href="https://twitter.com/KevinAWorkman"><img id="twitter-img" src="/images/twitter-black.png" /></a>
-					<a style="" class="nav-link" href="https://www.facebook.com/HappyCoding.io/"><img id="facebook-img" src="/images/facebook-black.png" /></a>
-					<a style="padding-top:14px; padding-bottom:14px;" class="nav-link" href="https://github.com/KevinWorkman/HappyCoding"><img id="github-img" src="/images/GitHub-Mark-32px.png" /></a>
+				<a href="https://twitter.com/KevinAWorkman"><img class="footer-img" src="/images/twitter.png" /></a>
+				<a href="https://www.facebook.com/HappyCoding.io/"><img class="footer-img" src="/images/facebook.png" /></a>
+				<a href="https://github.com/KevinWorkman/HappyCoding"><img class="footer-img" src="/images/GitHub-Mark-32px.png" /></a>
 					
-				<p><a href="http://HappyCoding.io">HappyCoding.io</a> is on <a href="https://github.com/KevinWorkman/HappyCoding">GitHub</a>, <a href="https://twitter.com/KevinAWorkman">Twitter</a>, and <a href="http://www.facebook.com/HappyCoding.io">Facebook</a>. Please don't hesitate to <a href="http://HappyCoding.io/about/contact.html">contact me</a>!</p>
+				<p><a href="http://HappyCoding.io">HappyCoding.io</a> is on <a href="https://github.com/KevinWorkman/HappyCoding">GitHub</a>, <a href="https://twitter.com/KevinAWorkman">Twitter</a>, and <a href="http://www.facebook.com/HappyCoding.io">Facebook</a>. Please don't hesitate to <a href="/about/contact.html">contact me</a>!</p>
 				<p>Question? Request? Just want to talk about coding? Come say hi on <a href="http://forum.happycoding.io/">forum.HappyCoding.io</a>!</p>
 				<p><a href="/license.html">HappyCoding.io is open source.</a> - <a href="https://github.com/KevinWorkman/HappyCoding/wiki/Contributing">How to contribute?</a> - <a href="https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/{{ page.path }}">View or edit this page's source on GitHub!</a></p>
 				<p id="background-link"></p>

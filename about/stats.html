@@ -140,8 +140,7 @@ function capitalizeFirstLetter(string) {
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(function(){ libraryLoaded = true; maybeDrawChart(); });
 
-$.getJSON("/api/site.json", function( posts ) {
-		
+fetch('/api/site.json').then( response => response.json()).then ( (posts) => {
 	
 	posts.sort(compareByDate);
 
@@ -152,7 +151,7 @@ $.getJSON("/api/site.json", function( posts ) {
 	var galleryCount = 0;
 	var printedPagesCount = 0;
 		
-	$.each( posts, function(index, post ) {
+	posts.forEach((post) => {
 			
 		if(start && post.date < start){
 			return;	
@@ -211,12 +210,12 @@ $.getJSON("/api/site.json", function( posts ) {
 		addDataRow(today, tutorialCount, endTitle + 'Tutorials: ' + tutorialCount, exampleCount, endTitle + 'Examples: ' + exampleCount, blogCount, endTitle + 'Blogs: ' + blogCount, teachingCount, endTitle + 'Teaching: ' + teachingCount, galleryCount, endTitle + 'Gallery: ' + galleryCount, printedPagesCount, endTitle + 'Printed pages: ' + printedPagesCount);
 	}
 	
-	$('#tutorial-count').text(tutorialCount);
-	$('#example-count').text(exampleCount);
-	$('#blog-count').text(blogCount);
-	$('#teaching-count').text(teachingCount);
-	$('#gallery-count').text(galleryCount);
-	$('#printed-pages-count').text(printedPagesCount);
+	document.querySelector('#tutorial-count').innerText = tutorialCount;
+	document.querySelector('#example-count').innerText = exampleCount;
+	document.querySelector('#blog-count').innerText = blogCount;
+	document.querySelector('#teaching-count').innerText = teachingCount;
+	document.querySelector('#gallery-count').innerText = galleryCount;
+	document.querySelector('#printed-pages-count').innerText = printedPagesCount;
 	
 	createPrintedPagesTable(posts);
 	
@@ -264,7 +263,7 @@ function createPrintedPagesTable(posts){
 	
 	tableHtml += '</table>'
 	
-	$('#printed-pages-table-div').html(tableHtml);
+	document.querySelector('#printed-pages-table-div').innerHTML = tableHtml;
 }
 
 function drawPostsChart() {
