@@ -16,3 +16,4 @@ These are general tutorials designed to walk you through various topics that don
 {% include url-thumbnail.html url="/tutorials/how-to/program" %}
 {% include url-thumbnail.html url="/tutorials/how-to/social-app" %}
 {% include url-thumbnail.html url="/tutorials/how-to/sell-digital-art-online" %}
+{% include url-thumbnail.html url="/tutorials/how-to/interview" %}
