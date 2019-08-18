@@ -3,7 +3,7 @@ layout: blog-post
 title: Code Can Bring Us Together
 slug: code-can-bring-us-together
 meta-title: Code Can Bring Us Together
-meta-description: I don't have anything smart or comforting to say, but this seemed like the right time to reflect on why I'm putting together this site.
+meta-description: This seemed like the right time to reflect on why I created this site.
 meta-image: /examples/processing/creating-functions/images/turtle-graphics-2.png
 ---
 

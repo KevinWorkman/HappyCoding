@@ -1,10 +1,20 @@
 {% assign post = site.posts | where:"url", include.url | first %}
 {% unless post %}
-	{% assign post = site.pages | where:"url", include.url | first %}
+  {% assign post = site.pages | where:"url", include.url | first %}
+{% endunless %}
+
+{% assign thumbnail = post.thumbnail %}
+{% unless thumbnail %}
+  {% assign thumbnail = post.meta-image %}
+{% endunless %}
+
+{% assign description = post.tagline %}
+{% unless description %}
+  {% assign description = post.meta-description %}
 {% endunless %}
 
 <div class="tutorial-link-box">
-	<a href="{{ post.url }}" ><img class="thumbnail-image" src="{{ post.thumbnail }}" /></a>
-	<a class="title" href="{{ post.url }}" >{{ post.title }}</a>
-	<p>{{ post.tagline }}</p>
+  <a href="{{ post.url }}" ><img class="thumbnail-image" src="{{ thumbnail }}" /></a>
+  <a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+  <p>{{ description }}</p>
 </div>
