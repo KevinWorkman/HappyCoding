@@ -1,14 +1,14 @@
 @font-face {
-	font-family: 'Fixedsys';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/fixedsys/fixedsys.eot');
-	src: url('../fonts/fixedsys/fixedsys?#iefix') format('embedded-opentype'),
-	 url('../fonts/fixedsys/fixedsys.woff') format('woff'),
-	 url('../fonts/fixedsys/fixedsys.ttf') format('truetype'),
-	 url('../fonts/fixedsys/fixedsys#FixedsysExcelsior301Regular') format('svg');
-	-webkit-font-smoothing: aliased;
-	font-smooth: never;
+  font-family: 'Fixedsys';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fixedsys/fixedsys.eot');
+  src: url('../fonts/fixedsys/fixedsys?#iefix') format('embedded-opentype'),
+    url('../fonts/fixedsys/fixedsys.woff') format('woff'),
+    url('../fonts/fixedsys/fixedsys.ttf') format('truetype'),
+    url('../fonts/fixedsys/fixedsys#FixedsysExcelsior301Regular') format('svg');
+  -webkit-font-smoothing: aliased;
+  font-smooth: never;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #323232;
   background-image: none;
-	transition: background-image 1s linear;
+  transition: background-image 1s linear;
 }
 
 .container {
@@ -38,49 +38,49 @@ nav {
 
 .navbar-brand {
   font-family: 'Fixedsys', monospace;
-	font-size: 24pt;
+  font-size: 24pt;
 }
 
 .nav-link {
-	font-family: 'Fixedsys', monospace;
-	font-size: 16pt;
+  font-family: 'Fixedsys', monospace;
+  font-size: 16pt;
 }
 
 .nav-img {
-	height: 32px;
+  height: 32px;
   opacity: .75;
 }
 
 .content {
-	margin-left: 25px;
+  margin-left: 25px;
   margin-right: 25px;
 }
 
 p {
-	font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 a {
-	transition: color 1s;
-	color: #4488ff;
+  transition: color 1s;
+  color: #4488ff;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-	color: #ff8844;
-	text-decoration: underline;
+  color: #ff8844;
+  text-decoration: underline;
 }
 
 /* Surrounds code blocks */
 pre {
   border: thin solid #cccccc;
   padding: 20px;
-	tab-size: 2;	
+  tab-size: 2;	
 }
 
 /* Code inside code block */
 pre code {
-	color:black;
+  color:black;
   font-size: inherit;
   color: inherit;
   white-space: pre-wrap;
@@ -99,7 +99,7 @@ code {
 }
 
 .content img {
-	max-width:95%;
+  max-width:95%;
 }
 
 .jumbotron {
@@ -119,38 +119,38 @@ code {
 }
 
 .transition {
-	-webkit-transition: background-color 10s linear, color 10s linear;
-	transition: background-color 10s linear, color 10s linear;
+  -webkit-transition: background-color 10s linear, color 10s linear;
+  transition: background-color 10s linear, color 10s linear;
 }
 
 #markdown-toc {
-	border: thin solid #323232;
-	border-radius: 10px;
-	width: fit-content;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  border: thin solid #323232;
+  border-radius: 10px;
+  width: fit-content;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tutorial-link-box {
-	width:200px;
-	display: inline-block;
-	vertical-align:top;
-	margin:10px;
+  width:200px;
+  display: inline-block;
+  vertical-align:top;
+  margin:10px;
 }
 
 .tutorial-link-box .thumbnail-image {
-	width:200px;
-	height:100px;
-	max-width:100%;
+  width:200px;
+  height:100px;
+  max-width:100%;
   border: thin solid #202020;
 }
 
 .tutorial-link-box a.title {
-	font-size: 1.2em;
-	display: block;
-	margin-top: 5px;
-	margin-bottom: 5px;
+  font-size: 1.2em;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* Tags */
@@ -160,15 +160,14 @@ code {
 }
 
 td, th  {
-	padding: 10px;
+  padding: 10px;
   border: thin solid #cccccc;
 }
 
 footer {
-	margin-top: 100px;
+  margin-top: 100px;
   padding-bottom: 10px;
-	font-size: .8em;
-	text-align: center;
+  text-align: center;
 }
 
 .footer-img {
