@@ -21,10 +21,15 @@ body {
 
 .container {
   width: 100%;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #fbfbfb;
+}
+
+@media (min-width: 950px) {
+  .container {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 nav {
