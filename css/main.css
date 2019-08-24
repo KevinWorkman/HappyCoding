@@ -81,7 +81,8 @@ a:hover, a:focus {
 pre {
   border: thin solid #cccccc;
   padding: 20px;
-  tab-size: 2;	
+  overflow-x: scroll;
+  tab-size: 2;
 }
 
 /* Code inside code block */
@@ -89,7 +90,6 @@ pre code {
   color:black;
   font-size: inherit;
   color: inherit;
-  white-space: pre-wrap;
   background-color: transparent;
   border-radius: 0;
   padding: 0;
