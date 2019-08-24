@@ -133,9 +133,16 @@ code {
   padding-bottom: 10px;
 }
 
+
+.thumbnail-link-container {
+  /* Center the thumbnail divs inside this container. */
+  text-align: center;
+}
+
 .tutorial-link-box {
   width:200px;
   display: inline-block;
+  text-align: left;
   vertical-align:top;
   margin:10px;
 }
