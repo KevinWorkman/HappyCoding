@@ -91,7 +91,7 @@ public class HomeServlet extends HttpServlet {
 
 The `HomeServlet` class defines a `doGet()` function, which is triggered when users navigate to the `/home` URL. Generally you probably don't want to build HTML this way because it's annoying to work with, but we're doing this to demonstrate the overall approach. We'll see more realistic examples in a second.
 
-The `doGet()` function uses `BlobstoreService` to get a URL that points to Blobstore. Its value is something like this: `http://localhost:8080/_ah/upload/ag9ZT1VSX1BST0pFQ1RfSURyIgsSFV9fQmxvYlVwbG9hZFNlc3Npb25fXxiAgICAgICgCAw` (try printing it out yourself to see).
+The `doGet()` function uses `BlobstoreService` to get a URL that points to Blobstore. Its value is something like this: `http://localhost:8080/_ah/upload/ag9ZT1VSCgCAw` (try printing it out yourself to see).
 
 Then it uses that URL to create a form, which contains a text area, file selector, and submit button.
 
