@@ -13,6 +13,7 @@ sort-key: 400
 
 These tutorials assume you're already familiar with the basics of programming and that you've already read [the Processing tutorials](/tutorials/processing/). You can build on that knowledge to "graduate" to Java!
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/java/setup" %}
 {% include url-thumbnail.html url="/tutorials/java/hello-world" %}
 {% include url-thumbnail.html url="/tutorials/java/creating-classes" %}
@@ -22,6 +23,7 @@ These tutorials assume you're already familiar with the basics of programming an
 {% include url-thumbnail.html url="/tutorials/java/libraries" %}
 {% include url-thumbnail.html url="/tutorials/java/eclipse" %}
 {% include url-thumbnail.html url="/tutorials/java/exporting-jars" %}
+</div>
 
 ---
 
@@ -29,5 +31,7 @@ These tutorials assume you're already familiar with the basics of programming an
 
 Check these out as you need them.
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/java/processing-in-java" %}
 {% include url-thumbnail.html url="/tutorials/java/unit-testing" %}
+</div>

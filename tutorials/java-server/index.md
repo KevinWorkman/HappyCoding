@@ -13,6 +13,7 @@ sort-key: 500
 
 These tutorials assume you're already familiar with the basics of programming and that you've already read [the Java tutorials](/tutorials/java). You should also be familiar with client-side web programming from the [HTML](/tutorials/html) and [JavaScript](/tutorials/javascript) tutorials.
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/java-server/jetty-setup" %}
 {% include url-thumbnail.html url="/tutorials/java-server/client-server" %}
 {% include url-thumbnail.html url="/tutorials/java-server/servlets" %}
@@ -26,11 +27,13 @@ These tutorials assume you're already familiar with the basics of programming an
 {% include url-thumbnail.html url="/tutorials/java-server/thread-safety" %}
 {% include url-thumbnail.html url="/tutorials/java-server/hosting-aws" %}
 {% include url-thumbnail.html url="/tutorials/java-server/hosting-google-app-engine" %}
-
 {% include url-thumbnail.html url="/tutorials/java-server/databases" %}
 {% include url-thumbnail.html url="/tutorials/java-server/uploading-files" %}
+</div>
 
 # Advanced
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/java-server/rest-api" %}
 {% include url-thumbnail.html url="/tutorials/java-server/struts" %}
+</div>

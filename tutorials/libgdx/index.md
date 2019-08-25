@@ -15,8 +15,9 @@ LibGDX is a game development framework that gives you a bunch of useful features
 
 This multiple deployment feature is extremely useful. It allows you to write your code only once and have it work on pretty much any platform.
 
-These tutorials assume you're already familiar with the basics of programming and that you've already read <a href="/tutorials/processing/">the Processing tutorials</a> and <a href="/tutorials/java/">the Java tutorials</a>. You should be familiar with object oriented programming. If you're planning on deploying to Android, you should also probably read <a href="/tutorials/android">the Android tutorials</a> as well.
+These tutorials assume you're already familiar with the basics of programming and that you've already read [the Processing tutorials](/tutorials/processing) and [the Java tutorials](/tutorials/java). You should be familiar with object oriented programming. If you're planning on deploying to Android, you should also probably read [the Android tutorials](/tutorials/android) as well.
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/libgdx/setup" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/hello-world" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/input" %}
@@ -26,3 +27,4 @@ These tutorials assume you're already familiar with the basics of programming an
 {% include url-thumbnail.html url="/tutorials/libgdx/sound" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/libraries" %}
 {% include url-thumbnail.html url="/tutorials/libgdx/pathfinding" %}
+</div>

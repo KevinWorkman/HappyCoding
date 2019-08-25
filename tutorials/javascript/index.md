@@ -9,8 +9,9 @@ meta-image: /tutorials/javascript/images/calling-javascript-3.png
 sort-key: 300
 ---
 
-<h1>JavaScript Tutorials</h1>
+# JavaScript Tutorials
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/javascript/calling-javascript" %}
 {% include url-thumbnail.html url="/tutorials/javascript/developer-tools" %}
 {% include url-thumbnail.html url="/tutorials/javascript/creating-variables" %}
@@ -21,3 +22,4 @@ sort-key: 300
 {% include url-thumbnail.html url="/tutorials/javascript/jquery" %}
 {% include url-thumbnail.html url="/tutorials/javascript/bootstrap" %}
 {% include url-thumbnail.html url="/tutorials/javascript/ajax" %}
+</div>

@@ -17,6 +17,7 @@ Google Cloud contains a lot of really fun stuff, but it's not exactly friendly t
 
 The full code for the examples used in these tutorials is available [here](https://github.com/KevinWorkman/GoogleCloudExamples).
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/google-cloud/setup" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
@@ -26,3 +27,4 @@ The full code for the examples used in these tutorials is available [here](https
 {% include url-thumbnail.html url="/tutorials/google-cloud/natural-language" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/translation" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/vision" %}
+</div>

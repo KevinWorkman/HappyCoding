@@ -9,10 +9,12 @@ meta-image: /tutorials/html/images/html-3.png
 sort-key: 200
 ---
 
-<h1>HTML Tutorials</h1>
+# HTML Tutorials
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/html/intro-to-web-development" %}
 {% include url-thumbnail.html url="/tutorials/html/html" %}
 {% include url-thumbnail.html url="/tutorials/html/html-tags" %}
 {% include url-thumbnail.html url="/tutorials/html/css" %}
 {% include url-thumbnail.html url="/tutorials/html/hosting" %}
+</div>

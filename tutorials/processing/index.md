@@ -9,16 +9,17 @@ meta-image: /tutorials/processing/images/processing-icon-large-1.png
 sort-key: 100
 ---
 
-<h1>Processing Tutorials</h1>
+# Processing Tutorials
 
-<p>Just want to get your feet wet? Try the hour of code!</p>
+Just want to get your feet wet? Try the hour of code!
 
 {% include url-thumbnail.html url="/tutorials/processing/hour-of-code" %}
 
-<h2>Basic Processing Tutorials</h2>
+## Basic Processing Tutorials
 
-<p>Serious about learning how to program? Go through these in order:</p>
+Serious about learning how to program? Go through these in order:
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/processing/what-is-programming" %}
 {% include url-thumbnail.html url="/tutorials/processing/calling-functions" %}
 {% include url-thumbnail.html url="/tutorials/processing/using-variables" %}
@@ -37,9 +38,10 @@ sort-key: 100
 {% include url-thumbnail.html url="/tutorials/processing/libraries" %}
 {% include url-thumbnail.html url="/tutorials/processing/exporting-applications" %}
 {% include url-thumbnail.html url="/tutorials/processing/processing-js" %}
+</div>
 
-<h2>Advanced Processing Tutorials</h2>
+## Advanced Processing Tutorials
 
-<p>Read through these as you need them!</p>
+Read through these as you need them!
 
 {% include url-thumbnail.html url="/tutorials/processing/collision-detection" %}
