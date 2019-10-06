@@ -15,4 +15,6 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 
 {% include url-thumbnail.html url="/gallery/one-roomba" %}
 
+{% include url-thumbnail.html url="/gallery/ludum-dare-45" %}
+
 {% include url-thumbnail.html url="/gallery/links" %}
