@@ -1,15 +1,15 @@
 ---
 layout: default
-categories: [examples, html]
+categories: [examples, html2]
 title: HTML Examples
 thumbnail: /examples/html/images/rainbow-logo-1.png
 meta-title: HTML Examples
-meta-description: One of the best ways to learn how to code is just by playing around. Here are some examples that help you do that.
+meta-description: Example webpages using HTML and CSS.
 meta-image: /examples/html/images/rainbow-logo-2.png
 sort-key: 200
 ---
 
-<h2>HTML Examples</h2>
+## HTML Examples
 
 {% include url-thumbnail.html url="/examples/html/rainbow-logo" %}
 {% include url-thumbnail.html url="/examples/html/personal-page-unstyled" %}

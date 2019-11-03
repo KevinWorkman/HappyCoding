@@ -3,12 +3,12 @@ layout: default
 title: Java Examples
 thumbnail: /examples/java/hello-world/images/higher-lower-human-player-2.png
 meta-title: Java Examples
-meta-description: One of the best ways to learn how to code is just by playing around. Here are some examples that help you do that.
+meta-description: Games, GUIs, and more.
 meta-image: /examples/java/hello-world/images/higher-lower-human-player-3.png
 sort-key: 400
 ---
 
-<h1>Java Examples</h1>
+# Java Examples
 
 {% include url-thumbnail.html url="/examples/java/hello-world/" %}
 {% include url-thumbnail.html url="/examples/java/swing/" %}

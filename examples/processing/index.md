@@ -8,7 +8,7 @@ meta-image: /images/random-walkers-1.png
 sort-key: 100
 ---
 
-<h1>Processing Examples</h1>
+# Processing Examples
 
 {% include url-thumbnail.html url="/examples/processing/calling-functions/" %}
 {% include url-thumbnail.html url="/examples/processing/using-variables/" %}

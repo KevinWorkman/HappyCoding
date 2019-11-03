@@ -3,12 +3,12 @@ layout: default
 title: Server Examples
 thumbnail: /examples/java-server/servlets/images/social-feed-website-3.png
 meta-title: Java Server Examples
-meta-description: One of the best ways to learn how to code is just by playing around. Here are some examples that help you do that.
+meta-description: Examples of server-side processing.
 meta-image: /examples/java-server/servlets/images/social-feed-website-4.png
 sort-key: 500
 ---
 
-<h1>Java Server Examples</h1>
+# Java Server Examples
 
 {% include url-thumbnail.html url="/examples/java-server/servlets/" %}
 {% include url-thumbnail.html url="/examples/java-server/jsp/" %}
