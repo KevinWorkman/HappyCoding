@@ -51,83 +51,90 @@ td, th{
 
 <script>
 
-var dataLoaded = false;
-var libraryLoaded = false;
-var postsChartDataArray = [];
-var printedPagesChartDataArray = []
+let dataLoaded = false;
+let libraryLoaded = false;
+const postsChartDataArray = [];
+const printedPagesChartDataArray = []
 
-var start = getParameterByName('start');
-var end = getParameterByName('end');
+const start = getParameterByName('start');
+const end = getParameterByName('end');
 
 if(start || end){
-	var duration = 'Between ';
-	if(start){
-		duration += start + ' and ';
-	}
-	else{
-		duration += 'site creation and ';
-	}
-	
-	if(end){
-		duration += end + '.';	
-	}
-	else{
-		duration += 'now.';
-	}
-	
-	$('#duration-div').html(duration);
+  let duration = 'Between ';
+  if(start){
+    duration += start + ' and ';
+  }	else{
+    duration += 'site creation and ';
+  }
+
+  if(end){
+    duration += end + '.';	
+  }	else{
+    duration += 'now.';
+  }
+
+  document.querySelector('#duration-div').innerText = duration;
 }
 
 function maybeDrawChart(){
-	if(dataLoaded && libraryLoaded){
-		drawPostsChart();
-		drawPrintedPagesChart();
-	}	
+  if (dataLoaded && libraryLoaded) {
+    drawPostsChart();
+    drawPrintedPagesChart();
+  }	
 }
 window.onresize = maybeDrawChart;
 
 function getParameterByName(name, url) {
-	if (!url) url = window.location.href;
-	name = name.replace(/[\[\]]/g, "\\$&");
-	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-	results = regex.exec(url);
-	if (!results) return null;
-	if (!results[2]) return '';
-	return decodeURIComponent(results[2].replace(/\+/g, " "));
+  if (!url) {
+    url = window.location.href;
+  }
+  name = name.replace(/[\[\]]/g, "\\$&");
+  const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+  const results = regex.exec(url);
+  if (!results) {
+    return null;
+  }
+  if (!results[2]) {
+    return '';
+  }
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
 function createTooltip(post, label, count, includeTitle){
-	var tooltip = '<strong>' + post.date.substring(0, 10) + '</strong><br/>' +
-		capitalizeFirstLetter(label) + ': ' + count;
-	if(includeTitle){
-		tooltip += '<br/>';
-		if(post.categories[1]){
-			tooltip += capitalizeFirstLetter(post.categories[1]) + ': ';
-		}
-		tooltip += post.title;
-		
-		//if(post.thumbnail){
-		//	tooltip += '<br/><img stlye="width:50px;" src="' + post.thumbnail + '" />'; 	
-		//}
+	let tooltip = '<strong>' +
+      post.date.substring(0, 10) +
+      '</strong><br/>' +
+      capitalizeFirstLetter(label) +
+      ': ' + count;
+  if (includeTitle) {
+    tooltip += '<br/>';
+    if (post.categories[1]) {
+      tooltip += capitalizeFirstLetter(post.categories[1]) + ': ';
+    }
+    tooltip += post.title;
+
+    //if(post.thumbnail){
+    //	tooltip += '<br/><img stlye="width:50px;" src="' + post.thumbnail + '" />'; 	
+    //}
 	} 
 	return tooltip;			
 }
 
 function compareByDate(postOne, postTwo) {
-	if (postOne.date < postTwo.date){
+	if (postOne.date < postTwo.date) {
 		return -1;
 	}
-	if (postOne.date > postTwo.date){
+	if (postOne.date > postTwo.date) {
 		return 1;
 	}
 	return 0;
 }
 
 function compareByPrintedPages(postOne, postTwo) {
-	if (postOne.printedPages > postTwo.printedPages){
+	if (postOne.printedPages > postTwo.printedPages) {
 		return -1;
 	}
-	if (postOne.printedPages < postTwo.printedPages){
+	if (postOne.printedPages < postTwo.printedPages) {
 		return 1;
 	}
 	return 0;
@@ -138,164 +145,185 @@ function capitalizeFirstLetter(string) {
 }
 
 google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(function(){ libraryLoaded = true; maybeDrawChart(); });
+google.charts.setOnLoadCallback(() => {
+  libraryLoaded = true;
+  maybeDrawChart();
+});
 
-fetch('/api/site.json').then( response => response.json()).then ( (posts) => {
-	
-	posts.sort(compareByDate);
+fetch('/api/site.json')
+.then( response => response.json())
+.then ( (posts) => {
+  posts.sort(compareByDate);
 
-	var tutorialCount = 0;
-	var exampleCount = 0;
-	var blogCount = 0;
-	var teachingCount = 0;
-	var galleryCount = 0;
-	var printedPagesCount = 0;
-		
-	posts.forEach((post) => {
-			
-		if(start && post.date < start){
-			return;	
-		}
-		
-		if(end && post.date > end){
-			return;	
-		}
-	
-		var tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount);
-		var exampleTooltip = createTooltip(post, 'Examples', exampleCount);
-		var blogTooltip = createTooltip(post, 'Blogs', blogCount);
-		var teachingTooltip = createTooltip(post, 'Teaching', teachingCount);
-		var galleryTooltip = createTooltip(post, 'Gallery', galleryCount);
+  let tutorialCount = 0;
+  let exampleCount = 0;
+  let blogCount = 0;
+  let teachingCount = 0;
+  let galleryCount = 0;
+  let printedPagesCount = 0;
 
-		var category = post.categories[0];
-		
-		if('tutorials' == category){
-			tutorialCount++;
-			tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount, true);
-		}
-		else if('examples' == category){
-			exampleCount++;
-			exampleTooltip = createTooltip(post, 'Examples', exampleCount, true);
-		}
-		else if('blog' == category){
-			blogCount++;
-			blogTooltip = createTooltip(post, 'Blogs', blogCount, true);
-		}
-		else if('teaching' == category){
-			teachingCount++;
-			teachingTooltip = createTooltip(post, 'Teaching', teachingCount, true);
-		}
-		else if('gallery' == category){
-			galleryCount++;
-			galleryTooltip = createTooltip(post, 'Gallery', galleryCount, true);
-		}
-		else{
-			console.log('OTHER: ' + post.date + ': ' + post.title + ' - ' + post.categories[0]);	
-		}
-		
-		printedPagesCount += post.printedPages;
-		var printedPagesTooltip = createTooltip(post, 'Printed pages', printedPagesCount, true) + ' (' + post.printedPages + ')';
+  posts.forEach((post) => {
 
-		addDataRow(post.date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip);
+    if (start && post.date < start){
+      return;	
+    }
+
+    if (end && post.date > end){
+      return;	
+    }
+
+    let tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount);
+    let exampleTooltip = createTooltip(post, 'Examples', exampleCount);
+    let blogTooltip = createTooltip(post, 'Blogs', blogCount);
+    let teachingTooltip = createTooltip(post, 'Teaching', teachingCount);
+    let galleryTooltip = createTooltip(post, 'Gallery', galleryCount);
+
+    const category = post.categories[0];
+
+    if ('tutorials' == category) {
+      tutorialCount++;
+      tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount, true);
+    } else if ('examples' == category) {
+      exampleCount++;
+      exampleTooltip = createTooltip(post, 'Examples', exampleCount, true);
+		} else if ('blog' == category) {
+      blogCount++;
+      blogTooltip = createTooltip(post, 'Blogs', blogCount, true);
+		} else if ('teaching' == category) {
+      teachingCount++;
+      teachingTooltip = createTooltip(post, 'Teaching', teachingCount, true);
+		} else if ('gallery' == category) {
+      galleryCount++;
+      galleryTooltip = createTooltip(post, 'Gallery', galleryCount, true);
+		} else {
+      console.log('OTHER: ' + post.date + ': ' + post.title + ' - ' + post.categories[0]);	
+		}
 		
-	});
-	
-	if(end){
-		var endTitle = '<strong>' + end + '</strong><br/>';
-		addDataRow(end, tutorialCount, endTitle + 'Tutorials: ' + tutorialCount, exampleCount, endTitle + 'Examples: ' + exampleCount, blogCount, endTitle + 'Blogs: ' + blogCount, teachingCount, endTitle + 'Teaching: ' + teachingCount, galleryCount, endTitle + 'Gallery: ' + galleryCount, printedPagesCount, endTitle + 'Printed pages: ' + printedPagesCount);
+    printedPagesCount += post.printedPages;
+    const printedPagesTooltip = createTooltip(post, 'Printed pages', printedPagesCount, true) + ' (' + post.printedPages + ')';
+
+    addDataRow(post.date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip);
+  });
+
+  if (end) {
+    const endTitle = '<strong>' + end + '</strong><br/>';
+    addDataRow(end,
+        tutorialCount,
+        endTitle + 'Tutorials: ' + tutorialCount,
+        exampleCount,
+        endTitle + 'Examples: ' + exampleCount,
+        blogCount,
+        endTitle + 'Blogs: ' + blogCount,
+        teachingCount,
+        endTitle + 'Teaching: ' + teachingCount,
+        galleryCount,
+        endTitle + 'Gallery: ' + galleryCount,
+        printedPagesCount,
+        endTitle + 'Printed pages: ' + printedPagesCount);
+	} else {
+    const today = new Date().toISOString().substring(0, 10);
+    const endTitle = '<strong>' + today + '</strong><br/>';
+    addDataRow(today,
+        tutorialCount,
+        endTitle + 'Tutorials: ' + tutorialCount,
+        exampleCount,
+        endTitle + 'Examples: ' + exampleCount,
+        blogCount,
+        endTitle + 'Blogs: ' + blogCount,
+        teachingCount,
+        endTitle + 'Teaching: ' + teachingCount,
+        galleryCount,
+        endTitle + 'Gallery: ' + galleryCount,
+        printedPagesCount,
+        endTitle + 'Printed pages: ' + printedPagesCount);
 	}
-	else{
-		var today = new Date().toISOString().substring(0, 10);
-		var endTitle = '<strong>' + today + '</strong><br/>';
-		addDataRow(today, tutorialCount, endTitle + 'Tutorials: ' + tutorialCount, exampleCount, endTitle + 'Examples: ' + exampleCount, blogCount, endTitle + 'Blogs: ' + blogCount, teachingCount, endTitle + 'Teaching: ' + teachingCount, galleryCount, endTitle + 'Gallery: ' + galleryCount, printedPagesCount, endTitle + 'Printed pages: ' + printedPagesCount);
-	}
-	
-	document.querySelector('#tutorial-count').innerText = tutorialCount;
-	document.querySelector('#example-count').innerText = exampleCount;
-	document.querySelector('#blog-count').innerText = blogCount;
-	document.querySelector('#teaching-count').innerText = teachingCount;
-	document.querySelector('#gallery-count').innerText = galleryCount;
-	document.querySelector('#printed-pages-count').innerText = printedPagesCount;
-	
-	createPrintedPagesTable(posts);
-	
-	//removeZeroesFromData();
-	
-	dataLoaded = true;
-	maybeDrawChart();
+
+  document.querySelector('#tutorial-count').innerText = tutorialCount;
+  document.querySelector('#example-count').innerText = exampleCount;
+  document.querySelector('#blog-count').innerText = blogCount;
+  document.querySelector('#teaching-count').innerText = teachingCount;
+  document.querySelector('#gallery-count').innerText = galleryCount;
+  document.querySelector('#printed-pages-count').innerText = printedPagesCount;
+
+  createPrintedPagesTable(posts);
+
+  //removeZeroesFromData();
+
+  dataLoaded = true;
+  maybeDrawChart();
 });
 
 function addDataRow(date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip){
+
+  if(tutorialCount == 0){
+    tutorialCount = null;	
+  }
+  if(exampleCount == 0){
+    exampleCount = null;	
+  }
+  if(blogCount == 0){
+    blogCount = null;	
+  }
+  if(teachingCount == 0){
+    teachingCount = null;	
+  }
+  if(galleryCount == 0){
+    galleryCount = null;	
+  }
 	
-	if(tutorialCount == 0){
-		tutorialCount = null;	
-	}
-	if(exampleCount == 0){
-		exampleCount = null;	
-	}
-	if(blogCount == 0){
-		blogCount = null;	
-	}
-	if(teachingCount == 0){
-		teachingCount = null;	
-	}
-	if(galleryCount == 0){
-		galleryCount = null;	
-	}
-	
-	var rowArray = [new Date(date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip];
+  const rowArray = [new Date(date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip];
 	postsChartDataArray.push(rowArray);
-		
-	var printedPagesRowArray = [new Date(date), printedPagesCount, printedPagesTooltip];
-	printedPagesChartDataArray.push(printedPagesRowArray);
+
+  const printedPagesRowArray = [new Date(date), printedPagesCount, printedPagesTooltip];
+  printedPagesChartDataArray.push(printedPagesRowArray);
 }
 
 function createPrintedPagesTable(posts){
-	posts.sort(compareByPrintedPages);
-	
-	var tableHtml = '<table><tr><th>Post</th><th>Printed Pages</th></tr>';
-	
-	for(var i = 0; i < 10; i++){
-		var post = posts[i];
-		tableHtml += '<tr><td><a href="' + post.url + '">' + post.title + '</a></td>';
-		tableHtml += '<td>' + post.printedPages + '</td></tr>'
-	}
-	
-	tableHtml += '</table>'
-	
-	document.querySelector('#printed-pages-table-div').innerHTML = tableHtml;
+  posts.sort(compareByPrintedPages);
+
+	let tableHtml = '<table><tr><th>Post</th><th>Printed Pages</th></tr>';
+
+  for (let i = 0; i < 10; i++) {
+    const post = posts[i];
+    tableHtml += '<tr><td><a href="' + post.url + '">' + post.title + '</a></td>';
+    tableHtml += '<td>' + post.printedPages + '</td></tr>'
+  }
+
+  tableHtml += '</table>'
+
+  document.querySelector('#printed-pages-table-div').innerHTML = tableHtml;
 }
 
 function drawPostsChart() {
-	var data = new google.visualization.DataTable();
-	data.addColumn('date', 'Date');
-	data.addColumn('number', 'Tutorials');
-	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-	data.addColumn('number', 'Examples');
-	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-	data.addColumn('number', 'Blogs');
-	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-	data.addColumn('number', 'Teaching');
-	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-	data.addColumn('number', 'Gallery');
-	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-	data.addRows(postsChartDataArray);
-	
-	var options = {isStacked: true, tooltip: {isHtml: true}, height:500};
-	var chart = new google.visualization.AreaChart(document.getElementById('posts-chart-div'));
-	chart.draw(data, options);
+  const data = new google.visualization.DataTable();
+  data.addColumn('date', 'Date');
+  data.addColumn('number', 'Tutorials');
+  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+  data.addColumn('number', 'Examples');
+  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+  data.addColumn('number', 'Blogs');
+  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+  data.addColumn('number', 'Teaching');
+  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+  data.addColumn('number', 'Gallery');
+  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+  data.addRows(postsChartDataArray);
+
+  const options = {isStacked: true, tooltip: {isHtml: true}, height:500};
+  const chart = new google.visualization.AreaChart(document.getElementById('posts-chart-div'));
+  chart.draw(data, options);
 }
 
 function drawPrintedPagesChart() {
-	var data = new google.visualization.DataTable();
-	data.addColumn('date', 'Date');
-	data.addColumn('number', 'Printed pages');
-	data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-	data.addRows(printedPagesChartDataArray);
-	
-	var options = {isStacked: true, tooltip: {isHtml: true}, height:500};
-	var chart = new google.visualization.AreaChart(document.getElementById('printed-pages-chart-div'));
-	chart.draw(data, options);
+  const data = new google.visualization.DataTable();
+  data.addColumn('date', 'Date');
+  data.addColumn('number', 'Printed pages');
+  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
+  data.addRows(printedPagesChartDataArray);
+
+  const options = {isStacked: true, tooltip: {isHtml: true}, height:500};
+  const chart = new google.visualization.AreaChart(document.getElementById('printed-pages-chart-div'));
+  chart.draw(data, options);
 }
 
 </script>
