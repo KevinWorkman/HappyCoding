@@ -9,7 +9,7 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 ---
 
 <style>
-#lineImages img{
+.content img{
   width: 95%;
   height: 100px;
   image-rendering: pixelated;
@@ -21,8 +21,6 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 <p>Each vertical line is a one-second slice of the movie. The color of each line is the average color of that one-second slice. Click any image to see a bigger version.</p>
 
 <hr/>
-
-<div id="lineImages">
 
   <p>American History X</p>
   <a href="http://s3.happycoding.io/gallery/movie-colors/images/american-history-x/american-history-x.jpg">
@@ -36,11 +34,23 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
   </a>
   <hr/>
 
+[Batman vs. Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Batman_vs._Teenage_Mutant_Ninja_Turtles)
+
+[![Batman vs. Teenage Mutant Ninja Turtles](/gallery/movie-colors/images/timelines/batman-vs-tmnt-small.png)](/gallery/movie-colors/images/timelines/batman-vs-tmnt.png)
+
+---
+
   <p>Blade Runner 2049</p>
   <a href="http://s3.happycoding.io/gallery/movie-colors/images/blade-runner-2049/blade-runner-2049.jpg">
     <img src="http://s3.happycoding.io/gallery/movie-colors/images/blade-runner-2049/blade-runner-2049-small.png" />
   </a>
   <hr/>
+
+[Bob's Burgers](https://en.wikipedia.org/wiki/Bob%27s_Burgers) Season 1
+
+[![Bob's Burgers Season 1](/gallery/movie-colors/images/timelines/bobs-burgers-1-all.jpg)](/gallery/movie-colors/images/timelines/bobs-burgers-1-poster.png)
+
+---
   
   <p>Brave Little Toaster</p>
   <a href="http://s3.happycoding.io/gallery/movie-colors/images/brave-little-toaster/brave-little-toaster.jpg">
@@ -162,5 +172,3 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
     <img src="http://s3.happycoding.io/gallery/movie-colors/images/x-men-apocalypse/x-men-apocalypse-small.png" />
   </a>
   <hr/>
-  
-</div>

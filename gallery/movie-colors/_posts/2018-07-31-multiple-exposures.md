@@ -8,6 +8,12 @@ meta-description: What happens if you combine every frame in a movie into a sing
 meta-image: /gallery/movie-colors/images/multiple-exposures-2.png
 ---
 
+<style>
+.content img {
+  width: 95%;
+}
+</style>
+
 <h1>Movie Colors: Multiple Exposures</h1>
 
 <p>A <a href="https://en.wikipedia.org/wiki/Multiple_exposure">multiple exposure</a> is formed by taking multiple pictures and combining them into a single image:</p>
@@ -20,11 +26,15 @@ meta-image: /gallery/movie-colors/images/multiple-exposures-2.png
 
 <hr/>
 
-<div id="lineImages">
-
   <p>American History X</p>
   <img src="http://s3.happycoding.io/gallery/movie-colors/images/american-history-x/american-history-x-average.jpg" />
   <hr/>
+
+[Batman vs. Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Batman_vs._Teenage_Mutant_Ninja_Turtles)
+
+![Batman vs. Teenage Mutant Ninja Turtles](/gallery/movie-colors/images/averages/batman-vs-tmnt-average.png)
+
+---
   
   <p>Beauty and the Beast</p>
   <img src="http://s3.happycoding.io/gallery/movie-colors/images/beauty-and-the-beast/beauty-and-the-beast-average.jpg" />
@@ -33,6 +43,12 @@ meta-image: /gallery/movie-colors/images/multiple-exposures-2.png
   <p>Blade Runner 2049</p>
   <img src="http://s3.happycoding.io/gallery/movie-colors/images/blade-runner-2049/blade-runner-2049-average.jpg" />
   <hr/>
+
+[Bob's Burgers](https://en.wikipedia.org/wiki/Bob%27s_Burgers) Season 1
+
+![Bob's Burgers Season 1](/gallery/movie-colors/images/averages/bobs-burgers-1-all-average.png)
+
+---
   
   <p>Brave Little Toaster</p>
   <img src="http://s3.happycoding.io/gallery/movie-colors/images/brave-little-toaster/brave-little-toaster-average.jpg" />
@@ -112,5 +128,3 @@ meta-image: /gallery/movie-colors/images/multiple-exposures-2.png
   <p>X-Men Apocalypse</p>
   <img src="http://s3.happycoding.io/gallery/movie-colors/images/x-men-apocalypse/x-men-apocalypse-average.jpg" />
   <hr/>
-
-</div>
