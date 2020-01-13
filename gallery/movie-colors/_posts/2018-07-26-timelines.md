@@ -16,159 +16,327 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 }
 </style>
 
-<h1>Movie Colors</h1>
+# Movie Colors
 
-<p>Each vertical line is a one-second slice of the movie. The color of each line is the average color of that one-second slice. Click any image to see a bigger version.</p>
-
-<hr/>
-
-  <p>American History X</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/american-history-x/american-history-x.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/american-history-x/american-history-x-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Beauty and the Beast</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/beauty-and-the-beast/beauty-and-the-beast.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/beauty-and-the-beast/beauty-and-the-beast-small.png" />
-  </a>
-  <hr/>
-
-[Batman vs. Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Batman_vs._Teenage_Mutant_Ninja_Turtles)
-
-[![Batman vs. Teenage Mutant Ninja Turtles](/gallery/movie-colors/images/timelines/batman-vs-tmnt-small.png)](/gallery/movie-colors/images/timelines/batman-vs-tmnt.png)
+Each vertical line is a one-second slice of the movie. The color of each line is the average color of that one-second slice. Click any image to see a bigger version.
 
 ---
 
-  <p>Blade Runner 2049</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/blade-runner-2049/blade-runner-2049.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/blade-runner-2049/blade-runner-2049-small.png" />
-  </a>
-  <hr/>
+[American History X](https://en.wikipedia.org/wiki/American_History_X)
+
+[![American History X
+](/gallery/movie-colors/images/timelines/american-history-x-small.png)
+](/gallery/movie-colors/images/timelines/american-history-x.jpg)
+
+---
+
+[The Avengers](https://en.wikipedia.org/wiki/The_Avengers_(2012_film))
+
+[![Avengers
+](/gallery/movie-colors/images/timelines/avengers-small.png)
+](/gallery/movie-colors/images/timelines/avengers.jpg)
+
+---
+  
+[Beauty and the Beast (1991)](https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film))
+
+[![Beauty and the Beast
+](/gallery/movie-colors/images/timelines/beauty-and-the-beast-small.png)
+](/gallery/movie-colors/images/timelines/beauty-and-the-beast.jpg)
+
+---
+
+[Batman vs. Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Batman_vs._Teenage_Mutant_Ninja_Turtles)
+
+[![Batman vs. Teenage Mutant Ninja Turtles
+](/gallery/movie-colors/images/timelines/batman-vs-tmnt-small.png)
+](/gallery/movie-colors/images/timelines/batman-vs-tmnt.png)
+
+---
+
+[Blade Runner 2049](https://en.wikipedia.org/wiki/Blade_Runner_2049)
+
+[![Blade Runner 2049
+](/gallery/movie-colors/images/timelines/blade-runner-2049-small.png)
+](/gallery/movie-colors/images/timelines/blade-runner-2049.jpg)
+
+---
 
 [Bob's Burgers](https://en.wikipedia.org/wiki/Bob%27s_Burgers) Season 1
 
 [![Bob's Burgers Season 1](/gallery/movie-colors/images/timelines/bobs-burgers-1-all.jpg)](/gallery/movie-colors/images/timelines/bobs-burgers-1-poster.png)
 
 ---
-  
-  <p>Brave Little Toaster</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/brave-little-toaster/brave-little-toaster.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/brave-little-toaster/brave-little-toaster-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Colossal</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/colossal/colossal.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/colossal/colossal-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Dawn of the Dead</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/dawn-of-the-dead/dawn-of-the-dead.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/dawn-of-the-dead/dawn-of-the-dead-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Elf</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/elf/elf.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/elf/elf-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Finding Nemo</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/finding-nemo/finding-nemo.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/finding-nemo/finding-nemo-small.png" />
-  </a>
-  <hr/>
-  
-  
-  <p>Inception</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/inception/inception.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/inception/inception-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Into the Wild</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/into-the-wild/into-the-wild.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/into-the-wild/into-the-wild-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Iron Man</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/iron-man/iron-man.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/iron-man/iron-man-small.png" />
-  </a>
-  <hr/>
-  
-  <p>It</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/it/it.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/it/it-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Kingsman 2</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/kingsman-2/kingsman-2.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/kingsman-2/kingsman-2-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Lost Boys</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/lost-boys/lost-boys.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/lost-boys/lost-boys-small.png" />
-  </a>
-  <hr/>
 
-  <p>Man of Steel</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/man-of-steel/man-of-steel.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/man-of-steel/man-of-steel-small.png" />
-  </a>
-  <hr/>
-  
-  <p>The Matrix</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/matrix/matrix.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/matrix/matrix-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Office Space</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/office-space/office-space.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/office-space/office-space-small.png" />
-  </a>
-  <hr/>
-  
-  <p>The Shape of Water</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/shape-of-water/shape-of-water.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/shape-of-water/shape-of-water-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Shaun of the Dead</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/shaun-of-the-dead/shaun-of-the-dead.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/shaun-of-the-dead/shaun-of-the-dead-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Transformers</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/transformers/transformers.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/transformers/transformers-small.png" />
-  </a>
-  <hr/>
-  
-  <p>Twin Peaks (2017)</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/twin-peaks-2017/twin-peaks-2017-1.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/twin-peaks-2017/twin-peaks-2017-1-small.png" />
-  </a>
-  <hr/>
+[The Brave Little Toaster](https://en.wikipedia.org/wiki/The_Brave_Little_Toaster)
 
-  <p>Wonder Woman</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/wonder-woman/wonder-woman.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/wonder-woman/wonder-woman-small.png" />
-  </a>
-  <hr/>
+[![The Brave Little Toaster
+](/gallery/movie-colors/images/timelines/brave-little-toaster-small.png)
+](/gallery/movie-colors/images/timelines/brave-little-toaster.jpg)
+
+---
+
+[Captain America](https://en.wikipedia.org/wiki/Captain_America:_The_First_Avenger)
+
+[![Captain America
+](/gallery/movie-colors/images/timelines/captain-america-small.png)
+](/gallery/movie-colors/images/timelines/captain-america.jpg)
+
+---
+
+[Colossal](https://en.wikipedia.org/wiki/Colossal_(film))
+
+[![Colossal
+](/gallery/movie-colors/images/timelines/colossal-small.png)
+](/gallery/movie-colors/images/timelines/colossal.jpg)
+
+---
+
+[Dawn of the Dead (1978)](https://en.wikipedia.org/wiki/Dawn_of_the_Dead_(1978_film))
+
+[![Dawn of the Dead
+](/gallery/movie-colors/images/timelines/dawn-of-the-dead-small.png)
+](/gallery/movie-colors/images/timelines/dawn-of-the-dead.jpg)
+
+
+---
+
+Elf
+
+[![Elf
+](/gallery/movie-colors/images/timelines/elf-small.png)
+](/gallery/movie-colors/images/timelines/elf.jpg)
+
+---
+
+Finding Nemo
+
+[![Finding Nemo
+](/gallery/movie-colors/images/timelines/finding-nemo-small.png)
+](/gallery/movie-colors/images/timelines/finding-nemo.jpg)
+
+---
+
+Harry Potter 1
+
+[![Harry Potter 1
+](/gallery/movie-colors/images/timelines/harry-potter-1-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-1.jpg)
+
+---
+
+Harry Potter 2
+
+[![Harry Potter 2
+](/gallery/movie-colors/images/timelines/harry-potter-2-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-2.jpg)
+
+---
+
+Harry Potter 3
+
+[![Harry Potter 3
+](/gallery/movie-colors/images/timelines/harry-potter-3-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-3.jpg)
+
+---
+
+Harry Potter 4
+
+[![Harry Potter 4
+](/gallery/movie-colors/images/timelines/harry-potter-4-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-4.jpg)
+
+---
+
+Harry Potter 5
+
+[![Harry Potter 5
+](/gallery/movie-colors/images/timelines/harry-potter-5-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-5.jpg)
+
+---
+
+Harry Potter 6
+
+[![Harry Potter 6
+](/gallery/movie-colors/images/timelines/harry-potter-6-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-6.jpg)
+
+---
+
+Harry Potter 7
+
+[![Harry Potter 7
+](/gallery/movie-colors/images/timelines/harry-potter-7-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-7.jpg)
+
+---
+
+Harry Potter 8
+
+[![Harry Potter 8
+](/gallery/movie-colors/images/timelines/harry-potter-8-small.png)
+](/gallery/movie-colors/images/timelines/harry-potter-8.jpg)
+
+---
+
+Inception
+
+[![Inception
+](/gallery/movie-colors/images/timelines/inception-small.png)
+](/gallery/movie-colors/images/timelines/inception.jpg)
+
+---
+
+Incredible Hulk
+
+[![Incredible Hulk
+](/gallery/movie-colors/images/timelines/incredible-hulk-small.png)
+](/gallery/movie-colors/images/timelines/incredible-hulk.jpg)
+
+---
+
+Into the Wild
+
+[![Into the Wild
+](/gallery/movie-colors/images/timelines/into-the-wild-small.png)
+](/gallery/movie-colors/images/timelines/into-the-wild.jpg)
+
+---
+
+Iron Man
+
+[![Iron Man
+](/gallery/movie-colors/images/timelines/iron-man-small.png)
+](/gallery/movie-colors/images/timelines/iron-man.jpg)
+
+---
+
+Iron Man 2
+
+[![Iron Man 2
+](/gallery/movie-colors/images/timelines/iron-man-2-small.png)
+](/gallery/movie-colors/images/timelines/iron-man-2.jpg)
+
+---
+ 
+It
+
+[![It
+](/gallery/movie-colors/images/timelines/it-small.png)
+](/gallery/movie-colors/images/timelines/it.jpg)
+
+---
+
+Kingsman 2
+
+[![Kingsman 2
+](/gallery/movie-colors/images/timelines/kingsman-2-small.png)
+](/gallery/movie-colors/images/timelines/kingsman-2.jpg)
+
+---
+
+Logan
+
+[![Logan
+](/gallery/movie-colors/images/timelines/logan-small.png)
+](/gallery/movie-colors/images/timelines/logan.jpg)
+
+---
   
-  <p>X-Men Apocalypse</p>
-  <a href="http://s3.happycoding.io/gallery/movie-colors/images/x-men-apocalypse/x-men-apocalypse.jpg">
-    <img src="http://s3.happycoding.io/gallery/movie-colors/images/x-men-apocalypse/x-men-apocalypse-small.png" />
-  </a>
-  <hr/>
+Lost Boys
+
+[![Lost Boys
+](/gallery/movie-colors/images/timelines/lost-boys-small.png)
+](/gallery/movie-colors/images/timelines/lost-boys.jpg)
+
+---
+
+Man of Steel
+
+[![Man of Steel
+](/gallery/movie-colors/images/timelines/man-of-steel-small.png)
+](/gallery/movie-colors/images/timelines/man-of-steel.jpg)
+
+---
+  
+The Matrix
+
+[![The Matrix
+](/gallery/movie-colors/images/timelines/matrix-small.png)
+](/gallery/movie-colors/images/timelines/matrix.jpg)
+
+---
+  
+Office Space
+
+[![Office Space
+](/gallery/movie-colors/images/timelines/office-space-small.png)
+](/gallery/movie-colors/images/timelines/office-space.jpg)
+
+---
+  
+The Shape of Water
+
+[![The Shape of Water
+](/gallery/movie-colors/images/timelines/shape-of-water-small.png)
+](/gallery/movie-colors/images/timelines/shape-of-water.jpg)
+
+---
+  
+Shaun of the Dead
+
+[![Shaun of the Dead
+](/gallery/movie-colors/images/timelines/shaun-of-the-dead-small.png)
+](/gallery/movie-colors/images/timelines/shaun-of-the-dead.jpg)
+
+---
+
+Thor
+
+[![Thor
+](/gallery/movie-colors/images/timelines/thor-small.png)
+](/gallery/movie-colors/images/timelines/thor.jpg)
+
+---
+
+Transformers
+
+[![Transformers
+](/gallery/movie-colors/images/timelines/transformers-small.png)
+](/gallery/movie-colors/images/timelines/transformers.jpg)
+
+---
+
+Twin Peaks (2017)
+
+[![Twin Peaks (2017)
+](/gallery/movie-colors/images/timelines/twin-peaks-2017-1-small.png)
+](/gallery/movie-colors/images/timelines/twin-peaks-2017-1.jpg)
+
+---
+
+Venom
+
+[![Venom
+](/gallery/movie-colors/images/timelines/venom-small.png)
+](/gallery/movie-colors/images/timelines/venom.jpg)
+
+---
+
+Wonder Woman
+
+[![Wonder Woman
+](/gallery/movie-colors/images/timelines/wonder-woman-small.png)
+](/gallery/movie-colors/images/timelines/wonder-woman.jpg)
+
+---
+
+X-Men Apocalypse
+
+[![X-Men Apocalypse
+](/gallery/movie-colors/images/timelines/x-men-apocalypse-small.png)
+](/gallery/movie-colors/images/timelines/x-men-apocalypse.jpg)
+
+---
