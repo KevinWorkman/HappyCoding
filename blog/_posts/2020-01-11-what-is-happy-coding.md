@@ -70,6 +70,14 @@ I also want the site to be useful to different types of people: folks just start
 
 I'm going to write resources with specific groups in mind, especially teachers. I'm also going to have more fun with the [gallery](/gallery).
 
+## Happy Coding is *accessible*.
+
+One problem I have with a lot of tutorials is that their versions of "hello world" are needlessly complicated. *"To run a server, first install these 57 frameworks!"* I'm not very interested in super-low-level stuff, but I also think a lot of recommendations are overkill for what most people want to do. A good "hello world" program should be as simple as possible to understand, should require as little setup as possible, and should not contain a bunch of distracting extras.
+
+I also really enjoy the process of simplification. Cutting out dependencies and focusing on the core of how something works is really fun to me, and Happy Coding is my way of using that energy to create the kinds of "hello world" guides I like to learn from.
+
+There are a ton of resources out there for learning the fundamentals like how to write a `for` loop, and there are a ton of resources out there for advanced stuff like web applications or Android development. But there aren't a lot of resources that take you *from* the fundamentals *to* the advanced topics. I hope Happy Coding can serve as this missing bridge.
+
 ## Happy Coding is *important* (to me)
 
 Again, this might seem obvious, but I think I've lost track of it over the last couple years. My day job offers more work than I can possibly ever get done, so it's easy to fall into the trap of spending all my time there. I've put a lot of time into my job, but I never feel quite *caught up* with my work, because there's always *one more thing* I could be doing.
