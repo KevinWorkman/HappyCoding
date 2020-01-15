@@ -30,6 +30,14 @@ Each vertical line is a one-second slice of the movie. The color of each line is
 
 ---
 
+Ant Man and the Wasp
+
+[![Ant Man and the Wasp
+](/gallery/movie-colors/images/timelines/ant-man-and-the-wasp-small.png)
+](/gallery/movie-colors/images/timelines/ant-man-and-the-wasp.jpg)
+
+---
+
 [The Avengers](https://en.wikipedia.org/wiki/The_Avengers_(2012_film))
 
 [![Avengers
@@ -197,6 +205,14 @@ Incredible Hulk
 
 ---
 
+Incredibles 2
+
+[![Incredibles 2
+](/gallery/movie-colors/images/timelines/incredibles-2-small.png)
+](/gallery/movie-colors/images/timelines/incredibles-2.png)
+
+---
+
 Into the Wild
 
 [![Into the Wild
@@ -220,6 +236,14 @@ Iron Man 2
 ](/gallery/movie-colors/images/timelines/iron-man-2.jpg)
 
 ---
+
+Iron Man 3
+
+[![Iron Man 3
+](/gallery/movie-colors/images/timelines/iron-man-3-small.png)
+](/gallery/movie-colors/images/timelines/iron-man-3.jpg)
+
+---
  
 It
 
@@ -229,11 +253,27 @@ It
 
 ---
 
+John Wick 3
+
+[![John Wick 3
+](/gallery/movie-colors/images/timelines/john-wick-3-small.png)
+](/gallery/movie-colors/images/timelines/john-wick-3.jpg)
+
+---
+
 Kingsman 2
 
 [![Kingsman 2
 ](/gallery/movie-colors/images/timelines/kingsman-2-small.png)
 ](/gallery/movie-colors/images/timelines/kingsman-2.jpg)
+
+---
+
+Lego Movie 2
+
+[![Lego Movie 2
+](/gallery/movie-colors/images/timelines/lego-movie-2-small.png)
+](/gallery/movie-colors/images/timelines/lego-movie-2.jpg)
 
 ---
 
@@ -276,6 +316,22 @@ Office Space
 ](/gallery/movie-colors/images/timelines/office-space.jpg)
 
 ---
+
+Ralph Breaks the Internet
+
+[![Ralph Breaks the Internet
+](/gallery/movie-colors/images/timelines/ralph-breaks-the-internet-small.png)
+](/gallery/movie-colors/images/timelines/ralph-breaks-the-internet.jpg)
+
+---
+
+Searching
+
+[![Searching
+](/gallery/movie-colors/images/timelines/searching-small.png)
+](/gallery/movie-colors/images/timelines/searching.jpg)
+
+---
   
 The Shape of Water
 
@@ -290,6 +346,30 @@ Shaun of the Dead
 [![Shaun of the Dead
 ](/gallery/movie-colors/images/timelines/shaun-of-the-dead-small.png)
 ](/gallery/movie-colors/images/timelines/shaun-of-the-dead.jpg)
+
+---
+
+Shazam!
+
+[![Shazam!
+](/gallery/movie-colors/images/timelines/shazam-small.png)
+](/gallery/movie-colors/images/timelines/shazam.jpg)
+
+---
+
+Source Code
+
+[![Source Code
+](/gallery/movie-colors/images/timelines/source-code-small.png)
+](/gallery/movie-colors/images/timelines/source-code.jpg)
+
+---
+
+Split
+
+[![Split
+](/gallery/movie-colors/images/timelines/split-small.png)
+](/gallery/movie-colors/images/timelines/split.jpg)
 
 ---
 
@@ -314,6 +394,22 @@ Twin Peaks (2017)
 [![Twin Peaks (2017)
 ](/gallery/movie-colors/images/timelines/twin-peaks-2017-1-small.png)
 ](/gallery/movie-colors/images/timelines/twin-peaks-2017-1.jpg)
+
+---
+
+Unbreakable
+
+[![Unbreakable
+](/gallery/movie-colors/images/timelines/unbreakable-small.png)
+](/gallery/movie-colors/images/timelines/unbreakable.jpg)
+
+---
+
+Us
+
+[![Us
+](/gallery/movie-colors/images/timelines/us-small.png)
+](/gallery/movie-colors/images/timelines/us.jpg)
 
 ---
 
