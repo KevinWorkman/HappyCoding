@@ -22,6 +22,14 @@ Each vertical line is a one-second slice of the movie. The color of each line is
 
 ---
 
+American Gods (Season 1)
+
+[![American Gods season 1
+](/gallery/movie-colors/images/timelines/american-gods-1-small.png)
+](/gallery/movie-colors/images/timelines/american-gods-1-all.png)
+
+---
+
 [American History X](https://en.wikipedia.org/wiki/American_History_X)
 
 [![American History X
