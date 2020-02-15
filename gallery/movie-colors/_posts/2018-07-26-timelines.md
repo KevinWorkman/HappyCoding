@@ -333,6 +333,14 @@ Ralph Breaks the Internet
 
 ---
 
+Rampage
+
+[![Rampage
+](/gallery/movie-colors/images/timelines/rampage-small.png)
+](/gallery/movie-colors/images/timelines/rampage.jpg)
+
+---
+
 Robocop
 
 [![Robocop
