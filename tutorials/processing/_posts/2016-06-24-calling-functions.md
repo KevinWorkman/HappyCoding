@@ -5,6 +5,8 @@ slug: calling-functions
 thumbnail: /tutorials/processing/images/calling-functions-5.png
 tagline: Tell the computer what to do.
 sort-key: 200
+previousPost: "/tutorials/processing/what-is-programming"
+nextPost: "/tutorials/processing/using-variables"
 meta-title: Calling Functions
 meta-description: "Learn the first step to coding: calling functions!"
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
@@ -168,5 +170,3 @@ The best way to learn how to program is by, well, programming. Give yourself a g
 - Draw a house.
 
 Come up with a scene that you want to draw, and then write a program that draws it. Write Processing code that calls functions to draw the scene.
-
-## Next: [Using Variables](/tutorials/processing/using-variables)

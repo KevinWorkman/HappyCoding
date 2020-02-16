@@ -1,0 +1,6 @@
+{% assign post = site.posts | where:"url", include.url | first %}
+{% unless post %}
+  {% assign pageUrl = include.url | append: "/" %}
+  {% assign post = site.pages | where:"url", pageUrl | first %}
+{% endunless %}
+<a href="{{ post.url }}" >{{ post.title }}</a>                    

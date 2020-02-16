@@ -52,6 +52,11 @@ nav {
   opacity: .75;
 }
 
+.previous-and-next-links {
+  display: flex;
+  justify-content: space-between;
+}
+
 .content {
   margin-left: 25px;
   margin-right: 25px;
