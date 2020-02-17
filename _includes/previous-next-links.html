@@ -11,7 +11,7 @@
     <span>Previous:
       <a href="{{ previousPost.url }}">{{ previousPost.title }}</a></span>
   {% endif %}
-
+  <span></span>
   {% if page.nextPost %}
     {% assign nextPost = site.posts | where:"url", page.nextPost | first %}
     {% unless nextPost %}

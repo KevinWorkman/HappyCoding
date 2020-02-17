@@ -5,6 +5,8 @@ slug: what-is-programming
 thumbnail: /tutorials/processing/images/what-is-programming-2.png
 tagline: Get ready to write some code.
 sort-key: 100
+previousPost: /tutorials/processing/
+nextPost: /tutorials/processing/calling-functions
 meta-title: What is Programming?
 meta-description: Before diving into the code, let's talk about the terms we'll be using.
 meta-image: /examples/processing/images/what-is-programming-2.png
@@ -87,5 +89,3 @@ Over the next couple days, think about these questions:
 - What programs do you use? What types of things do they tell the computer to do?
 - What have you heard about different programming languages?
 - What types of programs are you hoping to create?
-
-## Next: [Let's write some code!](/tutorials/processing/calling-functions)

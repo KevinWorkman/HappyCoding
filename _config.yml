@@ -4,6 +4,6 @@ future: true
 kramdown:
   syntax_highlighter: rouge
 permalink: /:categories/:slug
-gems:
+plugins:
   - jemoji
   - jekyll-sitemap

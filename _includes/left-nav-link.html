@@ -9,4 +9,9 @@
   {% assign pageUrl = include.url | append: "/" %}
   {% assign post = site.pages | where:"url", pageUrl | first %}
 {% endunless %}
-<a href="{{ post.url }}" >{{ post.title }}</a>                    
+{% assign class = "not-current" %}
+{% if page.url contains include.url %}
+  {% assign class = "current" %}
+{% endif %}
+<span class="{{ class }}">
+  {% include post-url.html url=include.url %}</span>

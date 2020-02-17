@@ -47,6 +47,9 @@
         <img class="nav-img" src="/images/GitHub-Mark-32px.png" /></a>	
     </nav>
 
+    <div class="left-nav-and-content">
+{% include left-nav.html %}
+
     <div class="content">
 
 {% assign breadcrumb = page.url | split: '/' %}
@@ -69,10 +72,10 @@
 {% include previous-next-links.html bottom=true %}
 
 
-    </div>
+    </div> <!-- end content -->
+    </div> <!-- end left-nav-and-content -->
 
     <footer>
-      <hr>
       <a href="https://twitter.com/KevinAWorkman">
         <img class="footer-img" src="/images/twitter.png" /></a>
       <a href="https://www.facebook.com/HappyCoding.io/">
@@ -95,7 +98,7 @@
           View or edit this page's source on GitHub!</a></p>
       <p id="background-link"></p>
     </footer>
-    </div>
+    </div><!-- end container -->
 {% include analytics.html %}
   </body>
 </html>

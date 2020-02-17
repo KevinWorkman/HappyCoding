@@ -21,7 +21,6 @@ body {
 
 .container {
   width: 100%;
-  background-color: #fbfbfb;
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
@@ -35,6 +34,7 @@ nav {
   padding: 10px;
   background-color: #dddddd;
   margin-bottom: 25px;
+  border: thin solid #323232;
 }
 
 .navbar-brand {
@@ -49,7 +49,6 @@ nav {
 
 .nav-img {
   height: 32px;
-  opacity: .75;
 }
 
 .previous-and-next-links {
@@ -57,9 +56,62 @@ nav {
   justify-content: space-between;
 }
 
+.left-nav-and-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  #left-nav {
+    display: none;
+  }
+}
+
+#left-nav {
+  background-color: #fbfbfb;
+  border: thin solid #323232;
+  padding: 25px;
+  margin-right:25px;
+  height: fit-content;
+}
+
+#left-nav ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Nested ul should be indented a bit. */
+#left-nav ul ul {
+  padding-left: 5px;
+}
+
+#left-nav .left-nav-tutorial-section {
+  margin-top: 10px;
+}
+
+#left-nav .left-nav-tutorial-section li {
+  margin-top: 5px;
+}
+
+#left-nav .left-nav-blog-list li{
+  margin-top: 5px;
+}
+
+#left-nav .current {
+  font-weight: bolder;
+}
+
+/* Hide sections when we're not in them. */
+#left-nav .not-current + ul {
+  display: none;
+}
+
 .content {
-  margin-left: 25px;
-  margin-right: 25px;
+  background-color: #fbfbfb;
+  border: thin solid #323232;
+  padding: 25px;
+  flex-grow: 1;
 }
 
 p {
@@ -145,18 +197,18 @@ code {
 }
 
 .tutorial-link-box {
-  width:200px;
+  width: 200px;
   display: inline-block;
   text-align: left;
-  vertical-align:top;
-  margin:10px;
+  vertical-align: top;
+  margin: 10px;
 }
 
 .tutorial-link-box .thumbnail-image {
   width:200px;
   height:100px;
   max-width:100%;
-  border: thin solid #202020;
+  border: thin solid #323232;
 }
 
 .tutorial-link-box a.title {
@@ -178,12 +230,15 @@ td, th  {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding-top:25px;
   padding-bottom: 10px;
   text-align: center;
+  background-color: #fbfbfb;
+  border: thin solid #323232;
 }
 
 .footer-img {
   height: 32px;
 }
-
