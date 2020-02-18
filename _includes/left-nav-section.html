@@ -1,0 +1,8 @@
+<ul>
+{% assign posts = include.posts | sort: 'sort-key' %}
+{% for post in posts  %}
+  {% if post.categories contains include.subsection %}
+    <li>{% include left-nav-link.html url=post.url %}</li>
+  {% endif %}
+{% endfor %}
+</ul>

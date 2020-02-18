@@ -3,7 +3,7 @@ layout: tutorial
 title: Sanitizing User Input
 thumbnail: /tutorials/java-server/images/sanitizing-user-input-7.png
 tagline: Safely handle user input.
-sort-key: 750
+sort-key: 575
 meta-title: Sanitizing User Input
 meta-description: Learn how to safely handle user input.
 meta-image: /tutorials/java-server/images/sanitizing-user-input-8.png

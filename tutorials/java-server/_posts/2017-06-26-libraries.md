@@ -3,7 +3,7 @@ layout: tutorial
 title: Libraries
 thumbnail: /tutorials/java-server/images/libraries-5.png
 tagline: Use libraries in your server code.
-sort-key: 900
+sort-key: 550
 meta-title: Sever Libraries
 meta-description: Learn how to use libaries in your server code.
 meta-image: /tutorials/java-server/images/libraries-6.png

@@ -3,7 +3,7 @@ layout: tutorial
 title: Secure Password Storage
 thumbnail: /tutorials/java-server/images/secure-password-storage-1.png
 tagline: How to (not) store passwords.
-sort-key: 775
+sort-key: 610
 meta-title: Secure Password Storage
 meta-description: How to (not) store passwords.
 meta-image: /tutorials/java-server/images/secure-password-storage-2.png
