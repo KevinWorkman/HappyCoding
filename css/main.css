@@ -112,6 +112,8 @@ nav {
   border: thin solid #323232;
   padding: 25px;
   flex-grow: 1;
+  /* Prevent code blocks from making content wider than container. */
+  overflow: auto;
 }
 
 p {
