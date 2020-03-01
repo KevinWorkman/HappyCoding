@@ -220,6 +220,10 @@ code {
   margin-bottom: 5px;
 }
 
+.tutorial-link-box p {
+  margin-top: 0;
+}
+
 /* Tags */
 .label {
   padding: 5px;
