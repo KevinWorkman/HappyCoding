@@ -17,4 +17,6 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 
 {% include url-thumbnail.html url="/gallery/ludum-dare-45/index" %}
 
+{% include url-thumbnail.html url="/gallery/run-map/index" %}
+
 {% include url-thumbnail.html url="/gallery/links" %}
