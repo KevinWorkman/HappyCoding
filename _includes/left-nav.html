@@ -1,6 +1,6 @@
 <div id="left-nav">
   <ul>
-    <li>{% include left-nav-link.html url="/tutorials/" %}
+    <li>{%- include left-nav-link.html url="/tutorials/" -%}
       <ul>
         <li class="left-nav-tutorial-section">
           {% include left-nav-link.html url="/tutorials/processing/" %}
@@ -63,19 +63,17 @@
         </li>
       </ul>
     </li>
-<hr>
+    <hr>
     <li>{% include left-nav-link.html url="/examples/" %}</li>
-<hr>
-    <li>{% include left-nav-link.html url="/gallery/" %}</li>
-<hr>
-    <li>{% include left-nav-link.html url="/blog/" %}
-      <ul class="left-nav-blog-list">
-        {% for post in site.categories.blog %}
-          <li>{% include left-nav-link.html url=post.url %}</li>
-        {% endfor %}
-      </ul>
+    <hr>
+    <li>{%- include left-nav-link.html url="/gallery/" -%}</li>
+    <hr>
+    <li class="left-nav-tutorial-section">
+      {% include left-nav-link.html url="/blog/" %}
+        {% include left-nav-section.html
+            posts=site.categories.blog subsection="blog" %}
     </li>
-<hr>
-    <li>{% include left-nav-link.html url="/teaching/" %}</li>
+    <hr>
+    <li>{%- include left-nav-link.html url="/teaching/" -%}</li>
   </ul>
 </div>

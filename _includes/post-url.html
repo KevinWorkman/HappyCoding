@@ -1,12 +1,12 @@
-{% assign post = site.posts | where:"url", include.url | first %}
-{% unless post %}
-  {% assign post = site.pages | where:"url", include.url | first %}
-{% endunless %}
-{% comment %}
+{%- assign post = site.posts | where:"url", include.url | first -%}
+{%- unless post -%}
+  {%- assign post = site.pages | where:"url", include.url | first -%}
+{%- endunless -%}
+{%- comment -%}
   If post is still unfound, maybe we need a /, e.g. in the breadcrumb logic.
-{% endcomment %}
-{% unless post %}
-  {% assign pageUrl = include.url | append: "/" %}
-  {% assign post = site.pages | where:"url", pageUrl | first %}
-{% endunless %}
-<a href="{{ post.url }}" >{{ post.title }}</a>                    
+{%- endcomment -%}
+{%- unless post -%}
+  {%- assign pageUrl = include.url | append: "/" -%}
+  {%- assign post = site.pages | where:"url", pageUrl | first -%}
+{%- endunless -%}
+<a href="{{ post.url }}">{{ post.title }}</a>
