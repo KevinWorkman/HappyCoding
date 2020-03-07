@@ -27,8 +27,14 @@
         zoom: 16,
         styles: getMapStyle()
       });
+
+      let totalDistance = 0;
+      let totalDuration = 0;
   
       allRunLines = runs.map((run) => {
+        totalDistance += parseFloat(run.distance);
+        totalDuration += run.durationSeconds;
+
         const path = new google.maps.Polyline({
           path: run.path,
           geodesic: true,
@@ -40,7 +46,23 @@
         path.setMap(map);
         return path;
       });
+
+      totalDistance = totalDistance.toFixed(2) + ' km';
+      totalDuration = new Date(1000 * totalDuration);
+      totalDuration = 
+          (totalDuration.getDate() * 24 +
+          totalDuration.getHours()) + ':' +
+          totalDuration.getMinutes();
+
+      let totalContent = '<strong>Total distance:</strong> ' + totalDistance;
+      totalContent += '<br>';
+      totalContent += '<strong>Total time:</strong> ' +
+          totalDuration;
+
+      document.getElementById('run-stats-total').innerHTML = totalContent;
   
+      // lazy way of zooming to the most recent run
+      showCurrentRun()
       showAllRuns();
     }
   
@@ -179,7 +201,7 @@
       content += '<strong>Distance:</strong> ' +
           runs[runIndex].distance + ' km';
 
-      document.getElementById('run-stats').innerHTML = content;
+      document.getElementById('run-stats-current').innerHTML = content;
     }
 
     function toggleAllRuns() {
@@ -221,6 +243,10 @@
 
     createMap();
   </script>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
   <style>
     #map {
       width: 100%;
@@ -232,8 +258,17 @@
       display: flex;
     }
 
+    #run-controls .buttons {
+      display: flex;
+      align-self: baseline;
+    }
+
     #run-controls button {
       font-size: xx-large;
+    }
+
+    #run-controls #toggle-all-runs-button {
+      font-size: large;
     }
 
     #run-stats {
@@ -247,12 +282,17 @@
 <div id="map"></div>
 
 <div id="run-controls">
-  <button onclick="showPreviousRun()">⇠</button>
-  <button onclick="showNextRun()">⇢</button>
-  <button id="toggle-all-runs-button" onclick="toggleAllRuns()">
-    Show One
-  </button>
-  <div id="run-stats"></div>
+  <div class="buttons">
+    <button onclick="showPreviousRun()">⇠</button>
+    <button onclick="showNextRun()">⇢</button>
+    <button id="toggle-all-runs-button" onclick="toggleAllRuns()">
+      Show One
+    </button>
+  </div>
+  <div id="run-stats">
+    <div id="run-stats-current"></div>
+    <div id="run-stats-total"></div>
+  </div>
 </div>
 
 <p><span style="font-style:italic;">"Walking a half marathon is closer to running a half marathon than never starting a half marathon... Our goal is progress, not perfection."</span> - Kelly Sue DeConnick</p>

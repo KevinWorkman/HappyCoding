@@ -26,7 +26,7 @@ for (int i = 0; i < inputRuns.size(); i++) {
 
   JSONObject metrics = inputRun.getJSONObject("metrics");
   String distance = kmFormat.format(metrics.getInt("distance") / 1000.0);
-  int timeSeconds = metrics.getInt("duration");
+  int durationSeconds = metrics.getInt("duration");
 
   String inputStartTime = metrics.getString("start_time");
   String outputStartTime = "";
@@ -59,6 +59,7 @@ for (int i = 0; i < inputRuns.size(); i++) {
   JSONObject outputRun = new JSONObject();
   outputRun.setString("startTime", outputStartTime);
   outputRun.setString("distance", distance);
+  outputRun.setInt("durationSeconds", durationSeconds);
   outputRun.setJSONArray("path", outputRoute);
   runsToSort.add(outputRun);
 }
