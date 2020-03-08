@@ -2,12 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-
-{% if page.title == "Happy Coding" %}
+{%- if page.title == "Happy Coding" %}
     <title>Happy Coding</title>
-{% else %}
+{%- else -%}
     <title>{{ page.title }} - Happy Coding</title>
-{% endif %} 
+{%- endif %} 
 
 {% include meta.html %}
 
@@ -21,83 +20,80 @@
     <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
     <script src="/js/modernizr-transitions.js"></script>
     <script src="/js/main.js"></script>
-		
-    <meta name="google-site-verification"
-        content="_MHA_HyjRN41hU7ocjslu4AdeVWgiS_9QAiSuonBmEI" />
   </head>
   <body>
     <div class="container">
-    <nav class="transition">
+      <nav class="transition">
 
-      <a class="navbar-brand random-color transition" href="/">Happy Coding</a>
-      <a class="nav-link random-color transition"
-          href="/tutorials">Tutorials</a>
-      <a class="nav-link random-color transition" href="/examples">Examples</a>
-      <a class="nav-link random-color transition" href="/blog">Blog</a>
-      <a class="nav-link random-color transition" href="/about">About</a>
-      <a class="nav-link random-color transition" href="/teaching">Teaching</a>
-      <a class="nav-link random-color transition"
-          href="http://forum.HappyCoding.io">Forum</a>
-      
-      <a class="nav-link" href="https://twitter.com/KevinAWorkman">
-        <img class="nav-img" src="/images/twitter.png" /></a>
-      <a class="nav-link" href="https://www.facebook.com/HappyCoding.io/">
-        <img class="nav-img" src="/images/facebook.png" /></a>
-      <a class="nav-link" href="https://github.com/KevinWorkman/HappyCoding">
-        <img class="nav-img" src="/images/GitHub-Mark-32px.png" /></a>	
-    </nav>
+        <a class="navbar-brand random-color transition" href="/">Happy Coding</a>
+        <a class="nav-link random-color transition"
+            href="/tutorials">Tutorials</a>
+        <a class="nav-link random-color transition" href="/examples">Examples</a>
+        <a class="nav-link random-color transition" href="/blog">Blog</a>
+        <a class="nav-link random-color transition" href="/about">About</a>
+        <a class="nav-link random-color transition" href="/teaching">Teaching</a>
+        <a class="nav-link random-color transition"
+            href="http://forum.HappyCoding.io">Forum</a>
 
-    <div class="left-nav-and-content">
-{% include left-nav.html %}
+        <a class="nav-link" href="https://twitter.com/KevinAWorkman">
+          <img class="nav-img" src="/images/twitter.png" /></a>
+        <a class="nav-link" href="https://www.facebook.com/HappyCoding.io/">
+          <img class="nav-img" src="/images/facebook.png" /></a>
+        <a class="nav-link" href="https://github.com/KevinWorkman/HappyCoding">
+          <img class="nav-img" src="/images/GitHub-Mark-32px.png" /></a>	
+      </nav>
 
-    <div class="content">
+      <div class="left-nav-and-content">
+  {% include left-nav.html %}
 
-{% assign breadcrumb = page.url | split: '/' %}
-{% unless breadcrumb.size < 3 %}
-  {% assign breadcrumbUrl = "" %}
-  {% for section in breadcrumb %}
-    {% unless section == "" %}
-      {% assign breadcrumbUrl = breadcrumbUrl | append: "/" | append: section %}
-        {% include post-url.html url=breadcrumbUrl %}
-      {% unless forloop.last %}/{% endunless %} 
-    {% endunless %}
-  {% endfor %}
-      <hr/>
-{% endunless %}
+        <div class="content">
 
-{% include previous-next-links.html %}
+  {%- assign breadcrumb = page.url | split: '/' -%}
+  {%- unless breadcrumb.size < 3 %}
+    {% assign breadcrumbUrl = "" -%}
+    {%- for section in breadcrumb -%}
+      {%- unless section == "" -%}
+        {%- assign breadcrumbUrl = breadcrumbUrl
+            | append: "/" | append: section %}
+        {% include post-url.html url=breadcrumbUrl -%}
+        {%- unless forloop.last %}/{% endunless -%} 
+      {%- endunless -%}
+    {%- endfor %}
+        <hr/>
+  {%- endunless -%}
 
-{{ content }}
+  {% include previous-next-links.html %}
 
-{% include previous-next-links.html bottom=true %}
+  {{ content }}
 
+  {% include previous-next-links.html bottom=true %}
 
-    </div> <!-- end content -->
-    </div> <!-- end left-nav-and-content -->
+        </div> <!-- end content -->
+      </div> <!-- end left-nav-and-content -->
+  
+      <footer>
+        <a href="https://twitter.com/KevinAWorkman">
+          <img class="footer-img" src="/images/twitter.png" /></a>
+        <a href="https://www.facebook.com/HappyCoding.io/">
+          <img class="footer-img" src="/images/facebook.png" /></a>
+        <a href="https://github.com/KevinWorkman/HappyCoding">
+          <img class="footer-img" src="/images/GitHub-Mark-32px.png" /></a>
 
-    <footer>
-      <a href="https://twitter.com/KevinAWorkman">
-        <img class="footer-img" src="/images/twitter.png" /></a>
-      <a href="https://www.facebook.com/HappyCoding.io/">
-        <img class="footer-img" src="/images/facebook.png" /></a>
-      <a href="https://github.com/KevinWorkman/HappyCoding">
-        <img class="footer-img" src="/images/GitHub-Mark-32px.png" /></a>
-
-      <p><a href="http://HappyCoding.io">HappyCoding.io</a> is on
-        <a href="https://github.com/KevinWorkman/HappyCoding">GitHub</a>,
-        <a href="https://twitter.com/KevinAWorkman">Twitter</a>, and
-        <a href="http://www.facebook.com/HappyCoding.io">Facebook</a>.
-        Please don't hesitate to
-        <a href="/about/contact.html">contact me</a>!</p>
-      <p>Question? Request? Just want to talk about coding? Come say hi on
-        <a href="http://forum.happycoding.io/">forum.HappyCoding.io</a>!</p>
-      <p><a href="/license.html">HappyCoding.io is open source.</a> -
-        <a href="https://github.com/KevinWorkman/HappyCoding/wiki/Contributing">
-          How to contribute?</a> -
-        <a href="https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/{{ page.path }}">
-          View or edit this page's source on GitHub!</a></p>
-      <p id="background-link"></p>
-    </footer>
+        <p><a href="http://HappyCoding.io">HappyCoding.io</a> is on
+          <a href="https://github.com/KevinWorkman/HappyCoding">GitHub</a>,
+          <a href="https://twitter.com/KevinAWorkman">Twitter</a>, and
+          <a href="http://www.facebook.com/HappyCoding.io">Facebook</a>.
+          Please don't hesitate to
+          <a href="/about/contact.html">contact me</a>!</p>
+        <p>Question? Request? Just want to talk about coding? Come say hi on
+          <a href="http://forum.happycoding.io/">forum.HappyCoding.io</a>!</p>
+        <p><a href="/license.html">HappyCoding.io is open source.</a> -
+          <a href="https://github.com/KevinWorkman/HappyCoding/wiki/Contributing">
+            How to contribute?</a> -
+          <a href="https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/{{ page.path }}">
+            View or edit this page's source on GitHub!</a></p>
+        <p id="background-link"></p>
+      </footer>
     </div><!-- end container -->
 {% include analytics.html %}
   </body>

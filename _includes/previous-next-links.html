@@ -1,23 +1,25 @@
-{% if page.previousPost or page.nextPost %}
-  {% if include.bottom %}<hr>{% endif %}
-  <div class="previous-and-next-links">
-  {% if page.previousPost %}
-    {% assign previousPost =
-        site.posts | where:"url", page.previousPost | first %}
-    {% unless previousPost %}
-      {% assign previousPost =
-          site.pages | where:"url", page.previousPost | first %}
-    {% endunless %}
-    <span>Previous:
-      <a href="{{ previousPost.url }}">{{ previousPost.title }}</a></span>
-  {% endif %}
+{%- if page.previousPost or page.nextPost -%}
+  {%- if include.bottom %}
+<hr>
+  {%- endif %}
+<div class="previous-and-next-links">
+  {%- if page.previousPost -%}
+    {%- assign previousPost =
+        site.posts | where:"url", page.previousPost | first -%}
+    {%- unless previousPost -%}
+      {%- assign previousPost =
+          site.pages | where:"url", page.previousPost | first -%}
+    {%- endunless %}
+  <span>Previous:
+    <a href="{{ previousPost.url }}">{{ previousPost.title }}</a></span>
+  {%- endif %}
   <span></span>
-  {% if page.nextPost %}
-    {% assign nextPost = site.posts | where:"url", page.nextPost | first %}
-    {% unless nextPost %}
-      {% assign nextPost = site.pages | where:"url", page.nextPost | first %}
-    {% endunless %}
-    <span>Next: <a href="{{ nextPost.url }}">{{ nextPost.title }}</a></span>
-  {% endif %}
-  </div>
-{% endif %}
+  {%- if page.nextPost -%}
+    {%- assign nextPost = site.posts | where:"url", page.nextPost | first -%}
+    {%- unless nextPost -%}
+      {%- assign nextPost = site.pages | where:"url", page.nextPost | first -%}
+    {%- endunless %}
+  <span>Next: <a href="{{ nextPost.url }}">{{ nextPost.title }}</a></span>
+  {%- endif %}
+</div>
+{%- endif -%}

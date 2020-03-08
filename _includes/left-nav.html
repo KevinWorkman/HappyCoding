@@ -1,81 +1,82 @@
-<div id="left-nav">
-  <ul>
-    <li>{%- include left-nav-link.html url="/tutorials/" -%}
+    <div id="left-nav">
       <ul>
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/processing/" %}
-          {% include left-nav-section.html
-               posts=site.categories.processing subsection="tutorials" %}
+        <li>
+          {% include left-nav-link.html url="/tutorials/" %}
+          <ul>
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/processing/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.processing subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/html/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.html subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/javascript/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.javascript subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/p5js/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.p5js subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/java/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.java subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/java-server/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.java-server subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/google-cloud/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.google-cloud subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/android/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.android subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/libgdx/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.libgdx subsection="tutorials" %}
+            </li>
+    
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/tutorials/how-to/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.how-to subsection="tutorials" %}
+            </li>
+          </ul>
         </li>
-
+        <hr>
+        <li>{% include left-nav-link.html url="/examples/" %}</li>
+        <hr>
+        <li>{%- include left-nav-link.html url="/gallery/" -%}</li>
+        <hr>
         <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/html/" %}
-          {% include left-nav-section.html
-               posts=site.categories.html subsection="tutorials" %}
+          {% include left-nav-link.html url="/blog/" %}
+            {% include left-nav-section.html
+                posts=site.categories.blog subsection="blog" %}
         </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/javascript/" %}
-          {% include left-nav-section.html
-               posts=site.categories.javascript subsection="tutorials" %}
-        </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/p5js/" %}
-          {% include left-nav-section.html
-               posts=site.categories.p5js subsection="tutorials" %}
-        </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/java/" %}
-          {% include left-nav-section.html
-               posts=site.categories.java subsection="tutorials" %}
-        </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/java-server/" %}
-          {% include left-nav-section.html
-               posts=site.categories.java-server subsection="tutorials" %}
-        </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/google-cloud/" %}
-          {% include left-nav-section.html
-               posts=site.categories.google-cloud subsection="tutorials" %}
-        </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/android/" %}
-          {% include left-nav-section.html
-               posts=site.categories.android subsection="tutorials" %}
-        </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/libgdx/" %}
-          {% include left-nav-section.html
-               posts=site.categories.libgdx subsection="tutorials" %}
-        </li>
-
-        <li class="left-nav-section">
-          {% include left-nav-link.html url="/tutorials/how-to/" %}
-          {% include left-nav-section.html
-               posts=site.categories.how-to subsection="tutorials" %}
-        </li>
+        <hr>
+        <li>{%- include left-nav-link.html url="/teaching/" -%}</li>
+        <hr>
+        <li><a href="https://forum.happycoding.io">Forum</a></li>
       </ul>
-    </li>
-    <hr>
-    <li>{% include left-nav-link.html url="/examples/" %}</li>
-    <hr>
-    <li>{%- include left-nav-link.html url="/gallery/" -%}</li>
-    <hr>
-    <li class="left-nav-section">
-      {% include left-nav-link.html url="/blog/" %}
-        {% include left-nav-section.html
-            posts=site.categories.blog subsection="blog" %}
-    </li>
-    <hr>
-    <li>{%- include left-nav-link.html url="/teaching/" -%}</li>
-    <hr>
-    <li><a href="https://forum.happycoding.io">Forum</a></li>
-  </ul>
-</div>
+    </div>
