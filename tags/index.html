@@ -20,7 +20,7 @@ function getParameterByName(name, url) {
   if (!results) {
     return null;
   }
-	if (!results[2]) {
+  if (!results[2]) {
     return '';
   }
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
@@ -77,7 +77,7 @@ async function buildUi() {
       } else if (post.categories.includes('examples')) {
         examplesDiv.innerHTML += replacedHtml;
         containsExamples = true;
-      } else{
+      } else {
         othersDiv.innerHTML += replacedHtml;
         containsOther = true;
       }
@@ -86,11 +86,9 @@ async function buildUi() {
     if (containsTutorials) {
       document.querySelector('#posts').appendChild(tutorialsDiv);
     }
-
     if (containsExamples) {
       document.querySelector('#posts').appendChild(examplesDiv);
     }
-
     if (containsOther) {
       document.querySelector('#posts').appendChild(othersDiv);
     }
@@ -98,10 +96,10 @@ async function buildUi() {
     if (!containsTutorials && !containsExamples && !containsOther) {
       document.querySelector('#posts').innerHTML =
           "<p>I can't find anything tagged with that.</p>";
-		}
-	} else{ // no tag specified in the url
+    }
+  } else{ // no tag specified in the url
 
-		const tagMap = [];
+    const tagMap = [];
     data.forEach((post) => {			
       post.tags.forEach(oneTag => {
         if(tagMap[oneTag]){
@@ -134,4 +132,4 @@ async function buildUi() {
 buildUi();
 
 </script>
-{% endraw %}
+{% endraw -%}
