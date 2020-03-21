@@ -12,18 +12,16 @@ tags: [example, javascript, libraries, maps]
 
 <style>
   #map{
-    width:500px;
-    height:500px;
-    float: left;
+    width: 100%;
+    height: 500px;
   }
 
   #info{
-    width: 400px;
-    margin-left: 520px;
-    text-align:center;
+    margin-top: 25px;
+    text-align: center;
     border: thin solid black;
   }
-  
+
   .container{
     min-width: 970px;
   }
@@ -161,7 +159,13 @@ I then add a click listener to each marker, so when the user clicks I update the
 - Instead of tossing markers on a map, create an itinerary and a walking (or driving) path that you show on the map.
 - You could also work in street view, 45 degree tilt, or other Google Maps features.
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwp_wR-onL-_anrRYSXMnJruNP-vv3u24"></script>
+{% if site.data.local-keys.google-api-key %}
+  {% assign key = site.data.local-keys.google-api-key %}
+{% else %}
+  {% assign key = site.data.live-keys.google-api-key %}
+{% endif %}
+
+<script src="https://maps.googleapis.com/maps/api/js?key={{key}}"></script>
 <script>
 
   var map;

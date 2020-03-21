@@ -28,7 +28,13 @@ tags: [example, javascript, libraries, maps]
   </ul>
 </div>   
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwp_wR-onL-_anrRYSXMnJruNP-vv3u24"></script>
+{% if site.data.local-keys.google-api-key %}
+  {% assign key = site.data.local-keys.google-api-key %}
+{% else %}
+  {% assign key = site.data.live-keys.google-api-key %}
+{% endif %}
+
+<script src="https://maps.googleapis.com/maps/api/js?key={{key}}"></script>
 <script>
   var map;
 
