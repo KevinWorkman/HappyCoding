@@ -5,123 +5,133 @@ title: Tags
 
 <p id="loading">Loading...</p>
 
-<div id="posts">
-</div>
+<div id="posts"></div>
 
 {% raw %}
 <script>
 
 function getParameterByName(name, url) {
-	if (!url) url = window.location.href;
-	name = name.replace(/[\[\]]/g, "\\$&");
-	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-	results = regex.exec(url);
-	if (!results) return null;
-	if (!results[2]) return '';
-	return decodeURIComponent(results[2].replace(/\+/g, " "));
+  if (!url) {
+    url = window.location.href;
+  }
+  name = name.replace(/[\[\]]/g, '\\$&');
+  const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+  results = regex.exec(url);
+  if (!results) {
+    return null;
+  }
+	if (!results[2]) {
+    return '';
+  }
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-var tag = getParameterByName("tag");
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
 
-var thumbnailHtml = '<div class="tutorial-link-box"><a href="{{ include.url }}" ><img class="thumbnail-image" src="{{ include.thumbnail }}" /><a class="title" href="{{ include.url }}" >{{ include.title }}</a><p>{{ include.tagline }}</p></div>';
+async function buildUi() {
 
-fetch('/api/site.json').then(response => response.json()).then(data => {
+  const tag = getParameterByName("tag");
+  const thumbnailHtml = '<div class="tutorial-link-box"><a href="{{ include.url }}" ><img class="thumbnail-image" src="{{ include.thumbnail }}" /><a class="title" href="{{ include.url }}" >{{ include.title }}</a><p>{{ include.tagline }}</p></div>';
 
-	if(tag){
-		
-		var tutorialsDiv = document.createElement('div');
+  const data = await (await fetch('/api/site.json')).json();
+
+  if(tag){
+    const tutorialsDiv = document.createElement('div');
     tutorialsDiv.id = 'tutorials';
-		var examplesDiv = document.createElement('div');
+    const examplesDiv = document.createElement('div');
     examplesDiv.id = 'examples';
-		var othersDiv = document.createElement('div');
+    const othersDiv = document.createElement('div');
     othersDiv.id = 'others';
-		
-		tutorialsDiv.innerHTML = "<h2>Tutorials tagged " + tag + "</h2>";
-		examplesDiv.innerHTML = "<h2>Examples tagged " + tag + "</h2>";
-		othersDiv.innerHTML = "<h2>Other Stuff tagged " + tag + "</h2>";
-		
-		var containsTutorials = false;
-		var containsExamples = false;
-		var containsOther = false;
-	
-		data.forEach(post => {
-			if(post.tags.includes(tag)){
-			
-				var replacedHtml = thumbnailHtml.replace("{{ include.url }}", post.url).replace("{{ include.url }}", post.url).replace("{{ include.thumbnail }}", post.thumbnail).replace("{{ include.title }}", post.title).replace("{{ include.tagline }}", post.tagline);
-			
-				if(post.categories.includes("tutorials")){
-					tutorialsDiv.innerHTML += replacedHtml;
-					containsTutorials = true;
-				}
-				else if(post.categories.includes("examples")){
-					examplesDiv.innerHTML += replacedHtml;
-					containsExamples = true;
-				}
-				else{
-					othersDiv.innerHTML += replacedHtml;
-					containsOther = true;
-				}
-			}
-		});
-		
-		if(containsTutorials){
-			document.querySelector("#posts").appendChild(tutorialsDiv);
+
+    tutorialsDiv.innerHTML = "<h2>Tutorials tagged " + tag + "</h2>";
+    examplesDiv.innerHTML = "<h2>Examples tagged " + tag + "</h2>";
+    othersDiv.innerHTML = "<h2>Other Stuff tagged " + tag + "</h2>";
+
+    let containsTutorials = false;
+    let containsExamples = false;
+    let containsOther = false;
+
+    data.forEach(post => {
+      if (!post.tags.includes(tag)) {
+        return;
+      }
+
+      const replacedHtml = thumbnailHtml
+          .replace('{{ include.url }}', post.url)
+          .replace('{{ include.url }}', post.url)
+          .replace('{{ include.thumbnail }}', post.thumbnail)
+          .replace('{{ include.title }}', post.title)
+          .replace('{{ include.tagline }}', post.tagline);
+
+      if (post.categories.includes('tutorials')) {
+        tutorialsDiv.innerHTML += replacedHtml;
+        containsTutorials = true;
+      } else if (post.categories.includes('examples')) {
+        examplesDiv.innerHTML += replacedHtml;
+        containsExamples = true;
+      } else{
+        othersDiv.innerHTML += replacedHtml;
+        containsOther = true;
+      }
+    });
+
+    if (containsTutorials) {
+      document.querySelector('#posts').appendChild(tutorialsDiv);
+    }
+
+    if (containsExamples) {
+      document.querySelector('#posts').appendChild(examplesDiv);
+    }
+
+    if (containsOther) {
+      document.querySelector('#posts').appendChild(othersDiv);
+    }
+
+    if (!containsTutorials && !containsExamples && !containsOther) {
+      document.querySelector('#posts').innerHTML =
+          "<p>I can't find anything tagged with that.</p>";
 		}
-		
-		if(containsExamples){
-			document.querySelector("#posts").appendChild(examplesDiv);
-		}
-		
-		if(containsOther){
-			document.querySelector("#posts").appendChild(othersDiv);
-		}
-		
-		if(!containsTutorials && !containsExamples && !containsOther){
-			document.querySelector("#posts").innerHTML = "<p>I can't find anything tagged with that.</p>";
-		}
-	}
-	else{
-		var tagMap = [];
-		
-		data.forEach((post) => {
-					
-			post.tags.forEach(oneTag => {
-			
-				if(tagMap[oneTag]){
-					tagMap[oneTag].count++;
-				}
-				else{
-					tagMap[oneTag] = {tag:oneTag, count:1};
-				}
-			});
-		});
-		
-		var tagArray = [];
-		
-		for (var oneTag in tagMap) {
-			tagArray.push(tagMap[oneTag]);
-		}
-		
-		function shuffleArray(array) {
-			for (var i = array.length - 1; i > 0; i--) {
-				var j = Math.floor(Math.random() * (i + 1));
-				var temp = array[i];
-				array[i] = array[j];
-				array[j] = temp;
-			}
-			return array;
-		}
-		
-		shuffleArray(tagArray);
-		
-		for (var tagIndex in tagArray) {
-			document.querySelector("#posts").innerHTML += '<a href="/tags/?tag=' + tagArray[tagIndex].tag + '" style="font-size: ' + Math.max(12, Math.min(72, (8*tagArray[tagIndex].count))) + 'pt; margin:25px;">' + tagArray[tagIndex].tag + '</a> ';
-		}
-	}
-	
-	const loadingEl = document.querySelector("#loading");
+	} else{ // no tag specified in the url
+
+		const tagMap = [];
+    data.forEach((post) => {			
+      post.tags.forEach(oneTag => {
+        if(tagMap[oneTag]){
+          tagMap[oneTag].count++;
+        } else {
+          tagMap[oneTag] = {tag:oneTag, count:1};
+        }
+      });
+    });
+
+    const tagArray = [];
+    for (let oneTag in tagMap) {
+      tagArray.push(tagMap[oneTag]);
+    }
+
+    shuffle(tagArray);
+
+    for (var tagIndex in tagArray) {
+      document.querySelector("#posts").innerHTML += '<a href="/tags/?tag=' +
+          tagArray[tagIndex].tag + '" style="font-size: ' +
+          Math.max(12, Math.min(72, (8*tagArray[tagIndex].count))) +
+          'pt; margin:25px;">' + tagArray[tagIndex].tag + '</a> ';
+    }
+  }
+
+  const loadingEl = document.querySelector("#loading");
   loadingEl.parentNode.removeChild(loadingEl);
-});
+}
+
+buildUi();
 
 </script>
 {% endraw %}
