@@ -1,0 +1,18 @@
+<div class="movie-section">
+  <h2><a href="{{include.external-link}}">{{include.movie-title}}</a></h2>
+
+{%- if include.timeline-small %}
+  <a href="{{include.timeline-large}}">
+    <img src="{{include.timeline-small}}">
+  </a>
+{%- endif %}
+
+{%- if include.all-frames %}
+  <img class="all-frames" src="{{include.all-frames}}" />
+{%- endif %}
+
+{%- if include.average %}
+  <img class="average" src="{{include.average}}" />
+{%- endif %}
+  <hr>
+</div>
