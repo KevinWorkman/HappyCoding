@@ -80,6 +80,10 @@ From there, you'll often have a follow-up phone call that consists of more compl
 
 Depending on the company, you might have 1-3 phone interviews. Some of these might also be video calls.
 
+![video call](/tutorials/how-to/images/interview-3.png)
+
+*(Art by [SaKo](https://twitter.com/_IAmSaKo_)!)*
+
 You won't be able to use an IDE or Google during this conversation, so to prepare for a phone interview, I recommend practicing the **fundamentals** of whatever language you're using. You can read moure about this in the [Fundamentals](#fundamentals) section below, but in general this means you should be able to write a complete "hello world" program that compiles and runs (or loads in an HTML page and runs), from scratch, without the help of an IDE, Google, or Stack Overflow. You should be familiar with control flow and data structures, as well as any "gotchas" that come with your language.
 
 **Note:** Interns are often interviewed over the phone or a video call instead of in person. In terms of complexity, these interviews are between a phone screen and an in-person interview: they're a little more involved than what I described above, but not quite as involved as what I'll describe below.
@@ -177,6 +181,10 @@ To make this advice a little more concrete:
 
 To practice this, I'd recommend trying to think of 5-10 stories that demonstrate who you are as a person, coder, and coworker. These should be real stories, but they can come from school assignments, group projects, stuff not related to coding, whatever, as long as they tell your story. Then practice telling those stories. Time yourself to make sure you're at about the 90 second mark. Do a search for [behavioral interview questions](https://duckduckgo.com/?q=behavioral+interview+questions) and read through as many examples as you can find. As you read them, think about how your stories could apply to those questions, and then practice answering them, out loud. Try this by yourself at first. Try recording yourself and listening back. And then try doing this in front of another person. If you have a partner, take turns asking these kinds of questions and giving feedback on the answers.
 
+![person thinking](/tutorials/how-to/images/interview-4.png)
+
+*(Art by [SaKo](https://twitter.com/_IAmSaKo_)!)*
+
 Behavioral interviews have a bit of a bad rap as being annoying general questions with no real answers. But if you take those general questions and answer them with specific examples, you can paint a pretty good picture of yourself.
 
 # Technical Interviews
@@ -243,7 +251,7 @@ For example, many people start an interview by turning around and immediately wr
 
 In fact, most technical interview questions are purposely a little vague, or leave parts up to interpretation. If you start coding without identifying your assumptions, you're almost definitely missing something. I mentioned above that you should **ask for examples** and **ask about representation**. More generally, you should **ask questions until you understand the problem**, and you should continue asking questions as you reach decision points in the process of solving the problem.
 
-You can also phrase your questions as statements. *"I'm going to take the input as a HashMap so I can take advantage of its constant-time lookup, does that sound good?"*  You can use this technique to steer the question a bit. If a certain data structure makes your life easier, then **say that** up front. Recognizing these types of "shortcuts" is a **very good thing**, but you have to make it a decision, not an assumption.
+You can also phrase your questions as statements. *"I'm going to take the input as a HashMap so I can take advantage of its constant-time lookup, does that sound good?"* &nbsp; You can use this technique to steer the question a bit. If a certain data structure makes your life easier, then **say that** up front. Recognizing these types of "shortcuts" is a **very good thing**, but you have to make it a decision, not an assumption.
 
 Many people think asking questions during an interview is bad because it shows that you don't know something, but the opposite is true! I don't want to belabor the point too much, but I think it's one of the most important takeaways, so to be honest: When I'm giving an interview, I write down whether the person asks clarifying questions before coding. If they do, that's a good sign. If not, that's a bad sign. ASK QUESTIONS.
 
@@ -280,6 +288,10 @@ That being said, don't stress too much about making tiny errors like missing a s
 ## Break problems down into smaller steps
 
 I strongly believe that one of the most important skills a person can have when coding (and even more generally than that) is the ability to take a large problem, break it down into smaller steps, and then approach those steps one at a time. I've talked about that at length [here](/tutorials/how-to/program), but it's especially important in interviews.
+
+![breaking a problem down](/tutorials/how-to/images/interview-5.png)
+
+*(Art by [SaKo](https://twitter.com/_IAmSaKo_)!)*
 
 When you encounter an interview question, chances are you'll have no idea how to start. That's normal! Take a breath, and start thinking (and talking) about these questions:
 
@@ -342,7 +354,7 @@ After you have a solution on the board, one of the most common follow-up questio
 
 The answer is almost always yes, and that's okay. Start thinking about different approaches: Are there other data structures you could use? Does the input have some special property you could manipulate? Is there a way to improve speed or memory?
 
-Talk through those questions out loud. Even if you don't know the exactly correct answer, the fact that you're asking the questions is a good sign. With practice you'll notice certain patterns emerging, where certain types of problem lend themselves to particular data structures.
+Talk through those questions out loud. Even if you don't know the exactly correct answer, the fact that you're asking the questions is a good sign. With practice you'll notice certain patterns emerging, where certain types of problems lend themselves to particular data structures.
 
 ## Manage your Time
 
@@ -362,11 +374,11 @@ Again, this is for an hour-long interview, so adjust accordingly depending on th
 
 If there's a clock in the room, pay attention to it. Consider setting a "start coding" alarm and a "wrap it up" alarm on your phone. You could ask your interviewer to stop you at certain times.
 
-Another thing to keep in mind is that many interviewers will ask a "warm up" question before they get to their "real" question. This is usually something relatively small, like *"Can you find the maximum of an array?"* or *"What's the difference between var and let?"* You should **not** go through all of the rigmarole for this type of question. Answer it quickly and move on to the real question.
+Another thing to keep in mind is that many interviewers will ask a "warm up" question before they get to their "real" question. This is usually something relatively small, like *"Can you find the maximum of an array?"* or *"What's the difference between var and let?"* &nbsp; You should **not** go through all of the rigmarole for this type of question. Answer it quickly and move on to the real question.
 
 If you aren't sure, you can ask. *"Is this the question I should spend most of my time on, or do you want a quick answer for this one?"*
 
-On the other hand, most interview questions have many levels. Think about it this way: as an interviewer, my worst nightmare is that I run out of questions to ask. (Actually my worst nightmare is that I have to go be in your shoes and be interviewed again. Sorry.) I do **not** want to have to fill a half hour of awkward silence, so I have **many** ways to build on my original question.
+On the other hand, most interview questions have many levels. Think about it this way: as an interviewer, my worst nightmare is that I run out of questions to ask. (Actually my worst nightmare is that we switch places and I'm the one being interviewed. Sorry.) I do **not** want to have to fill a half hour of awkward silence, so I have **many** ways to build on my original question.
 
 My point is, you're almost definitely going to run out of time while you're answering a question. Don't let that freak you out too much- the question you didn't finish could be the 3rd or 4th "level" of the question.
 
@@ -397,6 +409,10 @@ That being said, I also recognize how handy lists are. So here's a **very incomp
 Programming fundamentals are the core set of skills you use while coding.
 
 I mentioned above that you should be able to code "hello world" in any language on your resume, without the help of an IDE, copy-paste, Google, or Stack Overflow. For Java that's a class with a `main()` method. For server-side Java that's something like a servlet or an action class. For JavaScript that's a skeleton HTML file with a `<script>` tag and an `onload` callback.
+
+![hello world](/tutorials/how-to/images/interview-6.png)
+
+*(Art by [SaKo](https://twitter.com/_IAmSaKo_)!)*
 
 If you aren't already comfortable with this, one way to practice is through [programming kata](https://en.wikipedia.org/wiki/Kata_(programming)). The idea comes from martial arts, where you repeat an action over and over again, until you can do it [without thinking about it](https://www.youtube.com/watch?v=Bg21M2zwG9Q). That sounds a little silly, but if you're struggling to remember the syntax to define a function, you aren't going to get to the real parts of the question.
 
@@ -551,9 +567,9 @@ This is probably the biggest fear around technical interviews, and it's one of t
 
 - **Ask questions.** If I sound like a broken record, that's because this is one of the best things you can do in an interview. Ask about the input and output. Ask for an example. Repeat what they said in your own words. If you don't know what the question is asking, tell the interviewer! *"So I need to calculate a path between every cat and a mouse. How will that be represented?"*
 - **Talk.** Again, broken record time. Talk about what you're stuck on. *"Okay so it's a 2D array of characters. I'm trying to figure out which cat to start with. Or I could start with a mouse..."* This is infinitely better than awkward silence.
-- **Brainstorm.** Rapid-fire potential data structures and algorithms. If you can't decide which option to go with, talk out loud as you ask yourself questions and cross potential options off the list. *"To represent a path, could I use an array? Maybe, but then I'd need to store a path as a set of points. Could I use a HashMap? Maybe I could create a multimap of each cat's position to the best path to each mouse. Would sorting the positions help at all?"* Think of this as a brainstorming session: it's fine to say an idea and then immediately reject it and move on to something else.
-- **Break the problem down into smaller steps.** I talked about this [above](#break-problems-down-into-smaller-steps), and I think it's the most important skill in programming, maybe more generally than that. Big questions can be paralyzing. How do you even start? You start by breaking the big question down into a few smaller steps, and then taking those steps on one at a time. Helper functions can make this process more concrete. *"I know I eventually need to calculate the paths for every cat. Before I can do that, I need to calculate the path for a single cat. Let's put that in a helper function..."*
-- **Oversimplify.** If you're still having trouble breaking the problem down, don't be afraid to oversimplify. *"The real problem has multiple mice, but what if it was just a single cat and a single mouse?"* Starting with that problem is much more reasonable than facing the whole problem.
+- **Brainstorm.** Rapid-fire potential data structures and algorithms. If you can't decide which option to go with, talk out loud as you ask yourself questions and cross potential options off the list. *"To represent a path, could I use an array? Maybe, but then I'd need to store a path as a set of points. Could I use a HashMap? Maybe I could create a multimap of each cat's position to the best path to each mouse. Would sorting the positions help at all?"* &nbsp; Think of this as a brainstorming session: it's fine to say an idea and then immediately reject it and move on to something else.
+- **Break the problem down into smaller steps.** I talked about this [above](#break-problems-down-into-smaller-steps), and I think it's the most important skill in programming, and maybe more generally than that. Big questions can be paralyzing. How do you even start? You start by breaking the big question down into a few smaller steps, and then taking those steps on one at a time. Helper functions can make this process more concrete. *"I know I eventually need to calculate the paths for every cat. Before I can do that, I need to calculate the path for a single cat. Let's put that in a helper function..."*
+- **Oversimplify.** If you're still having trouble breaking the problem down, don't be afraid to oversimplify. *"The real problem has multiple mice, but what if it was just a single cat and a single mouse?"* &nbsp; Starting with that problem is much more reasonable than facing the whole problem.
 
 This approach can also be helpful if you freeze while writing your code. Ask questions, talk, run through a brainstorming session, break the problem down, and oversimplify. Then build on that to come up with your solution to the full problem.
 
@@ -567,7 +583,7 @@ Don't get me wrong: resumes are still important for getting your foot in the doo
 
 You're also **optimizing for multiple metrics** with a resume. To demonstrate what I mean, let's use an extreme example: one way to get the attention of a bunch of recruiters on LinkedIn is to add every possible language and framework, even if you've never used them. The recruiters will do a keyword search, you'll show up in the results, and *you're in*. But not quite: when you get to the interview, it's going to be pretty obvious that your resume wasn't accurate.
 
-More realistically, I've seen people with resumes that listed every language or tool they've ever used, even if they only used it once. On one hand this might have helped them get the attention of a recruiter, but on the other hand it ends up looking a little unprofessional in the later stages of the process.
+More realistically, I've seen resumes that listed every language or tool the interviewee ever used, even if they only used it once. On one hand this might have helped them get the attention of a recruiter, but on the other hand it ends up looking a little unprofessional in the later stages of the process.
 
 So it's a bit of a balancing act: you want to build your resume in a way that attracts attention, but doesn't list anything that isn't true.
 
