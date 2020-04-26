@@ -65,7 +65,7 @@ This is what I think about when I'm waiting in line, or stopped at a red light. 
 
 Many of my favorite ideas come from asking questions. How would I do that? What's the simplest way I can represent this? These questions often have nothing to do with the *medium* I'm working in: I don't get ideas about code from staring at a computer. I get ideas about code from looking at nature, or wondering how things fit together in the real world, or from thinking about other types of creativity: movies, watercolors, books, music, whatever.
 
-Go on a walk and ask questions. What is that person thinking? How are cloud formed? How did that rock get there? How old is that tree, and what has it seen? What did this place look like 100 years ago? The answers aren't all that important. It's the question that kickstarts the creative process.
+Go on a walk and ask questions. What is that person thinking? How are clouds formed? How did that rock get there? How old is that tree, and what has it seen? What did this place look like 100 years ago? The answers aren't all that important. It's the question that kickstarts the creative process.
 
 ## Sketch
 
