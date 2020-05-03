@@ -21,7 +21,7 @@ meta-image: /images/random-walkers-1.png
 
 <h2>New Tutorials</h2>
 <div class="thumbnail-link-container">
-{% for post in site.categories.tutorials reversed limit:8 %}
+{% for post in site.categories.tutorials reversed limit:6 %}
   {% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline tags=post.tags  %}
 {% endfor %}
 </div>
@@ -29,7 +29,7 @@ meta-image: /images/random-walkers-1.png
 
 <h2>New Examples</h2>
 <div class="thumbnail-link-container">
-{% for post in site.categories.examples reversed limit:8 %}
+{% for post in site.categories.examples reversed limit:6 %}
 	{% include thumbnail.html url=post.url thumbnail=post.thumbnail title=post.title tagline=post.tagline tags=post.tags  %}
 {% endfor %}
 </div>
