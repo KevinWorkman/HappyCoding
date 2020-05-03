@@ -2,67 +2,80 @@
 layout: tutorial
 title: Calling Functions
 slug: calling-functions
-thumbnail: /tutorials/processing/images/calling-functions-5.png
+thumbnail: /tutorials/p5js/images/calling-functions-4.png
 tagline: Tell the computer what to do.
 sort-key: 200
 previousPost: "/tutorials/processing/what-is-programming"
 nextPost: "/tutorials/processing/using-variables"
 meta-title: Calling Functions
 meta-description: "Learn the first step to coding: calling functions!"
-meta-image: /examples/processing/creating-functions/images/random-faces-2.png
+meta-image: /tutorials/p5js/images/calling-functions-4.png
 tags: [tutorial,processing,basic]
 ---
 
 {% include toc.md %}
 
-This tutorial teaches you how to write Processing code. In Processing (and many other languages), one of the basic building blocks we'll use while writing code is **calling functions**.
+By now you've used the Processing editor to write your first line of code. Congratulations! Now let's take a closer look at exactly what's happening.
 
-## What's a function?
+In Processing (and most other languages), one of the tools you'll use most often is the ability to **call a function**.
 
-Writing a program is a little bit like writing driving instructions for another person to follow. A single step of those directions might be something like "drive 5 miles" or "turn left", and you might write each step on its own line. The other person then follows those steps in order, one after the other, to travel to the destination.
+# What's a function?
+
+Writing a program is a little bit like writing a recipe. Similar to how a recipe is a set of steps that another person follows, a program is a set of steps that the computer follows.
+
+A single step of a recipe might be something like *"preheat the oven to 350 degrees"* or *"add 2 cups of flour"*, and you might write each step on its own line. The other person then follows those steps in order, one after the other, to bake a cake.
 
 ```
-drive 5 miles
-turn left
-drive 3 miles
+preheat oven to 350 degrees
+get a large bowl
+add 2 cups of flour
+add 1 cup of sugar
+...
 ```
 
 This is similar to how a computer program works. A program is a set of instructions that tells the computer to follow a series of steps. Each step is written on its own line, and the computer follows the instructions one at a time.
 
 A function is **one of those steps**. Calling a function is giving the computer a **single instruction** that tells it to do **one thing**.
 
-## How do I call a function?
+# How do I call a function?
 
-To call a function (which is just another way to say "tell the computer to follow the step on this line of the directions"), you need to do four things:
+To call a function (which is another way to say "tell the computer to follow the step on this line of the directions"), you need to do four things:
 
-- Write the name of the function.
+- Write the **name** of the function.
 - Add parentheses `()` after the function's name.
 - Inside the parenthesis, add any **parameters** that the function requires, separated by commas.
 - End the line with a semicolon `;`.
 
-## What's a parameter?
+# What's a parameter?
 
-In our driving instructions, imagine if one of the steps just said "drive" - that wouldn't be enough information! How far should we drive? That step requires more information: specifically, a distance.
+In our recipe instructions, imagine if one of the steps just said "preheat the oven" - that wouldn't be enough information! What temperature should you use? That step requires more information: specifically, a temperature.
 
-It's the same idea when we're writing code. Computers are very dumb, so they only know how to do what we tell them. When you ask a computer to jump, it's going to ask you: how high? We pass that extra information into a function via its **parameters**.
+It's the same idea when you're writing code. **Computers are very dumb**, so they only know how to do exactly what you tell them. When you ask a computer to jump, it's going to ask you: how high? You pass that extra information into a function through its **parameters**.
 
-We might write our driving instructions in code like this:
+The recipe from above might look like this in code:
 
 ```java
-drive(5);
-turnLeft();
-drive(3);
+preheatOven(350);
+getLargeBowl();
+addFlour(2);
+addSugar(1);
 ```
 
-Notice that our `turnLeft` function doesn't take any parameters, because we don't need any extra information to follow that step!
+Notice that the `getLargeBowl` function doesn't take any parameters, because you don't need any extra information to follow that step!
 
-## Let's write some code!
+# Let's write some code!
 
-Let's call Processing's `ellipse` function, which tells the computer to draw a circle.
+Let's go back to the first line of code you wrote in the last tutorial:
+
+```java
+ellipse(50, 50, 75, 75);
+```
+
+This code calls Processing's `ellipse` function, which tells the computer to draw a circle.
 
 The `ellipse` function takes 4 parameters: an `x` position, a `y` position, a `width`, and a `height`. The first two parameters tell the computer where the circle should be, and the last two parameters tell the computer how big the circle should be.
 
-So to draw a circle at `x` position of `50`, a `y` position of `75`, with a `width` and `height` of `20`, we'd write this line of code:
+So to draw a circle at an `x` position of `50`, a `y` position of `75`, with a `width` and `height` of `20`, you'd write this line of code:
 
 ```java
 ellipse(50, 75, 20, 20);
@@ -80,88 +93,148 @@ If this is your first time seeing the online editor, you might want to [read mor
 
 Try changing the parameters to see what happens. Can you draw an ellipse in the upper-left corner? The lower-right corner? Can you make an ellipse that fills up the whole window? Can you make a very tall ellipse, or a very fat ellipse?
 
-## The Processing Reference
+# The Processing Reference
 
-Processing has a ton of other functions you can call. How do you know what they are and what parameters they take? Let me introduce you to your new best friend: [the Processing reference](https://processing.org/reference/). 
+Processing has a ton of functions you can call. How do you know what they are and what parameters they take? Let me introduce you to your new best friend: [the Processing reference](https://processing.org/reference/)!
 
-That page lists every function you can call in Processing, and clicking on a particular function gives you information about what parameters it needs. This is going to be your first stop whenever you start wondering how you might do something in Processing.
+The reference lists every function you can call in Processing, and clicking on a particular function in the reference gives you information about what parameters it needs. **Whenever you wonder how you might do something in Processing, the Processing reference should be your first stop.**
 
-You might as well just bookmark that page now. (Seriously, it's one of my default tabs in chrome!)
+The reference might seem overwhelming, but let's walk through an example. Let's say you're sick of drawing circles: you've put them in the upper-left corner, you've made them big, you've made them small. Yawn. Let's take it up a notch and start drawing **rectangles**!!!
 
-That might seem overwhelming, but let's keep it simple. Let's say we're sick of drawing circles: we've put them in the upper-left corner, we've made them fat, we've made them skinny. Yawn. Let's take it up a notch and start drawing **rectangles**!!!
+With that goal, you can look at the Processing reference and ask yourself, *"do any of these functions look like they might draw a rectangle?"* (Go ahead, try to find it!)
 
-With that goal, we can look at the Processing reference and ask ourselves, "do any of these functions look like they might draw a rectangle?" (Go ahead, try to find it!)
+Sure enough, the reference tells you that Processing has a [`rect`](https://processing.org/reference/rect_.html) function, and that it takes 4 parameters: an `x` and `y` position of the upper-left corner of the rectangle, and a `width` and a `height` specifying the size.
 
-Sure enough, the reference tells us that Processing has a [`rect`](https://processing.org/reference/rect_.html) function. The reference tells us that it takes 4 parameters: an `x` and `y` position of the upper-left corner of the rectangle, and a `width` and a `height` specifying the size.
-
-So we can modify our program to draw a rectangle instead:
+Add a line of code to your sketch that calls the `rect` function, passing in values for those 4 parameters: 
 
 ```java
-rect(10, 20, 80, 70);
+ellipse(50, 50, 75, 75);
+rect(25, 40, 50, 20);
 ```
 
-Type this line of code into your Processing editor (or into the online editor above) and hit the run button, and you should see this:
+Type this line of code into your Processing editor (or into the online editor above) and click the run button, and you should see this:
 
-![rect](/tutorials/processing/images/calling-functions-1.png)
+![circle and rectangle](/tutorials/processing/images/calling-functions-1.png)
 
-## You are now a programmer.
+While you're at it, find the `size` function in the reference and increase the size of the window.
 
-You now know how to ask yourself how to do something, look it up in the reference, and write a line of code to test it out. **That's 95% of what a programmer does.** From here it's just a matter of figuring out how to do more and more stuff. 
+# Draw Order
 
-For example, we might ask ourselves how we might increase the size of the window. We go to [the Processing reference](https://processing.org/reference/) and look for a function that might help with that. We eventually find the [`size`](https://processing.org/reference/size_.html) function, which takes two parameters: a `width` and a `height`. We can call this function to tell Processing how big the window should be, adding it to our set of instructions:
+Notice that the rectangle is drawn overtop of the circle. The order you call functions is very important!
 
-```java
-size(500, 300);
-ellipse(250, 150, 300, 100);
-```
+You can think of a Processing as if the computer was an artist painting on a canvas. In the program above, first you tell the artist to draw a circle, and then a rectangle. Just like if you were drawing on a physical canvas, new shapes are drawn on top of old shapes.
 
-{% include codepen.html slug-hash="PGJwXL" height="393" %}
+---
 
-This program tells Processing to make the window `500` pixels wide and `300` pixels tall. It then tells Processing to draw a circle with an `x` of `250`, `y` of `150`, `width` of `300`, and a `height` of `100`. Type these lines of code into your Processing editor and hit run, and you should see this:
+> ## Practice: Draw Order
+>
+> Try changing the order of the function calls to see what happens.
 
-![ellipse in a bigger window](/tutorials/processing/images/calling-functions-3.png)
+---
 
-What if we then want to change the color of our circle? Again, we'd look in the Processing reference until we found a function that tells the computer to draw in a certain color. We'd find [the `fill` function](https://processing.org/reference/fill_.html), which takes 3 parameters: a red, a green, and a blue value. You can mix these values just like you mix paint. Check out [this Wikipedia article](https://en.wikipedia.org/wiki/RGB_color_model) for more information on that.
+# Coordinates
 
-To change our ellipse to red, we'd call `fill(255, 0, 0)` before drawing our ellipse. This is like dipping a paintbrush in red before drawing on a canvas:
+Also notice how the `x` and `y` parameters change the location of your shapes. Increasing the `x` parameter moves a shape to the right, and increasing the `y` parameter moves the shape **down**. In other words, the **origin** of the Processing coordinate system is in the **upper-left** corner of the canvas.
 
-```java
-size(200, 200);
+This might feel unintuitive, especially if you remember the coordinate system from algebra class, where the origin is in the lower-left corner of a graph.
+
+But in Processing, `x` is the distance from the left edge of the canvas, and `y` is the distance from the top of the canvas.
+
+For example, if you have a window that's 400 pixels wide and 300 pixels high:
+
+- `0,0` is the upper-left corner.
+- `400,0` is the upper-right corner.
+- `0,300` is the lower-left corner.
+- `400,300` is the lower-right corner.
+- `200,150` is the center of the canvas. (You can find the center by dividing the width and height in half.)
+
+---
+
+> ## Practice: Coordinates
+>
+> Get out a piece of paper (graph paper if you have it!) and draw a rectangle. Pretend the rectangle is a `1000x500` window. Draw the result of these function calls:
+>
+> ```javascript
+> ellipse(0, 0, 200, 200);
+> ellipse(250, 125, 100, 100);
+> rect(250, 275, 200, 100);
+> ellipse(450, 0, 200, 200);
+> ellipse(450, 500, 300, 200);
+> rect(650, 0, 100, 500);
+> ellipse(1000, 250, 300, 300);
+> ```
+>
+> Now write a Processing sketch that calls these functions, and compare the actual result to your drawing.
+
+---
+
+# Colors
+
+At this point, you're probably tired of looking at boring white shapes. Let's add some color!
+
+Open the [Processing reference](https://processing.org/reference/) and find the `fill` function. The `fill` function can take many different kinds of parameters, but I use the R, G, and B format most often.
+
+In this format, the `fill` function takes 3 parameters. Each parameter is a number between `0` and `255`, representing how much red, green, and blue to mix into the color.
+
+Calling the `fill` function changes the color of any shapes you draw from that point on, until you call the `fill` function again.
+
+For example, this sketch draws a red circle:
+
+```javascript
+size(400, 400);
+
 fill(255, 0, 0);
-ellipse(50, 50, 100, 100);
+ellipse(200, 200, 300, 300);
 ```
 
-This program calls the `size` function to make the window `200` pixels wide and `200` pixels tall. It then calls the `fill` function with a `red` value of `255` and `green` and `blue` values of `0` to change the color to red. Finally, it calls the `ellipse` function to draw a circle in the upper-left corner of the window.
+And this sketch draws red, green, and blue circles:
 
-![red ellipse](/tutorials/processing/images/calling-functions-4.png)
+```javascript
+size(400, 400);
 
-We can expand our program to draw 4 circles, all with different colors:
-
-```java
-size(200, 200);
-
+// red circle
 fill(255, 0, 0);
-ellipse(50, 50, 100, 100);
+ellipse(100, 100, 300, 300);
 
+// green circle
 fill(0, 255, 0);
-ellipse(150, 50, 100, 100);
+ellipse(200, 200, 300, 300);
 
+// blue circle
 fill(0, 0, 255);
-ellipse(50, 150, 100, 100);
+ellipse(300, 300, 300, 300);
 
-fill(255, 255, 0);
-ellipse(150, 150, 100, 100);
 ```
 
-![colored circles](/tutorials/processing/images/calling-functions-5.png)
+![red, green, and blue circles](/tutorials/p5js/images/calling-functions-3.png)
 
-Notice that the call to `fill(255, 255, 0)` mixes red and green together to make yellow. If you're unfamiliar with RGB colors, try playing with the parameters to mix different colors together.
+By the way, lines that start with `//` slashes are **comments**. These lines are ignored by the computer, but can make your code easier for a human to read!
 
-{% include codepen.html slug-hash="ozGgmd" height="362" %}
+RGB colors work a little differently than physical colors that you might be familiar with if you've ever used watercolors or crayons. I don't want to get into all of the intricacies here, because it gets very complicated- color is a whole field of study! If you're curious, you can go down the Wikipedia rabbit hole starting with [this](https://en.wikipedia.org/wiki/RGB_color_model) article.
 
-## Homework
+But for now, don't be afraid to experiment with the parameters to see how they interact, or search for [RGB color pickers](https://www.google.com/search?q=color+picker) to get the RGB values you need.
 
-The best way to learn how to program is by, well, programming. Give yourself a goal, then consult the Processing reference to figure out how to accomplish that goal. Write some code and see what happens. If you aren't quite sure about the kinds of things you can create, here are a few ideas:
+---
+
+## Practice: Colors and Coordinates
+
+Write a sketch that uses the `rect`, `ellipse`, and `fill` functions to draw this:
+
+![circle and square design](/tutorials/p5js/images/calling-functions-2.png)
+
+---
+
+# You are now a programmer.
+
+You've now experienced the process of starting with a goal, reading through the reference, and writing code that tries to accomplish that goal. **That process is 95% of what a programmer does.** From here it's "just" a matter of figuring out how to do more and more stuff, by expanding your knowledge to other functions, other languages, other references. But the process is going to be the same every time: start with a goal, do some research, write some code that probably doesn't work at first, fix it, and repeat.
+
+You now know what it feels like to be a programmer, because you **are** a programmer.
+
+# Homework
+
+The best way to learn how to code is by, well, writing code. Whoever said "practice makes perfect" wasn't lying!
+
+So before you move on to the next tutorial, stop and practice writing some code! Give yourself a goal, and then read through the Processing reference to figure out how to accomplish that goal. Write some code and see what happens. If you aren't quite sure about the kinds of things you can create, here are a few ideas:
 
 - Draw a smiley face.
 - Draw a flower or a garden.
@@ -170,3 +243,5 @@ The best way to learn how to program is by, well, programming. Give yourself a g
 - Draw a house.
 
 Come up with a scene that you want to draw, and then write a program that draws it. Write Processing code that calls functions to draw the scene.
+
+And then post what you create in [the forum](https://forum.HappyCoding.io)!
