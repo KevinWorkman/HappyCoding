@@ -3,11 +3,12 @@ layout: tutorial
 title: Calling Functions
 thumbnail: /tutorials/p5js/images/calling-functions-4.png
 tagline: Tell the computer what to do.
-sort-key: 100
+sort-key: 200
 meta-title: Calling Functions in p5.js
 meta-description: "Learn the first step to coding: calling functions!"
 meta-image: /tutorials/p5js/images/calling-functions-4.png
 tags: [tutorial, p5.js, javascript]
+includeP5jsWidget: true
 previousPost: "/tutorials/p5js/welcome-to-coding"
 ---
 
@@ -65,7 +66,7 @@ Notice that the `getLargeBowl` function doesn't take any parameters, because you
 
 Let's go back to the code you wrote in the last tutorial:
 
-```javascript
+{% include p5js-widget.html width=400 height=400 %}
 function setup() {
   createCanvas(400, 400);
 }
@@ -74,7 +75,7 @@ function draw() {
   background(220);
   circle(200, 200, 300);
 }
-```
+</script>
 
 This code is split up into two sets of instructions. Like their names suggest, `setup` contains code that sets up your sketch, and `draw` contains code that draws stuff to your sketch. That part doesn't need to make sense right now; you'll learn more about that in the "creating functions" tutorial.
 
@@ -100,7 +101,7 @@ Sure enough, the reference tells you that p5.js has a [`rect`](https://p5js.org/
 
 Add a line of code to your sketch that calls the `rect` function, passing in values for those 4 parameters: 
 
-```javascript
+{% include p5js-widget.html width=400 height=400 %}
 function setup() {
   createCanvas(400, 400);
 }
@@ -110,7 +111,7 @@ function draw() {
   circle(200, 200, 300);
   rect(100, 150, 200, 100);
 }
-```
+</script>
 
 Type this code into your p5.js editor and click the run button, and you should see this:
 
@@ -178,7 +179,7 @@ Calling the `fill` function changes the color of any shapes you draw from that p
 
 For example, this sketch draws a red circle:
 
-```javascript
+{% include p5js-widget.html width=400 height=400 %}
 function setup() {
   createCanvas(400, 400);
 }
@@ -189,11 +190,11 @@ function draw() {
   fill(255, 0, 0);
   circle(200, 200, 300);
 }
-```
+</script>
 
 And this sketch draws red, green, and blue circles:
 
-```javascript
+{% include p5js-widget.html width=400 height=400 %}
 function setup() {
   createCanvas(400, 400);
 }
@@ -213,7 +214,7 @@ function draw() {
   fill(0, 0, 255);
   circle(300, 300, 300);
 }
-```
+</script>
 
 ![red, green, and blue circles](/tutorials/p5js/images/calling-functions-3.png)
 
