@@ -31,7 +31,6 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 10px;
   background-color: #dddddd;
   margin-bottom: 25px;
   border: thin solid #323232;
@@ -40,11 +39,13 @@ nav {
 .navbar-brand {
   font-family: 'Fixedsys', monospace;
   font-size: 24pt;
+  padding: 10px;
 }
 
 .nav-link {
   font-family: 'Fixedsys', monospace;
   font-size: 16pt;
+  padding: 10px;
 }
 
 .nav-img {
