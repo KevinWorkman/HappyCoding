@@ -14,6 +14,7 @@ sort-key: 600
 New to coding? Start here!
 
 {% include url-thumbnail.html url="/tutorials/p5js/welcome-to-coding" %}
+{% include url-thumbnail.html url="/tutorials/p5js/calling-functions" %}
 
 # From Processing to p5.js
 
