@@ -41,7 +41,7 @@ You can apply an operator to two values to get a third value, and you can then u
 ellipse(10+40, 300-225, 3*10, 40/2);
 ```
 
-This line of code does the exact same thing as it did before: passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse.
+This line of code does the exact same thing as it did before: it passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse.
 
 The only difference is that these values are calculated by applying operators to other values.
 
@@ -149,7 +149,7 @@ ellipse(400/2, 400/2, 400/2, 400/2);
 
 This code uses the width and height of the window (in this case, `400`) along with operators to calculate the locations and sizes of the circles.
 
-Now that you're using operators, if you want to change the size of the window, you just have to change everywhere you see a `400` to whatever size you want. So you could change the size to `150x150`:
+Now that you're using operators, if you want to change the size of the window, you could change everywhere you see a `400` to whatever size you want. So you could change the size to `150x150`:
 
 ```java
 size(150, 150);
@@ -165,8 +165,6 @@ ellipse(150*.75, 150*.75, 150/2, 150/2);
 fill(255, 0, 0);
 ellipse(150/2, 150/2, 150/2, 150/2);
 ```
-
-You only have to change the value you're operating on, not the operators themselves.
 
 ![150x150 flower](/tutorials/processing/images/using-variables-5.png)
 
@@ -189,11 +187,11 @@ size(200, 200);
 ellipse(width/2, height/2, width, height);
 ```
 
-The big change here is that this code uses the `width` and `height` variables to calculate the position and size of the ellipse. `width/2` gives you the horizontal center of the window, and `height/2` gives you its vertical center. Similarly, `width` gives you the full width of the window, and `height` gives you its height.
+The big change here from the other examples is that this code uses the `width` and `height` variables to calculate the position and size of the ellipse. `width/2` gives you the horizontal center of the window, and `height/2` gives you its vertical center. Similarly, `width` gives you the full width of the window, and `height` gives you its height.
 
 ![circle using variables](/tutorials/processing/images/using-variables-6.png)
 
-Now if you want to change the size of the window, you only have to change the parameters you pass into the `size` function. You don't have to change anything else, since the `width` and `height` variables will change automatically.
+Now if you want to change the size of the window, you only have to change the parameters you pass into the `size` function. You don't have to change anything else, because the `width` and `height` variables will change automatically.
 
 # The Best Way
 
