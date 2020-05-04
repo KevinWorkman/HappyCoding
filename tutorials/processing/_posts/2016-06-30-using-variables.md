@@ -5,7 +5,7 @@ slug: using-variables
 thumbnail: /tutorials/processing/images/using-variables-7.png
 tagline: Get information from the computer.
 sort-key: 300
-meta-title: Using Variables
+meta-title: Using Variables in Processing
 meta-description: Learn how to use variables to get information from Processing.
 meta-image: /tutorials/processing/images/using-variables-7.png
 tags: [tutorial,processing]
@@ -43,7 +43,7 @@ ellipse(10+40, 300-225, 3*10, 40/2);
 
 This line of code does the exact same thing as it did before: passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse.
 
-The only difference is that these values are obtained by applying operators to other values.
+The only difference is that these values are calculated by applying operators to other values.
 
 {% include codepen-new.html slug-hash="wzAJNL" height="100" %}
 
@@ -70,11 +70,11 @@ ellipse(150, 150, 150, 150);
 
 {% include codepen-new.html slug-hash="xEXqBX" height="300" %}
 
-This program creates a window that's `300x300` pixels, and then draws a green background. It then changes the fill color to orange and draws 4 circles, one in each corner. It then changes the fill color to red and draws a circle in the center of the window.
+This sketch creates a window that's `300x300` pixels, and then draws a green background. It then changes the fill color to orange and draws 4 circles, one in each corner. It then changes the fill color to red and draws a circle in the center of the window.
 
 The result is a program that draws five circles that look like a flower:
 
-![target](/tutorials/processing/images/using-variables-2.png)
+![flower](/tutorials/processing/images/using-variables-2.png)
 
 This program works because the size of the window is `300x300`, which you can use to figure out where to draw the circles. You can do some math in your head (or on a piece of paper) to calculate the values to pass in as parameters to the `ellipse` function so the circles show up where you want them.
 
@@ -126,7 +126,7 @@ The positions and sizes of the circles now cause the flower to fill up the windo
 
 ![flower filling the window](/tutorials/processing/images/using-variables-4.png)
 
-But now what if you want to change the size of the window again? Ugh, you'd have to go through and do all that math again. That might not seem like a big deal, but it becomes more and more annoying as your programs get bigger.
+But now what if you want to change the size of the window yet again? Ugh, you'd have to go through and do all that math, which is going to get pretty annoying. That might not seem like a big deal, but it becomes more and more annoying as your programs get bigger.
 
 # The Slightly Better Way
 
@@ -193,7 +193,7 @@ The big change here is that this code uses the `width` and `height` variables to
 
 ![circle using variables](/tutorials/processing/images/using-variables-6.png)
 
-Now if you want to change the size of the window, you only have to change the parameters you pass into the `size` function. You don't have to change anything else, since the `width` and `height` variables will change accordingly.
+Now if you want to change the size of the window, you only have to change the parameters you pass into the `size` function. You don't have to change anything else, since the `width` and `height` variables will change automatically.
 
 # The Best Way
 
