@@ -9,7 +9,8 @@ meta-description: "Learn the first step to coding: calling functions!"
 meta-image: /tutorials/p5js/images/calling-functions-4.png
 tags: [tutorial, p5.js, javascript]
 includeP5jsWidget: true
-previousPost: "/tutorials/p5js/welcome-to-coding"
+previousPost: /tutorials/p5js/welcome-to-coding
+nextPost: /tutorials/p5js/using-variables
 ---
 
 {% include toc.md %}

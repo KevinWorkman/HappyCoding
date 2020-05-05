@@ -9,7 +9,7 @@ meta-description: "Learn how to use variables to get information from p5.js."
 meta-image: /tutorials/processing/images/using-variables-7.png
 tags: [tutorial, p5.js, javascript]
 includeP5jsWidget: true
-previousPost: "/tutorials/p5js/calling-functions"
+previousPost: /tutorials/p5js/calling-functions
 ---
 
 {% include toc.md %}

@@ -3,7 +3,7 @@ layout: tutorial
 title: Hello World
 thumbnail: /tutorials/p5js/images/hello-world-2.png
 tagline: Say hello to P5.js!
-sort-key: 300
+sort-key: 2300
 meta-title: P5.js Hello World
 meta-description: Say hello world to P5.js!
 meta-image: /tutorials/p5js/images/hello-world-3.png
