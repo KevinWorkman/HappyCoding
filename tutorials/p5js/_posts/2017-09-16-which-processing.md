@@ -3,7 +3,7 @@ layout: tutorial
 title: Which Processing?
 thumbnail: /tutorials/p5js/images/which-processing-1.png
 tagline: Which Processing should I use?
-sort-key: 100
+sort-key: 2100
 meta-title: Which Processing?
 meta-description: Which Processing should I use? What's the difference between Processing, Processing.js, and P5.js?
 meta-image: /tutorials/p5js/images/which-processing-2.png

@@ -18,6 +18,9 @@
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
 
     <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    {%- if page.includeP5jsWidget %}
+    <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    {% endif -%}
     <script src="/js/modernizr-transitions.js"></script>
     <script src="/js/main.js"></script>
   </head>

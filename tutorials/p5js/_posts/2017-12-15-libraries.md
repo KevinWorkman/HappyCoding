@@ -3,7 +3,7 @@ layout: tutorial
 title: Libraries
 thumbnail: /tutorials/p5js/images/libraries-2.png
 tagline: Mix other JavaScript libraries with P5.js
-sort-key: 500
+sort-key: 2500
 meta-title: JavaScript Libraries
 meta-description: Mix other JavaScript libraries with P5.js
 meta-image: /tutorials/p5js/images/libraries-3.png

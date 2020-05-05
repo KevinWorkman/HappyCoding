@@ -7,6 +7,7 @@ meta-title: p5.js Tutorials
 meta-description: Learn how to create p5.js sketches!
 meta-image: /tutorials/p5js/images/hello-world-3.png
 sort-key: 600
+nextPost: /tutorials/p5js/welcome-to-coding
 ---
 
 # p5.js Tutorials
@@ -14,6 +15,12 @@ sort-key: 600
 New to coding? Start here!
 
 {% include url-thumbnail.html url="/tutorials/p5js/welcome-to-coding" %}
+{% include url-thumbnail.html url="/tutorials/p5js/calling-functions" %}
+{% include url-thumbnail.html url="/tutorials/p5js/using-variables" %}
+
+More coming soon!
+
+---
 
 # From Processing to p5.js
 
@@ -25,6 +32,8 @@ These tutorials assume you're already familiar with the basics of programming an
 {% include url-thumbnail.html url="/tutorials/p5js/review" %}
 {% include url-thumbnail.html url="/tutorials/p5js/web" %}
 {% include url-thumbnail.html url="/tutorials/p5js/libraries" %}
+
+---
 
 # Extra Credit
 

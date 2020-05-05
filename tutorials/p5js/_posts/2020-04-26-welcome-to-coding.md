@@ -7,7 +7,10 @@ sort-key: 100
 meta-title: Welcome to Coding p5.js
 meta-description: Get ready to write some code!
 meta-image: /tutorials/p5js/images/hello-world-3.png
+includeP5jsWidget: true
 tags: [tutorial, p5.js, javascript]
+previousPost: /tutorials/p5js/
+nextPost: /tutorials/p5js/calling-functions
 ---
 
 {% include toc.md %}
@@ -100,7 +103,7 @@ When you click the play button, the p5.js editor runs your code and shows the re
 
 The next tutorial talks more about exactly what's happening here, but for now, try changing your code to this:
 
-```javascript
+{% include p5js-widget.html width=400 height=400 %}
 function setup() {
   createCanvas(400, 400);
 }
@@ -109,7 +112,9 @@ function draw() {
   background(220);
   circle(200, 200, 300);
 }
-```
+</script>
+
+**Side note:** The tutorials include these embedded p5.js editors to make it easier to try out code as you read. But when you're coding on your own, you should use the standalone p5.js editor since it allows you to save your work!
 
 Make sure your `;` semicolons and `{ }` curly brackets are all in order, and then click the play button again. Now you should see this:
 

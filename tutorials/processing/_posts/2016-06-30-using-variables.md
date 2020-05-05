@@ -2,210 +2,229 @@
 layout: tutorial
 title: Using Variables
 slug: using-variables
-thumbnail: /tutorials/processing/images/using-variables-5.png
+thumbnail: /tutorials/processing/images/using-variables-7.png
 tagline: Get information from the computer.
 sort-key: 300
-meta-title: Using Variables
+meta-title: Using Variables in Processing
 meta-description: Learn how to use variables to get information from Processing.
-meta-image: /tutorials/processing/images/creating-functions-7.png
-tags: [tutorial,processing,basic]
+meta-image: /tutorials/processing/images/using-variables-7.png
+tags: [tutorial,processing]
 ---
 
 {% include toc.md %}
 
-Now you know how to [call functions](/tutorials/processing/calling-functions) by passing in parameters to tell the computer to follow a series of steps to accomplish some goal.
+Now you know how to [call functions](/tutorials/processing/calling-functions) with parameters to tell the computer what to do. 
 
-Knowing exactly what parameters to use can be annoying, so this tutorial shows you how you can use **variables** to make your life a little easier.
+But knowing exactly what values to use for those parameters can be annoying, so this tutorial shows you how to use **variables** to make your life a little easier.
 
-Before we get into variables, let's take a step back and talk about **values**.
+Before talking about variables, let's take a step back and talk about **values**.
 
-## What are values?
+# What are values?
 
-Values are the numbers you've been passing into functions as parameters. For example:
+Values are the the numbers you've been passing into functions as parameters. For example:
 
 ```java
 ellipse(50, 75, 30, 20);
 ```
 
-This line of code passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse, respectively.
+This line of code passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse.
 
 ![ellipse](/tutorials/processing/images/using-variables-1.png)
 
-## Operators
+# Operators
 
-At their most simple level, computers are just calculators. They crunch numbers by modifying values with **operators**: things like `+`, `-`, `*`, and `/`. 
+When you get down to the details, computers are really just calculators. They crunch numbers by modifying values with **operators** like `+`, `-`, `*`, and `/`. 
 
-You can apply an operator to two values to get a third value, and you can then use that new value just like you can use any other value. So we can rewrite the above line of code like this:
+You can apply an operator to two values to get a third value, and you can then use that new value just like you can use any other value. So you could rewrite the above line of code like this:
 
 ```java
 ellipse(10+40, 300-225, 3*10, 40/2);
 ```
 
-This line of code does the exact same thing: passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse, respectively.
+This line of code does the exact same thing as it did before: it passes the values `50`, `75`, `30`, and `20` into the `ellipse` function as parameters to set the `x`, `y`, `width`, and `height` of the ellipse.
 
-The difference is that these values are obtained by applying operators to other values.
+The only difference is that these values are calculated by applying operators to other values.
 
-{% include codepen.html slug-hash="wzAJNL" height="175" %}
+{% include codepen-new.html slug-hash="wzAJNL" height="100" %}
 
-## Things Change
+That might not seem very useful yet, but it will be in a second!
 
-The ability to apply operators becomes more useful when we need to change something in a bunch of places. Let's say we have this code that draws a target that fills the window:
+# Things Change
+
+The ability to apply operators becomes more useful when you need to change something in a bunch of places. Let's say you have this code that draws a flower that fills the window:
 
 ```java
-size(200, 200);
+size(300, 300);
+
+background(0, 200, 0);
+
+fill(255, 128, 0);
+ellipse(75, 75, 150, 150);
+ellipse(225, 75, 150, 150);
+ellipse(75, 225, 150, 150);
+ellipse(225, 225, 150, 150);
 
 fill(255, 0, 0);
-ellipse(100, 100, 200, 200);
-
-fill(255, 255, 255);
-ellipse(100, 100, 150, 150);
-
-fill(255, 0, 0);
-ellipse(100, 100, 100, 100);
+ellipse(150, 150, 150, 150);
 ```
 
-{% include codepen.html slug-hash="xEXqBX" height="275" %}
+{% include codepen-new.html slug-hash="xEXqBX" height="300" %}
 
-This program creates a window that's `200x200` pixels. It then changes its fill color to red and draws a circle at `100,100` with a size of `200, 200`. This fills the window with a red circle, since `100,100` is the center of the window and `200,200` is the size of the window. The program then changes its fill color to white and draws a slightly smaller white circle overtop of the red circle. Then it changes the color back to red and draws a smaller circle overtop of that white circle.
+This sketch creates a window that's `300x300` pixels, and then draws a green background. It then changes the fill color to orange and draws 4 circles, one in each corner. It then changes the fill color to red and draws a circle in the center of the window.
 
-The result is a program that draws three circles that look like a target:
+The result is a program that draws five circles that look like a flower:
 
-![target](/tutorials/processing/images/using-variables-2.png)
+![flower](/tutorials/processing/images/using-variables-2.png)
 
-This program works because we know that the size of the window is `200x200`, so we can set the center of the circles to `100,100` so they show up in the middle of the window. We can also set the size of the first circle to `200x200` to fill the window, then the second circle to be a little smaller, and the third circle to be even smaller than that.
+This program works because the size of the window is `300x300`, which you can use to figure out where to draw the circles. You can do some math in your head (or on a piece of paper) to calculate the values to pass in as parameters to the `ellipse` function so the circles show up where you want them.
 
-But what if we want to change the size of the window?
+But what if now you want to change the size of the window?
 
-## The Bad Way
+# The Bad Way
 
-To change the size of the window, we can change the parameters we're passing into the `size` function:
+To change the size of the window, you can change the parameters that are passed into the `size` function:
 
 ```java
 size(400, 400);
 
-fill(255, 0, 0);
-ellipse(100, 100, 200, 200);
+background(0, 200, 0);
 
-fill(255, 255, 255);
-ellipse(100, 100, 150, 150);
+fill(255, 128, 0);
+ellipse(75, 75, 150, 150);
+ellipse(225, 75, 150, 150);
+ellipse(75, 225, 150, 150);
+ellipse(225, 225, 150, 150);
 
 fill(255, 0, 0);
-ellipse(100, 100, 100, 100);
+ellipse(150, 150, 150, 150);
 ```
 
-But if we just do that, we end up with the target drawn in the upper-left corner:
+But if you do that without changing anything else, you end up with the flower in the upper-left corner:
 
-![target in upper-left corner](/tutorials/processing/images/using-variables-3.png)
+![flower in upper-left corner](/tutorials/processing/images/using-variables-3.png)
 
-This makes sense: we've changed the size of the window, but we haven't changed the position or size of the circles we're drawing. Since our window is now `400x400` pixels, that means that position `100,100` is in the upper-left corner, and a size of `200,200` only fills up part of the window, not the whole thing.
+This happens because you changed the size of the window, but you didn't change the position or size of the circles.
 
-To fix this, we'd have to change our code in a bunch of different places. We'd also have to do some math in our head to calculate the new position and size of our circles:
+To fix this, you'd have to change your code in a bunch of different places. You'd also have to do some math in your head to calculate the new position and size of the circles:
 
 ```java
 size(400, 400);
 
-fill(255, 0, 0);
-ellipse(200, 200, 400, 400);
+background(0, 200, 0);
 
-fill(255, 255, 255);
-ellipse(200, 200, 300, 300);
+fill(255, 128, 0);
+ellipse(100, 100, 200, 200);
+ellipse(300, 100, 200, 200);
+ellipse(100, 300, 200, 200);
+ellipse(300, 300, 200, 200);
 
 fill(255, 0, 0);
 ellipse(200, 200, 200, 200);
 ```
 
-The center of the circles is pretty easy to calculate, since it's just the width and height of the window divided by 2. The size of the first circle is the same as the size of the window, so it fills the whole thing up. Then the size of the second circle is 75% of the size of the window, and the smallest circle is 50% of the size of the window.
+The positions and sizes of the circles now cause the flower to fill up the window again.
 
-![target in upper-left corner](/tutorials/processing/images/using-variables-4.png)
+![flower filling the window](/tutorials/processing/images/using-variables-4.png)
 
-But now what if we want to change the size of the window again? Ugh, we'd have to go through and do all that math again. That might not seem like a big deal, but it becomes more and more annoying as your programs get bigger.
+But now what if you want to change the size of the window yet again? Ugh, you'd have to go through and do all that math, which is going to get pretty annoying. That might not seem like a big deal, but it becomes more and more annoying as your programs get bigger.
 
-## The Slightly Better Way
+# The Slightly Better Way
 
-Instead of doing all that math in our heads, why don't we just let the computer handle it for us? We can use operators to figure out the correct location and size of our circles:
+Instead of doing all that math in your head, why don't you let the computer handle it for you? You can use **operators** to figure out the correct locations and sizes of the circles:
 
 ```java
 size(400, 400);
 
-fill(255, 0, 0);
-ellipse(400/2, 400/2, 400, 400);
+background(0, 200, 0);
 
-fill(255, 255, 255);
-ellipse(400/2, 400/2, 400*.75, 400*.75);
+fill(255, 128, 0);
+ellipse(400/4, 400/4, 400/2, 400/2);
+ellipse(400*.75, 400/4, 400/2, 400/2);
+ellipse(400/4, 400*.75, 400/2, 400/2);
+ellipse(400*.75, 400*.75, 400/2, 400/2);
 
 fill(255, 0, 0);
 ellipse(400/2, 400/2, 400/2, 400/2);
 ```
 
-Now that we're using operators, if we want to change the size of the window, we just have to change everywhere we see a `400` to whatever size we want. So we could change our size to `150x150`:
+This code uses the width and height of the window (in this case, `400`) along with operators to calculate the locations and sizes of the circles.
+
+Now that you're using operators, if you want to change the size of the window, you could change everywhere you see a `400` to whatever size you want. So you could change the size to `150x150`:
 
 ```java
 size(150, 150);
 
-fill(255, 0, 0);
-ellipse(150/2, 150/2, 150, 150);
+background(0, 200, 0);
 
-fill(255, 255, 255);
-ellipse(150/2, 150/2, 150*.75, 150*.75);
+fill(255, 128, 0);
+ellipse(150/4, 150/4, 150/2, 150/2);
+ellipse(150*.75, 150/4, 150/2, 150/2);
+ellipse(150/4, 150*.75, 150/2, 150/2);
+ellipse(150*.75, 150*.75, 150/2, 150/2);
 
 fill(255, 0, 0);
 ellipse(150/2, 150/2, 150/2, 150/2);
 ```
 
-We only have to change the value we're operating on, not the operators themselves.
+![150x150 flower](/tutorials/processing/images/using-variables-5.png)
 
-![150x150 target](/tutorials/processing/images/using-variables-5.png)
+This is **better** because you don't have to do any math yourself, other than figuring out the operators in the first place. But you still have to change your code in a bunch of different places. You might be able to use the find/replace feature in the editor to make it a little easier. But wouldn't it be nice if Processing could keep track of the width and height of the window for you?
 
-This is **better** since we don't have to do any math, but we still have to change our code in a bunch of different places. Wouldn't it be nice of Processing could keep track of the width and height of the window for us?
+Great news: it can! This is where **variables** become useful.
 
-Luckily for us, it can! This is where **variables** become useful.
-
-## What are variables?
+# What are variables?
 
 Variables are **names** that hold **values**. 
 
-We can use a variable wherever we can use a value, including applying operators to them and passing them into functions as parameters. There are a ton of different variables you can use, but for now let's focus on two that you'll use all the time: the `width` and `height` variables.
+You can use a variable wherever you can use a value, including applying operators to them and passing them into functions as parameters. There are a ton of different variables you can use, but for now let's focus on two that you'll use all the time: the `width` and `height` variables.
 
 Processing gives you the `width` and `height` variables, and they hold exactly what they sound like: the width and height of the window.
 
-To use a variable, just write its name wherever you would normally use a value. For example, here's a program that draws an ellipse that fills up the window:
+To use a variable, write its name wherever you would normally use a value. For example, here's a program that draws an ellipse that fills up the window:
 
 ```java
 size(200, 200);
 ellipse(width/2, height/2, width, height);
 ```
 
-The big change here is that we're using the `width` and `height` variables to calculate the position and size of the ellipse. `width/2` gives us the horizontal center of the window, and `height/2` gives us its vertical center. Similarly, `width` gives us the full width of the window, and `height` gives us its height.
+The big change here from the other examples is that this code uses the `width` and `height` variables to calculate the position and size of the ellipse. `width/2` gives you the horizontal center of the window, and `height/2` gives you its vertical center. Similarly, `width` gives you the full width of the window, and `height` gives you its height.
 
 ![circle using variables](/tutorials/processing/images/using-variables-6.png)
 
-Now if we want to change the size of the window, we only have to change the parameters we pass into the `size` function. We don't have to change anything else, since the `width` and `height` variables will change accordingly.
+Now if you want to change the size of the window, you only have to change the parameters you pass into the `size` function. You don't have to change anything else, because the `width` and `height` variables will change automatically.
 
-## The Best Way
+# The Best Way
 
-This becomes even more useful as our programs grow in size. Here's our target program, now using the `width` and `height` variables:
+This becomes even more useful as your programs grow in size. Here's the flower sketch, now using the `width` and `height` variables:
 
 ```java
-size(150, 150);
+size(300, 300);
+
+background(0, 200, 0);
+
+fill(255, 128, 0);
+ellipse(width/4, height/4,
+        width/2, height/2);
+ellipse(width*.75, height/4,
+        width/2, height/2);
+ellipse(width/4, height*.75,
+        width/2, height/2);
+ellipse(width*.75, height*.75,
+        width/2, height/2);
 
 fill(255, 0, 0);
-ellipse(width/2, height/2, width, height);
-
-fill(255, 255, 255);
-ellipse(width/2, height/2, width*.75, height*.75);
-
-fill(255, 0, 0);
-ellipse(width/2, height/2, width/2, height/2);
+ellipse(width/2, height/2,
+        width/2, height/2);
 ```
 
-{% include codepen.html slug-hash="QKqpPw" height="225" %}
+{% include codepen-new.html slug-hash="QKqpPw" height="300" %}
 
-Now whenever we want to change the size of the window, we only have to change one line! Try changing the parameters we're passing into the `size()` function to see the target change size automatically.
+**Side note:** When a line of code gets too long, you can split it up into multiple lines to make it easier to read. The computer ignores whitespace when it runs your code.
 
-## Homework
+Now whenever you want to change the size of the window, you only have to change one line! Try changing the parameters that are passed into the `size()` function to see the flower change size automatically.
 
-- Remeber that thing you drew in the previous homework? Use the `width` and `height` variables so that it works iwth any sized window. It might be helpful to draw your figure out on a piece of paper first, that way you can visualize your figure as percentages of width and height.
+# Homework
+
+- Remember that scene you drew in the previous homework? Use the `width` and `height` variables so that it works with any sized window. It might be helpful to draw your figure out on a piece of paper first, that way you can visualize your figure as percentages of width and height.
 
 - Create a program that displays a different color depending on the `width` and `height` variables.
-
-# Next: [Creating Variables](/tutorials/processing/creating-variables)
