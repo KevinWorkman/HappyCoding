@@ -15,6 +15,7 @@ const backgrounds = [
 	{img: "squares-1", code: "Squares.pde"},
 	{img: "squares-2", code: "Square.pde"},
 	{img: "squares-3", code: "Square.pde"},
+	{img: "squares-nested-1", code: "NestedSquares.pde"},
 	{img: "worms-1", code: "Worms.pde"},
 	{img: "worms-2", code: "Worms.pde"}
 ];
