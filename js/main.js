@@ -17,7 +17,9 @@ const backgrounds = [
 	{img: "squares-3", code: "Square.pde"},
 	{img: "squares-nested-1", code: "NestedSquares.pde"},
 	{img: "worms-1", code: "Worms.pde"},
-	{img: "worms-2", code: "Worms.pde"}
+	{img: "worms-2", code: "Worms.pde"},
+	{img:"retro",code:"retro.pde"},
+   	{img:"bug",code:"bug.pde"}
 ];
 
 const backgroundObj = backgrounds[Math.floor(Math.random()*backgrounds.length)];
