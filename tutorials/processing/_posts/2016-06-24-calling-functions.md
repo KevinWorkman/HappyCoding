@@ -5,11 +5,11 @@ slug: calling-functions
 thumbnail: /tutorials/p5js/images/calling-functions-4.png
 tagline: Tell the computer what to do.
 sort-key: 200
-previousPost: "/tutorials/processing/what-is-programming"
-nextPost: "/tutorials/processing/using-variables"
 meta-title: Calling Functions
 meta-description: "Learn the first step to coding: calling functions!"
 meta-image: /tutorials/p5js/images/calling-functions-4.png
+previousPost: /tutorials/processing/what-is-programming
+nextPost: /tutorials/processing/using-variables
 tags: [tutorial,processing,basic]
 ---
 

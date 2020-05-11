@@ -8,6 +8,8 @@ sort-key: 300
 meta-title: Using Variables in Processing
 meta-description: Learn how to use variables to get information from Processing.
 meta-image: /tutorials/processing/images/using-variables-7.png
+previousPost: /tutorials/processing/calling-functions
+nextPost: /tutorials/processing/creating-variables
 tags: [tutorial,processing]
 ---
 
