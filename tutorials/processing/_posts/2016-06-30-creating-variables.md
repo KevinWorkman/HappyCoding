@@ -2,216 +2,301 @@
 layout: tutorial
 title: Creating Variables
 slug: creating-variables
-thumbnail: /tutorials/processing/images/creating-variables-3.png
-tagline: Store your own information.
+thumbnail: /tutorials/processing/images/creating-variables-thumbnail.gif
+tagline: Give your code a memory.
 sort-key: 400
 meta-title: Creating Variables
 meta-description: Learn how to create your own variables in Processing.
-meta-image: /tutorials/processing/images/creating-functions-7.png
-tags: [tutorial,processing,basic]
+meta-image: /tutorials/processing/images/using-variables-7.png
+previousPost: /tutorials/processing/using-variables
+tags: [tutorial,processing]
 ---
 
 {% include toc.md %}
 
-In the previous tutorial, we learned about [using variables](/tutorials/processing/using-variables). 
+Now you know how to [use variables](/tutorials/processing/using-variables) like `width` and `height`. Next you'll learn how to create your own variables!
 
-Variables are names that hold values, and we can use a variable anywhere we can use a value just by writing its name. That lets us do things like this:
+Remember that variables are **names** that hold **values**. You can use a variable anywhere you can use a value, by writing its name. For example:
 
 ```java
-ellipse(width/2, height/2, width, height);
+size(300, 300);
+background(32);
+ellipse(width / 2, height / 2, width - 25, height - 25);
 ```
 
-This program uses the `width` and `height` variables to draw a circle that fills up the window.
+This sketch uses the `width` and `height` variables to draw a circle that fills up the window.
 
 ![circle](/tutorials/processing/images/creating-variables-1.png)
 
-Processing gives us variables like `width` and `height`, but we aren't limited to using only what Processing gives us. We can create our own variables!
+You aren't limited to using only what Processing gives you. You can also create your own variables!
 
-## New Syntax
-
-Creating a variable requires some new syntax (this is just another way to say that the code looks a little different from what you've been doing so far), so let's go over that first.
-
-To create a variable, you have to give it a **type**, a **name**, and a **value**.
-
-- The **type** tells Processing what kind of value the variable will hold.
-- The **name** is what you'll use later in the code, exactly like you've used `width` and `height`.
-- The **value** is the value that you want the variable to hold.
-
-## What are types?
+# Types
 
 Processing needs to know what kind, or **type**, of value that a variable will hold. There are a few different types to choose from:
 
 - The `int` type holds whole numbers like `0`, `1`, or `-256`.
 - The `float` type holds decimal numbers like `0.5`, `3.14`, or `-123.45`.
-- The `String` stype holds text like `"Hello world"`, `"Happy Coding"`, or `"Kevin"`. `Strings` are always between quotation marks.
+- The `String` type holds text like `"Hello world"`, `"Happy Coding"`, or `"Stanley"`. `String` values are always between quotation marks.
 
-There are other types, but these three will get you pretty far, so let's focus on them for now.
+There are other types, but these three are good enough for now!
 
-## Creating a Variable
+# Creating Variables
+
+To create a variable, you give it a **type**, a **name**, and a **value**.
+
+- The **type** tells Processing what kind of value the variable will hold.
+- The **name** is how you'll use the variable later in the code, like you've used `width` and `height`.
+- The **value** is what the variable points to.
 
 You create a variable by giving it a type and a name, then assigning a value using the `=` operator.
 
 ```java
-String message = "Happy coding!";
+float circleX = 150;
+float circleY = 200;
+float circleDiameter = 100;
 ```
 
-This line of code creates a `String` value that holds the text `"Happy coding!"` and stores it in a variable named `message` which we can use anywhere we could use a `String` value. For example, we could pass it as a parameter to the `text` function:
+This code creates three `float` variables: `circleX` points to a value of `150`, `circleY` points to a value of `200`, and `circleDiameter` points to a value of `100`.
+
+You can use the variables just like you would use any value, which means you can use them as arguments for the `ellipse` function: 
 
 ```java
-String message = "Happy coding!";
-text(message, 10, 50);
-```
+size(300, 300);
+background(32);
 
-The `text` function takes 3 parameters: a `String` value (in other words, some text inside quotation marks), and an `x` and `y` position to display it on the screen.
+float circleX = 150;
+float circleY = 200;
+float circleDiameter = 100;
+
+ellipse(circleX, circleY, circleDiameter, circleDiameter);
+```
 
 ![Happy coding message](/tutorials/processing/images/creating-variables-2.png)
 
-If you're not familiar with the `text` function, that's okay. You can read more about the in [the reference](https://processing.org/reference/)!
+Try changing the variables to see the effect they have on the circle.
 
-## Using our Variables
+{% include codepen-new.html slug-hash="rNOvQBP" height="300" %}
 
-Remember our example from [the previous tutorial](/tutorials/processing/using-variables) of drawing a target based on the size of the window using the `width` and `height` variables?
+# Example
+
+Remember the example from [the using variables tutorial](/tutorials/processing/using-variables) that draws a flower based on the `width` and `height` variables:
 
 ```java
-size(150, 150);
+size(300, 300);
+
+background(0, 200, 0);
+
+fill(255, 128, 0);
+
+// upper-left petal
+ellipse(width/4, height/4,
+        width/2, height/2);
+
+// upper-right petal
+ellipse(width*.75, height/4,
+        width/2, height/2);
+
+// lower-left petal
+ellipse(width/4, height*.75,
+        width/2, height/2);
+
+//lower-right petal
+ellipse(width*.75, height*.75,
+        width/2, height/2);
 
 fill(255, 0, 0);
-ellipse(width/2, height/2, width, height);
 
-fill(255, 255, 255);
-ellipse(width/2, height/2, width*.75, height*.75);
+// center petal
+ellipse(width/2, height/2,
+        width/2, height/2);
+```
 
+This code uses the `width` and `height` variables to draw a flower that fills up the window.
+
+![flower](/tutorials/processing/images/using-variables-5.png)
+
+The `width` and `height` variables are handy if you want to tie your sketch to the window size, but if you want more control, you can use your own variables. Let's rewrite this example to use your own variables now!
+
+Start by creating four variables that you'll use when drawing the flower:
+
+```java
+float flowerX = 150;
+float flowerY = 150;
+float petalSize = 100;
+float petalDistance = petalSize / 2;
+```
+
+- `flowerX` holds the horizontal position of the center of the flower.
+- `flowerY` holds the vertical position of the center of the flower.
+- `petalSize` holds the diameter of the petals.
+- `petalDistance` holds the space between the center of the flower and the four orange petals. Notice that this line uses the `petalSize` variable to calculate its value!
+
+Unlike the `width` and `height` variables, the names of these variable are completely up to you. You can name them anything you want.
+
+Now that you have your variables, use them to draw the center red petal first:
+
+```
+size(300, 300);
+
+float flowerX = 150;
+float flowerY = 150;
+float petalSize = 100;
+float petalDistance = petalSize / 2;
+
+background(0, 200, 0);
+
+// center petal
 fill(255, 0, 0);
-ellipse(width/2, height/2, width/2, height/2);
+ellipse(flowerX, flowerY,
+        petalSize, petalSize);
 ```
 
-This code uses the predefined `width` and `height` variables to draw a target that fills up the window.
+This code calls the `ellipse` function using your variables as parameters. You should see this:
 
-![target](/tutorials/processing/images/using-variables-5.png)
+![center red petal](/tutorials/processing/images/creating-variables-4.png)
 
-We can modify this code to use our own variables instead, so the target is no longer dependent on the size of the window, but is still easy to change:
+This might not seem like much, but this gives you a good base to expand on. Working in small steps like this makes it easier to fix mistakes, because you can test your code as you write it!
+
+Next, draw the upper-left orange petal:
 
 ```java
-size(150, 150);
+size(300, 300);
 
-float targetX = 75;
-float targetY = 85;
-float targetSize = 100;
+float flowerX = 150;
+float flowerY = 150;
+float petalSize = 100;
+float petalDistance = petalSize / 2;
 
+background(0, 200, 0);
+
+fill(255, 128, 0);
+
+// upper-left petal
+ellipse(flowerX - petalDistance, flowerY - petalDistance,
+        petalSize, petalSize);
+
+// center petal
 fill(255, 0, 0);
-ellipse(targetX, targetY, targetSize, targetSize);
+ellipse(flowerX, flowerY,
+        petalSize, petalSize);
+```
 
-fill(255, 255, 255);
-ellipse(targetX, targetY, targetSize*.75, targetSize*.75);
+If this new line is confusing, that's okay! Think about each argument being passed into the `ellipse` function.
 
+- Remember that `flowerX` is the horizontal center of the red petal, so `flowerX - petalDistance` is to the left of the red petal.
+- Similarly, `flowerY` is the vertical center of the red petal, so `flowerY - petalDistance` is above the red petal.
+
+The result is another circle in the upper-left corner of the red petal:
+
+![two petals](/tutorials/processing/images/creating-variables-5.png)
+
+Next, draw the upper-right petal:
+
+```java
+// upper-right petal
+ellipse(flowerX + petalDistance, flowerY - petalDistance,
+        petalSize, petalSize);
+```
+
+This is very similar to the line of code you just added, but it uses `flowerX + petalDistance` to calculate a position that's to the right of the red petal.
+
+![three petals](/tutorials/processing/images/creating-variables-6.png)
+
+Finally, add the two bottom petals.
+
+**Try to figure this out on your own before continuing!**
+
+Putting it all together, the code looks like this:
+
+```java
+size(300, 300);
+
+float flowerX = 150;
+float flowerY = 150;
+float petalSize = 100;
+float petalDistance = petalSize / 2;
+
+background(0, 200, 0);
+
+fill(255, 128, 0);
+
+// upper-left petal
+ellipse(flowerX - petalDistance, flowerY - petalDistance,
+        petalSize, petalSize);
+
+// upper-right petal
+ellipse(flowerX + petalDistance, flowerY - petalDistance,
+        petalSize, petalSize);
+
+// lower-left petal
+ellipse(flowerX - petalDistance, flowerY + petalDistance,
+        petalSize, petalSize);
+
+// lower-right petal
+ellipse(flowerX + petalDistance, flowerY + petalDistance,
+        petalSize, petalSize);
+
+// center petal
 fill(255, 0, 0);
-ellipse(targetX, targetY, targetSize/2, targetSize/2);
+ellipse(flowerX, flowerY,
+        petalSize, petalSize);
 ```
 
-This code now uses our own variables to draw a target.
+![flower](/tutorials/processing/images/creating-variables-3.png)
 
-![target](/tutorials/processing/images/creating-variables-3.png)
+{% include codepen-new.html slug-hash="rrGyEr" height="300" %}
 
-Let's take it one section at a time:
+# Changing Variables
+
+If you want to change the size and location of the flower, now all you have to do is change the values of the variables!
 
 ```java
-size(150, 150);
+float flowerX = 100;
+float flowerY = 200;
+float petalSize = 75;
 ```
 
-This section of the code tells Processing to create a window that's `150` pixels wide and `150` pixels high.
+The rest of the code stays the same, but now the flower is smaller and in a different location.
+
+![moved flower](/tutorials/processing/images/creating-variables-7.png)
+
+Think about how you would do this without variables. Every time you wanted to change the size of your flower, you would have to change the code on a bunch of different lines! But because you're using variables, you only have to change it in one place.
+
+You could also combine what you've seen so far, and move the flower to the center of the window:
 
 ```java
-float targetX = 75;
-float targetY = 85;
-float targetSize = 100;
+float flowerX = width / 2;
+float flowerY = height / 2;
 ```
 
-This section of the code creates 3 variables: `targetX` holds the horizontal position of the center of the target, `targetY` holds the vertical position of the center of the target, and `targetSize` holds the diameter of the target. Note that unlike the `width` and `height` variables, the names of these variable are completely up to us. We could have named them anything we wanted.
+![centered flower](/tutorials/processing/images/creating-variables-3.png)
+
+Remember: you can use a variable anywhere you can use a value, including when creating another variable!
+
+# Random
+
+Now that you know how to create variables, I can introduce you to one of my favorite functions: the `random` function!
+
+The `random` function gives you a random value between two parameters. You can read more about it in [the reference](https://processing.org/reference/random_.html).
+
+This might not sound very useful, but it allows you to add some variety to your programs instead of the same thing happening every time you run your code. You might use the `random` function to draw a flower at a random location:
 
 ```java
-fill(255, 0, 0);
-ellipse(targetX, targetY, targetSize, targetSize);
+float flowerX = random(0, width);
+float flowerY = random(0, height);
 ```
 
-This section of code draws the outer-most ring of the target. First it changes the fill color to red, then it draws a circle centered at `targetX, targetY` with a diameter of `targetSize`.
+Now the `flowerX` variable will hold a random value between `0` and `width`, and `flowerY` will hold a random value between `0` and `height`. This means the flower will appear in a different location every time you run the program. You could also give the flower a random size, or even random colors!
 
-```java
-fill(255, 255, 255);
-ellipse(targetX, targetY, targetSize*.75, targetSize*.75);
-```
+{% include codepen-new.html slug-hash="xEXqoP" height="300" %}
 
-This section of code draws the second ring of the target. First it changes the fill color to white, then it draws a circle at the same position, but with a diameter of `targetSize*.75`. This makes the second ring a little smaller than the outer ring.
+*(Hint: To run the sketch again, click the "rerun" button in the lower-right of the editor.)*
 
-```java
-fill(255, 0, 0);
-ellipse(targetX, targetY, targetSize/2, targetSize/2);
-```
+Variables allow you to "remember" a value so you can reuse it in multiple places. Without variables, using random values would be very difficult!
 
-Finally, this section of code draws the middle ring of the target. First it changes the fill color to red, then it draws a circle at the same position, but with a diameter of `targetSize/2` (which is the same thing as `targetSize*.5`). This makes the middle ring even smaller than the second ring.
+# Your Turn
 
-{% include codepen.html slug-hash="rrGyEr" height="225" %}
-
-## Changing Variables
-
-If we want to change the size and position of the target, now all we have to do is change the values of the variables!
-
-```java
-float targetX = 25;
-float targetY = 75;
-float targetSize = 50;
-```
-
-The rest of the code stays the same, but now our target is smaller and more towards the left of the window:
-
-![smaller target](/tutorials/processing/images/creating-variables-4.png)
-
-Or we could move the target to the center of the window:
-
-```java
-float targetX = width/2;
-float targetY = height/2;
-float targetSize = 125;
-```
-
-![centered target](/tutorials/processing/images/creating-variables-5.png)
-
-We're using the `width` and `height` variables to calculate a value that the `targetX` and `targetY` variables hold, and that's completely fine! Remember: you can use a variable anywhere you can use a value, including when creating another variable!
-
-## Function Types
-
-So far, the functions we've seen cause our programs to **do something** (like draw a circle or change the color). But there are also functions that **give you a value** instead of doing something. You can then store that value in a variable, or use it anywhere else we can use a value.
-
-For example, the `random()` function gives you a random value between two parameters. (As always, you can read more about it in [the reference](https://processing.org/reference/random_.html).) This might not sound very useful, but it allows us to add some variety to our programs instead of having the same thing happen every time our code runs. We might use that to draw a target at a random location:
-
-```java
-float targetX = random(0, width);
-float targetY = random(0, height);
-float targetSize = 50;
-```
-
-Now the `targetX` variable will hold a random value between `0` and `width`, and `targetX` will hold a random value between `0` and `height`. This causes our target to appear in a different position every time we run the program. We could also give the target a random size, or even random colors!
-
-{% include codepen.html slug-hash="xEXqoP" height="225" %}
-
-(Hint: Click the "rerun" button that appears in the lower-right when you mouse over the right side of the editor.)
-
-Variables allow us to "remember" a value so we can reuse it in multiple places. Without variables, using random values would be very difficult!
-
-## Summary
-
-To create a variables, give it a **type**, a **name**, and a **value**. To use a variable, just write its name wherever you would normally use a value.
-
-Variables make it easier to change our code. If we use a variable in our code, we only have to change the value the variable holds, and everywhere that uses that variable will also change.
-
-Functions can give you a value instead of doing something, and variables let us do stuff with those values.
-
-Down the road we'll use variable to do cooler things like animation and user input. But for now, just focus on using variables to make your code easier to change.
-
-## Homework
-
-- Remember your drawing from the previous homework? Instead of basing it off the `width` and `height`, change it to draw at a location and size that you store in variables. Test that your code works with different values for each variable.
+- Remember your drawing from the previous tutorial? Instead of basing it off the `width` and `height` variables, change it to draw at a location and size that you store in your own variables. Test that your code works with different values for each variable.
 - Make a program that randomizes your drawing. Draw it at a random location, with random sizes and random colors. This is called [procedural generation](https://en.wikipedia.org/wiki/Procedural_generation)!
 - Make a program that shows the current time. Hint: check the reference for useful functions! Get creative: make the clock change color throughout the day, or show the time in dog years.
 - Make a program that uses variables to calculate something useful for you: how long will you be paying student loans? What percentage of your income goes to rent? What grade do you need to get on your final to get an A in the class?
-
-# Next: [Creating Functions](/tutorials/processing/creating-functions)
