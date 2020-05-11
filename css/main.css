@@ -134,7 +134,7 @@ a:hover, a:focus {
 pre {
   border: thin solid #cccccc;
   padding: 20px;
-  overflow-x: scroll;
+  overflow-x: auto;
   tab-size: 2;
 }
 
