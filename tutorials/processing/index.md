@@ -15,7 +15,7 @@ Just want to get your feet wet? Try the hour of code!
 
 {% include url-thumbnail.html url="/tutorials/processing/hour-of-code" %}
 
-## Basic Processing Tutorials
+## Learn to Code with Processing
 
 Serious about learning how to program? Go through these in order:
 
