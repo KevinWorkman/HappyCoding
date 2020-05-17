@@ -10,6 +10,7 @@ meta-image: /tutorials/processing/images/using-variables-7.png
 tags: [tutorial, p5.js, javascript]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/calling-functions
+nextPost: /tutorials/p5js/creating-variables
 ---
 
 {% include toc.md %}

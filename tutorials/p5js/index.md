@@ -10,13 +10,14 @@ sort-key: 600
 nextPost: /tutorials/p5js/welcome-to-coding
 ---
 
-# p5.js Tutorials
+# Learn to Code with p5.js
 
 New to coding? Start here!
 
 {% include url-thumbnail.html url="/tutorials/p5js/welcome-to-coding" %}
 {% include url-thumbnail.html url="/tutorials/p5js/calling-functions" %}
 {% include url-thumbnail.html url="/tutorials/p5js/using-variables" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-variables" %}
 
 More coming soon!
 
