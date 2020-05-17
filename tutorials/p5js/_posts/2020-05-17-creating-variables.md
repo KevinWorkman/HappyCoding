@@ -4,7 +4,7 @@ title: Creating Variables
 thumbnail: /tutorials/processing/images/creating-variables-thumbnail.gif
 tagline: Give your code a memory.
 sort-key: 300
-meta-title: Using Variables in p5.js
+meta-title: Creating Variables in p5.js
 meta-description: Learn how to create your own variables in p5.js.
 meta-image: /tutorials/processing/images/using-variables-7.png
 tags: [tutorial, p5.js, javascript]
