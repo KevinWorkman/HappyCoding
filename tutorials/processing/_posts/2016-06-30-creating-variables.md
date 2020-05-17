@@ -71,7 +71,7 @@ float circleDiameter = 100;
 ellipse(circleX, circleY, circleDiameter, circleDiameter);
 ```
 
-![Happy coding message](/tutorials/processing/images/creating-variables-2.png)
+![circle in sketch](/tutorials/processing/images/creating-variables-2.png)
 
 Try changing the variables to see the effect they have on the circle.
 
