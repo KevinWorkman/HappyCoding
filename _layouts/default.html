@@ -59,7 +59,7 @@
         {%- assign breadcrumbUrl = breadcrumbUrl
             | append: "/" | append: section %}
         {% include post-url.html url=breadcrumbUrl -%}
-        {%- unless forloop.last %}/{% endunless -%} 
+        {%- unless forloop.last %} / {% endunless -%} 
       {%- endunless -%}
     {%- endfor %}
         <hr/>
