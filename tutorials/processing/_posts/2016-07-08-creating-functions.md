@@ -1,14 +1,13 @@
 ---
 layout: tutorial
 title: Creating Functions
-slug: creating-functions
 thumbnail: /tutorials/processing/images/creating-functions-9.gif
 tagline: Write your own custom functions.
 sort-key: 500
-meta-title: Creating Functions
+meta-title: Creating Functions in Processing
 meta-description: Learn how to write your own functions in Processing.
 meta-image: /tutorials/processing/images/creating-functions-7.png
-tags: [tutorial,processing,functions]
+tags: [tutorial, processing, functions]
 previousPost: /tutorials/processing/creating-variables
 nextPost: /tutorials/processing/if-statements
 ---
@@ -160,7 +159,7 @@ Imagine modifying the flower program to draw four different flowers, each with i
 
 To help with this, you could move all of the code related to drawing a flower into a `drawFlower` function.
 
-To create a function, you write its return type (often `void`), then its name, then its parameters inside `()` parentheses, and finally the code that should run when you call that function.
+To create a function, you write its return type (often `void`), then its name, then its parameters inside `()` parentheses, and finally, inside `{ }` curly brackets, write the code that should run when you call that function.
 
 ```java
 void drawFlower(float flowerX, float flowerY, float petalSize) {
