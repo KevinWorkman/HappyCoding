@@ -18,6 +18,7 @@ New to coding? Start here!
 {% include url-thumbnail.html url="/tutorials/p5js/calling-functions" %}
 {% include url-thumbnail.html url="/tutorials/p5js/using-variables" %}
 {% include url-thumbnail.html url="/tutorials/p5js/creating-variables" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-functions" %}
 
 More coming soon!
 
