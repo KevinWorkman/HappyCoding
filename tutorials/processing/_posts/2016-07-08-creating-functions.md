@@ -297,11 +297,11 @@ The same thing is true of creating functions. Creating functions allows you to o
 
 Creating functions also allow you to repeat work without repeating code: to draw four flowers, you called the `drawFlower` function four times with different parameters.
 
-You can also use the `setup()` and `draw()` functions to make programs that are interactive and animated, which you'll learn about in the next few tutorials.
+You can also use the `setup` and `draw` functions to make programs that are interactive and animated, which you'll learn about in the next few tutorials.
 
 ## Homework
 
-- Create a `drawHouse()` function that draws a house. Take in parameters for the house location, size, color, etc.
-- Create a `drawBlock()` function that draws 4 houses. Take in parameters for the block location, size, color, etc. Don't write code that draws 4 houses! Instead, call the `drawHouse()` function 4 different times with different parameters.
-- Create a `drawNeighborhood()` function that draws 9 blocks. Take in parameters for the neighborhood location, size, color, etc. Call the `drawBlock()` function to draw the blocks.
-- Create a `drawCity()` function that fills the window with neighborhoods.
+- Create a `drawHouse` function that draws a house. Take in parameters for the house location, size, color, etc.
+- Create a `drawBlock` function that draws 4 houses. Take in parameters for the block location, size, color, etc. Don't write code that draws 4 houses! Instead, call the `drawHouse` function 4 different times with different parameters.
+- Create a `drawNeighborhood` function that draws 9 blocks. Take in parameters for the neighborhood location, size, color, etc. Call the `drawBlock` function to draw the blocks.
+- Create a `drawCity` function that fills the window with neighborhoods.
