@@ -1,7 +1,6 @@
 ---
 layout: tutorial
 title: If Statements
-slug: if-statements
 thumbnail: /tutorials/processing/images/if-statements-6.gif
 tagline: Make decisions in your code.
 sort-key: 600
@@ -9,6 +8,7 @@ meta-title: If Statements
 meta-description: Learn how to use if statements to make decisions in your code.
 meta-image: /tutorials/processing/images/if-statements-5.png
 tags: [tutorial, processing, if-statements]
+previousPost: /tutorials/processing/creating-functions
 ---
 
 {% include toc.md %}
@@ -17,7 +17,7 @@ Now you know how to [call functions](/tutorials/processing/calling-function), [u
 
 You've seen that values have different **types**. A type tells the computer what kind of data a value is, or what type of value a variable holds. So far you've mostly worked with the `float` type.
 
-This tutorial introduces the `boolean` type, which can only hold two values: `true` or `false`. This tutorial also introduces **if statements**, which allow you to perform different actions depending on the value of a boolean.
+This tutorial introduces the `boolean` type, which can only hold two possible values: `true` or `false`. This tutorial also introduces **if statements**, which allow you to perform different actions depending on the value of a boolean.
 
 # Booleans
 
@@ -29,13 +29,13 @@ float accountBalance = -123.45;
 String message = "Happy Coding!";
 ```
 
-The `boolean` type can only hold two values: `true` or `false`.
+You can create a `boolean` variable the same way, but it can only hold two possible values: `true` or `false`.
 
 ```java
 boolean isCodingFun = true;
 ```
 
-This might not seem very useful yet, but it will become more handy in a couple paragraphs!
+This might not seem very useful yet, but it will become more handy in a couple paragraphs. Keep reading!
 
 # Relational Operators
 
@@ -64,7 +64,7 @@ boolean canFly = true;
 boolean isDuck = canSwim && canFly;
 ```
 
-The `isDuck` variable will only be `true` when **both** `canSwim` **and** `canFly` are also true. If either one of them is false, then `isFlyingBird` will also be false.
+The `isDuck` variable will only be `true` when **both** `canSwim` **and** `canFly` are also true. If either one of them is false, then `isDuck` will also be false.
 
 Again, it might make more sense to read the **right** side first. First the code evaluates the `&&` operator, which creates a `boolean` value of `true`. Then it points the `isDuck` variable to that value.
 
@@ -116,7 +116,7 @@ There is a [whole field of study](https://en.wikipedia.org/wiki/Boolean_algebra)
 
 An `if` statement checks a `boolean` value and only executes a block of code if that value is `true`.
 
-To write an `if` statement, write the keyword `if`, then inside parentheses `()` insert a `boolean` value, and then in curly brackets `{}` write the code that should only execute when that value is true. That code is called the **body** of the `if` statement.
+To write an `if` statement, write the keyword `if`, then inside parentheses `()` insert a `boolean` value, and then in curly brackets `{}` write the code that should only execute when that value is `true`. That code is called the **body** of the `if` statement.
 
 Here's an example that draws a congratulations message, but only if your grade is an A:
 
@@ -225,7 +225,7 @@ This code uses an `if` statement to check whether `score` is greater than or equ
 
 You can think about the code like this: "If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise check whether the score is greater than or equal to 80. If it is, then display the `Good job!' message instead."
 
-If `score` was `95`, then only the code inside the body of the `if` statement would run. The code inside the `else-if` statement would be skipped. And if `score` was `75`, then the `boolean` values of both the `if` statement and the `else-if` statement would evaluate to `false`, so neither one of their bodies would be executed.
+If `score` was `95`, then only the code inside the body of the `if` statement would run. The code inside the `else-if` statement would be skipped. And if `score` was `75`, then the `boolean` expressions of both the `if` statement and the `else-if` statement would evaluate to `false`, so neither one of their bodies would be executed.
 
 # If Else-If Else Combinations
 
