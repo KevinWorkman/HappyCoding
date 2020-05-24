@@ -2,7 +2,7 @@
 layout: tutorial
 title: If Statements
 slug: if-statements
-thumbnail: /tutorials/processing/images/if-statements-6.png
+thumbnail: /tutorials/processing/images/if-statements-6.gif
 tagline: Make decisions in your code.
 sort-key: 600
 meta-title: If Statements
@@ -13,17 +13,15 @@ tags: [tutorial,processing,basic]
 
 {% include toc.md %}
 
-We now know how to call functions, use variables, and create our own variables and functions.
+Now you know how to [call functions](/tutorials/processing/calling-function), [use variables](/tutorials/processing/using-variables), and create your own [variables](/tutorials/processing/creating-variables) and [functions](/tutorials/processing/creating-functions).
 
-We've seen that values have different types. A type tells the computer what kind of data a value is, or what type of value a variable holds.
+You've seen that values have different **types**. A type tells the computer what kind of data a value is, or what type of value a variable holds. So far you've mostly worked with the `float` type.
 
-This tutorial introduces **if statements**, which allow us to perform different actions depending on what value a variable holds.
+This tutorial introduces the `boolean` type, which can only hold two values: `true` or `false`. This tutorial also introduces **if statements**, which allow you to perform different actions depending on the value of a boolean.
 
-## Boolean Values
+# Booleans
 
-Before we get into `if` statements, let's talk about a new type of value: the `boolean` type.
-
-Remember that a type tells the computer what kind of value a variable will hold. For example, the `int` type holds whole numbers, the `float` type holds decimal numbers, and the `String` type holds text. You create a variable by giving it a type, a name, and then a value:
+Remember that a **type** tells the computer what kind of value a variable will hold. For example, the `int` type holds whole numbers, the `float` type holds decimal numbers, and the `String` type holds text. You create a variable by giving it a type, a name, and then a value:
 
 ```java
 int catLives = 9;
@@ -31,15 +29,17 @@ float accountBalance = -123.45;
 String message = "Happy Coding!";
 ```
 
-The new `boolean` type can only hold two values: `true` or `false`.
+The `boolean` type can only hold two values: `true` or `false`.
 
 ```java
 boolean isCodingFun = true;
 ```
 
-## Relational Operators
+This might not seem very useful yet, but it will become more handy in a couple paragraphs!
 
-`Boolean` variables wouldn't be very useful if we had to decide their values ahead of time. Instead, we can obtain `boolean` values through **relational operators**, which are how we check for inequalities (less than, greater than, equal to) of other values. Here's an example:
+# Relational Operators
+
+`Boolean` variables wouldn't be very useful if you had to decide their values ahead of time. Instead, you can obtain `boolean` values through **relational operators**. You might have called these *inequalities* in algebra class, where you compared two sides with symbols like  `<` less than, `>` greater than, or `==` equal to. Here's an example:
 
 ```java
 float score = 95;
@@ -48,237 +48,265 @@ boolean isGradeA = score >= 90;
 
 This code creates a `float` variable named `score` and sets it equal to `95`. It then creates a `boolean` variable named `isGradeA` and sets it equal to the result of the inequality `score >= 90`. In this case, the inequality is `true` because `95` is greater than `90`. So at the end of this code, `isGradeA` is holding the `boolean` value of `true`.
 
-It might make more sense to read the **right** side first. First we take the inequality `score >= 90` and get a `boolean` value from it (in this case, `true`), and then point the `isGradeA` variable to that value.
+If that line of code is confusing, try reading the **right** side first. First you take the inequality `score >= 90` and get a `boolean` value from it (in this case, `true`), and then you point the `isGradeA` variable to that value.
 
-## Boolean Operators
+# Boolean Operators
 
-Similar to how you can add two `float` values using the `+` operator to get a third `float` value, or subtract them using the `-` operator,  you can also operate on two `boolean` values to get a third `boolean` value.
+Similar to how you can add two `float` values using the `+` operator to get a third `float` value, or subtract them using the `-` operator,  you can also *operate* on two `boolean` values to get a third `boolean` value.
 
-### And
+## And
 
-You can combine two `boolean` values using the **and** operator. The **and** operator evaluates to `true` whenever the two `boolean`  values are also `true`.
-
-For example, if we had these two `boolean` variables:
+You can combine two `boolean` values using the **and** operator, which looks like two ampersands: `&&`. The **and** operator evaluates to `true` whenever the two `boolean`  values on either side of it are also `true`.
 
 ```java
 boolean canSwim = true;
 boolean canFly = true;
-```
-
-We could then use the **and** operator to make a third value that was only `true` when both of these `boolean` values are also `true`. To use the **and** operator, type two ampersands `&&` between two `boolean` values:
-
-```java
 boolean isDuck = canSwim && canFly;
 ```
 
 The `isDuck` variable will only be `true` when **both** `canSwim` **and** `canFly` are also true. If either one of them is false, then `isFlyingBird` will also be false.
 
-Again, it might make more sense to read the **right** side first. First we evaluate the `&&` operator, which gives us a `boolean` value of `true`. Then we point the `isFlyingBird` variable to that value.
+Again, it might make more sense to read the **right** side first. First the code evaluates the `&&` operator, which creates a `boolean` value of `true`. Then it points the `isDuck` variable to that value.
 
-### Or
+## Or
 
-We can also use the **or** operator, which works a lot like the **and** operator. The difference is, the **or** operator evaluates to true if **either** of the two `boolean` values is `true`.
+The **or** operator evaluates to true if **either** of the two `boolean` values on either side of it is `true`.
 
-To use the **or** operator, type two pipes `||` (they're above the enter key, or shift+\) between two `boolean` values:
+To use the **or** operator, type two pipes `||` (they're above the enter key, or `shift + \`) between two `boolean` values:
 
 ```java
-boolean isFishOrBird = canSwim || canFly;
+boolean isTodaySaturday = true;
+boolean isTodaySunday = false;
+boolean isTodayWeekend = isTodaySaturday || isTodaySunday;
 ```
 
-First we evaluate the `||` operator which gives us a `boolean` value, and then we point the `isFishOrBird` variable to that value.
+The `isTodayWeekend` variables will be `true` if **either** the `isTodaySaturday` or `isTodaySunday` variables are `true`.
 
-### Not
+First the code evaluates the `||` operator which creates a `boolean` value (in this case it's `true`), and then it points the `isTodayWeekend` variable to that value.
 
-In addition to operating on two `boolean` values, we can also switch a single `boolean` value. Values that are `true` evaluate to `false`, and values that are `false` evaluate to `true`. This is called the **not** operator, and you use it by typing an exclamation point `!` before the value you want to switch.
+## Not
+
+In addition to operating on two `boolean` values, you can also calculate the opposite of a single `boolean` value. The opposite of `true` is `false`, and the opposite of `false` is `true`.
+
+This is called the **not** operator, and you use it by typing an exclamation point `!` before the value you want to switch.
 
 ```java
 boolean sinks = !canSwim;
 boolean falls = !canFly;
+boolean isTodayWeekday = !isTodayWeekend;
 ```
 
-First we evaluate the `!` operator which gives us a `boolean` value, and then we point the `sinks` variable to that value.
+Each line of this code evaluates the `!` operator which creates a new `boolean` value based on the opposite of whatever follows it, and then it points a `boolean` variable to that value.
 
-### Combining Operators
+## Combining Operators
 
-It's very common to combine these operators to form more complicated logic. Just keep in mind that operators give you new values, which you can then use more operators on. So you can do things like this:
+You can also combine these operators to form more complicated logic. So you can do things like this:
 
 ```java
 boolean isMammal = !canSwim && !canFly;
 ```
 
-First this code toggles (or **negates**) the `canSwim` and `canFly` variables to create two new `boolean` values. It then takes those values and feeds them into the `&&` operator, which gives us yet another `boolean` value. Then we point the `isMammal` variable to that value.
+First this code takes the opposite of the `canSwim` and `canFly` variables to create two new `boolean` values. It then takes those values and feeds them into the `&&` operator, which creates yet another `boolean` value. Then it points the `isMammal` variable to that value.
 
 (If this bothers you because it doesn't account for animals like bats, beavers, and dolphins... check out the homework!)
 
-There is a [whole field of study](https://en.wikipedia.org/wiki/Boolean_algebra) devoted to `boolean` logic, so check that out if it sounds interesting. But for now, just know that `boolean` values contain `true` or `false`, and you can use operators like `&&`, `||`, and `!` on them.
+There is a [whole field of study](https://en.wikipedia.org/wiki/Boolean_algebra) devoted to `boolean` logic, so check that out if it sounds interesting. But for now, keep in mind that `boolean` values contain `true` or `false`, and you can use operators like `&&`, `||`, and `!` on them.
 
-## If Statements
+# If Statements
 
-Now that we know what `boolean` values are, we're ready to talk about `if` statements.
+An `if` statement checks a `boolean` value and only executes a block of code if that value is `true`.
 
-An `if` statement takes a `boolean` value and only executes its body if that value is `true`.
-
-To write an `if` statement, write the keyword `if`, then inside parentheses `()` insert a `boolean` value, and then in curly brackets `{}` write the code that should only execute when that value is true. We call that last part the **body** of the `if` statement.
+To write an `if` statement, write the keyword `if`, then inside parentheses `()` insert a `boolean` value, and then in curly brackets `{}` write the code that should only execute when that value is true. That code is called the **body** of the `if` statement.
 
 Here's an example that draws a congratulations message, but only if your grade is an A:
 
 ```java
+size(200, 100);
+
 float score = 95;
 boolean isGradeA = score >= 90;
-if(isGradeA){
-   background(0, 255, 0);
-   fill(0);
-   text("Congratulations!", 7, 50);
+
+if (isGradeA) {
+  background(0, 255, 0);
+  fill(0);
+  textSize(18);
+  text("Congratulations!", 30, 55);
 }
 ```
 
-This code uses an `if` statement to check whether `isGradeA` is `true`, and if it is, it draws a green background, changes the fill color to black, and then writes `"Congratulations!"` to the screen.
+This code uses an `if` statement to check whether `isGradeA` is `true`, and if it is, it draws a green background, changes the fill color to black and the text size to `18`, and then writes `"Congratulations!"` on the screen.
 
-Since `score` is `95` (and `95` is greater than `90`), then we get the congratulations message:
+Since `score` is `95` (and `95` is greater than `90`), then you see the congratulations message:
 
 ![congratulations message](/tutorials/processing/images/if-statements-1.png)
 
-If `isGradeA` is **not** true (in other words, if it's `false` (in other other words, if `score` is less than `90`)), then the program doesn't do anything. Try changing `score` to `85`, and you'll see a blank window:
+If `isGradeA` is `false` (if `score` is less than `90`), then the program doesn't do anything. Try changing `score` to `85`, and you'll see a blank window:
 
 ![boring gray nothing](/tutorials/processing/images/if-statements-2.png)
 
 Since `isGradeA` is now `false`, the body of the `if` statement is **not** executed, and it skips over all of the code inside the body.
 
-{% include codepen.html slug-hash="pEWPJb" height="175" %}
+{% include codepen-new.html slug-hash="pEWPJb" height="100" %}
 
-## Boolean Values and Variables
+## Boolean Expressions
 
-So far we've been splitting up the inequality and the `if` statement into two steps: first we create a `boolean` variable, and then we use that variable in an `if` statement. But we could combine that into a single step:
+So far, all of the examples have separated the inequality and the `if` statement into two steps: the code first created a `boolean` variable from an inequality, and then it used that variable in an `if` statement. But you can combine them into a single step:
 
 ```java
+size(200, 100);
+
 float score = 95;
-if(score >= 90){
-   background(0, 255, 0);
-   fill(0);
-   text("Congratulations!", 7, 50);
+
+if (score >= 90) {
+  background(0, 255, 0);
+  fill(0);
+  textSize(18);
+  text("Congratulations!", 30, 55);
 }
 ```
 
-This does the exact same thing as our old code, except now we do the inequality (which gives us a `boolean` value) inside the `if` statement instead of splitting it into its own step. We aren't storing the `boolean` value inside a variable, we're just using the value directly. This will make our lives easier as we do more complicated things.
+This does the exact same thing as the old code, except now the inequality (which evaluates to a `boolean` value) is inside the `if` statement instead of being split into its own step. Either approach is fine, so you should use whichever style makes the most sense to you.
 
-## Else Statements
+# Else Statements
 
-An `if` statement executes some code if its `boolean` value is `true`, and it skips that code if the `boolean` value is `false`. But what if we want to do one thing if the value is `true` and a different thing if it's `false`? For this, we can use an `else` statement.
+An `if` statement executes some code if its `boolean` value is `true`, and it skips that code if the `boolean` value is `false`. But what if you want to do one thing if the value is `true` and a different thing if it's `false`?  Sounds like a job for an `else` statement!
 
-To use an `else` statement, just type the word `else` after an `if` statement, and then inside curly brackets `{}` put the code you want to execute when the `boolean` value is `false`:
+To use an `else` statement, type the `else` keyword after an `if` statement, and then inside curly brackets `{}` put the code you want to execute when the `if` statement's `boolean` evaluates to `false`:
 
 ```java
+size(200, 100);
+fill(0);
+textSize(18);
+
 float score = 85;
 
-if(score >= 90){
-   background(0, 255, 0);
-   fill(0);
-   text("Congratulations!", 7, 50);
+if (score >= 90) {
+  background(0, 255, 0);
+  text("Congratulations!", 30, 55);
 }
-else{
+else {
   background(255, 0, 0);
-  fill(0);
-  text("Study more!", 15, 50);
+  text("Study more!", 50, 55);
 }
 ```
 
-This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. Instead, the program jumps to the code inside the body of the `else` statement, which draws a red background, changes the fill color to black, and displays the "Study more!" message.
+This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. Instead, the program jumps to the code inside the body of the `else` statement, which draws a red background and displays the "Study more!" message.
 
 ![study more](/tutorials/processing/images/if-statements-3.png)
 
-You can think about the code like this: "If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise, display the `Study more!' message instead."
+You can think about the code like this: *"If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise, display the 'Study more!' message instead."*
 
-## Else-If Statements
+# Else-If Statements
 
-An `if` statement executes some code if its `boolean` value is `true`, and an `else` statement executs code if the value is `false`. But what if we want to take different actions depending on multiple cases? This is where `else-if` statements come in handy.
+An `if` statement executes some code if its `boolean` evaluates to `true`, and an `else` statement executes code if it evaluates to `false`. But what if you want to take different actions depending on multiple cases? This is where `else-if` statements come in handy.
 
-An `else-if` statement is like a mix between an `else` statement and an `if` statement. You put an `else-if` statement after an `if` statement, and if the `if` statement's value is `false`, then the `else-if` statement's value is checked, exactly like an `if` statement. It's probably easier just to show you:
+An `else-if` statement is like a mix between an `else` statement and an `if` statement. You put an `else-if` statement after an `if` statement, and if the `if` statement evaluates to `false`, then the `else-if` statement's `boolean` is evaluated:
 
 ```java
+size(200, 100);
+fill(0);
+textSize(18);
+
 float score = 85;
 
-if(score >= 90){
-   background(0, 255, 0);
-   fill(0);
-   text("Congratulations!", 7, 50);
+if (score >= 90) {
+  background(0, 255, 0);
+  text("Congratulations!", 30, 55);
 }
-else if(score >= 80){
-  background(0, 0, 255);
-  fill(255);
-  text("Good job!", 18, 50);
+else if (score >= 80) {
+  background(0, 100, 255);
+  text("Good job!", 60, 55);
 }
 ```
 
-This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. The program jumps down to the `else-if` statement and checks the `boolean` value inside the `else-if` statement. Since `85` is greater than `80`, the inequality is `true`, and the code inside the body of the `else-if` is executed. The code then draws a blue background, changes the fill color to white, and displays the "Good job!" message.
+This code uses an `if` statement to check whether `score` is greater than or equal to `90`. Since `85` is less than `90`, that inequality is `false`, so the code inside the `if` statement is skipped. The program jumps down to the `else-if` statement and checks the `boolean` expression inside the `else-if` statement. Since `85` is greater than `80`, the inequality is `true`, and the code inside the body of the `else-if` is executed. The code then draws a blue background and and displays the "Good job!" message.
 
 ![good job message](/tutorials/processing/images/if-statements-4.png)
 
 You can think about the code like this: "If the score is greater than or equal to 90, then display the 'Congratulations!' message. Otherwise check whether the score is greater than or equal to 80. If it is, then display the `Good job!' message instead."
 
-Note that if `score` was `75`, then the `boolean` values of both the `if` statement and the `else-if` statement would evaluate to `false`, so neither one of them would be executed.
+If `score` was `95`, then only the code inside the body of the `if` statement would run. The code inside the `else-if` statement would be skipped. And if `score` was `75`, then the `boolean` values of both the `if` statement and the `else-if` statement would evaluate to `false`, so neither one of their bodies would be executed.
 
-## If Else-If Else Combinations
+# If Else-If Else Combinations
 
-You can follow an `if` statement with multiple `else-if` statements, and you can follow an `else-if` statement with an `else` statement. So we could expand our program to detect every grade:
+You can follow an `if` statement with multiple `else-if` statements, and you can follow an `else-if` statement with an `else` statement. So you could expand your program to detect every grade:
 
 ```java
-float score = 75;
+size(200, 100);
+fill(0);
+textSize(18);
 
-if(score >= 90){
-   background(0, 255, 0);
-   fill(0);
-   text("Congratulations!", 7, 50);
+float score = 55;
+
+if (score >= 90) {
+  background(0, 255, 0);
+  text("Congratulations!", 30, 55);
 }
-else if(score >= 80){
-  background(0, 0, 255);
-  fill(255);
-  text("Good job!", 18, 50);
+else if (score >= 80) {
+  background(0, 100, 255);
+  text("Good job!", 60, 55);
 }
-else if(score >= 70){
+else if (score >= 70) {
   background(255, 255, 0);
-  fill(0);
-  text("Just okay.", 16, 50);
+  text("Just okay.", 60, 55);
 }
-else if(score >= 60){
+else if (score >= 60) {
   background(255, 128, 0);
-  fill(0);
-  text("Not good!", 18, 50);
+  text("Not good!", 60, 55);
 }
-else{
+else {
   background(255, 0, 0);
-  fill(0);
-  text("Study more!", 15, 50);
+  text("Study more!", 50, 55);
 }
 ```
 
-This code uses an `if` statement to detect whether `score >= 90`. If it is, then it draws a "Congratulations!" message. If not, it goes to the first `else-if` statement and checks whether `score >= 80`. If it is, then it draws a "Good job!" message. If not, then it goes to the next `else-if` statement and checks whether `score >= 70`. If it is, then it draws a "Just okay." message. If not, then it goes to the next `else-if` statement and checks whether `score >= 60`. If it is, then it draws a "Not good!" message. If not, then it goes to the `else` statement and draws a "Study more!" message.
+This code uses a series of `if`, `else if` and `else` statements to run this logic:
+
+- Is `score >= 90`?
+  - If so, show the "Congratulations!" message and stop checking any other conditions.
+  - If not, keep checking.
+- Is `score >= 80`?
+  - If so, show the "Good job!" message and stop checking any other conditions.
+  - If not, keep checking.
+- Is `score >= 70`?
+  - If so, show the "Just okay." message and stop checking any other conditions.
+  - If not, keep checking.
+- Is `score >= 60`?
+  - If so, show the "Not good!" message and stop checking any other conditions.
+  - If not, show the "Study more!" message.
 
 Try changing the `score` variable to see the different messages.
 
-{% include codepen.html slug-hash="dpVWoq" height="175" %}
+{% include codepen-new.html slug-hash="dpVWoq" height="200" %}
 
-## Avoid Unncessary Checks
+## Avoiding Unnecessary Checks
 
-Only one body of code is entered in a string of `if else-if else` statements. As soon as the code enters one of the `if` or `else-if` statements, it stops checking subsequent `else-if` statements.
+Keep in mind that only **one** body of code is entered in a series of `if else-if else` statements. As soon as the code enters one of the `if` or `else-if` statements, it stops checking subsequent `else-if` statements.
 
-Look at this line of code, from our above program:
+Look at this line of code, from the above program:
 
 ```java
-else if(score >= 80){
+else if (score >= 80) {
 ```
 
-Notice that we're only checking whether `score >= 80`. But for the grade to be a B, it also has to be `< 90`. Why aren't we checking for that?
+Notice that the code only checks whether `score >= 80`. But for the grade to be a B, it also has to be `< 90`. Why doesn't the code also check for that?
 
-We aren't checking to make sure that `score < 90`, because **we already know that is `true`**. We know this because if `score` was `>= 90`, then the **first** `if statement` would have been entered, and we wouldn't even be executing this line of code.
+The code doesn't check to make sure that `score < 90`, because **it already knows that it is**. If `score` was `>= 90`, then the **first** `if` statement would have been entered, and the code wouldn't even reach this line.
 
-Think about it this way: first we check whether the grade is an A. If it is, then we display the "Congratulations!" message **and don't check against any other grades** since we already know the grade is an A. If it's not an A, then we know that `score < 90`. We can then check whether the grade is a B by only checking whether `score > 80`. It it is, then we display the "Good job!" message **and don't check against any other grades** since we already know the grade is a B. If it's not a B, then we know that `score < 80`, and we continue that logic for the rest of the program.
+Think about it this way: first the code checks whether the grade is an A. If it is, then it displays the "Congratulations!" message **and doesn't check any other grades** since it already knows the grade is an A. If it's not an A, then it knows that `score < 90` and it keeps checking other grades.
 
-## Homework
+That's why the code can check whether the grade is a B by only checking whether `score > 80`. It it is, then it displays the "Good job!" message **and doesn't check against any other grades** since it already knows the grade is a B. If it's not a B, then it knows that `score < 80`, and it continues that pattern for the rest of the program.
 
-- Expand the `boolean` example to work for more animals. How would you represent a bat (which can fly but isn't a bird) or a penguin (which can't fly but is a bird)?
-- Create a program that uses `boolean` logic to identify a type of animal. Do a Google search for "animal identification key" for some handy guides. 
-- Create a program that displays black if the mouse is on the left half of the screen, and white if the mouse is on the right half of the screen.
-- Expand that program to show 4 different colors: red when the mouse is in the upper-left corner, green when the mouse is in the upper-right corner, blue when the mouse is in the lower-left corner, and yellow when the mouse is in the lower-right corner.
-- Create a greeting program that shows a different message depending on what time of day it is. At least include morning, afternoon, evening, and night.
+# Learn More
 
-## Next: [Animation](/tutorials/processing/animation)
+- [The `if-then` and `if-then-else` Statements - Oracle's Java Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
+- [Equality, Relational, and Conditional Operators - Oracle's Java Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)
+- [Java `If ... Else` - W3Schools](https://www.w3schools.com/java/java_conditions.asp)
+- [`if` - Processing Reference](https://processing.org/reference/if.html)
+- [`else` - Processing Reference](https://processing.org/reference/else.html)
+
+# Homework
+
+- Expand the `boolean` example to work for more animals. Write a `showAnimalType` function that takes a set of `boolean` parameters (as many as you want!) and shows a message that explains whether the animal is a mammal, bird, reptile, amphibian, or fish. How would you represent a bat (which can fly but isn't a bird) or a penguin (which can't fly but is a bird)? If you want an advanced challenge, do a google search for "animal identification key" for some handy guides.
+- Write a greeting program that shows a different message depending on what time of day it is (morning, afternoon, evening, or night).
+- Create a program that uses `boolean` logic to determine the outcome of a flowchart like [this one](https://xkcd.com/210/). If you want an advanced challenge, try [this one](https://xkcd.com/1688/)!
