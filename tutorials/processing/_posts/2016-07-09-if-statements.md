@@ -8,7 +8,7 @@ sort-key: 600
 meta-title: If Statements
 meta-description: Learn how to use if statements to make decisions in your code.
 meta-image: /tutorials/processing/images/if-statements-5.png
-tags: [tutorial,processing,basic]
+tags: [tutorial, processing, if-statements]
 ---
 
 {% include toc.md %}
