@@ -10,6 +10,7 @@ meta-image: /tutorials/processing/images/creating-functions-7.png
 tags: [tutorial, p5.js, javascript]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-variables
+nextPost: /tutorials/p5js/if-statements
 ---
 
 {% include toc.md %}
