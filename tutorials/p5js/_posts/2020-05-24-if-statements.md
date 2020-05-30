@@ -10,6 +10,7 @@ meta-image: /tutorials/processing/images/if-statements-5.png
 tags: [tutorial, p5.js, javascript, if-statements]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-functions
+nextPost: /tutorials/p5js/animation
 ---
 
 {% include toc.md %}
