@@ -114,7 +114,6 @@ For example, it feels like most of my Facebook friends are getting married and b
 
 To help put things in perspective, there are several websites that tell you how your income compares to the rest of the world. Give them a try:
 
-- [Global Rich List](http://www.globalrichlist.com/)
 - [How Rich Am I?](https://www.givingwhatwecan.org/get-involved/how-rich-am-i/)
 - [What Percent Are You?](https://graphics.wsj.com/what-percent/)
 - [Income Percentile Calculator](https://dqydj.com/income-percentile-calculator/)
