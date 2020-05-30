@@ -139,7 +139,7 @@ void draw() {
 
 First, this code declares a variable named `circleY` and initializes it to point to the value `0`. Every time the `draw` function is called, the code draws a gray background, and then draws a circle with a vertical position of `circleY`. Then, the code adds `1` to the `circleY` variable!
 
-The next time `draw` is called, `circleY` will be `1`, which causes the circle to be drawn just a little bit lower in the window. The code repeats that 60 times per second, which makes it look like the circle is falling.
+The next time `draw` is called, `circleY` will be `1`, which causes the circle to be drawn just a little bit lower in the window. Then `circleY` will be `2`, then `3`, then `4`, etc. The code repeats that 60 times per second, which makes it look like the circle is falling.
 
 {% include codepen-new.html slug-hash="ORxmyK" height="200" %}
 
@@ -169,7 +169,7 @@ void draw() {
 }
 ```
 
-Every frame, this program declares a variable named `circleY` and initializes it to point to `0`. It then clears out old frames, draws a circle, and reassigns the value. But then during the next frame, the code declares a new variable named `circleY` and initialize it to `0`. Every frame will show the same thing, and the circle won't move at all.
+Every frame, this program declares a variable named `circleY` and initializes it to point to `0`. It then clears out old frames, draws a circle, and reassigns the value. But then at the beginning of the next frame, the code declares a new variable named `circleY` and initializes it to `0`. Every frame will show the same thing, and the circle won't move at all.
 
 In other words, the variable "forgets" its old value, since it's recreated every frame. If you want a variable to remember its value between frames, then you have to declare it at the top of your sketch, outside of any functions!
 
@@ -195,11 +195,11 @@ void draw() {
 }
 ```
 
-You might think this makes sense because the `setup` function is only called once at the beginning of the program, but this code has a big problem: if you declare a variable inside a function, you can only access it inside that function! Since you declare the `circleY` variable inside the `setup()` function, you can only access it inside the `setup()` function. So when you try to use it in the `draw()` function, you'll get an error.
+You might think this makes sense because the `setup` function is only called once at the beginning of the program, but this code has a big problem: if you declare a variable inside a function, you can only access it inside that function! Since you declare the `circleY` variable inside the `setup` function, you can only access it inside the `setup` function. So when you try to use it in the `draw` function, you'll get an error.
 
 The places you can access a variable is called the variable's **scope**. To make sure you can access a variable between multiple calls to the `draw` function, you have to declare it at the top of the sketch. I call this a **sketch-level variable**.
 
-A common thing to do is **declare** a variable at the top of the sketch, then **initialize** it in the `setup()` function, and then **reassign** it in the `draw()` function:
+A common thing to do is **declare** a variable at the top of the sketch, then **initialize** it in the `setup` function, and then **reassign** it in the `draw` function:
 
 ```java
 // state
@@ -327,7 +327,7 @@ void draw() {
   circleY = circleY + ySpeed;
 
   //bounce off left and right
-  if(circleX < 0 || circleX > width){
+  if(circleX < 0 || circleX > width) {
     xSpeed = xSpeed * -1;
   }
 
@@ -374,7 +374,7 @@ circleY = circleY + 10;
 
 This line of code adds `10` to the `circleY` variable.
 
-You can also use the **add assign** operator, which look like `+=`, to do the same thing without needing to type `circleY` twice:
+You can also use the **add assign** operator, which looks like `+=`, to do the same thing without needing to type `circleY` twice:
 
 ```java
 circleY += 10;
