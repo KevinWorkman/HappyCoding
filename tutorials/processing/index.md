@@ -28,9 +28,9 @@ Serious about learning how to program? Go through these in order:
 {% include url-thumbnail.html url="/tutorials/processing/debugging" %}
 {% include url-thumbnail.html url="/tutorials/processing/if-statements" %}
 {% include url-thumbnail.html url="/tutorials/processing/animation" %}
+{% include url-thumbnail.html url="/tutorials/processing/input" %}
 {% include url-thumbnail.html url="/tutorials/processing/for-loops" %}
 {% include url-thumbnail.html url="/tutorials/processing/arrays" %}
-{% include url-thumbnail.html url="/tutorials/processing/input" %}
 {% include url-thumbnail.html url="/tutorials/processing/using-objects" %}
 {% include url-thumbnail.html url="/tutorials/processing/creating-classes" %}
 {% include url-thumbnail.html url="/tutorials/processing/arraylists" %}
