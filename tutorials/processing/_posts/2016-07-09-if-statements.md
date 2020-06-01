@@ -9,6 +9,7 @@ meta-description: Learn how to use if statements to make decisions in your code.
 meta-image: /tutorials/processing/images/if-statements-5.png
 tags: [tutorial, processing, if-statements]
 previousPost: /tutorials/processing/creating-functions
+nextPost: /tutorials/processing/animation
 ---
 
 {% include toc.md %}
