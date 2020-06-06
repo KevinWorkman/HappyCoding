@@ -21,6 +21,7 @@ New to coding? Start here!
 {% include url-thumbnail.html url="/tutorials/p5js/creating-functions" %}
 {% include url-thumbnail.html url="/tutorials/p5js/if-statements" %}
 {% include url-thumbnail.html url="/tutorials/p5js/animation" %}
+{% include url-thumbnail.html url="/tutorials/p5js/input" %}
 
 More coming soon!
 
