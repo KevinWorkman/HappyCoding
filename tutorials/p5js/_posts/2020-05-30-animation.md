@@ -10,6 +10,7 @@ meta-image: /tutorials/processing/images/animation-8.png
 tags: [tutorial, p5.js, javascript, animation]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/if-statements
+nextPost: /tutorials/p5js/input
 ---
 
 {% include toc.md %}
