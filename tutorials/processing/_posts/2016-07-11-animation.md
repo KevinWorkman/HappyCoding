@@ -9,7 +9,7 @@ meta-description: Learn how to create animations in Processing.
 meta-image: /tutorials/processing/images/animation-8.png
 tags: [tutorial, processing, animation]
 previousPost: /tutorials/processing/if-statements
-nextPost: /tutorials/processing/for-loops
+nextPost: /tutorials/processing/input
 ---
 
 {% include toc.md %}
