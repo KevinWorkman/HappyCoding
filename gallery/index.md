@@ -21,4 +21,6 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 
 {% include url-thumbnail.html url="/gallery/the-next-generation-ld-46/index" %}
 
+{% include url-thumbnail.html url="/gallery/spirals/index" %}
+
 {% include url-thumbnail.html url="/gallery/links" %}
