@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 _data/local-keys.yml
 gallery/run-map/RunsJsonMaker/data/routes.json
+examples/google-cloud/google-cloud-example-projects/*/target
