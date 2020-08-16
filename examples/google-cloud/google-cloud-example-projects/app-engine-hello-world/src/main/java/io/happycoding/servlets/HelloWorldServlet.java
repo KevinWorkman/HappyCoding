@@ -11,9 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloWorldServlet extends HttpServlet {
 
   @Override
-  public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+  public void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws IOException {
     response.setContentType("text/html;");
-    response.getOutputStream().println("<h1>Hello world! 2</h1>");
+    response.getOutputStream().println("<h1>Hello world!</h1>");
   }
 }
-
