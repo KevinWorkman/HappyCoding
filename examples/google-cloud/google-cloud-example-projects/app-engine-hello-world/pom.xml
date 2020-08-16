@@ -16,7 +16,7 @@
 
     <!-- Project-specific properties -->
     <mainClass>io.happycoding.ServerMain</mainClass>
-    <googleCloudProjectId>happy-coding-gcloud</googleCloudProjectId>
+    <googleCloudProjectId>YOUR_PROJECT_ID_HERE</googleCloudProjectId>
   </properties>
 
   <dependencies>
