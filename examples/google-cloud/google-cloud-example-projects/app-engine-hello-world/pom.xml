@@ -42,34 +42,6 @@
 
   <build>
     <plugins>
-      <!-- Exec plugin for deploying the local server. -->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>3.0.0</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>java</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <mainClass>${mainClass}</mainClass>
-        </configuration>
-      </plugin>
-
-      <!-- App Engine plugin for deploying to the live site. -->
-      <plugin>
-        <groupId>com.google.cloud.tools</groupId>
-        <artifactId>appengine-maven-plugin</artifactId>
-        <version>2.2.0</version>
-        <configuration>
-          <projectId>${googleCloudProjectId}</projectId>
-          <version>1</version>
-        </configuration>
-      </plugin>
-
       <!-- Copy static resources like html files into the output jar file. -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -111,6 +83,34 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+
+      <!-- Exec plugin for deploying the local server. -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.0.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>${mainClass}</mainClass>
+        </configuration>
+      </plugin>
+
+      <!-- App Engine plugin for deploying to the live site. -->
+      <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>appengine-maven-plugin</artifactId>
+        <version>2.2.0</version>
+        <configuration>
+          <projectId>${googleCloudProjectId}</projectId>
+          <version>1</version>
+        </configuration>
       </plugin>
     </plugins>
   </build>
