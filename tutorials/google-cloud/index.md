@@ -24,6 +24,7 @@ These tutorials have been updated to use the latest Cloud SDK.
 <div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/google-cloud/setup" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
 </div>
 
 ---
@@ -33,7 +34,6 @@ These tutorials have been updated to use the latest Cloud SDK.
 These tutorials use the deprecated standalone App Engine SDK. I'm in the middle of updating these, so check back soon!
 
 <div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/authentication" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/maps" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/blobstore" %}
