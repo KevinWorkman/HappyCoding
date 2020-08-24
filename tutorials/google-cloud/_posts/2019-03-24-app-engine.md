@@ -9,6 +9,7 @@ meta-description: Deploy your web app on Google App Engine.
 meta-image: /tutorials/java-server/images/hosting-google-app-engine-6.png
 previousPost: /tutorials/google-cloud/setup
 tags: [tutorial, java, server, google, cloud, app-engine]
+lastUpdated: 2020-08-16
 ---
 
 <style>
