@@ -4,3 +4,4 @@ _site/
 _data/local-keys.yml
 gallery/run-map/RunsJsonMaker/data/routes.json
 examples/google-cloud/google-cloud-example-projects/*/target
+examples/google-cloud/google-cloud-example-projects/*/set_vars.cmd
