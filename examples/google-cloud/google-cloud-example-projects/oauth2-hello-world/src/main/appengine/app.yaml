@@ -1,0 +1,3 @@
+runtime: java11
+includes:
+  - C:\Users\kevin\Documents\GitHub\HappyCoding\examples\google-cloud\google-cloud-example-projects\oauth2-hello-world\src\main\appengine\env_variables.yaml
