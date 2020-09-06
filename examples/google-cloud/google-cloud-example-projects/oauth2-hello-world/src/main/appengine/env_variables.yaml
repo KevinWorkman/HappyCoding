@@ -1,5 +1,0 @@
-# These properties can be accessed via System.getenv() in the live server.
-# Add this file to .gitignore to prevent accidentally uploading to GitHub!
-env_variables:
-  OAUTH_CLIENT_ID: 'YOUR_CLIENT_ID_HERE'
-  OAUTH_CLIENT_SECRET: 'YOUR_CLIENT_SECRET_HERE'
