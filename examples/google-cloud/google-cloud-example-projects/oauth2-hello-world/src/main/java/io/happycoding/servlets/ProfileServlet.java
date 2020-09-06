@@ -3,7 +3,7 @@ package io.happycoding.servlets;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.services.oauth2.model.Userinfo;
 
-import io.happycoding.GoogleOAuth2Connection;
+import io.happycoding.OAuthUtils;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,10 +22,10 @@ public class ProfileServlet extends HttpServlet {
 
     String sessionId = request.getSession().getId();
     boolean isUserLoggedIn =
-        GoogleOAuth2Connection.isUserLoggedIn(sessionId);
+        OAuthUtils.isUserLoggedIn(sessionId);
     
     if (isUserLoggedIn) {
-      Userinfo userInfo = GoogleOAuth2Connection.getUserInfo(sessionId);
+      Userinfo userInfo = OAuthUtils.getUserInfo(sessionId);
 
       response.getWriter().println("<p>ID: " + userInfo.getId() + "</p>");
       response.getWriter().println("<p>Email: " + userInfo.getEmail() + "</p>");

@@ -3,7 +3,7 @@ package io.happycoding.servlets;
 import com.google.api.client.auth.oauth2.AuthorizationCodeFlow;
 import com.google.api.client.extensions.servlet.auth.oauth2.AbstractAuthorizationCodeServlet;
 import com.google.api.client.http.GenericUrl;
-import io.happycoding.GoogleOAuth2Connection;
+import io.happycoding.OAuthUtils;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,7 +20,7 @@ public class LoginServlet extends AbstractAuthorizationCodeServlet {
   
   @Override
   protected AuthorizationCodeFlow initializeFlow() throws IOException {
-    return GoogleOAuth2Connection.newFlow();
+    return OAuthUtils.newFlow();
   }
 
   @Override

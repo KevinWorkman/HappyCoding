@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-public class GoogleOAuth2Connection {
+public class OAuthUtils {
 
   /* Sends requests to Google's OAuth 2.0 server. */   
   private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();  
