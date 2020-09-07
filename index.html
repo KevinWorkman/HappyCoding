@@ -21,25 +21,13 @@ meta-image: /images/random-walkers-1.png
 
 <h2>New Tutorials</h2>
 <div class="thumbnail-link-container">
-{% assign tutorials = site.categories.tutorials
-    | reverse
-    | sort: "lastUpdated"
-    | reverse %}
-{% for post in tutorials limit: 6 %}
-  {% include url-thumbnail.html url=post.url %}
-{% endfor %}
+{% include recent-posts.html posts=site.categories.tutorials count=6 %}
 </div>
 <hr />
 
 <h2>New Examples</h2>
 <div class="thumbnail-link-container">
-{% assign examples = site.categories.examples
-    | reverse
-    | sort: "lastUpdated"
-    | reverse %}
-{% for post in examples limit: 6 %}
-  {% include url-thumbnail.html url=post.url %}
-{% endfor %}
+{% include recent-posts.html posts=site.categories.examples count=6 %}
 </div>
 <hr />
 
