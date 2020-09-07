@@ -44,8 +44,4 @@ public class LoginCallbackServlet extends AbstractAuthorizationCodeCallbackServl
       throws IOException {
     response.getWriter().print("Login cancelled.");
   }
-
-
-
-
 }
