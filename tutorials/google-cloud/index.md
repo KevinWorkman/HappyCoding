@@ -25,6 +25,7 @@ These tutorials have been updated to use the latest Cloud SDK.
 {% include url-thumbnail.html url="/tutorials/google-cloud/setup" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/oauth-2" %}
 </div>
 
 ---
