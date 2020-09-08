@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google Cloud Storage Hello World</title>
+  </head>
+  <body>
+    <h1>Google Cloud Storage Hello World</h1>
+    <p>This form lets you upload a file to Google Cloud Storage.</p>
+    
+    <form method="POST" enctype="multipart/form-data" action="/upload">
+
+      <p>Type some text:</p>
+      <textarea name="message"></textarea>
+      <br/>
+
+      <p>Upload an image:</p>
+      <input type="file" name="image">
+      <br/><br/>
+
+      <button>Submit</button>
+    </form>
+
+    <p>Learn more at
+        <a href="https://happycoding.io/google-cloud/cloud-storage">HappyCoding.io</a>.</p>
+  </body>
+</html>
