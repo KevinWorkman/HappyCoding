@@ -27,9 +27,9 @@ public class UploadServlet extends HttpServlet {
     String message = request.getParameter("message");
 
     // Get the file chosen by the user
-		Part filePart = request.getPart("image");
+    Part filePart = request.getPart("image");
     String fileName = filePart.getSubmittedFileName();
-	  InputStream fileInputStream = filePart.getInputStream();
+    InputStream fileInputStream = filePart.getInputStream();
 
     // Upload the file and get its URL
     String uploadedFileUrl = uploadToCloudStorage(fileName, fileInputStream);
@@ -43,9 +43,11 @@ public class UploadServlet extends HttpServlet {
   
   /** Uploads a file to Cloud Storage and returns the uploaded file's URL. */
   private static String uploadToCloudStorage(String fileName, InputStream fileInputStream) {
+    String projectId = "happy-coding-gcloud");
+    String bucketName = "happy-coding-gcloud.appspot.com";
     Storage storage =
-        StorageOptions.newBuilder().setProjectId("happy-coding-gcloud").build().getService();
-    BlobId blobId = BlobId.of("happy-coding-gcloud.appspot.com", fileName);
+        StorageOptions.newBuilder().setProjectId(projectId).build().getService();
+    BlobId blobId = BlobId.of(bucketName, fileName);
     BlobInfo blobInfo = BlobInfo.newBuilder(blobId).build();
     Blob blob = storage.create(blobInfo, fileInputStream);
     return blob.getMediaLink();
