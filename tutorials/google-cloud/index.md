@@ -6,6 +6,7 @@ categories: [tutorials, java]
 meta-title: Google Cloud Tutorials
 meta-description: Learn how to use Google Cloud to create apps and websites!
 meta-image: /tutorials/google-cloud/images/google-cloud-icon-2.png
+previousPost: /tutorials
 sort-key: 700
 ---
 
@@ -26,6 +27,7 @@ These tutorials have been updated to use the latest Cloud SDK.
 {% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/oauth-2" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/cloud-storage" %}
 </div>
 
 ---
