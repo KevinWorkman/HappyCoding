@@ -43,7 +43,7 @@ public class UploadServlet extends HttpServlet {
   
   /** Uploads a file to Cloud Storage and returns the uploaded file's URL. */
   private static String uploadToCloudStorage(String fileName, InputStream fileInputStream) {
-    String projectId = "happy-coding-gcloud");
+    String projectId = "happy-coding-gcloud";
     String bucketName = "happy-coding-gcloud.appspot.com";
     Storage storage =
         StorageOptions.newBuilder().setProjectId(projectId).build().getService();
