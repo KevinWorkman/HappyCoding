@@ -8,6 +8,7 @@ meta-title: Google Cloud Storage Tutorial
 meta-description: Let users upload images and other files.
 meta-image: /tutorials/google-cloud/images/blobstore-5.png
 previousPost: /tutorials/google-cloud/oauth-2
+nextPost: /tutorials/google-cloud/vision
 tags: [tutorial, javascript, google, cloud, cloud-storage]
 ---
 
