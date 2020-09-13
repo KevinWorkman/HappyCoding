@@ -26,6 +26,7 @@ public class NaturalLanguageHelloWorld {
     languageService.close();
 
     // Print the sentiment score
-    System.out.println("Score: " + sentiment.getScore());
+    float sentimentScore = sentiment.getScore();
+    System.out.println("Score: " + sentimentScore);
   }
 }
