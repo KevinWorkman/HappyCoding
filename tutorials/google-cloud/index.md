@@ -30,6 +30,7 @@ These tutorials have been updated to use the latest Cloud SDK.
 {% include url-thumbnail.html url="/tutorials/google-cloud/cloud-storage" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/vision" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/natural-language" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/translation" %}
 </div>
 
 ---
@@ -42,5 +43,4 @@ These tutorials use the deprecated standalone App Engine SDK. I'm in the middle 
 {% include url-thumbnail.html url="/tutorials/google-cloud/authentication" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/maps" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/blobstore" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/translation" %}
 </div>
