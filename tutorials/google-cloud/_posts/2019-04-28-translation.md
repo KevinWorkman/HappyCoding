@@ -8,6 +8,8 @@ meta-title: Google Translation API Tutorial
 meta-description: Use machine learning to translate text.
 meta-image: /tutorials/google-cloud/images/translation-3.png
 tags: [tutorial, javascript, google, cloud, translation]
+previousPost: /tutorials/google-cloud/natural-language
+lastUpdated: 2020-09-13
 ---
 
 {% include toc.md %}

@@ -9,6 +9,7 @@ meta-description: Use machine learning to analyze natural language.
 meta-image: /tutorials/google-cloud/images/natural-language-4.png
 tags: [tutorial, javascript, google, cloud, natural-language]
 previousPost: /tutorials/google-cloud/vision
+nextPost: /tutorials/google-cloud/translation
 lastUpdated: 2020-09-13
 ---
 
