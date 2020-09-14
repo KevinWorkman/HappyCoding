@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Translation</title>
+
+    <script>
+      function requestTranslation() {
+        // Get the user's input from the UI
+        const text = document.getElementById('text').value;
+        const languageCode = document.getElementById('language').value;
+
+        // Show a placeholder while waiting for the response
+        const resultContainer = document.getElementById('result');
+        resultContainer.innerText = 'Loading...';
+
+        // Build the request params
+        const params = new URLSearchParams();
+        params.append('text', text);
+        params.append('languageCode', languageCode);
+
+        // Send a POST request to the server
+        fetch('/translate', {
+          method: 'POST',
+          body: params
+        })
+        // Convert the response to plain text
+        .then(response => response.text())
+        // Show the translated text in the page
+        .then((translatedMessage) => {
+          resultContainer.innerText = translatedMessage;
+        });
+      }
+    </script>
+
+    <style>
+      #text {
+        width: 500px;
+        height: 125px;
+      }
+
+      #language {
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>Translation</h1>
+    <p>Type a message and select a language, then click submit to translate it.</p>
+
+    <textarea id="text"></textarea>
+
+    <select id="language">
+      <option value="en">English</option>
+      <option value="zh">Chinese</option>
+      <option value="es">Spanish</option>
+      <option value="hi">Hindi</option>
+      <option value="ar">Arabic</option>
+    </select>
+
+    <button onclick="requestTranslation();">Translate</button>
+
+    <hr/>
+    <div id="result"></div>
+  </body>
+</html>
