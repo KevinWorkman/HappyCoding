@@ -21,7 +21,7 @@ public class TranslationHelloWorld {
     // Get the translated text
     String translatedText = translation.getTranslatedText();
 
-    // Print the trsnalted text
+    // Print the translated text
     System.out.println("Translated text: " + translatedText);
   }
 }
