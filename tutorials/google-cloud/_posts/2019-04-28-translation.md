@@ -12,13 +12,13 @@ tags: [tutorial, javascript, google, cloud, translation]
 
 {% include toc.md %}
 
-[Cloud Translation](https://cloud.google.com/translate/) is a set of tools designed for translating text. These are the tools that [Google Translate](https://translate.google.com/) is built with, and the API allows us to programmatically translate text.
+[Cloud Translation](https://cloud.google.com/translate/) lets you translate text from one language to another. This is what [Google Translate](https://translate.google.com/) is built with, and the library lets you programmatically translate text.
 
-The Cloud Translation APIs use machine learning models that have already been trained, so you can skip straight to the fun stuff. It's also possible to train your own models (you can learn more about that [here](https://cloud.google.com/automl/)), but this guide is going to stick with the pre-trained models.
+The Cloud Translation API uses machine learning models that have already been trained, so you can skip straight to the fun stuff. It's also possible to train your own models (you can learn more about that [here](https://cloud.google.com/automl/)), but this guide is going to stick with the pre-trained models.
 
 # Enable Cloud Translation API
 
-Before we can use the Cloud Translation API, we have to enable it. Go here:
+Before you can use the Cloud Translation API, you have to enable it. Go here:
 
 https://console.cloud.google.com/apis/library/translate.googleapis.com
 
@@ -26,48 +26,86 @@ Make sure your project is selected, and click the `Enable` button.
 
 # Credentials
 
-The Cloud Translation API requires your Cloud project's credentials to work. When you deploy to App Engine this will work ~magically~ automatically, but when running or deploying locally you have to set your credentials manually. Follow the steps [here](https://cloud.google.com/docs/authentication/getting-started) to set up your local credentials.
+The Cloud Translation API requires your Cloud project's credentials to work. When you deploy to App Engine this works automatically, but when running or deploying locally you have to set your credentials manually. Follow the steps [here](https://cloud.google.com/translate/docs/setup#creating_service_accounts_and_keys) to set up your local credentials.
 
 **Important:** Before proceeding, make sure you have your `GOOGLE_APPLICATION_CREDENTIALS` environment variable set. Nothing will work without this.
 
 # Maven Dependency
 
-As mentioned above, the Cloud Translation API allows us to write code that translates text. It's available as a web service, or as a library that can be called from many languages. We're going to use it as a Java library.
+The Cloud Translation API is available as a web service, or as a library that can be called from many languages. This tutorial uses it as a Java library.
 
-To add the library to our classpath, we can use this maven dependency:
+To add the library to your classpath, add this maven dependency to your `pom.xml` file:
 
 ```xml
 <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-translate</artifactId>
-  <version>1.70.0</version>
+  <version>1.95.2</version>
 </dependency>
 ```
 
-You can read the documentation for the Java library [here](http://googleapis.github.io/google-cloud-java/google-cloud-clients/apidocs/com/google/cloud/translate/package-summary.html), but it's probably easiest to work through an example.
+# Standalone Hello World
 
-# Hello World
+You can call the Cloud Translation library from any Java code, including standalone (non-server) code. To see how the library works, let's start with that.
 
-(You can view the full source of this example [here](https://github.com/KevinWorkman/GoogleCloudExamples/tree/master/translation/hello-world).)
+You can view this example project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-standalone), or download it as a `.zip` file from DownGit [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-standalone).
+
+First, create a `String` that contains the text you want to translate:
 
 ```java
+String originalText = "Happy coding!";
+```
+
+Then create a `Translate` instance that you'll use to send the translation request:
+
+```java
+Translate translate = TranslateOptions.getDefaultInstance().getService();
+```
+
+Next, send the request to translate the text to a different language:
+
+```java
+Translation translation =
+  translate.translate(originalText, TranslateOption.targetLanguage("es"));
+```
+
+This code translates the text into Spanish using its language code `es`. See the [Language Codes](#language-codes) section below for more information about language codes.
+
+Finally, you can get the translated text:
+
+```java
+String translatedText = translation.getTranslatedText();
+System.out.println("Translated text: " + translatedText);
+```
+
+Putting it all together, it looks like this:
+
+```java
+package io.happycoding.translation;
+
 import com.google.cloud.translate.Translate;
 import com.google.cloud.translate.Translate.TranslateOption;
 import com.google.cloud.translate.TranslateOptions;
 import com.google.cloud.translate.Translation;
 
 public class TranslationHelloWorld {
-  public static void main(String[] args) throws Exception {
 
-    Translate translate = TranslateOptions.getDefaultInstance().getService();
+  public static void main(String[] args) {
 
     String originalText = "Happy coding!";
 
+    // Create an instance of Translate to send the translation request
+    Translate translate = TranslateOptions.getDefaultInstance().getService();
+    
+    // Translate into Spanish (es)
     Translation translation =
         translate.translate(originalText, TranslateOption.targetLanguage("es"));
+
+    // Get the translated text
     String translatedText = translation.getTranslatedText();
 
-    System.out.println(translatedText);
+    // Print the translated text
+    System.out.println("Translated text: " + translatedText);
   }
 }
 ```
@@ -75,7 +113,7 @@ public class TranslationHelloWorld {
 To run this example, first make sure your `GOOGLE_APPLICATION_CREDENTIALS` environment variable is set and that you've enabled the [Translation API](https://console.cloud.google.com/apis/library/translate.googleapis.com), and then execute this command:
 
 ```
-mvn clean compile exec:java
+mvn clean package exec:java
 ```
 
 You should see this printed to the console:
@@ -88,7 +126,7 @@ That's "Happy coding!" translated into Spanish!
 
 # Language Codes
 
-In the above example, we used `es` as the language code for Spanish. Where did this value come from?
+The above example used `es` as the language code for Spanish. Where did this value come from?
 
 This value comes from [ISO 639](https://en.wikipedia.org/wiki/ISO_639), a standard for language names. A language code is a 2-letter abbreviation that stands for a specific language. You can view a full list [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), but here are some examples:
 
@@ -100,15 +138,17 @@ This value comes from [ISO 639](https://en.wikipedia.org/wiki/ISO_639), a standa
 
 Try changing the above code to translate different strings into different languages.
 
-# Web App
+# Web App Hello World
 
-The above example performs sentiment analysis in a standard Java application. This is useful if you want to build a desktop application or analyze some text on your computer. But you can also use the Translation API in server code, which comes in handy if you want to build a web app.
+The above example performs sentiment analysis in a standalone Java application. This is useful if you want to build a desktop application or analyze some text on your own computer. But you can also use the Translation API in server code, which comes in handy if you want to build a web app.
 
-(You can download the full code for this example [here](https://github.com/KevinWorkman/GoogleCloudExamples/tree/master/translation/minimal-google-translate).)
+You can view this example project from [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp), or download it as a `.zip` file from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp).
 
 Let's start with the servlet:
 
 ```java
+package io.happycoding.servlets;
+
 import com.google.cloud.translate.Translate;
 import com.google.cloud.translate.TranslateOptions;
 import com.google.cloud.translate.Translation;
@@ -123,17 +163,17 @@ public class TranslationServlet extends HttpServlet {
 
   @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    // Get the request parameters.
+    // Get the request parameters
     String originalText = request.getParameter("text");
     String languageCode = request.getParameter("languageCode");
 
-    // Do the translation.
+    // Get the translation
     Translate translate = TranslateOptions.getDefaultInstance().getService();
     Translation translation =
         translate.translate(originalText, Translate.TranslateOption.targetLanguage(languageCode));
     String translatedText = translation.getTranslatedText();
 
-    // Output the translation.
+    // Output the translation
     response.setContentType("text/html; charset=UTF-8");
     response.setCharacterEncoding("UTF-8");
     response.getWriter().println(translatedText);
@@ -143,7 +183,7 @@ public class TranslationServlet extends HttpServlet {
 
 This servlet contains a `doPost()` function that's triggered when a `POST` request is sent to the `/translate` URL. This function gets the `originalText` and `languageCode` parameters from the request, translates the text, and then outputs the translation as the response.
 
-We could trigger this from a form submission, but in this case we use the `fetch()` function to send the request from JavaScript.
+You could trigger this from a form submission, but this example uses the `fetch()` function to send the request from JavaScript.
 
 **index.html**
 
@@ -156,20 +196,27 @@ We could trigger this from a form submission, but in this case we use the `fetch
 
     <script>
       function requestTranslation() {
+        // Get the user's input from the UI
         const text = document.getElementById('text').value;
         const languageCode = document.getElementById('language').value;
 
+        // Show a placeholder while waiting for the response
         const resultContainer = document.getElementById('result');
         resultContainer.innerText = 'Loading...';
 
+        // Build the request params
         const params = new URLSearchParams();
         params.append('text', text);
         params.append('languageCode', languageCode);
 
+        // Send a POST request to the server
         fetch('/translate', {
           method: 'POST',
           body: params
-        }).then(response => response.text())
+        })
+        // Convert the response to plain text
+        .then(response => response.text())
+        // Show the translated text in the page
         .then((translatedMessage) => {
           resultContainer.innerText = translatedMessage;
         });
@@ -197,7 +244,7 @@ We could trigger this from a form submission, but in this case we use the `fetch
     <textarea id="text"></textarea>
 
     <select id="language">
-      <option value="es">English</option>
+      <option value="en">English</option>
       <option value="zh">Chinese</option>
       <option value="es">Spanish</option>
       <option value="hi">Hindi</option>
@@ -212,20 +259,20 @@ We could trigger this from a form submission, but in this case we use the `fetch
 </html>
 ```
 
-This HTML contains a text area, a language dropdown, and a button. When the user clicks the button, we call the `fetch()` function to get the translation from the server, and we use the response to populate the result element at the bottom of the page.
+This HTML contains a text area, a language dropdown, and a button. When the user clicks the button, it calls the `requestTranslation()` function. That function then calls the `fetch()` function to get the translation from the server, and then uses the response to populate the result element at the bottom of the page.
 
 To run this example, first make sure your `GOOGLE_APPLICATION_CREDENTIALS` environment variable is set and that you've enabled the [Translation API](https://console.cloud.google.com/apis/library/translate.googleapis.com), and then execute this command:
 
 ```
-mvn appengine:devserver
+mvn clean package exec:java
 ```
 
-Then navigate to `localhost:8080`. You should see something like this:
+Then navigate to `localhost:8080/index.html`. You should see something like this:
 
 ![Minimal Google Translate page](/tutorials/google-cloud/images/translation-1.png)
 
 # Learn More
 
-- [Cloud Translation API documentation](https://cloud.google.com/translate/docs/)
-- [Google Cloud Java API](https://googleapis.github.io/google-cloud-java/google-cloud-clients/apidocs/index.html)
+- [Cloud Translation documentation](https://cloud.google.com/translate/docs/)
+- [Cloud Translation Javadoc](https://googleapis.dev/java/google-cloud-translate/latest/index.html)
 - [List of language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
