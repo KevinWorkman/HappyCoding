@@ -54,7 +54,7 @@ To add the library to your classpath, add this maven dependency to your `pom.xml
 
 You can call the Cloud Natural Language library from any Java code, including standalone (non-server) code. To see how the library works, let's start with that.
 
-You can view this example project here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone), or download it as a `.zip` file from DownGit [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
+You can view this example project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone), or download it as a `.zip` file from DownGit [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
 
 First, create a `String` that contains the text you want to analyze:
 
