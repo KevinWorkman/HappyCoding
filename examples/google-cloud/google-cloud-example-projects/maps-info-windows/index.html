@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Maps Info Window Example</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <script>
+    function createMap(){
+      const map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 37.422, lng: -122.084},
+        zoom: 16
+      });
+
+      const trexMarker = new google.maps.Marker({
+        position: {lat: 37.421903, lng: -122.084674},
+        map: map,
+        title: 'Stan the T-Rex'
+      });
+
+      var trexInfoWindow = new google.maps.InfoWindow({
+        content: 'This is Stan, the T-Rex statue.'
+      });
+      trexInfoWindow.open(map, trexMarker);
+    }
+  </script>
+  <style>
+    #map {
+      width: 500px;
+      height: 500px;
+      border: thin solid black;
+    }
+  </style>
+</head>
+<body onload="createMap();">
+  <h1>Google Maps Info Window Example</h1>
+  <div id="map"></div>
+</body>
+</html>
