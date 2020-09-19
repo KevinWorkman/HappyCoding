@@ -3,7 +3,7 @@ layout: tutorial
 title: Blobstore
 thumbnail: /tutorials/google-cloud/images/blobstore-4.png
 tagline: Allow users to upload images and other files.
-sort-key: 600
+sort-key: 1100
 meta-title: Google Blobstore Tutorial
 meta-description: Allow users to upload images and other files.
 meta-image: /tutorials/google-cloud/images/blobstore-5.png

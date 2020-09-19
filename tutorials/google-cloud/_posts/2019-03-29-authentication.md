@@ -3,7 +3,7 @@ layout: tutorial
 title: Authentication
 thumbnail: /tutorials/google-cloud/images/authentication-1.png
 tagline: Allow users to login.
-sort-key: 400
+sort-key: 1000
 meta-title: Google Authentication Tutorial
 meta-description: Allow users to login using the Google User API.
 meta-image: /tutorials/google-cloud/images/authentication-2.png
