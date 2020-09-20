@@ -12,4 +12,10 @@ sort-key: 700
 
 # Google Cloud Examples
 
+View the code for these projects [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects).
+
+Download all of the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects).
+
+---
+
 {% include url-thumbnail.html url="/examples/google-cloud/app-engine-hello-world" %}
