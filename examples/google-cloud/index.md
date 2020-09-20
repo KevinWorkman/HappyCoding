@@ -19,3 +19,4 @@ Download all of the code as a `.zip` from DownGit [here](https://downgit.github.
 ---
 
 {% include url-thumbnail.html url="/examples/google-cloud/app-engine-hello-world" %}
+{% include url-thumbnail.html url="/examples/google-cloud/cloud-storage-hello-world" %}
