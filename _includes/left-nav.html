@@ -65,7 +65,51 @@
           </ul>
         </li>
         <hr>
-        <li>{% include left-nav-link.html url="/examples/" %}</li>
+        <li>{% include left-nav-link.html url="/examples/" %}
+          <ul>
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/examples/processing/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.processing subsection="examples" %}
+            </li>
+
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/examples/html/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.html subsection="examples" %}
+            </li>
+
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/examples/javascript/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.javascript subsection="examples" %}
+            </li>
+
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/examples/p5js/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.p5js subsection="examples" %}
+            </li>
+
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/examples/java/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.java subsection="examples" %}
+            </li>
+
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/examples/java-server/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.java-server subsection="examples" %}
+            </li>
+
+            <li class="left-nav-section">
+              {% include left-nav-link.html url="/examples/google-cloud/" %}
+              {% include left-nav-section.html
+                   posts=site.categories.google-cloud subsection="examples" %}
+            </li>
+          </ul>
+        </li>
         <hr>
         <li>{%- include left-nav-link.html url="/gallery/" -%}</li>
         <hr>
