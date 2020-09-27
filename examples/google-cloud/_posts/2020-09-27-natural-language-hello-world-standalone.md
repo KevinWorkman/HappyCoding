@@ -3,7 +3,6 @@ layout: tutorial
 title: Natural Language Standalone Hello World
 thumbnail: /tutorials/google-cloud/images/natural-language-3.png
 tagline:  Use machine learning to analyze natural language.
-date: 2020-09-27
 sort-key: 300
 meta-title: Google Cloud Natural Language Standalone Hello World Example
 meta-description: Use machine learning to analyze natural language.
