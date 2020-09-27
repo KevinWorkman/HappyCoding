@@ -27,3 +27,5 @@ Download all of the code as a `.zip` from DownGit [here](https://downgit.github.
 {% include url-thumbnail.html url="/examples/google-cloud/maps-markers" %}
 {% include url-thumbnail.html url="/examples/google-cloud/maps-info-windows" %}
 {% include url-thumbnail.html url="/examples/google-cloud/maps-google-tour" %}
+
+{% include url-thumbnail.html url="/examples/google-cloud/natural-language-hello-world-standalone" %}
