@@ -24,5 +24,6 @@ Download all of the code as a `.zip` from DownGit [here](https://downgit.github.
 {% include url-thumbnail.html url="/examples/google-cloud/cloud-vision-hello-world-webapp" %}
 {% include url-thumbnail.html url="/examples/google-cloud/datastore-shoutbox-v2" %}
 {% include url-thumbnail.html url="/examples/google-cloud/maps-hello-world" %}
+{% include url-thumbnail.html url="/examples/google-cloud/maps-markers" %}
 {% include url-thumbnail.html url="/examples/google-cloud/maps-info-windows" %}
 {% include url-thumbnail.html url="/examples/google-cloud/maps-google-tour" %}
