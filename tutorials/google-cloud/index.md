@@ -18,9 +18,7 @@ Google Cloud contains a lot of really fun stuff, but it's not exactly friendly t
 
 The full code for the examples used in these tutorials is available [here](https://github.com/KevinWorkman/GoogleCloudExamples).
 
-## Updated Tutorials
-
-These tutorials have been updated to use the latest Cloud SDK.
+These tutorials have been updated to use Java 11 and the latest Cloud SDK.
 
 <div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/google-cloud/setup" %}
@@ -38,9 +36,10 @@ These tutorials have been updated to use the latest Cloud SDK.
 
 ## Legacy Tutorials
 
-These tutorials use the deprecated standalone App Engine SDK. I'm in the middle of updating these, so check back soon!
+These tutorials use Java 8 and the standalone App Engine SDK, which is now deprecated. I'm leaving these for reference.
 
 <div class="thumbnail-link-container">
+{% include url-thumbnail.html url="/tutorials/google-cloud/java-8/setup" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/authentication" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/blobstore" %}
 </div>
