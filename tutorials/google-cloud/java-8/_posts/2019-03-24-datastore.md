@@ -7,6 +7,8 @@ sort-key: 2300
 meta-title: Google Datastore Tutorial
 meta-description: Store data using Google Datastore.
 meta-image: /tutorials/google-cloud/images/datastore-2.png
+previousPost: /tutorials/google-cloud/java-8/app-engine
+nextPost: /tutorials/google-cloud/java-8/authentication
 tags: [tutorial, java, server, google, cloud, datastore, database]
 ---
 

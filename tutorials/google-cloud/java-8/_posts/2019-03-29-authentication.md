@@ -7,6 +7,8 @@ sort-key: 2400
 meta-title: Google Authentication Tutorial
 meta-description: Allow users to login using the Google User API.
 meta-image: /tutorials/google-cloud/images/authentication-2.png
+previousPost: /tutorials/google-cloud/java-8/datastore
+nextPost: /tutorials/google-cloud/java-8/blobstore
 tags: [tutorial, java, server, google, cloud, authentication]
 ---
 

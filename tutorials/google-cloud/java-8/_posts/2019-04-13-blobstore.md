@@ -7,6 +7,8 @@ sort-key: 2600
 meta-title: Google Blobstore Tutorial
 meta-description: Allow users to upload images and other files.
 meta-image: /tutorials/google-cloud/images/blobstore-5.png
+previousPost: /tutorials/google-cloud/java-8/authentication
+nextPost: /tutorials/google-cloud/
 tags: [tutorial, javascript, google, cloud, blobstore]
 ---
 

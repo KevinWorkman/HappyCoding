@@ -7,6 +7,8 @@ sort-key: 2200
 meta-title: Google App Engine Tutorial
 meta-description: Deploy your web app on Google App Engine.
 meta-image: /tutorials/java-server/images/hosting-google-app-engine-6.png
+previousPost: /tutorials/google-cloud/java-8/setup
+nextPost: /tutorials/google-cloud/java-8/datastore
 tags: [tutorial, java, server, google, cloud, app-engine]
 ---
 
