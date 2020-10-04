@@ -25,4 +25,6 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 
 {% include url-thumbnail.html url="/gallery/music/index" %}
 
+{% include url-thumbnail.html url="/gallery/emojavoid-ld-47/index" %}
+
 {% include url-thumbnail.html url="/gallery/links" %}
