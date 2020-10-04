@@ -41,6 +41,7 @@ These tutorials use Java 8 and the standalone App Engine SDK, which is now depre
 <div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/google-cloud/java-8/setup" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/java-8/app-engine" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/java-8/datastore" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/authentication" %}
 {% include url-thumbnail.html url="/tutorials/google-cloud/blobstore" %}
 </div>
