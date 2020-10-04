@@ -1,9 +1,9 @@
 ---
 layout: tutorial
-title: Authentication
+title: Authentication (Java 8)
 thumbnail: /tutorials/google-cloud/images/authentication-1.png
 tagline: Allow users to login.
-sort-key: 1000
+sort-key: 2400
 meta-title: Google Authentication Tutorial
 meta-description: Allow users to login using the Google User API.
 meta-image: /tutorials/google-cloud/images/authentication-2.png
