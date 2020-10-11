@@ -35,7 +35,15 @@ These tutorials have been updated to use Java 11 and the latest Cloud SDK.
 
 ---
 
-## Legacy Tutorials
+# Migrating Google Cloud from Java 8 to Java 11
+
+Have an existing Java 8 Google Cloud project that you want to migrate to Google Cloud's Java 11 runtime? Follow this guide:
+
+{% include url-thumbnail.html url="/tutorials/google-cloud/migrating-to-java-11" %}
+
+---
+
+# Legacy Java 8 Tutorials
 
 These tutorials use Java 8 and the standalone App Engine SDK, which is now deprecated. I'm leaving these for reference.
 
