@@ -133,7 +133,7 @@ public class ServerMain {
 }
 ```
 
-This code uses [Jetty](https://www.eclipse.org/jetty/) to create a server. It loads static resource from inside the jar file, and looks for servlet classes with the `@WebServlet` annotation.
+This code uses [Jetty](https://www.eclipse.org/jetty/) to create a server. It loads static resources from inside the jar file, and looks for servlet classes with the `@WebServlet` annotation.
 
 This `main` method runs a **server**, which is a program that **serves** content when users request a particular URL. When you run locally, your computer acts as the server. When you deploy to App Engine, a computer inside Google's infrastructure acts as the server.
 
