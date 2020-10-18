@@ -2,140 +2,483 @@
 layout: tutorial
 title: Using Objects
 slug: using-objects
-thumbnail: /tutorials/processing/images/using-objects-2.png
-tagline: Store a state (not just a value) in a variable.
+thumbnail: /tutorials/processing/images/using-objects-2.gif
+tagline: Group related variables together.
 sort-key: 1100
 meta-title: Using Objects
-meta-description: Learn how to use objects to store a state (not just a value) in Processing.
+meta-description: Learn how to use objects to group related variables together.
 meta-image: /examples/processing/using-objects/images/eyes-5.png
-tags: [tutorial,processing,basic]
+lastUpdated: 2020-10-18
+tags: [tutorial, processing, objects]
 ---
 
 {% include toc.md %}
 
-We've now learned how to use variables, functions, and `if` statements. We know how to modify variables over time to create animations, and we know how to get user input.
+Now you know how to [create variables](/tutorials/processing/creating-variables) including [arrays](/tutorials/processing/arrays), and you know how to use [`for` loops](http://localhost:4000/tutorials/processing/for-loops) to repeat some code for each element in an array.
 
-We know that variables and values have a type, which tells the computer what kind of value it is. We also know how to use arrays to create a variable that holds multiple values.
+You know that variables and values have a **type**, which tells the computer what kind of value it is.
 
-This tutorial introduces a new kind of type: objects. Objects help you organize a group of related variables and functions into one unit, which allows you to do more complicated things with your code.
+This tutorial introduces a new kind of type: objects. Objects help you combine a group of related variables and functions into one unit, which helps you organize your code.
 
-## Primitive Types
+# Primitive Types
 
-So far, the types we've been using have been **primitive types**. A primitive type holds a single, standalone value. There isn't any extra information associated with a primitive type. A primitive value of `7` is the same value as any other primitive value of `7`.
-
-In other words, primitive values have no **state** associated with them.
-
-## States
-
-Think of a state as a description of something. It's like a picture, or a set of facts about a particular item (or person, place, thing...). Think about how you would describe your state right now: How old are you? What color shirt are you wearing? Are you sitting or standing?
-
-The value of any one of those items might be a primitive: Maybe you're 30 years old, and `30` by itself is a primitive. Maybe you're wearing a `blue` shirt, and `blue` by itself is a primitive (or three primitives representing RGB). Maybe you're sitting down, so we'd just store that as a `boolean` value of `true`, which is a primitive.
-
-But the collection of all of those facts together represent your current state. In programming, we represent states using objects.
-
-## Classes and Instances
-
-Think about how we describe the state of objects in real life. For example, we know that cats have colored fur, as well as a weight, and a size. In other words, **the concept of "cat" describes what type of information the state for a particular cat will hold.** Then when we describe a particular cat, we fill in the blanks in that state: my cat Stanley has tan fur, weights about 14 pounds, and is about a foot long. A different cat might have orange and black stripes, weigh 200 pounds, and be six feet long.
-
-We describe the state of objects in code in a similar way. We use **classes** to describe what type of information the state for a particular object can hold, and we use **instances** to fill in the blanks of that state to describe a particular object.
-
-A class holds the variables that represent a concept: a `Cat` class might have `furColor`, `weight`, and `size` variables. We create instances of that class by filling in those blanks: a variable of type `Cat` named `stanley` might have `furColor = tan`, `weight = 14lbs`, and `size = 16inches`. We might also have a different variable of type `Cat` named `tiger` that holds a different state!
-
-Think about classes and instances like this:
-
-- Classes are types, similar to primitive types like `int` and `float`. And just like primitive types, class types tell Processing what kind of value a variable will hold. 
-
-- Instances are values, similar to primitive values like '7' and '3.14`.
-
-## Creating Instances
-
-Let's start with an example program that stores the state of a circle (in this case, its position) in two variables:
+So far, you've been using **primitive types** like `float` and `boolean`. A primitive type holds a single, standalone value. For example:
 
 ```java
-float circleX = 50;
-float circleY = 25;
-ellipse(circleX, circleY, 15, 15);
+float x = 7;
 ```
 
-![circle](/tutorials/processing/images/using-objects-1.png)
+When you read this line of code, you know that `x` holds a primitive value of `7`, but you don't know whether there's an associated `y` value. It's a single value, without any extra information.
 
-This is a very simple example, but imagine it getting more complicated as we add speed, color, and size, along with multiple circles. Eventually we'll want to store all of that in objects, but for now let's just use the two position values as an example.
+# Example
 
-The `circleX` and `circleY` variables represent the state of the circle, and we want to store that state in an object instead. So we need a **class** that contains `x` and `y` variables. Luckily, Processing has a **class** named `PVector` that represents a position.
-
-To create an **instance** of the `PVector` class, we declare a variable of type `PVector`, then initialize it to the value returned from the `PVector` constructor, which takes two parameters:
+Let's start with some code that uses two primitive values to show a falling circle:
 
 ```java
-PVector circlePosition = new PVector(50, 25);
+float x;
+float y;
+
+void setup(){
+  size(300, 300);
+  x = width / 2;
+  y = height / 2;
+}
+
+void draw(){
+  y++;
+  if(y > height){
+    y = 0;
+  }
+
+  background(100);
+  ellipse(x, y, 100, 100);
+}
 ```
 
-This line of code uses the `new` keyword to call the `PVector` constructor, which takes two parameters: and x and a y. The `circlePosition` variable points to a `PVector` object with an x of `50` and a `y` of `25`.
+{% include codepen-new.html slug-hash="ExyyZvR" height="300" %}
 
-## Using Instances
+This code uses primitive `x` and `y` variables to represent the position of a falling circle.
 
-A class tells us what variables a state has, and an instance gives values to those variables to describe a particular object.
+# The Bad Way: Parallel Arrays
 
-Once we have a variable that points to an instance, we can access the variables of that instance using the **dot operator** and then the name of the variable.
+Next, let's say you wanted to show multiple falling circles instead of just one. You might use one array to hold x values, and another array to hold y values:
 
 ```java
-ellipse(circlePosition.x, circlePosition.y, 15, 15);
+float[] xArray;
+float[] yArray;
+float circleCount = 10;
+  
+void setup() {
+  size(300, 300);
+  xArray = new float[circleCount];
+  yArray = new float[circleCount];
+  
+  for(int i = 0; i < circleCount; i++) {
+    xArray[i] = random(width);
+    yArray[i] = random(height);
+  }
+}
+  
+void draw() {
+  background(100);
+  
+  for(int i = 0; i < circleCount; i++) {
+    yArray[i]++;
+    if(yArray[i] > height) {
+      yArray[i] = 0;
+    }
+
+    ellipse(xArray[i], yArray[i], 25, 25);
+  }
+}
 ```
 
-## Different instances can have different values!
+{% include codepen-new.html slug-hash="QWENRPy" height="300" %}
 
-Different cats can have different colored fur, sizes, weights, and names. Similarly, different instances of the same class can have different values for the variables in that class. So we could do something like this:
+This code uses two arrays: one that holds the x values of the circles, and another that holds the y values. This approach of using multiple arrays to hold related data is called **parallel arrays**. This approach works, but it's generally considered a bad idea because it can be difficult to understand code that uses a bunch of different arrays.
+
+# Classes
+
+You know that a type tells the computer what kind of value a variable will hold. You've seen primitive types like `float` and `boolean`.
+
+Primitive types hold a single value, and **object types** hold multiple related values. But how do you know what those related values are?
+
+A **class** tells you about a particular object type. Similar to how you looked up primitive types in [the reference](https://processing.org/reference/), you can also find classes in the reference.
+
+Specifically, let's look at the [PVector](https://processing.org/reference/PVector.html) class.
+
+# Instances
+
+A class is like a template that tells you what's available inside an object. For example, [the PVector reference](https://processing.org/reference/PVector.html) tells you that the `PVector` class contains `x`, `y`, and `z` fields.
+
+That means you can create a variable with an object type of `PVector`, and that variable will contain `x`, `y`, and `z` fields.
+
+To create an object, use the **`new`** keyword, followed by the name of the class, followed by parentheses `()` similar to a function call:
 
 ```java
-PVector redCircle = new PVector(25, 25);
-PVector greenCircle = new PVector(75, 25);
-PVector blueCircle = new PVector(25, 75);
-PVector yelllowCircle = new PVector(75, 75);
-
-fill(255, 0, 0);
-ellipse(redCircle.x, redCircle.y, 40, 40);
-
-fill(0, 255, 0);
-ellipse(greenCircle.x, greenCircle.y, 40, 40);
-
-fill(0, 0, 255);
-ellipse(blueCircle.x, blueCircle.y, 40, 40);
-
-fill(255, 255, 0);
-ellipse(yelllowCircle.x, yelllowCircle.y, 40, 40);
+PVector myVector = new PVector();
 ```
 
-This code creates four instances of `PVector`, each with different `x,y` coordinates.
+The `myVector` variable is of type `PVector`, and this code uses the `new` keyword along with the `PVector` class name to create an object with `x`, `y`, and `z` fields. This is called an **instance** of the `PVector` class.
 
-![four circles](/tutorials/processing/images/using-objects-2.png)
-
-{% include codepen.html slug-hash="NRajBb" height="175" %}
-
-## Objects have functions
-
-In addition to containing variables, objects can also contain functions. Usually a function inside an object modifies the state of the object by changing the variables, or it does something based on the state.
-
-To call an instances's function, you use the **dot operator**, then the name of the function, then any parameters the function requires in parentheses `()`.
-
-For example, the `PVector` class has an `add()` function that adds values to its `x,y` position:
+Now that you have this variable, you can use the **dot operator** to set the fields of that instance:
 
 ```java
-PVector circlePosition = new PVector(37, 5);
-circlePosition.add(13, 20);
-ellipse(circlePosition.x, circlePosition.y, 15, 15);
+myVector.x = 150;
+myVector.y = 200;
 ```
 
-This program creates a `PVector` representing position `37,5`, then adds `13,20` to that position, making it `50,25` when we access the `x` and `y` variables.
+Now the `myVector` variable holds a `PVector` instance with an `x` value of `150` and a `y` value of `200`.
 
-![circle](/tutorials/processing/images/using-objects-3.png)
+(You could also set the `z` field, but the example only needs `x` and `y` so you can ignore `z` for now.)
 
-## Object Oriented Programming
+You can also use the dot operator to access those fields, and you can pass them into a function just like any other value:
 
-The examples in this tutorial are purposely oversimplified, since learning about objects can already be very confusing. This isn't just learning a new syntax, it's also learning **a new way of thinking about the world**, or at least thinking about programming.
+```java
+ellipse(myVector.x, myVector.y, 100, 100);
+```
 
-## Homework
+Putting it all together, it looks like this:
+
+```java
+size(300, 300);
+
+PVector myVector = new PVector();
+myVector.x = 150;
+myVector.y = 200;
+
+background(100);
+ellipse(myVector.x, myVector.y, 100, 100);
+```
+
+{% include codepen-new.html slug-hash="pobyXNw" height="300" %}
+
+This code creates a `myVector` variable with an object type of `PVector`, and uses the `new` keyword to create an instance of the `PVector` class. It then sets the `x` and `y` fields of that instance, and then uses that instance to draw a circle.
+
+## Constructors
+
+Take a closer look at this line:
+
+```java
+PVector myVector = new PVector();
+```
+
+The `new` keyword tells the computer to create a new instance, and the `PVector()` part tells the computer what class to create an instance of. The `PVector()` part is also called a **constructor** because it constructs the instance.
+
+The above constructor does not take any parameters, and the `x`, `y`, and `z` fields inside the instance it creates will point to default values of `0`. This is also called a no-args constructor.
+
+But like functions, constructors can also take arguments, passed in as comma-separated values inside the `()` parentheses. The constructor section of [the PVector reference](https://processing.org/reference/PVector.html) tells you what parameters the `PVector` constructor can take.
+
+For example, instead of setting the `myVector.x` and `myVector.y` values yourself, you can pass them into the `PVector` constructor:
+
+```java
+size(300, 300);
+
+PVector myVector = new PVector(150, 200);
+
+background(100);
+ellipse(myVector.x, myVector.y, 100, 100);
+```
+
+And here's the original example using a `PVector` instance:
+
+```java
+PVector circle;
+
+void setup(){
+  size(300, 300);
+  circle = new PVector(width / 2, height / 2);
+}
+
+void draw(){
+  circle.y++;
+  if(circle.y > height){
+    circle.y = 0;
+  }
+
+  background(100);
+  ellipse(circle.x, circle.y, 100, 100);
+}
+```
+
+{% include codepen-new.html slug-hash="rNLLjvv" height="300" %}
+
+This code uses a `PVector` instance to represent a falling circle.
+
+# Multiple Instances
+
+One of the most important concepts to understand with objects is that each instance is independent of other instances of the same class. Changing one instance doesn't change the other instances.
+
+For example, this code creates two `PVector` instances:
+
+```java
+PVector redCircle;
+PVector blueCircle;
+
+void setup() {
+  size(300, 300);
+  redCircle = new PVector(100, 150);
+  blueCircle = new PVector(150, 100);
+}
+  
+void draw() {
+  redCircle.x++;
+  if(redCircle.x > width) {
+    redCircle.x = 0;
+  }
+  
+  blueCircle.y++;
+  if(blueCircle.y > height) {
+    blueCircle.y = 0;
+  }
+  
+  background(100);
+
+  fill(255, 0, 0);
+  ellipse(redCircle.x, redCircle.y, 100, 100);
+
+  fill(0, 0, 255);
+  ellipse(blueCircle.x, blueCircle.y, 100, 100);
+}
+```
+
+{% include codepen-new.html slug-hash="KKMzjQX" height="300" %}
+
+This code creates two `PVector` variables, each pointing to a different `PVector` instance. Notice that the red circle and the blue circle are independent. Updating the red circle does not update the blue circle, and vice-versa.
+
+This is a powerful idea, and it lets you organize your code as it gets more complicated. It's also pretty confusing, and "thinking in objects" can take some time. Try changing the above code to add a green circle using a third `PVector` instance.
+
+# The Good Way: Object Arrays
+
+Just like you can create an array of primitive values, you can also create an array of objects:
+
+```java
+PVector[] circles = new PVector[10];
+```
+
+This line of code creates a `circles` variable that points to an array that can hold 10 instances of the `PVector` class.
+
+```java
+for(int i = 0; i < circles.length; i++) {
+  circles[i] = new PVector(random(width), random(height));
+}
+```
+
+This `for` loop fills the array with `PVector` instances. Each instance contains a random `x` and `y` value.
+
+Then you can loop over the array to move and draw each circle:
+
+```java
+for(int i = 0; i < circles.length; i++) {
+  circles[i].y++;
+  if(circles[i].y > height) {
+    circles[i].y = 0;
+  }
+
+  ellipse(circles[i].x, circles[i].y, 25, 25);
+}
+```
+
+Putting it all together, it looks like this:
+
+```java
+PVector[] circles = new PVector[10];
+
+void setup() {
+  size(300, 300);
+
+  for(int i = 0; i < circles.length; i++) {
+    circles[i] = new PVector(random(width), random(height));
+  }
+}
+  
+void draw() {
+  background(100);
+  
+  for(int i = 0; i < circles.length; i++) {
+    circles[i].y++;
+    if(circles[i].y > height) {
+      circles[i].y = 0;
+    }
+
+    ellipse(circles[i].x, circles[i].y, 25, 25);
+  }
+}
+```
+
+{% include codepen-new.html slug-hash="dyXMBex" height="300" %}
+
+# Thinking in Objects
+
+Objects are a new way of organizing your code, but more importantly, they're a new way of **thinking** about your code.
+
+For example, when you think of a bunch of falling circles, you probably don't think of them as a bunch of x values and a bunch of y values. You probably think of each circle as a cohesive unit, where each unit has an x and y value. Objects let you structure your code closer to how you structure the ideas in your brain.
+
+This new way of thinking can be really confusing; I remember being really frustrated by it when I first started learning. But I also remember having an "ah-ha!" moment after working with objects for a while where I finally understood them, and I honestly believe that it has affected the way I've thought about not just code, but also the real world ever since.
+
+So if all of this still feels confusing, that's okay! It'll become more natural as you write more code and see more examples that use objects.
+
+This way of "thinking in objects" is called [object oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) and it's at the core of many languages and libraries.
+
+# NullPointerException
+
+Like I've said [before](/tutorials/processing/debugging), encountering errors and needing to debug problems is a normal part of writing code. And now that you're using objects, you're very likely to encounter a new type of error: the dreaded `NullPointerException`.
+
+For example, what do you expect happens when you run this code?
+
+```java
+PVector myVector;
+
+void setup() {
+  size(300, 300);
+}
+
+void draw() {
+  ellipse(myVector.x, myVector.y, 100, 100);
+}
+```
+
+You might expect this sketch to draw a circle in the upper-left corner, with an `x` and `y` value of `0`. Instead, if you try to run this program, you'll get this error:
+
+```
+NullPointerException
+```
+
+## Default Values and Null
+
+To understand this error, think about the default values of sketch-level variables. For primitive number types like `float`, the default value is `0`, and for primitive `boolean` values, the default value is `false`. For object types, the default value is **`null`** which means that it's not pointing at any instance yet.
+
+```java
+float myNumber;
+boolean myBoolean;
+PVector myVector;
+
+void setup() {
+  size(300, 300);
+}
+
+void draw() {
+  background(50);
+  textSize(32);
+  text("myNumber: " + myNumber, 25, 75);
+  text("myBoolean: " + myBoolean, 25, 150);
+  text("myVector: " + myVector, 25, 225);
+}
+```
+
+![default values](/tutorials/processing/images/using-objects-1.png)
+
+In other words, if you don't specify a value, then you can pretend that you've specified the defaults:
+
+```java
+float myNumber = 0;
+boolean myBoolean = false;
+PVector myVector = null;
+```
+
+The `NullPointerException` error is caused by trying to use the dot operator on an object variable that points to `null`.
+
+That's why this code generates a `NullPointerException`:
+
+```java
+PVector myVector;
+
+void setup() {
+  size(300, 300);
+}
+
+void draw() {
+  ellipse(myVector.x, myVector.y, 100, 100);
+}
+```
+
+This code tries to get the `x` and `y` values of `myVector` which is set to the default value of `null`. And since `null` means that no object has been created, the computer doesn't have an object to "ask" for its `x` and `y` values, so it generates the `NullPointerException` instead.
+
+To fix a `NullPointerException`, you need to make sure any object variables you're using are pointing to an instance:
+
+```java
+PVector myVector;
+
+void setup() {
+  size(300, 300);
+  myVector = new PVector(width / 2, height / 2);
+}
+
+void draw() {
+  ellipse(myVector.x, myVector.y, 100, 100);
+}
+```
+
+Also note that the same thing is true of object arrays! For example:
+
+```java
+PVector[] circles = new PVector[10];
+```
+
+This line of code creates an array that can hold 10 `PVector` instances, but by default each index in the array points to `null` (in other words, doesn't point to anything). If you tried to use one of those elements:
+
+```java
+ellipse(circles[0].x, circles[0].y, 100, 100);
+```
+
+You would get a `NullPointerException` because the element is `null`. That's why you need to fill the array with instances first:
+
+```java
+for(int i = 0; i < circles.length; i++) {
+  circles[i] = new PVector(random(width), random(height));
+}
+```
+
+When you encounter a `NullPointerException`, try using `println()` statements to figure out which variable is `null`, and then make sure that variable points to an instance instead of `null`.
+
+You can learn more about debugging here:
+
+{% include url-thumbnail.html url="/tutorials/processing/debugging" %}
+
+# Object Functions
+
+Now you've seen that classes contain fields. For example, the `PVector` class contains `x`, `y`, and `z` fields. Each instance of the `PVector` class is an object that contains its own `x`, `y`, and `z` fields, and each instance is independent of other instances.
+
+In addition to containing fields, classes can also contain functions. Functions inside a class usually modify the state of an instance by changing the values of its fields, or they take some action based on the values of the fields.
+
+As always, the Processing reference is your best friend. [The PVector reference](https://processing.org/reference/PVector.html) lists all of the functions you can call for instances of the `PVector` class. For example, the `PVector` class provides an [add()](https://processing.org/reference/PVector_add_.html) function that adds values to the `x`, `y`, and `z` fields of a specific instance.
+
+To call an instance's function, use the **dot operator**, then the name of the function, then any parameters the function requires in parentheses `()`.
+
+```java
+PVector circle;
+
+void setup(){
+  size(300, 300);
+  circle = new PVector(width / 2, height / 2);
+}
+
+void draw(){
+  circle.add(0, 1);
+  
+  if(circle.y > height){
+    circle.y = 0;
+  }
+
+  background(100);
+  ellipse(circle.x, circle.y, 100, 100);
+}
+```
+
+{% include codepen-new.html slug-hash="ExyyNoW" height="300" %}
+
+Specifically, notice this line of code:
+
+```java
+circle.add(0, 1);
+```
+
+This line of code calls the `add()` function on the `circle` variable, which points to an instance of the `PVector` class. The `0` and `1` represent how much to add to the instance's `x` and `y` fields respectively. After this line of code, the `y` field inside the `circle` instance will increase by `1`.
+
+This might not seem very useful yet, but it comes in handy when you start using more complicated objects.
+
+# Homework
 
 - What is the difference between a class and an instance?
-- Think about some real life objects. What variables would be in their class? What values would instances have?
-- Write a program that shows balls bouncing around the screen. Use an array of `PVector` instances to track them.
-
-# Next: [Creating Classes](/tutorials/processing/creating-classes)
+- Think about some real life objects. What fields would be in their class? What values would instances of that class have?
+- Modify the above program to use the `z` field of the `PVector` class to hold a different size or speed for each falling circle.
