@@ -24,6 +24,7 @@ New to coding? Start here!
 {% include url-thumbnail.html url="/tutorials/p5js/input" %}
 {% include url-thumbnail.html url="/tutorials/p5js/for-loops" %}
 {% include url-thumbnail.html url="/tutorials/p5js/arrays" %}
+{% include url-thumbnail.html url="/tutorials/p5js/using-objects" %}
 
 More coming soon!
 
