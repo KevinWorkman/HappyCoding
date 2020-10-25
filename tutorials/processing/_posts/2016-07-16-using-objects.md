@@ -1,7 +1,6 @@
 ---
 layout: tutorial
 title: Using Objects
-slug: using-objects
 thumbnail: /tutorials/processing/images/using-objects-2.gif
 tagline: Group related variables together.
 sort-key: 1100
@@ -14,7 +13,7 @@ tags: [tutorial, processing, objects]
 
 {% include toc.md %}
 
-Now you know how to [create variables](/tutorials/processing/creating-variables) including [arrays](/tutorials/processing/arrays), and you know how to use [`for` loops](http://localhost:4000/tutorials/processing/for-loops) to repeat some code for each element in an array.
+Now you know how to [create variables](/tutorials/processing/creating-variables) including [arrays](/tutorials/processing/arrays), and you know how to use [`for` loops](/tutorials/processing/for-loops) to repeat some code for each element in an array.
 
 You know that variables and values have a **type**, which tells the computer what kind of value it is.
 
@@ -50,7 +49,7 @@ void draw(){
     y = 0;
   }
 
-  background(100);
+  background(50);
   ellipse(x, y, 100, 100);
 }
 ```
@@ -80,7 +79,7 @@ void setup() {
 }
   
 void draw() {
-  background(100);
+  background(50);
   
   for(int i = 0; i < circleCount; i++) {
     yArray[i]++;
@@ -314,7 +313,7 @@ Objects are a new way of organizing your code, but more importantly, they're a n
 
 For example, when you think of a bunch of falling circles, you probably don't think of them as a bunch of x values and a bunch of y values. You probably think of each circle as a cohesive unit, where each unit has an x and y value. Objects let you structure your code closer to how you structure the ideas in your brain.
 
-This new way of thinking can be really confusing; I remember being really frustrated by it when I first started learning. But I also remember having an "ah-ha!" moment after working with objects for a while where I finally understood them, and I honestly believe that it has affected the way I've thought about not just code, but also the real world ever since.
+This new way of thinking can be confusing. I remember being frustrated by it when I first started learning. But I also remember having an *"ah-ha!"* moment after working with objects for a while, where I finally understood them. I honestly believe that it has affected the way I've thought about not just code, but also the real world ever since.
 
 So if all of this still feels confusing, that's okay! It'll become more natural as you write more code and see more examples that use objects.
 
