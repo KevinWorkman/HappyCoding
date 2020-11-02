@@ -489,6 +489,10 @@ class Circle {
 
 Now if you want to add more circles, you only have to change the size of the array. And if you want to modify the logic of every circle (to wrap to the left side of the screen when it goes off the right side, or to change color, or to change size), then you only have to change the code in one place: inside the `Circle` class. That's encapsulation!
 
+# Thinking in Objects
+
+The important thing to understand about objects is that each instance is a self-contained unit. Changing one instance, either by modifying its fields directly or by calling its `move()` function , does not change the other instances. That's why you can have many circle instances bouncing around the screen, all with their own internal values for their `x` and `y` fields.
+
 # Objects can contain other objects!
 
 So far, the `Circle` class has contained four primitive fields representing its state: `x`, `y`, `xSpeed`, and `ySpeed`. But nothing prevents you from using other objects inside your class!
