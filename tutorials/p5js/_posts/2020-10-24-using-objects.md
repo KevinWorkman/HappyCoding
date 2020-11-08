@@ -10,6 +10,7 @@ meta-image: /examples/processing/using-objects/images/eyes-5.png
 tags: [tutorial, p5.js, javascript, objects]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
+nextPost: /tutorials/p5js/creating-classes
 ---
 
 {% include toc.md %}
