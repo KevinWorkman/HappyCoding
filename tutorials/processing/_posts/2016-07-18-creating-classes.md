@@ -1,15 +1,14 @@
 ---
 layout: tutorial
 title: Creating Classes
-slug: creating-classes
 thumbnail: /tutorials/processing/images/creating-classes-4.gif
 tagline: Create blueprints for your own objects.
 sort-key: 1200
-meta-title: Creating Classes
+meta-title: Creating Classes in Processing
 meta-description: Learn how to create classes in Processing.
 meta-image: /tutorials/processing/images/creating-classes-3.png
 previousPost: /tutorials/processing/using-objects
-tags: [tutorial,processing,objects]
+tags: [tutorial, processing, objects]
 lastUpdated: 2020-10-25
 ---
 
@@ -19,7 +18,7 @@ Now you know how to [use classes](/tutorials/processing/using-objects) like the 
 
 Predefined classes like `PVector` are useful, but you'll likely encounter situations where you need a set of fields that are not captured by any existing classes. For example, `PVector` gives you `x` and `y` fields, but what if you also wanted your object to contain `r`, `g`, and `b` fields so each instance had its own color? 
 
-This tutorial teaches you how to define your own classes, which lets you group any set of fields you can think of.
+This tutorial teaches you how to define your own classes, which lets you group together any set of fields you can think of.
 
 # State
 
@@ -55,7 +54,7 @@ void draw() {
 
 {% include codepen-new.html slug-hash="VwjpaVK" height="300" %}
 
-This program uses four variables to store the state of a circle that bounces around the window.
+This sketch uses four variables to store the state of a circle that bounces around the window.
 
 ![bouncing ball](/tutorials/processing/images/creating-classes-1.gif)
 
@@ -169,7 +168,7 @@ Now you know how to define a class that contains a certain set of variables. You
 
 But you can shorten this code by defining a constructor that takes these values as parameters, so that you don't have to set each one individually.
 
-A constructor looks a lot like a method, except it doesn't have a return type and it's always the same name as the class. Most constructors take values as parameters and use those to set class-level variables to store the state of the object.
+A constructor looks a lot like a function, except it doesn't have a return type and it's always the same name as the class. Most constructors take values as parameters and use those to set class-level variables to store the state of the object.
 
 ```java
 class Circle {
@@ -272,7 +271,7 @@ this.x = x;
 
 This line of code tells the computer to set the class-level variable `x` to the value of the parameter variable `x`.
 
-If `this` is confusing, you can avoid this problem by giving your constructor parameters different names than the class variables. But this pattern of using the same name for class variables and constructor arguments is very common, so you're likely to encounter it in code written by other people.
+If `this` is confusing, you can avoid this problem by giving your constructor parameters different names than the class variables. But this pattern of using the same name for class variables and constructor arguments is very common, so you'll likely tencounter it in code written by other people.
 
 # Class Functions
 
@@ -392,7 +391,7 @@ This process of including everything about an object inside a class is called **
 
 ```java
 void draw() {
-  background(200);
+  background(50);
   circle.move();
   circle.display();
 }
@@ -412,7 +411,7 @@ To do that, you can use an array that holds `Circle` instances.
 Circle[] circles = new Circle[10];
 ```
 
-This line of code creates an array empty that can hold ten `Circle` instances. This doesn't create any `Circle` instances yet! You still have to create the instances and add them to the array:
+This line of code creates an empty array that can hold ten `Circle` instances. This doesn't create any `Circle` instances yet! You still have to create the instances and add them to the array:
 
 ```java
 for (int i = 0; i < circles.length; i++) {
@@ -483,15 +482,15 @@ class Circle {
 }
 ```
 
-![1000 bouncing balls](/tutorials/processing/images/creating-classes-2.gif)
+![10 bouncing circles](/tutorials/processing/images/creating-classes-2.gif)
 
 {% include codepen-new.html slug-hash="vXZmvB" height="375" %}
 
 Now if you want to add more circles, you only have to change the size of the array. And if you want to modify the logic of every circle (to wrap to the left side of the screen when it goes off the right side, or to change color, or to change size), then you only have to change the code in one place: inside the `Circle` class. That's encapsulation!
 
-# Thinking in Objects
+# Instance State
 
-The important thing to understand about objects is that each instance is a self-contained unit. Changing one instance, either by modifying its fields directly or by calling its `move()` function , does not change the other instances. That's why you can have many circle instances bouncing around the screen, all with their own internal values for their `x` and `y` fields.
+The important thing to understand about objects is that each instance is a self-contained unit. Changing one instance, either by modifying its fields directly or by calling its `move()` function , does not change the other instances. That's why you can have many circle instances bouncing around the screen, all with their own internal values for their `x`, `y`, `xSpeed`, and `ySpeed` fields.
 
 # Objects can contain other objects!
 
@@ -529,20 +528,9 @@ class Circle {
 
 This `Circle` class uses `PVector` instances to represent its position and its speed. The rest of the sketch (the `setup()` and `draw()` functions) can stay the same, because the `Circle` class encapsulates its own internal representation of a bouncing circle.
 
-```java
-void draw() {
-  background(50);
-
-  for (int i = 0; i < circles.length; i++) {
-    circles[i].move();
-    circles[i].display();
-  }
-}
-```
-
 # Thinking in Objects
 
-I mentioned this in the [using objects](/tutorials/processing/using-objects#thinking-in-objects) tutorial, but objects aren't just a new way of organizing your code, they're a new way of **thinking** about your code.
+Like I mentioned in the [using objects](/tutorials/processing/using-objects#thinking-in-objects) tutorial, objects aren't just a new way of organizing your code, they're a new way of **thinking** about your code.
 
 Like many things in coding, there isn't a single "correct" way to approach object oriented programming. From here on out, a lot of code becomes more [subjective](/blog/subjective-side-of-code) than you might expect. It's less about what's correct, and more about what makes the most sense to **you**.
 
@@ -556,6 +544,6 @@ Just don't forget the `this` keyword.
 
 - Modify the bouncing circles program to make every circle have a random color and size.
 - Make it so all of the circles restart at the position of the cursor when the user clicks the mouse.
-- Create a fireworks program. When the user clicks, display an explosion at that position. Hint: your explosion can just be 100 red circles that fly off in random directions.
+- Create a fireworks program. When the user clicks, display an explosion at that position. Hint: your explosion can be 100 red circles that fly off in random directions.
 - Create a [flocking](https://en.wikipedia.org/wiki/Flocking_(behavior)) simulation. Start with circles that move randomly around the screen. Then add logic that makes every circle follow the circle closest to it, or the average position of the 10 closest circles.
 - Remember the scene you drew in a previous homework? Convert it to use objects, and then animate it by having those objects move over time. For example, if I drew a garden scene, maybe I would use `Flower` objects that grow over time.
