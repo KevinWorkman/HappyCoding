@@ -282,7 +282,7 @@ void draw() {
 
     // The trail is smaller at the beginning,
     // and larger closer to the mouse
-    float size = 20.0 * i / trail.size();
+    float size = 50.0 * i / trail.size();
     ellipse(p.x, p.y, size, size);
   }
 }
