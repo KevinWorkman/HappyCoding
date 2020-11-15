@@ -34,7 +34,7 @@ More coming soon!
 
 # From Processing to p5.js
 
-These tutorials assume you're already familiar with the basics of programming and that you've already read [the Processing tutorials](/tutorials/processing/) and [the JavaScript tutorials](/tutorials/javascript/).
+These tutorials assume you're already familiar with the fundamentals of coding and that you've already read [the Processing tutorials](/tutorials/processing/) and [the JavaScript tutorials](/tutorials/javascript/).
 
 {% include url-thumbnail.html url="/tutorials/p5js/which-processing" %}
 {% include url-thumbnail.html url="/tutorials/p5js/editors" %}
