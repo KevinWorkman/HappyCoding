@@ -10,6 +10,7 @@ meta-image: /tutorials/processing/images/creating-classes-3.png
 tags: [tutorial, p5.js, javascript, objects]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/using-objects
+nextPost: /tutorials/p5js/array-functions
 ---
 
 {% include toc.md %}

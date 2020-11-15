@@ -286,7 +286,6 @@ void draw() {
     ellipse(p.x, p.y, size, size);
   }
 }
-
 ```
 
 {% include codepen-new.html slug-hash="xxOMJRL" height="300" %}

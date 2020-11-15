@@ -8,6 +8,7 @@ meta-title: Creating Classes in Processing
 meta-description: Learn how to create classes in Processing.
 meta-image: /tutorials/processing/images/creating-classes-3.png
 previousPost: /tutorials/processing/using-objects
+nextPost: /tutorials/processing/arraylists
 tags: [tutorial, processing, objects]
 lastUpdated: 2020-10-25
 ---
