@@ -101,7 +101,7 @@ This sketch creates an `ArrayList` named `circles` and adds a single `PVector` t
 
 # Removing from an ArrayList
 
-The `remove()` function takes an `int` parameter, and removes the object at that index. It's a good idea to remove objects that you don't need anymore (like when they go off-screen), otherwise your sketch might use up too much memory and slow down or even crash.
+The `remove()` function takes an `int` parameter, and removes the element at that index. It's a good idea to remove objects that you don't need anymore (like when they go off-screen), otherwise your sketch might use up too much memory and slow down or even crash.
 
 Let's start with a sketch that does **not** remove any objects:
 
