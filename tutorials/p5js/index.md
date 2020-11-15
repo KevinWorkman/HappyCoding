@@ -26,6 +26,7 @@ New to coding? Start here!
 {% include url-thumbnail.html url="/tutorials/p5js/arrays" %}
 {% include url-thumbnail.html url="/tutorials/p5js/using-objects" %}
 {% include url-thumbnail.html url="/tutorials/p5js/creating-classes" %}
+{% include url-thumbnail.html url="/tutorials/p5js/array-functions" %}
 
 More coming soon!
 
