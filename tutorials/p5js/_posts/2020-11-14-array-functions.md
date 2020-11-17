@@ -10,6 +10,7 @@ meta-image: /examples/processing/arraylists/images/random-walkers-3.png
 tags: [tutorial, p5.js, javascript, arrays]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
+nextPost: /tutorials/p5js/images
 ---
 
 {% include toc.md %}
