@@ -337,3 +337,5 @@ I voted early by dropping my ballot off at the [Computer Science History Museum]
 ![full moon rising](/blog/images/my-quarantine/2020-10-31-02.jpg)
 
 *October 31, full moon rising on Halloween*
+
+I participated in a friendly "Walktober" competition at work, and ended up "winning" by walking a total of 383,265 steps in October.
