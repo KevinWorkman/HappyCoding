@@ -4,9 +4,12 @@ title: My Quarantine
 meta-title: My Quarantine
 meta-description: Some notes on the first six months of quarantine.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
+lastUpdated: 2020-11-01
 ---
 
 {% include toc.md %}
+
+(*Note: I originally wrote this in September of 2020, but I've since kept it updated.*)
 
 As of this month, I've been quarantined for 6 months because of COVID-19 shelter-in-place restrictions. I wanted to jot down some notes on my experience so far, not because I think they're going to be interesting now, but because I think they might be interesting to look back on later.
 
@@ -58,17 +61,17 @@ Then Santa Clara county issued a [shelter-in-place order](https://www.sccgov.org
 
 My local comic book shop, which I've been visiting every Wednesday since I moved here, sends out an email saying that they're closing permanently and will not reopen after quarantine ends.
 
-Three days into mandatory quarantine, I turned 34 years old. I celebrated by working an 18 hour day and not leaving my apartment.
-
 Somebody on my team had been working on letting businesses mark themselves as temporarily closed on Google. Before the world ended, this was a quiet little project designed for seasonal places like ski lodges. But all of a sudden this project was one of the most important things happening at Google, as the Italian government demanded that we close down everything and the CEO announced it in a very public [blog](https://blog.google/inside-google/company-announcements/covid-19-how-were-continuing-to-help).
 
 Long story short, I fell into a weirdly demanding role, working super long hours and having lots of meetings with other teams and PR people for the first few weeks of quarantine.
+
+Three days into mandatory quarantine, I turned 34 years old. I celebrated by working an 18 hour day and not leaving my apartment.
 
 I tend to react to stress by becoming really productive, so in a way this worked out. I didn't have time to react to anything, because I was too busy being busy. And I think a lot of people felt similarly.
 
 By then it was obvious that the virus could potentially impact millions of people, and there wasn't much any of us could do about it. Nobody likes feeling helpless, so sure enough within a few weeks there were a ton of ideas about how Google could help save the world. I couldn't help feeling like we were all reacting to our own helplessness by making ourselves feel a little more important than we really were, but hey, I was doing the same thing.
 
-I didn't have a desk, so I was working from my couch. At the end of my work day I would close my laptop, move to the other side of the couch, and turn on the TV. This was pretty terrible, so I eventually repurposed a crappy end table and got myself a chair, which is what I'm still using as my home office as I write this in September. Better than spending 18 hours a day on my couch though.
+I didn't have a desk, so I was working from my couch. At the end of my work day I would close my laptop, move to the other side of the couch, and turn on the TV. This was pretty terrible, so I eventually repurposed a crappy end table and got myself the cheapest chair on Amazon, which is what I'm still using as my home office as I write this in September. Better than spending 18 hours a day on my couch though.
 
 ![working from couch](/blog/images/my-quarantine/2020-03-25.jpg)
 
@@ -125,7 +128,7 @@ I wanted to do whatever was right in terms of wearing a mask, but the great mask
 
 There was an interesting social pressure aspect to it that's really hard to explain after the fact. I'm also fascinated by the in-groups that formed so quickly between the maskers and the anti-maskers. I feel like that's going to be studied in history books 50 years from now. I was a little relieved when masks became mandatory because at least that told me what I was supposed to be doing.
 
-I think a lot of people felt helpless in the face of all this, and they reacted to that feeling by either internalizing it and worrying about everything, or externalizing it and getting angry at others for not doing the right thing. I read so many twitter rants about people having the audacity to bike or jog outside.
+I think a lot of people felt helpless in the face of all this, and they reacted to that feeling by either internalizing it and worrying about everything, or externalizing it and getting angry at others for not doing the "right" thing. I read so many twitter rants about people having the audacity to bike or jog outside.
 
 ![little lunch bird](/blog/images/my-quarantine/2020-05-10.jpg)
 
@@ -207,9 +210,9 @@ My job announces that "voluntary" working from home will continue until June 30t
 
 *July 6, take what you need*
 
-Downtown Mountain View starts opening back up, converting the streets into outdoor seating areas. I feel angry on behalf of the people working at these restaurants, forced to come into work and expose themselves just so some yuppies can order some french fries. Then again, maybe they want to work, and I should be supporting local businesses more? Another example of how I just want to know what the right thing to do is.
+Downtown Mountain View starts opening back up, converting the streets into outdoor seating areas. I feel angry on behalf of the people working at these restaurants, forced to come into work and expose themselves to the virus just so some yuppies can order some french fries. Then again, maybe they want to work, and I should be supporting local businesses more? Another example of how I just want to know what the right thing to do is.
 
-Total Wine and More has stayed open this entire time, and now has a checkout line dedicated for services like GrubHub. I'm disgusted by the idea of tech yuppies ordering a 6 pack from their phones and forcing an underpaid "gig worker" to expose themselves all for the sake of convenience and profit. But again, I don't know if what I'm doing is any better.
+Total Wine and More has stayed open this entire time, and now has a checkout line dedicated for services like GrubHub. I'm disgusted by the idea of tech yuppies ordering a 6 pack from their phones and forcing an underpaid "gig worker" to expose themselves to the virus all for the sake of convenience and profit. But again, I don't know if what I'm doing is any better.
 
 ![NASA sign](/blog/images/my-quarantine/2020-07-18.jpg)
 
@@ -282,3 +285,55 @@ The wildfires get worse. The weirdest part is that people are mostly going about
 That brings us up to today, when I'm writing this post.
 
 I think I'm going to keep this updated as quarantine continues, and I'd love to hear more about your own experiences. What does your everyday look like? Is everybody else having quarantine dreams?
+
+---
+
+*Editor's note: I originally published everything above on September 26, 2020. I've since continued updating this blog, which follows below.*
+
+---
+
+# October
+
+I live in the suburbs, so it's been pretty easy to stay away from people on my daily walks, by crossing the street before I'm anywhere near them. So I've been wearing a mask to the grocery store, but not on my walks. But I notice that more people are wearing masks, even when there's nobody else around. And thanks to that social pressure thing, I feel like people are looking at me funny, so I start wearing my mask outside as well. And I notice that I *immediately* start judging anybody who *isn't* wearing theirs, even though a week ago I was happy to just cross the street myself. [In-groups and out-groups](https://en.wikipedia.org/wiki/In-group_and_out-group) are wild.
+
+![pocket squirrel](/blog/images/my-quarantine/2020-10-04.jpg)
+
+*October 4, can I help you??*
+
+My caffeine and alcohol tolerances are way up. For a while now my routine has included drinking a few beers on my porch, even on Sundays which had always been my reset day. I'm not attaching a value to that in either direction, it's just something I noticed. My weight loss has also plateaued, probably because of the beer calories.
+
+I've had a guitar that's been collecting dust for a few years, and I finally took it out of the corner and started playing with it again. About ten years ago I started learning a few songs, but I never made any progress because I always got sidetracked playing random chords instead of practicing the songs. This time I gave myself the goal of just playing random chords, and it's been a fun distraction while I'm waiting for my code to fail.
+
+The puppy's name is Lexie. She's a good dog.
+
+![Stanley with lights behind her](/blog/images/my-quarantine/2020-10-15-01.jpg)
+
+*October 15, Stanley in a J. J. Abrams movie*
+
+I participated in an "ask me anything" session with the students and faculty at my [alma mater](https://www.millersville.edu/). I'm not super nostalgic about college, but it was really touching to reconnect to my roots. It felt exactly like hanging out in the CS lab when I was in college. I work with a lot of students through SPS, which focuses on racial and gender diversity in the tech industry, and I truly, truly love that work. But I got a little bit of a pang when I was talking to the students from my old school, and I couldn't help but wish I was able to do more for the geo-economic aspects of diversity as well.
+
+I have a vague feeling like I wish I could cry. I don't mean that dramatically, I just feel a little... pent up? But I haven't *really* cried for probably a few years now, and I'm not even sure how to do it anymore. I come pretty close during the finale of [The Good Place](https://en.wikipedia.org/wiki/The_Good_Place) though.
+
+![ducks on Shoreline Lake](/blog/images/my-quarantine/2020-10-15-02.jpg)
+
+*October 15, ducks on Shoreline Lake*
+
+I believe there's a bigger difference between zero and one than there is between one and ten. Maybe not mathematically, but I think about it this way: if you never exercise, then walking every day is a pretty big change. But if you're walking every day, then it's not so hard to start running. The same thing is true of writing: the hardest part is when you have nothing on the paper, but after you write the first few words, it becomes a lot easier. And I think maybe that's true of social contact as well. Before quarantine, I wasn't exactly a social butterfly, but I was around people every day. I wasn't at zero human contact, so that made it easier to go out to dinner, or out for drinks or whatever. But now that I have almost zero human contact, it feels like there's a huge distance between my life now and a more "normal" life.
+
+A weird thing happens to me, and I feel even weirder because I don't have anybody to talk to about it. A few days later I tell Liz though, so maybe I'm just being melodramatic.
+
+![hand-written sign saying "I believe in you"](/blog/images/my-quarantine/2020-10-20.jpg)
+
+*October 20, I believe in you*
+
+I got a promotion at work. I experience some mixed emotions about this, almost none of which are the ones I was expecting. I mostly feel guilty? At Google, a big part of a promotion is how many people know your name. I've made a name for myself by constantly arguing for the things I believe in, even though I know I come across as a grouchy old man. I also know that not everybody is allowed to present themselves as grouchy and opinionated. I'm allowed to do that, at least partially because I'm a white dude. I don't think it's as obvious as "I got promoted because I'm a white dude", but I question how much of my promotion was because certain things are more socially acceptable for me than they are for other folks. I don't have good answers to these questions, but I think they're good questions to be asking.
+
+![two people sitting by Shoreline Lake](/blog/images/my-quarantine/2020-10-31-01.jpg)
+
+*October 31, date*
+
+I voted early by dropping my ballot off at the [Computer Science History Museum](https://computerhistory.org/) while listening to [Conversations with People Who Hate Me](https://www.dylanmarron.com/podcast). This moment feels very representative of my life right now.
+
+![full moon rising](/blog/images/my-quarantine/2020-10-31-02.jpg)
+
+*October 31, full moon rising on Halloween*
