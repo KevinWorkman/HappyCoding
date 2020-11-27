@@ -9,7 +9,7 @@ meta-description: Learn how to use if statements to make decisions in your code.
 meta-image: /tutorials/processing/images/if-statements-5.png
 tags: [tutorial, p5.js, javascript, if-statements]
 includeP5jsWidget: true
-previousPost: /tutorials/p5js/creating-functions
+previousPost: /tutorials/p5js/debugging
 nextPost: /tutorials/p5js/animation
 ---
 
