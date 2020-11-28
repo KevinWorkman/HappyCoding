@@ -30,6 +30,7 @@ New to coding? Start here!
 {% include url-thumbnail.html url="/tutorials/p5js/array-functions" %}
 {% include url-thumbnail.html url="/tutorials/p5js/images" %}
 {% include url-thumbnail.html url="/tutorials/p5js/web-dev" %}
+{% include url-thumbnail.html url="/tutorials/p5js/libraries" %}
 
 ---
 
@@ -48,7 +49,6 @@ These tutorials assume you're already familiar with the fundamentals of coding a
 {% include url-thumbnail.html url="/tutorials/p5js/editors" %}
 {% include url-thumbnail.html url="/tutorials/p5js/hello-world" %}
 {% include url-thumbnail.html url="/tutorials/p5js/review" %}
-{% include url-thumbnail.html url="/tutorials/p5js/libraries" %}
 
 ---
 
