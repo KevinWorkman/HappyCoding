@@ -114,7 +114,7 @@ function draw() {
 }
 </script>
 
-**Side note:** The tutorials include these embedded p5.js editors to make it easier to try out code as you read. But when you're coding on your own, you should use the standalone p5.js editor since it allows you to save your work!
+**Side note:** The tutorials include these embedded p5.js editors to make it easier to try out code as you read. But when you're coding on your own, you should use the standalone p5.js editor since it lets you save and share your work!
 
 Make sure your `;` semicolons and `{ }` curly brackets are all in order, and then click the play button again. Now you should see this:
 

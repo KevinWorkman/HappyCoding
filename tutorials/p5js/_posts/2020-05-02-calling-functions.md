@@ -187,7 +187,7 @@ function setup() {
 
 function draw() {
   background(220);
-  
+
   fill(255, 0, 0);
   circle(200, 200, 300);
 }
@@ -202,15 +202,15 @@ function setup() {
 
 function draw() {
   background(220);
-  
+
   // red circle
   fill(255, 0, 0);
   circle(100, 100, 300);
-  
+
   // green circle
   fill(0, 255, 0);
   circle(200, 200, 300);
-  
+
   // blue circle
   fill(0, 0, 255);
   circle(300, 300, 300);
@@ -240,6 +240,12 @@ But for now, don't be afraid to experiment with the parameters to see how they i
 You've now experienced the process of starting with a goal, reading through the reference, and writing code that tries to accomplish that goal. **That process is 95% of what a programmer does.** From here it's "just" a matter of figuring out how to do more and more stuff, by expanding your knowledge to other functions, other languages, other references. But the process is going to be the same every time: start with a goal, do some research, write some code that probably doesn't work at first, fix it, and repeat.
 
 You now know what it feels like to be a programmer, because you **are** a programmer.
+
+# Sharing Sketches
+
+One of my favorite things about the p5.js editor is how easy it is to share your work. When you have a sketch that you're happy with, click the `File` menu, and then select `Share` from the menu. In the dialog that pops up, copy the `Present` link. Send that link so other folks can see your work!
+
+I love seeing what other people are working on! Feel free to send me a link on [Twitter](https://twitter.com/KevinAWorkman) or on [the HappyCoding.io forum](https://forum.happycoding.io)!
 
 # Homework
 
