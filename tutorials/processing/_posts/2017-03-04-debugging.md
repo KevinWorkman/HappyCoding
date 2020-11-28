@@ -8,7 +8,7 @@ meta-title: Debugging Processing
 meta-description: Learn how to fix errors in your code.
 meta-image: /tutorials/processing/images/debugging-7.png
 tags: [tutorial, processing, debugging]
-last-updated: 2020-11-27
+lastUpdated: 2020-11-27
 ---
 
 {% include toc.md %}
