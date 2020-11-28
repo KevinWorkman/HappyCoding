@@ -42,9 +42,9 @@ The first tool is the **left margin** that shows line numbers. As you write your
 
 You can mouse over these highlights for more information about why your computer is confused.
 
-The second tool is the **Console** that displays at the bottom of the editor. When you run your code, if it contains a syntax error or a runtime error, the message will show up in the console.
+The second tool is the **Console** that displays at the bottom of the editor. When you run your code, if it contains a syntax error or a runtime error, the error message will show up in the console.
 
-![p5.js editor](/tutorials/p5js/images/debugging-1.png)
+![p5.js editor](/tutorials/p5js/images/debugging-2.png)
 
 Remember, getting errors is a normal part of coding! Next, let's talk about different types of errors and how to figure them out.
 
@@ -188,7 +188,7 @@ The first thing you should do is take a step back and ask yourself what you expe
 
 **Search** for the error message or for the unexpected behavior. Paste the error message into google. Try to find posts on Stack Overflow, [the Processing forums](https://discourse.processing.org/), or other websites that mention your error, and read through those to get a better understanding of what's going on.
 
-Sometimes it can help to search for only parts of the error message. For example, if the error message mentions a variable name that you created, try leaving that variable name out of your search and only including the rest of the error message. You can also wrap the error message in `" "` quotation marks to look for an exact match.
+Sometimes it can help to search for only **parts** of the error message. For example, if the error message mentions a variable name that you created, try leaving that variable name out of your search and only including the rest of the error message. You can also wrap the error message in `" "` quotation marks to look for an exact match. You can also add "p5.js" or "JavaScript" to your search for more specific results.
 
 Doing this type of research is, again, totally normal! Writing code is one part of the process, but debugging, researching, and reading through documentation are just as important.
 
@@ -264,6 +264,8 @@ Now when you run the code, the values of the variables are printed to the consol
 
 ![circle in upper-left corner](/tutorials/p5js/images/debugging-5.png)
 
+You can use `console.log()` statements to figure out the values of variables, which functions are being called in what order, how many times a loop is iterating, etc.
+
 # Developer Tools
 
 The p5.js editor's console is very useful, and it's the first place you should look when you encounter an error.
@@ -301,11 +303,39 @@ I'm not saying that to discourage you. My goal is to show you that encountering 
 
 One final tip I'll leave you with is to start small and test often. If you try to write your whole program at once and then only run it when you're done, you're guaranteed to get a ton of errors.
 
+[Programming is a process of breaking a problem down into smaller pieces, and approaching each of those pieces one at a time.](/tutorials/how-to/program)
+
 Instead, test your code by running it and checking that it's doing what you expected as often as you can. It's not unreasonable to re-run your code after **every line** you write. Don't wait until you think your code is done! Test that each line is doing what you expected. Use print statements to check the value of variables.
 
 It's much easier to debug an error when you know it's on the line of code you just wrote. It's a lot harder if you wait until you have dozens of lines of code to debug!
 
 Another tactic you can use when you encounter an error or an unexpected behavior is to **isolate** the code that's confusing you. **Start with a new sketch** and only add code that's directly related to the problem. Code that focuses on the problem is much easier to debug than an entire program that includes a bunch of unrelated code. On the internet, you might hear these isolated programs called an [MCVE](https://stackoverflow.com/help/minimal-reproducible-example) or an [SSCCE](http://sscce.org/).
+
+For example, if your code loads 100 images, gives them random positions and speeds, and has them all bouncing off each other, but you can't get the bouncing to work right, then you should start with a simpler sketch:
+
+- Instead of images, use rectangles.
+- Instead of showing 100 of them, only show 2 of them.
+- Instead of giving them random positions and speeds, use hard-coded values.
+
+This small example program should still show the same problem as your main sketch. But now it's much easier to debug, because you don't have to look at any of the code that has nothing to do with the problem.
+
+ Half the time you'll figure out your problem while trying to narrow your problem down to a smaller example sketch.
+
+# Other Debugging Tips
+
+All of the above approaches will help you debug your code, but 'd be remiss if I didn't mention a couple other debugging tactics!
+
+## Rubber Duck Debugging
+
+Another really useful approach for debugging is to try explaining your problem out loud. You don't even have to be talking to another person! A rubber duck will do just fine. 🦆
+
+[Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is the process of explaining your problem to an inanimate object (or a pet, or a houseplant). By restating your problem in your own words, you force your brain to think about it from a different perspective. This often gives you that "ah-ha!" moment that helps you figure out your problem. (This is also why you'll often figure out your problem when you start writing a question to post in a forum or on Stack Overflow.)
+
+You can learn more about rubber duck debugging [here](https://rubberduckdebugging.com/) and [here](https://blog.codinghorror.com/rubber-duck-problem-solving/).
+
+## Take a Break
+
+If you're stuck on a particularly confusing piece of code, one of the best things you can do is get away from the computer. Go on a walk, pet your cat, and try to clear your head. You'll be amazed at how many solutions you end up thinking of in the shower.
 
 # Get Help
 
