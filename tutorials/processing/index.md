@@ -34,7 +34,7 @@ Serious about learning how to program? Go through these in order:
 {% include url-thumbnail.html url="/tutorials/processing/using-objects" %}
 {% include url-thumbnail.html url="/tutorials/processing/creating-classes" %}
 {% include url-thumbnail.html url="/tutorials/processing/arraylists" %}
-{% include url-thumbnail.html url="/tutorials/processing/images.html" %}
+{% include url-thumbnail.html url="/tutorials/processing/images" %}
 {% include url-thumbnail.html url="/tutorials/processing/libraries" %}
 {% include url-thumbnail.html url="/tutorials/processing/exporting-applications" %}
 {% include url-thumbnail.html url="/tutorials/processing/processing-js" %}
