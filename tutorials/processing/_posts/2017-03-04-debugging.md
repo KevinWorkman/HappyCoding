@@ -5,67 +5,99 @@ thumbnail: /tutorials/processing/images/debugging-6.png
 tagline: How to fix errors in your code.
 sort-key: 550
 meta-title: Debugging Processing
-meta-description: How to fix errors in your code.
+meta-description: Learn how to fix errors in your code.
 meta-image: /tutorials/processing/images/debugging-7.png
-tags: [tutorial, processing]
+tags: [tutorial, processing, debugging]
+last-updated: 2020-11-27
 ---
 
 {% include toc.md %}
 
-As you write code, you'll inevitably encounter errors. This can be frustrating, but it's a huge part of being a programmer. Every programmer encounters errors, every single time they sit down to write code. Errors can happen for several different reasons, and this tutorial shows you how to **debug** your code to fix any errors in it.
+You've now learned about the [fundamentals of coding](/tutorials/processing/what-is-programming) in Processing, and now you're writing your own code.  That's great!
 
-## Compiler Errors
+No matter where you are in your coding journey, whether you're just starting out or if you've been coding for years, you're going to find yourself in situations where your code is behaving differently from what you expected. That's totally normal! This happens to every single programmer, every single time they write code.
 
-The first type of error you'll probably see is a **compiler** error. Basically, a compiler error happens when you write code that the computer doesn't understand. In this case, Processing can't even run your code, because it doesn't know what you want it to do.
+This tutorial introduces some approaches and tools for understanding and fixing your code, which is also called **debugging**.
 
-The rules of a language are called its **syntax**. Compiler errors are also called **syntax errors**, because they mean that your code broke the rules of the langauge. Compiler errors can be for things like forgotten semicolons or misspelled variables, but they can also be for violating the rules of Processing, like trying to store a `String` value in an `int` variable.
+# Debugging with Your Brain
 
-Here's an example that contains a syntax error. Can you spot it?
+The first (and best) debugging tool is something you already have: your brain!
+
+It can be really frustrating when you encounter a situation where your code is behaving differently from what you expected. But instead of throwing the computer out the window, try these approaches.
+
+**Be specific.** What were you expecting to happen? What exactly happened instead? Don't say something like "I wanted to draw a flower but it's not working". Instead, say something like "I expected a red circle to show in the upper-left corner, but instead I only see half a circle at the top." Being more specific helps you narrow down exactly what's happening, and later it'll help you talk to other people about your code.
+
+**Read your code line by line.** This is one of the most important skills you need to learn to be a good coder. Double check that the code you wrote is the code you meant to write, just like you’d proofread anything you were writing. Check for issues like spelling, capitalization and that you're using the right keywords and symbols (see [compiler errors](#compiler-errors) below).
+
+**Use a piece of paper and a pencil** to write down the value of each variable, and to draw stuff to the “screen” as you read through your code. Don't assume you know what the code does, and take it one line at a time. Reading it out loud can help.
+
+# Processing editor
+
+The Processing editor lets you write and run your code, and it comes with a few handy tools for debugging as well.
+
+ As you write your code, if it has a compiler error (more on that in the next section), your first clue will be a **red underline** underneath any code that your computer can't understand.
+
+You can click on these underlined words for more information about why Processing is confused.
+
+![processing editor](/tutorials/processing/images/debugging-1.png)
+
+(This code forgot the `()` after `draw`.)
+
+The second tool is the **Console** that displays at the bottom of the editor. When you run your code, if it contains a syntax error or a runtime error, the error message will show up in the console.
+
+![processing editor](/tutorials/processing/images/debugging-2.png)
+
+(This code forgot to give `message` a value.)
+
+Remember, getting errors is a normal part of coding! Next, let's talk about different types of errors and how to figure them out.
+
+# Compiler Errors
+
+Unlike human languages, code doesn't leave a lot of room for mistakes. If you spell something wrong in a human language, most people will probably still understand you. But computers aren't that smart.
+
+**Syntax** is a fancy word for the keywords and symbols you can use in code. If your code only uses valid keywords and symbols in an understandable order (in other words, if your syntax is valid), then the computer will be able to understand your code. But if you use a keyword or a symbol that the computer doesn't recognize (in other words, if your syntax is not valid), then the computer will instead give you an error.
+
+This type of error is called a **compiler error** or a syntax error. Compiler errors include issues like forgotten semicolons or misspelled variables, as well as violating the rules of Processing, like trying to store a `String` value in an `int` variable. When you have a compiler error, Processing can't run your code, because it doesn't understand what you're telling it to do.
+
+Here's an example that contains a compiler error.
 
 ```java
-size(200, 200);
-background(black);
-ellipse(width/2, height/2, 100, 100);
+void setup() {
+  size(300, 300);
+}
+
+void draw {
+  background(50); 
+}
 ```
 
-Do you see the syntax error? Type this code into your Processing editor, and notice a couple things:
+Type this code into your Processing editor, and notice a couple things:
 
-- The Processing editor shows a red line under the `background(black);` line.
-- If you mouse over the red line, a tooltip saying `The variable "black" does not exist` appears.
-- If you try to run the code by pressing the play button, the editor shows a red message saying `black cannot be resolved to a variable`.
+- The Processing editor shows a red line under the `void draw {` line.
+- If you click the red line, a message saying `Missing a semicolon ";"` appears.
+- If you try to run the code by pressing the play button, the editor shows a red message saying `unexpected token: draw`.
 
-![compiler error in Processing editor](/tutorials/processing/images/debugging-1.gif)
+![processing editor](/tutorials/processing/images/debugging-9.png)
 
-Notice that you can't run the code, because a compiler error prevents the computer from understanding what you want it to do.
+You can't run the code, so no window pops up, because a compiler error prevents the computer from understanding what you want it to do.
 
-In this case, the error is caused because we're using the word `black`, which Processing doesn't understand. We either need to create a variable named black:
+For this specific example, the error is happening because this code is missing the parentheses `()` after `draw`. It should be this instead:
 
 ```java
-size(200, 200);
-float black = 0;
-background(black);
-ellipse(width/2, height/2, 100, 100);
+void setup() {
+  size(300, 300);
+}
+
+void draw() {
+  background(50); 
+}
 ```
 
-Or we could pass the value into the `background()` function directly:
+Learning all of the syntax rules about a language can be pretty overwhelming when you first start coding, but over time you learn **why** the rules exist, which makes them easier to remember. (For example, you need `()` here because some functions take arguments, which go inside the parentheses!)
 
-```java
-size(200, 200);
-background(0);
-ellipse(width/2, height/2, 100, 100);
-```
+# Runtime Errors
 
-Either way, this gets rid of the error, so now we can run the code. So when you see a compiler error, you should do the following:
-
-- Look at the line being underlined.
-- Look at the tool tip text for more info.
-- Look at the message when you try to run the code for even more info.
-
-If you can't figure out what the problem is, try going back and reading the tutorial for what your code is doing on that line. Compare your code to what's in the tutorial and look for differences. If you still can't figure it out, post a question in [the forum](http://forum.HappyCoding.io)! (Please read the "work in small pieces" section below!)
-
-## Runtime Errors
-
-You can write code that the computer knows how to run, but causes an error when the computer tries to run it. This type of error is called a **runtime error**, and it usually results in your program crashing with an error message. Here's an example:
+Even if your syntax is valid, you can still encounter errors when you run your code. These **runtime** errors usually happen when your code tries to do something that the computer doesn't understand. Here's an example:
 
 ```java
 String message;
@@ -79,16 +111,17 @@ void draw() {
   background(64);
   text(message, 20, 50);
 }
-
 ```
 
-This program defines a `message` variable, and uses the `text()` function to draw that message to the screen. Type this into the Processing editor, and notice that you don't see any compiler errors. When you run the program, a window pops up, but no text is displayed! And you get an error:
+This program defines a `message` variable, and uses the `text()` function to draw that message to the screen. Type this into the Processing editor, and notice that you don't see any compiler errors, because this is all valid syntax. But when you run the program, a window pops up, but no text is displayed! And you get an error:
 
 ![NullPointerException in the Processing editor](/tutorials/processing/images/debugging-2.png)
 
-The Processing editor highlights the `text(message, 20, 50);` line and shows `NullPointerException` in the error bar.
+The Processing editor highlights the `text(message, 20, 50);` line and shows `NullPointerException` in the console.
 
-`NullPointerException` is one of the most common runtime errors, and it's caused by using a variable that you haven't given a value. In this case, we forgot to give the `message` variable a value, which is pretty easy to fix:
+`NullPointerException` is one of the most common runtime errors, and it's caused by using a variable that you haven't given a value. In this case, the code forgot to give the `message` variable a value.
+
+You could fix this error by making sure the variable is defined before you use it:
 
 ```java
 String message;
@@ -102,146 +135,153 @@ void setup() {
 void draw() {
   background(64);
   text(message, 20, 60);
+}
 ```
-
-Now the code gives the `message` variable a value inside the `setup()` function. This code runs fine!
 
 ![Happy Coding](/tutorials/processing/images/debugging-3.png)
 
-There are many other types of errors, but the general process for debugging them is the same: look at the line highlighted in the editor, and look in the error bar to see what error was triggered.
+There are many other types of runtime errors, but the general process for understanding them is the same: look at the line highlighted in the editor to find out which line of code triggered the error, and look in the console to see what error was triggered.
 
-If you still can't figure it out, check out the debugging sections below.
+# Logic Errors
 
-## Logic Errors
+In addition to syntax and runtime errors, there's another type of error that's not really an error at all. We have a name for the situation when your code runs without encountering a syntax or runtime error, but still does something different from what you expected. We call this a **logic error**.
 
-Sometimes you'll write code that doesn't generate any errors, but still doesn't work how you expected it to. This is almost always caused by a **logic error**, and it's usually a result of the programmer (that's you!) making an invalid assumption or a typo.
+Logic errors are probably the most common type of error, and they're usually caused by a typo or by an incorrect assumption about how something works. In other words, logic errors happen when there's a problem in the logic in your code.
 
-Let's say we wanted to create a program that showed a direction being rotated: it starts out as up, then right, then down, then left, and finally up again. We might write this code:
+The frustrating thing about computers is that they do exactly what you tell them to, even if what you told them to do didn't make sense, or wasn't what you actually intended. So it's up to **you** to make sure your code is telling the computer exactly what you want it to do.
 
-```java
-String direction = "UP";
-
-void setup(){
-  frameRate(2);
-  textSize(24);
-  textAlign(CENTER);
-}
-
-void draw(){
-  background(32);
-  text(direction, 50, 60);
-  rotateDirection();
-}
-
-void rotateDirection() {
-  if (direction.equals("UP")) {
-    direction = "RIGHT";
-  }
-  if (direction.equals("RIGHT")) {
-    direction = "DOWN";
-  }
-  if (direction.equals("DOWN")) {
-    direction = "LEFT";
-  }
-  if (direction.equals("LEFT")) {
-    direction = "UP";
-  }
-}
-```
-
-This program defines a `direction` variable, which it draws to the screen. At the end of every frame, it calls the `rotateDirection()` funtion. The `rotateDirection()` function uses `if` statements to change the value of the `direction` variable to be the next direction in the sequence.
-
-But if you run this program, you'll see that only `UP` is ever drawn to the screen. You don't get any errors, but the code isn't doing what we thought it would.
-
-## Debugging with Your Brain
-
-When you get a compiler or logic error, the first thing you need to do is run through your code in your head. Read the code line by line, and double check that the code you wrote is the code you meant to write- just like you'd proofread anything you were writing.
-
-Use a piece of paper and a pencil to write down any variable values or to draw stuff to the "screen" as you read through your code. Try reading through your code and imagining what it will do when it gets different values. Step through individual functions with imaginary parameters to make sure it will work in every case.
-
-In the above example, read through the `rotateDirection()` function and think about exactly what each line does. Make sure you read the code correctly! Try not to assume you know what the code does,and just take it one line at a time. Reading it out loud can help.
-
-## Debugging with the `println()` Function
-
-If you can't spot the error from reading through your code, then you need to figure out what the code is doing, and exactly where that differs from what you expected it to do.
-
-A simple way to figure that out is by adding `println()` statements to your code. You can use `println()` statements to figure out the values of variables, which functions are being called in what order, how many times a loop is iterating, etc.
-
-We might add `println()` statements to our above program to help figure out what it's doing:
+Here's an example:
 
 ```java
-String direction = "UP";
+float circleX = width / 2;
+float circleY = height / 2;
 
 void setup() {
-  frameRate(2);
-  textSize(24);
-  textAlign(CENTER);
-  println("in setup, direction: " + direction);
+  size(300, 300);
 }
 
 void draw() {
-  println("in draw, direction: " + direction);
-  background(32);
-  text(direction, 50, 60);
-  rotateDirection();
-  println("after rotateDirection, direction: " + direction);
-}
-
-void rotateDirection() {
-  println("in rotateDirection, direction: " + direction);
-  if (direction.equals("UP")) {
-    println("Entered first if statement.");
-    direction = "RIGHT";
-    println("Direction is now: " + direction);
-  }
-  if (direction.equals("RIGHT")) {
-    println("Entered second if statement.");
-    direction = "DOWN";
-    println("Direction is now: " + direction);
-  }
-  if (direction.equals("DOWN")) {
-    println("Entered third if statement.");
-    direction = "LEFT";
-    println("Direction is now: " + direction);
-  }
-  if (direction.equals("LEFT")) {
-    println("Entered fourth if statement.");
-    direction = "UP";
-    println("Direction is now: " + direction);
-  }
+  background(64);
+  ellipse(circleX, circleY, 100, 100);
 }
 ```
 
-Now when we run the program, we get this printed to the console:
+Read through this code line by line and try to guess what it'll do when you run it.
 
+You might expect it to draw a circle in the middle of the screen since it's using `width / 2` and `height / 2` to find the center. But if you run it, you'll see something like this:
+
+![circle in upper-left corner](/tutorials/processing/images/debugging-5.png)
+
+Instead of showing a circle in the middle of the screen, the circle shows up in the upper-left corner. This isn't a syntax error or a runtime error, but there's a logic error in the code. What's going on?
+
+In this case, it's because the code is calculating the `circleX` and `circleY` variables **before** the window is created. If you're using `width` and `height`, that code needs to be **after** the call to `size()`:
+
+```java
+float circleX;
+float circleY;
+
+void setup() {
+  size(300, 300);
+  circleX = width / 2;
+  circleY = height / 2;
+}
+
+void draw() {
+  background(64);
+  ellipse(circleX, circleY, 100, 100);
+}
 ```
-in setup, direction: UP
-in draw, direction: UP
-in rotateDirection, direction: UP
-Entered first if statement.
-Direction is now: RIGHT
-Entered second if statement.
-Direction is now: DOWN
-Entered third if statement.
-Direction is now: LEFT
-Entered fourth if statement.
-Direction is now: UP
-after rotateDirection, direction: UP
+
+![circle in center](/tutorials/processing/images/debugging-8.png)
+
+# Researching Errors
+
+So far you've seen a couple example errors, but there are many different kinds of syntax and runtime errors. What should you do when you encounter an error you've never seen before, or an error you don't understand?
+
+The first thing you should do is take a step back and ask yourself what you expected to happen, and what happened instead. Try to be as **specific** as possible. What error message are you getting? What line did the error happen on? What did you expect your code to do? What exactly did it do instead?
+
+**Read** the error message and try to understand what it's telling you. Error messages can be a little cryptic at first, but they often tell you exactly what's going wrong.
+
+**Search** for the error message or for the unexpected behavior. Paste the error message into google. Try to find posts on Stack Overflow, [the Processing forums](https://discourse.processing.org/), or other websites that mention your error, and read through those to get a better understanding of what's going on.
+
+Sometimes it can help to search for only **parts** of the error message. For example, if the error message mentions a variable name that you created, try leaving that variable name out of your search and only including the rest of the error message. You can also wrap the error message in `" "` quotation marks to look for an exact match. You can also add "Processing" or Java" to your search for more specific results.
+
+Doing this type of research is, again, totally normal! Writing code is one part of the process, but debugging, researching, and reading through documentation are just as important.
+
+
+
+# Print Statements
+
+Another tool that can help you understand why your code is behaving differently from what you expected is the `println()` function.
+
+The `println` function prints whatever you pass into it to the console. Try running this code and then looking in the console:
+
+```java
+void setup() {
+  size(300, 300);
+}
+
+void draw() {
+  background(64);
+  
+  println(frameCount);
+}
 ```
 
-We can use this output to read through our code again, this time comparing what we expect to be printed to what's actually printed. Do you see where the difference is?
+This code prints the value of the `frameCount` variable to the console. The `frameCount` variable holds how many frames have elapsed since the start of the sketch, so you should see an increasing number in the console.
 
-## Debugging with the Debugger
+The `println` function can also help with debugging. For example, let's say you were still trying to figure out why this code generates a `NullPointerException`:
 
-If all else fails, you can use the debugger that comes with the Processing editor. The debugger is a tool that allows you to watch your code run one line at a time.
+```java
+String message;
 
-To activate the debugger, press the Debug button- the butterfly-looking circle in the upper-right corner of the Processing editor. That brings up a new `Variables` window, which is blank for now.
+void setup() {
+  size(300, 100);
+  textSize(36);
+}
+
+void draw() {
+  background(64);
+  text(message, 20, 50);
+}
+```
+
+![NullPointerException in the Processing editor](/tutorials/processing/images/debugging-2.png)
+
+If you weren't sure what was going on, you could add a call to `println()` to check your assumptions.
+
+```java
+String message;
+
+void setup() {
+  size(300, 100);
+  textSize(36);
+}
+
+void draw() {
+  background(64);
+  
+  println("message: " + message);
+  
+  text(message, 20, 50);
+}
+```
+
+Now when you run the code, the value of the `message` variable is printed to the console, which can help you understand exactly what the code is doing.
+
+You can use `println()` statements to figure out the values of variables, which functions are being called in what order, how many times a loop is iterating, etc.
+
+# Debugging with the Debugger
+
+You can also use the debugger that comes with the Processing editor. The debugger is a tool that lets you watch your code run one line at a time.
+
+To activate the debugger, press the debug button- the butterfly-looking circle in the upper-right corner of the Processing editor. That brings up a new `Variables` window, which is blank for now.
 
 ![debugger](/tutorials/processing/images/debugging-4.png)
 
 Now that the debugger is activated, you can use it by following these steps:
 
-- First set a **break point** by clicking a line number. The line number should turn into a diamond symbol.
+- First, set a **break point** by clicking a line number. The line number should turn into a diamond symbol.
 - Now press the play button to run your code using the debugger.
 - The debugger will pause the execution of your code when it reaches your break point.
 - Then you can use the **step** button to walk through the code one line at a time.
@@ -251,45 +291,48 @@ The whole process looks like this:
 
 ![Processing debugger gif](/tutorials/processing/images/debugging-5.gif)
 
-The debugger allows us to run the code in "slow motion" and watch the values of variables change as the code runs. Again, the goal is to figure out exactly where the code does something different from what you expected.
+The debugger lets you run your code in "slow motion" and watch the values of variables change as the code runs. Again, the goal of debugging is to figure out exactly where the code does something different from what you expected.
 
-In this case, the `println()` statements and the debugger tells us that the code is entering every `if` statement. So the `rotateDirection()` function reaches the first `if` statement, which it enters because `direction` starts out as `"UP"`. It reassigns `direction` to be `"RIGHT`", which is correct so far. But then it looks at the next `if` statement, which checks whether `direction` is `"RIGHT"`! It is, so it reassigns it to be `"DOWN"`. This process repeats for all of the `if` statements, until the last one reassigns `direction` to be `"UP"`.
+# Work in Small Pieces
 
-To fix this, we need to use `else if` statements:
-
-```java
-if (direction.equals("UP")) {
-  direction = "RIGHT";
-}
-else if (direction.equals("RIGHT")) {
-  direction = "DOWN";
-}
-else if (direction.equals("DOWN")) {
-  direction = "LEFT";
-}
-else if (direction.equals("LEFT")) {
-  direction = "UP";
-}
-```
-
-Now when one of the `if` statements is entered, it doesn't evaluate any of the other `if` statements. This causes the direction to be rotated only once, which was our original goal!
-
-## Work in Small Pieces
+One final tip I'll leave you with is to start small and test often. If you try to write your whole program at once and then only run it when you're done, you're guaranteed to get a ton of errors.
 
 [Programming is a process of breaking a problem down into smaller pieces, and approaching each of those pieces one at a time.](/tutorials/how-to/program)
 
-You should **not** be writing your entire sketch and then running it only after you've written all the code. Instead, test each piece as you write it. Make sure each line works how you expect, that way you can find errors as soon as they happen. It's very hard to debug a hundred lines of code that aren't doing what you expected. It's much easier to debug just a few lines of code.
+Instead, test your code by running it and checking that it's doing what you expected as often as you can. It's not unreasonable to re-run your code after **every line** you write. Don't wait until you think your code is done! Test that each line is doing what you expected. Use print statements to check the value of variables.
 
-Similarly, when you do find an error, you can use the above approaches (stepping through the code, using `println()` statements, and running the debugger) to narrow it down to just a few lines that aren't doing what you expect. If you still can't figure it out, then try creating a smaller example sketch that **only** contains enough code to see the same behavior.
+It's much easier to debug an error when you know it's on the line of code you just wrote. It's a lot harder if you wait until you have dozens of lines of code to debug!
 
-For example, if your code loads 100 images, gives them random positions and speeds, and has them all bouncing off each other, but you can't get the bouncing to work right, then you need to start with a simpler sketch:
+Another tactic you can use when you encounter an error or an unexpected behavior is to **isolate** the code that's confusing you. **Start with a new sketch** and only add code that's directly related to the problem. Code that focuses on the problem is much easier to debug than an entire program that includes a bunch of unrelated code. On the internet, you might hear these isolated programs called an [MCVE](https://stackoverflow.com/help/minimal-reproducible-example) or an [SSCCE](http://sscce.org/).
 
-- Instead of images, use basic rectangles.
+For example, if your code loads 100 images, gives them random positions and speeds, and has them all bouncing off each other, but you can't get the bouncing to work right, then you should start with a simpler sketch:
+
+- Instead of images, use rectangles.
 - Instead of showing 100 of them, only show 2 of them.
 - Instead of giving them random positions and speeds, use hard-coded values.
 
-But the small example program should still show the same problem as your main sketch. But now it's much easier to debug, because you don't have to look at any of the code that has nothing to do with the problem.
+This small example program should still show the same problem as your main sketch. But now it's much easier to debug, because you don't have to look at any of the code that has nothing to do with the problem.
 
-This type of program is called a [MCVE](http://stackoverflow.com/help/mcve), and it also makes it easier for you to ask questions on [the forum](http://forum.HappyCoding.io)! Half the time you'll figure out your problem while trying to narrow your problem down to a smaller example sketch.
+ Half the time you'll figure out your problem while trying to narrow your problem down to a smaller example sketch.
 
-If all else fails, sometimes the best thing you can do is take a break. Go on a walk, pet your cat, and try to clear your head. You'll be amazed at how many solutions you end up thinking of in the shower.
+# Other Debugging Tips
+
+All of the above approaches will help you debug your code, but 'd be remiss if I didn't mention a couple other debugging tactics!
+
+## Rubber Duck Debugging
+
+Another really useful approach for debugging is to try explaining your problem out loud. You don't even have to be talking to another person! A rubber duck will do just fine. 🦆
+
+[Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is the process of explaining your problem to an inanimate object (or a pet, or a houseplant). By restating your problem in your own words, you force your brain to think about it from a different perspective. This often gives you that "ah-ha!" moment that helps you figure out your problem. (This is also why you'll often figure out your problem when you start writing a question to post in a forum or on Stack Overflow.)
+
+You can learn more about rubber duck debugging [here](https://rubberduckdebugging.com/) and [here](https://blog.codinghorror.com/rubber-duck-problem-solving/).
+
+## Take a Break
+
+If you're stuck on a particularly confusing piece of code, one of the best things you can do is get away from the computer. Go on a walk, pet your cat, and try to clear your head. You'll be amazed at how many solutions you end up thinking of in the shower.
+
+# Get Help
+
+You aren't alone! If you're still having trouble with an error or with code that's doing something different from what you expected, you can reach out for help!
+
+Try to isolate your problem to a small example program and come say hello on [the Happy Coding forum](https://forum.happycoding.io)!
