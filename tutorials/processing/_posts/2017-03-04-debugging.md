@@ -7,6 +7,8 @@ sort-key: 550
 meta-title: Debugging Processing
 meta-description: Learn how to fix errors in your code.
 meta-image: /tutorials/processing/images/debugging-7.png
+previousPost: /tutorials/processing/creating-functions
+nextPost: /tutorials/processing/if-statements
 tags: [tutorial, processing, debugging]
 lastUpdated: 2020-11-27
 ---

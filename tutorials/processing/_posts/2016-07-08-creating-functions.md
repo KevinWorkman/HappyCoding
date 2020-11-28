@@ -9,7 +9,7 @@ meta-description: Learn how to write your own functions in Processing.
 meta-image: /tutorials/processing/images/creating-functions-7.png
 tags: [tutorial, processing, functions]
 previousPost: /tutorials/processing/creating-variables
-nextPost: /tutorials/processing/if-statements
+nextPost: /tutorials/processing/debugging
 ---
 
 {% include toc.md %}
