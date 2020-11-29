@@ -9,6 +9,7 @@ meta-description: Share your programs with other people.
 meta-image: /tutorials/processing/images/exporting-applications-6.png
 tags: [tutorial, processing]
 previousPost: /tutorials/processing/libraries
+nextPost: /tutorials/processing/processing-js
 lastUpdated: 2020-11-28
 ---
 
