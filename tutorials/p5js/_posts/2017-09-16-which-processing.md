@@ -7,6 +7,7 @@ sort-key: 50
 meta-title: Which Processing should I use?
 meta-description: Should I use p5.js or Processing? What's the difference between Processing, Processing.js, and p5.js?
 meta-image: /tutorials/p5js/images/which-processing-2.png
+previousPost: /tutorials/p5js/
 tags: [tutorial, p5.js, processing, processing.js, javascript]
 lastUpdated: 2020-11-22
 ---
