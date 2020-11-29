@@ -5,7 +5,7 @@ thumbnail: /tutorials/p5js/images/libraries-2.png
 tagline: Use libraries to expand what p5.js can do.
 sort-key: 2500
 meta-title: How to Use p5.js Libraries
-meta-description: Mix other JavaScript libraries with P5.js
+meta-description: Mix other JavaScript libraries with p5.js
 meta-image: /tutorials/p5js/images/libraries-3.png
 previousPost: /tutorials/p5js/web-dev
 tags: [tutorial, p5.js, javascript, libraries]
