@@ -34,11 +34,12 @@ New to coding? Start here!
 
 ---
 
-# Which Processing Should I Learn?
+# More Info
 
-Not sure if p5.js is for you? Read this!
+Want more info before you dive into coding? Read these!
 
 {% include url-thumbnail.html url="/tutorials/p5js/which-processing" %}
+{% include url-thumbnail.html url="/tutorials/p5js/editors" %}
 
 ---
 
@@ -46,7 +47,6 @@ Not sure if p5.js is for you? Read this!
 
 These tutorials assume you're already familiar with the fundamentals of coding and that you've already read [the Processing tutorials](/tutorials/processing/) and [the JavaScript tutorials](/tutorials/javascript/).
 
-{% include url-thumbnail.html url="/tutorials/p5js/editors" %}
 {% include url-thumbnail.html url="/tutorials/p5js/hello-world" %}
 {% include url-thumbnail.html url="/tutorials/p5js/review" %}
 
