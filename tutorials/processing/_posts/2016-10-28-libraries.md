@@ -8,6 +8,7 @@ meta-title: How to Use Processing Libraries
 meta-description: Learn how to use libraries to expand what Processing can do.
 meta-image: /tutorials/processing/images/libraries-6.png
 previousPost: /tutorials/processing/images
+nextPost: /tutorials/processing/exporting-applications
 tags: [tutorial, processing, java, library]
 lastUpdated: 2020-11-28
 ---
