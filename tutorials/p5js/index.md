@@ -31,6 +31,7 @@ New to coding? Start here!
 {% include url-thumbnail.html url="/tutorials/p5js/images" %}
 {% include url-thumbnail.html url="/tutorials/p5js/web-dev" %}
 {% include url-thumbnail.html url="/tutorials/p5js/libraries" %}
+{% include url-thumbnail.html url="/tutorials/p5js/next" %}
 
 ---
 
