@@ -38,6 +38,7 @@ Serious about learning how to program? Go through these in order:
 {% include url-thumbnail.html url="/tutorials/processing/libraries" %}
 {% include url-thumbnail.html url="/tutorials/processing/exporting-applications" %}
 {% include url-thumbnail.html url="/tutorials/processing/processing-js" %}
+{% include url-thumbnail.html url="/tutorials/processing/next" %}
 </div>
 
 ## Advanced Processing Tutorials
