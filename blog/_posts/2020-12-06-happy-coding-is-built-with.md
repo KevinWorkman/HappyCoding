@@ -32,7 +32,9 @@ GitHub Pages uses [Jekyll](https://jekyllrb.com/), which uses a mix of [Markdown
 
 I write the text of every tutorial and blog in Markdown, and then use Liquid to stitch them together into HTML files.
 
-For example, view [the source](https://raw.githubusercontent.com/KevinWorkman/HappyCoding/gh-pages/blog/_posts/2016-07-28-hello-world.md) for this blog entry. The section at the top between `---` is [Liquid front matter](https://jekyllrb.com/docs/front-matter/) that tells Jekyll what to do with the content, and then the rest of the file is Markdown content that gets converted into HTML. That content goes through [the blog post layout](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/_layouts/blog-post.html) which adds the title, date, and comment section, and then [the default layout](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/_layouts/default.html) which adds everything else.
+For example, view [the Markdown source](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/blog/_posts/2020-12-06-happy-coding-is-built-with.md) for this blog entry.
+
+The section at the top between `---` is [Liquid front matter](https://jekyllrb.com/docs/front-matter/) that tells Jekyll what to do with the content, and then the rest of the file is Markdown content that gets converted into HTML. That content goes through [the blog post layout](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/_layouts/blog-post.html) which adds the title, date, and comment section, and then [the default layout](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/_layouts/default.html) which adds everything else.
 
 Jekyll is built in [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/), but I don't have to deal with that directly other than when I decide to update Jekyll. Jekyll also uses [Kramdown](https://jekyllrb.com/docs/configuration/markdown/) and [Rogue](http://rouge.jneen.net/) for syntax highlighting of code blocks, but that's another thing I almost never have to think about.
 
