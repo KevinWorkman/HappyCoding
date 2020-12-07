@@ -32,7 +32,7 @@ GitHub Pages uses [Jekyll](https://jekyllrb.com/), which uses a mix of [Markdown
 
 I write the text of every tutorial and blog in Markdown, and then use Liquid to stitch them together into HTML files.
 
-For example, view [the Markdown source](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/blog/_posts/2020-12-06-happy-coding-is-built-with.md) for this blog entry.
+For example, view [the Markdown source]https://raw.githubusercontent.com/KevinWorkman/HappyCoding/gh-pages/blog/_posts/2020-12-06-happy-coding-is-built-with.md) for this blog entry.
 
 The section at the top between `---` is [Liquid front matter](https://jekyllrb.com/docs/front-matter/) that tells Jekyll what to do with the content, and then the rest of the file is Markdown content that gets converted into HTML. That content goes through [the blog post layout](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/_layouts/blog-post.html) which adds the title, date, and comment section, and then [the default layout](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/_layouts/default.html) which adds everything else.
 
