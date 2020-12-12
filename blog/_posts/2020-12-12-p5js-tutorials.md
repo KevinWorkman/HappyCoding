@@ -58,4 +58,4 @@ But either way, I think that the new p5.js tutorials help flesh out my "vision" 
 
 ![tutorial path](/tutorials/images/tutorial-path.png)
 
-This blog post will be my 1000th commit to the [Happy Coding repo](https://github.com/KevinWorkman/HappyCoding). Somehow it feels right that this announcement coincides with such a cool milestone. Here's to the next 1000!
+This blog post will be my [1000th commit](https://github.com/KevinWorkman/HappyCoding/commit/7d9444b2df8e9a1720fc6458a210384a1c7573ee) to the [Happy Coding repo](https://github.com/KevinWorkman/HappyCoding). Somehow it feels right that this announcement coincides with such a cool milestone. Here's to the next 1000!
