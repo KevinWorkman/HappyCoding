@@ -197,6 +197,20 @@ code {
   text-align: center;
 }
 
+.intro-tut {
+  display: inline-block;
+  width: 205px;
+  height: 300px;
+  border: thin solid black;
+  margin: 5px;  
+  padding: 10px;
+  vertical-align: top;
+}
+
+.intro-tut .tutorial-link-box {
+  margin: 0;
+}
+
 .tutorial-link-box {
   width: 200px;
   display: inline-block;
