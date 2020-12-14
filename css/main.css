@@ -80,8 +80,8 @@ nav {
   overflow: auto;
 }
 
-/* Body has 10px margin * 2, content is 1000px. */
-@media screen and (min-width: 1020px) {
+/* Body has 10px margin * 2, content is 1000px, + 20px for scrollbar. */
+@media screen and (min-width: 1040px) {
   #left-nav {
     display: inline-block;
     width: 150px;
