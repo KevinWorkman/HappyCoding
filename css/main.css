@@ -12,7 +12,7 @@
 }
 
 body {
-  margin-top: 0;
+  margin: 10px;
   font-family: 'Lato', sans-serif;
   color: #323232;
   background-image: none;
@@ -58,24 +58,42 @@ nav {
 }
 
 .left-nav-and-content {
-  display: flex;
-  justify-content: space-between;
-}
 
-@media screen and (max-width: 800px) {
-  #left-nav {
-    display: none;
-  }
 }
 
 #left-nav {
-  min-width: 150px;
+  /* Default style for mobile, see @media below. */
+  display: none;
+  float: left;
   background-color: #fbfbfb;
   border: thin solid #323232;
-  padding: 25px;
+  padding: 10px;
   margin-right:25px;
   height: fit-content;
   overflow: hidden;
+  vertical-align: top;
+}
+
+.content {
+  display: inline-block;
+  background-color: #fbfbfb;
+  border: thin solid #323232;
+  padding: 25px;
+  vertical-align: top;
+  /* Prevent code blocks from making content wider than container. */
+  overflow: auto;
+}
+
+/* Body has 10px margin * 2, content is 1000px. */
+@media screen and (min-width: 1020px) {
+  #left-nav {
+    display: inline-block;
+    width: 150px;
+  }
+
+  .content {
+    width: 750px;
+  }
 }
 
 #left-nav ul {
@@ -104,15 +122,6 @@ nav {
 /* Hide sections when we're not in them. */
 #left-nav .not-current + ul {
   display: none;
-}
-
-.content {
-  background-color: #fbfbfb;
-  border: thin solid #323232;
-  padding: 25px;
-  flex-grow: 1;
-  /* Prevent code blocks from making content wider than container. */
-  overflow: auto;
 }
 
 p {
