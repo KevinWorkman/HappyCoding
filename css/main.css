@@ -162,11 +162,12 @@ code {
 }
 
 .jumbotron {
-  padding: 25px;
+  /* padding: 25px; */
 }
 
 .jumbotron h1 {
   font-size: 68px;
+  margin: 0;
 }
 
 .jumbotron h2 {
