@@ -57,10 +57,6 @@ nav {
   justify-content: space-between;
 }
 
-.left-nav-and-content {
-
-}
-
 #left-nav {
   /* Default style for mobile, see @media below. */
   display: none;
