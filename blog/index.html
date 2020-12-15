@@ -31,16 +31,20 @@ meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern
 
 <h2>Popular Blog Posts</h2>
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/blog/checking-my-privilege" %}
 {% include url-thumbnail.html url="/blog/stack-overflow-culture-wars" %}
 {% include url-thumbnail.html url="/blog/the-power-of-boredom" %}
 {% include url-thumbnail.html url="/blog/when-failing-isnt-failure" %}
 {% include url-thumbnail.html url="/blog/code-can-bring-us-together" %}
 {% include url-thumbnail.html url="/blog/hello-world" %}
+</div>
 
 <hr />
 
 <h2>All Blog Posts</h2>
+<div class="thumbnail-link-container">
 {% for post in site.categories.blog %}
   {% include url-thumbnail.html url=post.url %}
 {% endfor %}
+</div>

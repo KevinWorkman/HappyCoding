@@ -199,8 +199,10 @@ code {
 
 
 .thumbnail-link-container {
-  /* Center the thumbnail divs inside this container. */
-  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  
 }
 
 .intro-tut {

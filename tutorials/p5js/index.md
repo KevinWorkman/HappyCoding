@@ -14,6 +14,7 @@ nextPost: /tutorials/p5js/welcome-to-coding
 
 New to coding? Start here!
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/p5js/welcome-to-coding" %}
 {% include url-thumbnail.html url="/tutorials/p5js/calling-functions" %}
 {% include url-thumbnail.html url="/tutorials/p5js/using-variables" %}
@@ -32,6 +33,7 @@ New to coding? Start here!
 {% include url-thumbnail.html url="/tutorials/p5js/web-dev" %}
 {% include url-thumbnail.html url="/tutorials/p5js/libraries" %}
 {% include url-thumbnail.html url="/tutorials/p5js/next" %}
+</div>
 
 ---
 
