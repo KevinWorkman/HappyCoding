@@ -35,6 +35,8 @@ nav {
   background-color: #dddddd;
   margin-bottom: 25px;
   border: thin solid #323232;
+  -webkit-transition: background-color 10s linear, color 10s linear;
+  transition: background-color 10s linear, color 10s linear;
 }
 
 .nav-links {
@@ -53,6 +55,8 @@ nav {
   font-family: 'Fixedsys', monospace;
   font-size: 16pt;
   padding: 5px 10px;
+  -webkit-transition: background-color 10s linear, color 10s linear;
+  transition: background-color 10s linear, color 10s linear;
 }
 
 .nav-img {
@@ -210,11 +214,6 @@ code {
 
 .jumbotron p {
   font-size: 23px;
-}
-
-.transition {
-  -webkit-transition: background-color 10s linear, color 10s linear;
-  transition: background-color 10s linear, color 10s linear;
 }
 
 #markdown-toc {
