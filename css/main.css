@@ -32,7 +32,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #dddddd;
+  background-color: #fbfbfb;
   margin-bottom: 25px;
   border: thin solid #323232;
   -webkit-transition: background-color 10s linear, color 10s linear;
@@ -159,7 +159,8 @@ p {
 
 a {
   transition: color 1s;
-  color: #4488ff;
+  /*color: #4488ff; */
+  color: #0000ee;
   text-decoration: none;
 }
 

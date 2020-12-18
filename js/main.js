@@ -30,21 +30,23 @@ function setRandomBackground(){
 }
 
 function randomizeNavColor(){
-  const bgLetters = 'ABCDEF'.split('');
-  const fgLetters = '0123456789'.split('');
-	let bgColor = '#';
-	for (var i = 0; i < 6; i++ ) {
-		bgColor += bgLetters[Math.floor(Math.random() * bgLetters.length)];
-	}
-	document.getElementsByTagName("nav")[0].style.backgroundColor = bgColor;
-	
-	Array.from(document.querySelectorAll( ".random-color" )).forEach(el => {
-		var fgColor = '#';
-		for (var i = 0; i < 6; i++ ) {
-			fgColor += fgLetters[Math.floor(Math.random() * fgLetters.length)];
-		}
-		el.style.color = fgColor;
-	});
+  const bgColor = 'rgb(' +
+      randomInt(200, 255) + ', ' +
+      randomInt(200, 255) + ', ' +
+      randomInt(200, 255) + ')';
+  document.getElementsByTagName("nav")[0].style.backgroundColor = bgColor;
+
+  Array.from(document.querySelectorAll( ".random-color" )).forEach(el => {
+    const fgColor = 'rgb(' +
+        randomInt(0, 50) + ', ' +
+        randomInt(0, 50) + ', ' +
+        randomInt(0, 50) + ')';
+    el.style.color = fgColor;
+  });
+}
+
+function randomInt(min, max) {
+  return Math.floor(min + Math.random() * (max-min));
 }
 
 window.onload = function(){
