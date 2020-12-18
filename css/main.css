@@ -28,7 +28,8 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   background-color: #dddddd;
@@ -36,16 +37,22 @@ nav {
   border: thin solid #323232;
 }
 
-.navbar-brand {
+.nav-links {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.navbar-home {
   font-family: 'Fixedsys', monospace;
   font-size: 24pt;
   padding: 10px;
+  flex-shrink: 0;
 }
 
 .nav-link {
   font-family: 'Fixedsys', monospace;
   font-size: 16pt;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .nav-img {
@@ -70,6 +77,13 @@ nav {
   vertical-align: top;
 }
 
+.left-nav-social-icons {
+  display: grid;
+  grid-template-columns: 32px 32px;
+  justify-content: space-around;
+  grid-gap: 5px;
+}
+
 .content {
   display: inline-block;
   background-color: #fbfbfb;
@@ -80,8 +94,19 @@ nav {
   overflow: auto;
 }
 
+@media screen and (min-width: 400px) {
+  .nav-links {
+    grid-gap: 0 25px;
+  }
+}
+
 /* Body has 10px margin * 2, content is 1000px, + 20px for scrollbar. */
 @media screen and (min-width: 1040px) {
+
+  .nav-links {
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+
   #left-nav {
     display: inline-block;
     width: 150px;
@@ -89,6 +114,10 @@ nav {
 
   .content {
     width: 750px;
+  }
+
+  .nav-link {
+    width: initial;
   }
 }
 
