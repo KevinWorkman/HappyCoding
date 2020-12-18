@@ -26,7 +26,7 @@ function setRandomBackground(){
 	const backgroundUrl = "/images/backgrounds/" + backgroundObj.img + "-light.png";
 	
 	document.getElementsByTagName("body")[0].style.backgroundImage = "url(" + backgroundUrl + ")";
-	document.querySelector("#background-link").innerHTML = "View the code that generated the background <a href='/images/backgrounds/code/" + backgroundObj.code + "'>here</a>. Learn how to contribute your own background <a href='https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds'>here</a>.";
+	document.querySelector("#background-link").innerHTML = "Like the background? Check out its <a href='/images/backgrounds/code/" + backgroundObj.code + "'>source code</a> or <a href='https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds'>contribute your own background</a>!";
 }
 
 function randomizeNavColor(){
