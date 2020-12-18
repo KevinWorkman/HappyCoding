@@ -14,7 +14,9 @@
 {%- endunless -%}
 
 <div class="tutorial-link-box">
-  <a href="{{ post.url }}" ><img class="thumbnail-image" src="{{ thumbnail }}" /></a>
-  <a class="title" href="{{ post.url }}" >{{ post.title }}</a>
+  <a href="{{ post.url }}" >
+    <img class="thumbnail-image" src="{{ thumbnail }}" alt="{{ post.title}}" />
+  </a>
+  <a class="title" href="{{ post.url }}">{{ post.title }}</a>
   <p>{{ description }}</p>
 </div>
