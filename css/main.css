@@ -54,7 +54,7 @@ nav {
 .nav-link {
   font-family: 'Fixedsys', monospace;
   font-size: 16pt;
-  padding: 5px 10px;
+  padding: 10px;
   -webkit-transition: background-color 10s linear, color 10s linear;
   transition: background-color 10s linear, color 10s linear;
 }
