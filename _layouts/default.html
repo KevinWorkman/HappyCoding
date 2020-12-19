@@ -39,31 +39,33 @@
         </div>
       </nav>
 
-{% include left-nav.html %}
-
-      <div class="content">
-
-{%- assign breadcrumb = page.url | split: '/' -%}
-{%- unless breadcrumb.size < 3 %}
-  {% assign breadcrumbUrl = "" -%}
-  {%- for section in breadcrumb -%}
-    {%- unless section == "" -%}
-      {%- assign breadcrumbUrl = breadcrumbUrl
-          | append: "/" | append: section %}
-      {% include post-url.html url=breadcrumbUrl -%}
-      {%- unless forloop.last %} / {% endunless -%} 
-    {%- endunless -%}
-  {%- endfor %}
-      <hr/>
-{%- endunless -%}
-
-{% include previous-next-links.html %}
-
-{{ content }}
-
-{% include previous-next-links.html bottom=true %}
-
-      </div> <!-- end content -->
+      <div class="left-nav-and-content">
+  {% include left-nav.html %}
+  
+        <div class="content">
+  
+  {%- assign breadcrumb = page.url | split: '/' -%}
+  {%- unless breadcrumb.size < 3 %}
+    {% assign breadcrumbUrl = "" -%}
+    {%- for section in breadcrumb -%}
+      {%- unless section == "" -%}
+        {%- assign breadcrumbUrl = breadcrumbUrl
+            | append: "/" | append: section %}
+        {% include post-url.html url=breadcrumbUrl -%}
+        {%- unless forloop.last %} / {% endunless -%} 
+      {%- endunless -%}
+    {%- endfor %}
+        <hr/>
+  {%- endunless -%}
+  
+  {% include previous-next-links.html %}
+  
+  {{ content }}
+  
+  {% include previous-next-links.html bottom=true %}
+  
+        </div> <!-- end content -->
+      </div> <!-- end left-nav-and-content -->
   
       <footer>
         <a href="https://twitter.com/KevinAWorkman">

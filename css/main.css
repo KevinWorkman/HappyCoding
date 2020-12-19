@@ -68,6 +68,10 @@ nav {
   justify-content: space-between;
 }
 
+.left-nav-and-content {
+  display: flex;
+}
+
 #left-nav {
   /* Default style for mobile, see @media below. */
   display: none;
@@ -89,13 +93,15 @@ nav {
 }
 
 .content {
-  display: inline-block;
   background-color: #fbfbfb;
   border: thin solid #323232;
   padding: 25px;
   vertical-align: top;
+
+  /* If text isn't wide enough, still stretch. */
+  flex-grow: 1;
   /* Prevent code blocks from making content wider than container. */
-  overflow: auto;
+  max-width: calc(100% - 50px);
 }
 
 @media screen and (min-width: 400px) {
