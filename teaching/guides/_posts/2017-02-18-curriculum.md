@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Programming Curriculum
-thumbnail: /tutorials/processing/images/hour-of-code-11.png
+thumbnail: /teaching/guides/images/curriculum-3.png
 tagline: Plan a multi-year curriculum.
 sort-key: 500
 meta-title: Programming Curriculum
 meta-description: Plan a multi-year curriculum.
-meta-image: /tutorials/processing/images/hour-of-code-12.png
+meta-image: /teaching/guides/images/curriculum-3.png
 tags: [teaching]
 ---
 

@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Teaching Professional Coding
-thumbnail: /tutorials/processing/images/hour-of-code-11.png
+thumbnail: /teaching/guides/images/professionals-1.png
 tagline:
 sort-key: 500
 meta-title: Teaching Professional Coding
 meta-description: Some resources for teaching professional coding.
-meta-image: /tutorials/processing/images/hour-of-code-12.png
+meta-image: /teaching/guides/images/professionals-1.png
 tags: [teaching]
 ---
 
