@@ -42,6 +42,7 @@ nav {
 .nav-links {
   display: grid;
   grid-template-columns: auto auto auto;
+  align-items: center;
 }
 
 .navbar-home {
@@ -299,6 +300,10 @@ footer {
   text-align: center;
   background-color: #fbfbfb;
   border: thin solid #323232;
+}
+
+.social-img {
+  height: 32px;
 }
 
 .footer-img {
