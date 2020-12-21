@@ -24,7 +24,6 @@ td, th{
 <p><strong>Tutorials:</strong> <span id="tutorial-count">Loading...</span></p>
 <p><strong>Examples:</strong> <span id="example-count">Loading...</span></p>
 <p><strong>Blogs:</strong> <span id="blog-count">Loading...</span></p>
-<p><strong>Teaching:</strong> <span id="teaching-count">Loading...</span></p>
 <p><strong>Gallery:</strong> <span id="gallery-count">Loading...</span></p>
 
 <hr/>
@@ -158,7 +157,6 @@ fetch('/api/site.json')
   let tutorialCount = 0;
   let exampleCount = 0;
   let blogCount = 0;
-  let teachingCount = 0;
   let galleryCount = 0;
   let printedPagesCount = 0;
 
@@ -175,7 +173,6 @@ fetch('/api/site.json')
     let tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount);
     let exampleTooltip = createTooltip(post, 'Examples', exampleCount);
     let blogTooltip = createTooltip(post, 'Blogs', blogCount);
-    let teachingTooltip = createTooltip(post, 'Teaching', teachingCount);
     let galleryTooltip = createTooltip(post, 'Gallery', galleryCount);
 
     const category = post.categories[0];
@@ -189,9 +186,6 @@ fetch('/api/site.json')
 		} else if ('blog' == category) {
       blogCount++;
       blogTooltip = createTooltip(post, 'Blogs', blogCount, true);
-		} else if ('teaching' == category) {
-      teachingCount++;
-      teachingTooltip = createTooltip(post, 'Teaching', teachingCount, true);
 		} else if ('gallery' == category) {
       galleryCount++;
       galleryTooltip = createTooltip(post, 'Gallery', galleryCount, true);
@@ -202,7 +196,7 @@ fetch('/api/site.json')
     printedPagesCount += post.printedPages;
     const printedPagesTooltip = createTooltip(post, 'Printed pages', printedPagesCount, true) + ' (' + post.printedPages + ')';
 
-    addDataRow(post.date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip);
+    addDataRow(post.date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip);
   });
 
   if (end) {
@@ -214,8 +208,6 @@ fetch('/api/site.json')
         endTitle + 'Examples: ' + exampleCount,
         blogCount,
         endTitle + 'Blogs: ' + blogCount,
-        teachingCount,
-        endTitle + 'Teaching: ' + teachingCount,
         galleryCount,
         endTitle + 'Gallery: ' + galleryCount,
         printedPagesCount,
@@ -230,8 +222,6 @@ fetch('/api/site.json')
         endTitle + 'Examples: ' + exampleCount,
         blogCount,
         endTitle + 'Blogs: ' + blogCount,
-        teachingCount,
-        endTitle + 'Teaching: ' + teachingCount,
         galleryCount,
         endTitle + 'Gallery: ' + galleryCount,
         printedPagesCount,
@@ -241,7 +231,6 @@ fetch('/api/site.json')
   document.querySelector('#tutorial-count').innerText = tutorialCount;
   document.querySelector('#example-count').innerText = exampleCount;
   document.querySelector('#blog-count').innerText = blogCount;
-  document.querySelector('#teaching-count').innerText = teachingCount;
   document.querySelector('#gallery-count').innerText = galleryCount;
   document.querySelector('#printed-pages-count').innerText = printedPagesCount;
 
@@ -253,7 +242,7 @@ fetch('/api/site.json')
   maybeDrawChart();
 });
 
-function addDataRow(date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip){
+function addDataRow(date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip){
 
   if(tutorialCount == 0){
     tutorialCount = null;	
@@ -264,14 +253,11 @@ function addDataRow(date, tutorialCount, tutorialTooltip, exampleCount, exampleT
   if(blogCount == 0){
     blogCount = null;	
   }
-  if(teachingCount == 0){
-    teachingCount = null;	
-  }
   if(galleryCount == 0){
     galleryCount = null;	
   }
 	
-  const rowArray = [new Date(date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, teachingCount, teachingTooltip, galleryCount, galleryTooltip];
+  const rowArray = [new Date(date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip];
 	postsChartDataArray.push(rowArray);
 
   const printedPagesRowArray = [new Date(date), printedPagesCount, printedPagesTooltip];
@@ -302,8 +288,6 @@ function drawPostsChart() {
   data.addColumn('number', 'Examples');
   data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
   data.addColumn('number', 'Blogs');
-  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-  data.addColumn('number', 'Teaching');
   data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
   data.addColumn('number', 'Gallery');
   data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
