@@ -49,7 +49,38 @@ function randomInt(min, max) {
   return Math.floor(min + Math.random() * (max-min));
 }
 
-window.onload = function(){
+function setRandomSocialLink() {
+  let href;
+  let src;
+  let alt;
+  const r = Math.random();
+  if (r < .25) {
+    alt = 'twitter';
+    href = 'https://twitter.com/KevinAWorkman';
+    src = '/images/twitter.png';
+  } else if (r < .5) {
+    alt = 'facebook';
+    href = 'http://www.facebook.com/HappyCoding.io';
+    src = '/images/facebook.png';
+  } else if (r < .75) {
+    alt = 'github';
+    href = 'https://github.com/KevinWorkman/HappyCoding';
+    src = '/images/GitHub-Mark-32px.png';
+  } else {
+    alt = 'etsy';
+    href = 'https://www.etsy.com/shop/HappyCoding';
+    src = '/images/etsy.png';
+  }
+
+  const aElement = document.getElementById('social-nav-link');
+  const imgElement = document.getElementById('social-nav-img');
+
+  aElement.href = href;
+  imgElement.src = src;
+  imgElement.alt = alt;
+}
+
+window.onload = function() {
   setRandomBackground();
 }
 

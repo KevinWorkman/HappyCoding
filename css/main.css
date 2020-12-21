@@ -60,6 +60,10 @@ nav {
   transition: background-color 10s linear, color 10s linear;
 }
 
+#social-nav-link {
+  text-align: center
+}
+
 .nav-img {
   height: 32px;
 }
