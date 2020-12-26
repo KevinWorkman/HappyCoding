@@ -28,7 +28,6 @@ With all of that said, the articles below break down the different ways you migh
 # Who are you teaching?
 
 {% include url-thumbnail.html url="/teaching/guides/primary" %}
-{% include url-thumbnail.html url="/teaching/guides/gamedev" %}
 {% include url-thumbnail.html url="/teaching/guides/outreach" %}
 {% include url-thumbnail.html url="/teaching/guides/professionals" %}
 
