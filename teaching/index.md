@@ -29,7 +29,6 @@ With all of that said, the articles below break down the different ways you migh
 
 {% include url-thumbnail.html url="/teaching/guides/primary" %}
 {% include url-thumbnail.html url="/teaching/guides/outreach" %}
-{% include url-thumbnail.html url="/teaching/guides/professionals" %}
 
 # Want to contribute?
 
