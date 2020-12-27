@@ -25,7 +25,14 @@ If I were planning a multi-year curriculum, I would start with p5.js or Processi
 
 Most of the content on Happy Coding is designed for high school or college students, or adult self-learners. I've also met middle school teachers who use p5.js and Processing in their classrooms. 
 
-But in a perfect world, students would start learning about computer science at an early age, as early as primary / elementary school. I don't have any experience with that age group, but if you're looking for resources for teaching younger students, you might want to check out the links in the [teaching primary students guide](/teaching/guides/primary).
+But in a perfect world, students would start learning about computer science at an early age, as early as primary / elementary school. I don't have any experience with that age group, but if you're looking for resources for teaching younger students, you might want to check out these links:
+
+- [Code.org](https://code.org/learn) has a ton of tutorials organized by subject, whether you have computers in your classroom, your own experience level, and by grade level- including resources for students who can’t even read yet!
+- [Scratch](https://scratch.mit.edu/) is a visual programming language designed for younger students. The Scratch website contains a ton of resources, and lets students share their creations.
+- [Alice](http://www.alice.org/index.php) is a 3D scene creator that lets students create stories about characters interacting with the world. Alice focuses on story telling rather than creating games, with the goal of being as inclusive as possible.
+- [Twine](https://twinery.org/) lets you create “choose your own adventure” stories. This requires typing out a story and all of its branches, so it might not be the right thing for very young students. But it’s a cool way to get those English nerds (I’m allowed to say that because I was one of them) interested in computer science.
+- [Lightbot](http://lightbot.com/) is a game where students write instructions that a robot follows to get through a maze.
+- [Secret Coders](http://www.secret-coders.com/) is an illustrated book series about students solving mysteries and learning about code. The website also has resources for learning more!
 
 # Web Development Track
 
