@@ -2,10 +2,10 @@
 layout: tutorial
 title: How to Learn Coding
 thumbnail: /tutorials/how-to/images/learn-coding-1.png
-tagline: How to approach teaching yourself to code.
+tagline: How to teach yourself to code using Happy Coding.
 sort-key: 500
 meta-title: How to Learn Coding
-meta-description: How to approach teaching yourself to code.
+meta-description: How to teach yourself to code using Happy Coding.
 meta-image: /tutorials/how-to/images/learn-coding-1.png
 tags: [tutorial, how-to, meta, career]
 ---
