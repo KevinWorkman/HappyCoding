@@ -6,32 +6,30 @@ meta-description: One of the best ways to learn how to code is just by playing a
 meta-image: /images/random-walkers-1.png
 ---
 
-<h1>Examples</h1>
+# Examples
 
-<hr/>
+---
 
-<h2>Processing</h2>
+# Gallery
 
-{% include url-thumbnail.html url="/examples/processing/" %}
+{% include url-thumbnail.html url="/gallery/" %}
 
-<hr/>
+---
 
-<h2>Web Development</h2>
+# Web Development
 
+{% include url-thumbnail.html url="/examples/p5js/" %}
 {% include url-thumbnail.html url="/examples/html/" %}
 {% include url-thumbnail.html url="/examples/javascript/" %}
-{% include url-thumbnail.html url="/examples/p5js/" %}
 
-<hr/>
+---
 
-<h2>Java</h2>
+# Java
 
+{% include url-thumbnail.html url="/examples/processing/" %}
 {% include url-thumbnail.html url="/examples/java/" %}
 {% include url-thumbnail.html url="/examples/java-server/" %}
 {% include url-thumbnail.html url="/examples/google-cloud/" %}
 
 <hr/>
 
-<h2>Gallery</h2>
-
-{% include url-thumbnail.html url="/gallery/" %}
