@@ -20,7 +20,6 @@ function setup() {
   stroke(255);
   fill(255);
   textAlign(CENTER, CENTER);
-  textSize(48);
 }
 
 function draw() {
@@ -37,7 +36,15 @@ function draw() {
   const formattedPercent = nf(percent, 3, 6) + '%';
 
   background(50);
+  
+  textSize(24);
+  text('We are now', width / 2, height * .25);
+
+  textSize(48);
   text(formattedPercent, width / 2, height / 2);
+
+  textSize(24);
+  text('through the year!', width / 2, height * .75);
 }
 </script>
 
