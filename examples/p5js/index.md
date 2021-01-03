@@ -12,6 +12,8 @@ sort-key: 400
 # p5.js Examples
 
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/rainbow" %}
+{% include url-thumbnail.html url="/examples/p5js/using-objects/year-percent" %}
+{% include url-thumbnail.html url="/examples/p5js/using-objects/numbers-station" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/fireworks" %}
 
 # Other Resources
