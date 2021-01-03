@@ -35,7 +35,7 @@ const words = [
 'Mike', 'November', 'Oscar', 'Papa', 
 'Quebec', 'Romeo', 'Sierra', 'Tango', 
 'Uniform', 'Victor', 'Whiskey', 'X-ray', 
-'Yankee', 'Zulu']
+'Yankee', 'Zulu'];
 
 // Numbers 0 - 100
 for (let i = 0; i <= 100; i++) {
