@@ -17,6 +17,7 @@ sort-key: 400
 
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/rainbow" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/blue-squares" %}
+{% include url-thumbnail.html url="/examples/p5js/calling-functions/circles" %}
 
 ---
 
