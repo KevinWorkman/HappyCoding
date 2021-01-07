@@ -21,6 +21,12 @@ sort-key: 400
 
 ---
 
+# Input
+
+{% include url-thumbnail.html url="/examples/p5js/input/clickable-text" %}
+
+---
+
 # Using Objects
 
 {% include url-thumbnail.html url="/examples/p5js/using-objects/year-percent" %}
