@@ -6,7 +6,7 @@ tagline: Create text that opens a link when you click it.
 sort-key: 200
 meta-title: p5.js Example - Clickable Text
 meta-description: Create text that opens a link when you click it.
-meta-image: /examples/p5js/input/images/clickable-text-2.png
+meta-image: /examples/p5js/input/images/clickable-text-3.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /examples/p5js/
