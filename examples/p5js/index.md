@@ -27,6 +27,12 @@ sort-key: 400
 
 ---
 
+# Arrays
+
+{% include url-thumbnail.html url="/examples/p5js/arrays/falling-points" %}
+
+---
+
 # Using Objects
 
 {% include url-thumbnail.html url="/examples/p5js/using-objects/year-percent" %}
