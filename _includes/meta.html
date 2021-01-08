@@ -1,5 +1,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta property="article:published_time" content="{{ page.date }}" />
+{%- if page.lastUpdated %}
+    <meta property="article:modified_time" content="{{ page.lastUpdated }}" />
+{%- endif %}
     <meta property="twitter:url" content="https://HappyCoding.io{{page.url}}" />
     <meta property="og:url" content="https://HappyCoding.io{{page.url}}" />
     <meta name="twitter:site" content="@KevinAWorkman">
@@ -21,7 +25,7 @@
     <meta property="twitter:description" content="{{page.meta-description}}" />
     <meta property="og:description" content="{{page.meta-description}}" />
     <meta name="description" content="{{page.meta-description}}">
-{%- endif -%}
+{%- endif %}
 
 {%- if page.url == "/404" %}
     <meta name="robots" content="noindex" />
