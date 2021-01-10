@@ -33,6 +33,12 @@ sort-key: 400
 
 ---
 
+# For Loops
+
+{% include url-thumbnail.html url="/examples/p5js/for-loops/lines-silhouette" %}
+
+---
+
 # Arrays
 
 {% include url-thumbnail.html url="/examples/p5js/arrays/falling-points" %}
