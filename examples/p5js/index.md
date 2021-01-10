@@ -21,6 +21,12 @@ sort-key: 400
 
 ---
 
+# Animation
+
+{% include url-thumbnail.html url="/examples/p5js/animation/falling-line" %}
+
+---
+
 # Input
 
 {% include url-thumbnail.html url="/examples/p5js/input/clickable-text" %}
