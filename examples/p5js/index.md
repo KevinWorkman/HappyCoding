@@ -26,6 +26,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/animation/random-lines" %}
 {% include url-thumbnail.html url="/examples/p5js/animation/falling-line" %}
 {% include url-thumbnail.html url="/examples/p5js/animation/square-fill" %}
+{% include url-thumbnail.html url="/examples/p5js/animation/random-walker" %}
 
 ---
 
