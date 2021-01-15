@@ -31,6 +31,7 @@ sort-key: 400
 # Creating Functions
 
 {% include url-thumbnail.html url="/examples/p5js/creating-functions/house" %}
+{% include url-thumbnail.html url="/examples/p5js/creating-functions/town" %}
 
 ---
 
