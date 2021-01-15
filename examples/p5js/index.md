@@ -28,6 +28,12 @@ sort-key: 400
 
 ---
 
+# Creating Functions
+
+{% include url-thumbnail.html url="/examples/p5js/creating-functions/house" %}
+
+---
+
 # Animation
 
 {% include url-thumbnail.html url="/examples/p5js/animation/random-lines" %}
