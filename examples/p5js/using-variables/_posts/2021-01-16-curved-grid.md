@@ -6,7 +6,7 @@ tagline: Draw a retro-futuristic curved grid.
 sort-key: 200
 meta-title: p5.js Example - Curved Grid
 meta-description: Use the width and height variables to draw a retro-futuristic curved grid.
-meta-image: /examples/p5js/using-variables/images/triangle-inset-2.png
+meta-image: /examples/p5js/using-variables/images/curved-grid-2.png
 tags: [example, p5.js, javascript, using-variables]
 includeP5jsWidget: true
 previousPost: /examples/p5js/
