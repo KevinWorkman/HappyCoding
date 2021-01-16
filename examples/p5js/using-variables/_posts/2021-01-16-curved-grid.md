@@ -12,6 +12,10 @@ includeP5jsWidget: true
 previousPost: /examples/p5js/
 ---
 
+{% include youtube-embed.html slug="C_yAthKA6f4" %}
+
+---
+
 {% include p5js-widget.html width=400 height=400 %}
 function setup() {
   createCanvas(400, 400);
