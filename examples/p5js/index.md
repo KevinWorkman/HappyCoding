@@ -22,6 +22,12 @@ sort-key: 400
 
 ---
 
+# Using Variables
+
+{% include url-thumbnail.html url="/examples/p5js/using-variables/curved-grid" %}
+
+---
+
 # Creating Variables
 
 {% include url-thumbnail.html url="/examples/p5js/creating-variables/triangle-inset" %}
