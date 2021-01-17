@@ -12,11 +12,9 @@ includeP5jsWidget: true
 previousPost: /examples/p5js/
 ---
 
-<!--
-<iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/m2lT4QojnGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube-embed.html slug="P2BelKG-ghc" %}
 
 ---
--->
 
 {% include p5js-widget.html width=300 height=300 %}
 let startX;
