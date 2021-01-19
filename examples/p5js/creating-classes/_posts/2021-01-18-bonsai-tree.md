@@ -6,7 +6,7 @@ tagline: Use recursion to create a digital bonsai tree.
 sort-key: 200
 meta-title: p5.js Example - Bonsai Tree
 meta-description: Use recursion to create a digital bonsai tree.
-meta-image: /examples/p5js/using-variables/images/bonsai-tree-1.png
+meta-image: /examples/p5js/creating-classes/images/bonsai-tree-1.png
 tags: [example, p5.js, javascript, creating-classes, genuary]
 includeP5jsWidget: true
 previousPost: /examples/p5js/
