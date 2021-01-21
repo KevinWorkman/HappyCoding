@@ -82,6 +82,7 @@ sort-key: 400
 
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/fireworks" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/bonsai-tree" %}
+{% include url-thumbnail.html url="/examples/p5js/creating-classes/loopers" %}
 
 ---
 
