@@ -12,6 +12,10 @@ includeP5jsWidget: true
 previousPost: /examples/p5js/
 ---
 
+{% include youtube-embed.html slug="lNKFhaOQJys" %}
+
+---
+
 {% include p5js-widget.html width=300 height=400 %}
 const margin = 25;
 
