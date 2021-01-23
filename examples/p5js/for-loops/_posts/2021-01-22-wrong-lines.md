@@ -32,20 +32,20 @@ function draw() {
   noFill();
   rect(margin, margin, width - margin * 2, height - margin * 2);
 
-  for (let y = margin; y < height - margin * 2; y += 25) {
+  for (let y = margin*2; y < height - margin * 2; y += 25) {
     drawLine(y);
   }
 
 }
 
 function drawLine(lineY) {
-  const range = map(lineY, margin, height - margin, 0, 50);
+  const range = map(lineY, margin * 2, height - margin * 2, 0, 50);
 
-  let prevX = margin;
+  let prevX = margin * 2;
   let prevY = lineY;
   const lineSpacing = 10;
 
-  for (let x = margin + lineSpacing; x <= width - margin; x += lineSpacing) {
+  for (let x = prevX + lineSpacing; x <= width - margin * 2; x += lineSpacing) {
 
     const y = lineY + random(-range, range);
     line(prevX, prevY, x, y);
