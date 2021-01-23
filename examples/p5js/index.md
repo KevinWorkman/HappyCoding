@@ -62,6 +62,7 @@ sort-key: 400
 # For Loops
 
 {% include url-thumbnail.html url="/examples/p5js/for-loops/lines-silhouette" %}
+{% include url-thumbnail.html url="/examples/p5js/for-loops/wrong-lines" %}
 
 ---
 
