@@ -91,6 +91,7 @@ sort-key: 400
 # Images
 
 {% include url-thumbnail.html url="/examples/p5js/images/genuary-19" %}
+{% include url-thumbnail.html url="/examples/p5js/images/image-palette" %}
 
 ---
 
