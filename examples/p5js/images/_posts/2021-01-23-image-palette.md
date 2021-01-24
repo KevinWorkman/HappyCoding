@@ -12,12 +12,9 @@ includeP5jsWidget: true
 previousPost: /examples/p5js/
 ---
 
-<!--
-{% include youtube-embed.html slug="A30wFV1jUmU" %}
+{% include youtube-embed.html slug="gDXynxUzyZo" %}
 
 ---
-
--->
 
 [Click here to view this code in the p5 editor.](https://editor.p5js.org/KevinWorkman/sketches/mrAk5h1g2)
 
