@@ -136,7 +136,7 @@ class Cube {
 
 [Click here to view this code in the p5 editor.](https://editor.p5js.org/KevinWorkman/sketches/sgLdEoU51)
 
-This sketch shows a structure of cubes laid out in an [isometric](https://en.wikipedia.org/wiki/Isometric_projection) grid. I created this for the 21st day of [Genuary](https://genuary2021.github.io/) which had a prompt of "2D Perspective."
+This sketch shows a structure of cubes laid out in an [isometric](https://en.wikipedia.org/wiki/Isometric_projection) grid. I created this for the 26th day of [Genuary](https://genuary2021.github.io/) which had a prompt of "2D Perspective."
 
 While coding this, I found these two pages really helpful: [Isometric Tiles Math](http://clintbellanger.net/articles/isometric_math/) and [Understanding isometric grids](https://yal.cc/understanding-isometric-grids/).
 
