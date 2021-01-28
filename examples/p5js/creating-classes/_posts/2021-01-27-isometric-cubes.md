@@ -12,6 +12,10 @@ includeP5jsWidget: true
 previousPost: /examples/p5js/
 ---
 
+{% include youtube-embed.html slug="oqgrKWAo24M" %}
+
+---
+
 {% include p5js-widget.html width=400 height=400 %}
 let gridTopX;
 let gridTopY;
