@@ -97,6 +97,12 @@ sort-key: 400
 
 ---
 
+# Libraries
+
+{% include url-thumbnail.html url="/examples/p5js/libraries/random-notes" %}
+
+---
+
 # Other Resources
 
 - [p5 spooky sketches](http://tinyurl.com/p5-spooky-sketches) is a printout I made for [CC Fest](http://ccfest.rocks/) in 2019. It contains a bunch of halloween-themed examples of drawing and image manipulation.
