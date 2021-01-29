@@ -56,6 +56,8 @@ function draw() {
 }
 
 function playSynth() {
+  userStartAudio();
+
   note += random([-10, 0, 10]);
   note = constrain(note, minNote, maxNote);
 
