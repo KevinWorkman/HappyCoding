@@ -15,6 +15,8 @@ previousPost: /examples/p5js/
 
 ---
 
+**Note:** This sounds pretty bad on Android, and sometimes you have to click to hear anything. Coding is fun!
+
 [Click here to view this code in the p5 editor.](https://editor.p5js.org/KevinWorkman/sketches/tXf5nV1cI)
 
 [Click here to view the result by itself.](https://editor.p5js.org/KevinWorkman/present/tXf5nV1cI)
@@ -96,7 +98,7 @@ function playSynth() {
 
 This sketch uses the [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) to play random notes. It also draws a line based on the speed and the notes it plays, so you get a visualization of the random "song" it plays.
 
-I created this for the 28th day of [Genuary](https://genuary2021.github.io/) which had a prompt "Use sound."
+I created this for the 28th day of [Genuary](https://genuary2021.github.io/) which had a prompt of "Use sound."
 
 ![random notes](/examples/p5js/libraries/images/random-notes-2.png)
 ![random notes](/examples/p5js/libraries/images/random-notes-3.png)
