@@ -89,6 +89,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/loopers" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/recursive-lines" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/popping-circles" %}
+{% include url-thumbnail.html url="/examples/p5js/creating-classes/ant-colony" %}
 
 ---
 
