@@ -10,7 +10,7 @@ meta-image: /tutorials/p5js/images/libraries-3.png
 previousPost: /tutorials/p5js/web-dev
 nextPost: /tutorials/p5js/next
 tags: [tutorial, p5.js, javascript, libraries]
-lastUpdated: 2020-11-28
+updated: 2020-11-28
 ---
 
 {% include toc.md %}

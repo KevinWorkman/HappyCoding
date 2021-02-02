@@ -10,7 +10,7 @@ meta-image: /tutorials/processing/images/debugging-7.png
 previousPost: /tutorials/processing/creating-functions
 nextPost: /tutorials/processing/if-statements
 tags: [tutorial, processing, debugging]
-lastUpdated: 2020-11-27
+updated: 2020-11-27
 ---
 
 {% include toc.md %}

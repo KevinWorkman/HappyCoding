@@ -9,7 +9,7 @@ meta-description: Should I use p5.js or Processing? What's the difference betwee
 meta-image: /tutorials/p5js/images/which-processing-2.png
 previousPost: /tutorials/p5js/
 tags: [tutorial, p5.js, processing, processing.js, javascript]
-lastUpdated: 2020-11-22
+updated: 2020-11-22
 ---
 
 {% include toc.md %}

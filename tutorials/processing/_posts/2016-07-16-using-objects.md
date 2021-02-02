@@ -7,7 +7,7 @@ sort-key: 1100
 meta-title: Using Objects
 meta-description: Learn how to use objects to group related variables together.
 meta-image: /examples/processing/using-objects/images/eyes-5.png
-lastUpdated: 2020-10-18
+updated: 2020-10-18
 tags: [tutorial, processing, objects]
 ---
 

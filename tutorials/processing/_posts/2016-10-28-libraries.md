@@ -10,7 +10,7 @@ meta-image: /tutorials/processing/images/libraries-6.png
 previousPost: /tutorials/processing/images
 nextPost: /tutorials/processing/exporting-applications
 tags: [tutorial, processing, java, library]
-lastUpdated: 2020-11-28
+updated: 2020-11-28
 ---
 
 {% include toc.md %}

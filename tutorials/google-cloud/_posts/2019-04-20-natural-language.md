@@ -10,7 +10,7 @@ meta-image: /tutorials/google-cloud/images/natural-language-4.png
 tags: [tutorial, javascript, google, cloud, natural-language]
 previousPost: /tutorials/google-cloud/cloud-storage
 nextPost: /tutorials/google-cloud/translation
-lastUpdated: 2020-09-13
+updated: 2020-09-13
 ---
 
 {% include toc.md %}

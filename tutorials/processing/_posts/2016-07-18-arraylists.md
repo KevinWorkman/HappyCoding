@@ -10,7 +10,7 @@ meta-image: /examples/processing/arraylists/images/random-walkers-3.png
 tags: [tutorial, processing, arraylist]
 previousPost: /tutorials/processing/creating-classes
 nextPost: /tutorials/processing/images
-lastUpdated: 2020-11-14
+updated: 2020-11-14
 ---
 
 {% include toc.md %}

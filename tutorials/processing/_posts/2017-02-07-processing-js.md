@@ -10,7 +10,7 @@ meta-image: /tutorials/processing/images/processing-js-2.png
 previousPost: /tutorials/processing/exporting-applications
 nextPost: /tutorials/processing/next
 tags: [tutorial, processing, processing.js]
-lastUpdated: 2020-11-28
+updated: 2020-11-28
 ---
 
 {% include toc.md %}

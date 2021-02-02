@@ -10,7 +10,7 @@ meta-image: /tutorials/processing/images/creating-classes-3.png
 previousPost: /tutorials/processing/using-objects
 nextPost: /tutorials/processing/arraylists
 tags: [tutorial, processing, objects]
-lastUpdated: 2020-10-25
+updated: 2020-10-25
 ---
 
 {% include toc.md %}

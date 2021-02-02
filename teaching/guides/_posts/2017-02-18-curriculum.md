@@ -8,7 +8,7 @@ meta-title: Multi-Year Curriculum
 meta-description: Plan a multi-year curriculum with Happy Coding.
 meta-image: /teaching/guides/images/curriculum-3.png
 tags: [teaching]
-lastUpdated: 2020-12-26
+updated: 2020-12-26
 ---
 
 {% include toc.md %}
