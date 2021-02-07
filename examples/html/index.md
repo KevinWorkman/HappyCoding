@@ -13,7 +13,7 @@ sort-key: 200
 
 {% include url-thumbnail.html url="/examples/html/rainbow-logo" %}
 {% include url-thumbnail.html url="/examples/html/asimov-empire-robots-foundation-tables" %}
-
+{% include url-thumbnail.html url="/examples/html/rainbow-divs" %}
 
 # Homepage Examples
 
