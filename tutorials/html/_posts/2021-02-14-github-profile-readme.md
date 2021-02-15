@@ -11,6 +11,10 @@ tags: [tutorial, html, github-pages]
 previousPost: /tutorials/html/
 ---
 
+{% include youtube-embed.html slug="_G2gTWtyonQ" %}
+
+---
+
 {% include toc.md %}
 
 [GitHub](https://github.com/) is a website that lets you post your code so you can keep it organized and share it with other people. It's a little bit like social media for coders, and it's a great way to show off your code and to see what other folks are working on.
