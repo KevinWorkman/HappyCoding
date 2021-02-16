@@ -72,7 +72,7 @@ function setRandomSocialLink() {
     src = '/images/etsy.png';
   } else {
     alt = 'youtube';
-    href = 'https://www.youtube.com/channel/UCjvaMO0sbJyszOw7qNuvB_Q';
+    href = 'https://youtube.com/kevinaworkman';
     src = '/images/youtube.png';
   }
 
