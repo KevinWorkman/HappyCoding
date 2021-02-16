@@ -91,10 +91,9 @@ nav {
 }
 
 .left-nav-social-icons {
-  display: grid;
-  grid-template-columns: 32px 32px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  grid-gap: 5px;
 }
 
 .content {
