@@ -17,6 +17,9 @@
   <a href="{{ post.url }}" >
     <img class="thumbnail-image" src="{{ thumbnail }}" alt="{{ post.title}}" />
   </a>
-  <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+  <a class="title" href="{{ post.url }}">
+    {{ post.title }}
+    {% if post.content contains "youtube.com/embed" -%}▶{%- endif -%}
+  </a>
   <p>{{ description }}</p>
 </div>
