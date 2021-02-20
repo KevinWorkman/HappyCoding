@@ -9,6 +9,7 @@ meta-description: Learn how to make your GitHub profile your own using a GitHub 
 meta-image:  /tutorials/html/images/github-profile-readme-12.png
 tags: [tutorial, html, github-pages]
 previousPost: /tutorials/html/
+nextPost: /tutorials/html/github-pages
 ---
 
 {% include youtube-embed.html slug="_G2gTWtyonQ" %}
@@ -183,6 +184,6 @@ Check out the [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/
 
 Some of those examples get pretty fancy, using things like [GitHub actions](https://docs.github.com/en/actions) to automatically update the `README.md` file, or [server-side coding](/tutorials/java-server/) to make interactive links and images. But don't let that intimidate you! Start with customizing your profile, and branch out from there!
 
-As you get more familiar with GitHub and [HTML](/tutorials/html/), you might want to branch out into creating your own webpage using [GitHub Pages](https://pages.github.com/). You might also create separate repos for your code projects.
+As you get more familiar with GitHub and [HTML](/tutorials/html/), you might want to branch out into creating your own webpage using [GitHub Pages](/tutorials/html/github-pages). You might also create separate repos for your code projects.
 
 Whatever you decide to do next, please post a link in [the Happy Coding forum](https://forum.happycoding.io) - I'd love to see what you're working on!

@@ -34,9 +34,10 @@ If you're ready to start making your own websites, read through these tutorials!
 
 These tutorials walk you through the process of using HTML to create your own site on GitHub Pages, starting with your GitHub profile README and ending with Jekyll, which is how I build Happy Coding!
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/html/github-profile-readme" %}
-
-**GitHub Pages:** coming soon!
+{% include url-thumbnail.html url="/tutorials/html/github-pages" %}
+</div>
 
 **Jekyll:** coming soon!
 
