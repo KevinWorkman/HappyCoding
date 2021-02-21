@@ -40,7 +40,7 @@ Click the `Create repository` button to create your repo!
 
 ![GitHub repo homepage](/tutorials/html/images/github-pages-2.png)
 
-# GitHub Pages Settings
+# Confirm Your GitHub Pages Settings
 
 Next, go to the `Settings` tab of your repo and scroll down to the `GitHub Pages` section.
 
@@ -52,7 +52,7 @@ But if you're working from a `YOUR_USERNAME.github.io` repo, you don't have to c
 
 # Test Your URL
 
-Right now, your GitHub Pages site is hosted at `https://YOUR_USERNAME.github.io`, but your repo only contains a single `README.md` file. To test that everything is working point your browser to `https://YOUR_USERNAME.github.io/READEME.me`. You should see something like this:
+Right now, your GitHub Pages site is hosted at `https://YOUR_USERNAME.github.io`, but your repo only contains a single `README.md` file. To test that everything is working, point your browser to `https://YOUR_USERNAME.github.io/README.md`. You should see something like this:
 
 ![GitHub Pages website](/tutorials/html/images/github-pages-4.png)
 
@@ -66,7 +66,7 @@ Next, follow the flow you learned in the [GitHub profile README tutorial](/tutor
 
 2. Create an `index.html` file containing some HTML content and save it to the local copy of your repo. You can use any text editor to do this step.
 
-   Here's some HTML content to start with.
+   Here's some HTML content to start with:
 
    ```html
    <!DOCTYPE html>
@@ -81,7 +81,7 @@ Next, follow the flow you learned in the [GitHub profile README tutorial](/tutor
    </html>
    ```
 
-   Save this to your `index.html` file in your repo, right next to your `README.md` file.
+   Save this to your `index.html` file in your repo, right next to your `README.md` file. You can test your HTML by opening the file in your browser.
 
 3. Add, commit, and push your `index.html` file. Again, you can use either GitHub Desktop or the git command line tool.
 
@@ -101,16 +101,16 @@ The `index.html` file is also a bit magical. By default, most web servers will a
 
 You can send this link to your friends, add it to your [GitHub profile README](/tutorials/html/github-profile-readme), or post it in [the HappyCoding.io forum](https://forum.happycoding.io)!
 
-# Updating Your GitHub Pages Site
+# Update Your GitHub Pages Site
 
 Now that you have everything connected, you can update your repo whenever you want to make changes to your site. Try  these out:
 
 - Add [HTML](/tutorials/html) to describe yourself and link to projects you've worked on.
 - Add an image like a picture of yourself, of your pet, or a screenshot of what you're working on.
-- Add [CSS](/tutorials/html/css) to style your webpage and make it prettier. (You can also use a theme, but writing your own CSS is a better way to understand what's happening behind the scenes!)
+- Add [CSS](/tutorials/html/css) to style your webpage and make it prettier.
 - Add [JavaScript](/tutorials/javascript) to make your webpage interactive.
 
-You can make changes locally and test them before deploying them by opening the local files in your browser using `file://` URLs, and then push your changes whenever you're ready to show them to the world.
+You can make changes locally and test them before deploying them by opening the local files in your browser, and then push your changes whenever you're ready to show them to the world.
 
 GitHub Pages is nice because it means your repo and your live site are always in sync. Whenever you update your repo, GitHub Pages automatically updates your live site. Happy Coding itself is built using GitHub Pages!
 
