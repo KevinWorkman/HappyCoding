@@ -37,8 +37,5 @@ These tutorials walk you through the process of using HTML to create your own si
 <div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/html/github-profile-readme" %}
 {% include url-thumbnail.html url="/tutorials/html/github-pages" %}
+{% include url-thumbnail.html url="/tutorials/html/jekyll" %}
 </div>
-
-**Jekyll:** coming soon!
-
-**GitHub Actions:** maybe coming soon if I can figure them out!
