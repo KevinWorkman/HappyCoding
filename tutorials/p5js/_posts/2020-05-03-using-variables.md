@@ -228,7 +228,7 @@ The big change here from the other examples is that this code uses the `width` a
 
 ![circle using variables](/tutorials/processing/images/using-variables-6.png)
 
-Now if you want to change the size of the canvas, you only have to change the parameters you pass into the `size` function. You don't have to change anything else, because the `width` and `height` variables will change automatically.
+Now if you want to change the size of the canvas, you only have to change the parameters you pass into the `createCanvas()` function. You don't have to change anything else, because the `width` and `height` variables will change automatically.
 
 # The Best Way
 
