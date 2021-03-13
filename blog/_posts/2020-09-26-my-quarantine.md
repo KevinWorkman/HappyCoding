@@ -346,5 +346,21 @@ I voted early by dropping my ballot off at the [Computer Science History Museum]
 
 I participated in a friendly "Walktober" competition at work, and ended up "winning" by walking a total of 383,265 steps in October.
 
+# November
+
+It starts getting colder, and I'm worried that I won't be able to go on my daily walks anymore. I start getting pretty depressed about this, but then I remember: pants are a thing. I literally forgot that pants existed, because I've just been wearing basketball shorts for 8 months.
+
+People start talking about "another lockdown" which confuses me, because my first lockdown never ended. I don't know if this means I'm being too careful, or if other people aren't being careful enough, or both.
+
+The church across the street has been giving out boxes of food every Saturday. The line of cars is backed up about a mile.
+
+![line of cars](/blog/images/my-quarantine/2020-11-14.jpg)
+
+*November 14, line of cars*
+
+I hear people say things like "I couldn't imagine not seeing my family for Thanksgiving" and I can't help but think that they must not have very good imaginations.
+
+I did a sober November just to reset some things, and I re-lost 13 pounds in the process.
+
 
 
