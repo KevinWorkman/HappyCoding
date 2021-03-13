@@ -4,7 +4,7 @@ title: My Quarantine
 meta-title: My Quarantine
 meta-description: Some notes on the first six months of quarantine.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
-lastUpdated: 2020-11-01
+updated: 2020-11-01
 ---
 
 {% include toc.md %}
@@ -322,11 +322,17 @@ I believe there's a bigger difference between zero and one than there is between
 
 A weird thing happens to me, and I feel even weirder because I don't have anybody to talk to about it. A few days later I tell Liz though, so maybe I'm just being melodramatic.
 
-![hand-written sign saying "I believe in you"](/blog/images/my-quarantine/2020-10-20.jpg)
+Downtown Mountain View has opened back up for "outdoor dining" which is a crowd of people without masks yelling their orders at servers who have no real choice but to risk exposure for a little more than minimum wage. I'm still not sure that I'm not the jerk for not supporting local businesses enough.
+
+![outdoor dining](/blog/images/my-quarantine/2020-10-20-01.jpg)
+
+*October 20, outdoor dining*
+
+![hand-written sign saying "I believe in you"](/blog/images/my-quarantine/2020-10-02.jpg)
 
 *October 20, I believe in you*
 
-I got a promotion at work. I experience some mixed emotions about this, almost none of which are the ones I was expecting. I mostly feel guilty? At Google, a big part of a promotion is how many people know your name. I've made a name for myself by constantly arguing for the things I believe in, even though I know I come across as a grouchy old man. I also know that not everybody is allowed to present themselves as grouchy and opinionated. I'm allowed to do that, at least partially because I'm a white dude. I don't think it's as obvious as "I got promoted because I'm a white dude", but I question how much of my promotion was because certain things are more socially acceptable for me than they are for other folks. I don't have good answers to these questions, but I think they're good questions to be asking.
+I got a promotion at work. I experience some mixed emotions about this, almost none of which are the ones I was expecting. I mostly feel guilty? At Google, a big part of a promotion is how many people know your name. I've made a little bit of a name for myself by constantly asking questions and trying to change things about my job, even though I know I come across as a grouchy old man. I also know that not everybody is allowed to present themselves as grouchy and opinionated. I'm allowed to do that, at least partially because I'm a white dude. I don't think it's as obvious as "I got promoted because I'm a white dude", but I question how much of my promotion was because certain things are more socially acceptable for me than they are for other folks. I don't have good answers to these questions, but I think they're good questions to be asking.
 
 ![two people sitting by Shoreline Lake](/blog/images/my-quarantine/2020-10-31-01.jpg)
 
@@ -339,3 +345,6 @@ I voted early by dropping my ballot off at the [Computer Science History Museum]
 *October 31, full moon rising on Halloween*
 
 I participated in a friendly "Walktober" competition at work, and ended up "winning" by walking a total of 383,265 steps in October.
+
+
+
