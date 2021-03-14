@@ -496,3 +496,39 @@ By the way, I'm still going on those daily walks.
 
 *January 24, out of time*
 
+![sunset](/blog/images/my-quarantine/2021-01-31.jpg)
+
+*January 31, sunset*
+
+# February
+
+I notice that the local dive bar is open again. I guess this means that the "second lockdown" has been lifted. Throughout the whole quarantine, I've never been worried about getting sick, and I'm not the type to constantly refresh the latest death numbers for my county. But I absolutely do not understand the appeal of forcing a server or bartender to put themselves at risk just so I can have a beer and some breaded mushrooms, no matter how good that sounds right now. But again, maybe I'm the jerk for not supporting local businesses.
+
+![tree in a parking lot](/blog/images/my-quarantine/2021-02-05.jpg)
+
+*February 5, parking lot tree*
+
+Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [This article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
+
+![mask sign](/blog/images/my-quarantine/2021-02-07.jpg)
+
+*February 7, mask up*
+
+I don't have much else to say about February. This is probably the worst month of quarantine... so far. I do go on a few hikes, doing close to 50 miles in a weekend. Just another form of that manic overcompensation, I guess.
+
+![hike](/blog/images/my-quarantine/2021-02-10.jpg)
+
+*February 10, hike during my "lunch break"*
+
+![hike](/blog/images/my-quarantine/2021-02-12.jpg)
+
+*February 12, I can see my house from here*
+
+![beach](/blog/images/my-quarantine/2021-02-13.jpg)
+
+*February 13, Half Moon Bay*
+
+![neighborhood street](/blog/images/my-quarantine/2021-02-19.jpg)
+
+*February 19, street in my neighborhood*
+
