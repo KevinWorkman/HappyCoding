@@ -398,6 +398,8 @@ On Christmas I go on a run and spend most of the day with Stanley.
 
 ![Stanley](/blog/images/my-quarantine/2020-12-25.jpg)
 
+I spend a lot of time trying to find a food that Stanley will eat. One of them is SO LOUD and alarming that I ask the vet if something is horribly wrong with her jaw. Nope, it's just really squishy.
+
 *December 25, Stanley eating treats*
 
 ![vet](/blog/images/my-quarantine/2020-12-30.jpg)
@@ -406,8 +408,91 @@ On Christmas I go on a run and spend most of the day with Stanley.
 
 The outside tables I eat lunch at every Saturday are finally "closed" when somebody wraps them in very official-looking plastic. Not like I was relying on them as the only sense of normalcy in my life or anything.
 
-![closed table](/blog/images/my-quarantine/2020-12-31.jpg)
+![closed table](/blog/images/my-quarantine/2020-12-31-01.jpg)
 
 *December 31, shut it down*
 
 New Year's Eve is virtual beers with Liz and Shawn.
+
+![coloring book](/blog/images/my-quarantine/2020-12-31-02.jpg)
+
+*December 31, fold the cheese*
+
+# January
+
+![Stanley](/blog/images/my-quarantine/2021-01-01.jpg)
+
+*January 1, Stanley*
+
+![Stanley](/blog/images/my-quarantine/2021-01-05.jpg)
+
+*January 5, Stanley*
+
+Stanley dies.
+
+I thought the chemo was going well, or I at least thought there was room for optimism. But she quickly gets worse, and she dies on Friday, January 8.
+
+Here are some words I originally posted on facebook:
+
+> I had to say goodbye to Stanley yesterday.
+>
+> I found Stanley in a tree 13 years ago, and she's been with me ever since. From college, through my twenties, halfway into my thirties. Through multiple friend groups, relationships, states, jobs, and coasts. She was my best friend. She was my family. She was a part of me.
+>
+> She was a funny cat. She used to climb on top of the cupboards and then jump down on people that walked underneath her. She'd hang out in the kitchen with us, back when the kitchen was the place we hung out. She spent most of her time curled up right next to me, but she scratched me if I pet her too much. She jumped in the shower with me every morning, because apparently drain water tastes better than tap water. She loved laying on the porch, not in her cat bed, but right next to it. She understood some English words, especially "treats" and "wet food". She knew that if I said "stand up", and she stood up, she'd get some of that wet food. She also knew her name, but she wasn't going to stand up for that.
+>
+> Animals don't know our names, but I think they probably name us after the feelings we make them feel. I hope her names for me were feelings like safe, and warm, and loved.
+>
+> I'm not sad for Stanley, not exactly. She had a good, relatively long life, especially compared to the life she would have had if I hadn't saved her from the bugs 13 years ago. Selfishly, I'm sad for me. My apartment is literally quieter, colder, and emptier without her. It's no longer my home, and I don't want to be here anymore. Nobody is waiting for me when I come back from my daily walk. I like to think of myself as independent: I'm not very close with many people, and I've spent the last year in quarantine. But this is the first time in my life I feel truly alone. I know that will likely eventually change. But I always thought Stanley would meet my wife, maybe even my kids someday. The fact that she won't breaks my heart.
+>
+> Stanley has been a big part of me for 13 years. She's been a real member of every friend group I've had since college, and she's poked her head into just about every video meeting I've attended during quarantine. When people think of me, they think of Stanley. Losing her feels very much like losing a part of myself. Anybody who meets me from now on will meet a version of me that is less than I was when Stanley was alive.
+>
+> The only job of a pet is to be loved, and I think they make us better people because of it. They give us a reason to manifest our kindness, even when we don't think we have any kindness left. I know Stanley made me a better person. From college, deciding whether I should spend my last dollar on kitten food for her or spaghetti for myself, to trying to figure out which wet food she liked the best (Fancy Feast Gravy Lover's Turkey), to now, as I've helped her live out her final few weeks, it has been a privilege that I am so thankful for.
+>
+> I always want to find meaning in death, so I feel like I should say that I'm going to honor Stanley by bringing the kindness she taught me that I had with me through the rest of my life. That I'm going to stop procrastinating on the things I wished I'd done while she was alive, that I'm going to resist my tendency to become even more disconnected from the world now that there's less tethering me to it. That I'm going to reflect on what the closing of this chapter of my life means, and that I'm going to find meaning in the next chapter. But the truth is I'm just really going to miss her.
+>
+> Cats aren't supposed to care if you leave, or notice when you come back. But one of my favorite memories of Stanley is her screaming her little head off at me when I came back from living at NIST for a few weeks. Cats are also supposed to want to be alone in the end, but Stanley spent most of her last days in the same place she spent the last 13 years: curled up right next to me.
+>
+> I wish I had more time, but I have so much gratitude for everything Stanley gave me. Thank you Stanley. I love you. You were a good cat.
+>
+> (Believe it or not, I don't like the idea of using a pet for fake internet points. Posting pictures of Stanley made me laugh, and I hope it made you laugh. But for every picture I posted, we shared a thousand uncaptured moments that made up Stanley's life, and my life with her. So I absolutely hate the idea of posting this for likes and comments. But I know that a lot of you knew Stanley, even if just from facebook. I've had strangers come up to me and say "oh you're that guy with the cat album". So posting this felt like the right thing to do. But instead of liking or commenting, please just give your pets some extra love today. That's what they're here for.)
+
+This happened back in January and I'm writing this in March, and I still don't really know what to say here. I tell people that I try to focus on the positives, that she had a good life, all of that. But that's mostly a lie.
+
+I'm proud of the life I gave Stanley. It's honestly the thing in my life that I'm *most* proud of. But I can't help but look back with regret: what if I had caught her sickness earlier? In hindsight I see that I misinterpreted a lot of what she was trying to tell me. What I thought of as her being cute and hiding under the blankets gets a different connotation when I realize she was just a couple months or weeks away from the end. Part of this was inevitable, but part of it is my fault.
+
+Remember how back in October I said I felt like I needed to cry but couldn't? Well that's not a problem anymore.
+
+I also recognize a tendency in myself to feel like I don't quite deserve to have feelings. This has been true the entire quarantine: I'm pretty privileged and have been able to work from home without much disruption while others are forced to risk their health or lose their jobs entirely, so how can I complain about a little isolation? That feeling of not deserving to have feelings is especially obvious now, and whenever anybody asks me how I'm doing, I always preface my answer by saying that I know my experience doesn't compare to real problems people are facing. Even typing this out now, I feel like I'm whining about how hard it is to be a white dude in America. But I can't help but feel a little... emotionally truncated?
+
+Like I mentioned a year ago, I tend to react to stress by taking more on. So in the weeks following Stanley's death, I have a sense of, not quite energy, but resigned productivity. Like if I stop moving for too long, I'll fall into something and never come out of it.
+
+So during this time I do a lot of things I had been putting off: I start a [YouTube channel](https://youtube.com/kevinaworkman), I [visualize Sonic the Hedgehog](https://twitter.com/KevinAWorkman/status/1366079476333862914), I participate in [#genuary](http://localhost:4000/tags/?tag=genuary), I sign up for online dating, and I put out [34 coding examples](https://twitter.com/KevinAWorkman/status/1356125457565896705) in January alone. By themselves these should be fun things, but I recognize it as a sorta manic coping mechanism. But at least some of the projects look cool.
+
+[![bonsai tree](/examples/p5js/creating-classes/images/bonsai-tree-7.gif)](/examples/p5js/creating-classes/bonsai-tree)
+
+*January 18, [bonsai tree](/examples/p5js/creating-classes/bonsai-tree)*
+
+[![flower](/examples/p5js/images/images/genuary-19-2.png)](/examples/p5js/images/genuary-19)
+
+*January 19, [increase the randomness along the Y axis](/examples/p5js/images/genuary-19)*
+
+[![color palette](/examples/p5js/images/images/image-palette-4.gif)](/examples/p5js/images/image-palette)
+
+*January 23, [color palette](/examples/p5js/images/image-palette)*
+
+[![campfire](/examples/p5js/creating-classes/images/campfire-2.gif)](/examples/p5js/creating-classes/campfire)
+
+*January 31, [campfire](/examples/p5js/creating-classes/campfire)*
+
+After a few weeks of pathetic lunches on some bleachers, I find a really nice park right across the street from my normal tables, which are still closed. I know it sounds dumb but this is a weirdly big deal to me.
+
+![park art](/blog/images/my-quarantine/2021-01-23.jpg)
+
+*January 23, art in the park*
+
+By the way, I'm still going on those daily walks.
+
+![broken clock](/blog/images/my-quarantine/2021-01-24.jpg)
+
+*January 24, out of time*
+
