@@ -9,6 +9,7 @@ meta-description: Create your own webpage using GitHub Pages.
 meta-image:  /tutorials/html/images/github-pages-9.png
 tags: [tutorial, html, github-pages]
 previousPost: /tutorials/html/github-profile-readme
+nextPost: /tutorials/html/jekyll
 ---
 
 {% include youtube-embed.html slug="Fcfk9YGkEbc" %}
