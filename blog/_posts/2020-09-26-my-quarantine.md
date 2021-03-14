@@ -362,5 +362,52 @@ I hear people say things like "I couldn't imagine not seeing my family for Thank
 
 I did a sober November just to reset some things, and I re-lost 13 pounds in the process.
 
+# December
 
+Stanley has been sick, and I take her to the vet. After a bunch of back and forth, the vet tells me that Stanley has cancer. I spend most of December crying, taking Stanley to the vet  for chemo (yes, apparently cat chemo is a thing), and petting her so much she gets annoyed.
 
+![Stanley](/blog/images/my-quarantine/2020-12-06.jpg)
+
+*December 6, Stanley*
+
+This is my fourth December in California, and it's always a bit surreal. Christmas lights on palm trees, light sweatshirt weather instead of snow, and the general weirdness of silicon valley means that it never feels very Christmas-y. Add to that some quarantine and a sick cat, and this year is especially un-jolly. But this is also when the citrus trees start ripening, and everybody is always giving away lemons and limes. For some reason that feels pretty Christmas-y this year.
+
+![free limes](/blog/images/my-quarantine/2020-12-18.jpg)
+
+*December 18, free limes*
+
+Stanley seems to be responding to the chemo. She is hungry but refuses to eat, and I have to give her some pills every day which we both hate, but other than that she seems fine. The vet says they're still calibrating dosages and whatnot, but it feels like there's a lot of room for optimism.
+
+![Stanley and me](/blog/images/my-quarantine/2020-12-19.jpg)
+
+*December 20, Stanley and me*
+
+![Stanley](/blog/images/my-quarantine/2020-12-23.jpg)
+
+*December 23, Stanley rearranging the blankets*
+
+![Stanley](/blog/images/my-quarantine/2020-12-24-01.jpg)
+
+*December 24, hanging out on the porch*
+
+![Stanley](/blog/images/my-quarantine/2020-12-24-02.jpg)
+
+*December 24, boop*
+
+On Christmas I go on a run and spend most of the day with Stanley.
+
+![Stanley](/blog/images/my-quarantine/2020-12-25.jpg)
+
+*December 25, Stanley eating treats*
+
+![vet](/blog/images/my-quarantine/2020-12-30.jpg)
+
+*December 30, picking Stanley up from chemo*
+
+The outside tables I eat lunch at every Saturday are finally "closed" when somebody wraps them in very official-looking plastic. Not like I was relying on them as the only sense of normalcy in my life or anything.
+
+![closed table](/blog/images/my-quarantine/2020-12-31.jpg)
+
+*December 31, shut it down*
+
+New Year's Eve is virtual beers with Liz and Shawn.
