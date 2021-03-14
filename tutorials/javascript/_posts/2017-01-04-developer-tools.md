@@ -8,12 +8,14 @@ sort-key: 200
 meta-title: Developer Tools
 meta-description: Meet your new best friend.
 meta-image: /tutorials/javascript/images/developer-tools-3.png
-tags: [tutorial, javascript, basic]
+tags: [tutorial, javascript, debugging]
+previousPost: /tutorials/javascript/calling-javascript
+lastUpdate: 2021-03-14
 ---
 
 {% include toc.md %}
 
-Before we get any further into web development, I need to introduce you to a set of tools that you'll be using all of the time. These are the **developer tools** that come with every web browser. These developer tools allow you to get more info about a website, to debug your JavaScript, and to see why that one component is 5 pixels to the right of where it should be.
+Before you get any further into web development, you should familiarize yourself with a set of tools that you'll be using all of the time. These are the **developer tools** that come with every web browser. These developer tools let you get more information about a website, to debug your JavaScript, and to see why that one element is 5 pixels to the right of where it should be.
 
 Most browsers will be pretty similar: try pressing the `F12` key (or `ctrl shift i` if you don't have a `F12` key), or look for it in the menu.
 
@@ -25,79 +27,77 @@ This shows the developer tools panel at the bottom (or the side) of your web bro
 
 Now that you have the developer tools open, let's talk about what you're looking at.
 
-## JavaScript Console
+# JavaScript Console
 
-The `Console` tab shows the JavaScript console, which is your new best friend.
+The `Console` tab shows the JavaScript console, which is your best friend when you're writing JavaScript.
 
-If you've coded even a tiny bit of JavaScript, maybe you've noticed that when your code breaks, most of the time nothing happens. That's because JavaScript doesn't show a big warning message if something goes wrong, which is good becuase otherwise you'd scare everybody who used your webpage! But it also can make it hard to debug your code when something goes wrong.
+If you've coded even a tiny bit of JavaScript, maybe you've noticed that when your code breaks, most of the time nothing happens. That's because JavaScript doesn't show a big warning message if something goes wrong, which is good because otherwise you'd scare everybody who used your webpage! But it also can make it hard to debug your code when something goes wrong.
 
-That's where the JavaScript console comes in handy. Any errors your code generates will be shown in the JavaScript console. So if your code isn't working, **the first thing you should do** is check here. In fact, it's probably a good idea to always have the JavaScript console open- you might be getting errors you don't even know about!
+That's where the JavaScript console comes in handy. Any errors your code generates will show up in the JavaScript console. So if your code isn't working, **the first thing you should do** is check the JavaScript console. In fact, it's probably a good idea to always have the JavaScript console open- you might be getting errors you don't even know about!
 
-This is also where calls to the `console.log()` function show up. This is one of the easiest ways to debug your program: want to know the value of a variable in your code? Print it to the console!
+This is also where calls to the `console.log()` function show up. This is one of the easiest ways to debug your JavaScript code: want to know the value of a variable in your code? Print it to the console!
 
-### Debugging with the JavaScript Console
+# Debugging with the JavaScript Console
 
 Let's say you have this JavaScript code:
 
 ```javascript
-var x;
-if(x > 10){
+let x;
+if (x > 10) {
   alert("hello!");
 }
 ```
 
-This example code might be a little obvious, but pretend we're getting the value of the `x` variable from a library or even from the user. Let's say we're expecting to see a dialog show up, but it's not displaying. At this point, we might be tempted to say, "ugh, the `alert()` function isn't working!"
+This example code might be a little obvious, but pretend you're getting the value of the `x` variable from a library or from the user. Let's say you're expecting to see a dialog show up, but it's not displaying. At this point, you might be tempted to say, "ugh, the `alert()` function isn't working!"
 
-But before we go to Stack Overflow or [the forum](http://forum.HappyCoding.io) and proclaim that we've found a bug in JavaScript, first we have to test our assumption. The fastest way to do that is to add some print statements to our code to make sure it's executing the way we think it is.
+But before you go to Stack Overflow or [the Happy Coding forum](http://forum.HappyCoding.io) and proclaim that you found a bug in JavaScript, you should first test your assumptions. One of the best ways to do that is to add some print statements to your code to make sure it's executing the way you think it is.
 
-For example, we might put a print statement inside the `if` statement to make sure we're getting inside it:
+For example, you might put a print statement inside the `if` statement to check whether the code reaches it:
 
 ```javascript
-var x;
-if(x > 10){
+let x;
+if (x > 10) {
   console.log("inside if statement");
   alert("hello!");
 }
 ```
 
-If we run that code, we won't see our statement print to the console. That tells us that the code is **not** entering the `if` statement. Now we know that the problem is before we even get to the `alert()` function. We might add another print statement to make sure our code is running:
+If you run that code, you won't see the message print to the console. That tells you that the code is **not** entering the `if` statement. Now you know that the problem is before the code even gets to the `alert()` function. You might add another print statement to make sure your code is running:
 
 ```javascript
-var x;
+let x;
 console.log("before if statement");
-if(x > 10){
+if (x > 10) {
   console.log("inside if statement");
   alert("hello!");
 }
 ```
 
-That new print statement is shown in the console, so finally we might print out the value of `x` to make sure it's what we thought it was:
+That new print statement shows up in the console, so finally you might print the value of `x` to make sure it's what you thought it was:
 
 ```javascript
-var x;
+let x;
 console.log("before if statement");
 console.log("x: " + x);
-if(x > 10){
+if (x > 10) {
   console.log("inside if statement");
   alert("hello!");
 }
 ```
 
-This prints `x: undefined` to the console, which tells us that our `x` value is undefined! In this case that's pretty obvious, but you'll go through this exact process every single day as you write more complicated JavaScript code.
+This prints `x: undefined` to the console, which tells you that the `x` value is undefined! This example might have been a little obvious, but you'll go through this same debugging process very often as you write more complicated JavaScript code.
 
-## Inspect Element
+# Inspect Element
 
-Another handy tool is the ability to inspect an HTML element. This will tell you what styles an element has, which is especially useful when you want to know where it's getting its position from. You can also look at JavaScript-generated HTML. We'll learn more about that in [the interactive html tutorial](tutorials/javascript/interactive-html).
+Another handy tool is the ability to inspect an HTML element. This lets you see the layout of the page, the styles of an element, and the output of any JavaScript that changes the page.
 
-To do all this, go to the Elements tab of the developer tools panel. (Firefox calls it the Inspect tab, Internet Explorer calls it the DOM Explorer tab.) This will show you the current HTML displayed in the webpage, and you can click through to get to any child element in the page.
-
-Another way to get here is by right-clicking an element in the webpage itself, and then clicking **Inspect** in the menu. This will bring you to the **Elements** tab of the developer tools, with the element you clicked already selected.
+You can inspect an element by right-clicking an element in the webpage itself, and then clicking **Inspect** in the menu. This will bring you to the **Elements** tab of the developer tools, with the element you clicked already selected.
 
 <img alt="inspecting element demo gif" src="/tutorials/javascript/images/developer-tools-1.gif" style="border:thin solid black;" />
 
 You can use this to view an element's CSS styles. This is really useful if you want to know exactly what's causing an element to look a certain way. Also check out the **Computed** tab to show the final result of all of the cascading styles.
 
-You can even use this to change the styles of an element, which is a good way to play with different CSS values to get an element exactly how you want it to look. All of these changes are temporary: they don't make any changs to any of your files! So if you want to keep your changes, make sure to copy them. If you don't want to keep them, just refresh the page.
+You can also use this to change the styles of an element, which is a good way to play with different CSS values. Refreshing the page will restore the default styles.
 
 Try inspecting these elements:
 
@@ -111,24 +111,21 @@ Try inspecting these elements:
 
 <img src="/images/random-walkers-1.png" />
 
-Try playing with the styles: add borders, change the size, change background colors. Don't worry, you can't break anything, so go nuts! :chestnut: :squirrel:
+Try playing with the styles: add borders, change the size, change background colors.
 
-## Network Tab
+# Network Tab
 
-A webpage is usually multiple files: you might have one `index.html` file, a few `.js` files, some `.css` files, and some image files. Each of these files needs to be downloaded over the internet (or fetched from your cache) every time you load a webpage.
+A webpage is usually multiple files: you might have one `index.html` file, a few `.js` files, some `.css` files, and some image files. Each of these files needs to be downloaded over the internet or fetched from your cache every time you load a webpage.
 
 The `Network` tab shows all of this. Try going to the `Network` tab now and then refreshing the page. Check out all the files that are downloaded!
 
 This becomes really useful if you have stuff on your page that's not loading correctly. Maybe you have an image that isn't showing up. Check the network tab! This will show you any errors you're getting on individual files.
 
-## But wait, there's more!
+# Learn More
 
 The developer tools contain a ton more: you can test different internet connections, see what a website looks like on other devices, and even step through your JavaScript code with a debugger. Don't be afraid to click around and experiment (and use Google) to find out more! But the Console, Elements, and Network tabs will get you pretty far for now.
 
-## Homework
+# Homework
 
 - Open up the Developer Tools and then navigate to a few of your favorite websites. Do any of them have errors? What types of files do they require?
-- Play around with the CSS by inspecting elements. Don't worry, nothing you do can break a website, so get creative! And if you want to go back to the default styles, just refresh the page.
-- If you come up with a cool-looking style for this website, consider [contributing your code](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing)!
-
-## Next: [Creating Variables](/tutorials/javascript/creating-variables)
+- Play around with the CSS by inspecting elements. Don't worry, nothing you do can break a website, so get creative! And if you want to go back to the default styles, you can refresh the page.
