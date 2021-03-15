@@ -10,6 +10,7 @@ meta-description: Meet your new best friend.
 meta-image: /tutorials/javascript/images/developer-tools-3.png
 tags: [tutorial, javascript, debugging]
 previousPost: /tutorials/javascript/calling-javascript
+nextPost: /tutorials/javascript/creating-functions
 lastUpdate: 2021-03-14
 ---
 
