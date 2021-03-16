@@ -10,6 +10,7 @@ meta-description: Learn more about creating functions in JavaScript.
 meta-image: /tutorials/html/javascript/creating-functions-2.png
 tags: [tutorial, javascript]
 previousPost: /tutorials/javascript/developer-tools
+nextPost: /tutorials/javascript/interactive-html
 lastUpdate: 2021-03-14
 ---
 
