@@ -30,7 +30,6 @@ JavaScript lets you make your webpages interactive, which makes it one of the mo
 {% include url-thumbnail.html url="/tutorials/javascript/developer-tools" %}
 {% include url-thumbnail.html url="/tutorials/javascript/creating-functions" %}
 {% include url-thumbnail.html url="/tutorials/javascript/interactive-html" %}
-{% include url-thumbnail.html url="/tutorials/javascript/creating-objects" %}
 {% include url-thumbnail.html url="/tutorials/javascript/libraries" %}
 {% include url-thumbnail.html url="/tutorials/javascript/jquery" %}
 {% include url-thumbnail.html url="/tutorials/javascript/bootstrap" %}
