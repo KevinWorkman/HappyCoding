@@ -7,7 +7,7 @@ tagline: Learn about using libraries in JavaScript.
 sort-key: 700
 meta-title: Using JavaScript Libraries
 meta-description: Learn about using libraries in JavaScript.
-meta-image: /tutorials/html/javascript/libraries-2.png
+meta-image: /tutorials/html/javascript/libraries-1.png
 tags: [tutorial, javascript, libraries]
 previousPost: /tutorials/javascript/interactive-html
 lastUpdated: 2021-03-19
@@ -109,6 +109,8 @@ If you've already read through the [p5.js tutorials](/tutorials/p5js), then you 
 </html>
 ```
 
+{% include codepen-new.html slug-hash="PobMamd" height="300" %}
+
 This file first loads the p5.js JavaScript library:
 
 ```html
@@ -179,6 +181,8 @@ Here's the same example using the SweetAlert library:
   </body>
 </html>
 ```
+
+{% include codepen-new.html slug-hash="PobMamd" height="300" %}
 
 ![beautiful alert](/tutorials/javascript/images/libraries-5.png)
 
