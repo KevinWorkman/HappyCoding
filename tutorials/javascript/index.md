@@ -31,7 +31,16 @@ JavaScript lets you make your webpages interactive, which makes it one of the mo
 {% include url-thumbnail.html url="/tutorials/javascript/creating-functions" %}
 {% include url-thumbnail.html url="/tutorials/javascript/interactive-html" %}
 {% include url-thumbnail.html url="/tutorials/javascript/libraries" %}
+{% include url-thumbnail.html url="/tutorials/javascript/ajax" %}
+</div>
+
+---
+
+# Legacy Tutorials
+
+I wrote these tutorials back in 2017. Since then, I've personally stopped using jQuery and Bootstrap. They're still here if you want to learn them, but I recommend using vanilla JavaScript and CSS instead!
+
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/javascript/jquery" %}
 {% include url-thumbnail.html url="/tutorials/javascript/bootstrap" %}
-{% include url-thumbnail.html url="/tutorials/javascript/ajax" %}
 </div>
