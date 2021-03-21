@@ -74,7 +74,7 @@ This CSS makes every `<p>` tag have a font size of `16pt`, gives the `myClass` c
 
 ![webpage with three paragraphs](/tutorials/javascript/images/interactive-html-3.png)
 
-{% include codepen.html slug-hash="zNOwxe" height="300" %}
+{% include codepen-new.html slug-hash="zNOwxe" height="300" %}
 
 JavaScript works in the same way: you can refer to HTML elements by tag, by class, or by id.
 
