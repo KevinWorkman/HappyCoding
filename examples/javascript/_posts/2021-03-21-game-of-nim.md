@@ -160,6 +160,8 @@ tags: [example, html, javascript]
 
 <hr>
 
+{% include youtube-embed.html slug="JE0UpdRI3TE" %}
+
 This code lets you play the [Game of Nim](https://en.wikipedia.org/wiki/Nim) against the computer.
 
 ```html
