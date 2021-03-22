@@ -10,5 +10,7 @@ sort-key: 200
 
 # JavaScript Examples
 
+{% include url-thumbnail.html url="/examples/javascript/game-of-nim" %}
+
 {% include url-thumbnail.html url="/examples/javascript/libraries/" %}
 {% include url-thumbnail.html url="/examples/javascript/bootstrap/" %}
