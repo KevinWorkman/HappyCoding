@@ -236,7 +236,6 @@ code {
   padding-bottom: 10px;
 }
 
-
 .thumbnail-link-container {
   display: flex;
   flex-flow: wrap;
@@ -282,6 +281,21 @@ code {
 
 .tutorial-link-box p {
   margin-top: 0;
+}
+
+#etsy-listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.etsy-thumbnail {
+  width: 170px;
+  margin: 10px;
+}
+
+.etsy-thumbnail img {
+  border: thin solid #323232;
 }
 
 /* Tags */
