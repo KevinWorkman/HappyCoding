@@ -6,7 +6,7 @@ tagline: Use the fetch function to get data from an API.
 sort-key: 100
 meta-title: Etsy Listings - JavaScript Example
 meta-description: Use the fetch function to get data from an API.
-meta-image: /examples/javascript/images/etsy-listings3.png
+meta-image: /examples/javascript/images/etsy-listings-3.png
 tags: [example, html, javascript, fetch]
 ---
 
