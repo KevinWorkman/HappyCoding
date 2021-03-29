@@ -10,11 +10,11 @@ meta-image: /examples/javascript/images/etsy-listings3.png
 tags: [example, html, javascript, fetch]
 ---
 
-<!--
-{% include youtube-embed.html slug="JE0UpdRI3TE" %}
+
+{% include youtube-embed.html slug="81qy8BTIj5M" %}
 
 ---
--->
+
 
 This code uses the [fetch()](/tutorials/javascript/fetch) function to get the JSON from [https://happycoding.io/api/etsy-listings.json](https://happycoding.io/api/etsy-listings.json) and then builds some HTML thumbnails from the data.
 
