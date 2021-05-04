@@ -238,6 +238,16 @@ You can play in your browser [here](/gallery/ludum-dare-45/index), and read more
 
 You can play in your browser [here](/gallery/the-next-generation-ld-46/index), and read more about it [here](/blog/ludum-dare-46).
 
+# EmojAvoid - LD47
+
+*October 2020, Stuck in a Loop*
+
+[EmojAvoid](/gallery/emojavoid-ld-47/index) is a game where the player navigates through a level, and then 2 levels at the same time, and then 3 levels at the same time, until eventually they're playing 5 levels at once.
+
+[![EmojAvoid](/blog/images/ludum-memories/emojavoid.png)](/gallery/emojavoid-ld-47/index)
+
+You can play in your browser [here](/gallery/emojavoid-ld-47/index).
+
 # The Rabbit Hole - LD48
 
 *April 2021, Deeper and Deeper*
