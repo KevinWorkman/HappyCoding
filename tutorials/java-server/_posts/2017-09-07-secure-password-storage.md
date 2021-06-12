@@ -208,7 +208,7 @@ After a few users register, our "database" might look like this:
 
 Now even if an attacker gets access to our database, they won't have access to our user passwords!
 
-Note that our simple hash function is pretty bad: different passwords  can have the same hash, and it's fast (we'll talk about why this is bad in a minute). But generally you wouldn't come up with your own hash function. You'd use [an existhing function](https://en.wikipedia.org/wiki/List_of_hash_functions) or a library that handles this stuff for you.
+Note that our simple hash function is pretty bad: different passwords  can have the same hash, and it's fast (we'll talk about why this is bad in a minute). But generally you wouldn't come up with your own hash function. You'd use [an existing function](https://en.wikipedia.org/wiki/List_of_hash_functions) or a library that handles this stuff for you.
 
 ## Brute Force Hash Attack
 
