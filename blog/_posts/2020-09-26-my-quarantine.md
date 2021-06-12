@@ -4,7 +4,7 @@ title: My Quarantine
 meta-title: My Quarantine
 meta-description: Some notes on the first six months of quarantine.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
-updated: 2020-11-01
+updated: 2021-06-12
 ---
 
 {% include toc.md %}
@@ -531,4 +531,84 @@ I don't have much else to say about February. This is probably the worst month o
 ![neighborhood street](/blog/images/my-quarantine/2021-02-19.jpg)
 
 *February 19, street in my neighborhood*
+
+# March
+
+Ever since Stanley died, I've felt an all-encompassing sadness pretty much every second of every day. Around March, that sadness starts to quiet down a little bit, but I find myself not quite returning to normal. It's not like a graph that dipped down and went back up. It's more like I'm returning to a different version of myself. This version is angrier, less patient, and more stressed out. I don't know if that's a direct result of the Stanley stuff, or maybe the shift was always happening but I couldn't feel it because of the layer of sadness on top of it.
+
+I've been thinking about going on a road trip, and in early March I'm invited to a wedding on the east coast at the end of May. I think maybe I'll go on a long antisocial road trip, maybe rent a car, maybe work from the road for a few weeks. This becomes my go-to daydream.
+
+On March 12th I almost get into a physical fight with a guy who isn't wearing a mask. I'm not proud of the toxic masculinity of that moment, but it is fascinating to think about how much I've changed in a year.
+
+![extremely distanced singles](/blog/images/my-quarantine/2021-03-13.jpg)
+
+*March 13, this sign is mocking me*
+
+My birthday party is a video call with the usual crew. Not a bad way to turn 35.
+
+On March 30th I'm told that my job is being moved to London. I don't want to rant too much, but I'll just say this "decision" is the dot at the end of a very long sentence for me. For the first time in over a year, I go have a beer at my local bad bar. The inside is surprisingly crowded, but I take my beer to the outside tables in the parking lot. I'm the only one there. The next day I start looking for a new job.
+
+# April
+
+I go on my first in person, socially distanced date(s). This blog is already more of a personal journal than I intended it to be, so I'll just say that it's nice to be around another human again.
+
+I've been daydreaming about going on a road trip, but with the job uncertainty I'm not sure if it's still doable. I was also originally planning on the trip being very antisocial, but now that the vaccine is *almost* available, I'm stressing out about whether I'll be able to get it in time. I get a new car on April 9th, and in my brain that's one less uncertainty to worry about.
+
+But then Santa Clara county opens up vaccines to everybody on April 12th, and on the very next day, I get my first dose of the (pfizer) vaccine. The whole process is much easier than I expected, and getting the vaccine takes exactly 30 minutes. My only side effect is a sore arm, and I swear my beard feels weird. But that's probably the placebo effect.
+
+![vaccine sign](/blog/images/my-quarantine/2021-04-13.jpg)
+
+*April 13, thank you for choosing to get vaccinated*
+
+On April 18, I go out to a real bar (the parking lot of bad bar doesn't count) for the first time since quarantine. It's all outside, and we're (half) vaccinated, but taking our masks off when we get to our table still feels like being naked in public. It feels weird, but it stops feeling weird pretty quickly.
+
+Throughout April I'm talking to a bunch of folks about potential jobs, and interviewing at a couple places. For the first time in my career, I understand the "it's not what you know, it's who you know" aspect of the industry. Or maybe more accurately: it's not what you know, it's who knows you know what you know. I find myself talking to people I met on Twitter, or through my volunteer stuff, or from other random encounters I've had over the years. Part of me feels a little guilty about that: am I using my privilege to my advantage? But most of me just wants a job.
+
+![wish you were here](/blog/images/my-quarantine/2021-04-28.jpg)
+
+*April 28, wish you were here*
+
+# May
+
+On May 2nd I take myself to lunch at Sports Page. They no longer have breaded mushrooms, but it's still nice to drink a beer in the sun around other humans.
+
+![lunch date](/blog/images/my-quarantine/2021-05-02-01.jpg)
+
+*May 2, lunch date*
+
+![bar sign](/blog/images/my-quarantine/2021-05-02-02.jpg)
+
+*May 2, bar rules*
+
+I'm facebook friends with an anti-vaxxer who is convinced that covid is a liberal hoax, that there's a secret cure, that vaccines are more harmful than the disease, and that people who wear masks are sheep. I find myself compelled to respond to their frequent posts, and it turns into an honestly unhealthy compulsion to fact check and post links to snopes, despite knowing that I'm never going to convince them of anything. I hate these rabbit holes, but I'm also fascinated by the sociology at play here. People on "my side" often think that it's a problem of education, that if we just explain how vaccines work carefully enough, people will get it. But how do you educate somebody who honestly believes vaccines are a government plot to poison the world?
+
+On May 5th, I get the second dose of the vaccine. My only side effect is feeling a little loopy that night, and again the probably placebo weird beard symptom. I'm a little dissapointed that I don't have more memorable side effects to mark the importance of the occasion.
+
+![vaccine selfie](/blog/images/my-quarantine/2021-05-05.jpg)
+
+*May 5, obligatory vaccine selfie*
+
+The weekend of May 7 to 9 I go to the Star Trek rocks. They're about 8 hours away from me, and they've been on my nerdy bucket list since I moved to California (along with the Windows XP hill, which I saw back in April). I use this trip as practice for my upcoming road trip.
+
+![Star Trek rocks](/blog/images/my-quarantine/2021-05-08-01.jpg)
+
+*May 8: Star Trek rocks*
+
+The trip was fun, but the thing that sticks with me is the casual cruelty of white people when they think they're surrounded by people like them. From the old white woman who went out of her way to tell a transphobic joke, to the guy at the bar talking about "white blood", to the guy who apologizes for that guy but then adds a little homophobia to the mix when I tell him I live near San Francisco, I'm reminded that, oh yeah, this is what the world is like. I wonder why it's such a shock to me. Have I been living in my little silicon valley bubble so long that I forgot that hatred was a thing?
+
+![restaurant bubbles](/blog/images/my-quarantine/2021-05-08-02.jpg)
+
+*May 8: restaurant bubbles*
+
+On May 13, the president tweets this out:
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">The rule is now simple: get vaccinated or wear a mask until you do. <br><br>The choice is yours.</p>&mdash; President Biden (@POTUS) <a href="https://twitter.com/POTUS/status/1392935847863934987?ref_src=twsrc%5Etfw">May 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I've been wearing a mask, and I'm already vaccinated. And in fact I've been fighting with people who don't wear masks or won't get vaccinated. But I can see why this would piss people off. I originally saw this tweet as a screenshot on a conservative's facebook page, and I thought it was fake.
+
+I know this is armchair quarterbacking, but I'm a little frustrated by how "my side" (pro science, pro social distancing, pro vaccine, pro masking) has approached the "end" of the pandemic. I know the previous administration took an anti-science stance which caused a ton of problems, but we've had 5 months to put together a cohesive narrative or set of recommendations, but people still seem confused about what the "right" thing to do is, which turns it into a weirdly subjective personal decision. Why not go county by county and apply a rule like "when 75% of the people are vaccinated, businesses can open back up"? And then celebrate when each county reaches the threshold? I'm sure there are reasons that won't work, but I can't help but being frustrated by the lack of direction, even from "my side".
+
+I find a role in engEDU within Google. To oversimplify, engEDU is Google's education department, and I've been daydreaming about moving there pretty much since I started at Google back in 2016. I'm optimistic, and it opens up some interesting questions about SPS, which also recently moved to engEDU. But more than anything, I'm excited about being able to hit a reset button on my day job.
+
+My last day on my old team is May 21, and on May 22 I leave for my road trip. Part of me wants to end this quarantine blog there.
 
