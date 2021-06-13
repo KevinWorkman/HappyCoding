@@ -504,9 +504,9 @@ By the way, I'm still going on those daily walks.
 
 I notice that the local dive bar is open again. I guess this means that the "second lockdown" has been lifted. Throughout the whole quarantine, I've never been worried about getting sick, and I'm not the type to constantly refresh the latest death numbers for my county. But I absolutely do not understand the appeal of forcing a server or bartender to put themselves at risk just so I can have a beer and some breaded mushrooms, no matter how good that sounds right now. But again, maybe I'm the jerk for not supporting local businesses.
 
-![tree in a parking lot](/blog/images/my-quarantine/2021-02-05.jpg)
+![trees in a parking lot](/blog/images/my-quarantine/2021-02-05.jpg)
 
-*February 5, parking lot tree*
+*February 5, parking lot tree*s
 
 Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [This article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
 
@@ -536,6 +536,8 @@ I don't have much else to say about February. This is probably the worst month o
 
 Ever since Stanley died, I've felt an all-encompassing sadness pretty much every second of every day. Around March, that sadness starts to quiet down a little bit, but I find myself not quite returning to normal. It's not like a graph that dipped down and went back up. It's more like I'm returning to a different version of myself. This version is angrier, less patient, and more stressed out. I don't know if that's a direct result of the Stanley stuff, or maybe the shift was always happening but I couldn't feel it because of the layer of sadness on top of it.
 
+At some point around here I start listening to [This Podcast Will Kill You](https://thispodcastwillkillyou.com/) (thanks Liz!), which started back in 2017 and covers a bunch of diseases and pandemics throughout history. It's amazing to me how much they already knew, or how much of what they talked about historically ended up applying to covid.
+
 I've been thinking about going on a road trip, and in early March I'm invited to a wedding on the east coast at the end of May. I think maybe I'll go on a long antisocial road trip, maybe rent a car, maybe work from the road for a few weeks. This becomes my go-to daydream.
 
 On March 12th I almost get into a physical fight with a guy who isn't wearing a mask. I'm not proud of the toxic masculinity of that moment, but it is fascinating to think about how much I've changed in a year.
@@ -554,6 +556,10 @@ I go on my first in person, socially distanced date(s). This blog is already mor
 
 I've been daydreaming about going on a road trip, but with the job uncertainty I'm not sure if it's still doable. I was also originally planning on the trip being very antisocial, but now that the vaccine is *almost* available, I'm stressing out about whether I'll be able to get it in time. I get a new car on April 9th, and in my brain that's one less uncertainty to worry about.
 
+![little free pantry](/blog/images/my-quarantine/2021-04-10.jpg)
+
+*April 10, little free pantry*
+
 But then Santa Clara county opens up vaccines to everybody on April 12th, and on the very next day, I get my first dose of the (pfizer) vaccine. The whole process is much easier than I expected, and getting the vaccine takes exactly 30 minutes. My only side effect is a sore arm, and I swear my beard feels weird. But that's probably the placebo effect.
 
 ![vaccine sign](/blog/images/my-quarantine/2021-04-13.jpg)
@@ -567,6 +573,8 @@ Throughout April I'm talking to a bunch of folks about potential jobs, and inter
 ![wish you were here](/blog/images/my-quarantine/2021-04-28.jpg)
 
 *April 28, wish you were here*
+
+I watch a 2011 movie called [Contagion](https://en.wikipedia.org/wiki/Contagion_(2011_film)) because This Podcast Will Kill you occasionally mentions it (pre-2020) as an accurate portrayal of what a pandemic "would" look like. And man are they right. I don't think I'll ever watch this movie again.
 
 # May
 
@@ -582,7 +590,7 @@ On May 2nd I take myself to lunch at Sports Page. They no longer have breaded mu
 
 I'm facebook friends with an anti-vaxxer who is convinced that covid is a liberal hoax, that there's a secret cure, that vaccines are more harmful than the disease, and that people who wear masks are sheep. I find myself compelled to respond to their frequent posts, and it turns into an honestly unhealthy compulsion to fact check and post links to snopes, despite knowing that I'm never going to convince them of anything. I hate these rabbit holes, but I'm also fascinated by the sociology at play here. People on "my side" often think that it's a problem of education, that if we just explain how vaccines work carefully enough, people will get it. But how do you educate somebody who honestly believes vaccines are a government plot to poison the world?
 
-On May 5th, I get the second dose of the vaccine. My only side effect is feeling a little loopy that night, and again the probably placebo weird beard symptom. I'm a little dissapointed that I don't have more memorable side effects to mark the importance of the occasion.
+On May 5th, I get the second dose of the vaccine. My only side effect is feeling a little cough syrup-y that night, and again the probably placebo effect weird beard symptom. I'm a little disappointed that I don't have more memorable side effects to mark the importance of the occasion.
 
 ![vaccine selfie](/blog/images/my-quarantine/2021-05-05.jpg)
 
@@ -606,9 +614,64 @@ On May 13, the president tweets this out:
 
 I've been wearing a mask, and I'm already vaccinated. And in fact I've been fighting with people who don't wear masks or won't get vaccinated. But I can see why this would piss people off. I originally saw this tweet as a screenshot on a conservative's facebook page, and I thought it was fake.
 
-I know this is armchair quarterbacking, but I'm a little frustrated by how "my side" (pro science, pro social distancing, pro vaccine, pro masking) has approached the "end" of the pandemic. I know the previous administration took an anti-science stance which caused a ton of problems, but we've had 5 months to put together a cohesive narrative or set of recommendations, but people still seem confused about what the "right" thing to do is, which turns it into a weirdly subjective personal decision. Why not go county by county and apply a rule like "when 75% of the people are vaccinated, businesses can open back up"? And then celebrate when each county reaches the threshold? I'm sure there are reasons that won't work, but I can't help but being frustrated by the lack of direction, even from "my side".
+I know this is armchair quarterbacking, but I'm a little frustrated by how "my side" (pro science, pro social distancing, pro vaccine, pro masking) has approached the "end" of the pandemic. I know the previous administration took an anti-science stance which caused a ton of problems, but we've had 5 months to put together a cohesive narrative or set of recommendations. But people still seem confused about what the "right" thing to do is, which turns it into a weirdly subjective personal decision. Why not go county by county and apply a rule like "when 75% of the people are vaccinated, businesses can open back up"? And then celebrate when each county reaches the threshold? I'm sure there are reasons that won't work, but I can't help but being frustrated by the lack of direction, even from "my side".
 
 I find a role in engEDU within Google. To oversimplify, engEDU is Google's education department, and I've been daydreaming about moving there pretty much since I started at Google back in 2016. I'm optimistic, and it opens up some interesting questions about SPS, which also recently moved to engEDU. But more than anything, I'm excited about being able to hit a reset button on my day job.
 
 My last day on my old team is May 21, and on May 22 I leave for my road trip. Part of me wants to end this quarantine blog there.
 
+But this whole thing is already self-indulgent and way too personal, so let's keep going!
+
+The first thing I notice on my trip is how different places have vastly different reactions to quarantine. I was expecting rural Pennsylvania to be different from silicon valley, but I'm *shocked* when nobody in Longmont (just outside Boulder) is wearing a mask. Not even the people working at the bars! I also "overhear" a conversation where a group questions their only member who got the vaccine, so it's not like everybody is vaccinated. I have a weird moment where I'm literally the only one in the bar wearing a mask, but I'm not sure if I should take it off. It feels weird to take it off, but it also feels weird to keep it on. What am I signaling by keeping it on? Am I somehow signaling that I'm not vaccinated, even though I am? I feel like people are looking at me funny, and I even feel like the bartenders are actively ignoring me, so I eventually take it off.
+
+![restaurant bubbles](/blog/images/my-quarantine/2021-05-24.jpg)
+
+*May 24: Des Moines, be safe wear a mask*
+
+![fully vaccinated individuals are not required to wear face coverings](/blog/images/my-quarantine/2021-05-25-01.jpg)
+
+*May 25: Iowa, fully vaccinated individuals are not required to wear face coverings*
+
+![brighter days are ahead](/blog/images/my-quarantine/2021-05-25-02.jpg)
+
+*May 25: Chicago, brighter days are ahead*
+
+In Chicago, about 50% of people are wearing masks, and I have a suspicion that most of those people are tourists. Somebody explains that because winter in Chicago is quarantine anyway, when the weather got nicer, Chicago gave up. This is SO interesting to me.
+
+![pandemic story](/blog/images/my-quarantine/2021-05-25-03.jpg)
+
+*May 25: Chicago, a pandemic story in one picture*
+
+![masks are recommended but not required](/blog/images/my-quarantine/2021-05-27.jpg)
+
+*May 27: Maryland, masks are recommended but not required*
+
+![roburritos](/blog/images/my-quarantine/2021-05-29.jpg)
+
+*May 29: Lancaster PA, Roburritos*
+
+![now open and staying safe](/blog/images/my-quarantine/2021-05-31.jpg)
+
+*May 31: Nashville, now open and staying safe*
+
+# June
+
+![wear a mask when you can't distance](/blog/images/my-quarantine/2021-06-01.jpg)
+
+*June 1: Nashville, wear a mask when you can't distance, it's the law*
+
+![dunkin donuts alien wearing a mask](/blog/images/my-quarantine/2021-06-03.jpg)
+
+*June 3: Roswell, the entire road trip in one picture*
+
+![be safe wear a mask](/blog/images/my-quarantine/2021-06-04.jpg)
+
+*June 4: Las Vegas, be safe wear a mask*
+
+I start on my new team in engEDU on June 7. Other than the typical new job stuff (how to run server?), I think a lot about what it means to start a new job while working from home. I started at Google (and in the industry in general) when we were working in person, which meant that I built up a lot of knowledge and relationships just from being in the same room. A lot of my knowledge in my first year came from overhearing conversations that my coworkers were having within earshot, and I truly value the friendships I formed with people I don't actually work with day to day, but who just happen to sit near me.
+
+When quarantine first started, there was a scramble to keep these relationships alive: a lot of optional "fun" events over video chat. But those quickly died out. I've had a lot of empathy for people just starting out in their careers, because "the shoulder tap" is one of the most useful resources you have while starting out. But I've been able to lean on the knowledge and relationships I had already formed, so I didn't really need the video chat happy hours.
+
+But when I start on my new team, I don't really have that anymore. But the interesting thing is that I don't necessarily see it as a loss. I have my own WFH routine that works for me (the new normal?), and I feel like I can stumble my way through not being fired. So maybe it's okay that my coworkers aren't going to be my friends. Maybe that's actually a good thing, and it'll be easier to close my laptop at 5:00?
+
+I talk about this with someone I work with, and they point out that maybe new folks are filling that gap by having virtual lunch with their IRL friends rather than their coworkers. This makes sense to me, since one of my favorite "work" meetings is with my friend Liz, who I have never worked with.
