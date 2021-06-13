@@ -668,6 +668,8 @@ In Chicago, about 50% of people are wearing masks, and I have a suspicion that m
 
 *June 4: Las Vegas, be safe wear a mask*
 
+{% include youtube-embed.html slug="yV8ll-c-CqE" %}
+
 I start on my new team in engEDU on June 7. Other than the typical new job stuff (how to run server?), I think a lot about what it means to start a new job while working from home. I started at Google (and in the industry in general) when we were working in person, which meant that I built up a lot of knowledge and relationships just from being in the same room. A lot of my knowledge in my first year came from overhearing conversations that my coworkers were having within earshot, and I truly value the friendships I formed with people I don't actually work with day to day, but who just happen to sit near me.
 
 When quarantine first started, there was a scramble to keep these relationships alive: a lot of optional "fun" events over video chat. But those quickly died out. I've had a lot of empathy for people just starting out in their careers, because "the shoulder tap" is one of the most useful resources you have while starting out. But I've been able to lean on the knowledge and relationships I had already formed, so I didn't really need the video chat happy hours.
