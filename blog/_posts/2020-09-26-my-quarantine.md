@@ -636,7 +636,7 @@ The first thing I notice on my trip is how different places have vastly differen
 
 *May 25: Chicago, brighter days are ahead*
 
-In Chicago, about 50% of people are wearing masks, and I have a suspicion that most of those people are tourists. Somebody explains that because winter in Chicago is quarantine anyway, when the weather got nicer, Chicago gave up. This is SO interesting to me.
+In Chicago, about 50% of people are wearing masks, and I have a suspicion that most of those people are tourists. My Chicago friend explains that because winter in Chicago is quarantine anyway, when the weather got nicer, Chicago gave up. This is SO interesting to me.
 
 ![pandemic story](/blog/images/my-quarantine/2021-05-25-03.jpg)
 
@@ -669,6 +669,20 @@ In Chicago, about 50% of people are wearing masks, and I have a suspicion that m
 *June 4: Las Vegas, be safe wear a mask*
 
 {% include youtube-embed.html slug="yV8ll-c-CqE" %}
+
+Before my trip, I assumed my area was fairly average: of course everybody wears masks indoors, and most people wear them outside as well. We take them off when we sit down to eat or drink, but we put them back on when we get up. But after visiting a bunch of other areas (and stopping at a ton of gas stations along the way), I realize that my area is actually very far to one side of the masking spectrum. Most people in most places were not wearing masks, especially outside. In some places, literally nobody was wearing masks, including the people working at the bar or store or wherever.
+
+When I get back from my trip, I find myself relaxing on my own feelings about wearing a mask. After two weeks of feeling other social pressures, the social pressure of the bay area no longer seems as obvious to me. I still wear a mask inside stores, of course. But I realize that maybe wearing a mask outside is a little pointless. Or rather, the point of it is to fit in with the local social norm. But if that's the only reason, how do we ever get out of it? Should I stop wearing a mask outside entirely, to help move that social norm back to, well, normal?
+
+I'm fascinated by why the bay area would be so much more socially strict about wearing a mask than other places. I ask a few people who live here what they think, and I get a few theories:
+
+- Maybe people from the bay are just more considerate than people from other places
+- Maybe people from the bay travel more than people from other places
+- Maybe wearing a mask started out as an anti-Trump reaction, but then was internalized and became actual fear
+
+I'm not really convinced by any of those theories, or rather, I still don't think they explain why the bay area is *different* from other places. I also wonder if it has something to do with the area's relatively high Asian population (since wearing a mask was already normal in many Asian cultures), or maybe it's because we're more antisocial to start with? I really want somebody smarter than me to study this and tell me the answer.
+
+The guy who runs my Saturday Subway tells me that even though Santa Clara has declared that unvaccinated people can stop wearing masks, he's going to keep the mask policy in place because he can't tell who's vaccinated and who's not.
 
 I start on my new team in engEDU on June 7. Other than the typical new job stuff (how to run server?), I think a lot about what it means to start a new job while working from home. I started at Google (and in the industry in general) when we were working in person, which meant that I built up a lot of knowledge and relationships just from being in the same room. A lot of my knowledge in my first year came from overhearing conversations that my coworkers were having within earshot, and I truly value the friendships I formed with people I don't actually work with day to day, but who just happen to sit near me.
 
