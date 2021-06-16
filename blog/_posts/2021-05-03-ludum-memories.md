@@ -4,6 +4,7 @@ title: Ludum Memories
 meta-title: Ludum Memories
 meta-description: 10 years of Ludum Dare.
 meta-image: /blog/images/ludum-memories/thumbnail.png
+updated: 2021-06-15
 ---
 
 [Ludum Dare](https://ldjam.com/) is a [game jam](https://en.wikipedia.org/wiki/Game_jam) (similar to a hackathon, but with a focus on celebration rather than competition) where participants have 48 hours to make a game based on a theme that's announced at the beginning of the event.
@@ -252,7 +253,7 @@ You can play in your browser [here](/gallery/emojavoid-ld-47/index).
 
 *April 2021, Deeper and Deeper*
 
-[The Rabbit Hole](/gallery/rabbit-hole/index) explores the idea of [Wikipedia rabbit holes](https://en.wikipedia.org/wiki/Wiki_rabbit_hole). You start on one Wikipedia article, and have to click through the links to get to a goal article.
+[The Rabbit Hole](/gallery/rabbit-hole/index) explores the idea of [Wikipedia rabbit holes](https://en.wikipedia.org/wiki/Wiki_rabbit_hole). You start on one Wikipedia article, and have to click through the links to get to a goal article. This game got 13th place in the theme category!
 
 [![The Rabbit Hole](/blog/images/ludum-memories/rabbit-hole.png)](/gallery/rabbit-hole/index)
 
