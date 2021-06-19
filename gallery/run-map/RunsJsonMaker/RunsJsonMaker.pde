@@ -18,6 +18,9 @@ JSONArray inputRuns = loadJSONObject("routes.json")
   .getJSONObject("user")
   .getJSONArray("runs");
 
+float totalDistance = 0;
+int totalRuns = 0;
+
 // Use an ArrayList so we can sort the runs by date.
 ArrayList<JSONObject> runsToSort = new ArrayList<JSONObject>();
 
@@ -55,6 +58,9 @@ for (int i = 0; i < inputRuns.size(); i++) {
     outputCoordinate.setFloat("lng", inputCoordinate.getFloat("longitude"));
     outputRoute.append(outputCoordinate);
   }
+  
+  totalRuns++;
+  totalDistance += metrics.getInt("distance") / 1000.0;
 
   JSONObject outputRun = new JSONObject();
   outputRun.setString("startTime", outputStartTime);
@@ -63,6 +69,9 @@ for (int i = 0; i < inputRuns.size(); i++) {
   outputRun.setJSONArray("path", outputRoute);
   runsToSort.add(outputRun);
 }
+
+println("total runs: " + totalRuns);
+println("total distance: " + totalDistance);
 
 runsToSort.sort(new Comparator<JSONObject>() {
   public int compare(JSONObject one, JSONObject two) {
