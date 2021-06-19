@@ -7,3 +7,4 @@ permalink: /:categories/:slug
 plugins:
   - jemoji
   - jekyll-sitemap
+  - jekyll-redirect-from

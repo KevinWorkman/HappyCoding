@@ -8,6 +8,7 @@ meta-title: Social Feed Website
 meta-description: Use JSP to render user posts.
 meta-image: /examples/java-server/jsp/images/social-feed-website-4.png
 tags: [example, java, server, jsp]
+redirect_from: /examples/java-server/jsp/social-feed-website
 ---
 
 This code expands the [social feed website example](/examples/java-server/servlets/social-feed-website) (I recommend reading that before this) and uses JSP to render user posts to create an example of a social feed web app like Twitter, Tumblr, or Facebook.
