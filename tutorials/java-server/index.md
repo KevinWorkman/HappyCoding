@@ -11,10 +11,38 @@ sort-key: 500
 
 # Java Server Tutorials
 
-These tutorials assume you're already familiar with the basics of programming and that you've already read [the Java tutorials](/tutorials/java). You should also be familiar with client-side web programming from the [HTML](/tutorials/html) and [JavaScript](/tutorials/javascript) tutorials.
+These tutorials assume you're already familiar with the fundamentals of coding, and that you've already read [the Java tutorials](/tutorials/java). You should also be familiar with client-side web programming from the [HTML](/tutorials/html) and [JavaScript](/tutorials/javascript) tutorials.
+
+# Running a Server
+
+Pick a server and run with it.
 
 <div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/java-server/jetty-setup" %}
+  {% include url-thumbnail.html url="/tutorials/java-server/jetty-setup" %}
+  {% include url-thumbnail.html url="/tutorials/java-server/tomcat" %}
+</div>
+
+# Javax vs Jakarta
+
+Java EE has a long and complicated history which can make tutorials and examples confusing. I'll try to simplify it as much as possible so you know what you're looking at.
+
+Java EE stands for Java **E**nterprise **E**dition. "Enterprise" means "business", because back when it was invented in 1999, the only websites that needed server code were owned by businesses. Since then, server code has been used by many people, not just businesses, but the name stuck.
+
+From 1999 to 2019, Java EE was continually developed by Sun and then Oracle. They launched several versions of Java EE, which included several versions of the Java servlets API. They released their code under the `javax` package, for example the `javax.servlet.http.HttpServlet` class.
+
+Then in 2019, Oracle gave Java EE to the [Eclipse Foundation](https://www.eclipse.org/org/foundation/). But here's the weird part: they didn't let the Eclipse Foundation use the name "Java" or the `javax` package.
+
+That meant that after 2019, Java EE was renamed to Jakarta EE, and the code itself was moved to a new `jarakta` package, for example `jakarta.servlet.http.HttpServlet`.
+
+In other words, old tutorials will talk about Java EE and use the old `javax` package, but new tutorials will talk about Jakarta EE and use the new `jakarta` package. This also means that if you download an old version of a library or server container, it might only work with the old `javax` package, but new versions of libraries and server containers will only work with the new `jakarta` package.
+
+This is all really confusing, so if you have a question (or if I got any of it wrong) please reach out to me on [the Happy Coding forum](https://forum.happycoding.io)!
+
+# Tutorials
+
+After you've run a server, read through these tutorials in order.
+
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/java-server/client-server" %}
 {% include url-thumbnail.html url="/tutorials/java-server/servlets" %}
 {% include url-thumbnail.html url="/tutorials/java-server/jsp" %}
