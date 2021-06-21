@@ -17,7 +17,7 @@ This tutorial goes through the process of using [Jetty](http://www.eclipse.org/j
 
 # Download Jetty
 
-Jetty is bundled as a `jett-home` directory inside a `.zip` file, which you can download from [here](http://www.eclipse.org/jetty/download.html).
+Jetty is bundled as a `jetty-home` directory inside a `.zip` file, which you can download from [here](http://www.eclipse.org/jetty/download.html).
 
 Download that file, and then unzip the directory anywhere. I put mine on my desktop. You can always move it later.
 
@@ -179,3 +179,7 @@ Now open up your web browser to [http://localhost:8080/index.html](http://localh
 Note that this URL does not contain the `root` directory.
 
 Also note that you can link between web apps, just like you can link between web pages- because that's what these are!
+
+# More Info
+
+- [This Stack Overflow answer](https://stackoverflow.com/a/51429767/873165) helped me understand the difference between `jetty-home` and `jetty-base`.
