@@ -35,14 +35,6 @@ function randomizeNavColor(){
       randomInt(200, 255) + ', ' +
       randomInt(200, 255) + ')';
   document.getElementsByTagName("nav")[0].style.backgroundColor = bgColor;
-
-  Array.from(document.querySelectorAll( ".random-color" )).forEach(el => {
-    const fgColor = 'rgb(' +
-        randomInt(0, 50) + ', ' +
-        randomInt(0, 50) + ', ' +
-        randomInt(0, 50) + ')';
-    el.style.color = fgColor;
-  });
 }
 
 function randomInt(min, max) {

@@ -11,6 +11,15 @@
   font-smooth: never;
 }
 
+@font-face {
+  font-family: 'HappyCoding';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/happycoding/happycoding.ttf');
+  -webkit-font-smoothing: aliased;
+  font-smooth: never;
+}
+
 body {
   margin: 10px;
   font-family: 'Lato', sans-serif;
@@ -35,8 +44,8 @@ nav {
   background-color: #fbfbfb;
   margin-bottom: 25px;
   border: thin solid #323232;
-  -webkit-transition: background-color 10s linear, color 10s linear;
-  transition: background-color 10s linear, color 10s linear;
+  -webkit-transition: background-color 10s linear;
+  transition: background-color 10s linear;
 }
 
 .nav-links {
@@ -46,18 +55,18 @@ nav {
 }
 
 .navbar-home {
-  font-family: 'Fixedsys', monospace;
+  font-family: 'HappyCoding', monospace;
   font-size: 24pt;
   padding: 10px;
   flex-shrink: 0;
+  color: black;
 }
 
 .nav-link {
-  font-family: 'Fixedsys', monospace;
-  font-size: 16pt;
+  font-family: 'HappyCoding', monospace;
+  font-size: 24pt;
   padding: 10px;
-  -webkit-transition: background-color 10s linear, color 10s linear;
-  transition: background-color 10s linear, color 10s linear;
+  color: black;
 }
 
 #social-nav-link {
@@ -169,7 +178,6 @@ p {
 
 a {
   transition: color 1s;
-  /*color: #4488ff; */
   color: #0000ee;
   text-decoration: none;
 }
