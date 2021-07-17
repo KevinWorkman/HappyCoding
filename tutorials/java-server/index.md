@@ -17,9 +17,12 @@ These tutorials assume you're already familiar with the fundamentals of coding, 
 
 Pick a server and run with it.
 
+Not sure which to choose? Try each one out and see which one you like the best!
+
 <div class="thumbnail-link-container">
-  {% include url-thumbnail.html url="/tutorials/java-server/jetty-setup" %}
   {% include url-thumbnail.html url="/tutorials/java-server/tomcat" %}
+  {% include url-thumbnail.html url="/tutorials/java-server/jetty-setup" %}
+  {% include url-thumbnail.html url="/tutorials/java-server/embedded-jetty" %}
 </div>
 
 # Javax vs Jakarta
@@ -32,11 +35,11 @@ From 1999 to 2019, Java EE was continually developed by Sun and then Oracle. The
 
 Then in 2019, Oracle gave Java EE to the [Eclipse Foundation](https://www.eclipse.org/org/foundation/). But here's the weird part: they didn't let the Eclipse Foundation use the name "Java" or the `javax` package.
 
-That meant that after 2019, Java EE was renamed to Jakarta EE, and the code itself was moved to a new `jarakta` package, for example `jakarta.servlet.http.HttpServlet`.
+That meant that after 2019, Java EE was renamed to Jakarta EE, and the code itself was moved to a new `jakarta` package, for example `jakarta.servlet.http.HttpServlet`.
 
 In other words, old tutorials will talk about Java EE and use the old `javax` package, but new tutorials will talk about Jakarta EE and use the new `jakarta` package. This also means that if you download an old version of a library or server container, it might only work with the old `javax` package, but new versions of libraries and server containers will only work with the new `jakarta` package.
 
-This is all really confusing, so if you have a question (or if I got any of it wrong) please reach out to me on [the Happy Coding forum](https://forum.happycoding.io)!
+This is all really confusing, so if you have a question, please reach out to me on [the Happy Coding forum](https://forum.happycoding.io)!
 
 # Tutorials
 
