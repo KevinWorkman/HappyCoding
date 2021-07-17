@@ -2,18 +2,20 @@
 layout: tutorial
 title: Jetty Setup
 thumbnail: /tutorials/java-server/images/jetty-setup-4.png
-tagline: Run your own server.
-sort-key: 100
+tagline: Run your own Jetty server.
+sort-key: 110
 meta-title: Jetty Setup
-meta-description: Run your own server.
+meta-description: Run your own Jetty server.
 meta-image: /tutorials/java-server/images/jetty-setup-5.png
-tags: [tutorial, java, server]
-updated: 2021-06-19
+tags: [tutorial, java, server, jetty]
+updated: 2021-07-17
 ---
 
 {% include toc.md %}
 
-This tutorial goes through the process of using [Jetty](http://www.eclipse.org/jetty/) to turn your computer into a server. This is handy for testing things out without needing to update (or pay for) a live server.
+This tutorial walks through the process of using [Jetty](http://www.eclipse.org/jetty/) to run a server on your computer. Running a local Jetty server is handy for testing things out without needing to update (or pay for) a live server.
+
+Jetty is a popular Java server, especially because of its ability to run embedded in any Java application. You can learn how to do that in the [embedded Jetty tutorial](/tutorials/java-server/embedded-jetty), or you can keep reading to use Jetty as its own server container.
 
 # Download Jetty
 
@@ -35,33 +37,35 @@ As a general rule, you'll never change anything in the `jetty-home` directory (t
 
 Right now, your `jetty-base` directory is empty. To initialize it with some files that Jetty needs, you can run the `start.jar` file inside your `jetty-home` directory. There are two ways to do this:
 
-1. Open a command line to your `jetty-home` directory, and then run the `start.jar` file and pass it the `jetty.base` argument:
+**Option 1:** Open a command line to your `jetty-home` directory, and then run the `start.jar` file and pass it the `jetty.base` argument:
 
-   ```
-   cd /path/to/your/jetty-home
-   java -jar start.jar jetty.base=/path/to/your/jetty-base --add-module=server,http,deploy,annotations
-   ```
-   
-   For example, I would run these commands:
+```
+cd /path/to/your/jetty-home
+java -jar start.jar jetty.base=/path/to/your/jetty-base --add-module=server,http,deploy,annotations
+```
 
-   ```
-   cd C:\Users\kevin\Desktop\jetty-home-11.0.5
-   java -jar start.jar jetty.base=C:\Users\kevin\Desktop\jetty-base --add-module=server,http,deploy,annotations
-   ```
+For example, I would run these commands:
 
-2. Open a command line to your `jetty-base` directory, and then use the full path to `start.jar`:
+```
+cd C:\Users\kevin\Desktop\jetty-home-11.0.5
+java -jar start.jar jetty.base=C:\Users\kevin\Desktop\jetty-base --add-module=server,http,deploy,annotations
+```
 
-   ```
-   cd /path/to/your/jetty-base
-   java -jar /path/to/your/jetty-home/start.jar --add-module=server,http,deploy,annotations
-   ```
-   
-   For example, I would run these commands:
+<br>
 
-   ```
-   cd C:\Users\kevin\Desktop\jetty-base
-   java -jar C:\Users\kevin\Desktop\jetty-home-11.0.5\start.jar --add-module=server,http,deploy,annotations
-   ```
+**Option 2:** Open a command line to your `jetty-base` directory, and then use the full path to `start.jar`:
+
+```
+cd /path/to/your/jetty-base
+java -jar /path/to/your/jetty-home/start.jar --add-module=server,http,deploy,annotations
+```
+
+For example, I would run these commands:
+
+```
+cd C:\Users\kevin\Desktop\jetty-base
+java -jar C:\Users\kevin\Desktop\jetty-home-11.0.5\start.jar --add-module=server,http,deploy,annotations
+```
 
 In both cases, you're running `start.jar` and telling it where your `jetty-base` directory is, either through the `jetty.base` argument or from `cd`-ing into it first. Then you're telling it to add the `server`, `http`, `deploy`, and `annotations` modules, which you'll need as you work through the rest of the tutorials.
 
@@ -69,39 +73,41 @@ Your `jetty-base` directory should now contain a few configuration files. You ca
 
 # Run Jetty
 
-Now that you've initialized your `jetty-home` directory, you can run Jetty!
+Now that you've initialized your `jetty-home` directory, you can run a Jetty server!
 
 Just like before, you need to run the `start.jar` file and tell it where your `jetty-base` directory is, either through the `jetty.base` parameter or by `cd`-ing into it first.
 
-1. Open a command line to your `jetty-home` directory, and then run the `start.jar` file and pass it the `jetty.base` argument:
+**Option 1:** Open a command line to your `jetty-home` directory, and then run the `start.jar` file and pass it the `jetty.base` argument:
 
-   ```
-   cd /path/to/your/jetty-home
-   java -jar start.jar jetty.base=/path/to/your/jetty-base
-   ```
-   
-   For example, I would run these commands:
+```
+cd /path/to/your/jetty-home
+java -jar start.jar jetty.base=/path/to/your/jetty-base
+```
 
-   ```
-   cd C:\Users\kevin\Desktop\jetty-home-11.0.5
-   java -jar start.jar jetty.base=C:\Users\kevin\Desktop\jetty-base
-   ```
+For example, I would run these commands:
 
-2. Open a command line to your `jetty-base` directory, and then use the full path to `start.jar`:
+```
+cd C:\Users\kevin\Desktop\jetty-home-11.0.5
+java -jar start.jar jetty.base=C:\Users\kevin\Desktop\jetty-base
+```
 
-   ```
-   cd /path/to/your/jetty-base
-   java -jar /path/to/your/jetty-home/start.jar
-   ```
-   
-   For example, I would run these commands:
+<br>
 
-   ```
-   cd C:\Users\kevin\Desktop\jetty-base
-   java -jar C:\Users\kevin\Desktop\jetty-home-11.0.5\start.jar
-   ```
+**Option 2:** Open a command line to your `jetty-base` directory, and then use the full path to `start.jar`:
 
-**Tip:** This command is the exact same thing as the initialization command, but without the `--add-module=server,http,deploy,annotations` part.
+```
+cd /path/to/your/jetty-base
+java -jar /path/to/your/jetty-home/start.jar
+```
+
+For example, I would run these commands:
+
+```
+cd C:\Users\kevin\Desktop\jetty-base
+java -jar C:\Users\kevin\Desktop\jetty-home-11.0.5\start.jar
+```
+
+**Tip:** These commands are the exact same thing as the initialization commands, but without the `--add-module=server,http,deploy,annotations` part.
 
 Your command line should print out some info, ending with a line that contains `Started Server`. That means you're running Jetty!
 
@@ -155,7 +161,7 @@ Congratulations, you just wrote your first web app! :tada:
 
 # Root Web App
 
-Notice that the URL for your web app contains the `HelloWorld` directory. This is useful if you have multiple web apps running on the same server, but you also might want to create a "top level" web app. To do that, create a web app named `root`.
+Notice that the URL for your web app contains the `HelloWorld` directory. This is useful if you have multiple web apps running on the same server, but you also might want to create a "top level" web app that doesn't include its name in its URL. To do that, create a web app named `root`.
 
 In your `webapps` directory, create another folder named `root`. And in that `root` folder, save this HTML to another file named `index.html`:
 
