@@ -46,6 +46,7 @@ This is all really confusing, so if you have a question, please reach out to me 
 After you've run a server, read through these tutorials in order.
 
 <div class="thumbnail-link-container">
+{% include url-thumbnail.html url="/tutorials/java-server/web-app" %}
 {% include url-thumbnail.html url="/tutorials/java-server/client-server" %}
 {% include url-thumbnail.html url="/tutorials/java-server/servlets" %}
 {% include url-thumbnail.html url="/tutorials/java-server/jsp" %}
