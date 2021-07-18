@@ -186,6 +186,14 @@ So far, this tutorial has used the command line to compile and run the code. You
 
 [Maven](https://maven.apache.org/) is a tool that manages the classpath for you, and makes it easier to compile and build (and eventually deploy) your server. To use Maven, first download and install it from [here](https://maven.apache.org/download.cgi).
 
+## Example Project
+
+You can see an example project that uses Maven to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/embedded-jetty-maven-hello-world), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/embedded-jetty-maven-hello-world).
+
+The rest of this tutorial walks through this example project.
+
+## Maven Directory Structure
+
 Maven expects a [specific directory structure](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html):
 
 - `Web App Name`
@@ -209,6 +217,8 @@ For example, you might have a `HelloWorld` webapp directory that looks like this
           - `HelloWorldServlet.java`
       - `webapp/`
         - `index.html`
+
+## pom.xml
 
 Maven uses a `pom.xml` file to configure a project, including information about the classpath and how to compile and build the project. Here's an example `pom.xml` file:
 
@@ -302,6 +312,8 @@ Maven uses a `pom.xml` file to configure a project, including information about 
 </project>
 ```
 
+## ServerMain.java
+
 Next, because Maven's directory structure is a bit different, you'll need to change a few things in your `ServerMain.java` file:
 
 ```java
@@ -354,13 +366,15 @@ mvn package
 
 This tells Maven to compile and build your code based on the `pom.xml` file, and then Maven copies the compiled code into a `target` directory. Try exploring the `HellowWorld/target` directory to see the directory structure that Maven outputs, which is why the static files and annotations are loaded from those locations.
 
+## Running a Server
+
 Finally, to run a local server, execute this command:
 
 ```
 mvn exec:java
 ```
 
-This command tells Maven to run the code as a Java application, by running the `main()` method.
+This command tells Maven to run the code as a Java application, by running the `main()` method in the `ServerMain` class.
 
 Now you can visit [localhost:8080](http://localhost:8080) to see your web app!
 
