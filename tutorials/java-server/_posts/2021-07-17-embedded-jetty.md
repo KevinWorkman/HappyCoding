@@ -84,6 +84,12 @@ Notably, the static files (like `index.html`) are in the top-level directory, an
 
 Eventually you'll probably want to use an IDE like Eclipse or Intellij to compile and run your code, but I recommend using the command line the first few times so you really understand what's going on behind the scenes.
 
+## Example Project
+
+You can see an example project that uses the command line to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/embedded-jetty-command-line-hello-world), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/embedded-jetty-command-line-hello-world).
+
+This section of the tutorial walks through this example project.
+
 ## Compiling
 
 To compile this code, open a command line to the `HelloWorld` directory and then run this command:
