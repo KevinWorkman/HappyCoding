@@ -4,9 +4,9 @@ This project is laid out like this:
 
 - `embedded-jetty-command-line-hello-world/`
   - `io/happycoding/` is a directory representing a Java package.
-    - **`ServerMain.java`** is the main class that sets up the server.
-    - **`HelloWorldServlet.java`** is a Java servlet that returns some HTML content.
-  - **`index.html`** is an HTML file that shows static content.
+    - `ServerMain.java` is the main class that sets up the server.
+    - `HelloWorldServlet.java` is a Java servlet that returns some HTML content.
+  - `index.html` is an HTML file that shows static content.
 
 You can run this locally by compiling the `.java` files and then running the `ServerMain` class.
 
