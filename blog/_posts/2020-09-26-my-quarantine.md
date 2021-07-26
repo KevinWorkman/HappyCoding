@@ -4,7 +4,7 @@ title: My Quarantine
 meta-title: My Quarantine
 meta-description: Some notes on the first six months of quarantine.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
-updated: 2021-06-12
+updated: 2021-07-25
 ---
 
 {% include toc.md %}
@@ -684,6 +684,10 @@ I'm not really convinced by any of those theories, or rather, I still don't thin
 
 The guy who runs my Saturday Subway tells me that even though Santa Clara has declared that unvaccinated people can stop wearing masks, he's going to keep the mask policy in place because he can't tell who's vaccinated and who's not.
 
+![subway table](/blog/images/my-quarantine/2021-06-12.jpg)
+
+*June 12: tables outside Subway reopening*
+
 I start on my new team in engEDU on June 7. Other than the typical new job stuff (how to run server?), I think a lot about what it means to start a new job while working from home. I started at Google (and in the industry in general) when we were working in person, which meant that I built up a lot of knowledge and relationships just from being in the same room. A lot of my knowledge in my first year came from overhearing conversations that my coworkers were having within earshot, and I truly value the friendships I formed with people I don't actually work with day to day, but who just happen to sit near me.
 
 When quarantine first started, there was a scramble to keep these relationships alive: a lot of optional "fun" events over video chat. But those quickly died out. I've had a lot of empathy for people just starting out in their careers, because "the shoulder tap" is one of the most useful resources you have while starting out. But I've been able to lean on the knowledge and relationships I had already formed, so I didn't really need the video chat happy hours.
@@ -691,3 +695,14 @@ When quarantine first started, there was a scramble to keep these relationships 
 But when I start on my new team, I don't really have that anymore. But the interesting thing is that I don't necessarily see it as a loss. I have my own WFH routine that works for me (the new normal?), and I feel like I can stumble my way through not being fired. So maybe it's okay that my coworkers aren't going to be my friends. Maybe that's actually a good thing, and it'll be easier to close my laptop at 5:00?
 
 I talk about this with someone I work with, and they point out that maybe new folks are filling that gap by having virtual lunch with their IRL friends rather than their coworkers. This makes sense to me, since one of my favorite "work" meetings is with my friend Liz, who I have never worked with.
+
+A bird decides to build a nest on my porch. As far as quarantine events go, this one is pretty egg-citing.
+
+![bird with eggs](/blog/images/my-quarantine/2021-06-26.jpg)
+
+*June 26: Sandra with Omelette and Frittata*
+
+![mural](/blog/images/my-quarantine/2021-06-28.jpg)
+
+*June 28: I've walked in this neighborhood every day for the last year, but I just now discovered this gigantic mural*
+
