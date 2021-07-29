@@ -8,7 +8,11 @@ meta-title: Jetty Setup
 meta-description: Run your own Jetty server.
 meta-image: /tutorials/java-server/images/jetty-setup-5.png
 tags: [tutorial, java, server, jetty]
-updated: 2021-07-17
+updated: 2021-07-28
+---
+
+{% include youtube-embed.html slug="AHg16NjiSwI" %}
+
 ---
 
 {% include toc.md %}
