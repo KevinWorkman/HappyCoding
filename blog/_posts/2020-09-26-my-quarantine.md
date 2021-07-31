@@ -636,7 +636,9 @@ The first thing I notice on my trip is how different places have vastly differen
 
 *May 25: Chicago, brighter days are ahead*
 
-In Chicago, about 50% of people are wearing masks, and I have a suspicion that most of those people are tourists. My Chicago friend explains that because winter in Chicago is quarantine anyway, when the weather got nicer, Chicago gave up. This is SO interesting to me.
+In Chicago, about 50% of people are wearing masks, and I have a suspicion that most of those people are tourists. My Chicago friend explains that because winter in Chicago is quarantine anyway, when the weather got nicer, Chicago gave up. This is SO interesting to me. She also mentions that Lollapalooza will require proof of vaccination or a negative test result to enter.
+
+(Side note: I brought my vaccination card with me just in case, but nobody asked to see it. I was hoping / assuming that more places would require it.)
 
 ![pandemic story](/blog/images/my-quarantine/2021-05-25-03.jpg)
 
@@ -702,7 +704,96 @@ A bird decides to build a nest on my porch. As far as quarantine events go, this
 
 *June 26: Sandra with Omelette and Frittata*
 
+I think June 25th is the first time I leave my house to go on a run without having a mask at least in my pocket. A few days after that I go to the grocery store without a mask for the first time. It still feels a little weird, and about half the people are still wearing masks. I have a bit of an internal debate with myself: do I keep wearing a mask to make absolutely 100% sure that I'm not making anybody the least bit uncomfortable, or do I purposely stop wearing a mask to help change our local societal norm? I lean towards not wearing a mask in places where it's not required, but it still feels weird.
+
 ![mural](/blog/images/my-quarantine/2021-06-28.jpg)
 
 *June 28: I've walked in this neighborhood every day for the last year, but I just now discovered this gigantic mural*
 
+# July
+
+Liz and Shawn visit me!
+
+![airport sign](/blog/images/my-quarantine/2021-07-02.jpg)
+
+*July 2: airport sign*
+
+We do a few things while they're here: San Francisco, Half Moon Bay, Santa Cruz, Palo Alto, San Jose. For the most part we're not wearing masks, and most of it feels pretty normal.
+
+![bar sign](/blog/images/my-quarantine/2021-07-03.jpg)
+
+*July 3: bar sign*
+
+At some point during quarantine, San Francisco made it legal to get a drink from a bar and take it with you as you walked up the pier area. The bartender tells us this might have something to do with the governor having some kind of a stake in some of the bars. I feel like this is a good example of "the new normal" brought on by covid, and the continuing trend of different people living by different rules. But hey, walking around with a beer isn't a bad way to spend a Saturday afternoon.
+
+![bar trivia resumes](/blog/images/my-quarantine/2021-07-04.jpg)
+
+*July 4: nature is healing*
+
+![Santa Cruz sign](/blog/images/my-quarantine/2021-07-05-01.jpg)
+
+*July 5: bienvenido*
+
+![Santa Cruz boardwalk](/blog/images/my-quarantine/2021-07-05-02.jpg)
+
+*July 5: welcome back*
+
+![Santa Cruz sign](/blog/images/my-quarantine/2021-07-05-03.jpg)
+
+*July 5: I did not flip this image*
+
+![mask vending machine](/blog/images/my-quarantine/2021-07-06-01.jpg)
+
+*July 6: mask vending machine*
+
+![baby bird](/blog/images/my-quarantine/2021-07-06-02.jpg)
+
+*July 6: Sandra and Omelette*
+
+![closed temporarily](/blog/images/my-quarantine/2021-07-07.jpg)
+
+*July 7: closed temporarily*
+
+Other than that, July feels mostly normal. I'm still working from home full time. Google opens back up for "optional" return to office, but my desk is stuck in limbo since I changed teams during quarantine, and I'm not super interested in sitting at a temporary desk.
+
+Google also announces that we'll have to go back to the office in September (although they've pushed this back many times in the past year, so I'm not betting on it), but that we'll only need to be in the office 3 days a week, and can keep working from home 2 days a week. I'm still not sure how I feel about any of it, but that mostly comes down to not liking *anything* that a company tells me to do.
+
+![baby bird growing](/blog/images/my-quarantine/2021-07-09-01.jpg)
+
+*July 9: Omelette is growing so fast!*
+
+![camping](/blog/images/my-quarantine/2021-07-09-02.jpg)
+
+*July 9: camping*
+
+I talk to somebody who has returned to the office, and he tells me that although the rules say you either need to be vaccinated or wearing a mask, nobody seems to be enforcing that.
+
+![teenager bird](/blog/images/my-quarantine/2021-07-11.jpg)
+
+*July 11: Omelette in her teenage goth phase*
+
+![Sandra, Malcolm, and Omelette](/blog/images/my-quarantine/2021-07-12.jpg)
+
+*July 12: Sandra, Malcolm, and Omelette*
+
+![puffy Omelette](/blog/images/my-quarantine/2021-07-14.jpg)
+
+*July 14: puffy*
+
+![downtown Mountain View](/blog/images/my-quarantine/2021-07-24.jpg)
+
+*July 24: downtown Mountain View*
+
+[This Twitter thread](https://twitter.com/RheaBoydMD/status/1416397105678061576) gives me some mixed feelings:
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Last week I spoke to over 5000 people in rural Georgia. Most were not vaccinated because they still had questions. EVERY question they asked was legitimate and important.<br><br>Stop telling people to “just get vaccinated” if you aren’t willing to put in the work to help them do it.</p>&mdash; Rhea Boyd MD, MPH (@RheaBoydMD) <a href="https://twitter.com/RheaBoydMD/status/1416397105678061576?ref_src=twsrc%5Etfw">July 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+See also [this article](https://www.theatlantic.com/health/archive/2021/07/unvaccinated-different-anti-vax/619523/) and [this follow-up thread](https://twitter.com/edyong209/status/1418191024904679424).
+
+I agree with a lot of this thread / interview, but I admit to spending way too much time thinking about how to reach the more extreme ends of the anti-vaccination spectrum. Or whether they can be reached.
+
+![Omelette flapping](/blog/images/my-quarantine/2021-07-25.jpg)
+
+*July 25: Omelette summing up all of our quarantine feelings*
+
+Google [announces](https://blog.google/inside-google/company-announcements/vaccines-and-our-return-to-office-plans/) that vaccinations will be required for anybody returning to the office, which will now happen in October. I'm a little surprised to find out how many anti-vaxxers there are inside the company.
