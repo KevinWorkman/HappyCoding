@@ -16,6 +16,8 @@ redirect_from:
 
 # Java Server Examples
 
+---
+
 # Social Feed Website
 
 These examples build out a social feed website that shows a feed of updates from users.

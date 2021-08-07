@@ -3,7 +3,7 @@ layout: tutorial
 title: "Social Feed Website Part 5: Thread Safety"
 thumbnail: /examples/java-server/images/social-feed-website-part-5-thread-safety-7.png
 tagline: Let multiple users post messages safely.
-sort-key: 100
+sort-key: 1400
 meta-title: "Social Feed Website Part 5: Thread Safety"
 meta-description: Let multiple users post messages safely.
 meta-image: /examples/java-server/images/social-feed-website-part-5-thread-safety-8.png
