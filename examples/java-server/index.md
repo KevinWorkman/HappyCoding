@@ -6,7 +6,12 @@ meta-title: Java Server Examples
 meta-description: Examples of server-side processing.
 meta-image: /examples/java-server/images/social-feed-website-part-1-servlets-4.png
 sort-key: 500
-redirect_from: /examples/java-server/servlets
+redirect_from:
+ - /examples/java-server/servlets
+ - /examples/java-server/jsp
+ - /examples/java-server/post
+ - /examples/java-server/sessions
+ - /examples/java-server/thread-safety
 ---
 
 # Java Server Examples

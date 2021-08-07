@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: "Social Feed Website Part 3: Post Requests"
-thumbnail: /examples/java-server/post/images/social-feed-website-3.png
+thumbnail: /examples/java-server/images/social-feed-website-part-3-post-requests-3.png
 tagline: Let users create their own posts.
 sort-key: 100
 meta-title: "Social Feed Website Part 3: Post Requests"
 meta-description: Let users create their own posts.
-meta-image: /examples/java-server/post/images/social-feed-website-4.png
+meta-image: /examples/java-server/images/social-feed-website-part-3-post-requests-4.png
 tags: [example, java, server, jsp, post]
 redirect_from: /examples/java-server/post/social-feed-website
 ---
@@ -227,11 +227,11 @@ Finally, we need a `web.xml` file to map the URL to the servlet class:
 
 This file maps any URL starting with `/feeds/` to our servlet, which then sends the request to our JSP file. Now if you run this web app and visit [http://localhost:8080/feed/](http://localhost:8080/feed/) in your browser, you should see this:
 
-![post form](/examples/java-server/post/images/social-feed-website-1.png)
+![post form](/examples/java-server/images/social-feed-website-part-3-post-requests-1.png)
 
 If you enter a name and a message and then click the `Send` button, you'll see your message added to the feed:
 
-![message posted](/examples/java-server/post/images/social-feed-website-2.png)
+![message posted](/examples/java-server/images/social-feed-website-part-3-post-requests-2.png)
 
 The rest of the web app works the same: you can click a user's name to go to their personal feed page, where only their posts are shown.
 
