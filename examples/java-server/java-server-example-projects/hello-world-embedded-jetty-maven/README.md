@@ -2,7 +2,7 @@ This project contains a barebones example webapp that uses embedded Jetty and Ma
 
 This project is laid out like this:
 
-- `embedded-jetty-maven-hello-world/`
+- `hello-world-embedded-jetty-maven/`
   - **`pom.xml`** is a Maven [POM file](https://maven.apache.org/pom.html) that defines the project.
   - `src/main/` is a directory that contains the code.
     - `java/` is a directory that contains server-side code.

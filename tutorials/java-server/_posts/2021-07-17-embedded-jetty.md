@@ -194,7 +194,7 @@ So far, this tutorial has used the command line to compile and run the code. You
 
 ## Example Project
 
-You can see an example project that uses Maven to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/embedded-jetty-maven-hello-world), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/embedded-jetty-maven-hello-world).
+You can see an example project that uses Maven to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven).
 
 The rest of this tutorial walks through this example project.
 
