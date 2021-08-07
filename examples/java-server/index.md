@@ -1,20 +1,22 @@
 ---
 layout: default
 title: Server Examples
-thumbnail: /examples/java-server/servlets/images/social-feed-website-3.png
+thumbnail: /examples/java-server/images/social-feed-website-part-1-servlets-3.png
 meta-title: Java Server Examples
 meta-description: Examples of server-side processing.
-meta-image: /examples/java-server/servlets/images/social-feed-website-4.png
+meta-image: /examples/java-server/images/social-feed-website-part-1-servlets-4.png
 sort-key: 500
+redirect_from: /examples/java-server/servlets
 ---
-
-# JSP
-
-{% include url-thumbnail.html url="/examples/java-server/social-feed-website" %}
 
 # Java Server Examples
 
-{% include url-thumbnail.html url="/examples/java-server/servlets/" %}
-{% include url-thumbnail.html url="/examples/java-server/post/" %}
-{% include url-thumbnail.html url="/examples/java-server/sessions/" %}
-{% include url-thumbnail.html url="/examples/java-server/thread-safety/" %}
+# Social Feed Website
+
+These examples build out a social feed website that shows a feed of updates from users.
+
+{% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-1-servlets" %}
+{% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-2-jsp" %}
+{% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-3-post-requests" %}
+{% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-4-sessions" %}
+{% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-5-thread-safety" %}

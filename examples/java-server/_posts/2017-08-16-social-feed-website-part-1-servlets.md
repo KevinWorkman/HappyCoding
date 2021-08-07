@@ -1,13 +1,15 @@
 ---
 layout: tutorial
-title: Social Feed Website
-thumbnail: /examples/java-server/servlets/images/social-feed-website-3.png
+title: "Social Feed Website Part 1: Servlets"
+thumbnail: /examples/java-server/images/social-feed-website-part-1-servlets-3.png
 tagline: Use servlets to show user posts.
 sort-key: 100
-meta-title: Social Feed Website
+meta-title: "Social Feed Website Part 1: Servlets"
 meta-description: Use servlets to show user posts.
-meta-image: /examples/java-server/servlets/images/social-feed-website-4.png
+meta-image: /examples/java-server/images/social-feed-website-part-1-servlets-4.png
 tags: [example, java, server, servlets]
+redirect_from: /examples/java-server/servlets/social-feed-website
+
 ---
 
 This example uses a servlet to create a barebones example of a social feed web app like Twitter, Tumblr, or Facebook.
@@ -177,11 +179,11 @@ Finally, it requires a `web.xml` file to map the URL to the servlet class:
 
 This file maps any URL starting with `/feeds/` to our servlet. Now if you run this servlet and visit [http://localhost:8080/feed/](http://localhost:8080/feed/) in your browser, you should see this:
 
-![social feeds website feed page](/examples/java-server/servlets/images/social-feed-website-1.png)
+![social feeds website feed page](/examples/java-server/images/social-feed-website-part-1-servlets-1.png)
 
 If you click one of the usernames, you'll be taken to their profile page which only shows their posts:
 
-![social feeds website user page](/examples/java-server/servlets/images/social-feed-website-2.png)
+![social feeds website user page](/examples/java-server/images/social-feed-website-part-1-servlets-2.png)
 
 ## Tweak Ideas
 

@@ -1,13 +1,14 @@
 ---
 layout: tutorial
-title: Social Feed Website
+title: "Social Feed Website Part 5: Thread Safety"
 thumbnail: /examples/java-server/sessions/images/social-feed-website-7.png
-tagline: Allow multiple users to post messages safely.
+tagline: Let multiple users post messages safely.
 sort-key: 100
-meta-title: Social Feed Website
-meta-description: Allow multiple users to post messages safely.
+meta-title: "Social Feed Website Part 5: Thread Safety"
+meta-description: Let multiple users post messages safely.
 meta-image: /examples/java-server/sessions/images/social-feed-website-8.png
 tags: [example, java, server, jsp, post, sessions, thread-safety]
+redirect_from: /examples/java-server/thread-safety/social-feed-website
 ---
 
 This code expands the [social feed website example](/examples/java-server/sessions/social-feed-website) (I recommend reading that before this) and examines its thread safety to allow multiple users to post messages at the same time, to create an example of a social feed web app like Twitter, Tumblr, or Facebook.

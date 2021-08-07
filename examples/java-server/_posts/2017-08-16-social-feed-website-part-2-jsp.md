@@ -1,14 +1,16 @@
 ---
 layout: tutorial
-title: Social Feed Website
+title: "Social Feed Website Part 2: JSP"
 thumbnail: /examples/java-server/jsp/images/social-feed-website-3.png
 tagline: Use JSP to render user posts.
 sort-key: 100
-meta-title: Social Feed Website
+meta-title: "Social Feed Website Part 2: JSP"
 meta-description: Use JSP to render user posts.
 meta-image: /examples/java-server/jsp/images/social-feed-website-4.png
 tags: [example, java, server, jsp]
-redirect_from: /examples/java-server/jsp/social-feed-website
+redirect_from:
+ - /examples/java-server/jsp/social-feed-website
+ - /examples/java-server/social-feed-website
 ---
 
 This code expands the [social feed website example](/examples/java-server/servlets/social-feed-website) (I recommend reading that before this) and uses JSP to render user posts to create an example of a social feed web app like Twitter, Tumblr, or Facebook.

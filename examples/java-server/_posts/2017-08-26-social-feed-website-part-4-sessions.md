@@ -1,13 +1,14 @@
 ---
 layout: tutorial
-title: Social Feed Website
+title: "Social Feed Website Part 4: Sessions"
 thumbnail: /examples/java-server/sessions/images/social-feed-website-7.png
-tagline: Allow users to login and create their own posts.
+tagline: Let users login and create their own posts.
 sort-key: 100
-meta-title: Social Feed Website
-meta-description: Allow users to login and create their own posts.
+meta-title: "Social Feed Website Part 4: Sessions"
+meta-description: Let users login and create their own posts.
 meta-image: /examples/java-server/sessions/images/social-feed-website-8.png
 tags: [example, java, server, jsp, post, sessions]
+redirect_from: /examples/java-server/sessions/social-feed-website
 ---
 
 This code expands the [social feed website example](/examples/java-server/post/social-feed-website) (I recommend reading that before this) and adds the ability for users to login and create their own posts to create an example of a social feed web app like Twitter, Tumblr, or Facebook.
