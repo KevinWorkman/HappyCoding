@@ -2,7 +2,7 @@ This project contains a barebones example webapp that uses embedded Jetty to dep
 
 This project is laid out like this:
 
-- `embedded-jetty-command-line-hello-world/`
+- `hello-world-embedded-jetty-command-line/`
   - `io/happycoding/` is a directory representing a Java package.
     - `ServerMain.java` is the main class that sets up the server.
     - `HelloWorldServlet.java` is a Java servlet that returns some HTML content.
