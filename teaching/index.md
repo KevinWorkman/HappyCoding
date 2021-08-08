@@ -25,6 +25,10 @@ With all of that said, the articles below break down the different ways you migh
 {% include url-thumbnail.html url="/teaching/guides/curriculum" %}
 </div>
 
+# CS 11111
+
+[CS 11111](http://cs111.org/) is an intro to creative coding course taught at the [University of Chicago](https://www.cs.uchicago.edu/) using Happy Coding as a source. [Check it out](https://www.classes.cs.uchicago.edu/archive/2021/spring/11111-1/schedule.html) for ideas on how to structure a course using Happy Coding!
+
 # Contributing
 
 If you have ideas for how this site can be useful for teachers, or if you have resources you'd like to share, please [contact me](/about/contact) or submit issues and pull requests on [GitHub](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing)!
