@@ -26,6 +26,7 @@ These examples show different ways to create a barebones "hello world" server.
 {% include url-thumbnail.html url="/examples/java-server/hello-world-command-line" %}
 {% include url-thumbnail.html url="/examples/java-server/hello-world-maven" %}
 {% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-command-line" %}
+{% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-maven" %}
 
 ---
 
