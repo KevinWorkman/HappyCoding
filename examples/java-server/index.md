@@ -3,7 +3,7 @@ layout: default
 title: Server Examples
 thumbnail: /examples/java-server/images/social-feed-website-part-1-servlets-3.png
 meta-title: Java Server Examples
-meta-description: Examples of server-side processing.
+meta-description: Examples of server-side coding.
 meta-image: /examples/java-server/images/social-feed-website-part-1-servlets-4.png
 sort-key: 500
 redirect_from:
@@ -15,6 +15,14 @@ redirect_from:
 ---
 
 # Java Server Examples
+
+---
+
+# Hello World
+
+These examples show different ways to create a barebones "hello world" server.
+
+{% include url-thumbnail.html url="/examples/java-server/hello-world-static-website" %}
 
 ---
 
