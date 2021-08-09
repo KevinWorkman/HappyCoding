@@ -4,6 +4,7 @@ title: Google Cloud Tutorials
 meta-title: Google Cloud Tutorials
 meta-description: Happy Coding now has Google Cloud tutorials!
 meta-image: /tutorials/google-cloud/images/google-cloud-icon-2.png
+tags: [site-update]
 ---
 
 {% include toc.md %}

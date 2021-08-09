@@ -4,6 +4,7 @@ title: New Nav Font
 meta-title: New Nav Font
 meta-description: The trials and tribulations of aligning text.
 meta-image: /blog/images/new-nav-font/new-nav-font-3.png
+tags: [site-update]
 ---
 
 I'm going to keep this one short and sweet: I've been playing around with a new nav font! :tada:

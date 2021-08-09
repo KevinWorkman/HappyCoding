@@ -5,6 +5,7 @@ meta-title: Ludum Memories
 meta-description: 10 years of Ludum Dare.
 meta-image: /blog/images/ludum-memories/thumbnail.png
 updated: 2021-06-15
+tags: [dev-log]
 ---
 
 [Ludum Dare](https://ldjam.com/) is a [game jam](https://en.wikipedia.org/wiki/Game_jam) (similar to a hackathon, but with a focus on celebration rather than competition) where participants have 48 hours to make a game based on a theme that's announced at the beginning of the event.

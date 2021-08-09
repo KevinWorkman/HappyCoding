@@ -4,6 +4,7 @@ title: Server Tutorials
 meta-title: Server Tutorials
 meta-description: Happy Coding now has server tutorials!
 meta-image: /tutorials/java-server/images/servlets-7.png
+tags: [site-update]
 ---
 
 Happy Coding now has [server tutorials](/tutorials/java-server)!

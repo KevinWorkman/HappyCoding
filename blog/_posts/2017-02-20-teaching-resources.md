@@ -4,6 +4,7 @@ title: Teaching Resources
 meta-title: Teaching
 meta-description: Happy Coding now has teaching resources!
 meta-image: /tutorials/how-to/images/circles-2.png
+tags: [site-update]
 ---
 
 Happy Coding now has [teaching resources](/teaching)!

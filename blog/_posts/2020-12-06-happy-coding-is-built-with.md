@@ -4,6 +4,7 @@ title: Happy Coding is Built With
 meta-title: Happy Coding is Built With
 meta-description: Here's a list of everything I use to create Happy Coding.
 meta-image: /blog/images/happy-coding-is-built-with/thumbnail.jpg
+tags: [site-update, dev-log]
 ---
 
 {% include toc.md %}

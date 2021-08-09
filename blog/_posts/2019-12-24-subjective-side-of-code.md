@@ -4,6 +4,7 @@ title: The Subjective Side of Code
 meta-title: The Subjective Side of Code
 meta-description: "You might be surprised to hear that a lot of decisions about code come down to a subjective, opinionated question: how does this code make you feel?"
 meta-image: /blog/images/subjective-side-of-code/opinions-1.jpg
+tags: [personal]
 ---
 
 {% include toc.md %}

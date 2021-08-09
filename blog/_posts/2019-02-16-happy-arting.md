@@ -4,6 +4,7 @@ title: Happy Arting
 meta-title: Happy Arting
 meta-description: Stanley has wares if you have coin.
 meta-image: /blog/images/happy-arting/stanley-thumbnail.jpg
+tags: [dev-log]
 ---
 
 One of my goals [this year](/blog/happy-new-year-2019) was to play around with physical prints of digital art. Thanks to having ~~a ton of work to do and procrastinating instead~~ a few free weekends, I've figured out how to create physical prints, and I've created an [Etsy store](https://www.etsy.com/shop/HappyCoding)!

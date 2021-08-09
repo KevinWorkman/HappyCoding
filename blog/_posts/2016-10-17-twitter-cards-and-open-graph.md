@@ -5,6 +5,7 @@ slug: twitter-cards-and-open-graph
 meta-title: Twitter Cards and Open Graph
 meta-description: Ever wonder how Twitter and Facebook figure out what to show when you share a link?
 meta-image: /examples/processing/creating-classes/images/flyers-4.png
+tags: [site-update]
 ---
  
 When you share a link to Twitter or Facebook, do you ever wonder how it knows what thumbnail and description to use? How does it know whether the page contains a video? Have you ever noticed that some websites seem to have better-looking links when you share them?

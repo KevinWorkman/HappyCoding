@@ -5,6 +5,7 @@ slug: background-info
 meta-title: Background Info
 meta-description: Here's how I generate random background images. Here's how you can too!
 meta-image: /blog/images/background-info/circles-10.png
+tags: [site-update]
 ---
 
 The site now has random background images that were generated using Processing code, and you can view the source code that generated the background by scrolling to the bottom of the page and looking in the footer!

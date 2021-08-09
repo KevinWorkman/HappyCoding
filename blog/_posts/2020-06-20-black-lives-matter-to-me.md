@@ -4,6 +4,7 @@ title: Black Lives Matter to Me
 meta-title: Black Lives Matter to Me
 meta-description: "How confirmation bias and us-vs-them mentalities have affected my understanding of #BlackLivesMatter."
 meta-image: /blog/images/black-lives-matter-to-me/thumbnail.png
+tags: [personal]
 ---
 
 {% include toc.md %}

@@ -4,6 +4,7 @@ title: When Failing isn't Failure
 meta-title: When Failing isn't Failure
 meta-description: I failed at Ludum Dare, and that's okay.
 meta-image: /blog/images/when-failing-isnt-failure/thumbnail-1.png
+tags: [dev-log]
 ---
 
 [Ludum Dare](https://ldjam.com/) is a [game jam](https://en.wikipedia.org/wiki/Game_jam) where participants have 48 hours to make a game around a theme that's announced at the beginning of the event. In my [previous blog post](/blog/android-libgdx-tutorials), I mentioned that I planned to use [Ludum Dare 42](https://ldjam.com/events/ludum-dare/42/placeholder/ludum-dare-42s-theme-running-out-of-space) as an opportunity to prototype the Android game that I want to make this year.

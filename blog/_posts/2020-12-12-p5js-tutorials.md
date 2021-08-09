@@ -4,6 +4,7 @@ title: New and Improved p5.js and Processing Tutorials
 meta-title: New and Improved p5.js and Processing Tutorials
 meta-description: Happy Coding Now Has New and Improved p5.js and Processing Tutorials
 meta-image: /tutorials/p5js/images/hello-world-3.png
+tags: [site-update]
 ---
 
 {% include toc.md %}

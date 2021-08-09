@@ -5,6 +5,7 @@ slug: ludum-dare-and-programming-without-a-computer
 meta-title: Ludum Dare and Programming Without a Computer
 meta-description: Here's how I entered Ludum Dare by programming a game without using a computer.
 meta-image: https://pbs.twimg.com/media/CzWVc-ZUAAAVoBA.jpg
+tags: [dev-log]
 ---
 
 I just moved to California (more on that in a different blog post). I flew out, and my stuff was shipped separately. So there was a two week period where I didn't have a computer, or internet, or... anything.

@@ -5,6 +5,7 @@ meta-title: My Quarantine
 meta-description: Some notes on the first six months of quarantine.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
 updated: 2021-07-31
+tags: [personal, favorite]
 ---
 
 {% include toc.md %}

@@ -4,6 +4,7 @@ title: The Power of Boredom
 meta-title: The Power of Boredom
 meta-description: I'm very lazy. Here's how I use my boredom as a tool to trick myself into putting in the work. 
 meta-image: /blog/images/the-power-of-boredom/cat-thumbnail.png
+tags: [personal, favorite]
 ---
 
 I'm very lazy.

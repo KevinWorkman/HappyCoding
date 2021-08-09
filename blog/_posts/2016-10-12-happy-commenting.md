@@ -5,6 +5,7 @@ slug: happy-commenting
 meta-title: Happy Commenting
 meta-description: We now have a comment section! *gulp*
 meta-image: /examples/processing/using-objects/images/eyes-5.png
+tags: [site-update]
 ---
 
 Blog posts now contain a comment section! Just scroll to the bottom to check it out!

@@ -4,6 +4,7 @@ title: JavaScript Tutorials
 meta-title: JavaScript Tutorials
 meta-description: Happy Coding now has JavaScript tutorials!
 meta-image: /tutorials/javascript/images/calling-javascript-4.png
+tags: [site-update]
 ---
 
 Happy Coding now has [JavaScript tutorials](/tutorials/javascript)!

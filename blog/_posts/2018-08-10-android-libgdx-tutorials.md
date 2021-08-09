@@ -4,6 +4,7 @@ title: Android and LibGDX Tutorials
 meta-title: Android and LibGDX Tutorials
 meta-description: Happy Coding now has Android and LibGDX tutorials!
 meta-image: /tutorials/android/images/hello-world-9.png
+tags: [site-update]
 ---
 
 Happy Coding now has [Android](/tutorials/android) and [libGDX](/tutorials/libgdx) tutorials!

@@ -4,6 +4,7 @@ title: Checking My Privilege
 meta-title: Checking My Privilege
 meta-description: Me, privileged? No way! (Yes way.)
 meta-image: /blog/images/checking-my-privilege/thumbnail.jpg
+tags: [personal, favorite]
 ---
 
 {% include toc.md %}

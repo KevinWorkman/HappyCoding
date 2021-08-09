@@ -5,6 +5,7 @@ slug: por-ejemplo
 meta-title: Por Ejemplo
 meta-description: Happy Coding now has examples!
 meta-image: /examples/processing/input/images/bouncing-balls-2.png
+tags: [site-update]
 ---
 
 Happy Coding now has [examples](/examples/processing)! And a [forum](http://forum.HappyCoding.io)! And a guide on [how to contribute](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing) to open source (even if you aren't a programmer)!

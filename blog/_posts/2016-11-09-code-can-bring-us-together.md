@@ -5,6 +5,7 @@ slug: code-can-bring-us-together
 meta-title: Code Can Bring Us Together
 meta-description: This seemed like the right time to reflect on why I created this site.
 meta-image: /examples/processing/creating-functions/images/turtle-graphics-2.png
+tags: [personal]
 ---
 
 I know a lot of people are sad, frustrated, ashamed, and angry today. I know a lot of people feel alone or divided, caught up in the "us vs them" frenzy that got us here. I know a lot of people are having conversations with scared kids who don't understand. And I don't have a lot to add to any of that, other than I empathize with you.

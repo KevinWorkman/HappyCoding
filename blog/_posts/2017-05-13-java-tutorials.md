@@ -4,6 +4,7 @@ title: Java Tutorials
 meta-title: Java Tutorials
 meta-description: Happy Coding now has Java tutorials!
 meta-image: /tutorials/java/images/setup-6.png
+tags: [site-update]
 ---
 
 Happy Coding now has [Java tutorials](/tutorials/java)!

@@ -21,5 +21,8 @@
     {{ post.title }}
     {% if post.content contains "youtube.com/embed" -%}▶{%- endif -%}
   </a>
+  {%- if include.showDate -%}
+    <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+  {%- endif -%}
   <p>{{ description }}</p>
 </div>

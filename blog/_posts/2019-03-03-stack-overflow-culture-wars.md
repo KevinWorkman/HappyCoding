@@ -4,6 +4,7 @@ title: The Stack Overflow Culture Wars
 meta-title: The Stack Overflow Culture Wars
 meta-description: Stack Overflow's identity crisis.
 meta-image: /blog/images/stack-overflow-culture-wars/stack-overflow-logo.png
+tags: [personal]
 ---
 
 {% include toc.md %}

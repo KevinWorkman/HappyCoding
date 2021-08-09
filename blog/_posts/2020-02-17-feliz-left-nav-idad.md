@@ -4,6 +4,7 @@ title: Feliz Left Nav-idad
 meta-title: Feliz Left Nav-idad
 meta-description: Here's a list of everything I googled while I added a left nav to the site.
 meta-image: /blog/images/feliz-left-nav-idad/thumbnail.png
+tags: [site-update]
 ---
 
 One of my [goals](/blog/what-is-happy-coding) this year is to make this site feel more like a journey rather than a collection of disconnected tutorials. I fall asleep as soon as anybody starts talking about "user retention" or [funnels](https://en.wikipedia.org/wiki/Funnel_analysis), but I wanted to make it more obvious how everything fits together, the order of things, and what you should do next after you finish reading a page.

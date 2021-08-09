@@ -4,6 +4,7 @@ title: Locus of Control and Learned Helplessness in Coding
 meta-title: Locus of Control and Learned Helplessness in Coding
 meta-description: Locus of control, learned helplessness, burnout, and impostor syndrome.
 meta-image: /blog/images/locus-of-control-learned-helplessness/thumbnail.png
+tags: [personal, favorite]
 ---
 
 {% include toc.md %}

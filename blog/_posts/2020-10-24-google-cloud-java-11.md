@@ -4,6 +4,7 @@ title: Google Cloud Java 11 Migration
 meta-title: Google Cloud Java 11 Migration
 meta-description: Some ranting and rambling about the surprisingly painful Google Cloud Java 11 migration.
 meta-image: /tutorials/google-cloud/images/google-cloud-icon-2.png
+tags: [site-update, dev-log]
 ---
 
 {% include toc.md %}

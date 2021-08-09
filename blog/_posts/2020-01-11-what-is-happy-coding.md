@@ -4,6 +4,7 @@ title: What is Happy Coding?
 meta-title: What is HappyCoding.io?
 meta-description: Some ramblings and reflections on the future of Happy Coding.
 meta-image: /blog/images/what-is-happy-coding/thumbnail.png
+tags: [personal, new-year]
 ---
 
 Like I mentioned in my [new years post](/blog/happy-new-year-2020), I want to spend some time thinking about how I spend my time (woah, meta). I want better answers to questions like *"what is Happy Coding?"* and *"why do you do Happy coding?"*. This post is my attempt to answer those questions, and to document how I can bring Happy Coding closer to what I want it to be. In other words, this is the existential crisis I scheduled for 2020.

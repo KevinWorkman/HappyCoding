@@ -5,6 +5,7 @@ slug: the-codepen-is-mightier-than-the-sword
 meta-title: The CodePen is Mightier than the Sword
 meta-description: All of the tutorials and examples now have a code editor embedded directly in them!
 meta-image: /examples/processing/images/images/nes-filter-3.png
+tags: [site-update]
 ---
 
 All of the [tutorials](/tutorials) and [examples](/examples/processing) now have a code editor embedded directly in them. This means that as you're reading a tutorial or example, you can play with the code right in the website! It looks like this:

@@ -4,6 +4,7 @@ title: The Quadrilateral of Creativity
 meta-title: The Quadrilateral of Creativity
 meta-description: The 4 corners of creativity.
 meta-image: /blog/images/quadrilateral-of-creativity/chart-2.png
+tags: [personal]
 ---
 
 {% include toc.md %}
