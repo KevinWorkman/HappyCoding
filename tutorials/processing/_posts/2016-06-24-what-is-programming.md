@@ -79,6 +79,10 @@ So if your eventual goal is to learn more complicated languages like Java or Jav
 
 # Let's get started!
 
+{% include youtube-embed.html slug="mtsC0uIJpkk" %}
+
+---
+
 You can download Processing from [here](https://processing.org/download/). Click the link that corresponds to the type of computer you're using.
 
 The download gives you a `.zip` file. Double click the `.zip` file and then drag the directory inside it anywhere. (For now, putting it on your desktop is fine.) That gives you a folder, and inside that folder is a `processing.exe` file (or a similar runnable file on Mac and Linux). Double-click that file!
