@@ -1,12 +1,12 @@
 ---
 title: Washington DC Tour
 layout: tutorial
-thumbnail: /examples/javascript/libraries/images/washington-dc-tour-1.png
+thumbnail: /examples/javascript/images/washington-dc-tour-1.png
 tagline: Take a tour of my favorite Washington DC places!
 sort-key: 100
 meta-title: Washington DC Tour
 meta-description: Take a tour of my favorite Washington DC places!
-meta-image: /examples/javascript/libraries/images/washington-dc-tour-2.png
+meta-image: /examples/javascript/images/washington-dc-tour-2.png
 tags: [example, javascript, libraries, maps]
 redirect_from: /examples/javascript/libraries/washington-dc-tour
 ---
