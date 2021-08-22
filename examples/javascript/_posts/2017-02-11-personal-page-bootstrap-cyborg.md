@@ -1,24 +1,24 @@
 ---
 title: Personal Webpage (Cyborg Bootstrap theme)
 layout: tutorial
-thumbnail: /examples/javascript/bootstrap/images/personal-page-bootstrap-cyborg-1.png
+thumbnail: /examples/javascript/images/personal-page-bootstrap-cyborg-1.png
 tagline: Use Bootstrap themes to style your personal webpage.
 sort-key: 200
 meta-title: Personal Webpage (Cyborg Bootstrap theme)
 meta-description: Use Bootstrap themes to style your personal webpage.
-meta-image: /examples/javascript/bootstrap/images/personal-page-bootstrap-cyborg-2.png
+meta-image: /examples/javascript/images/personal-page-bootstrap-cyborg-2.png
 tags: [example, javascript, html, css, bootstrap]
 ---
 
 This is an example personal webpage:
 
-<iframe src="/examples/javascript/bootstrap/files/personal-page-bootstrap-cyborg/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
+<iframe src="/examples/javascript/files/personal-page-bootstrap-cyborg/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
 
-Click [here](/examples/javascript/bootstrap/files/personal-page-bootstrap-cyborg/home.html) to open the page in its own window.
+Click [here](/examples/javascript/files/personal-page-bootstrap-cyborg/home.html) to open the page in its own window.
 
-This page contains the exact same three HTML files as the [default Bootstrap styled personal webpage](/examples/javascript/bootstrap/personal-page-bootstrap-default) example:
+This page contains the exact same three HTML files as the [default Bootstrap styled personal webpage](/examples/javascript/personal-page-bootstrap-default) example:
 
-### [home.html](/examples/javascript/bootstrap/files/personal-page-bootstrap-cyborg/home.html)
+### [home.html](/examples/javascript/files/personal-page-bootstrap-cyborg/home.html)
 
 ```html
 <!DOCTYPE html>
@@ -46,13 +46,13 @@ This page contains the exact same three HTML files as the [default Bootstrap sty
 		
 		<p>Welcome to my personal page. This is just an example webpage. It uses Bootstrap!</p>
 	
-		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/bootstrap/personal-page-bootstrap-cyborg">HappyCoding.io</a>!</footer>
+		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-cyborg">HappyCoding.io</a>!</footer>
 	</div>
 </body>
 </html>
 ```
 
-### [about.html](/examples/javascript/bootstrap/files/personal-page-bootstrap-cyborg/about.html)
+### [about.html](/examples/javascript/files/personal-page-bootstrap-cyborg/about.html)
 
 ```html
 <!DOCTYPE html>
@@ -77,13 +77,13 @@ This page contains the exact same three HTML files as the [default Bootstrap sty
 		
 		<p>My name is Kevin. I write programming tutorials at <a href="http://HappyCoding.io">HappyCoding.io</a>, and I have a cat named Stanley. My favorite color is black, but if that doesn't count then I'll choose green. I also like comic books and playing bikes.</p>
 
-		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/bootstrap/personal-page-bootstrap-cyborg">HappyCoding.io</a>!</footer>
+		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-cyborg">HappyCoding.io</a>!</footer>
 	</div>
 </body>
 </html>
 ```
 
-### [cats.html](/examples/javascript/bootstrap/files/personal-page-bootstrap-cyborg/cats.html)
+### [cats.html](/examples/javascript/files/personal-page-bootstrap-cyborg/cats.html)
 
 ```html
 <!DOCTYPE html>
@@ -123,7 +123,7 @@ This page contains the exact same three HTML files as the [default Bootstrap sty
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-6.jpg" />
 		</div>
 			
-		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/bootstrap/personal-page-bootstrap-cyborg">HappyCoding.io</a>!</footer>
+		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-cyborg">HappyCoding.io</a>!</footer>
 	</div>
 </body>
 </html>

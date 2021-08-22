@@ -1,24 +1,24 @@
 ---
 title: Personal Webpage (default Bootstrap styles)
 layout: tutorial
-thumbnail: /examples/javascript/bootstrap/images/personal-page-bootstrap-default-1.png
+thumbnail: /examples/javascript/images/personal-page-bootstrap-default-1.png
 tagline: Use Bootstrap to style your personal webpage.
 sort-key: 100
 meta-title: Personal Webpage (default Bootstrap styles)
 meta-description: Use Bootstrap to style your personal webpage.
-meta-image: /examples/javascript/bootstrap/images/personal-page-bootstrap-default-2.png
+meta-image: /examples/javascript/images/personal-page-bootstrap-default-2.png
 tags: [example, javascript, html, css, bootstrap]
 ---
 
 This is an example personal webpage:
 
-<iframe src="/examples/javascript/bootstrap/files/personal-page-bootstrap-default/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
+<iframe src="/examples/javascript/files/personal-page-bootstrap-default/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
 
-Click [here](/examples/javascript/bootstrap/files/personal-page-bootstrap-default/home.html) to open the page in its own window.
+Click [here](/examples/javascript/files/personal-page-bootstrap-default/home.html) to open the page in its own window.
 
 This page contains basically the same three HTML files as the [unstyled](/examples/html/personal-webpage-unstyled), [light styled](/examples/html/personal-webpage-light-styles), and the [dark styled](/examples/html/personal-webpage-dark-styles) personal webpage examples:
 
-### [home.html](/examples/javascript/bootstrap/files/personal-page-bootstrap-default/home.html)
+### [home.html](/examples/javascript/files/personal-page-bootstrap-default/home.html)
 
 ```html
 <!DOCTYPE html>
@@ -46,13 +46,13 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 		
 		<p>Welcome to my personal page. This is just an example webpage. It uses Bootstrap!</p>
 	
-		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/bootstrap/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
+		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
 	</div>
 </body>
 </html>
 ```
 
-### [about.html](/examples/javascript/bootstrap/files/personal-page-bootstrap-default/about.html)
+### [about.html](/examples/javascript/files/personal-page-bootstrap-default/about.html)
 
 ```html
 <!DOCTYPE html>
@@ -77,13 +77,13 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 		
 		<p>My name is Kevin. I write programming tutorials at <a href="http://HappyCoding.io">HappyCoding.io</a>, and I have a cat named Stanley. My favorite color is black, but if that doesn't count then I'll choose green. I also like comic books and playing bikes.</p>
 
-		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/bootstrap/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
+		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
 	</div>
 </body>
 </html>
 ```
 
-### [cats.html](/examples/javascript/bootstrap/files/personal-page-bootstrap-default/cats.html)
+### [cats.html](/examples/javascript/files/personal-page-bootstrap-default/cats.html)
 
 ```html
 <!DOCTYPE html>
@@ -123,7 +123,7 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-6.jpg" />
 		</div>
 			
-		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/bootstrap/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
+		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
 	</div>
 </body>
 </html>
