@@ -3,7 +3,7 @@ layout: tutorial
 title: Recursive Lines
 thumbnail: /examples/p5js/creating-classes/images/recursive-lines-1.png
 tagline: Draw lines that draw other lines.
-sort-key: 200
+sort-key: 1040
 meta-title: p5.js Example - Recursive Lines
 meta-description: Draw lines that draw other lines.
 meta-image: /examples/p5js/creating-classes/images/recursive-lines-1.png

@@ -3,7 +3,7 @@ layout: tutorial
 title: Lines Silhouette
 thumbnail: /examples/p5js/for-loops/images/lines-silhouette-3.png
 tagline: Use a for loop to create a silhouette of lines.
-sort-key: 200
+sort-key: 710
 meta-title: p5.js Example - Lines Silhouette
 meta-description: Use a for loop to create a silhouette of lines.
 meta-image: /examples/p5js/for-loops/images/lines-silhouette-2.png

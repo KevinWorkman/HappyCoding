@@ -3,7 +3,7 @@ layout: tutorial
 title: Numbers Station
 thumbnail: /examples/p5js/using-objects/images/numbers-station-1.png
 tagline: Use text-to-speech to create a numbers station.
-sort-key: 200
+sort-key: 920
 meta-title: p5.js Example - Numbers Station
 meta-description: Use text-to-speech to create a numbers station.
 meta-image: /examples/p5js/using-objects/images/numbers-station-1.png

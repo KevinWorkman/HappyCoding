@@ -3,7 +3,7 @@ layout: tutorial
 title: Ant Colony
 thumbnail: /examples/p5js/creating-classes/images/ant-colony-1.png
 tagline: Create an ant colony simulation.
-sort-key: 200
+sort-key: 1060
 meta-title: p5.js Example - Ant Colony
 meta-description: Create an ant colony simulation.
 meta-image: /examples/p5js/creating-classes/images/ant-colony-1.png

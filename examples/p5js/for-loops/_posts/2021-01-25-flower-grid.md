@@ -3,7 +3,7 @@ layout: tutorial
 title: Flower Grid
 thumbnail: /examples/p5js/for-loops/images/flower-grid-1.png
 tagline: Draw a grid of random flowers.
-sort-key: 200
+sort-key: 740
 meta-title: p5.js Example - Flower Grid
 meta-description: Draw a grid of random flowers.
 meta-image: /examples/p5js/for-loops/images/flower-grid-1.png

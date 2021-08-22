@@ -3,7 +3,7 @@ layout: tutorial
 title: Falling Line
 thumbnail: /examples/p5js/animation/images/falling-line-2.png
 tagline: Show a falling line that fills the screen.
-sort-key: 200
+sort-key: 510
 meta-title: p5.js Example - Falling Line
 meta-description: Show a falling line that fills the screen.
 meta-image: /examples/p5js/animation/images/falling-line-2.png

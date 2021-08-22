@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Notes
 thumbnail: /examples/p5js/libraries/images/random-notes-1.png
 tagline: Use the p5.sound library to play random notes.
-sort-key: 200
+sort-key: 1210
 meta-title: p5.js Example - Random Notes
 meta-description: Use the p5.sound library to play random notes.
 meta-image: /examples/p5js/libraries/images/random-notes-1.png

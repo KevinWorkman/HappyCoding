@@ -3,7 +3,7 @@ title: Fireworks
 layout: tutorial
 thumbnail: /examples/p5js/creating-classes/images/fireworks-2.png
 tagline: Ooh! Aah!
-sort-key: 100
+sort-key: 1010
 meta-title: P5.js Fireworks Example
 meta-description: Use P5.js to put on a fieworks show!
 meta-image: /examples/p5js/creating-classes/images/fireworks-1.png

@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Walker
 thumbnail: /examples/p5js/animation/images/random-walker-1.png
 tagline: Show a scribble that randomly moves around.
-sort-key: 200
+sort-key: 540
 meta-title: p5.js Example - Random Walker
 meta-description: Show a scribble that randomly moves around.
 meta-image: /examples/p5js/animation/images/random-walker-2.png

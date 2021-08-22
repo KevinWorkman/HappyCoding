@@ -3,7 +3,7 @@ layout: tutorial
 title: Isometric Cubes
 thumbnail: /examples/p5js/creating-classes/images/isometric-cubes-1.png
 tagline: Create an isometric grid of cubes.
-sort-key: 200
+sort-key: 1050
 meta-title: p5.js Example - Recursive Lines
 meta-description: Draw lines that draw other lines.
 meta-image: /examples/p5js/creating-classes/images/recursive-lines-1.png

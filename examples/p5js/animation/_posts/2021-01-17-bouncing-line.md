@@ -3,7 +3,7 @@ layout: tutorial
 title: Bouncing Line
 thumbnail: /examples/p5js/animation/images/bouncing-line-4.png
 tagline: Draw a line, pick a new color, move a bit.
-sort-key: 200
+sort-key: 550
 meta-title: p5.js Example - Bouncing Line
 meta-description: Draw a line, pick a new color, move a bit.
 meta-image: /examples/p5js/animation/images/bouncing-line-3.png

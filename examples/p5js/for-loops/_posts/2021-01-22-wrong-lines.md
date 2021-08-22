@@ -3,7 +3,7 @@ layout: tutorial
 title: Wrong Lines
 thumbnail: /examples/p5js/for-loops/images/wrong-lines-1.png
 tagline: Draw lines the wrong way.
-sort-key: 200
+sort-key: 720
 meta-title: p5.js Example - Wrong Lines
 meta-description: Draw lines the wrong way.
 meta-image: /examples/p5js/for-loops/images/wrong-lines-1.png

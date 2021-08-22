@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Lines
 thumbnail: /examples/p5js/animation/images/random-lines-2.png
 tagline: Fill the screen with random lines.
-sort-key: 200
+sort-key: 520
 meta-title: p5.js Example - Random Lines
 meta-description: Fill the screen with random lines.
 meta-image: /examples/p5js/animation/images/random-lines-3.png

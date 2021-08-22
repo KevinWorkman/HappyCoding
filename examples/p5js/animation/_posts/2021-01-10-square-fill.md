@@ -3,7 +3,7 @@ layout: tutorial
 title: Square Fill
 thumbnail: /examples/p5js/animation/images/square-fill-2.png
 tagline: Create a border of squares.
-sort-key: 200
+sort-key: 530
 meta-title: p5.js Example - Square Fill
 meta-description: Create a border of squares.
 meta-image: /examples/p5js/animation/images/square-fill-3.png

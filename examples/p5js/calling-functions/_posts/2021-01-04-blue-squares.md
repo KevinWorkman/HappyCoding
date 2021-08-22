@@ -3,7 +3,7 @@ layout: tutorial
 title: Blue Squares
 thumbnail: /examples/p5js/calling-functions/images/blue-squares-1.png
 tagline: A gradient of blue squares.
-sort-key: 200
+sort-key: 110
 meta-title: p5.js Example - Blue Squares
 meta-description: A gradient of blue squares.
 meta-image: /examples/p5js/calling-functions/images/blue-squares-1.png

@@ -3,7 +3,7 @@ layout: tutorial
 title: Triangle Inset
 thumbnail: /examples/p5js/creating-variables/images/triangle-inset-1.png
 tagline: Draw triangles inside triangles inside triangles.
-sort-key: 200
+sort-key: 300
 meta-title: p5.js Example - Triangle Inset
 meta-description: Draw triangles inside triangles inside triangles.
 meta-image: /examples/p5js/creating-variables/images/triangle-inset-2.png

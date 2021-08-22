@@ -3,7 +3,7 @@ layout: tutorial
 title: Image Palette
 thumbnail: /examples/p5js/images/images/image-palette-11.png
 tagline: Replace the colors in an image.
-sort-key: 200
+sort-key: 1120
 meta-title: p5.js Example - Image Palette
 meta-description: Replace the colors in an image.
 meta-image: /examples/p5js/images/images/image-palette-11.png

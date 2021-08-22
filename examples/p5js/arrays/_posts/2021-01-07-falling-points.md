@@ -3,7 +3,7 @@ layout: tutorial
 title: Falling Points
 thumbnail: /examples/p5js/arrays/images/falling-points-2.png
 tagline: Show falling points that look like snow.
-sort-key: 200
+sort-key: 810
 meta-title: p5.js Example - Falling Points
 meta-description: Use arrays to show falling points that look like snow.
 meta-image: /examples/p5js/arrays/images/falling-points-3.png

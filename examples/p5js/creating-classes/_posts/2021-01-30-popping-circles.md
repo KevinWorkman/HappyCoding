@@ -3,7 +3,7 @@ layout: tutorial
 title: Popping Circles
 thumbnail: /examples/p5js/creating-classes/images/popping-circles-1.png
 tagline: Fill circles with your mouse that pop if they touch.
-sort-key: 200
+sort-key: 1070
 meta-title: p5.js Example - Popping Circles
 meta-description: Fill circles with your mouse that pop if they touch.
 meta-image: /examples/p5js/creating-classes/images/popping-circles-1.png

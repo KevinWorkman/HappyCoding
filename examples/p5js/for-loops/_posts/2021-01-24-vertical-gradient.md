@@ -3,7 +3,7 @@ layout: tutorial
 title: Vertical Gradient
 thumbnail: /examples/p5js/for-loops/images/vertical-gradient-1.png
 tagline: Draw a gradient from one color to another.
-sort-key: 200
+sort-key: 730
 meta-title: p5.js Example - Vertical Gradient
 meta-description: Draw a gradient from one color to another.
 meta-image: /examples/p5js/for-loops/images/wrong-lines-1.png

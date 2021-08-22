@@ -3,7 +3,7 @@ layout: tutorial
 title: Mouse Ripple
 thumbnail: /examples/p5js/input/images/mouse-ripple-3.png
 tagline: Show a ripple when you click the mouse.
-sort-key: 200
+sort-key: 620
 meta-title: p5.js Example - Mouse Ripple
 meta-description: Show a ripple when you click the mouse.
 meta-image: /examples/p5js/input/images/mouse-ripple-2.png
