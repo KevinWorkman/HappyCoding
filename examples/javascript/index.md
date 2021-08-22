@@ -13,5 +13,12 @@ sort-key: 200
 {% include url-thumbnail.html url="/examples/javascript/etsy-listings" %}
 {% include url-thumbnail.html url="/examples/javascript/game-of-nim" %}
 
+# JavaScript Library Examples
+
 {% include url-thumbnail.html url="/examples/javascript/libraries/" %}
-{% include url-thumbnail.html url="/examples/javascript/bootstrap/" %}
+
+
+# Bootstrap Examples
+
+{% include url-thumbnail.html url="/examples/javascript/personal-page-bootstrap-default" %}
+{% include url-thumbnail.html url="/examples/javascript/personal-page-bootstrap-cyborg" %}
