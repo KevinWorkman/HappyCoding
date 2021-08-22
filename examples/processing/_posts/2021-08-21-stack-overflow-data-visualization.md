@@ -4,7 +4,7 @@ title: Stack Overflow Data Visualization
 thumbnail: /examples/processing/post-images/stack-overflow-data-visualization-3.png
 tagline: Visualize data from the Stack Overflow API!
 meta-title: Processing Stack Overflow Data Visualization
-meta-description: Use Processing visualize data from the Stack Overflow API!
+meta-description: Use Processing to visualize data from the Stack Overflow API!
 meta-image: /examples/processing/post-images/stack-overflow-data-visualization-3.png
 tags: [example, processing]
 ---
