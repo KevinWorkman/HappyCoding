@@ -8,6 +8,7 @@ meta-title: Simple Weather Map
 meta-description: Just a simple weather map. No ads, no clickbait, just a map.
 meta-image: /examples/javascript/libraries/images/simple-weather-map-2.png
 tags: [example, javascript, libraries, maps]
+redirect_from: /examples/javascript/libraries/simple-weather-map
 ---
 
 <div id="map" style="width:100%; height:500px;"></div>
