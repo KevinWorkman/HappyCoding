@@ -3,12 +3,14 @@ layout: default
 title: Processing Examples
 thumbnail: /examples/processing/input/images/random-walkers-2.gif
 meta-title: Processing Examples
-meta-description: One of the best ways to learn how to code is just by playing around. Here are some examples that help you do that.
+meta-description: One of the best ways to learn how to code is by playing around. Here are some examples that help you do that.
 meta-image: /images/random-walkers-1.png
 sort-key: 100
 ---
 
 # Processing Examples
+
+{% include url-thumbnail.html url="/examples/processing/stack-overflow-data-visualization" %}
 
 ---
 
