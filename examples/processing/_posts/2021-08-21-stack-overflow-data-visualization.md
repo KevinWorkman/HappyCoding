@@ -109,6 +109,8 @@ This "middle step" of massaging the data is very common in projects like this, b
 
 # Part 3: Visualize the Data
 
+{% include youtube-embed.html slug="UsPhAg1o2gk" %}
+
 Now that I had the data file(s) in a format that I could work with, I wrote code that used the data to draw a chart. The code ended up looking like this:
 
 ```java
