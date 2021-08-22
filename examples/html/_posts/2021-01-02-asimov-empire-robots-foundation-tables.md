@@ -3,7 +3,7 @@ title: Asimov's Empire, Robot, and Foundation Series (CSS Tables)
 layout: tutorial
 thumbnail: /examples/html/images/asimov-empire-robots-foundation-tables-2.png
 tagline: Use CSS to create colored tables!
-sort-key: 100
+sort-key: 120
 meta-title: Asimov's Empire, Robot, and Foundation Series (CSS Tables)
 meta-description: Use CSS to create colored tables!
 meta-image: /examples/html/images/asimov-empire-robots-foundation-tables.png

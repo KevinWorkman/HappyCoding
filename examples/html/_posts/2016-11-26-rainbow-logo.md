@@ -3,7 +3,7 @@ title: Rainbow Logo
 layout: tutorial
 thumbnail: /examples/html/images/rainbow-logo-1.png
 tagline: Use CSS to create a rainbow logo!
-sort-key: 100
+sort-key: 110
 meta-title: Rainbow Logo
 meta-description: This example shows how to use CSS to create a rainbow logo.
 meta-image: /examples/html/images/rainbow-logo-2.png

@@ -3,7 +3,7 @@ title: Personal Webpage (no styles)
 layout: tutorial
 thumbnail: /examples/html/images/personal-page-unstyled-1.png
 tagline: Check out my basic personal webpage.
-sort-key: 200
+sort-key: 510
 meta-title: Personal Webpage (no styles)
 meta-description: Check out my basic personal webpage.
 meta-image: /examples/html/images/personal-page-unstyled-2.png

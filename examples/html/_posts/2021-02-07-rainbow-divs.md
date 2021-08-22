@@ -3,7 +3,7 @@ title: Rainbow Divs
 layout: tutorial
 thumbnail: /examples/html/images/rainbow-divs-1.png
 tagline: Use CSS to create colored divs.
-sort-key: 100
+sort-key: 130
 meta-title: Rainbow Divs
 meta-description: Use CSS to create colored divs.
 meta-image: /examples/html/images/rainbow-divs-1.png
