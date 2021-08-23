@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Higher Lower (Human Player)
-thumbnail: /examples/java/hello-world/images/higher-lower-human-player-2.png
+thumbnail: /examples/java/images/higher-lower-human-player-2.png
 tagline: Try to guess what number the computer is thinking.
 sort-key: 100
 meta-title: Higher Lower (Human Player)
 meta-description: Try to guess what number the computer is thinking.
-meta-image: /examples/java/hello-world/images/higher-lower-human-player-3.png
+meta-image: /examples/java/images/higher-lower-human-player-3.png
 tags: [example, java, hello-world, higher-lower]
 ---
 
@@ -52,7 +52,7 @@ public class HigherLowerHumanPlayer{
 }
 ```
 
-![higher lower game](/examples/java/hello-world/images/higher-lower-human-player-1.png)
+![higher lower game](/examples/java/images/higher-lower-human-player-1.png)
 
 ## Tweak Ideas
 

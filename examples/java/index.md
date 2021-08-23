@@ -1,15 +1,26 @@
 ---
 layout: default
 title: Java Examples
-thumbnail: /examples/java/hello-world/images/higher-lower-human-player-2.png
+thumbnail: /examples/java/images/higher-lower-human-player-2.png
 meta-title: Java Examples
 meta-description: Games, GUIs, and more.
-meta-image: /examples/java/hello-world/images/higher-lower-human-player-3.png
+meta-image: /examples/java/images/higher-lower-human-player-3.png
 sort-key: 400
 ---
 
 # Java Examples
 
-{% include url-thumbnail.html url="/examples/java/hello-world/" %}
+
+# Hello World
+
+{% include url-thumbnail.html url="/examples/java/higher-lower-human-player" %}
+{% include url-thumbnail.html url="/examples/java/higher-lower-random-computer-player" %}
+{% include url-thumbnail.html url="/examples/java/free-paycheck-calculator" %}
+
+# Swing
+
 {% include url-thumbnail.html url="/examples/java/swing/" %}
+
+# Processing in Java
+
 {% include url-thumbnail.html url="/examples/java/processing-in-java/" %}

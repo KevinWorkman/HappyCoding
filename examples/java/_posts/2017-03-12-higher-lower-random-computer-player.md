@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Higher Lower (Random Computer Player)
-thumbnail: /examples/java/hello-world/images/higher-lower-random-computer-player-2.png
+thumbnail: /examples/java/images/higher-lower-random-computer-player-2.png
 tagline: Think of a number and the computer will guess what it is.
 sort-key: 200
 meta-title: Higher Lower (Random Computer Player)
 meta-description: Think of a number and the computer will guess what it is.
-meta-image: /examples/java/hello-world/images/higher-lower-random-computer-player-3.png
+meta-image: /examples/java/images/higher-lower-random-computer-player-3.png
 tags: [example, java, hello-world, higher-lower]
 ---
 
@@ -61,7 +61,7 @@ public class HigherLowerRandom{
 }
 ```
 
-![higher lower game](/examples/java/hello-world/images/higher-lower-random-computer-player-1.png)
+![higher lower game](/examples/java/images/higher-lower-random-computer-player-1.png)
 
 This works by keeping track of the minimum and maximum your number could possible be. At the beginning of the program, the min is 1 and the max is 100. Then the computer chooses a random number between the min and max: let's say the computer chooses 10. If you say your number is lower than 10, then that means the min is still 1, but the max is now 9. If you say your number is higher than 10, then the min is now 11 and the max is still 100. The range of possible numbers decreases as this process is repeated, until the computer eventually gets it right.
 
