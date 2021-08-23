@@ -3,7 +3,7 @@ layout: tutorial
 title: Free Paycheck Calculator
 thumbnail: /examples/java/images/free-paycheck-calculator-1.png
 tagline: Find months that have three paychecks in them.
-sort-key: 300
+sort-key: 130
 meta-title: Free Paycheck Calculator
 meta-description: This Java program finds months that have free paychecks in them.
 meta-image: /examples/java/images/free-paycheck-calculator-2.png

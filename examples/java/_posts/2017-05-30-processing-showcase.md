@@ -3,7 +3,7 @@ layout: tutorial
 title: Processing Showcase
 thumbnail: /tutorials/processing/images/processing-icon-small-1.png
 tagline: Create a Java program that cycles through Processing sketches.
-sort-key: 200
+sort-key: 320
 meta-title: Processing Showcase
 meta-description: Create a Java program that cycles through Processing sketches.
 meta-image: /tutorials/processing/images/processing-icon-large-1.png

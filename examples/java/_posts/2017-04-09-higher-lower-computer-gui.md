@@ -3,7 +3,7 @@ layout: tutorial
 title: Higher Lower
 thumbnail: /examples/java/images/higher-lower-random-computer-player-2.png
 tagline: Guessing game gui
-sort-key: 200
+sort-key: 220
 meta-title: Circle Button
 meta-description: Create a custom class that shows a circle button.
 meta-image: /examples/java/images/higher-lower-random-computer-player-3.png

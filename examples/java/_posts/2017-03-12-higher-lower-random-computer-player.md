@@ -3,7 +3,7 @@ layout: tutorial
 title: Higher Lower (Random Computer Player)
 thumbnail: /examples/java/images/higher-lower-random-computer-player-2.png
 tagline: Think of a number and the computer will guess what it is.
-sort-key: 200
+sort-key: 120
 meta-title: Higher Lower (Random Computer Player)
 meta-description: Think of a number and the computer will guess what it is.
 meta-image: /examples/java/images/higher-lower-random-computer-player-3.png

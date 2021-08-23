@@ -3,7 +3,7 @@ layout: tutorial
 title: Swing Control Window
 thumbnail: /examples/java/images/swing-control-window-4.png
 tagline: Create a Processing sketch with a Swing control window.
-sort-key: 100
+sort-key: 310
 meta-title: Swing Control Window
 meta-description: Create a Processing sketch with a Swing control window.
 meta-image: /examples/java/images/swing-control-window-5.png

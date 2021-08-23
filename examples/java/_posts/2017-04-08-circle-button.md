@@ -3,7 +3,7 @@ layout: tutorial
 title: Circle Button
 thumbnail: /examples/java/images/circle-button-1.png
 tagline: Rectangle buttons are so last year.
-sort-key: 100
+sort-key: 210
 meta-title: Circle Button
 meta-description: Create a custom class that shows a circle button.
 meta-image: examples/java/images/circle-button-2.png
