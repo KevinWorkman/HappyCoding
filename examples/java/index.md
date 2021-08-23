@@ -10,6 +10,7 @@ sort-key: 400
 
 # Java Examples
 
+---
 
 # Hello World
 
@@ -17,10 +18,16 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/java/higher-lower-random-computer-player" %}
 {% include url-thumbnail.html url="/examples/java/free-paycheck-calculator" %}
 
+---
+
 # Swing
 
-{% include url-thumbnail.html url="/examples/java/swing/" %}
+{% include url-thumbnail.html url="/examples/java/circle-button" %}
+{% include url-thumbnail.html url="/examples/java/higher-lower-computer-gui" %}
+
+---
 
 # Processing in Java
 
-{% include url-thumbnail.html url="/examples/java/processing-in-java/" %}
+{% include url-thumbnail.html url="/examples/java/swing-control-window" %}
+{% include url-thumbnail.html url="/examples/java/processing-showcase" %}

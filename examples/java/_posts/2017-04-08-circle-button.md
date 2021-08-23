@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Circle Button
-thumbnail: /examples/java/swing/images/circle-button-1.png
+thumbnail: /examples/java/images/circle-button-1.png
 tagline: Rectangle buttons are so last year.
 sort-key: 100
 meta-title: Circle Button
 meta-description: Create a custom class that shows a circle button.
-meta-image: examples/java/swing/images/circle-button-2.png
+meta-image: examples/java/images/circle-button-2.png
 tags: [example, java, swing]
 ---
 
@@ -167,7 +167,7 @@ public class GuiMain{
 }
 ```
 
-![circle button](/examples/java/swing/images/circle-button-3.png)
+![circle button](/examples/java/images/circle-button-3.png)
 
 You might have to tweak some of this code to make it work with different layout managers, but the basic idea is the same: you extend the `JButton` class and then override functions to change the default behavior to make your own custom components.
 
