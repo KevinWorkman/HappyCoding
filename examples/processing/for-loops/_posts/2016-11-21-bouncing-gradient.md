@@ -8,7 +8,7 @@ meta-title: Bouncing Gradient
 meta-description: This example uses nested for loops to create a bouncing gradient.
 meta-image: /examples/processing/for-loops/images/bouncing-gradient-2.png
 tags: [example, processing, for-loop]
-sort-key: 600
+sort-key: 730
 ---
 
 ```java

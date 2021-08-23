@@ -8,7 +8,7 @@ meta-title: Random Circles
 meta-description: This example uses a for loop to create cool-looking circles.
 meta-image: /examples/processing/for-loops/images/random-circles-2.png
 tags: [example, processing, for-loop, pretty]
-sort-key: 50
+sort-key: 760
 ---
 
 ```java

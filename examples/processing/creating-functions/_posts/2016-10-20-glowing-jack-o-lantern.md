@@ -8,6 +8,7 @@ meta-title: Glowing Jack-o'-Lantern
 meta-description: This example shows you how to make a glowing Jack-o'-lantern.
 meta-image: /examples/processing/creating-functions/images/glowing-jack-o-lantern-3.png
 tags: [example, processing, procedural-generation, 🎃]
+sort-key: 420
 ---
 
 This example builds off the [random Jack-o'-lantern example](/examples/processing/creating-variables/random-jack-o-lantern) and uses the `draw()` function to make it look like the Jack-o'-lantern contains a flickering candle.

@@ -4,7 +4,7 @@ title: Pumpkin Patch
 slug: pumpkin-patch
 thumbnail: /examples/processing/input/images/pumpkin-patch-2.gif
 tagline: Click to add a pumpkin to the patch.
-sort-key: 300
+sort-key: 930
 meta-title: Pumpkin Patch
 meta-description: This example detects user input to grow a pumpkin patch! 🎃
 meta-image: /examples/processing/input/images/pumpkin-patch-3.png

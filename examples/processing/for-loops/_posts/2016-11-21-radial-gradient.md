@@ -8,7 +8,7 @@ meta-title: Radial Gradient
 meta-description: This example uses nested for loops to create a radial gradient.
 meta-image: /examples/processing/for-loops/images/radial-gradient-2.png
 tags: [example, processing, for-loop]
-sort-key: 300
+sort-key: 750
 ---
 
 ```java

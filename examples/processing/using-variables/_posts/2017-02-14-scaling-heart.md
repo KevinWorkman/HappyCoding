@@ -4,7 +4,7 @@ title: Scaling Heart
 thumbnail: /examples/processing/using-variables/images/scaling-heart-1.png
 tagline: Scale a heart. ❤
 categories: [examples,processing,using-variables]
-sort-key: 400
+sort-key: 240
 meta-title: Valentine's Day Heart
 meta-description: Use Processing to draw a heart! ❤
 meta-image: /examples/processing/using-variables/images/scaling-heart-2.png

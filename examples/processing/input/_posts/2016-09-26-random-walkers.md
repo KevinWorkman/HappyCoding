@@ -4,7 +4,7 @@ title: Random Walkers
 slug: random-walkers
 thumbnail: /examples/processing/input/images/random-walkers-2.gif
 tagline: Randomly colored random walkers.
-sort-key: 200
+sort-key: 920
 meta-title: Random Walkers
 meta-description: This example detects user input to create scribble art!
 meta-image: /examples/processing/arraylists/images/random-walkers-3.png

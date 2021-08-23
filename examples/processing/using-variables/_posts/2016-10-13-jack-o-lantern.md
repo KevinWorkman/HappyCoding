@@ -5,7 +5,7 @@ slug: jack-o-lantern
 thumbnail: /examples/processing/using-variables/images/jack-o-lantern-1.png
 tagline: Draw a Jack-o'-lantern.
 categories: [examples,processing,using-variables]
-sort-key: 300
+sort-key: 230
 meta-title: Jack-o'-lantern
 meta-description: Use Processing to draw a Jack-o'-lantern!
 meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern-2.png

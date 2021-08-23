@@ -4,7 +4,7 @@ title: Bouncing Balls
 slug: bouncing-balls
 thumbnail: /examples/processing/input/images/bouncing-balls-1.gif
 tagline: Make a random bouncing ball pit.
-sort-key: 100
+sort-key: 910
 meta-title: Bouncing Balls
 meta-description: This examples detects user input to create a bunch of bouncing balls.
 meta-image: /examples/processing/input/images/bouncing-balls-2.png

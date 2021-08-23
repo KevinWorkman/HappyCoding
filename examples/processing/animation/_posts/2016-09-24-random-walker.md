@@ -4,7 +4,7 @@ title: Random Walker
 slug: random-walker
 thumbnail: /examples/processing/animation/images/random-walker-2.gif
 tagline: aka the scribbler
-sort-key: 200
+sort-key: 610
 meta-title: Random Walker
 meta-description: Animate a random walker that scribbles on the screen.
 meta-image: /examples/processing/animation/images/random-walker-5.png

@@ -8,6 +8,7 @@ meta-title: Random Piano
 meta-description: Use the Minim library to play random piano notes.
 meta-image: /examples/processing/libraries/images/random-piano-2.png
 tags: [example, processing, library]
+sort-key: 1410
 ---
 
 This code uses the [Minim](http://code.compartmental.net/tools/minim/) library, which makes it possible to play sounds from Processing.

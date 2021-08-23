@@ -8,6 +8,7 @@ meta-title: Random Synthesizer
 meta-description: Use the Minim library to play random synthesizer notes.
 meta-image: /examples/processing/libraries/images/random-synthesizer-2.png
 tags: [example, processing, library]
+sort-key: 1420
 ---
 
 This code uses the [Minim](http://code.compartmental.net/tools/minim/) library, which makes it possible to play sounds from Processing.

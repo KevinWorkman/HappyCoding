@@ -3,7 +3,7 @@ layout: tutorial
 title: Random Hearts
 thumbnail: /examples/processing/creating-functions/images/random-hearts-1.png
 tagline: Draw random hearts. ❤
-sort-key: 400
+sort-key: 440
 meta-title: Random Hearts
 meta-description: Use Processing to draw random hearts! ❤
 meta-image: /examples/processing/creating-functions/images/random-hearts-2.png

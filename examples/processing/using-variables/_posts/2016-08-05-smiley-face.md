@@ -8,6 +8,7 @@ meta-title: Smiley Face
 meta-description: This example uses variables to scale a drawing of a face.
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 tags: [example, processing]
+sort-key: 210
 ---
 
 ```java

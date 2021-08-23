@@ -4,7 +4,7 @@ title: Turtle Graphics
 slug: turtle-graphics
 thumbnail: /examples/processing/creating-functions/images/turtle-graphics-1.gif
 tagline: Use functions to create a pen that you can rotate and move.
-sort-key: 400
+sort-key: 430
 meta-title: Turtle Graphics
 meta-description: This example shows you how to use functions to create a pen that you can rotate and move.
 meta-image: /examples/processing/creating-functions/images/turtle-graphics-2.png

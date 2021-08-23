@@ -8,6 +8,7 @@ meta-title: Nintendo Image Filter
 meta-description: Use Processing to create a NES image filter!
 meta-image: /examples/processing/images/images/nes-filter-3.png
 tags: [example, processing, image]
+sort-key: 1310
 ---
 
 This code takes an image file and applies a filter that colors it using the [NES](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) color palette. In other words, it makes the image look like it's being displayed by a NES system!

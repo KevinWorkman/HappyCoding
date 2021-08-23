@@ -8,6 +8,7 @@ meta-title: Random Face
 meta-description: This example uses variables to procedurally generate random faces.
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 tags: [example, processing, procedural-generation]
+sort-key: 310
 ---
 
 ```java
