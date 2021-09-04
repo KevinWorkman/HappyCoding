@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My Web App</title>
+		<title>JSP Date</title>
 	</head>
 	<body>
-		<h1>My Web App</h1>
-		<p>The current time is: <%= new Date().toString() %></p>
+		<h1>JSP Date</h1>
+		<p>The current date is: <%= new Date() %></p>
 	</body>
 </html>
