@@ -8,3 +8,6 @@ examples/google-cloud/google-cloud-example-projects/*/set_vars.cmd
 examples/google-cloud/google-cloud-example-projects/**/env_variables.yaml
 examples/java-server/java-server-example-projects/*/target
 examples/java-server/java-server-example-projects/**/*.class
+examples/java-server/java-server-example-projects/**/*.classpath
+examples/java-server/java-server-example-projects/**/*.project
+examples/java-server/java-server-example-projects/**/*.settings
