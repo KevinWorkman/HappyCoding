@@ -128,7 +128,7 @@ As part of creating a store, Etsy forces you to create at least one listing, whi
 
 Now that you have both a Printful account and an Etsy store, you need to connect them so they can talk to each other.
 
-Go [here](https://www.printful.com/landing/etsy-print-products-fulfillment) to connect your Printful and Etsy accounts.
+Go to [your Printful dashboard](https://www.printful.com/dashboard/connect/etsy) to connect your Printful and Etsy accounts.
 
 # Step 5: Edit Your Listing
 
