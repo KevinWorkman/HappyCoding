@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Names</title>
+    <script>
+      async function fetchNames() {
+        const response = await fetch('/post-name-list-fetch/names');
+        const nameListHtml = await response.text();
+        document.getElementById('name-list').innerHTML = nameListHtml;
+      }
+
+      async function postName() {
+        const params = new URLSearchParams();
+        params.append('name', document.getElementById('name').value);
+
+        const fetchSettings = {method: 'POST', body: params};
+        const response =
+            await fetch('/post-name-list-fetch/names', fetchSettings);
+
+        fetchNames();
+      }
+    </script>
+  </head>
+  <body onload="fetchNames();">
+    <h1>What's your name?</h1>
+
+    <input type="text" id="name" value="Ada">
+    <br><br>
+    <button onclick="postName();">Submit</button>
+
+    <hr>
+
+    <h1>Name List</h1>
+    <div id="name-list">Loading...</div>
+  </body>
+</html>
