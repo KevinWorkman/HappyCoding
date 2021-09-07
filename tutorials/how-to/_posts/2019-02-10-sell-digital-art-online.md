@@ -154,9 +154,9 @@ Make any changes you want in Esty, and then click the `Publish` button at the bo
 
 ## Mocks
 
-Etsy allows you to upload photos that show your product in action. You might upload a picture of your print hanging on a wall, or a picture of a person wearing your shirt.
+Etsy lets you upload photos that show your product in action. You might upload a picture of your print hanging on a wall, or a picture of a person wearing your shirt.
 
-Printful will create these for you automatically, but take a second before (or after) you publish your listing to make sure the generated mocks show what you want. I personally usually delete the generated mocks and then create my own using the mock generator [here](https://www.printful.com/mockup-generator). There are probably other mock generators out there as well.
+Printful will create these for you automatically, but take a second before (or after) you publish your listing to make sure the generated mocks show what you want. I personally usually delete the generated mocks and then create my own using the mock generator [here](https://www.printful.com/mockup-generator). There are [other mock generators](https://designhub.co/mockup-generators/) out there as well.
 
 ## Variants
 
