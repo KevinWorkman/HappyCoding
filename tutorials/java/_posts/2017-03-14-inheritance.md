@@ -42,7 +42,7 @@ public class Animal{
 
 This code defines a class called `Animal`. This class contains a `name` variable, a function that sets the value of that variable, and a function that prints it out. The `main()` function then creates two instances of the `Animal` class, sets the name of each, and tells each instance to print out its name. Each instance has its own value for the `name` variable, so both names are printed out.
 
-This tutorial introduces **inheritance**, which allows you to organize your data and code in more advanced hiearchies. Inheritance is a basic building block of pretty much every Java library and framework, so it's an important concept to understand.
+This tutorial introduces **inheritance**, which lets you organize your data and code in more advanced hiearchies. Inheritance is a basic building block of pretty much every Java library and framework, so it's an important concept to understand.
 
 ## Extending Classes
 
@@ -119,7 +119,7 @@ Notice that we're creating an instance of the `Cat` class, and we're storing it 
 
 **Why is this useful?**
 
-This allows us to write code that applies to a super type, and that code will work with any subtype!
+This lets us write code that applies to a super type, and that code will work with any subtype!
 
 For example, we could write a function that took an `Animal` parameter:
 
@@ -142,7 +142,7 @@ printAnimalName(myAnimal);
 printAnimalName(myCat);
 ```
 
-And the `printAnimalName()` function will work with either one! This allows us to write generalized code that applies to any subtype. We could even later add a brand new subtype:
+And the `printAnimalName()` function will work with either one! This lets us write generalized code that applies to any subtype. We could even later add a brand new subtype:
 
 ```java
 public class Dog extends Animal{
@@ -162,7 +162,7 @@ myDog.setName("Lassie");
 printAnimalName(myDog);
 ```
 
-This allows you to write code that works with every subtype of a parent class- even types that don't exist yet!
+This lets you write code that works with every subtype of a parent class- even types that don't exist yet!
 
 ## Casting
 
@@ -385,7 +385,7 @@ Now when we call the `eat()` function, the code finds the most specific version 
 
 We can override functions to change their behavior in child classes, and we can use the `super` keyword to call parent functions from child classes.
 
-The `super` keyword also allows us to pass information up to constructors in the parent class. Let's modify our `Animal` class so it gets its name from a constructor parameter instead of from a setter function:
+The `super` keyword also lets us pass information up to constructors in the parent class. Let's modify our `Animal` class so it gets its name from a constructor parameter instead of from a setter function:
 
 ```java
 public class Animal{
@@ -538,9 +538,9 @@ Now when our code calls the `toString()` function, it calls the `toString()` fun
 
 ## Implementing Interfaces
 
-So far we've learned how extending a class allows us to inherit functions from a super type.
+So far we've learned how extending a class lets us inherit functions from a super type.
 
-Another form of inheritance allows you to specify the functions a class will have in a separate file called an interface. An interface looks a lot like a class, except it uses the `interface` keyword and it only defines the **signature** of functions, not the body!
+Another form of inheritance lets you specify the functions a class will have in a separate file called an interface. An interface looks a lot like a class, except it uses the `interface` keyword and it only defines the **signature** of functions, not the body!
 
 ```java
 public interface Flyer{
@@ -550,7 +550,7 @@ public interface Flyer{
 
 You would save this to a file named `Flyer.java`. This code defines an interface that lists a single function. Note that you can't directly create an instance of an interface!
 
-That might not seem very useful, but it allows you to write **implementations** of that interface by writing classes that use the **implements** keyword and then defining the bodies of those functions inside the class. Here are two examples:
+That might not seem very useful, but it lets you write **implementations** of that interface by writing classes that use the **implements** keyword and then defining the bodies of those functions inside the class. Here are two examples:
 
 **Bird.java**
 
@@ -622,7 +622,7 @@ flap flap flap
 choppa choppa choppa
 ```
 
-This allows us to write generalized code that applies to every type of `Flyer`, even before we know exactly what classes will implement the interface. We don't have to care about the implementation details: we don't care whether the `Flyer` is a bird or a plane or Superman, because we know that any `Flyer` will have a `fly()` function. We don't really have to care about what's inside that function.
+This lets us write generalized code that applies to every type of `Flyer`, even before we know exactly what classes will implement the interface. We don't have to care about the implementation details: we don't care whether the `Flyer` is a bird or a plane or Superman, because we know that any `Flyer` will have a `fly()` function. We don't really have to care about what's inside that function.
 
 This is why we say there is a **contract** that's setup by an interface, which tells us exactly which functions we can call. Now if somebody created a new `Rocket` class that implemented the `Flyer` interface, our code would work with it, and we wouldn't have to change any of our code! Interfaces allow us to "program to the contract" instead of worrying about the implementation details of specific classes.
 
@@ -742,7 +742,7 @@ By now, you've probably seen code that looks like this:
 ArrayList<String> nameList = new ArrayList<String>();
 ```
 
-Specifically, you probably know that the `<String>` part tells the computer what types of objects will be inside the `ArrayList`, which allows the `get()` function to return the correct type of value and the `set()` function to accept the correct type of parameter.
+Specifically, you probably know that the `<String>` part tells the computer what types of objects will be inside the `ArrayList`, which lets the `get()` function return the correct type of value and the `set()` function to accept the correct type of parameter.
 
 This `< >` angle bracket notation is called **generics**, and you can use it along with inheritance to write more generalized code.
 
@@ -950,7 +950,7 @@ This tells us that the `ArrayList` class extends `AbstractList`, which extends `
 
 - `AbstractCollection` is an abstract class that defines the basic operations required for creating a collection (an object that holds other objects). The class contains several abstract functions (like `size()`) that subclasses must implement. It also contains a few functions (like `add()` and `remove()`) that by default throw an exception if you call them, so subclasses must override them to change that behavior. It also contains a bunch of normal functions that rely on those unimplemented functions. For example, the `clear()` function simply calls the `remove()` function until `size()` equals 0. The `clear()` function doesn't care how those functions are actually implemented, it just assumes that any subclass will have them defined.
 
-- `AbstractList` is another abstract class that extends the `AbstractCollection` class. It overrides the `add()` function, and adds a few functions that subclasses must implement. For example, the abstract `get()` function means that any subclasses have to implement code that allows you to get an object from a specific index.
+- `AbstractList` is another abstract class that extends the `AbstractCollection` class. It overrides the `add()` function, and adds a few functions that subclasses must implement. For example, the abstract `get()` function means that any subclasses have to implement code that lets you get an object from a specific index.
 
 - `ArrayList` extends `AbstractList` and defines implementations of all of the above abstract functions. Internally, it uses an array to hold the objects that are added to it. So when you call the `get()` function on an `ArrayList`, you're actually using an array index behind the scenes. But note that code that calls the `get()` function doesn't have to care about exactly how the code works internally.
 

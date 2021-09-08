@@ -22,9 +22,9 @@ There are many ways to implement authentication, but because we're using App Eng
 
 # Users API
 
-The [Users API](https://cloud.google.com/appengine/docs/standard/java/users/) is included with App Engine and allows us to get login and logout links, as well as the current user's email address. We can then use this email address to associate data with a specific user, for example preferences, posts, or file uploads.
+The [Users API](https://cloud.google.com/appengine/docs/standard/java/users/) is included with App Engine and lets us get login and logout links, as well as the current user's email address. We can then use this email address to associate data with a specific user, for example preferences, posts, or file uploads.
 
-The Users API allows us to avoid handling registration and login ourselves. Instead, we give the user a link to Google's login page, and we can ask Google's login page to redirect back to our page after the user logs in.
+The Users API lets us avoid handling registration and login ourselves. Instead, we give the user a link to Google's login page, and we can ask Google's login page to redirect back to our page after the user logs in.
 
 Here's an example servlet:
 
@@ -126,15 +126,15 @@ To associate a set of data (for example a message sent by the user, or a file up
 
 When you deploy to your live server, the Users API will use the real Google sign-in page.
 
-When you deploy to a local devserver, the Users API will use a dummy sign-in page that allows you to pretend to be any user. This is handy for testing your code out locally before deploying it to your live server.
+When you deploy to a local devserver, the Users API will use a dummy sign-in page that lets you pretend to be any user. This is handy for testing your code out locally before deploying it to your live server.
 
 # Examples
 
 Here are a few example projects that use the Users API.
 
-- [Hello World](https://github.com/KevinWorkman/GoogleCloudExamples/tree/master/authentication/users-api/hello-world) is a barebones example that allows a user to login.
+- [Hello World](https://github.com/KevinWorkman/GoogleCloudExamples/tree/master/authentication/users-api/hello-world) is a barebones example that lets a user login.
 - [Shoutbox v3](https://github.com/KevinWorkman/GoogleCloudExamples/tree/master/authentication/users-api/shoutbox-v3): associates users with data, specifically by displaying user email addresses next to messages they post.
-- [Nicknames](https://github.com/KevinWorkman/GoogleCloudExamples/tree/master/authentication/users-api/user-nicknames) shows an approach that allows users to specify nicknames, so you can avoid using their emails or IDs for display or to build URLs.
+- [Nicknames](https://github.com/KevinWorkman/GoogleCloudExamples/tree/master/authentication/users-api/user-nicknames) shows an approach that lets users specify nicknames, so you can avoid using their emails or IDs for display or to build URLs.
 
 # Other Approaches
 

@@ -12,7 +12,7 @@ tags: [tutorial, how-to]
 
 {% include toc.md %}
 
-**Note:** I'm going to use the term "social app" to refer to any mobile app that allows people to interact with each other and requires an internet connection to work. Twitter, Lyft, and Tumblr are examples of social apps. Single-player games or private note-taking apps are not social apps. If you're just wondering how to make a local app that doesn't support multiple users or require an internet connection, then check out the [Android](/tutorials/android) tutorials.
+**Note:** I'm going to use the term "social app" to refer to any mobile app that lets people interact with each other and requires an internet connection to work. Twitter, Lyft, and Tumblr are examples of social apps. Single-player games or private note-taking apps are not social apps. If you're just wondering how to make a local app that doesn't support multiple users or require an internet connection, then check out the [Android](/tutorials/android) tutorials.
 
 I get a lot of messages like this:
 
@@ -135,7 +135,7 @@ Also note that one of the easiest ways to create an app that works as a website 
 
 ## Mobile Clients
 
-Now that you have a database that stores your data, a server that provides access to that data, and you've tested the basics with a web client, you can finally think about building a mobile app that allows real users to interact with your data.
+Now that you have a database that stores your data, a server that provides access to that data, and you've tested the basics with a web client, you can finally think about building a mobile app that lets real users interact with your data.
 
 Learn about [Android](/tutorials/android) or iOS development. Put together a prototype that shows the data and provides some basic functionality. Then you can take that to a graphic designer or UX expert to help understand what you actually need in terms of a user interface, or to a mobile developer to add a new button or screen.
 

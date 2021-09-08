@@ -12,11 +12,11 @@ tags: [tutorial, java, processing]
 
 {% include toc.md %}
 
-At this point you've probably used [Processing](/tutorials/processing) through the Processing editor, which allows you to write Processing code and automatically run it. You've also learned how to use [Java libraries](/tutorials/java/libraries), which allow you to use classes and functions written by other people in your Java code. This tutorial combines those ideas and shows you how to use Processing as a Java library.
+At this point you've probably used [Processing](/tutorials/processing) through the Processing editor, which lets you write Processing code and automatically run it. You've also learned how to use [Java libraries](/tutorials/java/libraries), which allow you to use classes and functions written by other people in your Java code. This tutorial combines those ideas and shows you how to use Processing as a Java library.
 
 ## Processing is Java
 
-So far, we've used Processing through the Processing editor, which allows us to write Processing code that the editor then runs when you press the play button. But behind the scenes, when you press the play button, the Processing editor is translating your Processing code into Java code, compiling it, and running it.
+So far, we've used Processing through the Processing editor, which lets us write Processing code that the editor then runs when you press the play button. But behind the scenes, when you press the play button, the Processing editor is translating your Processing code into Java code, compiling it, and running it.
 
 For example, we might write Processing code that looks like this:
 
@@ -58,7 +58,7 @@ You can see this yourself by exporting a Processing sketch as an application and
 
 This works because Processing is written in Java. So the Processing editor can take your Processing code and make a few minor adjustments, such as putting it inside a class inside a `.java` file, to create valid Java code. Then it compiles and runs that Java code, exactly how we've been compiling and running our Java code in these tutorials.
 
-And because Processing is written in Java, we can do the exact same thing from our Java code. This allows us to write Java code that accesses Processing's functionality directly, without going through the Processing editor. This is useful for writing more complicated Processing sketches, or for writing a library that you can then use in Processing.
+And because Processing is written in Java, we can do the exact same thing from our Java code. This lets us write Java code that accesses Processing's functionality directly, without going through the Processing editor. This is useful for writing more complicated Processing sketches, or for writing a library that you can then use in Processing.
 
 ## Add Processing to Your Classpath
 

@@ -16,7 +16,7 @@ tags: [tutorial, java, server, google, cloud, datastore, database]
 
 At this point you should be familiar with App Engine and servlets.
 
-This tutorial introduces Datastore, which allows us to store data.
+This tutorial introduces Datastore, which lets us store data.
 
 # Post Requests
 
@@ -110,11 +110,11 @@ The answer is our server will either crash or our data will be erased. This is o
 
 The solution to this problem is to use some kind of **persistent storage** to store the data somewhere safer. You might use a database, or file storage.
 
-This tutorial introduces a tool called Datastore, which allows us to store data using a relatively simple Java API.
+This tutorial introduces a tool called Datastore, which lets us store data using a relatively simple Java API.
 
 # Datastore
 
-[Datastore](https://cloud.google.com/appengine/docs/standard/java/datastore/) is a [NoSQL](https://en.wikipedia.org/wiki/NoSQL) database that allows us to store and load data using Java code.
+[Datastore](https://cloud.google.com/appengine/docs/standard/java/datastore/) is a [NoSQL](https://en.wikipedia.org/wiki/NoSQL) database that lets us store and load data using Java code.
 
 Here's what our above example would look like using Datastore:
 
@@ -189,7 +189,7 @@ Datastore comes with the App Engine environment that we’re using to deploy our
 </dependency>
 ```
 
-This dependency allows us to reference the classes that come with the App Engine SDK, which includes Datastore.
+This dependency lets us reference the classes that come with the App Engine SDK, which includes Datastore.
 
 ## DatastoreService
 

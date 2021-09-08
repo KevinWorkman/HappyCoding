@@ -435,7 +435,7 @@ public class ListServlet extends HttpServlet {
 }
 ```
 
-This servlet contains an `ArrayList` of animals. The `doGet()` function renders those animals along with a form that allows the user to add an animal. The `doPost()` function simply adds the input animal to the list and then redirects back to the same page.
+This servlet contains an `ArrayList` of animals. The `doGet()` function renders those animals along with a form that lets the user add an animal. The `doPost()` function simply adds the input animal to the list and then redirects back to the same page.
 
 But like you might have guessed, this becomes more complicated if we're handling multiple requests at the same time. Try adding a new animal, and then opening a new tab while that first request is still being processed.
 

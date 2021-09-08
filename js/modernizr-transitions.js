@@ -18,7 +18,7 @@
  * Modernizr tests which native CSS3 and HTML5 features are available in the
  * current UA and makes the results available to you in two ways: as properties on
  * a global `Modernizr` object, and as classes on the `<html>` element. This
- * information allows you to progressively enhance your pages with a granular level
+ * information lets you progressively enhance your pages with a granular level
  * of control over the experience.
 */
 
@@ -448,7 +448,7 @@
 
     if (parseInt(nodes, 10)) {
       // In order not to give false positives we create a node for each test
-      // This also allows the method to scale for unspecified uses
+      // This also lets the method scale for unspecified uses
       while (nodes--) {
         node = createElement('div');
         node.id = testnames ? testnames[nodes] : mod + (nodes + 1);
@@ -500,7 +500,7 @@
   ;
 
   /**
-   * nativeTestProps allows for us to use native feature detection functionality if available.
+   * nativeTestProps lets us use native feature detection functionality if available.
    * some prefixed form, or false, in the case of an unsupported rule
    *
    * @access private

@@ -161,7 +161,7 @@ The `pom.xml` is a Maven [POM file](https://maven.apache.org/pom.html) that defi
 
 The example project uses four Maven plugins to package and run the server.
 
-- The [Resources Plugin](https://maven.apache.org/plugins/maven-resources-plugin/) (`maven-resources-plugin`) makes sure that static content like HTML files are included in the output jar file. This allows the `ServerMain` class to load this content.
+- The [Resources Plugin](https://maven.apache.org/plugins/maven-resources-plugin/) (`maven-resources-plugin`) makes sure that static content like HTML files are included in the output jar file. This lets the `ServerMain` class load this content.
 
 ```java
 // Load static content from inside the jar file.

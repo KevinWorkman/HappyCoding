@@ -234,7 +234,7 @@ The last thing we need to do is to declare the `ClickedScreenActivity` in the `A
 </manifest>
 ```
 
-Notice the `<activity android:name=".ClickedScreenActivity" />` line. This line tells our Android app about the new activity class, which allows us to use it in the code above. Also note that we could have set additional properties on this tag, but for simplicity we're just using a self-closing tag without any properties.
+Notice the `<activity android:name=".ClickedScreenActivity" />` line. This line tells our Android app about the new activity class, which lets us use it in the code above. Also note that we could have set additional properties on this tag, but for simplicity we're just using a self-closing tag without any properties.
 
 When you run this app, the main activity shows a button. When the user clicks the button, the app switches to another activity that shows a "You clicked the button" message. The user can go back to the main activity by pressing the back button.
 

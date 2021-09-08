@@ -17,7 +17,7 @@ updated: 2020-08-23
 
 So far, you've used [App Engine](/tutorials/google-cloud/app-engine) to deploy a server. You've seen an example that uses servlets to generate content on the server with Java.
 
-This tutorial introduces [Datastore](https://cloud.google.com/appengine/docs/standard/java11/using-cloud-datastore). Like its name suggests, Datastore lets you store data on your server. More specifically, Datastore is a [NoSQL](https://en.wikipedia.org/wiki/NoSQL) database that allows you to store and load data using Java code.
+This tutorial introduces [Datastore](https://cloud.google.com/appengine/docs/standard/java11/using-cloud-datastore). Like its name suggests, Datastore lets you store data on your server. More specifically, Datastore is a [NoSQL](https://en.wikipedia.org/wiki/NoSQL) database that lets you store and load data using Java code.
 
 # Firestore in Datastore Mode
 
@@ -302,7 +302,7 @@ com.google.cloud.datastore.DatastoreException: Unauthenticated.
 
 To fix this, you *could* set your authentication so you local code connects to your live server's Datastore, but chances are that's not what you really want to do.
 
-Instead, you probably want to run a local copy of Datastore, just like you run a local copy of your server. This allows you to test your code without worrying about breaking your live site.
+Instead, you probably want to run a local copy of Datastore, just like you run a local copy of your server. This let you test your code without worrying about breaking your live site.
 
 Running a local copy of Datastore requires a few steps:
 

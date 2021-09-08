@@ -16,7 +16,7 @@ So far, we've relied on the classes that come standard with Java, which you can 
 
 However, you aren't limited to just using those classes. You've already seen how to create your own classes that interact with each other. You can also use classes that have been written by other people!
 
-A Java library is just a collection of classes that have been written by somebody else already. You download those classes and tell your computer about them, and then you can use those classes in your code. This allows you to expand what Java can do and rely on code that other people have tested instead of doing everything yourself.
+A Java library is just a collection of classes that have been written by somebody else already. You download those classes and tell your computer about them, and then you can use those classes in your code. This lets you expand what Java can do and rely on code that other people have tested instead of doing everything yourself.
 
 ## Finding a Library
 
@@ -24,7 +24,7 @@ Before you can use a library, obviously you have to decide what library you want
 
 Like most things in programming, the answer is Google. Doing a search for `"Java XYZ library"` where XYZ is what you want to do will usually return a ton of results. For example, let's say we want to create a Java program that shows graphs. We'd start by Googling "Java graph library" and we'd get a bunch of results. From there we'd go through those results until we found one that helped us with our goal. When trying to decide on a library, don't be afraid to try them all! Write simple programs using each, and figure out which one will work best for you.
 
-The rest of the tutorial will use the [JFreeChart](http://www.jfree.org/jfreechart/devguide.html) libary, which allows you to add interactive charts and graphs to Swing applications.
+The rest of the tutorial will use the [JFreeChart](http://www.jfree.org/jfreechart/devguide.html) libary, which lets you add interactive charts and graphs to Swing applications.
 
 ## Downloading `.jar` Files
 

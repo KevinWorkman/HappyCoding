@@ -145,7 +145,7 @@ This view draws three circles, and the position of the circles is based on the s
 
 ## Input Events
 
-The `View` class also provides several event callback functions that you can override. Android automatically calls these functions when the user does stuff like touch the screen. This allows us to take some action in response to user input.
+The `View` class also provides several event callback functions that you can override. Android automatically calls these functions when the user does stuff like touch the screen. This lets us take some action in response to user input.
 
 For example, the `onTouchEvent()` function is called whenever the user touches the screen inside the view:
 
