@@ -82,9 +82,9 @@ Depending on the company, you might have 1-3 phone interviews. Some of these mig
 
 ![video call](/tutorials/how-to/images/interview-3.png)
 
-*(Art by [SaKo](https://twitter.com/_IAmSaKo_)!)*
+*([Art by SaKo](https://twitter.com/_IAmSaKo_)!)*
 
-You won't be able to use an IDE or Google during this conversation, so to prepare for a phone interview, I recommend practicing the **fundamentals** of whatever language you're using. You can read moure about this in the [Fundamentals](#fundamentals) section below, but in general this means you should be able to write a complete "hello world" program that compiles and runs (or loads in an HTML page and runs), from scratch, without the help of an IDE, Google, or Stack Overflow. You should be familiar with control flow and data structures, as well as any "gotchas" that come with your language.
+You won't be able to use an IDE or Google during this conversation, so to prepare for a phone interview, I recommend practicing the **fundamentals** of whatever language you're using. You can read more about this in the [Fundamentals section](#fundamentals) below, but in general this means you should be able to write a complete "hello world" program that compiles and runs (or loads in an HTML page and runs), from scratch, without the help of an IDE, Google, or Stack Overflow. You should be familiar with control flow and data structures, as well as any "gotchas" that come with your language.
 
 **Note:** Interns are often interviewed over the phone or a video call instead of in person. In terms of complexity, these interviews are between a phone screen and an in-person interview: they're a little more involved than what I described above, but not quite as involved as what I'll describe below.
 
@@ -94,11 +94,11 @@ From there, generally you'll be brought to the company for on-site, in-person in
 
 You might have multiple interviews with different people throughout the day, or you might have one interview with a panel of multiple interviewers.
 
-These will be a mix of behavioral and technical questions. (See [Interviews](#interviews) below.)
+These will be a mix of behavioral and technical questions. (See [Interviews section](#interviews) below.)
 
 ## Project-based
 
-Another type of interview is a **project-based** interview, where instead of getting a set of questions, you're given a project to work on. Admittedly I have the least experience with this one, but you can go [here](https://techcrunch.com/2019/07/17/googles-area-120-launches-byteboard-to-improve-technical-interviews/) to read more about it.
+Another type of interview is a **project-based** interview, where instead of getting a set of questions, you're given a project to work on. Admittedly I have the least experience with this one, but you can go to this [article on technical interviews](https://techcrunch.com/2019/07/17/googles-area-120-launches-byteboard-to-improve-technical-interviews/) to read more about it.
 
 ## Team Fit Interviews
 
@@ -177,13 +177,13 @@ To make this advice a little more concrete:
 - Focus on what **you** specifically did. *"My team worked on a shopping website"* doesn't tell me much about you. *"My team worked on a shopping website, and I was responsible for the backend that stores data about the products. When I started I was new to SQL, so I took an online course to get up to speed"* tells a much better story.
 - Highlight your ability to **work with a team**. While you're talking about all the great stuff you've done, make sure you include examples of what a great teammate you are. Bonus points for examples about how you helped mentor or teach your teammates.
 - **Look forward.** This one is a little subtle, but it's the "trick" to a lot of behavioral questions. The correct answer to *"What's your biggest weakness?"* is not *"I'm a perfectionist!"* - the correct answer to that question is to provide an honest example of something you're improving, and how you're improving it. *"I had trouble on a previous project because I wasn't familiar with unit testing. I signed up for an online course, so although I'm learning, it still takes me a bit longer than I'd like to write a good unit test."* This technique applies to many behavioral questions. Try to include the answers to questions like *"What would you do differently next time?"* and *"What did you learn from that?"* without being prompted.
-- **Time your answers.** Make sure your answers are not too short, but not too long. I'd say 60 - 120 seconds is a good length to aim for. Shorter answers are probably missing specific examples (and that's okay for a few of your answers, but it shouldn't be all of them). Anything longer than 2 minutes probably means you're repeating yourself or going off-topic. (Also think about how you feel when somebody talks for 5 minutes without checking in with you.) You might think that it's difficult to talk for 2 minutes, but when you're nervous it's really easy to ramble. This is especially true if you have a "silent type" interviewer.
+- **Time your answers.** Make sure your answers are not too short, but not too long. I'd say 60 - 120 seconds is a good length to aim for. Shorter answers are probably missing specific examples (and that's okay for a few of your answers, but it shouldn't be all of them). Anything longer than 2 minutes probably means you're repeating yourself or going off-topic. (Also think about how you feel when somebody talks for 5 minutes without checking in with you.) You might think that it's difficult to talk for 2 minutes, but when you're nervous it's really common to ramble. This is especially true if you have a "silent type" interviewer.
 
 To practice this, I'd recommend trying to think of 5-10 stories that demonstrate who you are as a person, coder, and coworker. These should be real stories, but they can come from school assignments, group projects, stuff not related to coding, whatever, as long as they tell your story. Then practice telling those stories. Time yourself to make sure you're at about the 90 second mark. Do a search for [behavioral interview questions](https://duckduckgo.com/?q=behavioral+interview+questions) and read through as many examples as you can find. As you read them, think about how your stories could apply to those questions, and then practice answering them, out loud. Try this by yourself at first. Try recording yourself and listening back. And then try doing this in front of another person. If you have a partner, take turns asking these kinds of questions and giving feedback on the answers.
 
 ![person thinking](/tutorials/how-to/images/interview-4.png)
 
-*(Art by [SaKo](https://twitter.com/_IAmSaKo_)!)*
+*([Art by SaKo](https://twitter.com/_IAmSaKo_)!)*
 
 Behavioral interviews have a bit of a bad rap as being annoying general questions with no real answers. But if you take those general questions and answer them with specific examples, you can paint a pretty good picture of yourself.
 
@@ -287,11 +287,11 @@ That being said, don't stress too much about making tiny errors like missing a s
 
 ## Break problems down into smaller steps
 
-I strongly believe that one of the most important skills a person can have when coding (and even more generally than that) is the ability to take a large problem, break it down into smaller steps, and then approach those steps one at a time. I've talked about that at length [here](/tutorials/how-to/program), but it's especially important in interviews.
+I strongly believe that one of the most important skills a person can have when coding (and even more generally than that) is the ability to take a large problem, break it down into smaller steps, and then approach those steps one at a time. I've talked about that at length in my [tutorial on how to program](/tutorials/how-to/program), but it's especially important in interviews.
 
 ![breaking a problem down](/tutorials/how-to/images/interview-5.png)
 
-*(Art by [SaKo](https://twitter.com/_IAmSaKo_)!)*
+*([Art by SaKo](https://twitter.com/_IAmSaKo_)!)*
 
 When you encounter an interview question, chances are you'll have no idea how to start. That's normal! Take a breath, and start thinking (and talking) about these questions:
 
@@ -358,7 +358,7 @@ Talk through those questions out loud. Even if you don't know the exactly correc
 
 ## Manage your Time
 
-It's way too easy to talk for 20 minutes and then realize you're almost out of time but you haven't even started the problem.
+It's way too common to talk for 20 minutes and then realize you're almost out of time but you haven't even started the problem.
 
 Keep an eye on time, and make sure you're hitting certain milestones. Exactly what those milestones are depends on the question and how much time you have, but a very rough timeline for an hour-long interview would be:
 
@@ -528,13 +528,13 @@ If you don't have people to practice with in real life, try looking online for c
 
 I've said this a few times: the best way to practice most of this stuff is by writing real code.
 
-I personally enjoy coding [small projects](/gallery) for fun over the weekend, and I believe that these types of small projects helped cement the fundamentals for me. I've also spent a lot of time asking and answering questions on various forums and Stack Overflow, which helped me learn about the more advanced topics. I've also enjoyed [game jams](https://en.wikipedia.org/wiki/Game_jam) like [Ludum Dare](https://ldjam.com/). (See [here](https://itch.io/jams) and [here](http://www.indiegamejams.com/) for lists of game jams happening now!)
+I personally enjoy coding [small projects](/gallery) for fun over the weekend, and I believe that these types of small projects helped cement the fundamentals for me. I've also spent a lot of time asking and answering questions on various forums and Stack Overflow, which helped me learn about the more advanced topics. I've also enjoyed [game jams](https://en.wikipedia.org/wiki/Game_jam) like [Ludum Dare](https://ldjam.com/). (See [itch](https://itch.io/jams) and [indiegamejams](http://www.indiegamejams.com/) for lists of game jams happening now!)
 
 Other people enjoy more directed practice doing [competitive programming](https://en.wikipedia.org/wiki/Competitive_programming) on websites like [LeetCode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/), [Topcoder](https://www.topcoder.com/), and [Kaggle](https://www.kaggle.com/).
 
 The important thing is to figure out what **you** enjoy. That might be weekend projects, or code competition websites, or game development, or creative coding, or something else. It doesn't really matter what the thing is, as long as you're writing real code.
 
-One thing I encourage everybody to do is create a portfolio page. Spend a weekend putting together a simple homepage for yourself. (Shameless self-promotion: Not familiar with HTML? Start [here](/tutorials/html)!) Then spend the next weekend creating a hello world program. Put that up on your portfolio. Then spend the weekend after that exploring some other topic, publish it to your portfolio, rinse and repeat. Keep each project small enough to finish in just a few days, and use this process as an excuse to explore the various concepts you're interested in. Spend a weekend implementing your own HashMap, and put that up on your portfolio. Spend a weekend implementing A\* search, and put that up on your portfolio. Bonus: as you get into more advanced topics, you can add this portfolio to your resume!
+One thing I encourage everybody to do is create a portfolio page. Spend a weekend putting together a simple homepage for yourself. (Shameless self-promotion: Not familiar with HTML? Start with these [html tutorials](/tutorials/html)!) Then spend the next weekend creating a hello world program. Put that up on your portfolio. Then spend the weekend after that exploring some other topic, publish it to your portfolio, rinse and repeat. Keep each project small enough to finish in just a few days, and use this process as an excuse to explore the various concepts you're interested in. Spend a weekend implementing your own HashMap, and put that up on your portfolio. Spend a weekend implementing A\* search, and put that up on your portfolio. Bonus: as you get into more advanced topics, you can add this portfolio to your resume!
 
 No matter what motivates you, the goal is to get practice coding the fundamentals and the other topics you'd use in an interview.
 
@@ -555,7 +555,7 @@ The [Practice Coding](#practice-coding) section above might help with some of th
 
 Here are a few random tips that didn't fit anywhere else:
 
-- **Drink water.** Honestly this is one of the best meta-lessons I've ever learned. Bring a bottle of water with you. Whenever you need a minute to think, pause to take a drink. That sounds funny, but it's an easy way to buy yourself some precious time. Freezing up or saying *"uhhhh...."* can be pretty awkward, but saying *"Hmm, let me think about that for a second..."* and then pausing to take a sip of water comes across as really natural. I seriously bring a bottle of water to every meeting I attend, for exactly this reason.
+- **Drink water.** Honestly this is one of the best meta-lessons I've ever learned. Bring a bottle of water with you. Whenever you need a minute to think, pause to take a drink. That sounds funny, but it's a way to buy yourself some precious time. Freezing up or saying *"uhhhh...."* can be pretty awkward, but saying *"Hmm, let me think about that for a second..."* and then pausing to take a sip of water comes across as really natural. I seriously bring a bottle of water to every meeting I attend, for exactly this reason.
 - **Don't criticize questions.** Even if the question is terrible, even if you're very frustrated. No good can come of this. Don't ask your interviewer if they ever use this in their real job. Similarly, a lot of candidates go out of their way to praise a question. This isn't really a bad thing, but it's not really a good thing either. Personally I recommend not commenting either way. Focus on answering it!
 - **One bad interview won't kill you.** Throughout the interview process, you'll probably be asked many questions by many people. It's impossible to answer all of them perfectly. You're going to have one go south, and that's okay. Shake yourself off, take a sip of that water, and focus on nailing the next question.
 - **Don't ask for hints**, at least not directly. Instead, explain what you're thinking and why you're stuck. *"I need a way to store this data so it's sorted, but I also need constant time lookup. ArrayList will allow me to sort it, but doesn't have constant-time lookup. HashMap has constant time lookup, but its keys aren't sorted."* Use helper functions (or helper classes) for anything you don't remember.
@@ -568,14 +568,14 @@ This is probably the biggest fear around technical interviews, and it's one of t
 - **Ask questions.** If I sound like a broken record, that's because this is one of the best things you can do in an interview. Ask about the input and output. Ask for an example. Repeat what they said in your own words. If you don't know what the question is asking, tell the interviewer! *"So I need to calculate a path between every cat and a mouse. How will that be represented?"*
 - **Talk.** Again, broken record time. Talk about what you're stuck on. *"Okay so it's a 2D array of characters. I'm trying to figure out which cat to start with. Or I could start with a mouse..."* This is infinitely better than awkward silence.
 - **Brainstorm.** Rapid-fire potential data structures and algorithms. If you can't decide which option to go with, talk out loud as you ask yourself questions and cross potential options off the list. *"To represent a path, could I use an array? Maybe, but then I'd need to store a path as a set of points. Could I use a HashMap? Maybe I could create a multimap of each cat's position to the best path to each mouse. Would sorting the positions help at all?"* &nbsp; Think of this as a brainstorming session: it's fine to say an idea and then immediately reject it and move on to something else.
-- **Break the problem down into smaller steps.** I talked about this [above](#break-problems-down-into-smaller-steps), and I think it's the most important skill in programming, and maybe more generally than that. Big questions can be paralyzing. How do you even start? You start by breaking the big question down into a few smaller steps, and then taking those steps on one at a time. Helper functions can make this process more concrete. *"I know I eventually need to calculate the paths for every cat. Before I can do that, I need to calculate the path for a single cat. Let's put that in a helper function..."*
+- [**Break the problem down into smaller steps.**](#break-problems-down-into-smaller-steps), and I think it's the most important skill in programming, and maybe more generally than that. Big questions can be paralyzing. How do you even start? You start by breaking the big question down into a few smaller steps, and then taking those steps on one at a time. Helper functions can make this process more concrete. *"I know I eventually need to calculate the paths for every cat. Before I can do that, I need to calculate the path for a single cat. Let's put that in a helper function..."*
 - **Oversimplify.** If you're still having trouble breaking the problem down, don't be afraid to oversimplify. *"The real problem has multiple mice, but what if it was just a single cat and a single mouse?"* &nbsp; Starting with that problem is much more reasonable than facing the whole problem.
 
 This approach can also be helpful if you freeze while writing your code. Ask questions, talk, run through a brainstorming session, break the problem down, and oversimplify. Then build on that to come up with your solution to the full problem.
 
 # Resumes
 
-One quick note on resumes: I know it's easy to obsess over them, but in reality their importance varies from company to company.
+One quick note on resumes: I know it's normal to obsess over them, but in reality their importance varies from company to company.
 
 Smaller companies tend to look at resumes a little more closely: in the stack-ranking process, resumes are used to "break ties" between candidates. In larger companies that aren't stack-ranking candidates, resumes are less important than your interview performance.
 
@@ -601,7 +601,7 @@ That being said, here are a few other resources worth checking out:
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html) is a response to the many "teach yourself coding in 24 hours" resources out there. It's slightly tongue-in-cheek, but it raises a ton of good points worth considering.
 - [Glassdoor](https://www.glassdoor.com/Interview/index.htm) has a bunch of interview questions, but again, I recommend **against** thinking in terms of memorizing "answers" to interview questions. Think in terms of **the process** instead.
 
-You should also check whether the company you're interviewing with has its own resources. For example, [here](https://careers.google.com/how-we-hire/interview/) is a guide on Google interviews, [here](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook/) is a guide on Facebook interviews, and [here](https://www.amazon.jobs/en/landing_pages/interviewing-at-amazon) is a guide on Amazon interviews.
+You should also check whether the company you're interviewing with has its own resources. For example, [Google's hiring guide](https://careers.google.com/how-we-hire/interview/), [Facebook's guide on interview](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook/), and [Amazon's guide on interview](https://www.amazon.jobs/en/landing_pages/interviewing-at-amazon).
 
 # The Journey
 
