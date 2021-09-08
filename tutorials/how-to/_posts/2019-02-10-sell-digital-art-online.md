@@ -14,7 +14,7 @@ tags: [tutorial, how-to, art]
 
 # How to Sell Digital Art Online
 
-Are you thinking about selling your art in an online store like [this one](https://www.etsy.com/shop/HappyCoding)? (Shameless self-promotion: that's my Etsy store.) This guide walks you through the process of creating and selling physical prints based on your digital art.
+Are you thinking about selling your art in an online store like [my etsy store](https://www.etsy.com/shop/HappyCoding)? (Shameless self-promotion) This guide walks you through the process of creating and selling physical prints based on your digital art.
 
 <img src="/tutorials/how-to/images/random-walker-etsy.jpg" style="width:500px" />
 
@@ -94,13 +94,13 @@ This is just an example that generates files like this:
 
 Now that we have an image file fit for printing, we're going to use a service called [Printful](https://www.printful.com/) to print and ship our physical products.
 
-Register for a Printful account [here](https://www.printful.com/auth/register).
+[Register for a Printful account here](https://www.printful.com/auth/register).
 
 ## Order a Sample
 
 In the next steps we're going to create an online store that will allow us to sell our art to customers, but before we get there, I'd recommend ordering a couple things from Printful yourself.
 
-Go [here](https://www.printful.com/dashboard/order/update) to create an order. The Printful workflow generally works like this:
+[Create a printful order](https://www.printful.com/dashboard/order/update). The Printful workflow generally works like this:
 
 - Select a product. Do you want an 8x10 photo? A 24x36 poster? A shirt?
 - Select an image. Upload the image file you created above.
@@ -116,9 +116,9 @@ If you're planning on creating a poster, you might consider ordering a few 8x10 
 
 Now that you have the ability to print and ship your art through Printful, you need an online store that connects you to customers. [Etsy](https://www.etsy.com/) is a website that allows creators to sell their arts and crafts to customers.
 
-Register for an Etsy account [here](https://www.etsy.com/join). This allows you to act as a customer on Etsy, and if you haven't used it before I recommend searching around to get a feel for it.
+[Register for an Etsy account](https://www.etsy.com/join). This allows you to act as a customer on Etsy, and if you haven't used it before I recommend searching around to get a feel for it.
 
-To sell your art, create an Esty store [here](https://www.etsy.com/sell).
+To sell your art, [create an Esty store](https://www.etsy.com/sell).
 
 ## Your First Listing
 
@@ -134,7 +134,7 @@ Go to [your Printful dashboard](https://www.printful.com/dashboard/connect/etsy)
 
 You probably already have a listing that you created when you created your Etsy store. You should see that in your Printful account.
 
-Go to your Printful dashboard [here](https://www.printful.com/dashboard/default) and make sure that your first listing is connected to Printful. Make sure it has the correct printfile (the image you created in step one) and title and description.
+Go to [your Printful dashboard](https://www.printful.com/dashboard/default) and make sure that your first listing is connected to Printful. Make sure it has the correct printfile (the image you created in step one) and title and description.
 
 # Step 6: Create a New Listing
 
@@ -146,7 +146,7 @@ Now that everything is connected, you'll generally use this workflow:
 - After the listing is created, you edit and publish it in Etsy.
 - When customers buy your art from Etsy, Printful prints and ships the order for you.
 
-Create a product in Printful by going to the store dashboard [here](https://www.printful.com/dashboard/default). Select a product, upload an image, set prices, and give it a title and a description. (You can edit these anytime, so don't worry too much about getting it exactly right.)
+Create a product by going to the [Printful store dashboard](https://www.printful.com/dashboard/default). Select a product, upload an image, set prices, and give it a title and a description. (You can edit these anytime, so don't worry too much about getting it exactly right.)
 
 After you create your product, Printful automatically creates an unpublished Etsy listing. You should see an `Edit in Etsy` link somewhere- click that to open the listing in Etsy.
 
@@ -156,13 +156,13 @@ Make any changes you want in Esty, and then click the `Publish` button at the bo
 
 Etsy lets you upload photos that show your product in action. You might upload a picture of your print hanging on a wall, or a picture of a person wearing your shirt.
 
-Printful will create these for you automatically, but take a second before (or after) you publish your listing to make sure the generated mocks show what you want. I personally usually delete the generated mocks and then create my own using the mock generator [here](https://www.printful.com/mockup-generator). There are [other mock generators](https://designhub.co/mockup-generators/) out there as well.
+Printful will create these for you automatically, but take a second before (or after) you publish your listing to make sure the generated mocks show what you want. I personally usually delete the generated mocks and then create my own using the [Printful mock generator](https://www.printful.com/mockup-generator). There are [other mock generators](https://designhub.co/mockup-generators/) out there as well.
 
 ## Variants
 
 Etsy and Printful also support **variants** for listings, which are generally different versions or sizes of a product. A customer can order a small, medium, or large shirt; or a 8x10, 12x12, or 24x36 poster print, for example.
 
-To create a variant, go to your Printful dashboard [here](https://www.printful.com/dashboard/default), select a listing, and click the `Add Variants` button. Select a product, then select an image. Printful will automatically add this variant to your Etsy listing.
+To create a variant, go to [your Printful dashboard](https://www.printful.com/dashboard/default), select a listing, and click the `Add Variants` button. Select a product, then select an image. Printful will automatically add this variant to your Etsy listing.
 
 **Note:** Don't just use the same image for all of your variants without inspecting the result! Printful will either crop your image or leave whitespace, which can potentially look very ugly. Depending on what type of art you're creating, you might want to generate a separate image for each variant.
 
@@ -172,6 +172,6 @@ This guide outlined one approach for selling digital art online using Printful a
 
 You could try out other printing services, or you could decide to handle all of the shipping yourself. You could try printing your art in bulk or getting yourself a fancy printer. You could branch out into stoes other than Etsy: Amazon, Threadless, etc.
 
-One thing I haven't mentioned is how you actually get customers to visit your listings. That's an entire industry full of books and so-called SEO experts. For now drop a link in the [forum](https://forum.happycoding.io) and you'll have at least one new fan.
+One thing I haven't mentioned is how you actually get customers to visit your listings. That's an entire industry full of books and so-called SEO experts. For now drop a link in the [Happy Coding forum](https://forum.happycoding.io) and you'll have at least one new fan.
 
 Good luck, and happy selling!
