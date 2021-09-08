@@ -16,7 +16,7 @@ tags: [tutorial, java, server, threading]
 
 We just learned how we can keep track of users by using sessions, so now our web apps can handle multiple users. An important thing to keep in mind is that uses will often be doing things at the same time! Think about it this way: you wouldn't want to have to wait until another user is done reading this tutorial before you can read it, would you? And in the real world servers can handle hundreds (or more) of requests per second, so our web apps have to handle multiple requests simultaneously.
 
-Behind the scenes, the way this works is through threading. You can read [this tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/) for a good background, but here are the basics:
+Behind the scenes, the way this works is through threading. You can read [Oracle docs - concurrency tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/) for a good background, but here are the basics:
 
 - A thread is the thing that's running your code. (Behind the scenes it's using a `Thread` object which is just a standard Java class, and there's a lot more to it than that, but that's the most basic definition I could come up with.)
 - Code you've seen so far has mostly used one thread. Your functions are called one after the other, in order.
@@ -79,7 +79,7 @@ catch (InterruptedException e) {
 }
 ```
 
-Like the comment says, the `Thread.sleep()` function pauses the current thread, in this case for one second at a time. It's wrapped in a `try` block because it can throw an `InterruptedException` (we learned about catching checked exceptions in [this tutorial](/tutorials/java/errors)), but really all this code does is make the request take longer to complete. This is to simulate a more complicated request that takes longer to complete, like storing a file or making a big change to a database.
+Like the comment says, the `Thread.sleep()` function pauses the current thread, in this case for one second at a time. It's wrapped in a `try` block because it can throw an `InterruptedException` (we learned about catching checked exceptions in [Java - errors article](/tutorials/java/errors)), but really all this code does is make the request take longer to complete. This is to simulate a more complicated request that takes longer to complete, like storing a file or making a big change to a database.
 
 Now all we need is a `web.xml` file to map the `/total` URL to our servlet:
 
@@ -506,7 +506,7 @@ This tutorial introduced the basics of thread-safety, some common issues you're 
 
 - We've just used `synchronized(this)`, but you can synchronize on any instance. Two synchronized blocks are only [mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusion) if they're synchronized on the same instance. This gives you more control over exactly which blocks can be executed on different threads. This also allows you to synchronized between servlets.
 
-- You can use the `wait()` function on one thread to pause code execution, until the `notify()` function is called on another thread. More info [here](https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html).
+- You can use the `wait()` function on one thread to pause code execution, until the `notify()` function is called on another thread. More info [Oracle docs - Concurrency-guardmeth](https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html).
 
 - You can also use a [Semaphore](http://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/Semaphore.html) to allow a certain number of threads to access a block.
 

@@ -331,7 +331,7 @@ Another really useful approach for debugging is to try explaining your problem o
 
 [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is the process of explaining your problem to an inanimate object (or a pet, or a houseplant). By restating your problem in your own words, you force your brain to think about it from a different perspective. This often gives you that "ah-ha!" moment that helps you figure out your problem. (This is also why you'll often figure out your problem when you start writing a question to post in a forum or on Stack Overflow.)
 
-You can learn more about rubber duck debugging [here](https://rubberduckdebugging.com/) and [here](https://blog.codinghorror.com/rubber-duck-problem-solving/).
+You can learn more about [rubber duck debugging](https://rubberduckdebugging.com/) and [rubber duck problem solving](https://blog.codinghorror.com/rubber-duck-problem-solving/).
 
 ## Take a Break
 

@@ -76,7 +76,7 @@ This also means that, in theory, nobody should post a question that's already be
 
 All of the above led to Stack Overflow having a reputation for being a [doubled-edged sword](https://english.stackexchange.com/questions/60728/why-is-the-term-double-edged-sword-used-for-something-that-can-be-favorable-an): on one hand, it is one of the best sources of information for anybody writing code; but on the other hand, Stack Overflow can feel like a pretty unforgiving place - especially for beginners or for people who already feel unwelcome in computer science.
 
-[This article](https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d) is a good collection of the kinds of experiences many people have with Stack Overflow: their questions are downvoted, closed, or deleted; they receive rude or snarky comments; and they're at the mercy of the strict rules enforced by thousands of other users.
+[Hackernoon - decline-of-stackoverflow](https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d) is a good collection of the kinds of experiences many people have with Stack Overflow: their questions are downvoted, closed, or deleted; they receive rude or snarky comments; and they're at the mercy of the strict rules enforced by thousands of other users.
 
 Here are a few questions about this reputation problem posted on Stack Overflow. (More specifically, most of them were posted on [Meta Stack Overflow](https://meta.stackoverflow.com/) or [Meta Stack Exchange](https://meta.stackexchange.com/), which are like Stack Overflow for questions about Stack Overflow itself.)
 
@@ -92,7 +92,7 @@ Here are a few questions about this reputation problem posted on Stack Overflow.
 
 Check out the scores of some of these questions to get an idea of the community's reaction.
 
-Another criticism of Stack Overflow is that it feels especially unwelcoming to people from under-represented groups in computer science. [Here](https://medium.com/@glitterwitch/stack-overflow-s-developer-survey-analysis-hurts-women-ec4d568e2352) and [here](http://www.banane.com/2012/06/20/there-are-no-women-on-stackoverflow-or-are-there/) are articles discussing the experience women have on Stack Overflow, and [here](https://meta.stackoverflow.com/questions/309908/declining-numbers-of-women-in-programming-what-can-so-do-to-help) and [here](https://meta.stackexchange.com/questions/30411/what-can-stack-overflow-do-to-persuade-female-programmers-to-participate-more) are questions about it posted on Meta.
+Another criticism of Stack Overflow is that it feels especially unwelcoming to people from under-represented groups in computer science. [Medium - StackOverflow-dev-survey-hurts-women](https://medium.com/@glitterwitch/stack-overflow-s-developer-survey-analysis-hurts-women-ec4d568e2352) and [Banane - no-women-on-stackoverflow](http://www.banane.com/2012/06/20/there-are-no-women-on-stackoverflow-or-are-there/) are articles discussing the experience women have on Stack Overflow, and [StackOverflow - declining-number-of-women-in-programming](https://meta.stackoverflow.com/questions/309908/declining-numbers-of-women-in-programming-what-can-so-do-to-help) and [StackOverflow - Persuade-women-programmer-to-participate-more](https://meta.stackexchange.com/questions/30411/what-can-stack-overflow-do-to-persuade-female-programmers-to-participate-more) are questions about it posted on Meta.
 
 # The Unwelcoming
 
@@ -135,7 +135,7 @@ Some of these posts propose changes to make Stack Overflow more welcoming, some 
 
 Since the blog post, Stack Overflow has rolled out a few changes in the name of being more welcoming. They rolled out a new [code of conduct](https://stackoverflow.blog/2018/08/07/get-to-know-our-new-code-of-conduct/). They added an icon for [new users](https://meta.stackexchange.com/questions/314287/come-take-a-look-at-our-new-contributor-indicator) in the hope that this would inspire a more welcoming environment. They built a tool that [detected snarky comments](https://stackoverflow.blog/2018/07/10/welcome-wagon-classifying-comments-on-stack-overflow/).
 
-But the debate rages on. Start [here](https://meta.stackoverflow.com/questions/tagged/welcoming) if you want to go down the rabbit hole.
+But the debate rages on. Start [StackOverflow - Welcome-Questions](https://meta.stackoverflow.com/questions/tagged/welcoming) if you want to go down the rabbit hole.
 
 # What is Stack Overflow?
 
@@ -173,7 +173,7 @@ For example, the [Java tag](https://stackoverflow.com/questions/tagged/java) can
 
 Compare that to the [Processing](https://stackoverflow.com/questions/tagged/processing) or [p5.js](https://stackoverflow.com/questions/tagged/p5.js) tags. These tags only get a few questions per day, and generally only a [few people](https://stackoverflow.com/tags/processing/topusers) lurk and answer questions. This means that more time is spent on each answer, which leads to a different ecosystem than more popular tags. As a result, the Processing tags tend to have higher quality answers (imho), and are friendlier to novices than the Java tag.
 
-It's slightly more complicated than that. Questions usually contain multiple tags, so there's an interesting collision between these ecosystems. For example, when a Processing question gets tagged with the Java tag, all of a sudden it has all those Java eyeballs on it. These questions are often closed because they don't have a `main()` method, or as duplicates of the [canonical NullPointerException question](https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it). This gets pretty frustrating, because these are **not** valid reasons to close a Processing question: Processing does not require a `main()` method and can throw a `NullPointerException` from Processing's internal code. I got so frustrated by Java users incorrectly closing Processing questions that I made [this](https://meta.stackoverflow.com/questions/321127/processing-java) Meta post. The point is: the rules and regulations of one part of Stack Overflow often don't make sense in other parts of Stack Overflow.
+It's slightly more complicated than that. Questions usually contain multiple tags, so there's an interesting collision between these ecosystems. For example, when a Processing question gets tagged with the Java tag, all of a sudden it has all those Java eyeballs on it. These questions are often closed because they don't have a `main()` method, or as duplicates of the [canonical NullPointerException question](https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it). This gets pretty frustrating, because these are **not** valid reasons to close a Processing question: Processing does not require a `main()` method and can throw a `NullPointerException` from Processing's internal code. I got so frustrated by Java users incorrectly closing Processing questions that I made [StackOverflow - processing-java](https://meta.stackoverflow.com/questions/321127/processing-java) Meta post. The point is: the rules and regulations of one part of Stack Overflow often don't make sense in other parts of Stack Overflow.
 
 I think this is a big cause of friction. When we talk about what Stack Overflow is, or what it should be, we're casting a net over 1000 different corners, all with their own users, rules, and expectations.
 
@@ -202,7 +202,7 @@ Jeff Atwood [has said](https://blog.codinghorror.com/what-does-stack-overflow-wa
 >
 > \- [Jeff Atwood](https://blog.codinghorror.com/what-does-stack-overflow-want-to-be-when-it-grows-up/)
 
-He has also mentioned this on Twitter, e.g. [here](https://twitter.com/codinghorror/status/983150210074341376) and [here](https://twitter.com/codinghorror/status/1006618014584745984).
+He has also mentioned this on Twitter, e.g. [Twitter - Coding Horror(status)](https://twitter.com/codinghorror/status/983150210074341376) and [Twitter - Coding Horror(status)](https://twitter.com/codinghorror/status/1006618014584745984).
 
 Compare that to Joel Spolsky, who [says](https://www.joelonsoftware.com/2018/04/23/strange-and-maddening-rules/):
 
@@ -302,7 +302,7 @@ Stack Overflow does have a chat feature, but it's not really used by newbies. Ju
 
 There are places on the internet specifically designed for beginners. [Java Ranch](https://javaranch.com/) and the [Processing forum](https://discourse.processing.org/) come to mind. So taking a step back, the question becomes: should Stack Overflow even try to be more welcoming to beginners, or should they leave that up to these other places?
 
-There is some interesting discussion on this on Jeff Atwood's Twitter [here](https://twitter.com/codinghorror/status/1055060886908358657) and [here](https://twitter.com/codinghorror/status/989609125318344704). The argument is that different tools should try to solve different problems: one place for experts, and another place for beginners.
+There is some interesting discussion on this on Jeff Atwood's Twitter [Coding Horror Status](https://twitter.com/codinghorror/status/1055060886908358657) and [Coding Horror Status](https://twitter.com/codinghorror/status/989609125318344704). The argument is that different tools should try to solve different problems: one place for experts, and another place for beginners.
 
 Interestingly, this already happens on other Stack Exchange sites, like [English Language Learners](https://ell.stackexchange.com/) for basic English questions, and [English Language and Usage](https://english.stackexchange.com/) for more advanced questions.
 

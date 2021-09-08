@@ -17,4 +17,4 @@ You don't have to be an expert coder to teach coding. Even just going through an
 
 The [teaching](/teaching) section is a little barebones right now, but I'm planning on adding more resources to it over time. I'm hoping to add stuff like homework assignments, power point presentations, and video lessons. I've got a lot of ideas that I'm pretty excited about. Even though it's not quite complete (nothing ever is), I wanted to publish what I had so far.
 
-If you're a teacher and you're curious about programming (or if you want to share your own teaching resources), please [contact me](/about/contact) or come say hello in [the forum](http://forum.HappyCoding.io)!
+If you're a teacher and you're curious about programming (or if you want to share your own teaching resources), please [contact me](/about/contact) or come say hello in [Happy Coding forum](http://forum.HappyCoding.io)!

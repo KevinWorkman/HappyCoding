@@ -57,7 +57,7 @@ Wrong. Blobstore and the Users API are simply no longer available. Datastore has
 
 I know it sounds like I'm complaining, and maybe I am, but each of these inconsistencies and incompatibilities made the migration harder. And for what reason? From my perspective, I didn't get any benefits from this migration, other than doing what Google told me to do.
 
-On the bright side, I did feel validated when I read [this blog](https://medium.com/@steve.yegge/dear-google-cloud-your-deprecation-policy-is-killing-you-ee7525dc05dc) complaining about the same things.
+On the bright side, I did feel validated when I read this [Medium article](https://medium.com/@steve.yegge/dear-google-cloud-your-deprecation-policy-is-killing-you-ee7525dc05dc) complaining about the same things.
 
 # Focus on the User
 
@@ -83,7 +83,7 @@ I've worked at Google for 4 years now, so I have some theories about why Google 
 
 Every Google employee's salary, promotion level, and entire career is determined by a process called perf. And the only thing perf cares about is numbers. And the easiest way to get numbers is to count how many new users you got.
 
-The key word there is *new*. You won't get promoted for keeping an existing feature alive, or for fixing a bunch of bugs in an existing service. You won't get paid more because you made your existing users happier. The only thing that matters is new features, new users, new projects. I know how it works, and in fact I just got promoted this week, but the system is super broken. I won't harp on this too much, but [here](https://mtlynch.io/why-i-quit-google/) is another person talking about the same problems.
+The key word there is *new*. You won't get promoted for keeping an existing feature alive, or for fixing a bunch of bugs in an existing service. You won't get paid more because you made your existing users happier. The only thing that matters is new features, new users, new projects. I know how it works, and in fact I just got promoted this week, but the system is super broken. I won't harp on this too much, but [mtlynch - why I quit google](https://mtlynch.io/why-i-quit-google/) is another person talking about the same problems.
 
 So it's not at all surprising to me that many of the features I relied on in Google Cloud just *went away*. There are a couple migration guides and example projects, and I'm grateful for the work that went into them. In fact, I'm a big fan of the [devrel](https://www.google.com/intl/tr/about/careers/teams/client-facing/dev-rel/) team! But I can't help but imagine how much easier the last few months would have been if Google had decided to maintain the existing functionality I was relying on, or had invested the resources needed to make sure the migration was as easy as possible.
 

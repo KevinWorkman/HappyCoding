@@ -35,7 +35,7 @@ This is just a very basic HTML file that doesn't do anything yet. Save it to `in
 
 ## P5.js JavaScript Library
 
-At its core, P5.js is a JavaScript library. Like we talked about in [the JavaScript libraries tutorial](/tutorials/javascript/libraries), a JavaScript library is just a bunch of JavaScript code that was written by somebody else, that you can use from your own JavaScript code. For example, you can load the [JQuery](https://jquery.com/) library to gain access to functions that make it easier to add interactive elements to your webpage. But keep in mind that it's all just JavaScript code! In fact, you can look at the JQuery code [here](https://code.jquery.com/jquery-3.2.1.js).
+At its core, P5.js is a JavaScript library. Like we talked about in [the JavaScript libraries tutorial](/tutorials/javascript/libraries), a JavaScript library is just a bunch of JavaScript code that was written by somebody else, that you can use from your own JavaScript code. For example, you can load the [JQuery](https://jquery.com/) library to gain access to functions that make it easier to add interactive elements to your webpage. But keep in mind that it's all just JavaScript code! In fact, you can look at the [JQuery code](https://code.jquery.com/jquery-3.2.1.js).
 
 So when we say that P5.js is a JavaScript library, what we mean is that P5.js is a bunch of JavaScript code written by other people ([these people](https://github.com/processing/p5.js/graphs/contributors) to be more specific). We can load that library to give ourselves access to the functions that are defined in the library.
 
@@ -166,6 +166,6 @@ We could also do Google searches for stuff like "P5.js draw rectangle" for a ton
 ## Homework
 
 - Modify the above program to draw a yellow triangle.
-- Read through [the P5.js reference](https://p5js.org/reference/) and write small example programs to test different things out. If you have a question, don't be afraid to post in [the forum](http://forum.HappyCoding.io)!
+- Read through [the P5.js reference](https://p5js.org/reference/) and write small example programs to test different things out. If you have a question, don't be afraid to post in [Happy Coding forum](http://forum.HappyCoding.io)!
 
 ## Next: [Review](/tutorials/p5js/review)

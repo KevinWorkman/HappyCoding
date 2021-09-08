@@ -216,13 +216,13 @@ The URL that Elastic Beanstalk gives us isn't very pretty, so you probably want 
 
 **Amazon Route 53**
 
-[Amazon Route 53](https://aws.amazon.com/route53/) is another AWS service, and it allows you to register a domain name and point it to whatever you want. You can follow the directions [here](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html) to register a domain with Route 53, and then follow the directions [here](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customdomains.html) to point that domain to your web app on Elastic Beanstalk.
+[Amazon Route 53](https://aws.amazon.com/route53/) is another AWS service, and it allows you to register a domain name and point it to whatever you want. You can follow the directions [AWS docs - domain-register](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html) to register a domain with Route 53, and then follow the directions [AWS docs - custom domains](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customdomains.html) to point that domain to your web app on Elastic Beanstalk.
 
 **Namecheap**
 
 Route 53 is convenient if you want to keep your whole web app inside AWS tools. But if you have a bunch of domain names and different websites, it can be more convenient to use a separate domain registrar like [Namecheap.com](https://www.namecheap.com/) to handle all of your domains in one place.
 
-If you want to use Namecheap, start by searching for the domain you want [here](https://www.namecheap.com/) to see if it's available. Purchase the domain you want (you don't need any of the extra stuff they offer you).
+If you want to use Namecheap, start by searching for the domain you want at [namecheap.com](https://www.namecheap.com/) to see if it's available. Purchase the domain you want (you don't need any of the extra stuff they offer you).
 
 After your purchase is complete, go to [the Namecheap dashboard](https://ap.www.namecheap.com/dashboard), and you should see your domain listed. Click the `Manage` button, and then click the `Advanced DNS` tab. Which settings you choose depends on exactly how you want your domain to behave, but here's what I chose:
 

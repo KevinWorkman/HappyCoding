@@ -36,7 +36,7 @@ The specifics of each step will change depending on which library you're trying 
 
 Box2D is a library that provides physics functionality: realistic collision detection, rotation and speed, gravity and friction. It's used in games that require a realistic physic simulation, such as [Crayon Physics](http://www.crayonphysics.com/) and [Fantastic Contraption](http://fantasticcontraption.com/).
 
-LibGDX has a great Box2D tutorial [here](https://github.com/libgdx/libgdx/wiki/Box2d). If you need more specific information, it's worth noting that Box2D was originally a C++ library, and its original documentation is [here](https://box2d.org/documentation/). Most of the originaly C++ documentation still applies to the Java port that libGDX uses.
+LibGDX has a great Box2D tutorial [Github - LibGDX wiki - Box2D](https://github.com/libgdx/libgdx/wiki/Box2d). If you need more specific information, it's worth noting that Box2D was originally a C++ library, and its original documentation is [Box2D docs](https://box2d.org/documentation/). Most of the originaly C++ documentation still applies to the Java port that libGDX uses.
 
 Run the project generator tool, fill out the information for a new game, check the `Box2D` box, and then click the `Generate` button.
 

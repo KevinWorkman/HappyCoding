@@ -87,7 +87,7 @@ I personally recommend learning the fundamentals in p5.js, and then branching ou
 
 # Let's get started!
 
-Click [here](https://editor.p5js.org) to go to the p5.js editor.
+Click [P5 JS editor](https://editor.p5js.org) to go to the p5.js editor.
 
 You should see this:
 

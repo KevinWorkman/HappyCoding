@@ -210,7 +210,7 @@ ellipse(300, 300, 300, 300);
 
 By the way, lines that start with `//` slashes are **comments**. These lines are ignored by the computer, but can make your code easier for a human to read!
 
-RGB colors work a little differently than physical colors that you might be familiar with if you've ever used watercolors or crayons. I don't want to get into all of the intricacies here, because it gets very complicated- color is a whole field of study! If you're curious, you can go down the Wikipedia rabbit hole starting with [this](https://en.wikipedia.org/wiki/RGB_color_model) article.
+RGB colors work a little differently than physical colors that you might be familiar with if you've ever used watercolors or crayons. I don't want to get into all of the intricacies here, because it gets very complicated- color is a whole field of study! If you're curious, you can go down the Wikipedia rabbit hole starting with [Wikipedia - RGB color model](https://en.wikipedia.org/wiki/RGB_color_model) article.
 
 But for now, don't be afraid to experiment with the parameters to see how they interact, or search for [RGB color pickers](https://www.google.com/search?q=color+picker) to get the RGB values you need.
 
@@ -244,4 +244,4 @@ So before you move on to the next tutorial, stop and practice writing some code!
 
 Come up with a scene that you want to draw, and then write a program that draws it. Write Processing code that calls functions to draw the scene.
 
-And then post what you create in [the forum](https://forum.HappyCoding.io)!
+And then post what you create in [Happy Coding forum](https://forum.HappyCoding.io)!

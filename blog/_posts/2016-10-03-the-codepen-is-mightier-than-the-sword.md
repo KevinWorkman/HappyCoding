@@ -46,11 +46,11 @@ That's exactly what Jekyll's [include](https://jekyllrb.com/docs/templates/) tag
 
 How cool is that? Now whenever I want to embed some code, I just copy that one line, and then change the `slug-hash` and the `height` attributes.
 
-One more neat thing is that thanks to [some cooperation](https://meta.discourse.org/t/embedding-pens-from-codepen/13578) between Discourse and CodePen, this automagically works with [the forum](http://forum.HappyCoding.io). You don't even have to get the embedding HTML and JavaScript. Just paste the url of a pen (like [http://codepen.io/KevinWorkman/pen/zKEkKA](http://codepen.io/KevinWorkman/pen/zKEkKA)) into a forum post, and it will automatically become an embedded code editor. Check it out [here](http://forum.happycoding.io/t/testing-codepen/21/1)!
+One more neat thing is that thanks to [some cooperation](https://meta.discourse.org/t/embedding-pens-from-codepen/13578) between Discourse and CodePen, this automagically works with [the forum](http://forum.HappyCoding.io). You don't even have to get the embedding HTML and JavaScript. Just paste the url of a pen (like [http://codepen.io/KevinWorkman/pen/zKEkKA](http://codepen.io/KevinWorkman/pen/zKEkKA)) into a forum post, and it will automatically become an embedded code editor. Check it out [Happy Coding Forum - Testing-Codepen](http://forum.happycoding.io/t/testing-codepen/21/1)!
 
 I love everything I've seen so far about CodePen, and it's under [active development](https://blog.codepen.io/2016/10/03/auto-autocomplete/) so I'm excited to see what they come up with next. Plus fellow Processing developer Dave Whyte (of [Bees & Bombs](https://beesandbombs.tumblr.com/) fame) [just joined CodePen](https://blog.codepen.io/2016/09/16/bees-bombs-codepen/) too, so we're in good company!
 
-I'd love to hear what people think of this new feature (Does it work on your browser? What about on your phone?), and if you're also on CodePen then you can follow me [here](http://codepen.io/KevinWorkman/) if you want.
+I'd love to hear what people think of this new feature (Does it work on your browser? What about on your phone?), and if you're also on CodePen then you can follow me [codepen - Kevin Workman](http://codepen.io/KevinWorkman/) if you want.
 
 Next I'm going to work on adding a comments section to these blog posts, then I want to maybe try adding some Open Graph tags to make linking to the site a little prettier.
 

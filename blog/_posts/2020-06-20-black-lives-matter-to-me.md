@@ -15,7 +15,7 @@ During those weeks, my Twitter feed has been full of [videos of police violence]
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To simplify following the criminal justice news of the last 36 hours, I posted a set of 10 links to police brutality videos on Facebook <br><br>Can&#39;t do that here, obvs<br><br>So I&#39;m putting them into a thread</p>&mdash; T. Greg Doucette (@greg_doucette) <a href="https://twitter.com/greg_doucette/status/1266751520055459847?ref_src=twsrc%5Etfw">May 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-(I'm going to post tweets and threads that have stuck with me. To see threads, click on them and then click "Show this thread" in Twitter. If you only look at one thread, make it [this one](https://twitter.com/greg_doucette/status/1266751520055459847).)
+(I'm going to post tweets and threads that have stuck with me. To see threads, click on them and then click "Show this thread" in Twitter. If you only look at one thread, make it [greg_doucettes'status](https://twitter.com/greg_doucette/status/1266751520055459847).)
 
 It's like having a window into two completely different realities. I'm not new to this feeling, but it's been even more obvious recently. I generally consider myself an "ally" (even though I don't like that term, because I feel like it gives people a label to hide behind rather than putting real work in). But these past few weeks have caused me to question what being an "ally" means.
 

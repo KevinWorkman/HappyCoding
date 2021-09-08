@@ -330,7 +330,7 @@ public class MyServlet extends HttpServlet {
 
 Now the `doPost()` function uses the `Jsoup.clean()` function to only allow tags in the basic whitelist. That means we can enter tags like `<p>` and `<ul>`, but not tags like `<script>` or `<img>`. Try entering different types of content, and trying out different whitelists.
 
-You can read more about jSoup [here](https://jsoup.org/cookbook/cleaning-html/whitelist-sanitizer).
+You can read more about jSoup [JSoup - Cookbook](https://jsoup.org/cookbook/cleaning-html/whitelist-sanitizer).
 
 This option is useful if you want to allow the user to enter HTML to format their text, or if you want to use a rich text editor on the client side, which we'll see in a minute.
 

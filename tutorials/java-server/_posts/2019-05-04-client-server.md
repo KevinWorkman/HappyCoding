@@ -103,7 +103,7 @@ For example, I have a small static webpage at [KevinWorkman.com/index.html](http
 - You type `kevinworkman.com/index.html` in the address bar of your web browser and press enter.
 - Your web browser sends a **request** for this URL.
 - That request goes to my server. (I use [GitHub Pages](https://pages.github.com/) as a server, so the request really goes to a GitHub Pages server.)
-- That server looks for a file named `index.html`. (You can view this file directly [here](https://raw.githubusercontent.com/KevinWorkman/KevinWorkman.com/gh-pages/index.html).)
+- That server looks for a file named `index.html`. (You can view this file directly [index.html](https://raw.githubusercontent.com/KevinWorkman/KevinWorkman.com/gh-pages/index.html).)
 - The server sends back a **response** that contains the content of the file. (In this case, the content is HTML.)
 - The client (your web browser) receives that response, and displays the HTML.
 - You see the nicely formatted webpage. 

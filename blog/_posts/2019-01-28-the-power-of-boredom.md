@@ -19,7 +19,7 @@ A **zero day** is a day where I get nothing done, where I accomplish nothing, wh
 
 The alternative to a zero day is a **non-zero day**. That might sound obvious, but the idea is that it doesn't need to be an "I did everything" day. It just needs to be an "I did more than zero" day. Do one push up. Write one line of code. Clean one part of the kitchen. Write one paragraph of this blog entry.
 
-(I didn't come up with the concept of zero days. I believe it was popularized by ryans01 [here](https://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af/).)
+(I didn't come up with the concept of zero days. I believe it was popularized by ryans01 [reddit - getdisciplined](https://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cdah4af/).)
 
 The goal of this post is not to criticize relaxation. It's to talk about how I overcome my own zero days: by using my boredom as a tool to trick my lazy self into putting in the work.
 

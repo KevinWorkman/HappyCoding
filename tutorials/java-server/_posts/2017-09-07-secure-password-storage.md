@@ -718,7 +718,7 @@ How you do this depends on which server you're using. Google is your friend here
 
 Another option is to not handle user credentials at all, and let somebody else do it for you. For example, Twitter offers [this API](https://dev.twitter.com/web/sign-in) that allows users to sign in to your website using their Twitter accounts. Many big websites offer services like this.
 
-Start by looking into [OpenID](https://en.wikipedia.org/wiki/OpenID) and [OAuth](https://en.wikipedia.org/wiki/OAuth). For example, [here](https://en.wikipedia.org/wiki/List_of_OAuth_providers) is a list of OAuth providers.
+Start by looking into [OpenID](https://en.wikipedia.org/wiki/OpenID) and [OAuth](https://en.wikipedia.org/wiki/OAuth). For example, [List of 0Auth providers](https://en.wikipedia.org/wiki/List_of_OAuth_providers).
 
 With this option, basically you use a library that shows a login form for whatever website your choose. The library handles the login (in a way that does not give you access to the user's password) to the other website, and it gives you an ID that maps to the user. You can store this in your database, and use that to track your users.
 

@@ -129,7 +129,7 @@ Depending on the type of file your uploaded, clicking the link will either displ
 
 One common thing you'll probably want to do is restrict what types of files a user can upload. For example, maybe you only want users to upload image files, but not `.zip` or `.exe` files.
 
-You can use the `accept` attribute on the HTML form to only allow images (more info on that approach [here](https://stackoverflow.com/questions/3828554/how-to-allow-input-type-file-to-accept-only-image-files)), but like we discussed before, hackers can easily get around client-side restrictions, so we have to do some server-side validation anyway.
+You can use the `accept` attribute on the HTML form to only allow images (more info on that approach [StackOverflow Question](https://stackoverflow.com/questions/3828554/how-to-allow-input-type-file-to-accept-only-image-files)), but like we discussed before, hackers can easily get around client-side restrictions, so we have to do some server-side validation anyway.
 
 Here's a simple modification to our servlet class that only allows users to upload files that end with `.jpg` or `.png`:
 
@@ -182,7 +182,7 @@ This code now checks whether the original name of the file ended with `.jpg` or 
 
 If the user tries to upload a file that ends with something other than `.jpg` or `.png`, then they get an error.
 
-Note that this only checks the filename of the file, not its actual content. So we're still not stopping a user from, for example, creating a `.txt` file, renaming it to be a `.jpg` file, and then uploading that. If we want to prevent cases like that, then we have to examine the contents of the uploaded file to make sure it contains an allowed type. See [here](https://stackoverflow.com/questions/4169713/how-to-check-a-uploaded-file-whether-it-is-a-image-or-other-file) for a discussion on this approach, but basically: find a library that does this for you!
+Note that this only checks the filename of the file, not its actual content. So we're still not stopping a user from, for example, creating a `.txt` file, renaming it to be a `.jpg` file, and then uploading that. If we want to prevent cases like that, then we have to examine the contents of the uploaded file to make sure it contains an allowed type. See [StackOverflow Question](https://stackoverflow.com/questions/4169713/how-to-check-a-uploaded-file-whether-it-is-a-image-or-other-file) for a discussion on this approach, but basically: find a library that does this for you!
 
 ## File Hosting
 
@@ -314,7 +314,7 @@ This code uploads a file to our S3 bucket, and then creates a URL that points to
 
 This shows the basics of S3, but there are a ton of other things you can do. Here are a couple things worth checking out:
 
-- Note that you should never save your credentials into a public repository! Instead, you can use a properties file to store your credentials, and then load that properties file from the code. As long as you don't store the properties file in your repo, you're okay. More info [here](http://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/credentials.html).
+- Note that you should never save your credentials into a public repository! Instead, you can use a properties file to store your credentials, and then load that properties file from the code. As long as you don't store the properties file in your repo, you're okay. More info [AWS docs - sdk-for-java guide -credentials](http://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/credentials.html).
 - Uploads of large files can take a long time. You can get progress info and show something like a progress bar while the file uploads.
 - You can use a custom URL for your S3 bucket by pointing a subdomain of your own domain (for example, `s3.example.com`) to your bucket's URL.
 

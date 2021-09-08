@@ -311,7 +311,7 @@ Notice that each column is also given a type: `name` and `favoriteColor` are bot
 
 You can read more about SQL types on [W3Schools](https://www.w3schools.com/sql/sql_datatypes_general.asp), or by doing a Google search. But you'll notice that many types include a size component, like `varchar` above. This helps minimize the size our database takes up: there's no point making room for a million characters if nobody's name will be that long. Maybe more importantly: since you'll probably want to use a database service (which costs money), you don't want to pay for storage that you'll never use!
 
-Also note that different databases support different types, so always consult the documentation for your database. Derby's type documentation is [here](https://db.apache.org/derby/docs/10.13/ref/crefsqlj31068.html).
+Also note that different databases support different types, so always consult the documentation for your database. Derby's type documentation is [Apache db - derby docs](https://db.apache.org/derby/docs/10.13/ref/crefsqlj31068.html).
 
 You don't have to become an expert on all of this right now, as long as you remember that database columns have types, which you specify when you execute a create statement.
 
@@ -477,7 +477,7 @@ No matter how secure we think our database is, hacks still happen all the time. 
 
 So, you should never store a password directly in your database. Instead, you should **hash** the password, which means you need to convert the password into a new value that can't be converted back to the password. You don't have to do it yourself! Use a library that supports hashing algorithms like [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) or [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2). You can find more info in [this discussion](https://security.stackexchange.com/questions/4781/do-any-security-experts-recommend-bcrypt-for-password-storage).
 
-For example, running a `String` value of `password` through bcrypt gives you a value like `$2a$10$VxsYQeOqRqUYyGLflUrTp.BO009BIHb3e9N07evJ7DvFBpkNnXeK6`. (You can try it yourself [here](http://bcrypt.xyz/generate-bcrypt).) It's impossible to go from that big ugly value back to `password`, so if a hacker gets access to your database, they still don't have your users' passwords.
+For example, running a `String` value of `password` through bcrypt gives you a value like `$2a$10$VxsYQeOqRqUYyGLflUrTp.BO009BIHb3e9N07evJ7DvFBpkNnXeK6`. (You can try it yourself [bcrypt - generate](http://bcrypt.xyz/generate-bcrypt).) It's impossible to go from that big ugly value back to `password`, so if a hacker gets access to your database, they still don't have your users' passwords.
 
 So, when a user registers, you send their password through a hash function and store the hashed value in your database. Then to check a user's password when they login, you send the password they entered through the same algorithm to get the hashed value, and you check that hashed value against the hashed value you stored in your database when the user registered. (It gets a little more complicated than that, but like I said, just use a library that handles all of this for you!)
 
@@ -552,7 +552,7 @@ Like its name suggests, Google Cloud SQL is part of [Google Cloud Platform](http
 
 - Go to the [Cloud SQL](https://cloud.google.com/sql/) dashboard.
 - Click the `TRY IT FREE` button. 
-- It'll ask you to set up a payment account. Check out the Google Cloud SQL price guide [here](https://cloud.google.com/sql/pricing) (running a small database for a month costs about 7 dollars).
+- It'll ask you to set up a payment account. Check out the Google Cloud SQL price guide [Google Cloud - SQL Pricing](https://cloud.google.com/sql/pricing) (running a small database for a month costs about 7 dollars).
 - After you setup your payment account, you'll be redirected to the [Google Cloud Platform console](https://console.cloud.google.com/home/dashboard).
 - Create a new Google Cloud Platform project, or choose an existing project if you're already using App Engine for server hosting.
 - Click the [SQL](https://console.cloud.google.com/sql/) link in the list on the left.
@@ -564,7 +564,7 @@ Like its name suggests, Google Cloud SQL is part of [Google Cloud Platform](http
 
 That will launch your database. When it completes, go back to the [Cloud SQL console](https://console.cloud.google.com/sql/instances). You should see your database listed here. In the `Overview` tab, note the `IPv4 address` listed in the `Properties` section. This address is your connection URL!
 
-By default, Goole Cloud SQL has strict limitations about who can access your database. You can find more info about connecting to your database [here](https://cloud.google.com/sql/docs/mysql/connect-external-app), but for now let's just set it so you can acces your database from your computer. Click on the `Access Control` tab, and then click the `Add network` button. In the dialog that pops up, enter `0.0.0.0/0` into the `Newtork` input box and click the `Done` button. This makes it so you can access your database from any computer- but don't worry, you still need a username and password to do anything. Click the `Save` button. **Note:** In the long-term you probably want to just whitelist your own IP address (and the IP address of the server running your code), or you want to connect using the steps outlined [here](https://cloud.google.com/sql/docs/mysql/connect-external-app). But whitelisting everything will work for now.
+By default, Goole Cloud SQL has strict limitations about who can access your database. You can find more info about connecting to your database [Google Cloud - SQL docs](https://cloud.google.com/sql/docs/mysql/connect-external-app), but for now let's just set it so you can acces your database from your computer. Click on the `Access Control` tab, and then click the `Add network` button. In the dialog that pops up, enter `0.0.0.0/0` into the `Newtork` input box and click the `Done` button. This makes it so you can access your database from any computer- but don't worry, you still need a username and password to do anything. Click the `Save` button. **Note:** In the long-term you probably want to just whitelist your own IP address (and the IP address of the server running your code), or you want to connect using the steps outlined [Google Cloud - SQL docs](https://cloud.google.com/sql/docs/mysql/connect-external-app). But whitelisting everything will work for now.
 
 Next, we have to download a JDBC driver. Since we chose a MySQL database, we need the MySQL JDBD driver. Go to the [MySQL JDBC driver download page](https://dev.mysql.com/downloads/connector/j/), download the archive file, and unzip it. That contains a `mysql-connector-java-5.1.42-bin.jar` file. Add that to your classpath!
 

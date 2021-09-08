@@ -198,10 +198,10 @@ Figuring out the answers to those questions is a huge part of coding. So if you 
 - **Go back to the documentation.** Now that you have a single small step in mind, go back to the documentation and read about that particular small step in more detail.
 - **Write test programs.** If you're working in small steps this should come pretty naturally. Don't just work out of a single file that contains your end goal project. Write smaller standalone programs that test out just one feature of the library before you try integrating it into your bigger project. I almost always have a standalone `index.html` file on my dekstop that I use for testing smaller parts by themselves.
 - **Don't be afraid to Google.** If you're stuck on a particular step, then try Googling that step. For example, searching for "SweetAlert show input" returns a bunch of results. Try to work that into the test program you're writing.
-- **Don't be afraid to post on [the forum](https://forum.HappyCoding.io).** Post the test program that contains the step you're working on, and explain where you're stuck. You'd be surprised how often you figure out the answer [while you're typing the question](https://en.wikipedia.org/wiki/Rubber_duck_debugging)!
+- **Don't be afraid to post on [Happy Coding forum](https://forum.HappyCoding.io).** Post the test program that contains the step you're working on, and explain where you're stuck. You'd be surprised how often you figure out the answer [while you're typing the question](https://en.wikipedia.org/wiki/Rubber_duck_debugging)!
 
 # Homework
 
 - Use the SweetAlert library to show an alert that asks the user for their name, and then shows another alert that says `"Hello [your name]!"`.
 - The [Google Charts Library](https://developers.google.com/chart/) lets you create interactive charts. Create a visualization of an interesting data set.
-- Find another JavaScript library that does something cool and use it! I'd love to see what you find, so don't be afraid to post on [the forum](https://forum.HappyCoding.io)!
+- Find another JavaScript library that does something cool and use it! I'd love to see what you find, so don't be afraid to post on [Happy Coding forum](https://forum.HappyCoding.io)!

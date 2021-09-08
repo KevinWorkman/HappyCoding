@@ -28,7 +28,7 @@ This was my first Ludum Dare, and the first time I learned [Processing](/tutoria
 
 Appropriately enough, this first Ludum Dare was the first time the "give up on Friday night, then wake up Saturday morning with a full game in your brain" strategy paid off for me, and it's one I've reused many time since then.
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/EscapeFromMonsterCity/EscapeFromMonsterCity.jar).
+You can download the jar file [Escape from Monster City](http://s3.staticvoidgames.com/games/EscapeFromMonsterCity/EscapeFromMonsterCity.jar).
 
 # Let's Bounce - LD23 Warm-Up
 
@@ -48,7 +48,7 @@ Anyway, in this game you played as a bouncing ball that had to reach a certain h
 
 ![Let's Bounce](/blog/images/ludum-memories/lets-bounce-2.jpg)
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/LetsBounce/LetsBounce.jar).
+You can download the jar file [lets Bounce](http://s3.staticvoidgames.com/games/LetsBounce/LetsBounce.jar).
 
 # Pale Blue Dot - LD23
 
@@ -56,13 +56,13 @@ You can download the jar [here](http://s3.staticvoidgames.com/games/LetsBounce/L
 
 ![Pale Blue Dot](/blog/images/ludum-memories/pale-blue-dot.jpg)
 
-Inspired by [this image](https://en.wikipedia.org/wiki/Pale_Blue_Dot) and the corresponding speech by [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan), [Pale Blue Dot](https://ludumdata.openfu.com/game/30580) had you controlling the Earth, colliding with smaller objects (like the moon and space stations) to grow and eventually encompass other galaxies. It's a simple idea, but it was backed by a soundtrack that played Carl Sagan speeches as you moved around in space.
+Inspired by [Pale Blue Dot image](https://en.wikipedia.org/wiki/Pale_Blue_Dot) and the corresponding speech by [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan), [Pale Blue Dot](https://ludumdata.openfu.com/game/30580) had you controlling the Earth, colliding with smaller objects (like the moon and space stations) to grow and eventually encompass other galaxies. It's a simple idea, but it was backed by a soundtrack that played Carl Sagan speeches as you moved around in space.
 
 I don't really participate in Ludum Dare for the competition, but this game got 21st for theme, 38th for mood, and 46th for humor. Not bad considering there are usually hundreds if not thousands of entries!
 
 Years later, a game called [Everything](http://www.everything-game.com/) captured the mood I was going for, much better than I could.
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/PaleBlueDot/PaleBlueDot.jar).
+You can download the jar file [Pale Blue Dot](http://s3.staticvoidgames.com/games/PaleBlueDot/PaleBlueDot.jar).
 
 # Radar Defense - Mini-LD34
 
@@ -72,7 +72,7 @@ I believe the theme here was to use a circle as your game instead of a rectangle
 
 ![Radar Defense](/blog/images/ludum-memories/radar-defense.jpg)
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/RadarDefense/RadarDefense.jar).
+You can download the jar file [Radar Defense](http://s3.staticvoidgames.com/games/RadarDefense/RadarDefense.jar).
 
 # Black Sheep - Mini-LD36
 
@@ -84,7 +84,7 @@ You can download the jar [here](http://s3.staticvoidgames.com/games/RadarDefense
 
 ![Black Sheep](/blog/images/ludum-memories/black-sheep-2.png)
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/BlackSheep/BlackSheep.jar).
+You can download the jar file [Black Sheep](http://s3.staticvoidgames.com/games/BlackSheep/BlackSheep.jar).
 
 # The Debate - LD24
 
@@ -98,7 +98,7 @@ I almost didn't enter this Ludum Dare, but with 4 hours left I couldn't resist t
 
 Like most of my Ludum Dare entries, I honestly don't know whether this is a game, a statement, or evidence of my laziness. Maybe a mix of all of the above. But it got 20th for humor and 75th for theme, which I was pretty happy with.
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/TheDebate/TheDebate.jar).
+You can download the jar file [The Debate](http://s3.staticvoidgames.com/games/TheDebate/TheDebate.jar).
 
 # MazEvolution - F This Jam 2012
 
@@ -108,7 +108,7 @@ You can download the jar [here](http://s3.staticvoidgames.com/games/TheDebate/Th
 
 ![MazEvolution](/blog/images/ludum-memories/mazevolution.png)
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/MazEvolution/MazeEvolution.jar).
+You can download the jar file [Maze Evolution](http://s3.staticvoidgames.com/games/MazEvolution/MazeEvolution.jar).
 
 # Menorah - LD25 Warm-Up
 
@@ -130,7 +130,7 @@ I originally wanted to make a game where you controlled an avalanche, but that i
 
 ![Avalanche Rider](/blog/images/ludum-memories/avalanche-rider.jpg)
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/AvalancheRider/AvalancheRider.jar). Or better yet, go play [Dino Run](https://www.pixeljam.com/dinorun/index2.html).
+You can download the jar file [Avalanche Rider](http://s3.staticvoidgames.com/games/AvalancheRider/AvalancheRider.jar). Or better yet, go play [Dino Run](https://www.pixeljam.com/dinorun/index2.html).
 
 # Type Your Heart Out - Global Game Jam 2013
 
@@ -142,7 +142,7 @@ This was for the [Global Game Jam](https://globalgamejam.org/) instead of Ludum 
 
 I ended up not loving the Global Game Jam. It's a little more serious than Ludum Dare, and it's in-person instead of online. But it was cool to work with somebody I met at the event- thanks Tery for providing the art!
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/TypeYourHeartOut/TypeYourHeartOut.jar).
+You can download the jar file [Type your heart out](http://s3.staticvoidgames.com/games/TypeYourHeartOut/TypeYourHeartOut.jar).
 
 # The Shadows - LD26
 
@@ -166,7 +166,7 @@ You can download the jar [here](http://s3.staticvoidgames.com/games/TypeYourHear
 
 One of my favorite things about Ludum Dare is when people make Let's Play videos of themselves playing through the games. Check out [this video](https://www.youtube.com/watch?v=pUlP6yTNfFw) to see [Claus Aranha](https://twitter.com/caranha) play this game.
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/Defuse/Defuse.jar).
+You can download the jar file [Defuse](http://s3.staticvoidgames.com/games/Defuse/Defuse.jar).
 
 # Firefly - LD29
 
@@ -180,7 +180,7 @@ You can download the jar [here](http://s3.staticvoidgames.com/games/Defuse/Defus
 
 Check out [this video](https://youtu.be/K5ATRciKj24?t=816) to watch [Jupiter Hadley](https://twitter.com/Jupiter_Hadley) play the game!
 
-You can download the jar [here](http://s3.staticvoidgames.com/games/Firefly/Firefly.jar).
+You can download the jar file [Fire Fly](http://s3.staticvoidgames.com/games/Firefly/Firefly.jar).
 
 # The Tour - LD33
 
@@ -214,7 +214,7 @@ Instead of paying attention to the theme, I used this as an excuse to play with 
 
 *August 2018, Running out of Space*
 
-This is by no means the only Ludum Dare that I dropped out of, but it is the only one I wrote a blog post about. You can read it [here](/blog/when-failing-isnt-failure).
+This is by no means the only Ludum Dare that I dropped out of, but it is the only one I wrote a blog post about. You can read [When Failing isn't failure](/blog/when-failing-isnt-failure).
 
 # \#000000 - LD45
 
@@ -228,7 +228,7 @@ This game got 13th for innovation, and seeing everyone [post their gradients](ht
 
 ![LD 45](/blog/images/ludum-memories/ld45-2.png)
 
-You can play in your browser [here](/gallery/ludum-dare-45/index), and read more about it [here](/gallery/ludum-dare-45/about).
+You can play in your browser [Ludum dare-45](/gallery/ludum-dare-45/index), and read more about it [here](/gallery/ludum-dare-45/about).
 
 # The Next Generation - LD46
 
@@ -258,7 +258,7 @@ You can play in your browser [here](/gallery/emojavoid-ld-47/index).
 
 [![The Rabbit Hole](/blog/images/ludum-memories/rabbit-hole.png)](/gallery/rabbit-hole/index)
 
-You can play in your browser [here](/gallery/rabbit-hole/index), and read more about it [here](/blog/ludum-dare-48).
+You can play in your browser [Rabbit hole](/gallery/rabbit-hole/index), and read more about it [here](/blog/ludum-dare-48).
 
 ---
 

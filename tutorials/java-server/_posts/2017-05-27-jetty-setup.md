@@ -23,7 +23,7 @@ Jetty is a popular Java server, especially because of its ability to run embedde
 
 # Download Jetty
 
-Jetty is bundled as a `jetty-home` directory inside a `.zip` file, which you can download from [here](http://www.eclipse.org/jetty/download.html).
+Jetty is bundled as a `jetty-home` directory inside a `.zip` file, which you can download from [Eclipse - Jetty download](http://www.eclipse.org/jetty/download.html).
 
 Download that file, and then unzip the directory anywhere. I put mine on my desktop. You can always move it later.
 
@@ -165,7 +165,7 @@ Congratulations, you just wrote your first web app! :tada:
 
 ## Example Project
 
-So far, the whole web app is a single HTML file, but if it helps, you can see this example project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website).
+So far, the whole web app is a single HTML file, but if it helps, you can see this example project [Github - Happy Coding -java-server HelloWorld](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website), and you can download it as a `.zip` file [Github - Happy Coding -java-server HelloWorld](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website).
 
 # Root Web App
 

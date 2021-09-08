@@ -47,7 +47,7 @@ This basic servlet just adds an attribute to the request and then forwards that 
 javac -cp C:/Users/kevin/Desktop/jetty/lib/servlet-api-3.1.jar -source 1.8 -target 1.8 SimpleServlet.java
 ```
 
-**Note: Remember to compile with Java 8!** Notice that we're using the `-source` and `-target` arguments to compile our code using Java 8 compatibility. This is because App Engine only supports Java 8. (Learn more [here](https://cloud.google.com/appengine/docs/java/).) You can ignore the warning about the bootstrap classpath not being set.
+**Note: Remember to compile with Java 8!** Notice that we're using the `-source` and `-target` arguments to compile our code using Java 8 compatibility. This is because App Engine only supports Java 8. (Learn more [Google Cloud - AppEngine docs - java](https://cloud.google.com/appengine/docs/java/).) You can ignore the warning about the bootstrap classpath not being set.
 
 That gives us the `.class` file that we actually want. Then here's the JSP file:
 
@@ -138,7 +138,7 @@ Next, we need to download the App Engine SDK, which is a set of tools that allow
 
 ### Add the SDK to your PATH
 
-Next, you need to add the directory that you just unzipped to your `PATH` variable. (If you don't remember the `PATH` variable from the Java tutorials, read about it [here](/tutorials/java/setup).)
+Next, you need to add the directory that you just unzipped to your `PATH` variable. (If you don't remember the `PATH` variable from the Java tutorials, read about it [Java Setup](/tutorials/java/setup).)
 
 You want to add the `bin` directory inside the SDK folder to your `PATH` variable. Mine looks like this:
 
@@ -148,7 +148,7 @@ This allows you to use the SDK tools from the console!
 
 ### The `appengine-web.xml` File
 
-Before we can deploy our web app on Google App Engine, we need to add one more file to our project. Create a file named `appengine-web.xml` and put it in the `WEB-INF` directory right next to the `web.xml` file. This file tells App Engine about the project, what settings you want to use, stuff like that. You can read more about it [here](https://cloud.google.com/appengine/docs/standard/java/config/appref), but for now just save this XML to the file:
+Before we can deploy our web app on Google App Engine, we need to add one more file to our project. Create a file named `appengine-web.xml` and put it in the `WEB-INF` directory right next to the `web.xml` file. This file tells App Engine about the project, what settings you want to use, stuff like that. You can read more about it [Google Cloud - AppEngine - Java config docs](https://cloud.google.com/appengine/docs/standard/java/config/appref), but for now just save this XML to the file:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -166,7 +166,7 @@ This file configures a few settings:
 
 - `application` needs to be the Project ID listed in the Google Cloud Platform dashboard.
 - `version` can be whatever you want.
-- `threadsafe` determines whether to use threads to handle multiple requests at the same time. (Remember that we learned about thread safety [here](/tutorials/java-server/thread-safety).) If this is false, the server will only use one thread so only one request happens at a time.
+- `threadsafe` determines whether to use threads to handle multiple requests at the same time. (Remember that we learned about thread safety [Java-Server - Thread-Safety](/tutorials/java-server/thread-safety).) If this is false, the server will only use one thread so only one request happens at a time.
 - `static-files` is a list of paths that list static files that aren't affected by server code. Right now we only have one `images` directory, but if you have more static files you need to add them here.
 
 ### Run `appcfg`

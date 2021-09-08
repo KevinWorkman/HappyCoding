@@ -59,7 +59,7 @@ When I'm working on a language-specific tutorial or project, I also use language
 
 # Backgrounds
 
-I use Processing to create the background images. See [this page](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds) for more info on that process, and how to contribute your own background images!
+I use Processing to create the background images. See [GitHub - Happy Coding](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds) for more info on that process, and how to contribute your own background images!
 
 # JavaScript and CSS
 
@@ -77,7 +77,7 @@ I've also commissioned a few artists to create images for specific tutorials and
 
 # Domain
 
-I use [Namecheap](https://www.namecheap.com/) for my domain. If you want to use a custom domain with your GitHub Pages site, check out [this guide](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site).
+I use [Namecheap](https://www.namecheap.com/) for my domain. If you want to use a custom domain with your GitHub Pages site, check out [gitHub - Working with GitHub Pages docs](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site).
 
 # Forum
 

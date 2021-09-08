@@ -18,7 +18,7 @@ Jetty is a popular Java server, especially because of its ability to run embedde
 
 # Download Jetty
 
-Jetty is bundled as a `jetty-home` directory inside a `.zip` file, which you can download from [here](http://www.eclipse.org/jetty/download.html).
+Jetty is bundled as a `jetty-home` directory inside a `.zip` file, which you can download from [Eclipse - Jetty download](http://www.eclipse.org/jetty/download.html).
 
 Download that file, and then unzip the directory anywhere. I put mine on my desktop. You can always move it later.
 
@@ -26,7 +26,7 @@ Download that file, and then unzip the directory anywhere. I put mine on my desk
 
 There are a couple of ways to use Jetty to create a server. You can either run a full server that you then add code to, or you can write code that runs an embedded Jetty server.
 
-To learn about running a full Jetty server, check out [this tutorial](/tutorials/java-server/jetty-settup).
+To learn about running a full Jetty server, check out [Java Server - Jetty setup](/tutorials/java-server/jetty-settup).
 
 The rest of this tutorial walks you through running an embedded Jetty server.
 
@@ -86,7 +86,7 @@ Eventually you'll probably want to use an IDE like Eclipse or Intellij to compil
 
 ## Example Project
 
-You can see an example project that uses the command line to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line).
+You can see an example project that uses the command line to deploy an embedded Jetty server [Github - Happy Coding -java-server - hellowWorld-jetty-commandline](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line), and you can download it as a `.zip` file [Github - Happy Coding -java-server - helloWorld-jetty-commandline](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line).
 
 This section of the tutorial walks through this example project.
 
@@ -190,11 +190,11 @@ You should see `Server started!` in your command line, and you should still be a
 
 So far, this tutorial has used the command line to compile and run the code. You can keep using that approach if you want, but it can get pretty annoying to handle the classpath yourself, especially as you start using other libraries.
 
-[Maven](https://maven.apache.org/) is a tool that manages the classpath for you, and makes it easier to compile and build (and eventually deploy) your server. To use Maven, first download and install it from [here](https://maven.apache.org/download.cgi).
+[Maven](https://maven.apache.org/) is a tool that manages the classpath for you, and makes it easier to compile and build (and eventually deploy) your server. To use Maven, first download and install it from [Maven Apache download](https://maven.apache.org/download.cgi).
 
 ## Example Project
 
-You can see an example project that uses Maven to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven).
+You can see an example project that uses Maven to deploy an embedded Jetty server [Github - Happy Coding -java-server - helloWorld-jetty-maven](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven), and you can download it as a `.zip` file [Github - Happy Coding -java-server - HelloWorld-jetty-maven](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven).
 
 The rest of this tutorial walks through this example project.
 

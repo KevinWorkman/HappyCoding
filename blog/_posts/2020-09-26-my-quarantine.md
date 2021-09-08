@@ -105,7 +105,7 @@ Companies start sending out "thoughtful brand" emails. I get an email from a hot
 
 My job also sends out a bunch of emails telling us how much our mental health matters. Management laughs when I suggest we should stop obsessing over launching new features as quickly as possible.
 
-On April 11, [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) died from COVID-19. Some thoughts [here](https://twitter.com/KevinAWorkman/status/1249082837103345664).
+On April 11, [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) died from COVID-19. Some thoughts [Kevin A Workmans' status](https://twitter.com/KevinAWorkman/status/1249082837103345664).
 
 The parks and trails near me start getting way more crowded, and I feel a little defensive about this. I've been [running](/gallery/run-map/index) along these paths since last year when it was dark and raining! How dare these smiling families crowd me out of my own routes! Of course this is ridiculous. I keep changing my running path to get further away from people. Who knew that being antisocial would have fitness benefits?
 
@@ -115,7 +115,7 @@ The parks and trails near me start getting way more crowded, and I feel a little
 
 Another thing I notice on my runs is that the local fire department turned the Shoreline Amphitheater parking lot into a safe space for people who live in RVs. These RVs had been camped around parks with public bathrooms and running water, and when those got shut down, they had nowhere else to go. This parking lot full of RVs and porta potties is right across the street from the construction of [Google's newest building](http://www.heatherwick.com/projects/buildings/google-mountainview/).
 
-I participated in Ludum Dare. Check out my game [here](/gallery/the-next-generation-ld-46/index).
+I participated in Ludum Dare. Check out my game [Gallery - the-next-generation-ld-46](/gallery/the-next-generation-ld-46/index).
 
 I spent a ton of time playing with [spirals](/gallery/spirals/index).
 
@@ -165,7 +165,7 @@ On May 25th, George Floyd was killed by a police officer who kneeled on his neck
 
 # June
 
-I spent most of June feeling a compulsion to seek out videos of police violence and repost them to [Twitter](https://twitter.com/KevinAWorkman/status/1267157021574361089) and Facebook. Originally, I wanted to show my mostly white Facebook friends that there was more to the protests than what they were seeing, or at least that's what I told myself. But it quickly turned into something else, something less healthy, where I'd spend a good chunk of my day scrolling through Twitter to find the next horrifying video. That might have been my own reaction to helplessness. Some more thoughts [here](https://happycoding.io/blog/black-lives-matter-to-me).
+I spent most of June feeling a compulsion to seek out videos of police violence and repost them to [Twitter](https://twitter.com/KevinAWorkman/status/1267157021574361089) and Facebook. Originally, I wanted to show my mostly white Facebook friends that there was more to the protests than what they were seeing, or at least that's what I told myself. But it quickly turned into something else, something less healthy, where I'd spend a good chunk of my day scrolling through Twitter to find the next horrifying video. That might have been my own reaction to helplessness. Some more thoughts [Happy Coding - Black Lives matter to me](https://happycoding.io/blog/black-lives-matter-to-me).
 
 ![Black Lives Matter protest](/blog/images/my-quarantine/2020-06-05.jpg)
 
@@ -509,7 +509,7 @@ I notice that the local dive bar is open again. I guess this means that the "sec
 
 *February 5, parking lot tree*s
 
-Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [This article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
+Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [Timeline of coronavirus - abc7news article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
 
 ![mask sign](/blog/images/my-quarantine/2021-02-07.jpg)
 

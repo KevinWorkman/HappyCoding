@@ -311,7 +311,7 @@ You've seen HTML attributes like `onload` and `onclick` that let you add an even
 
 This code uses the `onload` attribute to call the `setupClickListener()` function. The `setupClickListener()` function uses the `addEventListener()` function to add the `clicked()` function as a click listener to the element with the `clickMe` id.
 
-These are just a few examples- like I said, there are a TON of variables and functions you can use to make your webpage interactive. Check out [W3Schools](http://www.w3schools.com/jsref/dom_obj_all.asp) or [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element) for more info, and use Google to find what you're looking for. As always, feel free to ask a question in [the forum](http://forum.HappyCoding.io) if you get stuck!
+These are just a few examples- like I said, there are a TON of variables and functions you can use to make your webpage interactive. Check out [W3Schools](http://www.w3schools.com/jsref/dom_obj_all.asp) or [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element) for more info, and use Google to find what you're looking for. As always, feel free to ask a question in [Happy Coding forum](http://forum.HappyCoding.io) if you get stuck!
 
 Like with all programming, the idea is that you should combine all of the above (and whatever you find from reading the documentation and doing Google searches) to accomplish your goal.
 
