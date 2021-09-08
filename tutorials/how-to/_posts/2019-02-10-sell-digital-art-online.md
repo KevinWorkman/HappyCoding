@@ -100,7 +100,7 @@ Now that we have an image file fit for printing, we're going to use a service ca
 
 In the next steps we're going to create an online store that will allow us to sell our art to customers, but before we get there, I'd recommend ordering a couple things from Printful yourself.
 
-[Creat a printful order](https://www.printful.com/dashboard/order/update). The Printful workflow generally works like this:
+[Create a printful order](https://www.printful.com/dashboard/order/update). The Printful workflow generally works like this:
 
 - Select a product. Do you want an 8x10 photo? A 24x36 poster? A shirt?
 - Select an image. Upload the image file you created above.
