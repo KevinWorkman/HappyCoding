@@ -29,7 +29,7 @@ Those commands deploy to App Engine, either locally or to your live server. This
 
 # Hello World
 
-If you haven't already, you can download a barebones example webapp from [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world).
+If you haven't already, you can download a barebones example webapp from [Google-Cloud-Example-HelloWorld](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world).
 
 This project is an `app-engine-hello-world` directory with subdirectories that contain 5 files::
 
@@ -153,7 +153,7 @@ You can also serve static content from your App Engine server. The hello world p
 
 The `app.yaml` file contains configuration data required by App Engine.
 
-This example only contains a single property that sets the runtime to Java 11. See [this page](https://cloud.google.com/appengine/docs/standard/java11/config/appref) for more properties you can use.
+This example only contains a single property that sets the runtime to Java 11. See [Google Cloud - App-Engine-docs](https://cloud.google.com/appengine/docs/standard/java11/config/appref) for more properties you can use.
 
 # pom.xml
 
@@ -208,7 +208,7 @@ But if you deploy this to your live server, and many users flock to your site, t
 
 The solution to this problem is to not rely on in-memory data like this, and to use a service like Datastore instead.
 
-You can read more about App Engine scaling [here](https://cloud.google.com/appengine/docs/standard/java11/how-instances-are-managed).
+You can read more about App Engine scaling [Google Cloud - App-Engine-docs-InstanceManagement](https://cloud.google.com/appengine/docs/standard/java11/how-instances-are-managed).
 
 # Automatic Shutdown
 
@@ -218,13 +218,13 @@ By default, App Engine will shutdown your project after 15 minutes of inactivity
 
 You generally don't have to worry about this, but if you notice that your live site takes a few seconds to refresh when you come back to it, that's probably because it's spinning back up after being shutdown due to inactivity.
 
-You can read more about this [here](https://cloud.google.com/appengine/docs/standard/java11/how-instances-are-managed).
+You can read more about this [Google Cloud - AppEngine-InstanceManagement](https://cloud.google.com/appengine/docs/standard/java11/how-instances-are-managed).
 
 # Logs
 
 When you're running locally, your logs and print statements will output to your command line.
 
-For you live server, your logs and print statements are available in the **Logging** tab at [console.cloud.google.com](https://console.cloud.google.com) (direct link [here](https://console.cloud.google.com/logs)). You should see something like this:
+For you live server, your logs and print statements are available in the **Logging** tab at [console.cloud.google.com](https://console.cloud.google.com) (direct link [Google Cloud - Console](https://console.cloud.google.com/logs)). You should see something like this:
 
 ![Google Cloud logs](/tutorials/google-cloud/images/app-engine-1.png)
 
@@ -240,7 +240,7 @@ This can be a little confusing, so I'd recommend playing around with this a bit.
 
 I wrote this example with the goal of making it easy to deploy a server without worrying about any complicated frameworks or dealing with static resources or dependencies, but there are **many** ways to approach this.
 
-For example, you might use a framework like [Spring Boot](https://spring.io/projects/spring-boot) or [Vaadin](https://vaadin.com/), or you might separate the main class into its own project and package your server code into a war file. See [this page](https://cloud.google.com/appengine/docs/standard/java11/runtime#framework_compatibility) and [these examples](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11) for more information.
+For example, you might use a framework like [Spring Boot](https://spring.io/projects/spring-boot) or [Vaadin](https://vaadin.com/), or you might separate the main class into its own project and package your server code into a war file. See [Google Cloud -AppEngine-docs](https://cloud.google.com/appengine/docs/standard/java11/runtime#framework_compatibility) and [Google Cloud - Examples](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11) for more information.
 
 There is no single correct way to deploy a server to App Engine, so you'll likely encounter other approaches. If you see discrepancies between my examples and other examples you find on the internet (stuff like using a `web.xml` file instead of annotations or using a framework instead of Jetty and servlets), that's okay!
 
@@ -260,4 +260,4 @@ App Engine can run any Java program, and the [hello world example](https://downg
 - Try out a few different [hello world examples](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11) and see which one makes the most sense to you.
 - Add some JavaScript and CSS to the `index.html` file.
 - Add some Java code to the `HelloWorldServlet` class. Try printing out the current date, or some server stats like the startup time and memory usage.
-- Share your live URL on [the forum](https://forum.happycoding.io)!
+- Share your live URL on [happycoding forum](https://forum.happycoding.io)!

@@ -18,7 +18,7 @@ Android development requires a little bit of setup before diving into the code, 
 
 Android Studio is the official IDE for Android development, recommended and supported by the Android team. It's possible to write Android code with other editors, but Android Studio will be the easiest to setup, so let's go with that for now.
 
-Go [here](https://developer.android.com/studio/index.html) to download Android Studio and then go  [here](https://developer.android.com/studio/install.html) for installation instructions. Open Android Studio after the installation completes. If a "welcome wizard" pops up, click through and choose the standard installation and whatever theme you want, and then click the `Finish` button.
+Go to [android studio - index](https://developer.android.com/studio/index.html) to download Android Studio and then go  [android studio - install](https://developer.android.com/studio/install.html) for installation instructions. Open Android Studio after the installation completes. If a "welcome wizard" pops up, click through and choose the standard installation and whatever theme you want, and then click the `Finish` button.
 
 ![Android Studio welcome screen](/tutorials/android/images/hello-world-1.png)
 
@@ -28,9 +28,9 @@ When you see this screen, you're done!
 
 Before you can deploy an app from your computer to your phone, you have to adjust a few settings.
 
-First you have to enable developer options on your phone. Follow [these directions](https://developer.android.com/studio/debug/dev-options.html): go to `Settings`, then `System`, then `About phone`. Scroll down to `Build number` and tap it 7 times. That sounds a little goofy, but you should see a message saying that developer options have been enabled.
+First you have to enable developer options on your phone. Follow [android studio - dev options](https://developer.android.com/studio/debug/dev-options.html): go to `Settings`, then `System`, then `About phone`. Scroll down to `Build number` and tap it 7 times. That sounds a little goofy, but you should see a message saying that developer options have been enabled.
 
-Next, open up developer options by going to `Settings`, then `System`, then `Developer options`. There are a bunch of interesting options here that you can play with (see [here](https://developer.android.com/studio/debug/dev-options.html) for a few), but the one we care about for now is `USB Debugging`.
+Next, open up developer options by going to `Settings`, then `System`, then `Developer options`. There are a bunch of interesting options here that you can play with (see [ndroid studio - dev options](https://developer.android.com/studio/debug/dev-options.html) for a few), but the one we care about for now is `USB Debugging`.
 
 <img src="/tutorials/android/images/hello-world-2.png" style="width: 500px;" />
 
@@ -38,7 +38,7 @@ Enable this setting, which will allow you to send apps from your computer to you
 
 Finally, plug your phone into your computer. Your phone will pop up a dialog that asks about allowing USB debugging. If you're on your own computer, you probably want to click the `Always allow from this computer` checkbox. Either way click the `OK` button.
 
-If you have any trouble getting your computer to recognize your phone, read through [this guide](https://developer.android.com/studio/run/device.html).
+If you have any trouble getting your computer to recognize your phone, read through [android studio - run_on_device](https://developer.android.com/studio/run/device.html).
 
 Now we're ready to start writing code!
 

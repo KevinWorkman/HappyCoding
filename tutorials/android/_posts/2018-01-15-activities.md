@@ -119,7 +119,7 @@ onStop() was called. Changing config :false
 onDestroy() was called. Changing config :false
 ```
 
-There are actually even more lifecycle events, and you can check them out [here](https://developer.android.com/guide/components/activities/activity-lifecycle.html). You can read more about `Activity` class functions [here](https://developer.android.com/reference/android/app/Activity.html). But if all of this sounds complicated, don't worry: most activities will only have to override a couple of these functions.
+There are actually even more lifecycle events, and you can check them out [Android - Activity_Life_Cycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html). You can read more about `Activity` class functions [Android - Activity](https://developer.android.com/reference/android/app/Activity.html). But if all of this sounds complicated, don't worry: most activities will only have to override a couple of these functions.
 
 For example, a simple activity might just override the `onCreate()` function and none of the others. This is how the example apps we've already seen work. A more advanced activity might override the `onPause()` function to save some state and the `onResume()` function to load it. But for now, just know that you only have to override the `onCreate()` function and can figure out the rest as you need them.
 
@@ -240,7 +240,7 @@ When you run this app, the main activity shows a button. When the user clicks th
 
 ## External Activities
 
-It's also possible to launch external activities, such as a browser or the camera app. To launch an activity, we have to create an `Intent` instance. How you do that depends on which external activity you want to launch, and you can find more information in [the documentation](https://developer.android.com/reference/android/content/Intent.html) for the `Intent` class.
+It's also possible to launch external activities, such as a browser or the camera app. To launch an activity, we have to create an `Intent` instance. How you do that depends on which external activity you want to launch, and you can find more information in [the Android documentation](https://developer.android.com/reference/android/content/Intent.html) for the `Intent` class.
 
 Here's an example that would launch a browser to everybody's favorite website:
 

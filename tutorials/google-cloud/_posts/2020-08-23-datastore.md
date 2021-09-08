@@ -29,7 +29,7 @@ There was also a standalone Datastore library which has since been deprecated. T
 
 Before continuing, make sure you understand how `POST` requests work. If you're unfamiliar with `POST` requests, read the [POST requests](/tutorials/java-server/post) tutorial first!
 
-Let's start with an example webapp that uses POST requests to store data in an `ArrayList`. You can download this example project [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/shoutbox-v1).
+Let's start with an example webapp that uses POST requests to store data in an `ArrayList`. You can download this example project [Github - KevinWorkman/HappyCoding - Google Cloud-Example](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/shoutbox-v1).
 
 **index.html**
 
@@ -155,7 +155,7 @@ FullEntity messageEntity = Entity.newBuilder(keyFactory.newKey())
 
 An entity also has **properties**, similar to how a class can have variables. Each property is a **key** and a **value**. To set a property, you call the `set()` function.
 
-The code above adds two properties to the `myEntity` entity: `text` and `timestamp`. Property values can be String values, numbers, or timestamps. See [this guide](https://cloud.google.com/datastore/docs/concepts/entities#datastore-datastore-properties-java) to learn more about the types of values you can store in an entity.
+The code above adds two properties to the `myEntity` entity: `text` and `timestamp`. Property values can be String values, numbers, or timestamps. See [Google Cloud - datastore-docs](https://cloud.google.com/datastore/docs/concepts/entities#datastore-datastore-properties-java) to learn more about the types of values you can store in an entity.
 
 # Storing Entities
 
@@ -289,7 +289,7 @@ public class MessageServlet extends HttpServlet {
 }
 ```
 
-You can download this example project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
+You can download this example project [Github - KevinWorkman/HappyCoding - Google Cloud-Example-datastore](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
 
 # Running Datastore Locally
 
@@ -318,7 +318,7 @@ The `YOUR_PATH_HERE` part will be a random string of characters.
 
 Copy the `/tmp/tmp.YOUR_PATH_HERE/emulators/datastore` path.
 
-**Step 2:** In a different command line, follow the steps [here](https://cloud.google.com/datastore/docs/tools/datastore-emulator#setting_environment_variables) to set the environment variables that tell your server to connect to your local Datastore.
+**Step 2:** In a different command line, follow the steps [Google Cloud - ENV-variable-docs](https://cloud.google.com/datastore/docs/tools/datastore-emulator#setting_environment_variables) to set the environment variables that tell your server to connect to your local Datastore.
 
 **Windows:**
 

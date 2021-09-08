@@ -98,7 +98,7 @@ These will be a mix of behavioral and technical questions. (See [Interviews](#in
 
 ## Project-based
 
-Another type of interview is a **project-based** interview, where instead of getting a set of questions, you're given a project to work on. Admittedly I have the least experience with this one, but you can go [here](https://techcrunch.com/2019/07/17/googles-area-120-launches-byteboard-to-improve-technical-interviews/) to read more about it.
+Another type of interview is a **project-based** interview, where instead of getting a set of questions, you're given a project to work on. Admittedly I have the least experience with this one, but you can go [techcrunch - interviews](https://techcrunch.com/2019/07/17/googles-area-120-launches-byteboard-to-improve-technical-interviews/) to read more about it.
 
 ## Team Fit Interviews
 
@@ -287,7 +287,7 @@ That being said, don't stress too much about making tiny errors like missing a s
 
 ## Break problems down into smaller steps
 
-I strongly believe that one of the most important skills a person can have when coding (and even more generally than that) is the ability to take a large problem, break it down into smaller steps, and then approach those steps one at a time. I've talked about that at length [here](/tutorials/how-to/program), but it's especially important in interviews.
+I strongly believe that one of the most important skills a person can have when coding (and even more generally than that) is the ability to take a large problem, break it down into smaller steps, and then approach those steps one at a time. I've talked about that at length [tutorials - how-to-program](/tutorials/how-to/program), but it's especially important in interviews.
 
 ![breaking a problem down](/tutorials/how-to/images/interview-5.png)
 
@@ -528,13 +528,13 @@ If you don't have people to practice with in real life, try looking online for c
 
 I've said this a few times: the best way to practice most of this stuff is by writing real code.
 
-I personally enjoy coding [small projects](/gallery) for fun over the weekend, and I believe that these types of small projects helped cement the fundamentals for me. I've also spent a lot of time asking and answering questions on various forums and Stack Overflow, which helped me learn about the more advanced topics. I've also enjoyed [game jams](https://en.wikipedia.org/wiki/Game_jam) like [Ludum Dare](https://ldjam.com/). (See [here](https://itch.io/jams) and [here](http://www.indiegamejams.com/) for lists of game jams happening now!)
+I personally enjoy coding [small projects](/gallery) for fun over the weekend, and I believe that these types of small projects helped cement the fundamentals for me. I've also spent a lot of time asking and answering questions on various forums and Stack Overflow, which helped me learn about the more advanced topics. I've also enjoyed [game jams](https://en.wikipedia.org/wiki/Game_jam) like [Ludum Dare](https://ldjam.com/). (See [itch.io - jams](https://itch.io/jams) and [indiegamejams](http://www.indiegamejams.com/) for lists of game jams happening now!)
 
 Other people enjoy more directed practice doing [competitive programming](https://en.wikipedia.org/wiki/Competitive_programming) on websites like [LeetCode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/), [Topcoder](https://www.topcoder.com/), and [Kaggle](https://www.kaggle.com/).
 
 The important thing is to figure out what **you** enjoy. That might be weekend projects, or code competition websites, or game development, or creative coding, or something else. It doesn't really matter what the thing is, as long as you're writing real code.
 
-One thing I encourage everybody to do is create a portfolio page. Spend a weekend putting together a simple homepage for yourself. (Shameless self-promotion: Not familiar with HTML? Start [here](/tutorials/html)!) Then spend the next weekend creating a hello world program. Put that up on your portfolio. Then spend the weekend after that exploring some other topic, publish it to your portfolio, rinse and repeat. Keep each project small enough to finish in just a few days, and use this process as an excuse to explore the various concepts you're interested in. Spend a weekend implementing your own HashMap, and put that up on your portfolio. Spend a weekend implementing A\* search, and put that up on your portfolio. Bonus: as you get into more advanced topics, you can add this portfolio to your resume!
+One thing I encourage everybody to do is create a portfolio page. Spend a weekend putting together a simple homepage for yourself. (Shameless self-promotion: Not familiar with HTML? Start [tutorials -html](/tutorials/html)!) Then spend the next weekend creating a hello world program. Put that up on your portfolio. Then spend the weekend after that exploring some other topic, publish it to your portfolio, rinse and repeat. Keep each project small enough to finish in just a few days, and use this process as an excuse to explore the various concepts you're interested in. Spend a weekend implementing your own HashMap, and put that up on your portfolio. Spend a weekend implementing A\* search, and put that up on your portfolio. Bonus: as you get into more advanced topics, you can add this portfolio to your resume!
 
 No matter what motivates you, the goal is to get practice coding the fundamentals and the other topics you'd use in an interview.
 
@@ -601,7 +601,7 @@ That being said, here are a few other resources worth checking out:
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html) is a response to the many "teach yourself coding in 24 hours" resources out there. It's slightly tongue-in-cheek, but it raises a ton of good points worth considering.
 - [Glassdoor](https://www.glassdoor.com/Interview/index.htm) has a bunch of interview questions, but again, I recommend **against** thinking in terms of memorizing "answers" to interview questions. Think in terms of **the process** instead.
 
-You should also check whether the company you're interviewing with has its own resources. For example, [here](https://careers.google.com/how-we-hire/interview/) is a guide on Google interviews, [here](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook/) is a guide on Facebook interviews, and [here](https://www.amazon.jobs/en/landing_pages/interviewing-at-amazon) is a guide on Amazon interviews.
+You should also check whether the company you're interviewing with has its own resources. For example, [Google Careers - Interviews](https://careers.google.com/how-we-hire/interview/) is a guide on Google interviews, [Facebook - Interviews](https://www.facebook.com/careers/life/preparing-for-your-software-engineering-interview-at-facebook/) is a guide on Facebook interviews, and [Amazon -Interviews](https://www.amazon.jobs/en/landing_pages/interviewing-at-amazon) is a guide on Amazon interviews.
 
 # The Journey
 
@@ -623,4 +623,4 @@ Bigger companies have an assumption built into their system that the interview p
 
 All of that said, hopefully this guide helped you know what to expect from interviews and how to approach them, at both big and small companies.
 
-I'd love to hear your thoughts: Was any of this surprising? Did I miss any advice you'd give? Don't hesitate to say hi on [the forum](https://forum.happycoding.io)!
+I'd love to hear your thoughts: Was any of this surprising? Did I miss any advice you'd give? Don't hesitate to say hi on [happycoding forum](https://forum.happycoding.io)!

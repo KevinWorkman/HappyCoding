@@ -24,7 +24,7 @@ nextPost: /tutorials/html/github-pages
 
 This tutorial walks you through the process of creating a GitHub profile README, and ends on some next steps for creating your own webpage using GitHub Pages!
 
-Before you get started, sign up for a GitHub account [here](https://github.com/join).
+Before you get started, sign up for a GitHub account [Github -Join](https://github.com/join).
 
 # Git
 

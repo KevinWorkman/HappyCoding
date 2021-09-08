@@ -30,7 +30,7 @@ The rest of the tutorial will use the [JFreeChart](http://www.jfree.org/jfreecha
 
 You've probably seen `.zip` files before, which are **archive files**, or files that hold other files. Similarly, `.jar` files are another kind of archive file, but they usually contain `.class` files. Java libraries usually come packaged in `.jar` files. (Actually, they're usually in `.zip` files that contain `.jar` files, which contain `.class` files!)
 
-Anyway, now that we've decided on a libary to use, the next step is to download it. Library websites usually contain a download page, and JFreeChart's is [here](http://www.jfree.org/jfreechart/download.html).
+Anyway, now that we've decided on a libary to use, the next step is to download it. Library websites usually contain a download page, and JFreeChart's is [jfreechart-download](http://www.jfree.org/jfreechart/download.html).
 
 Download the `.zip` file and extract it wherver you want. That gives you a directory that contains a bunch of `.jar` files.
 
@@ -44,11 +44,11 @@ Remember where this file is located! I extracted the `.zip` file onto my desktop
 
 By now, you should be pretty familiar with looking at [the Java API](https://docs.oracle.com/javase/8/docs/api/), tutorials, and doing Google searches. Using a library is no different: one of the first steps to working with a library is reading through its documentation to understand what it can do.
 
-The JFreeChart API is available [here](http://www.jfree.org/jfreechart/api/javadoc/index.html). It lists every class in the library, as well as the variables and functions they contain. That can be a lot, but your goal isn't to read the entire thing! Just skim the classes, get a general idea of what your options are, and then start focusing on stuff that sounds like what you're looking for.
+The JFreeChart API is available [jfreechart - api](http://www.jfree.org/jfreechart/api/javadoc/index.html). It lists every class in the library, as well as the variables and functions they contain. That can be a lot, but your goal isn't to read the entire thing! Just skim the classes, get a general idea of what your options are, and then start focusing on stuff that sounds like what you're looking for.
 
 Of course, Google is always your best friend. Googling something like `"JFreeChart bar chart"` will return a bunch of results. Try not to just blindly copy-paste code you find on the internet though. Instead, try to understand what the code is doing!
 
-You can also always ask questions in [the forum](http://forum.HappyCoding.io).
+You can also always ask questions in [happycoding forum](http://forum.HappyCoding.io).
 
 ## Classpath
 

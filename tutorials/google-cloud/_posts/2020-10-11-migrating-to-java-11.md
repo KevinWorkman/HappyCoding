@@ -96,7 +96,7 @@ Run this command instead:
 mvn package appengine:deploy
 ```
 
-See [this page](https://cloud.google.com/appengine/docs/standard/java/maven-reference) for more info on the new Cloud SDK-based Google Cloud Maven plugin.
+See [Google Cloud - AppEngine-docs-java-maven](https://cloud.google.com/appengine/docs/standard/java/maven-reference) for more info on the new Cloud SDK-based Google Cloud Maven plugin.
 
 # Consider Stopping There
 

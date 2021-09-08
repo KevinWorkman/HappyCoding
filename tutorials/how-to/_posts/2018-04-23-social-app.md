@@ -107,7 +107,7 @@ It doesn't really matter what your app looks like if you don't have any data, ju
 
 Spend some time thinking about the data you need to store. Break your data down into its individual fields. Learn about [UML diagrams](https://en.wikipedia.org/wiki/Unified_Modeling_Language) and understand the relationships between pieces of data. Who owns what? Who can change what?
 
-Put together a basic database and write some simple SQL to understand how it works. Create a prototype database that provides access to all of the data you're going to need. Not sure how to do that? Start [here](http://happycoding.io/tutorials/java-server/databases).
+Put together a basic database and write some simple SQL to understand how it works. Create a prototype database that provides access to all of the data you're going to need. Not sure how to do that? Start [happycoding - tutorials-java-server-db](http://happycoding.io/tutorials/java-server/databases).
 
 Then you can take that prototype to a programmer and ask them to add new data types or to set up scalable hosting.
 
@@ -181,4 +181,4 @@ It's a ridiculous example, but the point is that you shouldn't build an app unti
 
 I hope this guide got you more excited about your idea. I hope you have a little better understanding of everything that goes into making a social app, and I hope you're eager to learn more about all of the individual pieces.
 
-If you still have questions or want to talk more about what you should be doing next, I'm happy to talk about it on [the forum](http://forum.happycoding.io)!
+If you still have questions or want to talk more about what you should be doing next, I'm happy to talk about it on [happycoding forum](http://forum.happycoding.io)!

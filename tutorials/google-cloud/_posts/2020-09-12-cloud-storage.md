@@ -58,11 +58,11 @@ Now, anybody with the URL of an object in your bucket can view it.
 
 Anybody can view the objects in your bucket, but only you can upload new files to it. For your code to run, you need to tell the Cloud Storage library who you are.
 
-Follow [these steps](https://cloud.google.com/storage/docs/reference/libraries#setting_up_authentication) to created a JSON credentials file and set your `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
+Follow [Google Cloud - storage-auth-docs](https://cloud.google.com/storage/docs/reference/libraries#setting_up_authentication) to created a JSON credentials file and set your `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
 
 # Example
 
-You can download an example project from [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
+You can download an example project from [Github - KevinWorkman/HappyCoding - Google Cloud-Example-Storage](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
 
 The rest of this tutorial walks through this project.
 
