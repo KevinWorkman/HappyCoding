@@ -179,7 +179,7 @@ Which tiles just fine:
 
 I can override any other drawing function, like `rect()` or `line()`, which meant that it was time to play!
 
-I came up with a few designs, which you can view [GitHub - Happy Coding - images-bg](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/images/backgrounds), or just look at the background of the page you're looking at right now! (Refresh to get a new random background.) You can also view the source code that generated that image by scrolling to the bottom and finding it in the footer, or by going [GitHub - Happy Coding - images-bg-code](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/images/backgrounds/code).
+I came up with a few designed, which you can [view on GitHub]((https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/images/backgrounds), or just look at the background of the page you're looking at right now! (Refresh to get a new random background.) You can also view the source code that generated that image by scrolling to the bottom and finding it in the footer, or by going to the [Happy Coding GitHub repository](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/images/backgrounds/code).
 
 I love when sites have little easter eggs like this, so I'm hoping that at the very least this is fun and encourages people to see the artistic side of programming when they realize that the background images were created using code. 
 
