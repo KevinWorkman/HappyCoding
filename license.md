@@ -5,7 +5,7 @@ title: Open Source
 
 # Happy Coding is open source!
 
-The content on [HappyCoding.io](http://HappyCoding.io) is released under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) (view the long version [here](https://creativecommons.org/licenses/by/4.0/legalcode)) open source license.
+The content on [HappyCoding.io](http://HappyCoding.io) is released under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/) (view the [long version open source license here](https://creativecommons.org/licenses/by/4.0/legalcode)).
 
 ## What does this mean?
 
@@ -33,11 +33,11 @@ Nope! You are welcome to use the code however you want, including in a closed-so
 
 ## Can I use the non-code content of the site?
 
-Yep, everything is released under the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) license, including non-code content such as the text of the tutorials. If you're a teacher or student, feel free to use this stuff however you want! Just provide the link back to [HappyCoding.io](http://HappyCoding.io) and optionally, please let me know if you found it useful!
+Yep, everything is released under the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/), including non-code content such as the text of the tutorials. If you're a teacher or student, feel free to use this stuff however you want! Just provide the link back to [HappyCoding.io](http://HappyCoding.io) and optionally, please let me know if you found it useful!
 
 ## Can I submit changes to the content?
 
-Absolutely! Happy Coding is a [GitHub project](https://github.com/KevinWorkman/HappyCoding), so submitting a change is as simple as submitting a pull request. Go [here](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing) for more info on how you can contribute.
+Absolutely! Happy Coding is a [GitHub project](https://github.com/KevinWorkman/HappyCoding), so submitting a change is as simple as submitting a pull request. Go to [ our GitHub repository](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing) for more info on how you can contribute.
 
 ## I still have a question!
 
