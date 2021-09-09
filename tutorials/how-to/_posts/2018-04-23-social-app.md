@@ -12,7 +12,7 @@ tags: [tutorial, how-to]
 
 {% include toc.md %}
 
-**Note:** I'm going to use the term "social app" to refer to any mobile app that lets people interact with each other and requires an internet connection to work. Twitter, Lyft, and Tumblr are examples of social apps. Single-player games or private note-taking apps are not social apps. If you're just wondering how to make a local app that doesn't support multiple users or require an internet connection, then check out the [Android](/tutorials/android) tutorials.
+**Note:** I'm going to use the term "social app" to refer to any mobile app that allows people to interact with each other and requires an internet connection to work. Twitter, Lyft, and Tumblr are examples of social apps. Single-player games or private note-taking apps are not social apps. If you're just wondering how to make a local app that doesn't support multiple users or require an internet connection, then check out the [Android](/tutorials/android) tutorials.
 
 I get a lot of messages like this:
 

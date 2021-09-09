@@ -302,7 +302,7 @@ com.google.cloud.datastore.DatastoreException: Unauthenticated.
 
 To fix this, you *could* set your authentication so you local code connects to your live server's Datastore, but chances are that's not what you really want to do.
 
-Instead, you probably want to run a local copy of Datastore, just like you run a local copy of your server. This let you test your code without worrying about breaking your live site.
+Instead, you probably want to run a local copy of Datastore, just like you run a local copy of your server. This lets you test your code without worrying about breaking your live site.
 
 Running a local copy of Datastore requires a few steps:
 
