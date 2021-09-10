@@ -24,7 +24,7 @@ nextPost: /tutorials/html/github-pages
 
 This tutorial walks you through the process of creating a GitHub profile README, and ends on some next steps for creating your own webpage using GitHub Pages!
 
-Before you get started, sign up for a GitHub account [here](https://github.com/join).
+Before you get started, [sign up for a GitHub account](https://github.com/join).
 
 # Git
 
@@ -32,7 +32,7 @@ Before you get started, sign up for a GitHub account [here](https://github.com/j
 
 Git is a **version control system** which is a fancy way of saying that Git helps you track different versions of files. If you've ever written a paper and then saved a file called `my-paper-final.txt` and then realized you needed to change it, so you saved a file called `my-paper-final-2.txt` and then made even more changes, eventually saving a file called `my-paper-final-really-final-this-time-3.txt`, then that's another kind of version control system. Git is a way of automating that.
 
-I'm mentioning Git because GitHub uses it behind the scenes. You can download the command line version of Git from [here](https://git-scm.com/downloads), but if you're new to Git and GitHub, it might be easier to use GitHub Desktop.
+I'm mentioning Git because GitHub uses it behind the scenes. You can [download the command line version of Git](https://git-scm.com/downloads), but if you're new to Git and GitHub, it might be easier to use GitHub Desktop.
 
 # GitHub Desktop
 
