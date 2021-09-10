@@ -5,7 +5,7 @@ slug: draggable-circle
 thumbnail: /examples/processing/input/images/draggable-circle-1.gif
 tagline: Reposition a circle by dragging it around the screen.
 meta-title: Draggable Circle
-meta-description: This example allows the user to reposition a circle by dragging it around the screen.
+meta-description: This example lets the user reposition a circle by dragging it around the screen.
 meta-image: /examples/processing/input/images/draggable-circle-2.png
 tags: [example, processing, input]
 sort-key: 940

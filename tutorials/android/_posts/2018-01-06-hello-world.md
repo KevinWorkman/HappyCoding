@@ -50,7 +50,7 @@ Open Android Studio. If it's your first time, you should see the welcome screen:
 
 Click `Start a new Android Studio project` and give it a name (I'm using `Hello World App`), a domain (I'm using `HappyCoding.io`) and a location (I'm just using the default). Click `Next`.
 
-The next screen allows you to pick which devices you want your app to run on. Choosing older versions of Android will make your app available to more devices, but you won't be able to use newer Android features. When you develop a real app you'll have to think harder about this, but for now just stick with the default settings (Phone and Tablets only, Android 15). Click `Next`.
+The next screen lets you pick which devices you want your app to run on. Choosing older versions of Android will make your app available to more devices, but you won't be able to use newer Android features. When you develop a real app you'll have to think harder about this, but for now just stick with the default settings (Phone and Tablets only, Android 15). Click `Next`.
 
 You should now be on this screen:
 

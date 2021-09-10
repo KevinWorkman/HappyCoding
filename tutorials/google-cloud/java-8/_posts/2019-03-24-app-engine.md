@@ -65,13 +65,13 @@ If you're new to servlets, you should read through the [Java servlets](/tutorial
 
 We can also serve static content from our App Engine server. The hello world project contains one `index.html` file. Other static content might include JavaScript, CSS, or image files.
 
-App Engine creates a server that maps URLs to our Java servlets and to our static content. This allows us to deploy our code as a webapp that other people can access over the internet.
+App Engine creates a server that maps URLs to our Java servlets and to our static content. This lets us deploy our code as a webapp that other people can access over the internet.
 
 # appengine-web.xml
 
 The `appengine-web.xml` file contains configuration data required by App Engine.
 
-The most important property in this file is the `<application>` tag, which allows you to specify which Google Cloud Project the code should deploy to. This determines stuff like what the public URL will look like, and will later be responsible for things like billing or quota management.
+The most important property in this file is the `<application>` tag, which lets you specify which Google Cloud Project the code should deploy to. This determines stuff like what the public URL will look like, and will later be responsible for things like billing or quota management.
 
 The file contains a few other properties:
 

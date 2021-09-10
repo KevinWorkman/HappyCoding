@@ -135,7 +135,7 @@ Also note that one of the easiest ways to create an app that works as a website 
 
 ## Mobile Clients
 
-Now that you have a database that stores your data, a server that provides access to that data, and you've tested the basics with a web client, you can finally think about building a mobile app that allows real users to interact with your data.
+Now that you have a database that stores your data, a server that provides access to that data, and you've tested the basics with a web client, you can finally think about building a mobile app that lets real users interact with your data.
 
 Learn about [Android](/tutorials/android) or iOS development. Put together a prototype that shows the data and provides some basic functionality. Then you can take that to a graphic designer or UX expert to help understand what you actually need in terms of a user interface, or to a mobile developer to add a new button or screen.
 

@@ -152,7 +152,7 @@ For example, let's say you want to use the `ArrayList` class. Find the `ArrayLis
 
 ## Import Statements
 
-Let's say you created a program that uses the `Scanner` class, which allows you to get user input from the command prompt. You can read more about the `Scanner` class in [the Java API](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
+Let's say you created a program that uses the `Scanner` class, which lets you get user input from the command prompt. You can read more about the `Scanner` class in [the Java API](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
 
 For now, type this code into your basic text editor and save it to a file named `Greeter.java`:
 

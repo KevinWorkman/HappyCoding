@@ -24,7 +24,7 @@ I was lucky (read: privileged) enough to be taught about computer science in hig
 
 So I think it's partly my responsibility to pay that forward. To try to bring that to people who might not have otherwise experienced it. To reach out to people and say "this is what code is!" and try to make them see that it's not just ones and zeroes. It's art. It's beauty. It's creativity.
 
-You can use code to express yourself *in ways that we're still inventing*. Code allows you to tell your unique story, to share your unique viewpoint, to connect to people you might not have otherwise connected with. And I think that's important, especially today.
+You can use code to express yourself *in ways that we're still inventing*. Code lets you tell your unique story, to share your unique viewpoint, to connect to people you might not have otherwise connected with. And I think that's important, especially today.
 
 So whether you want to visualize an interesting piece of data to make people aware of something you care about, or create an interactive art exhibit that says something about yourself, or make a game with a hero that you identify with, or if you just want to play around or get a better job or are thinking about going to college... I'm here for you. This site is for you. **You can code**, and I'd love to help with that. Or to just talk about your story.
 
