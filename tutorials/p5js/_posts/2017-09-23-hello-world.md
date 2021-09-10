@@ -12,7 +12,7 @@ tags: [tutorial, p5.js, javascript, hello-world]
 
 {% include toc.md %}
 
-Now that we know how to write P5.js code (using one of the editors we [just talked about](/tutorials/p5js/editors)) and run it in a browser, we can start diving into the fun stuff.
+Now that we know how to write P5.js code (using one of the editors we talked about in the [editor tutorial](/tutorials/p5js/editors)) and run it in a browser, we can start diving into the fun stuff.
 
 Let's start with an example program. Remember that P5.js requires a `.html` file for the browser to render, so let's start with that:
 
@@ -29,15 +29,15 @@ Let's start with an example program. Remember that P5.js requires a `.html` file
 </html>
 ```
 
-This is just a very basic HTML file that doesn't do anything yet. Save it to `index.html` wherever you want. I'll save mine to my desktop for now. You can open this up in your browser, but all you'll see is a blank screen:
+This is a plain HTML file that doesn't do anything yet. Save it to `index.html` wherever you want. I'll save mine to my desktop for now. You can open this up in your browser, but all you'll see is a blank screen:
 
 ![blank screen](/tutorials/p5js/images/hello-world-1.png)
 
 ## P5.js JavaScript Library
 
-At its core, P5.js is a JavaScript library. Like we talked about in [the JavaScript libraries tutorial](/tutorials/javascript/libraries), a JavaScript library is just a bunch of JavaScript code that was written by somebody else, that you can use from your own JavaScript code. For example, you can load the [JQuery](https://jquery.com/) library to gain access to functions that make it easier to add interactive elements to your webpage. But keep in mind that it's all just JavaScript code! In fact, you can look at the JQuery code [here](https://code.jquery.com/jquery-3.2.1.js).
+At its core, P5.js is a JavaScript library. Like we talked about in [the JavaScript libraries tutorial](/tutorials/javascript/libraries), a JavaScript library is just a bunch of JavaScript code that was written by somebody else, that you can use from your own JavaScript code. For example, you can load the [JQuery](https://jquery.com/) library to gain access to functions that make it easier to add interactive elements to your webpage. But keep in mind that it's all just JavaScript code! In fact, you can look at the [JQuery code](https://code.jquery.com/jquery-3.2.1.js) to see for yourself.
 
-So when we say that P5.js is a JavaScript library, what we mean is that P5.js is a bunch of JavaScript code written by other people ([these people](https://github.com/processing/p5.js/graphs/contributors) to be more specific). We can load that library to give ourselves access to the functions that are defined in the library.
+So when we say that P5.js is a JavaScript library, what we mean is that P5.js is a bunch of JavaScript code written by other people (these [P5.js contributors](https://github.com/processing/p5.js/graphs/contributors) to be more specific). We can load that library to give ourselves access to the functions that are defined in the library.
 
 To load the P5.js JavaScript library, we add this line to the `<head>` section of our `index.html` file:
 
@@ -45,7 +45,7 @@ To load the P5.js JavaScript library, we add this line to the `<head>` section o
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
 ```
 
-This line points to a copy of the `p5.js` file, which contains all of the JavaScript code in the library. You can go that that URL in your browser to see the contents, but again, it's all just regular JavaScript code!
+This line points to a copy of the `p5.js` file, which contains all of the JavaScript code in the library. You can load that URL in your browser to see the contents, but again, it's all just regular JavaScript code!
 
 We could also download the `p5.js` file and put it next to our `index.html` file, in which case we'd add this line instead:
 
