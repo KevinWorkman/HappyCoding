@@ -82,7 +82,7 @@ The first step to figuring out how to use a library is to consult its documentat
 
 Start at the library's homepage and read through the guides. There's usually a "getting started" section that shows you how to load the library, and then more specific documentation on the library's individual classes, functions, and variables. Get a small "hello world" example working, and then work your way forward from there.
 
-When in doubt, Google and [the forum](https://forum.happycoding.io) are your friends!
+When in doubt, Google and the [Happy Coding Forum](https://forum.happycoding.io) are your friends!
 
 # Moment.js Hello World
 
@@ -107,7 +107,7 @@ Here's an example HTML file that uses Moment.js to format the current time in bo
 
 {% include codepen-new.html slug-hash="rNMazOZ" height="100" %}
 
-You can read more about Moment.js [here](http://momentjs.com/docs/), but the general idea is to start with a "hello world" program to help you understand how a library works, without worrying about making it work with any other code.
+You can read more about [Moment.js](http://momentjs.com/docs/), but the general idea is to start with a "hello world" program to help you understand how a library works, without worrying about making it work with any other code.
 
 # Combining P5.js and Moment.js
 
@@ -168,15 +168,15 @@ function draw() {
 
 ![P5.js and Moment.js](/tutorials/p5js/images/libraries-1.png)
 
-This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with this example [here](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
+This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with some of my example [p5 Js sketches](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
 
 # p5.js Libraries
 
-You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of them [here](https://p5js.org/libraries/).
+You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of the [p5 Js libraries](https://p5js.org/libraries/).
 
 Using these libraries is exactly like using any other JavaScript library. You start by consulting documentation to read about how it works, then you add a `<script>` tag with a `src` attribute that points to the library in your HTML, and then you can use the library in your code.
 
-For example, let's use the **p5.speech** library in a P5.js sketch. Start by looking at [the p5.js libraries page](https://p5js.org/libraries/) and find the p5.speech link, which takes you to the p5.speech homepage [here](https://idmnyu.github.io/p5.js-speech/).
+For example, let's use the **p5.speech** library in a P5.js sketch. Start by looking at [the p5.js libraries page](https://p5js.org/libraries/) and find the p5.speech link, which takes you to the [p5.speech homepage](https://idmnyu.github.io/p5.js-speech/).
 
 That page links to documentation that tells you where to get the library and how to use it. In real life you'd spend some time reading that to become more familiar with the library, but for now here's an example:
 
@@ -224,7 +224,7 @@ function mouseClicked() {
 
 This code uses the p5.speech library to make the computer say "Happy coding!" whenever the user clicks the mouse. First the HTML loads the p5.js library, and then it loads the p5.speech library. That means the code can use both libraries, which is what the `sketch.js` file does. It uses p5.js to set up a canvas and a `mouseClicked()` function, and it uses p5.speech to speak the message.
 
-You can play with this example [here](https://editor.p5js.org/KevinWorkman/sketches/rfUqDn1ls).
+You can play with some of my example [p5 Js sketches](https://editor.p5js.org/KevinWorkman/sketches/rfUqDn1ls).
 
 # Summary
 
