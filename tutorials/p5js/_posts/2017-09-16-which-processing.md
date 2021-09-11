@@ -38,9 +38,9 @@ To understand how all of this fits together, let's see a timeline of the major e
   - Java had a goal of ["write once, run anywhere"](https://en.wikipedia.org/wiki/Write_once,_run_anywhere) - any computer that can run Java can run programs written in Java. This was a big change from other programming languages at the time, which had to be recompiled for each type of computer.
 
 - **2001:** Processing is developed by an artist named [Casey Reas](https://en.wikipedia.org/wiki/C.E.B._Reas) and a data scientist named [Ben Fry](https://en.wikipedia.org/wiki/Benjamin_Fry).
-  - Processing is built on top of Java, with the goal of providing a simplified syntax that lets developers to make creative animated and interactive applications.
+  - Processing is built on top of Java, with the goal of providing a simplified syntax that lets developers make creative animated and interactive applications.
   - Processing sketches could be embedded in webpages as Java applets.
-  - Several "modes" are added to Processing, which lets developers to write Processing applications in other languages, like [Processing.py](http://py.processing.org/) for Python.
+  - Several "modes" are added to Processing, which lets developers write Processing applications in other languages, like [Processing.py](http://py.processing.org/) for Python.
   
 - **2008:** Processing.js is developed by [John Resig](https://johnresig.com/blog/processingjs/).
   - With Processing.js, you'd write Processing code and then [transpile](https://en.wikipedia.org/wiki/Source-to-source_compiler) it into JavaScript code.
