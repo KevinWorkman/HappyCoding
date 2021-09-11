@@ -15,6 +15,7 @@ public class FormServlet extends HttpServlet {
 
     String data = request.getParameter("data");
 
+    response.setContentType("text/html");
     response.getWriter().println("You entered: " + data);
   }
 }
