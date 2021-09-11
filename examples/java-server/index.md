@@ -51,3 +51,9 @@ These examples build out a social feed website that shows a feed of updates from
 {% include url-thumbnail.html url="/examples/java-server/jsp-header" %}
 {% include url-thumbnail.html url="/examples/java-server/servlet-jsp-date" %}
 {% include url-thumbnail.html url="/examples/java-server/servlet-jsp-date-hidden" %}
+
+---
+
+# POST Requests
+
+{% include url-thumbnail.html url="/examples/java-server/post-name" %}
