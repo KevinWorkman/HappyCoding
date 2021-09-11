@@ -44,6 +44,7 @@ These examples build out a social feed website that shows a feed of updates from
 
 # JSP
 
+{% include url-thumbnail.html url="/examples/java-server/jsp-unix-time" %}
 {% include url-thumbnail.html url="/examples/java-server/jsp-date" %}
 {% include url-thumbnail.html url="/examples/java-server/jsp-coin-flipper" %}
 {% include url-thumbnail.html url="/examples/java-server/jsp-header" %}
