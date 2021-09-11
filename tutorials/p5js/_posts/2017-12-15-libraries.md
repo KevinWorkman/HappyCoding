@@ -168,7 +168,7 @@ function draw() {
 
 ![P5.js and Moment.js](/tutorials/p5js/images/libraries-1.png)
 
-This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with this [P5.js example by me](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
+This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with this [P5.js example](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
 
 # p5.js Libraries
 
