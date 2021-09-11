@@ -19,6 +19,5 @@ public class FormServlet extends HttpServlet {
 
     response.setContentType("text/html");
     response.getWriter().println("You entered: " + escapedUserInput);
-    
   }
 }
