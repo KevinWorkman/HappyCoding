@@ -121,7 +121,7 @@ For example, I use Processing to create these [movie color visualizations](/gall
 
 Even if your end goal is to get a programming job that's not directly tied to creative coding, I still think that creative coding is a great way to practice the fundamentals of coding, which you can then apply to whatever you want.
 
-To simplify my recommendation, I'd summarize my thoughts like this:
+I'd summarize my thoughts like this:
 
 If you want to get a job as a frontend developer, then you should start with [p5.js](/tutorials/p5js) and then work your way through [HTML](/tutorials/html) and [JavaScript](/tutorials/javascript).
 
