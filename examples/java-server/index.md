@@ -39,3 +39,9 @@ These examples build out a social feed website that shows a feed of updates from
 {% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-3-post-requests" %}
 {% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-4-sessions" %}
 {% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-5-thread-safety" %}
+
+---
+
+# JSP
+
+{% include url-thumbnail.html url="/examples/java-server/jsp-coin-flipper" %}
