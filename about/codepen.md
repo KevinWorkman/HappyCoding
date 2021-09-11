@@ -47,7 +47,7 @@ For the most part, all of the above should work fine on mobile devices, with two
 
 You might notice that the editor says `HTML`, and it contains some HTML tags. This is because we're using `Processing.js` to allow us to run Processing code inside the web browser.
 
-Basically, don't worry too much that it says HTML. You're really editing Processing code.
+Don't worry too much that it says HTML. You're really editing Processing code.
 
 Similarly, you can ignore these lines:
 

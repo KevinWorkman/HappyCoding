@@ -12,7 +12,7 @@ I absolutely LOVE hearing from teachers using Happy Coding's content in their cl
 
 Specifically, I'd recommend using [the tutorials](/tutorials) as lecture material, then using [the examples](/examples) as lab and homework assignments.
 
-Happy Coding starts with the fundamentals of coding designed for folks who have never seen code before, and leads to to advanced topics like server-side coding and Android development. So no matter what you're teaching, I hope there's something here you can use.
+Happy Coding starts with the fundamentals of coding designed for folks who have never seen code before, and leads to advanced topics like server-side coding and Android development. So no matter what you're teaching, I hope there's something here you can use.
 
 I'm not a teacher myself, but I have some experience with online mentorship, writing a curriculum, and presenting workshops through things like Google's [Software Product Sprint](https://buildyourfuture.withgoogle.com/programs/softwareproductsprint/) and [STEP internship](https://buildyourfuture.withgoogle.com/programs/step/), as well as [CC Fest](http://ccfest.rocks/).
 

@@ -86,7 +86,7 @@ public class SwingGui {
 }
 ```
 
-This class creates a Swing GUI that contains a button. When that button is pressed, the `JColorChooser.showDialog()` function is called, which allows the user to pick a color. That color is sent to the `ProcessingSketch` instance, which is passed in as a parameter.
+This class creates a Swing GUI that contains a button. When that button is pressed, the `JColorChooser.showDialog()` function is called, which lets the user pick a color. That color is sent to the `ProcessingSketch` instance, which is passed in as a parameter.
 
 Finally, here's the `Main` class:
 
@@ -121,4 +121,4 @@ This is just a basic example, but it shows the general setup of creating a Swing
 ## Tweak Ideas
 
 - Make it so only one window is shown at a time. First show the Swing GUI and allow a user to pick a color, and then show the Processing sketch after the settings were chosen. Bonus: add a button to the Processing sketch that goes back to the Swing control window.
-- Create a Swing GUI that allows a user to specify input to a procedural generator, which is drawn in Processing.
+- Create a Swing GUI that lets a user specify input to a procedural generator, which is drawn in Processing.
