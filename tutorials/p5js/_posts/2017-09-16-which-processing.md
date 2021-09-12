@@ -38,9 +38,9 @@ To understand how all of this fits together, let's see a timeline of the major e
   - Java had a goal of ["write once, run anywhere"](https://en.wikipedia.org/wiki/Write_once,_run_anywhere) - any computer that can run Java can run programs written in Java. This was a big change from other programming languages at the time, which had to be recompiled for each type of computer.
 
 - **2001:** Processing is developed by an artist named [Casey Reas](https://en.wikipedia.org/wiki/C.E.B._Reas) and a data scientist named [Ben Fry](https://en.wikipedia.org/wiki/Benjamin_Fry).
-  - Processing is built on top of Java, with the goal of providing a simplified syntax that allows developers to make creative animated and interactive applications.
+  - Processing is built on top of Java, with the goal of providing a simplified syntax that lets developers make creative animated and interactive applications.
   - Processing sketches could be embedded in webpages as Java applets.
-  - Several "modes" are added to Processing, which allows developers to write Processing applications in other languages, like [Processing.py](http://py.processing.org/) for Python.
+  - Several "modes" are added to Processing, which lets developers write Processing applications in other languages, like [Processing.py](http://py.processing.org/) for Python.
   
 - **2008:** Processing.js is developed by [John Resig](https://johnresig.com/blog/processingjs/).
   - With Processing.js, you'd write Processing code and then [transpile](https://en.wikipedia.org/wiki/Source-to-source_compiler) it into JavaScript code.
@@ -57,7 +57,7 @@ To understand how all of this fits together, let's see a timeline of the major e
   - Later, browsers remove the ability to run applets at all.
   - This means you can no longer deploy Processing to the web, and must either use Processing.js or p5.js.
   
-- **2015:** Processing is updated to [version 3.0](https://github.com/processing/processing/wiki/Changes-in-3.0).
+- **2015:** Processing is updated to [Processing version 3.0](https://github.com/processing/processing/wiki/Changes-in-3.0).
   - Before Processing 3, the `PApplet` class extended Java's `Applet` class. But since applets weren't really a thing anymore, it didn't make sense to keep that around.
   - Processing 3 also introduced a few new features (like the `surface` variable and the `settings()` function).
   
@@ -121,7 +121,7 @@ For example, I use Processing to create these [movie color visualizations](/gall
 
 Even if your end goal is to get a programming job that's not directly tied to creative coding, I still think that creative coding is a great way to practice the fundamentals of coding, which you can then apply to whatever you want.
 
-To oversimplify my recommendation, I'd summarize my thoughts like this:
+I'd summarize my thoughts like this:
 
 If you want to get a job as a frontend developer, then you should start with [p5.js](/tutorials/p5js) and then work your way through [HTML](/tutorials/html) and [JavaScript](/tutorials/javascript).
 
