@@ -168,11 +168,11 @@ function draw() {
 
 ![P5.js and Moment.js](/tutorials/p5js/images/libraries-1.png)
 
-This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with some of my example [p5 Js sketches](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
+This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with some of my example [p5.js sketches](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
 
 # p5.js Libraries
 
-You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of the [p5 Js libraries](https://p5js.org/libraries/).
+You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of the [p5.js libraries](https://p5js.org/libraries/).
 
 Using these libraries is exactly like using any other JavaScript library. You start by consulting documentation to read about how it works, then you add a `<script>` tag with a `src` attribute that points to the library in your HTML, and then you can use the library in your code.
 
@@ -224,7 +224,7 @@ function mouseClicked() {
 
 This code uses the p5.speech library to make the computer say "Happy coding!" whenever the user clicks the mouse. First the HTML loads the p5.js library, and then it loads the p5.speech library. That means the code can use both libraries, which is what the `sketch.js` file does. It uses p5.js to set up a canvas and a `mouseClicked()` function, and it uses p5.speech to speak the message.
 
-You can play with some of my example [p5 Js sketches](https://editor.p5js.org/KevinWorkman/sketches/rfUqDn1ls).
+You can play with some of my example [p5.js sketches](https://editor.p5js.org/KevinWorkman/sketches/rfUqDn1ls).
 
 # Summary
 
@@ -233,4 +233,4 @@ These examples used specific libraries, but the general idea should apply to any
 # Homework
 
 - Take a closer look at the [p5.speech documentation](https://idmnyu.github.io/p5.js-speech/). Try out different pitches, speeds, and voices.
-- Try out some other libraries listed on the [P5.js libraries page](https://p5js.org/libraries/).
+- Try out some other libraries listed on the [p5.js libraries page](https://p5js.org/libraries/).

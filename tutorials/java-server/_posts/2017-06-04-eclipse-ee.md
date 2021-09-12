@@ -55,7 +55,7 @@ This means that Eclipse EE is running. Now you can start creating servers and we
 
 # Importing Maven Projects
 
-The examples in these tutorials are packaged as Maven projects. You can view all of them on [Github](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects).
+The examples in these tutorials are packaged as Maven projects. You can view all of them on [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects).
 
 To import one of these projects, go to `File > Import...` and then in the dialog that pops up, select `Maven > Existing Maven Projects`. For the root directory, navigate to a directory that contains a `pom.xml` file. Then click the `Finish` button.
 
