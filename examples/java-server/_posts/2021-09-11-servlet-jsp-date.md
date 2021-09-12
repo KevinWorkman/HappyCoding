@@ -3,7 +3,7 @@ layout: tutorial
 title: Servlet JSP Date
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use servlets and JSP to show today's date.
-sort-key: 200
+sort-key: 350
 meta-title: Servlet JSP Date
 meta-description: Use servlets and Jakara Server Pages to show today's date.
 meta-image: /tutorials/java-server/images/jsp-8.png

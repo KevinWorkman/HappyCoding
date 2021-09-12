@@ -3,7 +3,7 @@ layout: tutorial
 title: "Social Feed Website Part 3: Post Requests"
 thumbnail: /examples/java-server/images/social-feed-website-part-3-post-requests-3.png
 tagline: Let users create their own posts.
-sort-key: 1200
+sort-key: 220
 meta-title: "Social Feed Website Part 3: Post Requests"
 meta-description: Let users create their own posts.
 meta-image: /examples/java-server/images/social-feed-website-part-3-post-requests-4.png

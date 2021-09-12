@@ -3,7 +3,7 @@ layout: tutorial
 title: JSP Header
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use JSP to show a header on every page.
-sort-key: 200
+sort-key: 340
 meta-title: JSP Header
 meta-description: Use Jakara Server Pages to show a header on every page.
 meta-image: /tutorials/java-server/images/jsp-8.png

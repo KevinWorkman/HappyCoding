@@ -3,7 +3,7 @@ layout: tutorial
 title: Escaping User Input
 thumbnail: /tutorials/java-server/images/libraries-5.png
 tagline: Use Apache Commons Text to escape user input.
-sort-key: 200
+sort-key: 500
 meta-title: Escaping User Input
 meta-description: Use Apache Commons Text to escape user input.
 meta-image: /tutorials/java-server/images/libraries-6.png

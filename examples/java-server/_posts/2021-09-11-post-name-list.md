@@ -3,7 +3,7 @@ layout: tutorial
 title: Name List
 thumbnail: /tutorials/java-server/images/post-9.png
 tagline: Use POST requests to show a list of names.
-sort-key: 200
+sort-key: 410
 meta-title: Name List
 meta-description: Use POST requests to show a list of names.
 meta-image: /tutorials/java-server/images/post-10.png

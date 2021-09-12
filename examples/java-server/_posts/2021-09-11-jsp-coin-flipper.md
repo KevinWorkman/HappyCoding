@@ -3,7 +3,7 @@ layout: tutorial
 title: JSP Coin Flipper
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use JSP to flip a coin.
-sort-key: 200
+sort-key: 320
 meta-title: JSP Coin Flipper
 meta-description: Use Jakara Server Pages to flip a coin.
 meta-image: /tutorials/java-server/images/jsp-8.png

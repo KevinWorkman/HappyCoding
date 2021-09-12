@@ -3,7 +3,7 @@ layout: tutorial
 title: Name List - JSP
 thumbnail: /tutorials/java-server/images/post-9.png
 tagline: Use POST requests and JSP to show a list of names.
-sort-key: 200
+sort-key: 420
 meta-title: Name List - JSP
 meta-description: Use POST requests and JSP to show a list of names.
 meta-image: /tutorials/java-server/images/post-10.png

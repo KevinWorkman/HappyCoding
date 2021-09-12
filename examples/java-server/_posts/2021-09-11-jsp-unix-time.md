@@ -3,7 +3,7 @@ layout: tutorial
 title: JSP Unix Time
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use JSP to show the current Unix time.
-sort-key: 200
+sort-key: 300
 meta-title: JSP Unix Time
 meta-description: Use Jakara Server Pages to show the current Unix time.
 meta-image: /tutorials/java-server/images/jsp-8.png

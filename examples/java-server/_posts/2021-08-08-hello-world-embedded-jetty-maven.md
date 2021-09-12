@@ -3,7 +3,7 @@ layout: tutorial
 title: "Hello World: Embedded Jetty (Maven)"
 thumbnail: /tutorials/java-server/images/jetty-setup-4.png
 tagline: Use Maven to run an embedded Jetty server.
-sort-key: 500
+sort-key: 140
 meta-title: "Hello World Server Example: Embedded Jetty (Maven)"
 meta-description: Use Maven to run an embedded Jetty server.
 meta-image: /tutorials/java-server/images/jetty-setup-4.png

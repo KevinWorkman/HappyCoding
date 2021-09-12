@@ -3,7 +3,7 @@ layout: tutorial
 title: Unsanitized User Input
 thumbnail: /tutorials/java-server/images/post-9.png
 tagline: See what happens when you don't sanitize user input.
-sort-key: 200
+sort-key: 499
 meta-title: Unsanitized User Input
 meta-description: See what happens when you don't sanitize user input.
 meta-image: /tutorials/java-server/images/post-10.png

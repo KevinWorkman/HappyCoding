@@ -3,7 +3,7 @@ layout: tutorial
 title: "Social Feed Website Part 2: JSP"
 thumbnail: /examples/java-server/images/social-feed-website-part-2-jsp-3.png
 tagline: Use JSP to render user posts.
-sort-key: 1100
+sort-key: 210
 meta-title: "Social Feed Website Part 2: JSP"
 meta-description: Use JSP to render user posts.
 meta-image: /examples/java-server/images/social-feed-website-part-2-jsp-4.png

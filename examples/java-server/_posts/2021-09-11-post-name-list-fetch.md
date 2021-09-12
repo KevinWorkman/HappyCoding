@@ -3,7 +3,7 @@ layout: tutorial
 title: Name List - Fetch
 thumbnail: /tutorials/java-server/images/post-9.png
 tagline: Use the fetch function to show a list of names.
-sort-key: 200
+sort-key: 430
 meta-title: Name List - Fetch
 meta-description: Use the fetch function to show a list of names.
 meta-image: /tutorials/java-server/images/post-10.png

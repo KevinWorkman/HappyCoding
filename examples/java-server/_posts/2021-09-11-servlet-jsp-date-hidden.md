@@ -3,7 +3,7 @@ layout: tutorial
 title: Servlet JSP Date (Hidden JSP)
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use servlets and JSP to show today's date while hiding the JSP file.
-sort-key: 200
+sort-key: 360
 meta-title: Servlet JSP Date (Hidden JSP)
 meta-description: Use servlets and Jakara Server Pages to show today's date while hiding the JSP file.
 meta-image: /tutorials/java-server/images/jsp-8.png
