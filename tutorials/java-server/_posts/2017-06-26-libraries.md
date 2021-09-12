@@ -66,7 +66,9 @@ public class FormServlet extends HttpServlet {
 }
 ```
 
-You can [see this example project](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/user-input-unsanitized), and you can [download this example as a `.zip` file](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/user-input-unsanitized).
+You can view or download this project here:
+
+{% include url-thumbnail.html url="/examples/java-server/user-input-unsanitized" %}
 
 What happens if the user enters some HTML content?
 
@@ -187,7 +189,9 @@ Navigate to `index.html` and enter some input. Now if you try to enter HTML into
 
 That's because the Commons Text library escapes the HTML, which renders it as text instead of HTML content.
 
-You can [see this example project](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/user-input-escaped), and you can [download this example as a `.zip` file](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/user-input-escaped).
+You can view or download this example here:
+
+{% include url-thumbnail.html url="/examples/java-server/user-input-escaped" %}
 
 This example used a particular library, but all of the above will work for any library you want to use.
 
@@ -197,3 +201,7 @@ This example used a particular library, but all of the above will work for any l
 - Use a JSON library to convert Java objects to JSON that you can use in JavaScript.
 - Find a [machine learning](https://en.wikipedia.org/wiki/Machine_learning) library and [do something cool](https://www.quora.com/What-are-some-real-world-examples-of-applications-of-machine-learning-in-the-field)!
 
+# Examples
+
+{% include url-thumbnail.html url="/examples/java-server/user-input-unsanitized" %}
+{% include url-thumbnail.html url="/examples/java-server/user-input-escaped" %}
