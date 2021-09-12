@@ -64,3 +64,6 @@ These examples build out a social feed website that shows a feed of updates from
 
 ---
 
+# Libraries
+
+{% include url-thumbnail.html url="/examples/java-server/user-input-escaped" %}
