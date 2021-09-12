@@ -86,7 +86,9 @@ Eventually you'll probably want to use an IDE like Eclipse or Intellij to compil
 
 ## Example Project
 
-You can see an example project that uses the command line to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line).
+You can view and download an example project that uses the command line to deploy an embedded Jetty server here:
+
+{% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-command-line" %}
 
 This section of the tutorial walks through this example project.
 
@@ -194,7 +196,9 @@ So far, this tutorial has used the command line to compile and run the code. You
 
 ## Example Project
 
-You can see an example project that uses Maven to deploy an embedded Jetty server [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven).
+You can view and download an example project that uses Maven to deploy an embedded Jetty server here:
+
+{% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-maven" %}
 
 The rest of this tutorial walks through this example project.
 
@@ -397,3 +401,8 @@ You'll run this command a lot when developing an embedded Jetty server using Mav
 # Homework
 
 Add a few HTML pages to your `HelloWorld` web app, and then run your server again to see them in the browser.
+
+# Examples
+
+{% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-command-line" %}
+{% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-maven" %}
