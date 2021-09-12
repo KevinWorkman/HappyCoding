@@ -57,3 +57,4 @@ These examples build out a social feed website that shows a feed of updates from
 # POST Requests
 
 {% include url-thumbnail.html url="/examples/java-server/post-name" %}
+{% include url-thumbnail.html url="/examples/java-server/post-name-list" %}
