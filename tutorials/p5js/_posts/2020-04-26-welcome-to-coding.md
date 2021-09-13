@@ -25,7 +25,7 @@ This might sound like an obvious question, but the answer has changed quite a bi
 
 [Early computers](https://en.wikipedia.org/wiki/Category:Early_computers) were designed for very specific tasks, usually involving math and encrypting messages during World War 2. They were very big (some took up an entire room!), and the only people who worked with them were specialized experts.
 
-Over time, computers got smaller and more generalized, meaning they could do more than just crunch numbers. They also became more [personal](https://en.wikipedia.org/wiki/Personal_computer), meaning people who weren't experts could use them.
+Over time, computers got smaller and more generalized, meaning they could do more than just crunch numbers. The emergence of [personal computer](https://en.wikipedia.org/wiki/Personal_computer) means that people who weren't experts could use them.
 
 Nowadays, you probably own multiple computers. You might use a desktop computer, a laptop, a phone, a smart watch, a fitness tracker, or a gaming console. These are all computers.
 
@@ -87,7 +87,7 @@ I personally recommend learning the fundamentals in p5.js, and then branching ou
 
 # Let's get started!
 
-Click [here](https://editor.p5js.org) to go to the p5.js editor.
+Get to the [p5.js editor](https://editor.p5js.org).
 
 You should see this:
 
