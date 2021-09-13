@@ -107,7 +107,7 @@ Here's an example HTML file that uses Moment.js to format the current time in bo
 
 {% include codepen-new.html slug-hash="rNMazOZ" height="100" %}
 
-You can read more about Moment.js in the [Moment.js docs](http://momentjs.com/docs/), but the general idea is to start with a "hello world" program to help you understand how a library works, without worrying about making it work with any other code.
+You can read more about [Moment.js](http://momentjs.com/docs/), but the general idea is to start with a "hello world" program to help you understand how a library works, without worrying about making it work with any other code.
 
 # Combining P5.js and Moment.js
 
@@ -168,7 +168,11 @@ function draw() {
 
 ![P5.js and Moment.js](/tutorials/p5js/images/libraries-1.png)
 
-This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with this [P5.js example](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
+This code creates a sketch that uses Moment.js to format the time in six different languages, and p5.js to draw that to the screen. You can play with this example [p5.js sketches](https://editor.p5js.org/KevinWorkman/sketches/zqDJteEjt).
+
+# p5.js Libraries
+
+You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of the [p5.js libraries](https://p5js.org/libraries/).
 
 # p5.js Libraries
 
@@ -224,7 +228,7 @@ function mouseClicked() {
 
 This code uses the p5.speech library to make the computer say "Happy coding!" whenever the user clicks the mouse. First the HTML loads the p5.js library, and then it loads the p5.speech library. That means the code can use both libraries, which is what the `sketch.js` file does. It uses p5.js to set up a canvas and a `mouseClicked()` function, and it uses p5.speech to speak the message.
 
-You can play with this [p5.js example code]](https://editor.p5js.org/KevinWorkman/sketches/rfUqDn1ls).
+You can play with this [p5.js example code](https://editor.p5js.org/KevinWorkman/sketches/rfUqDn1ls).
 
 # Summary
 
