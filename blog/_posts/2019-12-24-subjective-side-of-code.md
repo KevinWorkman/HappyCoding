@@ -309,7 +309,7 @@ The (incorect) assumptions built into this code exemplify the problems with most
 
 > *"Premature optimization is the root of all evil." - [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)*
 
-To be fair, I'm oversimplying. For a more nuanced discussion on efficiency, read more info [here](https://softwareengineering.stackexchange.com/q/80084/114262). But the point is that if you're worried about "efficiency" before you've defined what that means in your context and what your current measurements are, then you're worrying about the wrong things.
+To be fair, I'm oversimplying. For a more nuanced discussion on efficiency, read more info on [Stack Exchange](https://softwareengineering.stackexchange.com/q/80084/114262). But the point is that if you're worried about "efficiency" before you've defined what that means in your context and what your current measurements are, then you're worrying about the wrong things.
 
 Even **if** this code was somehow faster, it's a **tradeoff** between memory usage and speed. And depending on your **context**, that might be an improvement, or it might not be. For starters, our animation is rendered at 60 frames per second, so anything that's faster than that is unnecessary anyway.
 

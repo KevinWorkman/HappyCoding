@@ -115,7 +115,7 @@ The parks and trails near me start getting way more crowded, and I feel a little
 
 Another thing I notice on my runs is that the local fire department turned the Shoreline Amphitheater parking lot into a safe space for people who live in RVs. These RVs had been camped around parks with public bathrooms and running water, and when those got shut down, they had nowhere else to go. This parking lot full of RVs and porta potties is right across the street from the construction of [Google's newest building](http://www.heatherwick.com/projects/buildings/google-mountainview/).
 
-I participated in Ludum Dare. Check out my game [here](/gallery/the-next-generation-ld-46/index).
+I participated in Ludum Dare. Check out my [The Next Generation](/gallery/the-next-generation-ld-46/index)game .
 
 I spent a ton of time playing with [spirals](/gallery/spirals/index).
 
@@ -509,7 +509,7 @@ I notice that the local dive bar is open again. I guess this means that the "sec
 
 *February 5, parking lot tree*s
 
-Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [This article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
+Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [This abc7 news article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
 
 ![mask sign](/blog/images/my-quarantine/2021-02-07.jpg)
 

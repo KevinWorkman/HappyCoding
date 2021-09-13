@@ -28,7 +28,7 @@ To write JavaScript that found the pages for a particular tag, I first needed a 
 
 To do this, I created a very very simple [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) (it's so simple that I almost shouldn't even call it either REST or an API). Basically, if you visit [HappyCoding.io/api/site.json](/api/site.json), you'll get JSON that represents every post on the site. 
 
-For example, [this example](/examples/processing/using-variables/flower) of drawing a flower is represented by this JSON:
+For example, the [Processing flower example](/examples/processing/using-variables/flower) of drawing a flower is represented by this JSON:
 
 ```json
  {
