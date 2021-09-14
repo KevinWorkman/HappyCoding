@@ -57,6 +57,7 @@ sort-key: 400
 
 {% include url-thumbnail.html url="/examples/p5js/input/clickable-text" %}
 {% include url-thumbnail.html url="/examples/p5js/input/mouse-ripple" %}
+{% include url-thumbnail.html url="/examples/p5js/input/grouchy-face" %}
 
 ---
 
