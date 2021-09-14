@@ -93,7 +93,7 @@ This realization was difficult for me, because I had put a lot of value in the [
 
 I think people, including me, tend to mythologize ourselves, to cling to [ideas](https://en.wikipedia.org/wiki/Self-schema) about what makes us special. We all have an [imaginary version](https://en.wikipedia.org/wiki/True_self_and_false_self) of ourselves in our brain, the version of ourselves who lives up to all of our expectations. Part of this is a good thing, as it gives us something to aspire to: I work hard, I help others in need, I fit into these groups, etc. But on the other hand, it's hard to face any facts that are outside of that self-image.
 
-One obvious example: no reasonable person thinks of themselves as racist. This makes it really hard to talk about stuff like [implicit bias](https://en.wikipedia.org/wiki/Implicit_stereotype). *Of course I don't assume anything about people of a certain race, I'm not a racist!* It's hard for even well-intentioned people to reflect on this, because it contradicts the self-image they have about themselves. It doesn't feel *good* to think about the various ways I might be making somebody else's life harder. But if I don't try to become aware of this, then I'll never improve. (For more on this, I recommend checking out [this](https://www.youtube.com/watch?v=DwIx3KQer54) video.)
+One obvious example: no reasonable person thinks of themselves as racist. This makes it really hard to talk about stuff like [implicit bias](https://en.wikipedia.org/wiki/Implicit_stereotype). *Of course I don't assume anything about people of a certain race, I'm not a racist!* It's hard for even well-intentioned people to reflect on this, because it contradicts the self-image they have about themselves. It doesn't feel *good* to think about the various ways I might be making somebody else's life harder. But if I don't try to become aware of this, then I'll never improve. (For more on this, I recommend checking out [this Youtube](https://www.youtube.com/watch?v=DwIx3KQer54) video.)
 
 [![monkey looking into a mirror](/blog/images/checking-my-privilege/monkey-mirror.jpg)](https://unsplash.com/photos/GBEHjsPQbEQ)
 
@@ -139,7 +139,7 @@ So when I recognize myself mentally dismissing or disliking somebody (or believi
 
 ## The Monkeysphere
 
-Back in 2007, [David Wong](https://en.wikipedia.org/wiki/David_Wong_(writer)) explained all of the above much better than I can, in [this article](https://www.cracked.com/article_14990_what-monkeysphere.html) about the **monkeysphere**.
+Back in 2007, [David Wong](https://en.wikipedia.org/wiki/David_Wong_(writer)) explained all of the above much better than I can, in the [monkeysphere](https://www.cracked.com/article_14990_what-monkeysphere.html) article.
 
 The monkeysphere, also called [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number), is the idea that there's a limit to the number of people we can have meaningful relationships with. That number is around 150 people, and it's why you'd be sad if your friend died, but you aren't sad if 1,000 people from the other side of the world die.
 

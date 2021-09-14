@@ -63,7 +63,7 @@ One important thing that was missing was the ability to debug. Normally I progra
 
 On the other hand, I got something working! All on my phone! Hooray!
 
-You can check out the Ludum Dare entry page [here](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=5364), or the CodePen page [here](http://codepen.io/KevinWorkman/pen/ENpwLg). Or you can just play it here:
+You can check out the [Ludum Dare entry page](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=5364), or on my [CodePen page](http://codepen.io/KevinWorkman/pen/ENpwLg). Or you can just play it here:
 
 {% include codepen.html slug-hash="ENpwLg" height="575" %}
 
