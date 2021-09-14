@@ -6,7 +6,7 @@ tagline: Make your computer mad when you click the mouse.
 sort-key: 630
 meta-title: p5.js Example - Grouchy Face
 meta-description: Make your computer mad when you click the mouse.
-meta-image: /examples/p5js/input/images/mouse-ripple-2.png
+meta-image: /examples/p5js/input/images/grouchy-face-1.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /examples/p5js/
