@@ -30,7 +30,7 @@ The rest is [history](https://www.joelonsoftware.com/2018/04/06/the-stack-overfl
 
 ## Gamification
 
-One of the ideas that made Stack Overflow interesting was its use of [gamification](https://en.wikipedia.org/wiki/Gamification): users have a score (called [reputation](https://stackoverflow.com/help/whats-reputation)), which can be earned by getting upvotes - or lost by getting downvotes - on questions and answers. You get points for asking good questions or posting good answers, and those points allow you to do [more stuff](https://stackoverflow.com/help/privileges) on the site. [This article](https://blog.codinghorror.com/the-gamification/) sums it up pretty well.
+One of the ideas that made Stack Overflow interesting was its use of [gamification](https://en.wikipedia.org/wiki/Gamification): users have a score (called [reputation](https://stackoverflow.com/help/whats-reputation)), which can be earned by getting upvotes - or lost by getting downvotes - on questions and answers. You get points for asking good questions or posting good answers, and those points allow you to do [more stuff](https://stackoverflow.com/help/privileges) on the site. The [Coding Horror article](https://blog.codinghorror.com/the-gamification/) sums it up pretty well.
 
 > I play the Stack Exchange game happily alongside everyone else, collecting reputation and badges and rank and upvotes, and I am proud to do so, because I believe it ultimately helps me become more knowledgeable and a better communicator while also improving the very fabric of the web for everyone.
 >
@@ -76,7 +76,7 @@ This also means that, in theory, nobody should post a question that's already be
 
 All of the above led to Stack Overflow having a reputation for being a [doubled-edged sword](https://english.stackexchange.com/questions/60728/why-is-the-term-double-edged-sword-used-for-something-that-can-be-favorable-an): on one hand, it is one of the best sources of information for anybody writing code; but on the other hand, Stack Overflow can feel like a pretty unforgiving place - especially for beginners or for people who already feel unwelcome in computer science.
 
-[This article](https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d) is a good collection of the kinds of experiences many people have with Stack Overflow: their questions are downvoted, closed, or deleted; they receive rude or snarky comments; and they're at the mercy of the strict rules enforced by thousands of other users.
+The [hackernoon article](https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d) is a good collection of the kinds of experiences many people have with Stack Overflow: their questions are downvoted, closed, or deleted; they receive rude or snarky comments; and they're at the mercy of the strict rules enforced by thousands of other users.
 
 Here are a few questions about this reputation problem posted on Stack Overflow. (More specifically, most of them were posted on [Meta Stack Overflow](https://meta.stackoverflow.com/) or [Meta Stack Exchange](https://meta.stackexchange.com/), which are like Stack Overflow for questions about Stack Overflow itself.)
 
@@ -92,7 +92,7 @@ Here are a few questions about this reputation problem posted on Stack Overflow.
 
 Check out the scores of some of these questions to get an idea of the community's reaction.
 
-Another criticism of Stack Overflow is that it feels especially unwelcoming to people from under-represented groups in computer science. [Here](https://medium.com/@glitterwitch/stack-overflow-s-developer-survey-analysis-hurts-women-ec4d568e2352) and [here](http://www.banane.com/2012/06/20/there-are-no-women-on-stackoverflow-or-are-there/) are articles discussing the experience women have on Stack Overflow, and [here](https://meta.stackoverflow.com/questions/309908/declining-numbers-of-women-in-programming-what-can-so-do-to-help) and [here](https://meta.stackexchange.com/questions/30411/what-can-stack-overflow-do-to-persuade-female-programmers-to-participate-more) are questions about it posted on Meta.
+Another criticism of Stack Overflow is that it feels especially unwelcoming to people from under-represented groups in computer science. [Medium Article](https://medium.com/@glitterwitch/stack-overflow-s-developer-survey-analysis-hurts-women-ec4d568e2352) and [Banane article](http://www.banane.com/2012/06/20/there-are-no-women-on-stackoverflow-or-are-there/) are articles discussing the experience women have on Stack Overflow, and some questions about it posted on Stack Overflow Meta like [declining  number of women in programming](https://meta.stackoverflow.com/questions/309908/declining-numbers-of-women-in-programming-what-can-so-do-to-help) and [What can Stack Overflow do to persuade women to participate more](https://meta.stackexchange.com/questions/30411/what-can-stack-overflow-do-to-persuade-female-programmers-to-participate-more).
 
 # The Unwelcoming
 
@@ -135,7 +135,7 @@ Some of these posts propose changes to make Stack Overflow more welcoming, some 
 
 Since the blog post, Stack Overflow has rolled out a few changes in the name of being more welcoming. They rolled out a new [code of conduct](https://stackoverflow.blog/2018/08/07/get-to-know-our-new-code-of-conduct/). They added an icon for [new users](https://meta.stackexchange.com/questions/314287/come-take-a-look-at-our-new-contributor-indicator) in the hope that this would inspire a more welcoming environment. They built a tool that [detected snarky comments](https://stackoverflow.blog/2018/07/10/welcome-wagon-classifying-comments-on-stack-overflow/).
 
-But the debate rages on. Start [here](https://meta.stackoverflow.com/questions/tagged/welcoming) if you want to go down the rabbit hole.
+But the debate rages on. Start on [Stack Overflow's Welcoming Questions](https://meta.stackoverflow.com/questions/tagged/welcoming) if you want to go down the rabbit hole.
 
 # What is Stack Overflow?
 
@@ -173,7 +173,7 @@ For example, the [Java tag](https://stackoverflow.com/questions/tagged/java) can
 
 Compare that to the [Processing](https://stackoverflow.com/questions/tagged/processing) or [p5.js](https://stackoverflow.com/questions/tagged/p5.js) tags. These tags only get a few questions per day, and generally only a [few people](https://stackoverflow.com/tags/processing/topusers) lurk and answer questions. This means that more time is spent on each answer, which leads to a different ecosystem than more popular tags. As a result, the Processing tags tend to have higher quality answers (imho), and are friendlier to novices than the Java tag.
 
-It's slightly more complicated than that. Questions usually contain multiple tags, so there's an interesting collision between these ecosystems. For example, when a Processing question gets tagged with the Java tag, all of a sudden it has all those Java eyeballs on it. These questions are often closed because they don't have a `main()` method, or as duplicates of the [canonical NullPointerException question](https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it). This gets pretty frustrating, because these are **not** valid reasons to close a Processing question: Processing does not require a `main()` method and can throw a `NullPointerException` from Processing's internal code. I got so frustrated by Java users incorrectly closing Processing questions that I made [this](https://meta.stackoverflow.com/questions/321127/processing-java) Meta post. The point is: the rules and regulations of one part of Stack Overflow often don't make sense in other parts of Stack Overflow.
+It's slightly more complicated than that. Questions usually contain multiple tags, so there's an interesting collision between these ecosystems. For example, when a Processing question gets tagged with the Java tag, all of a sudden it has all those Java eyeballs on it. These questions are often closed because they don't have a `main()` method, or as duplicates of the [canonical NullPointerException question](https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it). This gets pretty frustrating, because these are **not** valid reasons to close a Processing question: Processing does not require a `main()` method and can throw a `NullPointerException` from Processing's internal code. I got so frustrated by Java users incorrectly closing [Processing questions](https://meta.stackoverflow.com/questions/321127/processing-java) that I made on Meta post. The point is: the rules and regulations of one part of Stack Overflow often don't make sense in other parts of Stack Overflow.
 
 I think this is a big cause of friction. When we talk about what Stack Overflow is, or what it should be, we're casting a net over 1000 different corners, all with their own users, rules, and expectations.
 
@@ -202,7 +202,7 @@ Jeff Atwood [has said](https://blog.codinghorror.com/what-does-stack-overflow-wa
 >
 > \- [Jeff Atwood](https://blog.codinghorror.com/what-does-stack-overflow-want-to-be-when-it-grows-up/)
 
-He has also mentioned this on Twitter, e.g. [here](https://twitter.com/codinghorror/status/983150210074341376) and [here](https://twitter.com/codinghorror/status/1006618014584745984).
+He has also mentioned this on Twitter, e.g. on [this discussion](https://twitter.com/codinghorror/status/983150210074341376) and [this tweet](https://twitter.com/codinghorror/status/1006618014584745984).
 
 Compare that to Joel Spolsky, who [says](https://www.joelonsoftware.com/2018/04/23/strange-and-maddening-rules/):
 
@@ -270,7 +270,7 @@ Most questions that people ask are general questions like *"How do I make a webs
 
 So as an answerer, your "job" becomes more about community management than about helping people. You wade through 10 *"gimme teh codez"* posts to get to 1 interesting question, which takes a ton of time. This actually gets very depressing: I absolutely love helping people learn how to code, but it's extremely demoralizing to wade through all the bad.
 
-This is the problem that Stack Overflow solves. For the most part, these types of low quality questions are very quickly downvoted and deleted from Stack Overflow, so as an answerer, you can get right to the "good" questions without wasting a lot of your time and mental health. This is why I've quit almost every forum I used to visit (the exceptions are [the Processing forum](https://discourse.processing.org/) and of course [the HappyCoding.io forum](https://forum.happycoding.io)).
+This is the problem that Stack Overflow solves. For the most part, these types of low quality questions are very quickly downvoted and deleted from Stack Overflow, so as an answerer, you can get right to the "good" questions without wasting a lot of your time and mental health. This is why I've quit almost every forum I used to visit (the exceptions are [the Processing forum](https://discourse.processing.org/) and of course the [Happy Coding forum](https://forum.happycoding.io)).
 
 The fact that questions are so easily removed is a **good** thing for Stack Overflow. It means that if you take the time to ask a meaningful question, you're more likely to get a meaningful answer.
 

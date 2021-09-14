@@ -57,7 +57,7 @@ Wrong. Blobstore and the Users API are simply no longer available. Datastore has
 
 I know it sounds like I'm complaining, and maybe I am, but each of these inconsistencies and incompatibilities made the migration harder. And for what reason? From my perspective, I didn't get any benefits from this migration, other than doing what Google told me to do.
 
-On the bright side, I did feel validated when I read [this blog](https://medium.com/@steve.yegge/dear-google-cloud-your-deprecation-policy-is-killing-you-ee7525dc05dc) complaining about the same things.
+On the bright side, I did feel validated when I read [this Medium blog](https://medium.com/@steve.yegge/dear-google-cloud-your-deprecation-policy-is-killing-you-ee7525dc05dc) complaining about the same things.
 
 # Focus on the User
 
