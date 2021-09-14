@@ -172,11 +172,7 @@ This code creates a sketch that uses Moment.js to format the time in six differe
 
 # p5.js Libraries
 
-You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of [p5.js related Javascript libraries](https://p5js.org/libraries/).
-
-# p5.js Libraries
-
-You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of [p5.js related Javascript libraries](https://p5js.org/libraries/).
+You can use almost any JavaScript library with p5.js, but some JavaScript libraries are  specifically built with p5.js in mind. You can view a list of the [p5.js libraries](https://p5js.org/libraries/).
 
 Using these libraries is exactly like using any other JavaScript library. You start by consulting documentation to read about how it works, then you add a `<script>` tag with a `src` attribute that points to the library in your HTML, and then you can use the library in your code.
 
