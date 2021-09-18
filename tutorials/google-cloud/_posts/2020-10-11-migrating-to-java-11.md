@@ -205,7 +205,7 @@ There are many ways to include your own server, and if you've heard about Java f
 
 I personally recommend using [Jetty](https://www.eclipse.org/jetty/) as your server, because A: it's what the Java 8 runtime used behind the scenes and B: I find it more obvious than more complicated frameworks.
 
-The [official example repo](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11) includes a few examples for different approaches you could take, including an [hello world](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11/helloworld-servlet) example that uses Jetty to deploy a servlets-based web app.
+The [official example repo](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11) includes a few examples for different approaches you could take, including a [hello world](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11/helloworld-servlet) example that uses Jetty to deploy a servlets-based web app.
 
 That example splits the Jetty code into its own [project](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11/appengine-simple-jetty-main), and uses some clever Maven tricks to reference it from other projects that use it. That probably makes sense for code sharing reasons, but if you're trying to deploy a single existing web app, it's probably overkill.
 
