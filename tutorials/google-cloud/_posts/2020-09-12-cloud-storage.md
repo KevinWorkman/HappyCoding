@@ -62,7 +62,7 @@ Follow [these steps](https://cloud.google.com/storage/docs/reference/libraries#s
 
 # Example
 
-You can download an example project from [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
+You can download an example project from [DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
 
 The rest of this tutorial walks through this project.
 

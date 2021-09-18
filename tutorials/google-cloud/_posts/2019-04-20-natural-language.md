@@ -21,7 +21,7 @@ updated: 2020-09-13
 - [Entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) extracts entities (people, places, things) from text. *Who or what does this text mention?*
 - [Content classification](https://en.wikipedia.org/wiki/Document_classification) categorizes topics form text. *What topics does this text contain?*
 
-The Google Cloud Natural Language library uses machine learning models that have already been trained, so you can skip straight to the fun stuff. It's also possible to train your own models (you can learn more about that [here](https://cloud.google.com/automl/)), but this guide is going to stick with the pre-trained models.
+The Google Cloud Natural Language library uses machine learning models that have already been trained, so you can skip straight to the fun stuff. It's also possible to train your own models (you can learn more about that on the [Google Cloud docs](https://cloud.google.com/automl/)), but this guide is going to stick with the pre-trained models.
 
 # Enable Cloud Natural Language API
 
@@ -33,7 +33,7 @@ Make sure your project is selected, and click the `Enable` button.
 
 # Credentials
 
-The Cloud Natural Language API requires your project's credentials to work. When you deploy to App Engine this works automatically, but when running or deploying locally you have to set your credentials manually. Follow the steps [here](https://cloud.google.com/natural-language/docs/setup#sa-create) to set up your local credentials.
+The Cloud Natural Language API requires your project's credentials to work. When you deploy to App Engine this works automatically, but when running or deploying locally you have to set your credentials manually. Follow the steps on [Natural Language docs](https://cloud.google.com/natural-language/docs/setup#sa-create) to set up your local credentials.
 
 **Important:** Before proceeding, make sure you have your `GOOGLE_APPLICATION_CREDENTIALS` environment variable set. Nothing will work without this.
 
@@ -55,7 +55,7 @@ To add the library to your classpath, add this maven dependency to your `pom.xml
 
 You can call the Cloud Natural Language library from any Java code, including standalone (non-server) code. To see how the library works, let's start with that.
 
-You can view this example project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone), or download it as a `.zip` file from DownGit [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
+You can view this example project on [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone), or download it as a `.zip` file from [DownGit](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
 
 First, create a `String` that contains the text you want to analyze:
 
@@ -148,7 +148,7 @@ Try running this code with a few different values for the `text` variable!
 
 The above example performs sentiment analysis in a standalone Java application. This is useful if you want to build a desktop application or analyze some text on your own computer. But you can also use the Natural Language API in server code, which comes in handy if you want to build a web app.
 
-You can view this example project from [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp), or download it as a `.zip` file from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp).
+You can view this example project from [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp), or download it as a `.zip` file from [DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp).
 
 Let's start with the HTML:
 
@@ -228,7 +228,7 @@ This servlet gets the sentiment analysis score of the text entered by the user. 
 
 These examples used the Cloud Natural Language library to perform sentiment analysis, but that's not the only type of analysis you can do.
 
-Check out [this page](https://cloud.google.com/natural-language/docs/how-to) for some other options, including entity analysis, syntax analysis, and content classification.
+Check out [Natural Language documentation](https://cloud.google.com/natural-language/docs/how-to) for some other options, including entity analysis, syntax analysis, and content classification.
 
 # Learn More
 

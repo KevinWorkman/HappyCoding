@@ -96,7 +96,7 @@ Run this command instead:
 mvn package appengine:deploy
 ```
 
-See [this page](https://cloud.google.com/appengine/docs/standard/java/maven-reference) for more info on the new Cloud SDK-based Google Cloud Maven plugin.
+See [Maven Plugin docs](https://cloud.google.com/appengine/docs/standard/java/maven-reference) for more info on the new Cloud SDK-based Google Cloud Maven plugin.
 
 # Consider Stopping There
 
@@ -170,7 +170,7 @@ To switch to the Java 11 runtime, you need to do a few things:
    <googleCloudProjectId>YOU_PROJECT_ID_HERE</googleCloudProjectId>
    ```
 
-See [here](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world/pom.xml) for a full example `pom.xml` file.
+Go to [GitHub](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world/pom.xml) for a full example `pom.xml` file.
 
 At this point, you'll get errors when you try to deploy your code to a local or live server.
 
@@ -205,7 +205,7 @@ There are many ways to include your own server, and if you've heard about Java f
 
 I personally recommend using [Jetty](https://www.eclipse.org/jetty/) as your server, because A: it's what the Java 8 runtime used behind the scenes and B: I find it more obvious than more complicated frameworks.
 
-The [official example repo](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11) includes a few examples for different approaches you could take, including [this one](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11/helloworld-servlet) that uses Jetty to deploy a servlets-based web app.
+The [official example repo](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11) includes a few examples for different approaches you could take, including an [hello world](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11/helloworld-servlet) example that uses Jetty to deploy a servlets-based web app.
 
 That example splits the Jetty code into its own [project](https://github.com/GoogleCloudPlatform/java-docs-samples/tree/master/appengine-java11/appengine-simple-jetty-main), and uses some clever Maven tricks to reference it from other projects that use it. That probably makes sense for code sharing reasons, but if you're trying to deploy a single existing web app, it's probably overkill.
 
