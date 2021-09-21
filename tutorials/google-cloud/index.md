@@ -17,7 +17,7 @@ sort-key: 700
 
 Google Cloud contains a lot of really fun stuff, but it's not exactly friendly to novices. Before jumping into these tutorials, make sure you're familiar with [Java](/tutorials/java). Specifically, make sure you're comfortable with [OOP and inheritance](/tutorials/java/inheritance) and [classpath and libraries](/tutorials/java/libraries).
 
-The full code for the examples used in these tutorials is available [here](https://github.com/KevinWorkman/GoogleCloudExamples).
+The full code for the examples used in these tutorials is available on [GitHub](https://github.com/KevinWorkman/GoogleCloudExamples).
 
 These tutorials have been updated to use Java 11 and the latest Cloud SDK.
 
