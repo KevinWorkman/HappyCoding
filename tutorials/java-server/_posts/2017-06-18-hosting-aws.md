@@ -182,7 +182,7 @@ Click the `Get Started` button, which brings up a form where you can enter infor
 - **Platform** needs to be **Tomcat**. Tomcat is a Java server, very similar to Jetty.
 - **Application code** should be set to **Upload your code**, and you should upload your `.war` file here.
 
-Then click the `Configure more options` button. This allows you to configure a ton of settings, but for now just choose the `Low cost` option from the `Configuration presets`. Then click the `Modify` link in the `Environment settings` cell. This allows you to choose a **name** for your environment. Choose anything you want. You can also set a domain here: this isn't a full custom domain yet, so you aren't choosing something like `example.com`, you're choosing something like `MyWebApp.us-east-1.elasticbeanstalk.com`. This will be easier to work with than the randomly generated URLs you get by default.
+Then click the `Configure more options` button. This lets you configure a ton of settings, but for now just choose the `Low cost` option from the `Configuration presets`. Then click the `Modify` link in the `Environment settings` cell. This lets you choose a **name** for your environment. Choose anything you want. You can also set a domain here: this isn't a full custom domain yet, so you aren't choosing something like `example.com`, you're choosing something like `MyWebApp.us-east-1.elasticbeanstalk.com`. This will be easier to work with than the randomly generated URLs you get by default.
 
 ![Elastic Beanstalk environment settings](/tutorials/java-server/images/hosting-aws-6.png)
 
