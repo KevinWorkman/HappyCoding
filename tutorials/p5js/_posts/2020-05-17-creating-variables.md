@@ -15,7 +15,7 @@ nextPost: /tutorials/p5js/creating-functions
 
 {% include toc.md %}
 
-Now you know how to [use variables](/tutorials/p5js/using-variables) like `width` and `height`. Next you'll learn how to create your own variables!
+Now you know [how to use variables](/tutorials/p5js/using-variables) like `width` and `height`. Next you'll learn how to create your own variables!
 
 Remember that variables are **names** that hold **values**. You can use a variable anywhere you can use a value, by writing its name. For example:
 
@@ -84,7 +84,7 @@ The above code uses the `let` keyword to create variables, and I recommend stick
 - `let` is the "new" way of creating a variable.
 - It's also possible to create a variable without using any of these keywords, but I don't recommend doing that because it makes your code harder to read and maintain.
 
-You can read more about this [here](https://www.w3schools.com/js/js_let.asp), but for now I would recommend using `let` and `const` without worrying too much about it.
+You can read more on [ways of creating variables](https://www.w3schools.com/js/js_let.asp), but for now I would recommend using `let` and `const` without worrying too much about it.
 
 # Example
 

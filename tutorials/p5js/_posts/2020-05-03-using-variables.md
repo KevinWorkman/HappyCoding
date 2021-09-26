@@ -15,7 +15,7 @@ nextPost: /tutorials/p5js/creating-variables
 
 {% include toc.md %}
 
-Now you know how to [call functions](/tutorials/p5js/calling-functions) with parameters to tell the computer what to do. 
+Now you know [how to call functions](/tutorials/p5js/calling-functions) with parameters to tell the computer what to do. 
 
 But knowing exactly what values to use for those parameters can be annoying, so this tutorial shows you how to use **variables** to make your life a little easier.
 

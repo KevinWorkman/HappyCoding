@@ -15,7 +15,7 @@ nextPost: /tutorials/p5js/input
 
 {% include toc.md %}
 
-Now you know how to [call](/tutorials/p5js/calling-functions) and [create](/tutorials/p5js/creating-functions) functions, how to [use](/tutorials/p5js/using-variables) and [create](/tutorials/p5js/creating-variables) variables, and how to use [`if` statements](/tutorials/p5js/if-statements).
+Now you know how to [call functions](/tutorials/p5js/calling-functions) and [create functions](/tutorials/p5js/creating-functions), how to [use variables](/tutorials/p5js/using-variables) and [create variables](/tutorials/p5js/creating-variables), and how to use [`if` statements](/tutorials/p5js/if-statements).
 
 You've seen that the `draw` function is called 60 times per second, and you know how to use operators like `+` and `-` to get new values.
 

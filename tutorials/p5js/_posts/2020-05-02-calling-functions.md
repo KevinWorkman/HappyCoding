@@ -84,7 +84,7 @@ For now, read the code line-by-line, like you would read a recipe. Think about w
 
 - `createCanvas(400, 400);` tells the computer to create a drawing canvas that's 400 pixels wide and 400 pixels high.
 - `background(220);` tells the computer to draw a gray background on the canvas.
-- `circle(200, 200, 300);` tells the computer to draw a circle with an `x` position of `200`, a `y` position of `100`, and a diameter of `300` pixels.
+- `circle(200, 200, 300);` tells the computer to draw a circle with an `x` position of `200`, a `y` position of `200`, and a diameter of `300` pixels.
 
 Try changing the parameters to see what happens. Can you make the circle bigger and smaller? Can you move the circle to the upper-left corner? The lower-right corner? Can you change the background color?
 
@@ -98,7 +98,7 @@ The reference might seem overwhelming, but let's walk through an example. Let's 
 
 With that goal, you can look at the p5.js reference and ask yourself, *"do any of these functions look like they might draw a rectangle?"* (Go ahead, try to find it!)
 
-Sure enough, the reference tells you that p5.js has a [`rect`](https://p5js.org/reference/#/p5/rect) function, and that it takes 4 parameters: an `x` and `y` position of the upper-left corner of the rectangle, and a `width` and a `height` specifying the size.
+Sure enough, the reference tells you there is a [p5.js `rect` function](https://p5js.org/reference/#/p5/rect) , and that it takes 4 parameters: an `x` and `y` position of the upper-left corner of the rectangle, and a `width` and a `height` specifying the size.
 
 Add a line of code to your sketch that calls the `rect` function, passing in values for those 4 parameters: 
 
@@ -221,7 +221,7 @@ function draw() {
 
 By the way, lines that start with `//` slashes are **comments**. These lines are ignored by the computer, but can make your code easier for a human to read!
 
-RGB colors work a little differently than physical colors that you might be familiar with if you've ever used watercolors or crayons. I don't want to get into all of the intricacies here, because it gets very complicated- color is a whole field of study! If you're curious, you can go down the Wikipedia rabbit hole starting with [this](https://en.wikipedia.org/wiki/RGB_color_model) article.
+RGB colors work a little differently than physical colors that you might be familiar with if you've ever used watercolors or crayons. I don't want to get into all of the intricacies here, because it gets very complicated- color is a whole field of study! If you're curious, you can go down the Wikipedia rabbit hole starting with the [RGB color model article](https://en.wikipedia.org/wiki/RGB_color_model).
 
 But for now, don't be afraid to experiment with the parameters to see how they interact, or search for [RGB color pickers](https://www.google.com/search?q=color+picker) to get the RGB values you need.
 
