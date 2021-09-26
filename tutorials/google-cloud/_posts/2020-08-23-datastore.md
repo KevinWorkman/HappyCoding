@@ -17,7 +17,7 @@ updated: 2020-08-23
 
 So far, you've used [App Engine](/tutorials/google-cloud/app-engine) to deploy a server. You've seen an example that uses servlets to generate content on the server with Java.
 
-This tutorial introduces [Datastore](https://cloud.google.com/appengine/docs/standard/java11/using-cloud-datastore). Like its name suggests, Datastore lets you store data on your server. More specifically, Datastore is a [NoSQL](https://en.wikipedia.org/wiki/NoSQL) database that allows you to store and load data using Java code.
+This tutorial introduces [Datastore](https://cloud.google.com/appengine/docs/standard/java11/using-cloud-datastore). Like its name suggests, Datastore lets you store data on your server. More specifically, Datastore is a [NoSQL](https://en.wikipedia.org/wiki/NoSQL) database that lets you store and load data using Java code.
 
 # Firestore in Datastore Mode
 
@@ -29,7 +29,7 @@ There was also a standalone Datastore library which has since been deprecated. T
 
 Before continuing, make sure you understand how `POST` requests work. If you're unfamiliar with `POST` requests, read the [POST requests](/tutorials/java-server/post) tutorial first!
 
-Let's start with an example webapp that uses POST requests to store data in an `ArrayList`. You can download this example project [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/shoutbox-v1).
+Let's start with an example webapp that uses POST requests to store data in an `ArrayList`. You can download this example project from [DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/shoutbox-v1).
 
 **index.html**
 
@@ -155,7 +155,7 @@ FullEntity messageEntity = Entity.newBuilder(keyFactory.newKey())
 
 An entity also has **properties**, similar to how a class can have variables. Each property is a **key** and a **value**. To set a property, you call the `set()` function.
 
-The code above adds two properties to the `myEntity` entity: `text` and `timestamp`. Property values can be String values, numbers, or timestamps. See [this guide](https://cloud.google.com/datastore/docs/concepts/entities#datastore-datastore-properties-java) to learn more about the types of values you can store in an entity.
+The code above adds two properties to the `myEntity` entity: `text` and `timestamp`. Property values can be String values, numbers, or timestamps. See the [Datastore guide](https://cloud.google.com/datastore/docs/concepts/entities#datastore-datastore-properties-java) to learn more about the types of values you can store in an entity.
 
 # Storing Entities
 
@@ -289,7 +289,7 @@ public class MessageServlet extends HttpServlet {
 }
 ```
 
-You can download this example project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
+You can download this example project from [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
 
 # Running Datastore Locally
 
@@ -302,7 +302,7 @@ com.google.cloud.datastore.DatastoreException: Unauthenticated.
 
 To fix this, you *could* set your authentication so you local code connects to your live server's Datastore, but chances are that's not what you really want to do.
 
-Instead, you probably want to run a local copy of Datastore, just like you run a local copy of your server. This allows you to test your code without worrying about breaking your live site.
+Instead, you probably want to run a local copy of Datastore, just like you run a local copy of your server. This lets you test your code without worrying about breaking your live site.
 
 Running a local copy of Datastore requires a few steps:
 
@@ -318,7 +318,7 @@ The `YOUR_PATH_HERE` part will be a random string of characters.
 
 Copy the `/tmp/tmp.YOUR_PATH_HERE/emulators/datastore` path.
 
-**Step 2:** In a different command line, follow the steps [here](https://cloud.google.com/datastore/docs/tools/datastore-emulator#setting_environment_variables) to set the environment variables that tell your server to connect to your local Datastore.
+**Step 2:** In a different command line, follow the steps on [Datastore docs](https://cloud.google.com/datastore/docs/tools/datastore-emulator#setting_environment_variables) to set the environment variables that tell your server to connect to your local Datastore.
 
 **Windows:**
 

@@ -119,7 +119,7 @@ onStop() was called. Changing config :false
 onDestroy() was called. Changing config :false
 ```
 
-There are actually even more lifecycle events, and you can check them out [here](https://developer.android.com/guide/components/activities/activity-lifecycle.html). You can read more about `Activity` class functions [here](https://developer.android.com/reference/android/app/Activity.html). But if all of this sounds complicated, don't worry: most activities will only have to override a couple of these functions.
+There are actually even more lifecycle events, and you can check them out [Life Cycle docs](https://developer.android.com/guide/components/activities/activity-lifecycle.html). You can read more about `Activity` class functions on the [Activity docs](https://developer.android.com/reference/android/app/Activity.html). But if all of this sounds complicated, don't worry: most activities will only have to override a couple of these functions.
 
 For example, a simple activity might just override the `onCreate()` function and none of the others. This is how the example apps we've already seen work. A more advanced activity might override the `onPause()` function to save some state and the `onResume()` function to load it. But for now, just know that you only have to override the `onCreate()` function and can figure out the rest as you need them.
 
@@ -234,13 +234,13 @@ The last thing we need to do is to declare the `ClickedScreenActivity` in the `A
 </manifest>
 ```
 
-Notice the `<activity android:name=".ClickedScreenActivity" />` line. This line tells our Android app about the new activity class, which allows us to use it in the code above. Also note that we could have set additional properties on this tag, but for simplicity we're just using a self-closing tag without any properties.
+Notice the `<activity android:name=".ClickedScreenActivity" />` line. This line tells our Android app about the new activity class, which lets us use it in the code above. Also note that we could have set additional properties on this tag, but for simplicity we're just using a self-closing tag without any properties.
 
 When you run this app, the main activity shows a button. When the user clicks the button, the app switches to another activity that shows a "You clicked the button" message. The user can go back to the main activity by pressing the back button.
 
 ## External Activities
 
-It's also possible to launch external activities, such as a browser or the camera app. To launch an activity, we have to create an `Intent` instance. How you do that depends on which external activity you want to launch, and you can find more information in [the documentation](https://developer.android.com/reference/android/content/Intent.html) for the `Intent` class.
+It's also possible to launch external activities, such as a browser or the camera app. To launch an activity, we have to create an `Intent` instance. How you do that depends on which external activity you want to launch, and you can find more information in [Intent documentation](https://developer.android.com/reference/android/content/Intent.html) for the `Intent` class.
 
 Here's an example that would launch a browser to everybody's favorite website:
 

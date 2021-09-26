@@ -194,7 +194,7 @@ Note that it's also possible to store your files directly in a database, but tha
 
 ## AWS S3
 
-Amazon Simple Storage Service (aka [AWS S3](https://aws.amazon.com/s3/)) is a file hosting service offered by Amazon. It allows you to store your files in Amazon's cloud, and it offers a Java library that makes uploading to S3 pretty easy.
+Amazon Simple Storage Service (aka [AWS S3](https://aws.amazon.com/s3/)) is a file hosting service offered by Amazon. It lets you store your files in Amazon's cloud, and it offers a Java library that makes uploading to S3 pretty easy.
 
 **Step 1:** Create an S3 bucket.
 

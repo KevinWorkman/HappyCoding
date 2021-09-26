@@ -165,7 +165,9 @@ Congratulations, you just wrote your first web app! :tada:
 
 ## Example Project
 
-So far, the whole web app is a single HTML file, but if it helps, you can see this example project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website), and you can download it as a `.zip` file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website).
+So far, the whole web app is a single HTML file, but if it helps, you can view and download this example project here:
+
+{% include url-thumbnail.html url="/examples/java-server/hello-world-static-website" %}
 
 # Root Web App
 
@@ -197,3 +199,7 @@ Also note that you can link between web apps, just like you can link between web
 # More Info
 
 - [This Stack Overflow answer](https://stackoverflow.com/a/51429767/873165) helped me understand the difference between `jetty-home` and `jetty-base`.
+
+# Examples
+
+{% include url-thumbnail.html url="/examples/java-server/hello-world-static-website" %}

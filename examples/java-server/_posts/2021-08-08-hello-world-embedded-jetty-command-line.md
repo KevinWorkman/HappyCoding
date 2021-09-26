@@ -3,7 +3,7 @@ layout: tutorial
 title: "Hello World: Embedded Jetty (Command Line)"
 thumbnail: /tutorials/java-server/images/jetty-setup-4.png
 tagline: Use the command line to run an embedded Jetty server.
-sort-key: 400
+sort-key: 130
 meta-title: "Hello World Server Example: Embedded Jetty (Command Line)"
 meta-description: Use the command line to run an embedded Jetty server.
 meta-image: /tutorials/java-server/images/jetty-setup-4.png

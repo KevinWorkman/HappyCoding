@@ -39,3 +39,31 @@ These examples build out a social feed website that shows a feed of updates from
 {% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-3-post-requests" %}
 {% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-4-sessions" %}
 {% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-5-thread-safety" %}
+
+---
+
+# JSP
+
+{% include url-thumbnail.html url="/examples/java-server/jsp-unix-time" %}
+{% include url-thumbnail.html url="/examples/java-server/jsp-date" %}
+{% include url-thumbnail.html url="/examples/java-server/jsp-coin-flipper" %}
+{% include url-thumbnail.html url="/examples/java-server/jsp-zoo" %}
+{% include url-thumbnail.html url="/examples/java-server/jsp-header" %}
+{% include url-thumbnail.html url="/examples/java-server/servlet-jsp-date" %}
+{% include url-thumbnail.html url="/examples/java-server/servlet-jsp-date-hidden" %}
+
+---
+
+# POST Requests
+
+{% include url-thumbnail.html url="/examples/java-server/post-name" %}
+{% include url-thumbnail.html url="/examples/java-server/post-name-list" %}
+{% include url-thumbnail.html url="/examples/java-server/post-name-list-jsp" %}
+{% include url-thumbnail.html url="/examples/java-server/post-name-list-fetch" %}
+{% include url-thumbnail.html url="/examples/java-server/user-input-unsanitized" %}
+
+---
+
+# Libraries
+
+{% include url-thumbnail.html url="/examples/java-server/user-input-escaped" %}

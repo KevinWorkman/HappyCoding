@@ -98,7 +98,7 @@ Now our directory would look like this:
     - mypackagetwo/
       - `MyClassTwo.class`
 
-Then we would run our `jar` command from inside the `bin` directory. This allows us to create a `.jar` file that just contains the `.class` files, not the source `.java` files. Putting it all together, it would look like this:
+Then we would run our `jar` command from inside the `bin` directory. This lets us create a `.jar` file that just contains the `.class` files, not the source `.java` files. Putting it all together, it would look like this:
 
 ```
 cd MyProject
@@ -154,7 +154,7 @@ This brings up the `Export` dialog. In that, expand the `Java` directory and cho
 - Choose `JAR file` if you want to create a library `.jar` file that doesn't run when you double-click it.
 - Choose `Runnable JAR file` if you want to create a runnable `.jar` file that executes your code when you double-click it.
 
-If you choose `Runnable JAR file`, the next screen allows you to specify several options:
+If you choose `Runnable JAR file`, the next screen lets you specify several options:
 
 ![Eclipse Runnable JAR File Export dialog](/tutorials/java/images/exporting-jars-4.png)
 

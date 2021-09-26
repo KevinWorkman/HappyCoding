@@ -3,7 +3,7 @@ layout: tutorial
 title: "Hello World: Command Line"
 thumbnail: /tutorials/java-server/images/java-ee-1.png
 tagline: Use the command line to run a server.
-sort-key: 200
+sort-key: 110
 meta-title: "Hello World Server Example: Command Line"
 meta-description: Use the command line to run a server.
 meta-image: /tutorials/java-server/images/servlets-7.png

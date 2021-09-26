@@ -3,7 +3,7 @@ layout: tutorial
 title: "Social Feed Website Part 1: Servlets"
 thumbnail: /examples/java-server/images/social-feed-website-part-1-servlets-3.png
 tagline: Use servlets to show user posts.
-sort-key: 1000
+sort-key: 200
 meta-title: "Social Feed Website Part 1: Servlets"
 meta-description: Use servlets to show user posts.
 meta-image: /examples/java-server/images/social-feed-website-part-1-servlets-4.png

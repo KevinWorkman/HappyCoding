@@ -82,7 +82,7 @@ The first step to figuring out how to use a library is to consult its documentat
 
 Start at the library's homepage and read through the guides. There's usually a "getting started" section that shows you how to load the library, and then more specific documentation on the library's individual classes, functions, and variables. Get a small "hello world" example working, and then work your way forward from there.
 
-When in doubt, Google and [the forum](https://forum.happycoding.io) are your friends!
+When in doubt, Google and the [Happy Coding Forum](https://forum.happycoding.io) are your friends!
 
 # Moment.js Hello World
 
@@ -233,4 +233,4 @@ These examples used specific libraries, but the general idea should apply to any
 # Homework
 
 - Take a closer look at the [p5.speech documentation](https://idmnyu.github.io/p5.js-speech/). Try out different pitches, speeds, and voices.
-- Try out some other libraries listed on the [P5.js libraries page](https://p5js.org/libraries/).
+- Try out some other libraries listed on the [p5.js libraries page](https://p5js.org/libraries/).

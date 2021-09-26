@@ -496,7 +496,7 @@ You should also know roughly how much memory or hard drive space your code will 
 
 A lof of my examples so far have been pretty heavy on theory, but you'll also encounter more practical questions as well. (This is especially true if you're applying for a specific role.)
 
-These depend heavily on the role, but for example if you're applying for a desktop application developer position, you can expect questions like *"Let's create a desktop application that allows a user to calculate their age in dog years."*
+These depend heavily on the role, but for example if you're applying for a desktop application developer position, you can expect questions like *"Let's create a desktop application that lets a user calculate their age in dog years."*
 
 The general process I outlined above still applies to this type of question: treat it as a conversation, ask questions, take ownership, and break it down into smaller steps. The main difference is that the focus here is on creating something that works (even if it's all on the whiteboard) rather than focusing on the theory.
 

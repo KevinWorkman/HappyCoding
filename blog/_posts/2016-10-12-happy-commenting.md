@@ -10,7 +10,7 @@ tags: [site-update]
 
 Blog posts now contain a comment section! Just scroll to the bottom to check it out!
 
-The comment section uses [the forum](http://forum.HappyCoding.io) to store and display comments. To leave a comment, just click the `Start Discussion` or `Continue Discussion` at the bottom of a blog post (like this one!). This will take you to the corresponding forum post, and any replies you post there will automagically show up in the comment section of the blog post. Neat!
+The comment section uses the [Happy Coding forum](http://forum.HappyCoding.io) to store and display comments. To leave a comment, just click the `Start Discussion` or `Continue Discussion` at the bottom of a blog post (like this one!). This will take you to the corresponding forum post, and any replies you post there will automagically show up in the comment section of the blog post. Neat!
 
 This does require registering for a (free) forum account, or you can just use Facebook, Twitter, or GitHub to login.
 

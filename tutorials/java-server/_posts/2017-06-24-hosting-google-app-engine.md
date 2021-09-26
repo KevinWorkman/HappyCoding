@@ -144,7 +144,7 @@ You want to add the `bin` directory inside the SDK folder to your `PATH` variabl
 
 ![PATH variable](/tutorials/java-server/images/hosting-google-app-engine-2.png)
 
-This allows you to use the SDK tools from the console!
+This lets you use the SDK tools from the console!
 
 ### The `appengine-web.xml` File
 

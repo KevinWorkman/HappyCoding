@@ -20,7 +20,7 @@ Behind the scenes, the way this works is through threading. You can read [this t
 
 - A thread is the thing that's running your code. (Behind the scenes it's using a `Thread` object which is just a standard Java class, and there's a lot more to it than that, but that's the most basic definition I could come up with.)
 - Code you've seen so far has mostly used one thread. Your functions are called one after the other, in order.
-- You can also use multiple threads, which allows you to run code *while other code is still running*.
+- You can also use multiple threads, which lets you run code *while other code is still running*.
 - Threads run **concurrently**, meaning that code running on two different threads runs **at the same time**. (It's more complicated than that, but that definition works for now.)
 
 Servlets use threads to handle multiple requests at the same time. For each request, a new thread is created, and the servlet function (like `doGet()` or `doPost()`) is called on that thread. And because the code is running on multiple threads, the requests are happening at the same time.
@@ -435,7 +435,7 @@ public class ListServlet extends HttpServlet {
 }
 ```
 
-This servlet contains an `ArrayList` of animals. The `doGet()` function renders those animals along with a form that allows the user to add an animal. The `doPost()` function simply adds the input animal to the list and then redirects back to the same page.
+This servlet contains an `ArrayList` of animals. The `doGet()` function renders those animals along with a form that lets the user add an animal. The `doPost()` function simply adds the input animal to the list and then redirects back to the same page.
 
 But like you might have guessed, this becomes more complicated if we're handling multiple requests at the same time. Try adding a new animal, and then opening a new tab while that first request is still being processed.
 
@@ -504,7 +504,7 @@ There are a bunch of different data structures designed to be thread-safe, but t
 
 This tutorial introduced the basics of thread-safety, some common issues you're likely to encounter, and some simple fixes for them. But threading (more formally, [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))) is a huge topic that can get very complicated. I want to keep this tutorial short (or at least not any longer than it already is), but in case you need them in the future, you should be aware that there are more advanced topics out there. Here are some examples:
 
-- We've just used `synchronized(this)`, but you can synchronize on any instance. Two synchronized blocks are only [mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusion) if they're synchronized on the same instance. This gives you more control over exactly which blocks can be executed on different threads. This also allows you to synchronized between servlets.
+- We've just used `synchronized(this)`, but you can synchronize on any instance. Two synchronized blocks are only [mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusion) if they're synchronized on the same instance. This gives you more control over exactly which blocks can be executed on different threads. This also lets you synchronize between servlets.
 
 - You can use the `wait()` function on one thread to pause code execution, until the `notify()` function is called on another thread. More info [here](https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html).
 

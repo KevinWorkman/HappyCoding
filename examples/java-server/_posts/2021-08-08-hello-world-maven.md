@@ -3,7 +3,7 @@ layout: tutorial
 title: "Hello World: Maven"
 thumbnail: /tutorials/java-server/images/java-ee-1.png
 tagline: Use Maven to build a web app.
-sort-key: 300
+sort-key: 120
 meta-title: "Hello World Server Example: Maven"
 meta-description: Use Maven to build a web app.
 meta-image: /tutorials/java-server/images/servlets-7.png

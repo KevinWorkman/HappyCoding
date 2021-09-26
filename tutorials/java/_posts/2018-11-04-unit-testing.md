@@ -109,7 +109,7 @@ public class ThingAdderTest {
 
 When we run JUnit, JUnit will run each of these test functions. **Notice that each test function only tests one thing!**
 
-Writing tests also allows us to test our own assumptions. For example, maybe we expected that overflow started over at 0 instead of at the minimum value. In that case, our test would have failed, and we would have been able to make the necessary change in our code.
+Writing tests also lets us test our own assumptions. For example, maybe we expected that overflow started over at 0 instead of at the minimum value. In that case, our test would have failed, and we would have been able to make the necessary change in our code.
 
 Even with this simple example, we could probably add more tests: checking that a mix of positive and negative numbers works how we expect, checking that adding zero works how we expect, or checking that multiple calls to the addThings() function works how we expect. **You'll often end up writing more test code than "real" code!**
 
@@ -121,7 +121,7 @@ Notice that each of our test functions starts with the same line of code:
 ThingAdder thingAdder = new ThingAdder();
 ```
 
-We can get rid of this duplication using the `@Before` annotation. Like its name suggests, any functions with this annotation will be run before each test function. This allows us to move repeated initialization code from the test functions into a setup function:
+We can get rid of this duplication using the `@Before` annotation. Like its name suggests, any functions with this annotation will be run before each test function. This lets us move repeated initialization code from the test functions into a setup function:
 
 ```java
 import org.junit.Assert;

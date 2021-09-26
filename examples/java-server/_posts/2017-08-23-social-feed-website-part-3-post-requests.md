@@ -3,7 +3,7 @@ layout: tutorial
 title: "Social Feed Website Part 3: Post Requests"
 thumbnail: /examples/java-server/images/social-feed-website-part-3-post-requests-3.png
 tagline: Let users create their own posts.
-sort-key: 1200
+sort-key: 220
 meta-title: "Social Feed Website Part 3: Post Requests"
 meta-description: Let users create their own posts.
 meta-image: /examples/java-server/images/social-feed-website-part-3-post-requests-4.png
@@ -83,7 +83,7 @@ Now our JSP page contains a form:
 </html>
 ```
 
-Notice the New Message form towards the top of the HTML. This allows a user to enter their name and a message to post. We're using Bootstrap to style our form. When the user clicks the `Send` button, the `doPost()` function of our servlet class is triggered:
+Notice the New Message form towards the top of the HTML. This lets a user enter their name and a message to post. We're using Bootstrap to style our form. When the user clicks the `Send` button, the `doPost()` function of our servlet class is triggered:
 
 ```java
 import java.io.IOException;

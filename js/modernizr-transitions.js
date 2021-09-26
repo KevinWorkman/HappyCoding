@@ -448,7 +448,7 @@
 
     if (parseInt(nodes, 10)) {
       // In order not to give false positives we create a node for each test
-      // This also allows the method to scale for unspecified uses
+      // This also lets the method scale for unspecified uses
       while (nodes--) {
         node = createElement('div');
         node.id = testnames ? testnames[nodes] : mod + (nodes + 1);
@@ -500,7 +500,7 @@
   ;
 
   /**
-   * nativeTestProps allows for us to use native feature detection functionality if available.
+   * nativeTestProps lets us use native feature detection functionality if available.
    * some prefixed form, or false, in the case of an unsupported rule
    *
    * @access private

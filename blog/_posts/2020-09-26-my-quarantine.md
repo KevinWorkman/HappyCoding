@@ -4,7 +4,7 @@ title: My Quarantine
 meta-title: My Quarantine
 meta-description: Some notes on the first six months of quarantine.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
-updated: 2021-07-31
+updated: 2021-09-11
 tags: [personal, favorite]
 ---
 
@@ -115,7 +115,7 @@ The parks and trails near me start getting way more crowded, and I feel a little
 
 Another thing I notice on my runs is that the local fire department turned the Shoreline Amphitheater parking lot into a safe space for people who live in RVs. These RVs had been camped around parks with public bathrooms and running water, and when those got shut down, they had nowhere else to go. This parking lot full of RVs and porta potties is right across the street from the construction of [Google's newest building](http://www.heatherwick.com/projects/buildings/google-mountainview/).
 
-I participated in Ludum Dare. Check out my game [here](/gallery/the-next-generation-ld-46/index).
+I participated in Ludum Dare. Check out my [The Next Generation](/gallery/the-next-generation-ld-46/index)game .
 
 I spent a ton of time playing with [spirals](/gallery/spirals/index).
 
@@ -509,7 +509,7 @@ I notice that the local dive bar is open again. I guess this means that the "sec
 
 *February 5, parking lot tree*s
 
-Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [This article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
+Side note: I pay such little attention to the news that I had to remind myself of when the lockdowns actually happened so I could backfill some of this post. [This abc7 news article](https://abc7news.com/timeline-of-coronavirus-us-covid-19-bay-area-sf/6047519/) is a good summary.
 
 ![mask sign](/blog/images/my-quarantine/2021-02-07.jpg)
 
@@ -797,4 +797,98 @@ I agree with a lot of this thread / interview, but I admit to spending way too m
 
 *July 25: Omelette summing up all of our quarantine feelings*
 
+![park entrance](/blog/images/my-quarantine/2021-07-26.jpg)
+
+*July 26: found a new park*
+
 Google [announces](https://blog.google/inside-google/company-announcements/vaccines-and-our-return-to-office-plans/) that vaccinations will be required for anybody returning to the office, which will now happen in October. I'm a little surprised to find out how many anti-vaxxers there are inside the company.
+
+![park sign](/blog/images/my-quarantine/2021-07-29.jpg)
+
+*July 29: the park is where the ♥ is*
+
+# August
+
+I help teach a week-long p5.js class for [Seizing Every Opportunity](https://www.seo-usa.org/) through [Upperline Code](https://www.upperlinecode.com/). It's on east coast time so I have to wake up at 5 AM every day, but watching my co-teacher do her thing is truly inspiring. "Shout out to K-Dubz for being the goat" is going to sustain me for a long time. Very selfishly, being able to do this kind of thing remotely is a little bit of a silver lining to, y'know, the end of the world.
+
+For the last few weeks, the rule has been that you no longer have to wear a mask if you're vaccinated. It felt like we were maybe on the other side of it. But then the rule goes back to everybody needing to wear a mask, even if you're vaccinated.
+
+![masks required](/blog/images/my-quarantine/2021-08-04.jpg)
+
+*August 4: masks required*
+
+I get why this is happening, and I even *agree* with why it's happening. But I admit that it feels a little like something is being taken away from me. I get why people are frustrated that "the rules keep changing" even though I also understand why the rules are changing.
+
+![masks required](/blog/images/my-quarantine/2021-08-14-01.jpg)
+
+*August 14: masks required*
+
+During the window when things started to feel normal, a bunch of bands started touring. Half of them start on the west coast, so they all come through at the same time. I go to more concerts in two weeks than I've gone to in the past two years.
+
+I'm a little uncertain, mostly because I don't know what the *right* thing to do is. Am I being a jerk by going to these concerts? I'm still not sure.
+
+All of the concerts require either proof of vaccination or a negative test. This is the kind of thing I was expecting to see more on my road trip, so I'm glad it's finally in place. I want them to go a step further and only accept negative tests from people who have a valid reason to not get vaccinated, but we'll see.
+
+![vaccination policy](/blog/images/my-quarantine/2021-08-14-02.jpg)
+
+*August 14: vaccination policy*
+
+But man, singing along with a crowd and holding hands with a rando sure is nice.
+
+![Trampled by Turtles](/blog/images/my-quarantine/2021-08-14-03.jpg)
+
+*August 14: Trampled by Turtles*
+
+![negative covid test](/blog/images/my-quarantine/2021-08-15.jpg)
+
+*August 15: negative covid test*
+
+I go backpacking with an old friend. It's truly great to catch up.
+
+![lake](/blog/images/my-quarantine/2021-08-16-01.jpg)
+
+*August 16: lake*
+
+![wildfire warning system](/blog/images/my-quarantine/2021-08-16-02.jpg)
+
+*August 16: wildfire warning system*
+
+Over the past year or so, I've been sporadically trying to convince an extremist anti-vaxxer on facebook that the virus is not a liberal hoax and that the vaccine is not a government plot. I want to believe that if I appeal to empathy and cast myself as a member of their in-group, they'll eventually see reason. But really all I succeed in doing is frustrating myself and spending way too much time thinking about it. So I give up and block them. I still think about it way too much though.
+
+![stay safe play safe](/blog/images/my-quarantine/2021-08-18.jpg)
+
+*August 18: stay safe play safe*
+
+I got a new job back in June, but because my old building is being renovated and I'm working from home, my desk has been in limbo. I finally get a new desk assignment in my new building, and I go in to check it out. It's just for a few minutes on a Sunday, but it's still a little surreal to be back in the office after 524 days.
+
+![welcome back](/blog/images/my-quarantine/2021-08-22-01.jpg)
+
+*August 22: welcome back*
+
+![welcome back](/blog/images/my-quarantine/2021-08-22-02.jpg)
+
+*August 22: some subtle social commentary*
+
+![lego Spider-Man](/blog/images/my-quarantine/2021-08-22-03.jpg)
+
+*August 22: my Lego people survived the move*
+
+![Lost Dog Street Band](/blog/images/my-quarantine/2021-08-26.jpg)
+
+*August 26: Lost Dog Street Band*
+
+![homeless camp](/blog/images/my-quarantine/2021-08-27-01.jpg)
+
+*August 27: homeless camp in Santa Cruz*
+
+![Tejon Street Corner Thieves](/blog/images/my-quarantine/2021-08-27-02.jpg)
+
+*August 27: Tejon Street Corner Thieves*
+
+I'm pleasantly surprised that most people are social distancing and wearing masks at the indoor concerts. The extreme differences in social norms has been one of the most interesting things about this past 18 months.
+
+![Amigo the Devil](/blog/images/my-quarantine/2021-08-27-03.jpg)
+
+*August 27: picture of a guy taking a picture of Amigo the Devil*
+
+Oh, Google pushes their return to office date back to January. We'll see.

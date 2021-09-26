@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Enter some input:</h1>
+    <form action="/user-input-escaped/form" method="POST">
+      <input type="text" name="data" value="<h1>oh no</h1>">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

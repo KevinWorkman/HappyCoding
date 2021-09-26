@@ -18,7 +18,7 @@ So far, we've learned how to use `POST` requests to allow users to submit data, 
 
 Datastore is great for storing basic data like strings or numbers, but it does not support storing **binary data**, aka files. To store files, we can use another Google Cloud API called **Blobstore**.
 
-[Blobstore](https://cloud.google.com/appengine/docs/standard/java/blobstore/) allows us to store [blobs](https://en.wikipedia.org/wiki/Binary_large_object) (**B**inary **L**arge **OB**jects), which is just a nerdy way to say "file". For example, we can use Blobstore to allow users to upload images or videos.
+[Blobstore](https://cloud.google.com/appengine/docs/standard/java/blobstore/) lets us store [blobs](https://en.wikipedia.org/wiki/Binary_large_object) (**B**inary **L**arge **OB**jects), which is just a nerdy way to say "file". For example, we can use Blobstore to allow users to upload images or videos.
 
 # File Uploads
 
@@ -282,7 +282,7 @@ Let's start by looking at the HTML, specifically the `<form>` element:
 </form>
 ```
 
-The `<form>` element has an ID that allows us to access it from JavaScript, and a class that allows us to hide it using CSS. We set its `method` and `enctype` like you might expect, but we **do not** set its `action`! The `action` needs to be the Blobstore upload URL, which we need to fetch from the server.
+The `<form>` element has an ID that lets us access it from JavaScript, and a class that lets us hide it using CSS. We set its `method` and `enctype` like you might expect, but we **do not** set its `action`! The `action` needs to be the Blobstore upload URL, which we need to fetch from the server.
 
 We do that in this JavaScript function:
 
