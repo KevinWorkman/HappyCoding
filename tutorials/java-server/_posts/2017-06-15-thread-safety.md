@@ -504,7 +504,7 @@ There are a bunch of different data structures designed to be thread-safe, but t
 
 This tutorial introduced the basics of thread-safety, some common issues you're likely to encounter, and some simple fixes for them. But threading (more formally, [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))) is a huge topic that can get very complicated. I want to keep this tutorial short (or at least not any longer than it already is), but in case you need them in the future, you should be aware that there are more advanced topics out there. Here are some examples:
 
-- We've just used `synchronized(this)`, but you can synchronize on any instance. Two synchronized blocks are only [mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusion) if they're synchronized on the same instance. This gives you more control over exactly which blocks can be executed on different threads. This also lets you synchronized between servlets.
+- We've just used `synchronized(this)`, but you can synchronize on any instance. Two synchronized blocks are only [mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusion) if they're synchronized on the same instance. This gives you more control over exactly which blocks can be executed on different threads. This also lets you synchronize between servlets.
 
 - You can use the `wait()` function on one thread to pause code execution, until the `notify()` function is called on another thread. More info [here](https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html).
 
