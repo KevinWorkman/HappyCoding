@@ -116,7 +116,7 @@ If you're planning on creating a poster, you might consider ordering a few 8x10 
 
 Now that you have the ability to print and ship your art through Printful, you need an online store that connects you to customers. [Etsy](https://www.etsy.com/) is a website that allows creators to sell their arts and crafts to customers.
 
-[Register for an Etsy account](https://www.etsy.com/join). This allows you to act as a customer on Etsy, and if you haven't used it before I recommend searching around to get a feel for it.
+[Register for an Etsy account](https://www.etsy.com/join). This lets you act as a customer on Etsy, and if you haven't used it before I recommend searching around to get a feel for it.
 
 To sell your art, [create an Esty store](https://www.etsy.com/sell).
 

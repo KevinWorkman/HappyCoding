@@ -18,7 +18,7 @@ Obviously that's not going to work for real web applications, which are updated 
 
 Using what you've learned so far, you might start thinking about storing your data in a file. For example, you could read from the file at startup, and write to it whenever your data changes. That might work, but it makes it harder to update your server, and many server hosts don't even give you access to the underlying file system! You'll also run into a problem if your data takes up more memory than your server has. That's a hard problem to try to solve yourself.
 
-That's where databases come in handy. A database allows you to store your data separately from your main server code, instead of storing all of it in memory or in a file that you manage yourself.
+That's where databases come in handy. A database lets you store your data separately from your main server code, instead of storing all of it in memory or in a file that you manage yourself.
 
 To learn more about databases, let's start with the simple stuff and work our way up from there.
 
@@ -158,7 +158,7 @@ Now that we know what a database is, let's actually create one.
 You can think of creating a database as three things:
 
 - The physical storage. The data has to go somewhere: either on your local harddrive or in a service like [Amazon RDS](https://aws.amazon.com/rds/) or [Google Cloud Sql](https://cloud.google.com/sql/).
-- A driver (which is just a Java library) that allows you to interact with the database. Each database generally has its own `.jar` file that you need to download to use the database from Java.
+- A driver (which is just a Java library) that lets you interact with the database. Each database generally has its own `.jar` file that you need to download to use the database from Java.
 - Code that creates tables, modifies rows in those tables, and fetches data. You usually use [SQL](https://en.wikipedia.org/wiki/SQL) to interact with a database.
 
 Just to test things out, let's create a [Derby](https://db.apache.org/derby/) database. Derby is just a regular database that's easy to use on your local computer. I like to use Derby to test things out locally before signing up for a real database.
@@ -504,13 +504,13 @@ Let's walk through that process for two different database services.
 
 ## AWS Relational Database Service
 
-Like its name suggests, AWS RDS (relational database service) is part of [Amazon Web Services](https://aws.amazon.com/) and provides a database service. In other words, it allows you to host a database in the Amazon cloud. To set up an AWS RDS database:
+Like its name suggests, AWS RDS (relational database service) is part of [Amazon Web Services](https://aws.amazon.com/) and provides a database service. In other words, it lets you host a database in the Amazon cloud. To set up an AWS RDS database:
 
 - Login to the [RDS dashboard](https://console.aws.amazon.com/rds/home).
 - Click the `Get Started Now` button. 
 - That takes you to a tab where you can select the type of database you want. Any of these will work, but for now just choose `MySQL`.
 - The next step asks you whether this is a production database. In the future you'll want to choose production, but for now let's choose the `dev/test` option because it's cheaper.
-- The next step allows you to specify database settings. The default settings are probably fine, and you can specify whatever database name, username, and password you want.
+- The next step lets you specify database settings. The default settings are probably fine, and you can specify whatever database name, username, and password you want.
 - The final step offers advanced settings. The default settings are fine, but note the backup settings here. Backups are a life saver if something bad ever happens to your database. You can also set that up later.
 - Finally, click the `Launch DB Instance` button!
 
@@ -548,7 +548,7 @@ The rest of the code is identical to the code we used with our local Derby datab
 
 ## Google Cloud SQL
 
-Like its name suggests, Google Cloud SQL is part of [Google Cloud Platform](https://cloud.google.com/) and provides a database service. In other words, it allows you to host a database in the Google cloud. To set up a Google Cloud SQL database:
+Like its name suggests, Google Cloud SQL is part of [Google Cloud Platform](https://cloud.google.com/) and provides a database service. In other words, it lets you host a database in the Google cloud. To set up a Google Cloud SQL database:
 
 - Go to the [Cloud SQL](https://cloud.google.com/sql/) dashboard.
 - Click the `TRY IT FREE` button. 

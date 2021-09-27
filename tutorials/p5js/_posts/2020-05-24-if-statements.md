@@ -15,7 +15,7 @@ nextPost: /tutorials/p5js/animation
 
 {% include toc.md %}
 
-Now you know how to [call functions](/tutorials/p5js/calling-function), [use variables](/tutorials/p5js/using-variables), and create your own [variables](/tutorials/p5js/creating-variables) and [functions](/tutorials/p5js/creating-functions).
+Now you know how to [call functions](/tutorials/p5js/calling-function), [use variables](/tutorials/p5js/using-variables), and [create variables](/tutorials/p5js/creating-variables) and [creating functions](/tutorials/p5js/creating-functions).
 
 Most values and variables you've seen so far have been numbers. This tutorial introduces the idea of a *boolean*, which can only hold two possible values: `true` or `false`. This tutorial also introduces **if statements**, which allow you to perform different actions depending on the value of a boolean.
 
@@ -110,7 +110,7 @@ First this code takes the opposite of the `canSwim` and `canFly` variables to cr
 
 (If this bothers you because it doesn't account for animals like bats, beavers, and dolphins... check out the homework!)
 
-There is a [whole field of study](https://en.wikipedia.org/wiki/Boolean_algebra) devoted to boolean logic, so check that out if it sounds interesting. But for now, keep in mind that boolean values contain `true` or `false`, and you can use operators like `&&`, `||`, and `!` on them.
+There is a whole field of study devoted to [boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra), so check that out if it sounds interesting. But for now, keep in mind that boolean values contain `true` or `false`, and you can use operators like `&&`, `||`, and `!` on them.
 
 # If Statements
 
@@ -360,4 +360,4 @@ Try changing `volume` to `0` to see what happens!
 
 - Expand the `boolean` example to work for more animals. Write a `showAnimalType` function that takes a set of `boolean` parameters (as many as you want!) and shows a message that explains whether the animal is a mammal, bird, reptile, amphibian, or fish. How would you represent a bat (which can fly but isn't a bird) or a penguin (which can't fly but is a bird)? If you want an advanced challenge, do a google search for "animal identification key" for some handy guides.
 - Write a greeting program that shows a different message depending on what time of day it is (morning, afternoon, evening, or night).
-- Create a program that uses `boolean` logic to determine the outcome of a flowchart like [this one](https://xkcd.com/210/). If you want an advanced challenge, try [this one](https://xkcd.com/1688/)!
+- Create a program that uses `boolean` logic to determine the outcome of a flowchart like this [xkcd comic flowchart](https://xkcd.com/210/). If you want an advanced challenge, try this [xkcd advance flowchart](https://xkcd.com/1688/)!
