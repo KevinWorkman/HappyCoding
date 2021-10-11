@@ -5,9 +5,9 @@ title: "Contact Me"
 
 I love talking about coding and learning about programming, so don't hesitate to reach out! I'd love to hear from you!
 
-### [Forum](http://forum.HappyCoding.io)
+### [Forum](https://forum.HappyCoding.io)
 
-The best way to reach me is by posting on [forum.HappyCoding.io](http://forum.HappyCoding.io). 
+The best way to reach me is by posting on [forum.HappyCoding.io](http://forum.HappyCoding.io).
 
 <hr/>
 
@@ -19,13 +19,7 @@ The best way to reach me is by posting on [forum.HappyCoding.io](http://forum.Ha
 
 ### [Twitter](https://twitter.com/KevinAWorkman)
 
-I'm on Twitter [here](https://twitter.com/KevinAWorkman).
-
-<hr />
-
-### [Facebook](http://www.facebook.com/HappyCoding.io)
-
-Happy Coding is also on [Facebook](http://www.facebook.com/HappyCoding.io), although Facebook doesn't always make it easy for pages to reply to user messages. But feel free to like the page if you want to keep up with us and see random stuff that I think is neat! :crocodile:
+I'm on Twitter at [@KevinAWorkman](https://twitter.com/KevinAWorkman).
 
 <hr />
 

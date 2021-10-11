@@ -21,7 +21,7 @@ For example, Bootstrap makes it easy to create a nice interactive [navigation ba
 
 ```html
 <nav class="navbar navbar-default transition">
-			
+
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
       <span class="icon-bar"></span>
@@ -39,15 +39,14 @@ For example, Bootstrap makes it easy to create a nice interactive [navigation ba
       <li class="nav-item"><a class="nav-link random-color transition" href="/teaching">Teaching</a></li>
       <li class="nav-item"><a class="nav-link random-color transition" href="http://forum.HappyCoding.io">Forum</a></li>
     </ul>
-					
+
     <ul class="nav navbar-nav navbar-right">
       <li class="nav-item nav-img"><a style="" class="nav-link" href="https://twitter.com/KevinAWorkman"><img id="twitter-img" src="/images/twitter-black.png" /></a></li>
-      <li class="nav-item nav-img"><a style="" class="nav-link" href="https://www.facebook.com/HappyCoding.io/"><img id="facebook-img" src="/images/facebook-black.png" /></a></li>
       <li class="nav-item nav-img"><a style="padding-top:14px; padding-bottom:14px;" class="nav-link" href="https://github.com/KevinWorkman/HappyCoding"><img id="github-img" src="/images/GitHub-Mark-32px.png" /></a></li>
       <li class="nav-item"><a class="nav-link"><span class="glyphicon glyphicon-adjust" aria-label="Toggle Theme" onclick="toggleTheme()"></span></a></li>
     </ul>
   </div>
-</nav> 				
+</nav>
 ```
 
 This is the code for the previous version of the navigation bar.
@@ -63,13 +62,13 @@ And here's what the code for the navigation bar looks like after I remove Bootst
   <a class="nav-link random-color transition" href="/about">About</a>
   <a class="nav-link random-color transition" href="/teaching">Teaching</a>
   <a class="nav-link random-color transition" href="http://forum.HappyCoding.io">Forum</a>
-      
+
   <a class="nav-link" href="https://twitter.com/KevinAWorkman">
     <img class="nav-img" src="/images/twitter.png" /></a>
   <a class="nav-link" href="https://www.facebook.com/HappyCoding.io/">
     <img class="nav-img" src="/images/facebook.png" /></a>
   <a class="nav-link" href="https://github.com/KevinWorkman/HappyCoding">
-    <img class="nav-img" src="/images/GitHub-Mark-32px.png" /></a>				
+    <img class="nav-img" src="/images/GitHub-Mark-32px.png" /></a>
 </nav>
 ```
 
@@ -81,7 +80,7 @@ Although they're purposely ridiculous, I actually find a lot of inspiration in [
 
 > What I'm saying is that all the problems we have with websites are **ones we create ourselves**.
 >
-> \- [this website](http://motherfuckingwebsite.com/) 
+> \- [this website](http://motherfuckingwebsite.com/)
 
 I've said before that I'm a big fan of the [worse is better](https://blog.codinghorror.com/worse-is-better/) philosophy, and I think these websites are a good practical example of that philosophy in action.
 

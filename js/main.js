@@ -46,19 +46,15 @@ function setRandomSocialLink() {
   let src;
   let alt;
   const r = Math.random();
-  if (r < .2) {
+  if (r < .25) {
     alt = 'twitter';
     href = 'https://twitter.com/KevinAWorkman';
     src = '/images/twitter.png';
-  } else if (r < .4) {
-    alt = 'facebook';
-    href = 'http://www.facebook.com/HappyCoding.io';
-    src = '/images/facebook.png';
-  } else if (r < .6) {
+  } else if (r < .5) {
     alt = 'github';
     href = 'https://github.com/KevinWorkman/HappyCoding';
     src = '/images/GitHub-Mark-32px.png';
-  } else if (r < .8) {
+  } else if (r < .75) {
     alt = 'etsy';
     href = 'https://www.etsy.com/shop/HappyCoding';
     src = '/images/etsy.png';

@@ -9,7 +9,7 @@ Many people have asked me how to learn how to program, or how to build an app, o
 
 I'm going to fill this website with tutorials, example code, and ideas to get you started learning how to program. If you already know how to program, then hopefully this site is a useful reference.
 
-I'm also hoping to build a community of people who want to talk about learning how to code or programming in general at [forum.HappyCoding.io](http://forum.happycoding.io) 
+I'm also hoping to build a community of people who want to talk about learning how to code or programming in general at [forum.HappyCoding.io](http://forum.happycoding.io)
 
 <hr/>
 
@@ -17,7 +17,7 @@ I'm also hoping to build a community of people who want to talk about learning h
 
 The best thing to do is post something on [the forum](http://forum.happycoding.io/).
 
-You can also find me on [twitter](https://twitter.com/KevinAWorkman) and [facebook](http://www.facebook.com/HappyCoding.io).
+You can also find me on [twitter](https://twitter.com/KevinAWorkman).
 
 This entire site is [hosted on GitHub](https://github.com/KevinWorkman/HappyCoding), so you can also submit issues there.
 
