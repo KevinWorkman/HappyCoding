@@ -8,3 +8,4 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-feed
