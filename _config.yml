@@ -4,6 +4,9 @@ future: true
 kramdown:
   syntax_highlighter: rouge
 permalink: /:categories/:slug
+description: >
+  Happy Coding is a collection of coding tutorials, examples, and blog posts,
+  as well as a community of folks coding and learning together!
 plugins:
   - jemoji
   - jekyll-sitemap
