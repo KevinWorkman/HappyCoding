@@ -6,7 +6,7 @@
     <title>Happy Coding</title>
 {%- else -%}
     <title>{{ page.title }} - Happy Coding</title>
-{%- endif %} 
+{%- endif %}
 
 {% include meta.html %}
 
@@ -27,7 +27,7 @@
   <body>
     <div class="container">
       <nav>
-        <a class="navbar-home" href="/">Happy Coding</a>          
+        <a class="navbar-home" href="/">Happy Coding</a>
         <div class="nav-links">
           <a class="nav-link" href="/tutorials">Tutorials</a>
           <a class="nav-link" href="/examples">Examples</a>
@@ -44,9 +44,9 @@
 
       <div class="left-nav-and-content">
   {% include left-nav.html %}
-  
+
         <div class="content">
-  
+
   {%- assign breadcrumb = page.url | split: '/' -%}
   {%- unless breadcrumb.size < 3 %}
     {% assign breadcrumbUrl = "" -%}
@@ -55,21 +55,21 @@
         {%- assign breadcrumbUrl = breadcrumbUrl
             | append: "/" | append: section %}
         {% include post-url.html url=breadcrumbUrl -%}
-        {%- unless forloop.last %} / {% endunless -%} 
+        {%- unless forloop.last %} / {% endunless -%}
       {%- endunless -%}
     {%- endfor %}
         <hr/>
   {%- endunless -%}
-  
+
   {% include previous-next-links.html %}
-  
+
   {{ content }}
-  
+
   {% include previous-next-links.html bottom=true %}
-  
+
         </div> <!-- end content -->
       </div> <!-- end left-nav-and-content -->
-  
+
       <footer>
         <a href="https://twitter.com/KevinAWorkman">
           <img class="footer-img" src="/images/twitter.png" alt="twitter" /></a>
@@ -78,13 +78,10 @@
         <a href="https://www.etsy.com/shop/HappyCoding">
           <img class="footer-img" src="/images/etsy.png" alt="etsy" /></a>
         <a href="https://youtube.com/kevinaworkman">
-          <img class="footer-img" src="/images/youtube.png" alt="youtube" /></a>	
+          <img class="footer-img" src="/images/youtube.png" alt="youtube" /></a>
+        <a href="/feed.xml">
+          <img class="footer-img" src="/images/rss.png" alt="RSS" /></a>
 
-        <p><a href="http://HappyCoding.io">HappyCoding.io</a> is on
-          <a href="https://github.com/KevinWorkman/HappyCoding">GitHub</a>,
-          and you can follow me on <a href="https://twitter.com/KevinAWorkman">Twitter</a>.
-          Please don't hesitate to
-          <a href="/about/contact.html">contact me</a>!</p>
         <p>Question? Request? Just want to talk about coding? Come say hi on
           <a href="http://forum.happycoding.io/">forum.HappyCoding.io</a>!</p>
         <p><a href="/license.html">HappyCoding.io is open source.</a> -

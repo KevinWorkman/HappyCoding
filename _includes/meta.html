@@ -31,6 +31,8 @@
     <meta name="description" content="{{page.meta-description}}">
 {%- endif %}
 
+    {% feed_meta %}
+
 {%- if page.url == "/404" %}
     <meta name="robots" content="noindex" />
 {%- endif %}
