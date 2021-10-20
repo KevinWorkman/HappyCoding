@@ -12,6 +12,10 @@ includeP5jsWidget: true
 previousPost: /examples/p5js/
 ---
 
+{% include youtube-embed.html slug="Jw0uZD-_HZY" %}
+
+---
+
 This example uses [parallax scrolling](https://en.wikipedia.org/wiki/Parallax_scrolling) to show three layers of colorful dots. Move your mouse around the canvas to see the effect.
 
 {% include p5js-widget.html width=400 height=400 %}
