@@ -21,6 +21,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/pig" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/arcs" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/pumpkin" %}
+{% include url-thumbnail.html url="/examples/p5js/calling-functions/jack-o-lantern" %}
 
 ---
 
