@@ -58,6 +58,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/animation/bouncing-line" %}
 {% include url-thumbnail.html url="/examples/p5js/animation/pumpkin-patch" %}
 {% include url-thumbnail.html url="/examples/p5js/animation/flickering-jack-o-lantern" %}
+{% include url-thumbnail.html url="/examples/p5js/animation/random-skulls" %}
 
 ---
 
