@@ -102,6 +102,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/popping-circles" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/ant-colony" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-classes/campfire" %}
+{% include url-thumbnail.html url="/examples/p5js/creating-classes/ghosts" %}
 
 ---
 
