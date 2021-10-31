@@ -38,6 +38,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/creating-variables/pumpkin" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-variables/random-pumpkin" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-variables/random-skull" %}
+{% include url-thumbnail.html url="/examples/p5js/creating-variables/typography" %}
 
 ---
 
