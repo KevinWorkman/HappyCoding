@@ -12,6 +12,10 @@ includeP5jsWidget: true
 previousPost: /examples/p5js/
 ---
 
+{% include youtube-embed.html slug="OMShh4NE24Q" %}
+
+---
+
 This sketch calls the `loadFont()` function to load a custom font, which you can use to style your text.
 
 {% include p5js-widget.html width=400 height=400 %}
