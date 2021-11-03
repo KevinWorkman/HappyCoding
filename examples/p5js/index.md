@@ -113,6 +113,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/images/genuary-19" %}
 {% include url-thumbnail.html url="/examples/p5js/images/image-filter" %}
 {% include url-thumbnail.html url="/examples/p5js/images/image-palette" %}
+{% include url-thumbnail.html url="/examples/p5js/images/image-blender" %}
 
 ---
 
