@@ -14,6 +14,8 @@ This code uses the [Minim](http://code.compartmental.net/tools/minim/) library t
 
 I use this as the Happy Coding "theme song" that plays at the beginning of [Happy Coding videos](https://www.youtube.com/user/kevinaworkman)!
 
+{% include youtube-embed.html slug="YYVARbW8iJ8" %}
+
 ```java
 import ddf.minim.Minim;
 import ddf.minim.AudioOutput;
