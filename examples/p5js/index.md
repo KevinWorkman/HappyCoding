@@ -29,6 +29,7 @@ sort-key: 400
 # Using Variables
 
 {% include url-thumbnail.html url="/examples/p5js/using-variables/curved-grid" %}
+{% include url-thumbnail.html url="/examples/p5js/using-variables/spider" %}
 
 ---
 
