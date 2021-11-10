@@ -59,6 +59,8 @@ function draw() {
 }
 </script>
 
+[Edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/ieWefdCXp)
+
 ![oscillating lines](/examples/p5js/arrays/images/oscillating-lines-2.gif)
 
 # Remix Ideas
