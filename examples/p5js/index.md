@@ -87,6 +87,7 @@ sort-key: 400
 
 {% include url-thumbnail.html url="/examples/p5js/arrays/falling-points" %}
 {% include url-thumbnail.html url="/examples/p5js/arrays/oscillating-lines" %}
+{% include url-thumbnail.html url="/examples/p5js/arrays/fading-grid" %}
 
 ---
 
