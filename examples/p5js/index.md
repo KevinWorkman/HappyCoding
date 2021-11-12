@@ -118,6 +118,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/images/image-palette" %}
 {% include url-thumbnail.html url="/examples/p5js/images/image-blender" %}
 {% include url-thumbnail.html url="/examples/p5js/images/image-tiles" %}
+{% include url-thumbnail.html url="/examples/p5js/images/pixel-painter" %}
 
 ---
 
