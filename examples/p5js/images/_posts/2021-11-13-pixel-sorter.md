@@ -15,22 +15,10 @@ previousPost: /examples/p5js/
 This sketch sorts the pixels in an image, so that lighter pixels float to the top and darker pixels sink to the bottom.
 
 ```
-// This sketch rearranges the pixels in an image,
-// creating an animation where dark pixels fall.
-
-// Try changing the code so pixels move left and right,
-// or rearrange pixels based on different rules.
-
 let img;
 
 function preload() {
   img = loadImage("images/bee.jpg");
-
-  // Click the > menu to the left and look in
-  // the images directory for more images to try!
-  // Or upload your own image!
-  // URLs also work, like this:
-  // img = loadImage('https://upload.wikimedia.org/wikipedia/commons/6/69/June_odd-eyed-cat_cropped.jpg');
 }
 
 function setup() {
@@ -63,6 +51,7 @@ function sortPixels() {
 
   // Get the color of the pixel.
   const colorOne = img.get(x, y);
+
   // Get the color of the pixel below the first one.
   const colorTwo = img.get(x, y + 1);
 
