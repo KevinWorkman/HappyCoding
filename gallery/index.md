@@ -16,6 +16,7 @@ Here are various projects I've worked on. They use the concepts from the [tutori
 {% include url-thumbnail.html url="/gallery/run-map/index" %}
 {% include url-thumbnail.html url="/gallery/spirals/index" %}
 {% include url-thumbnail.html url="/gallery/music/index" %}
+{% include url-thumbnail.html url="/gallery/46-million-turkeys" %}
 
 # Ludum Dare
 
