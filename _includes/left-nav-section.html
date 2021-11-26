@@ -8,11 +8,13 @@
     </summary>
     <ul>
     {%- assign posts = site.posts | sort: 'sort-key' -%}
-    {%- for post in posts  -%}
-    {% if post.url contains include.url %}
-      <li>{%- include left-nav-link.html url=post.url -%}</li>
-    {%- endif -%}
-  {% endfor %}
-</ul>
+      {%- for post in posts  -%}
+        {% if post.url contains include.url %}
+          {% unless post.ignoreLeftNav %}
+            <li>{%- include left-nav-link.html url=post.url -%}</li>
+          {% endunless %}
+        {%- endif -%}
+      {% endfor %}
+    </ul>
   </details>
 </li>

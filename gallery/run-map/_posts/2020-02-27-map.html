@@ -1,4 +1,5 @@
 ---
+ignoreLeftNav: true
 ---
 {% if site.data.local-keys.google-api-key %}
   {% assign key = site.data.local-keys.google-api-key %}
@@ -17,11 +18,11 @@
     let currentRunLine;
     let allRunLines;
     let showingAllRuns = true;
-  
+
     async function createMap(){
       runs = await (await fetch('runs.json')).json();
       runIndex = runs.length - 1;
-  
+
       map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 37.422, lng: -122.084},
         zoom: 16,
@@ -30,7 +31,7 @@
 
       let totalDistance = 0;
       let totalDuration = 0;
-  
+
       allRunLines = runs.map((run) => {
         totalDistance += parseFloat(run.distance);
         totalDuration += run.durationSeconds;
@@ -49,7 +50,7 @@
 
       totalDistance = totalDistance.toFixed(2) + ' km';
       totalDuration = new Date(1000 * totalDuration);
-      totalDuration = 
+      totalDuration =
           (totalDuration.getDate() * 24 +
           totalDuration.getHours()) + ':' +
           totalDuration.getMinutes();
@@ -60,12 +61,12 @@
           totalDuration;
 
       document.getElementById('run-stats-total').innerHTML = totalContent;
-  
+
       // lazy way of zooming to the most recent run
       showCurrentRun()
       showAllRuns();
     }
-  
+
     function getMapStyle() {
       return [{"elementType": "geometry",
           "stylers": [{"color": "#212121"}]},
