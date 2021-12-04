@@ -8,6 +8,10 @@ meta-image: /examples/javascript/images/washington-dc-tour-2.png
 sort-key: 200
 ---
 
+# If Statements
+
+{% include url-thumbnail.html url="/examples/javascript/feeding-the-ducks" %}
+
 # JavaScript Examples
 
 {% include url-thumbnail.html url="/examples/javascript/etsy-listings" %}
@@ -17,7 +21,6 @@ sort-key: 200
 
 {% include url-thumbnail.html url="/examples/javascript/simple-weather-map" %}
 {% include url-thumbnail.html url="/examples/javascript/washington-dc-tour" %}
-
 
 # Bootstrap Examples
 
