@@ -10,7 +10,7 @@ sort-key: 200
 
 # If Statements
 
-{% include url-thumbnail.html url="/examples/javascript/feeding-the-ducks" %}
+{% include url-thumbnail.html url="/examples/javascript/feed-the-ducks" %}
 
 # JavaScript Examples
 
