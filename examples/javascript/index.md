@@ -12,6 +12,10 @@ sort-key: 200
 
 {% include url-thumbnail.html url="/examples/javascript/feed-the-ducks" %}
 
+# For Loops
+
+{% include url-thumbnail.html url="/examples/javascript/twelve-days-of-christmas" %}
+
 # JavaScript Examples
 
 {% include url-thumbnail.html url="/examples/javascript/etsy-listings" %}
