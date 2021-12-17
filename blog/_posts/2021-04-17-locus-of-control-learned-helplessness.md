@@ -42,7 +42,7 @@ or
 
 This is fodder for a separate blog post, but realizing that I had agency and even a responsibility to advocate for my ideas is one of the most important lessons I learned on my journey to becoming a "senior" software engineer.
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">I keep thinking about how our approach to &quot;there&#39;s so much I don&#39;t know&quot; changes over time.<br><br>Junior: Panic!<br><br>Dev: I can teach myself anything!<br><br>Senior: I can delegate to other people!<br><br>Mentor: What does this knowledge gap mean about our culture? How can I help other people? <a href="https://t.co/FpdANuklNl">https://t.co/FpdANuklNl</a></p>&mdash; Kevin Workman (@KevinAWorkman) <a href="https://twitter.com/KevinAWorkman/status/1338176281691652096?ref_src=twsrc%5Etfw">December 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">I keep thinking about how our approach to &quot;there&#39;s so much I don&#39;t know&quot; changes over time.<br><br>Junior: Panic!<br><br>Dev: I can teach myself anything!<br><br>Senior: I can delegate to other people!<br><br>Mentor: What does this knowledge gap mean about our culture? How can I help other people? <a href="https://t.co/FpdANuklNl">https://t.co/FpdANuklNl</a></p>&mdash; Kevin Workman (@TheKevinWorkman) <a href="https://twitter.com/TheKevinWorkman/status/1338176281691652096?ref_src=twsrc%5Etfw">December 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Learned Helplessness
 

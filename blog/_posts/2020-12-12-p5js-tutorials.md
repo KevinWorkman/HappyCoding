@@ -35,7 +35,7 @@ I've used the p5.js editor for my own coding, and for [CC Fest](http://ccfest.ro
 
 # p5.js Tutorials
 
-With all of that in mind, [earlier this year](https://twitter.com/KevinAWorkman/status/1257507624972546048), I started writing the new and improved [p5.js tutorials](/tutorials/p5js). These new p5.js tutorials are designed for folks who are completely new to coding, and you don't have to know Processing or anything else to understand them.
+With all of that in mind, [earlier this year](https://twitter.com/TheKevinWorkman/status/1257507624972546048), I started writing the new and improved [p5.js tutorials](/tutorials/p5js). These new p5.js tutorials are designed for folks who are completely new to coding, and you don't have to know Processing or anything else to understand them.
 
 From start to finish this took me about 6 months, although a couple of those months were spent updating the [Google Cloud tutorials](https://happycoding.io/blog/google-cloud-java-11). I didn't really [plan](/blog/happy-new-year-2020) to spend that much time on this, but I do think it's an important piece of [what Happy Coding is supposed to be](/blog/what-is-happy-coding), so I'm glad I did.
 

@@ -17,9 +17,9 @@ The best way to reach me is by posting on [forum.HappyCoding.io](http://forum.Ha
 
 <hr />
 
-### [Twitter](https://twitter.com/KevinAWorkman)
+### [Twitter](https://twitter.com/TheKevinWorkman)
 
-I'm on Twitter at [@KevinAWorkman](https://twitter.com/KevinAWorkman).
+I'm on Twitter at [@TheKevinWorkman](https://twitter.com/TheKevinWorkman).
 
 <hr />
 

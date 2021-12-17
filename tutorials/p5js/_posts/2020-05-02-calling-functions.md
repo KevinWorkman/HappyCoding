@@ -245,7 +245,7 @@ You now know what it feels like to be a programmer, because you **are** a progra
 
 One of my favorite things about the p5.js editor is how easy it is to share your work. When you have a sketch that you're happy with, click the `File` menu, and then select `Share` from the menu. In the dialog that pops up, copy the `Present` link. Send that link so other folks can see your work!
 
-I love seeing what other people are working on! Feel free to send me a link on [Twitter](https://twitter.com/KevinAWorkman) or on [the HappyCoding.io forum](https://forum.happycoding.io)!
+I love seeing what other people are working on! Feel free to send me a link on [Twitter](https://twitter.com/TheKevinWorkman) or on [the HappyCoding.io forum](https://forum.happycoding.io)!
 
 # Homework
 

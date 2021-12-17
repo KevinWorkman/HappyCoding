@@ -48,7 +48,7 @@ function setRandomSocialLink() {
   const r = Math.random();
   if (r < .25) {
     alt = 'twitter';
-    href = 'https://twitter.com/KevinAWorkman';
+    href = 'https://twitter.com/TheKevinWorkman';
     src = '/images/twitter.png';
   } else if (r < .5) {
     alt = 'github';
@@ -60,7 +60,7 @@ function setRandomSocialLink() {
     src = '/images/etsy.png';
   } else {
     alt = 'youtube';
-    href = 'https://youtube.com/kevinaworkman';
+    href = 'https://youtube.com/TheKevinWorkman';
     src = '/images/youtube.png';
   }
 

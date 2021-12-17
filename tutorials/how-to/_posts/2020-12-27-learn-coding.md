@@ -18,7 +18,7 @@ This guide is my attempt at answering some of those questions. It's a meta-guide
 
 # Share Your Work
 
-I'm personally very motivated by being able to share the stuff I create. That's part of why I started Happy Coding, and I also post my work on [Twitter](https://twitter.com/KevinAWorkman/media) and [Etsy](https://www.etsy.com/shop/HappyCoding). So before you start diving into code, take a second to think about where you want to document your journey.
+I'm personally very motivated by being able to share the stuff I create. That's part of why I started Happy Coding, and I also post my work on [Twitter](https://twitter.com/TheKevinWorkman/media) and [Etsy](https://www.etsy.com/shop/HappyCoding). So before you start diving into code, take a second to think about where you want to document your journey.
 
 This could be posting screenshots of your work on social media. Or you could create a [GitHub profile README](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme) or use [GitHub Pages](https://pages.github.com/) to create a portfolio page. You could also start by [learning HTML](/tutorials/html) and creating your own website.
 

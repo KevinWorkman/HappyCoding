@@ -102,7 +102,7 @@ define: timelapse
 xkcd scared all the time
 ```
 
-I googled 80 things this weekend, ranging from fundamental concepts, to syntax quirks, to error messages. You can see me get distracted by going down a rabbit hole of updating Jekyll, which ended up improving my build time by [100x](https://twitter.com/KevinAWorkman/status/1229188608222887937)! I also spent a couple hours debugging the layout on mobile devices, which ended up being an existing problem caused by a single line of CSS on the blog homepage. And just to be meta, I've included what I searched while writing this post.
+I googled 80 things this weekend, ranging from fundamental concepts, to syntax quirks, to error messages. You can see me get distracted by going down a rabbit hole of updating Jekyll, which ended up improving my build time by [100x](https://twitter.com/TheKevinWorkman/status/1229188608222887937)! I also spent a couple hours debugging the layout on mobile devices, which ended up being an existing problem caused by a single line of CSS on the blog homepage. And just to be meta, I've included what I searched while writing this post.
 
 In the name of demystifying this process, I want to point out that I do the same kind of research at my job. I've been programming for almost 15 years, I've been a "software engineer" for over 11 years, and I'm currently the TL of a frontend team at Google. But I still have to google every time I want to align two divs. So if you feel like you have to research everything, or like you encounter errors every 5 minutes, don't worry- that's normal!
 

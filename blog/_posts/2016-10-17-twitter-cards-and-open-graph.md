@@ -36,8 +36,8 @@ For example, Twitter uses [Twitter Cards](https://dev.twitter.com/cards/overview
 
 ```html
 <meta property="twitter:url" content="http://HappyCoding.io/blog/twitter-cards-and-open-graph" />
-<meta name="twitter:site" content="@KevinAWorkman">
-<meta name="twitter:creator" content="@KevinAWorkman">
+<meta name="twitter:site" content="@TheKevinWorkman">
+<meta name="twitter:creator" content="@TheKevinWorkman">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="http://HappyCoding.io/examples/processing/creating-classes/images/flyers-4.png" />
 <meta name="twitter:title" content="Twitter Cards and Open Graph">

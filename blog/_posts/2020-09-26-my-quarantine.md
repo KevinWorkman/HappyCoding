@@ -105,7 +105,7 @@ Companies start sending out "thoughtful brand" emails. I get an email from a hot
 
 My job also sends out a bunch of emails telling us how much our mental health matters. Management laughs when I suggest we should stop obsessing over launching new features as quickly as possible.
 
-On April 11, [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) died from COVID-19. Some thoughts [here](https://twitter.com/KevinAWorkman/status/1249082837103345664).
+On April 11, [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) died from COVID-19. Some thoughts [here](https://twitter.com/TheKevinWorkman/status/1249082837103345664).
 
 The parks and trails near me start getting way more crowded, and I feel a little defensive about this. I've been [running](/gallery/run-map/index) along these paths since last year when it was dark and raining! How dare these smiling families crowd me out of my own routes! Of course this is ridiculous. I keep changing my running path to get further away from people. Who knew that being antisocial would have fitness benefits?
 
@@ -165,7 +165,7 @@ On May 25th, George Floyd was killed by a police officer who kneeled on his neck
 
 # June
 
-I spent most of June feeling a compulsion to seek out videos of police violence and repost them to [Twitter](https://twitter.com/KevinAWorkman/status/1267157021574361089) and Facebook. Originally, I wanted to show my mostly white Facebook friends that there was more to the protests than what they were seeing, or at least that's what I told myself. But it quickly turned into something else, something less healthy, where I'd spend a good chunk of my day scrolling through Twitter to find the next horrifying video. That might have been my own reaction to helplessness. Some more thoughts [here](https://happycoding.io/blog/black-lives-matter-to-me).
+I spent most of June feeling a compulsion to seek out videos of police violence and repost them to [Twitter](https://twitter.com/TheKevinWorkman/status/1267157021574361089) and Facebook. Originally, I wanted to show my mostly white Facebook friends that there was more to the protests than what they were seeing, or at least that's what I told myself. But it quickly turned into something else, something less healthy, where I'd spend a good chunk of my day scrolling through Twitter to find the next horrifying video. That might have been my own reaction to helplessness. Some more thoughts [here](https://happycoding.io/blog/black-lives-matter-to-me).
 
 ![Black Lives Matter protest](/blog/images/my-quarantine/2020-06-05.jpg)
 
@@ -191,7 +191,7 @@ On my daily walks, my turnaround point is at a house with a dog that's always la
 
 # July
 
-I [started](https://twitter.com/KevinAWorkman/status/1279196831155539971) playing with [music visualizations](https://happycoding.io/gallery/music/index). It was cool to get retweets from Trampled by Turtles and [Just Jack](https://twitter.com/JustJackMusic/status/1285249803220328448). No love from Taylor Swift though.
+I [started](https://twitter.com/TheKevinWorkman/status/1279196831155539971) playing with [music visualizations](https://happycoding.io/gallery/music/index). It was cool to get retweets from Trampled by Turtles and [Just Jack](https://twitter.com/JustJackMusic/status/1285249803220328448). No love from Taylor Swift though.
 
 ![Stanley on the porch](/blog/images/my-quarantine/2020-07-03.jpg)
 
@@ -203,7 +203,7 @@ Maia died. I noticed she wasn't in her yard for a few days, and then I saw a lit
 
 *July 4, my quarantine garden*
 
-I spend some time driving around my hometown in [Google Maps](https://twitter.com/KevinAWorkman/status/1288974060873949185). Is this what being homesick feels like?
+I spend some time driving around my hometown in [Google Maps](https://twitter.com/TheKevinWorkman/status/1288974060873949185). Is this what being homesick feels like?
 
 My job announces that "voluntary" working from home will continue until June 30th, 2021. That means I'm going to be quarantining for at least another year. Meanwhile when I talk to people back in Pennsylvania, it's like nothing has changed for them. It's like we're living in two completely different realities.
 
@@ -225,7 +225,7 @@ I see my first [shadow person](https://en.wikipedia.org/wiki/Shadow_person) sinc
 
 I start playing with combining multiple videos. Here's [Batman](https://www.youtube.com/watch?v=hnlZCphXIew) and [Star Trek](https://www.youtube.com/watch?v=r7Z8b4GQrA4). I started this mostly to see what it would look like, and it turns out the answer is pretty creepy.
 
-Wildfire season starts. At first it's just prettier sunsets and a constant smell of campfires, but it quickly turns into surreal skies that are [really hard to take pictures of](https://twitter.com/KevinAWorkman/status/1304432052486303744).
+Wildfire season starts. At first it's just prettier sunsets and a constant smell of campfires, but it quickly turns into surreal skies that are [really hard to take pictures of](https://twitter.com/TheKevinWorkman/status/1304432052486303744).
 
 ![wildfire sunset](/blog/images/my-quarantine/2020-08-13.jpg)
 
@@ -467,7 +467,7 @@ I also recognize a tendency in myself to feel like I don't quite deserve to have
 
 Like I mentioned a year ago, I tend to react to stress by taking more on. So in the weeks following Stanley's death, I have a sense of, not quite energy, but resigned productivity. Like if I stop moving for too long, I'll fall into something and never come out of it.
 
-So during this time I do a lot of things I had been putting off: I start a [YouTube channel](https://youtube.com/kevinaworkman), I [visualize Sonic the Hedgehog](https://twitter.com/KevinAWorkman/status/1366079476333862914), I participate in [#genuary](http://localhost:4000/tags/?tag=genuary), I sign up for online dating, and I put out [34 coding examples](https://twitter.com/KevinAWorkman/status/1356125457565896705) in January alone. By themselves these should be fun things, but I recognize it as a sorta manic coping mechanism. But at least some of the projects look cool.
+So during this time I do a lot of things I had been putting off: I start a [YouTube channel](https://youtube.com/TheKevinWorkman), I [visualize Sonic the Hedgehog](https://twitter.com/TheKevinWorkman/status/1366079476333862914), I participate in [#genuary](http://localhost:4000/tags/?tag=genuary), I sign up for online dating, and I put out [34 coding examples](https://twitter.com/TheKevinWorkman/status/1356125457565896705) in January alone. By themselves these should be fun things, but I recognize it as a sorta manic coping mechanism. But at least some of the projects look cool.
 
 [![bonsai tree](/examples/p5js/creating-classes/images/bonsai-tree-7.gif)](/examples/p5js/creating-classes/bonsai-tree)
 

@@ -12,7 +12,7 @@ sort-key: 1420
 
 This code uses the [Minim](http://code.compartmental.net/tools/minim/) library to play and record random notes.
 
-I use this as the Happy Coding "theme song" that plays at the beginning of [Happy Coding videos](https://www.youtube.com/user/kevinaworkman)!
+I use this as the Happy Coding "theme song" that plays at the beginning of [Happy Coding videos](https://www.youtube.com/user/TheKevinWorkman)!
 
 {% include youtube-embed.html slug="YYVARbW8iJ8" %}
 

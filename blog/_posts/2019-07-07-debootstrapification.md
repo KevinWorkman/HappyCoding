@@ -41,7 +41,7 @@ For example, Bootstrap makes it easy to create a nice interactive [navigation ba
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
-      <li class="nav-item nav-img"><a style="" class="nav-link" href="https://twitter.com/KevinAWorkman"><img id="twitter-img" src="/images/twitter-black.png" /></a></li>
+      <li class="nav-item nav-img"><a style="" class="nav-link" href="https://twitter.com/TheKevinWorkman"><img id="twitter-img" src="/images/twitter-black.png" /></a></li>
       <li class="nav-item nav-img"><a style="padding-top:14px; padding-bottom:14px;" class="nav-link" href="https://github.com/KevinWorkman/HappyCoding"><img id="github-img" src="/images/GitHub-Mark-32px.png" /></a></li>
       <li class="nav-item"><a class="nav-link"><span class="glyphicon glyphicon-adjust" aria-label="Toggle Theme" onclick="toggleTheme()"></span></a></li>
     </ul>
@@ -63,7 +63,7 @@ And here's what the code for the navigation bar looks like after I remove Bootst
   <a class="nav-link random-color transition" href="/teaching">Teaching</a>
   <a class="nav-link random-color transition" href="http://forum.HappyCoding.io">Forum</a>
 
-  <a class="nav-link" href="https://twitter.com/KevinAWorkman">
+  <a class="nav-link" href="https://twitter.com/TheKevinWorkman">
     <img class="nav-img" src="/images/twitter.png" /></a>
   <a class="nav-link" href="https://www.facebook.com/HappyCoding.io/">
     <img class="nav-img" src="/images/facebook.png" /></a>

@@ -14,7 +14,7 @@ Right in the middle of that two weeks was [Ludum Dare](http://ludumdare.com/comp
 
 But I didn't have a computer or even a reliable internet connection, so surely I couldn't enter... right?
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seriously considering doing <a href="https://twitter.com/ludumdare">@ludumdare</a> on a 5 year old phone, no internet, in middle of moving to California. Somebody talk sense into me!</p>&mdash; Kevin Workman (@KevinAWorkman) <a href="https://twitter.com/KevinAWorkman/status/807351235477061632">December 9, 2016</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seriously considering doing <a href="https://twitter.com/ludumdare">@ludumdare</a> on a 5 year old phone, no internet, in middle of moving to California. Somebody talk sense into me!</p>&mdash; Kevin Workman (@TheKevinWorkman) <a href="https://twitter.com/TheKevinWorkman/status/807351235477061632">December 9, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 And, well, that's exactly what I did. This blog posts explains "the process" I went through in case anybody is interested.
