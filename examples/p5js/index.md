@@ -97,6 +97,7 @@ sort-key: 400
 
 {% include url-thumbnail.html url="/examples/p5js/using-objects/year-percent" %}
 {% include url-thumbnail.html url="/examples/p5js/using-objects/numbers-station" %}
+{% include url-thumbnail.html url="/examples/p5js/using-objects/accumulating-snow" %}
 
 ---
 
