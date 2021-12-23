@@ -14,13 +14,13 @@
 {% endfor %}
 {% assign pageCount = lineCount | divided_by: 43 | plus: 1  %}
  {
-  "title": "{{ post.title }}",
+  "title": {{ post.title | jsonify }},
   "categories": {{ post.categories | jsonify }},
-  "url": "{{ post.url }}",
-  "thumbnail": "{{ post.thumbnail }}",
-  "tagline": "{{ post.tagline }}",
+  "url": {{ post.url | jsonify }},
+  "thumbnail": {{ post.thumbnail | jsonify }},
+  "tagline": {{ post.tagline | jsonify }},
   "tags": {{ post.tags | jsonify }},
-  "date": "{{ post.date }}",
+  "date": {{ post.date | jsonify }},
   "printedPages": {{ pageCount }}
  }{% unless forloop.last %},{% endunless %}
 {% endfor %}
