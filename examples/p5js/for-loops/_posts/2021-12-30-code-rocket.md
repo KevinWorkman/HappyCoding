@@ -8,7 +8,7 @@ meta-title: p5.js Example - Code Rocket
 meta-description: Make a rocket from the whitespace in your code.
 meta-image: /examples/p5js/for-loops/images/code-rocket-1.png
 tags: [example, p5.js, javascript, for-loops]
-includeP5jsWidget: true
+includeP5jsWidget: false
 previousPost: /examples/p5js/
 ---
 
