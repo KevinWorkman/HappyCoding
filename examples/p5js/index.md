@@ -56,6 +56,8 @@ sort-key: 400
 
 {% include url-thumbnail.html url="/examples/p5js/if-statements/greetings" %}
 
+---
+
 # Animation
 
 {% include url-thumbnail.html url="/examples/p5js/animation/random-lines" %}
@@ -75,6 +77,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/input/clickable-text" %}
 {% include url-thumbnail.html url="/examples/p5js/input/mouse-ripple" %}
 {% include url-thumbnail.html url="/examples/p5js/input/grouchy-face" %}
+{% include url-thumbnail.html url="/examples/p5js/input/warmer-colder" %}
 
 ---
 
