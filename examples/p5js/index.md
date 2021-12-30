@@ -82,6 +82,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/for-loops/flower-grid" %}
 {% include url-thumbnail.html url="/examples/p5js/for-loops/spooky-text" %}
 {% include url-thumbnail.html url="/examples/p5js/for-loops/menorah" %}
+{% include url-thumbnail.html url="/examples/p5js/for-loops/code-rocket" %}
 
 ---
 
