@@ -52,6 +52,10 @@ sort-key: 400
 
 ---
 
+# If Statements
+
+{% include url-thumbnail.html url="/examples/p5js/if-statements/greetings" %}
+
 # Animation
 
 {% include url-thumbnail.html url="/examples/p5js/animation/random-lines" %}
