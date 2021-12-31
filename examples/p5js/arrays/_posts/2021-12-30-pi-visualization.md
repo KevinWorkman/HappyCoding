@@ -4,7 +4,7 @@ title: Pi Visualization
 thumbnail: /examples/p5js/arrays/images/pi-visualization-1.png
 tagline: Visualize the first million digits of pi.
 sort-key: 840
-meta-title: Pi Visualization - p5.js 2D Array Example
+meta-title: Pi Visualization - p5.js Example
 meta-description: Visualize the first million digits of pi.
 meta-image: /examples/p5js/arrays/images/pi-visualization-1.png
 tags: [example, p5.js, javascript, arrays]
