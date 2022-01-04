@@ -892,3 +892,109 @@ I'm pleasantly surprised that most people are social distancing and wearing mask
 *August 27: picture of a guy taking a picture of Amigo the Devil*
 
 Oh, Google pushes their return to office date back to January. We'll see.
+
+# September
+
+![parents / guardians not allowed](/blog/images/my-quarantine/2021-09-03.jpg)
+
+*September 3: parents / guardians not allowed*
+
+![gritty](/blog/images/my-quarantine/2021-09-05-01.jpg)
+
+*September 5: Gritty at Google*
+
+I vote no on the [ridiculous California recall election](https://en.wikipedia.org/wiki/2021_California_gubernatorial_recall_election).
+
+![Android statue](/blog/images/my-quarantine/2021-09-05-02.jpg)
+
+*September 5: vaccinated Android*
+
+![have you completed your symptom tracker today](/blog/images/my-quarantine/2021-09-06.jpg)
+
+*September 6: have you completed your symptom tracker today?*
+
+Sometime in September, I start to feel pretty grouchy. The past few months have been mostly fine, but for some reason I start hitting a wall. Maybe the excitement of Liz and Shawn visiting, camping, starting a new job, and going to concerts is starting to wear off. Maybe the little bit of normalcy back in August was just enough to remind me of what I'm missing. Or maybe it's from 18 months of watching big tech companies pat themselves on the back while tearing society apart, or the fact that [billionaires profited from covid while the world around them burned](https://twitter.com/Public_Citizen/status/1437509328534134785). But for whatever reason, I find myself feeling pretty angry most of the time.
+
+![happy fall](/blog/images/my-quarantine/2021-09-13.jpg)
+
+*September 13: happy fall*
+
+![suicide prevention rock](/blog/images/my-quarantine/2021-09-18.jpg)
+
+*September 18: suicide prevention rock*
+
+![pylons](/blog/images/my-quarantine/2021-09-20.jpg)
+
+*September 20: pylons are cool*
+
+I interview for an adjunct professor role at the college I graduated from, and I get the job! This has been a dream / goal of mine for a long time now, and I don't think it would have happened without Covid. Working from home and virtual classes are part of "the new normal" now, which makes it possible for me to teach a class in Pennsylvania from California between meetings at my day job.
+
+![cat](/blog/images/my-quarantine/2021-09-25.jpg)
+
+*September 25: I visit this cat almost every day*
+
+# October
+
+I take a road trip down to LA, ostensibly for a music festival, but more to get out of my neighborhood and to see a few people. Orange County is a weird mix of a beach town run by old conservatives, so it's a little pocket of anti-masking nonsense. But the people at the festival seem relatively reasonable, but it's still very weird to see a ton of people packed in together.
+
+![mask or no mask- it's your choice](/blog/images/my-quarantine/2021-10-01-01.jpg)
+
+*October 1: usually vegan restaurants have a little more intelligence and empathy than this, but apparently not in Orange County*
+
+![ohana](/blog/images/my-quarantine/2021-10-02.jpg)
+
+*October 2: Ohana*
+
+![wear your mask](/blog/images/my-quarantine/2021-10-03-02.jpg)
+
+*October 3: seriously, just wear your mask*
+
+![beach](/blog/images/my-quarantine/2021-10-04.jpg)
+
+*October 4: beach*
+
+![help others](/blog/images/my-quarantine/2021-10-13.jpg)
+
+*October 13: help others*
+
+I've become increasingly infuriated over facebook's role in disinformation and radicalizing the alt-right, so I [delete the Happy Coding facebook page](/blog/deleting-facebook), and I start thinking about deleting my personal page as well. This begins a long and weirdly emotional process of uploading years of old pictures to my own photo page, which adds a layer of melancholy to my baseline anger of the past month or so.
+
+![if you touch it, please take it](/blog/images/my-quarantine/2021-10-15.jpg)
+
+*October 15: if you touch it, please take it*
+
+![take some fruit](/blog/images/my-quarantine/2021-10-16-01.jpg)
+
+*October 16: take some fruit*
+
+![masks are required](/blog/images/my-quarantine/2021-10-16-02.jpg)
+
+*October 16: masks are required*
+
+![sidewalk art](/blog/images/my-quarantine/2021-10-16-03.jpg)
+
+*October 16: sidewalk art*
+
+![test verification](/blog/images/my-quarantine/2021-10-22.jpg)
+
+*October 22: covid-19 vaccine or test verification
+
+# November
+
+It probably wasn't a great idea to start watching The Handmaid's Tale 19 months into a quarantine that's at this point mostly caused by right-wing selfishness, but sometimes you have to lean into it.
+
+![please wear a mask](/blog/images/my-quarantine/2021-11-05.jpg)
+
+*November 5: please wear a mask*
+
+![free vaccines](/blog/images/my-quarantine/2021-11-07.jpg)
+
+*November 7: free vaccines*
+
+As I write this blog and reflect on the past couple years, I can see and feel myself becoming radicalized. Before quarantine, I would have probably told you I was a pretty liberal guy who was against most forms of groupthink, including affiliation with political parties. I would have probably called myself a technological optimist, and I would have seen a lot of value in reaching out to people who don't think like I do. Now I'm pretty convinced that capitalism is evil, that the police should be defunded and abolished, and that a large percentage of the country (world?) has been so brainwashed by social media and 24 hour news channels that I don't see much hope in ever reaching them.
+
+![discarded mask](/blog/images/my-quarantine/2021-11-20.jpg)
+
+*November 20: discarded mask*
+
+I'm having trouble finding what to say in these. After almost 2 years, I think maybe we're at "the new normal" that was mentioned so often at the beginning. These monthly entries have turned into my personal diary entries rather than a record of my experience during covid-19, because maybe my experience during covid-19 is just my everyday life now.
