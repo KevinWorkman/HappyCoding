@@ -176,6 +176,10 @@ p, li {
   font-size: 1.1em;
 }
 
+#markdown-toc li, #left-nav li {
+  font-size: initial;
+}
+
 a {
   transition: color 1s;
   color: #0000ee;
