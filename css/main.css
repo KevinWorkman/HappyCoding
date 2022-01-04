@@ -172,7 +172,7 @@ nav {
   display: none;
 }
 
-p {
+p, li {
   font-size: 1.1em;
 }
 
@@ -248,7 +248,7 @@ code {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  
+
 }
 
 .intro-tut {
@@ -256,7 +256,7 @@ code {
   width: 205px;
   height: 300px;
   border: thin solid black;
-  margin: 5px;  
+  margin: 5px;
   padding: 5px;
   vertical-align: top;
 }
