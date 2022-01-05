@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teaching with Happy Coding
+title: Teaching
 meta-title: Teaching with HappyCoding.io
 meta-description: Ideas for using Happy Coding in a classroom.
 meta-image: /teaching/guides/images/teaching-1.png
@@ -8,15 +8,17 @@ meta-image: /teaching/guides/images/teaching-1.png
 
 # Teaching
 
-I absolutely LOVE hearing from teachers using Happy Coding's content in their classrooms. I originally wrote the tutorials with self-learners in mind, but I think they're pretty adaptable to a classroom environment as well.
-
-Specifically, I'd recommend using [the tutorials](/tutorials) as lecture material, then using [the examples](/examples) as lab and homework assignments.
-
 Happy Coding starts with the fundamentals of coding designed for folks who have never seen code before, and leads to advanced topics like server-side coding and Android development. So no matter what you're teaching, I hope there's something here you can use.
 
-I'm not a teacher myself, but I have some experience with online mentorship, writing a curriculum, and presenting workshops through things like Google's [Software Product Sprint](https://buildyourfuture.withgoogle.com/programs/softwareproductsprint/) and [STEP internship](https://buildyourfuture.withgoogle.com/programs/step/), as well as [CC Fest](http://ccfest.rocks/).
+# Intro to Web Dev
 
-With all of that said, the articles below break down the different ways you might use Happy Coding in different kinds of classrooms and contexts.
+I'm currently building an Into to Web Dev course that I'm going to teach in spring 2022.
+
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev/" %}
+
+# General Guides
+
+These articles below break down the different ways you might use Happy Coding in different kinds of classrooms and contexts.
 
 <div class="thumbnail-link-container" style="max-width:650px; margin:auto;">
 {% include url-thumbnail.html url="/teaching/guides/hour" %}
