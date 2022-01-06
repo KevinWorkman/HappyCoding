@@ -21,6 +21,10 @@ This guide is designed for computers that let you install programs and download 
 
 If you have a computer that doesn't let you install programs and download files (like a Chromebook), or if you're using a shared computer, work through the Replit setup guide instead.
 
+{% include youtube-embed.html slug="gMD4l1ibIiw" %}
+
+---
+
 # GitHub Desktop
 
 [GitHub Desktop](https://desktop.github.com) is an application that lets you store your files in GitHub, without needing to know anything about Git or the command line.
@@ -97,6 +101,6 @@ a webpage that anybody can access.
 
 Navigate to your GitHub Pages URL- it should be something like `YOUR_USERNAME.github.io/intro-to-web-dev`. You should see your change!
 
-**Note: GitHub Pages can take a minute or two to update.**
+**Note:** GitHub Pages can take a minute or two to update.**
 
 When you can see your change on your GitHub Pages site, congratulations! You've successfully set up your GitHub repo and your coding environment.
