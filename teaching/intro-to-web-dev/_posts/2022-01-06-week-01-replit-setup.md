@@ -95,3 +95,9 @@ Navigate to your GitHub Pages URL- it should be something like `YOUR_USERNAME.gi
 **Note:** GitHub Pages can take a minute or two to update.**
 
 When you can see your change on your GitHub Pages site, congratulations! You've successfully set up your GitHub repo and your Replit coding environment.
+
+---
+
+When you're finished, continue working through week 1:
+
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-01-html" %}
