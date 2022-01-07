@@ -15,7 +15,7 @@
 
 <div class="tutorial-link-box">
   <a href="{{ post.url }}" >
-    <img class="thumbnail-image" src="{{ thumbnail }}" alt="{{ post.title}}" />
+    <img class="thumbnail-image {% if post.pixelate-thumbnail %}pixelated{% endif %}" src="{{ thumbnail }}" alt="{{ post.title}}" />
   </a>
   <a class="title" href="{{ post.url }}">
     {{ post.title }}

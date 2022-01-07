@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Desktop Setup
-thumbnail: /tutorials/html/images/html-2.png
+thumbnail: /teaching/intro-to-web-dev/images/week-01-html/desktop-setup.png
+pixelate-thumbnail: true
 tagline: Set up your environment and use HTML to create a webpage.
 sort-key: 120
 meta-title: Desktop Environment Setup - Intro to Web Dev Week 01
 meta-description: Set up your environment and use HTML to create a webpage.
-meta-image: /tutorials/html/images/html-3.png
+meta-image: /teaching/intro-to-web-dev/images/week-01-html/desktop-setup.png
 tags: [teaching]
 ---
 

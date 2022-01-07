@@ -284,6 +284,10 @@ code {
   border: thin solid #323232;
 }
 
+.pixelated {
+  image-rendering: pixelated;
+}
+
 .tutorial-link-box a.title {
   font-size: 1.2em;
   display: block;
