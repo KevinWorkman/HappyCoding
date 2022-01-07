@@ -19,7 +19,7 @@ copy of the class's project repo.
 
 This guide is designed for computers that don't let you install programs or download files (like a Chromebook), or if you're using a shared computer. If you have a computer that does let you install programs and download files, I reocommend working through the desktop setup guide instead.
 
-{% include youtube-embed.html slug="gMD4l1ibIiw" %}
+{% include youtube-embed.html slug="xxHkVSOYp94" %}
 
 ---
 
