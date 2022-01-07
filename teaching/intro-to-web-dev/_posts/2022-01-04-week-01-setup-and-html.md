@@ -60,6 +60,14 @@ Now you've seen the fundamentals of HTML and HTML tags. More importantly, you kn
 
 To practice all of that, modify the files in the `week-01-html` directory of your project repo.
 
+# Styling Content
+
+This week is all about setting up your environment and learning HTML, which tells your browser what types of content to display. Your browser has some default rules about how to style different types of content. For example, headings are large and bold, and links are blue and underlined.
+
+If you want to customize the styles of your content, like changing colors or layout, you'll need to go beyond HTML and use CSS.
+
+For now, focus on HTML without worrying too much about styling. You'll learn about CSS next week!
+
 # Checklist
 
 1. Download GitHub Desktop
