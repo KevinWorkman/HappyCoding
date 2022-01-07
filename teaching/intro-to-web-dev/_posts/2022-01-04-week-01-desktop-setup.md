@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Desktop Setup
-thumbnail: /teaching/intro-to-web-dev/images/week-01-html/desktop-setup.png
+thumbnail: /teaching/intro-to-web-dev/images/week-01-setup-and-html/desktop-setup.png
 pixelate-thumbnail: true
 tagline: Set up your environment and use HTML to create a webpage.
 sort-key: 120
 meta-title: Desktop Environment Setup - Intro to Web Dev Week 01
 meta-description: Set up your environment and use HTML to create a webpage.
-meta-image: /teaching/intro-to-web-dev/images/week-01-html/desktop-setup.png
+meta-image: /teaching/intro-to-web-dev/images/week-01-setup-and-html/desktop-setup.png
 tags: [teaching]
 ---
 
@@ -39,9 +39,9 @@ From your repo's homepage, click the `Code` dropdown and then select `Open with 
 That should open GitHub Desktop. From there, click the `Clone` button. That will download your copy of the repo onto your computer. Finally, select `For my
 own purposes` and then click `Continue`.
 
-![clone button](/teaching/intro-to-web-dev/images/week-01-html/clone-1.png)
+![clone button](/teaching/intro-to-web-dev/images/week-01-setup-and-html/clone-1.png)
 
-![cloning repo](/teaching/intro-to-web-dev/images/week-01-html/clone-2.gif)
+![cloning repo](/teaching/intro-to-web-dev/images/week-01-setup-and-html/clone-2.gif)
 
 You now have a copy of your repo on your computer.
 
@@ -79,7 +79,7 @@ You've just changed the content of the `index.html` file. You'll learn more abou
 
 If everything worked, you should see your change in your browser.
 
-![local browser](/teaching/intro-to-web-dev/images/week-01-html/local-1.png)
+![local browser](/teaching/intro-to-web-dev/images/week-01-setup-and-html/local-1.png)
 
 # Upload Changes
 

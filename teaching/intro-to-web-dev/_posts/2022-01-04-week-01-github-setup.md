@@ -1,12 +1,12 @@
 ---
 layout: default
 title: GitHub Setup
-thumbnail: /teaching/intro-to-web-dev/images/week-01-html/github-logo.png
+thumbnail: /teaching/intro-to-web-dev/images/week-01-setup-and-html/github-logo.png
 tagline: Set up GitHub and get ready to code!
 sort-key: 110
 meta-title: GitHub Setup - Intro to Web Dev Week 01
 meta-description: Set up GitHub and get ready to code!
-meta-image: /teaching/intro-to-web-dev/images/week-01-html/github-logo.png
+meta-image: /teaching/intro-to-web-dev/images/week-01-setup-and-html/github-logo.png
 tags: [teaching]
 ---
 
@@ -42,9 +42,9 @@ The [Intro to Web Dev repo](https://github.com/KevinWorkman/intro-to-web-dev) co
 
 Make a copy of the repo (also called [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) the repo) by clicking the `Fork` button in the upper-right corner of the [Intro to Web Dev repo](https://github.com/KevinWorkman/intro-to-web-dev).
 
-![fork button](/teaching/intro-to-web-dev/images/week-01-html/fork-1.png)
+![fork button](/teaching/intro-to-web-dev/images/week-01-setup-and-html/fork-1.png)
 
-![forking repo](/teaching/intro-to-web-dev/images/week-01-html/fork-2.gif)
+![forking repo](/teaching/intro-to-web-dev/images/week-01-setup-and-html/fork-2.gif)
 
 This should create another repo called `YourName/intro-to-web-dev`.
 
@@ -56,11 +56,11 @@ Enable GitHub Pages for your project repo. Starting at your repo's homepage, go 
 
 In the `Source` section, select the `main` branch. Then click the `Save` button.
 
-![GitHub Pages setting](/teaching/intro-to-web-dev/images/week-01-html/pages-1.png)
+![GitHub Pages setting](/teaching/intro-to-web-dev/images/week-01-setup-and-html/pages-1.png)
 
-![GitHub Pages process](/teaching/intro-to-web-dev/images/week-01-html/pages-2.gif)
+![GitHub Pages process](/teaching/intro-to-web-dev/images/week-01-setup-and-html/pages-2.gif)
 
-![GitHub Pages result](/teaching/intro-to-web-dev/images/week-01-html/pages-3.png)
+![GitHub Pages result](/teaching/intro-to-web-dev/images/week-01-setup-and-html/pages-3.png)
 
 When you're done, GitHub will give you a URL like `YourUsername.github.io/intro-to-web-dev`. This URL won't work yet, but remember it because you'll need it in a minute.
 

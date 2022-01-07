@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Replit Setup
-thumbnail: /teaching/intro-to-web-dev/images/week-01-html/replit-setup.png
+thumbnail: /teaching/intro-to-web-dev/images/week-01-setup-and-html/replit-setup.png
 pixelate-thumbnail: true
 tagline: Set up your environment using Replit.
 sort-key: 130
 meta-title: Replit Environment Setup - Intro to Web Dev Week 01
 meta-description: Set up your environment using Replit.
-meta-image: /teaching/intro-to-web-dev/images/week-01-html/replit-setup.png
+meta-image: /teaching/intro-to-web-dev/images/week-01-setup-and-html/replit-setup.png
 tags: [teaching]
 ---
 
