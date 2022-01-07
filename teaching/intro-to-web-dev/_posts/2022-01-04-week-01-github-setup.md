@@ -68,4 +68,4 @@ When you're done, GitHub will give you a URL like `YourUsername.github.io/intro-
 
 When you're finished, continue working through week 1:
 
-{% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-01-html" %}
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-01-setup-and-html" %}
