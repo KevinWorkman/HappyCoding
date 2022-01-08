@@ -68,6 +68,8 @@ Now you've seen the fundamentals of HTML and HTML tags. More importantly, you kn
 
 To practice all of that, modify the files in the `week-01-html` directory of your project repo.
 
+{% include youtube-embed.html slug="5SZRwl0Hl0s" %}
+
 # Styling Content
 
 This week is all about setting up your environment and learning HTML, which tells your browser what types of content to display. Your browser has some default rules about how to style different types of content. For example, headings are large and bold, and links are blue and underlined.
