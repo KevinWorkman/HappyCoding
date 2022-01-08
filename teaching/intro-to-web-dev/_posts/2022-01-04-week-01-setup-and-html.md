@@ -14,6 +14,14 @@ tags: [teaching]
 
 {% include toc.md %}
 
+Welcome to week 1 of Intro to Web Dev! This week is all about setting up GitHub and your coding environment, and then learning about HTML to create your own webpage.
+
+Work through the activities in this page to complete the week!
+
+{% include youtube-embed.html slug="hc3sH1yCi4c" %}
+
+---
+
 # Goals
 
 This week has three main goals:
