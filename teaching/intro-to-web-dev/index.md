@@ -40,3 +40,5 @@ I will point out any behavior that makes others feel unfairly uncomfortable or u
 # Weekly Topics
 
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-01-setup-and-html" %}
+
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-02-css" %}
