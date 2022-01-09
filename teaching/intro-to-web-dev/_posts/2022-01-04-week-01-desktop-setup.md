@@ -8,6 +8,7 @@ sort-key: 120
 meta-title: Desktop Environment Setup - Intro to Web Dev Week 01
 meta-description: Set up your environment and use HTML to create a webpage.
 meta-image: /teaching/intro-to-web-dev/images/week-01-setup-and-html/desktop-setup.png
+hide-video-icon: true
 tags: [teaching]
 ---
 

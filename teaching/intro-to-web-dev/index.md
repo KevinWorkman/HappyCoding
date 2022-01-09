@@ -4,6 +4,7 @@ title: Intro to Web Dev
 meta-title: Intro to Web Dev
 meta-description: Welcome to Intro to Web Dev!
 meta-image: /teaching/guides/images/teaching-1.png
+hide-video-icon: true
 ---
 
 # Intro to Web Development

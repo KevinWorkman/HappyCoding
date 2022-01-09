@@ -19,7 +19,9 @@
   </a>
   <a class="title" href="{{ post.url }}">
     {{ post.title }}
-    {% if post.content contains "youtube.com/embed" -%}▶{%- endif -%}
+    {% unless post.hide-video-icon %}
+      {% if post.content contains "youtube.com/embed" -%}▶{%- endif -%}
+    {% endunless %}
   </a>
   {%- if include.showDate -%}
     <p>{{ post.date | date: "%B %-d, %Y" }}</p>

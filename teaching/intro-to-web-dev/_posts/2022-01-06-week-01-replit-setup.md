@@ -8,6 +8,7 @@ sort-key: 130
 meta-title: Replit Environment Setup - Intro to Web Dev Week 01
 meta-description: Set up your environment using Replit.
 meta-image: /teaching/intro-to-web-dev/images/week-01-setup-and-html/replit-setup.png
+hide-video-icon: true
 tags: [teaching]
 ---
 

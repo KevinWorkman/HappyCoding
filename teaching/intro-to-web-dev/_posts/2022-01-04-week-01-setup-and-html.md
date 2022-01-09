@@ -7,6 +7,7 @@ sort-key: 100
 meta-title: Setup and HTML - Intro to Web Dev Week 01
 meta-description: Set up your environment and use HTML to create a webpage.
 meta-image: /tutorials/html/images/html-3.png
+hide-video-icon: true
 tags: [teaching]
 ---
 

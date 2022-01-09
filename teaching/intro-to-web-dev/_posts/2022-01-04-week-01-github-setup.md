@@ -7,6 +7,7 @@ sort-key: 110
 meta-title: GitHub Setup - Intro to Web Dev Week 01
 meta-description: Set up GitHub and get ready to code!
 meta-image: /teaching/intro-to-web-dev/images/week-01-setup-and-html/github-logo.png
+hide-video-icon: true
 tags: [teaching]
 ---
 
