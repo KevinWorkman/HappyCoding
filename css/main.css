@@ -299,6 +299,32 @@ code {
   margin-top: 0;
 }
 
+.codepen-container {
+  border: thin solid #323232;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.codepen-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: thin solid #323232;
+}
+
+.codepen-title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.codepen-about{
+
+}
+
+.codepen-body {
+
+}
+
 #etsy-listings {
   display: flex;
   flex-wrap: wrap;

@@ -1,14 +1,19 @@
-<div class="panel panel-default">
-	<div class="panel-heading">Code Editor <a href="/about/codepen" class="pull-right"><span class="glyphicon glyphicon-question-sign"></span></a></div>
-	<div class="panel-body">
-		<p data-height="{{ include.height | plus:125 }}" 
-			data-theme-id="dark" 
-			data-slug-hash="{{ include.slug-hash }}" 
-			data-default-tab="html,js,result" 
-			data-user="KevinWorkman" 
-			data-embed-version="2" 
-			data-preview="true" 
-			data-editable="true" 
+<div class="codepen-container">
+	<div class="codepen-heading">
+		<span class="codepen-title">Code Editor</span>
+		<span class="codepen-about">
+			<a href="/about/codepen" title="About CodePen">?</a>
+		</span>
+	</div>
+	<div class="codepen-body">
+		<p data-height="{{ include.height | plus:125 }}"
+			data-theme-id="light"
+			data-slug-hash="{{ include.slug-hash }}"
+			data-default-tab="html,js,result"
+			data-user="KevinWorkman"
+			data-embed-version="2"
+			{% unless include.autoplay %}data-preview="true"{% endunless %}
+			data-editable="true"
 			class="codepen">
 		See the Pen <a href="http://codepen.io/KevinWorkman/pen/{{ include.slug-hash }}/"></a> by Happy Coding (<a href="http://codepen.io/KevinWorkman">@KevinWorkman</a>) on <a href="http://codepen.io">CodePen</a>.
 		</p>
