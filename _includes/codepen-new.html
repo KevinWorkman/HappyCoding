@@ -9,7 +9,11 @@
 		<p data-height="{{ include.height | plus:125 }}"
 			data-theme-id="light"
 			data-slug-hash="{{ include.slug-hash }}"
-			data-default-tab="html,js,result"
+			{% if include.default-tab %}
+			  data-default-tab="{{ include.default-tab }},result"
+		  {% else %}
+			  data-default-tab="html,js,css,result"
+			{% endif %}
 			data-user="KevinWorkman"
 			data-embed-version="2"
 			{% unless include.autoplay %}data-preview="true"{% endunless %}
