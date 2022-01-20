@@ -11,6 +11,8 @@ hide-video-icon: true
 
 Welcome to Intro to Web Dev!
 
+{% include youtube-embed.html slug="inrmS5BCk80" %}
+
 # How it Works
 
 Each week, we'll focus on a different topic. You'll watch videos and read tutorials that introduce the topic, and then you'll build a project that uses it. At the end of each week you'll present your project.
