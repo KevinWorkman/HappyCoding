@@ -8,25 +8,18 @@ meta-description: Learn how to use JavaScript to create an interactive webpage.
 meta-image: /tutorials/javascript/images/calling-javascript-3.png
 sort-key: 300
 nextPost: /tutorials/javascript/calling-javascript
-lastUpdated: 2021-03-14
-
+lastUpdated: 2022-01-23
 ---
 
 # JavaScript Tutorials
 
-These tutorials assume you've already worked through the [p5.js](/tutorials/p5js) and [HTML](/tutorials/html) tutorials. If not, go read thouse and then come back!
+At this point, you're familiar with the fundamentals of HTML and CSS. (If not, read through the [HTML tutorials](/tutorials/html) and then come back!) You know that HTML lets you write the content for your webpage, and CSS lets you style that content. JavaScript lets you make your webpages **interactive**.
 
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/p5js/" %}
-{% include url-thumbnail.html url="/tutorials/html/" %}
-</div>
-
----
-
-JavaScript lets you make your webpages interactive, which makes it one of the most popular programming languages in the world. You can learn the fundamentals of JavaScript in the [p5.js tutorials](/tutorials/p5js), and you can learn the fundamentals of web development in the [HTML tutorials](/tutorials/html). These tutorials build on those fundamentals to learn more about more advanced JavaScript concepts.
+Read through these tutorials to learn more about JavaScript:
 
 <div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/javascript/calling-javascript" %}
+{% include url-thumbnail.html url="/tutorials/javascript/variables" %}
 {% include url-thumbnail.html url="/tutorials/javascript/developer-tools" %}
 {% include url-thumbnail.html url="/tutorials/javascript/creating-functions" %}
 {% include url-thumbnail.html url="/tutorials/javascript/interactive-html" %}
