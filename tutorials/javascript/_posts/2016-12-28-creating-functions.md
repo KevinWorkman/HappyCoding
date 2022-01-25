@@ -11,39 +11,18 @@ meta-image: /tutorials/html/javascript/creating-functions-2.png
 tags: [tutorial, javascript]
 previousPost: /tutorials/javascript/developer-tools
 nextPost: /tutorials/javascript/interactive-html
-lastUpdate: 2021-03-14
+updated: 2022-01-25
 ---
 
 {% include toc.md %}
 
-This tutorial assumes you've worked through the [p5.js tutorials](/tutorials/p5js), and that you already know what a function is. If not, go read [the p5.js tutorials](/tutorials/p5js) now!
+So far, you know that you can write JavaScript using the `<script>` tag, like this:
 
-# Calling JavaScript
+{% include codepen-new.html slug-hash="bGYbXMK" height="275" %}
 
-Remember that you can write JavaScript using the `<script>` tag, and either loading a JavaScript file via the `src` attribute or by putting the code directly inside the tag, like this:
+This code calls the `prompt()` function to ask the user for their name, which it stores in a variable. Then it creates a `message` variable, and passes it in as a parameter to the `alert()` function, which displays the message in a dialog.
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Happy Coding</title>
-    <script>
-      document.write("Hello world!");
-    </script>
-  </head>
-  <body>
-    <p>Happy coding!</p>
-  </body>
-</html>
-```
-
-{% include codepen-new.html slug-hash="BQXLBo" height="300" %}
-
-This code uses the `document.write()` function to add `Hello world!` to the webpage. If you run this code, you might notice that `Hello world!` displays in the webpage **before** the content of the page.
-
-![html page](/tutorials/javascript/images/creating-functions-3.png)
-
-This is because the JavaScript code is executing before the page has rendered the `<body>` section of the webpage. Hopefully this makes sense: as your browser loads the file, it reads the HTML line by line. It sets the title of the window, then gets to the `<script>` tag. It runs the code in that tag, which adds `Hello world!` to the page (which is blank to start with). Then it continues loading the file, and eventually adds `<p>Happy coding!</p>` to the webpage as well.
+Notice that when both dialogs display, the page is blank. That's because your browser reads the file line by line, and executes each line one at a time. When it reads the `<title>` tag, it sets the title of the window. Then it reads to the `<script>` tag, and it runs the code inside the tag, which shows the two dialogs. Then the browser continues loading the file, and eventually it reaches the `<p>This is the content of the page.</p>` line, which tells it to add that content to the webpage.
 
 That might be okay for this example, but a lot of JavaScript code is meant to interact with elements that are on the page. That won't work if the JavaScript always runs before the page is loaded. So how do you make sure that the page is loaded before the JavaScript code runs?
 
@@ -51,47 +30,44 @@ The answer is that you can create functions that are only called *after* the pag
 
 # Declaring Functions
 
-Like you learned in the [p5.js tutorials](/tutorials/p5js), you declare a function using the `function` keyword, then zero or more parameters between `( )` parentheses, and then code inside of `{ }` curly braces.
+To create your own function, you need to do four things:
 
-Here's an example HTML file that contains a `<script>` tag that creates a `writeMessage()` function.
+1. Start with the `function` keyword.
+2. Then write the **name** of the function.
+3. Inside parenthesis `()`, list any parameters the function takes.
+4. Inside curly brackets `{}`, write the code that will run whenever the function is called. This is called the **body** of the function.
 
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Happy Coding</title>
-		<script>
-			function writeMessage(){
-				document.write("<p>Happy coding!</p>");
-			}
-		</script>
-	</head>
-	<body>
-		<p>Hello world!</p>
-	</body>
-</html>
+Here's an example function that contains our above code:
+
+```javascript
+function showGreeting() {
+  let name = prompt('What is your name?');
+  let message = 'Hello ' + name + '!';
+  alert(message);
+}
 ```
 
-If you save this file and open it in your browser, you'll notice that the `Happy coding!` message is never displayed. That's because all the code does so far is *define* a function named `writeMessage()` that adds a message to the webpage. **Nothing actually calls the function yet!**
+Now that you've created the `showGreeting()` function, you can call it just like you called any other function!
 
 You could call it right after defining it:
 
-```html
+```
 <script>
-	function writeMessage(){
-		document.write("<p>Happy coding!</p>");
-	}
-	writeMessage();
+  function showGreeting() {
+    let name = prompt('What is your name?');
+    let message = 'Hello ' + name + '!';
+    alert(message);
+  }
+
+	showGreeting();
 </script>
 ```
 
-But that's pretty much the same thing as running the code without defining a function.
+But that’s pretty much the same thing as running the code without defining a function.
 
 Instead, you can use **events** to run code when certain things happen in the page.
 
 # Events
-
-Remember that p5.js automatically called functions for you: `setup()` once at the beginning, `draw()` 60 times per second, `mouseClicked()` whenever the mouse was clicked, etc.
 
 JavaScript doesn't automatically call any functions for you. Instead, you have to tell your webpage which functions to call when certain things happen.
 
@@ -107,26 +83,13 @@ The `onclick` event fires when a user clicks on an element in a webpage. Here's 
 
 This HTML creates a `<p>` tag with an `onclick` attribute that contains the JavaScript code `alert('hello');` and content that says `Click me!` that gets rendered to the webpage. When the user clicks that `<p>` tag, the JavaScript code runs and displays the message.
 
-{% include codepen-new.html slug-hash="KNOgmX" height="150" %}
+{% include codepen-new.html slug-hash="KNOgmX" height="100" autoplay=true %}
 
 ## The `onload` Event
 
-The `onload` event fires as soon as an element is done loading. This event attribute is usually used on the `<body>` tag to run code as soon as the page is loaded. This is similar to p5.js's `setup()` function.
+The `onload` event fires as soon as an element is done loading. This event attribute is usually used on the `<body>` tag to run code as soon as the page is loaded.
 
 Here's an example:
-
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Happy Coding</title>
-	</head>
-	<body onload="alert('Welcome to my page!');">
-	
-		<p>Thanks for visiting!</p>
-	</body>
-</html>
-```
 
 {% include codepen-new.html slug-hash="MJOPeM" height="250" %}
 
@@ -138,76 +101,39 @@ Now you know how to run JavaScript code by setting event attributes on HTML elem
 
 Luckily, you already know how to get around this problem: you can define a function in the JavaScript in the `<head>` section (or in another file that you load), and then you call that function from the event attribute.
 
-Here is the above `onclick` example, rewritten to call a function in the `<head>` section of the HTML file:
-
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Happy Coding</title>
-		<script>
-			function showMessage(){
-				alert('hello');
-			}
-		</script>
-	</head>
-	<body>
-		<p onclick="showMessage()">Click me!</p>
-	</body>
-</html>
-```
-
-This example is a little silly because it's still calling a single function, but imagine if the `showMessage()` function contained 100 lines of code!
-
-# Multiple Functions and Variables
-
-Just like a p5.js sketch can have several functions that p5.js calls at different times (like `setup()` at the beginning and `mouseClicked()` whenever the user clicks), you can have multiple JavaScript functions that are called from multiple events.
-
-And just like p5.js can have variables that are used between functions, you can do the exact same thing in JavaScript.
-
 Here's an example:
 
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Happy Coding</title>
-		<script>
-		
-			let clickedFirstP = false;
-		
-			function showFirstMessage(){
-				alert('Welcome to my webpage!');
-			}
-		
-			function firstThingClicked(){
-				clickedFirstP = true;
-			}
-			
-			function secondThingClicked(){
-				if (clickedFirstP) {
-					alert("Good job!");
-				} else {
-					alert("You forgot to click the first thing!");
-				}
-			}
-		</script>
-	</head>
-	<body onload="showFirstMessage()">
-		<p onclick="firstThingClicked()">Click me first!</p>
-		<p onclick="secondThingClicked()">Click me second!</p>
-	</body>
-</html>
+{% include codepen-new.html slug-hash="YzEzeoJ" height=400 autoplay=true %}
+
+This code defines a `showGreeting()` function, which prompts the user for their name and then shows a greeting message. Then the HTML contains a `<p>` element with an `onclick` attribute that calls the `showGreeting()` function.
+
+# Scope
+
+When you create a variable with the `let` keyword inside a function, that variable can only be used inside that function! For example, consider this code:
+
+{% include codepen-new.html slug-hash="zYPYadK" height=450 autoplay=true %}
+
+This code defines two functions: `askName()` which prompts the user for their name and stores it in a `username` variable, and `greet()` which displays the `username` variable in a greeting dialog.
+
+Try clicking the first `<p>` element to set the `username` variable, and then click the second `<p>` element to display the greeting. The greeting dialog never appears! Check the JavaScript console in your browser's developer tools to see this error:
+
+```
+Uncaught ReferenceError: username is not defined
 ```
 
-This example shows a message when the page loads, and then it shows you two `<p>` elements to click. If you click them in the correct order, you get a congratulatory message. If not, you get a reminder to click them in the correct order. 
+That's happening because the `username` variable is only available inside the `askName()` function, because that's where it was declared with the `let` keyword! In other words, the `username` variable is only **in scope** inside the `askName()` function.
 
-{% include codepen-new.html slug-hash="apVREm" height="575" %}
+You can fix this by declaring the `username` variable outside of both functions:
 
-This might not be a very exciting game, but it shows the fundamentals of having multiple events, functions, and a variable shared between them.
+{% include codepen-new.html slug-hash="abVbKjW" height=450 autoplay=true %}
+
+Now that the `username` variable is declared outside of the functions, it's usable from everywhere. This is also called a **global variable**.
+
+Also notice that the code does **not** use the `let` keyword inside the `askName()` function, because that would declare a **different** variable with the same name.
+
+What happens if you show the greeting before you set the name? You'll see `Hello undefined!` because the variable doesn't have a value yet. But at least you won't get an error!
 
 # Homework
 
-- Create an HTML file that contains a button. When you click that button, a new button is added to the page. Hint: the `onclick` attribute and the `document.write()` function might come in handy!
-
+- Modify the above webapge to contain a third element that shows a dialog that says goodbye to the user.
 
