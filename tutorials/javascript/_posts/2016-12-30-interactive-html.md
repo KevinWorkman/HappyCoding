@@ -10,7 +10,7 @@ meta-description: Learn more about creating interactive HTML with JavaScript.
 meta-image: /tutorials/html/javascript/interactive-html-2.png
 tags: [tutorial, javascript, html]
 previousPost: /tutorials/javascript/creating-functions
-lastUpdated: 2021-03-15
+lastUpdated: 2022-01-25
 ---
 
 {% include toc.md %}
@@ -74,176 +74,72 @@ This CSS makes every `<p>` tag have a font size of `16pt`, gives the `myClass` c
 
 ![webpage with three paragraphs](/tutorials/javascript/images/interactive-html-3.png)
 
-{% include codepen-new.html slug-hash="zNOwxe" height="300" %}
-
-JavaScript works in the same way: you can refer to HTML elements by tag, by class, or by id.
+{% include codepen-new.html slug-hash="zNOwxe" height=400 autoplay=true %}
 
 # The Document Object Model
 
-The Document Object Model, or DOM for short, is how your browser organizes a webpage so you can access it using JavaScript code. 
+The Document Object Model, or DOM for short, is how your browser organizes a webpage so you can access it using JavaScript code.
 
-Remember from the [p5.js tutorials](/tutorials/p5js) that *objects* provide functionality related to a specific concept: for example, `p5.Vector` objects provide functionality related to 2D or 3D points, and `p5.Image` objects provide functionality related to images. In JavaScript, the DOM gives you objects that provide functionality related to the webpage itself.
+In other words, the DOM provides functions that you can call in your JavaScript code to modify a webpage to make it interactive.
 
-You can think about a webpage like this:
+# document.getElementById()
 
-- The webpage itself is a `Document` object, which you can reference using the `document` variable.
-- The HTML elements in the webpage are `Element` objects.
-- `Element` objects give you access to properties of a particular element on the page, like its CSS style and its content.
-- `Element` objects can contain other `Element` objects as children: you can have a `<p>` element that contains an `<a>` element, for example.
+One of the most common DOM functions you'll use is the `document.getElementById()` function, which returns the element with the ID you pass in as a parameter. Here's an example:
 
-You can use these objects in your JavaScript code to modify a webpage to make it interactive.
-
-# `document.getElementById()`
-
-One of the most common functions you'll use is the `document.getElementById()` function, which returns the element with the ID you pass in as a parameter. Here's an example:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>The getElementById() Function</title>
-    <script>
-      function makeParagraphGreen(){
-        const p = document.getElementById("myId");
-        p.style.color = "green";
-      }
-    </script>
-  </head>
-  <body>
-    <p id="myId" onclick="makeParagraphGreen()">Click to make me green.</p>
-    <p>I won't change color.</p>
-  </body>
-</html>
+```javascript
+let labelElement = document.getElementById('label');
+labelElement.innerText = 'You clicked the button!';
 ```
 
-The HTML on this page contains a `<p>` tag with an id of `myId` and an `onclick` attribute that calls the `makeParagraphGreen()` function. The `makeParagraphGreen()` function calls the `document.getElementById()` function to get the `myId` paragraph `Element` object, then uses that object's `style` variable to change the color to green. Notice that the second `<p>` tag is unaffected.
+This code calls the `document.getElementById()` function to get the element with an ID of `label`. Then it changes the `innerText` property of the `labelElement` to update its text.
 
-{% include codepen-new.html slug-hash="mRbmmR" height="300" %}
-
-# `document.getElementsByClassName()`
-
-Similar to how the `document.getElementById()` function returns a single `Element` with the parameter id, the `document.getElementsByClassName()` function returns an array (technically an array-like object, JavaScript is weird) of `Element` objects that have the parameterized class name.
-
-You can use a `for` loop to iterate over the returned array, and then use the functions and variables on the `Element` objects in that array. Here's an example:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>The getElementsByClassName() Function</title>
-    <script>
-      function getIndexes(){
-        const pArray = document.getElementsByClassName("indexedParagraph");
-        for(let index = 0; index < pArray.length; index++){
-          pArray[index].innerText = "My index is: " + index;
-        }
-      }
-    </script>
-  </head>
-  <body>
-    <p onclick="getIndexes()">Click to see the indexes.</p>
-    <p class="indexedParagraph">What's my index?</p>
-    <p class="indexedParagraph">What's my index?</p>
-    <p class="indexedParagraph">What's my index?</p>
-    <p class="indexedParagraph">What's my index?</p>
-    <p class="indexedParagraph">What's my index?</p>
-  </body>
-</html>
-```
-
-This webpage contains one `<p>` element with an `onclick` attribute that calls the `getIndexes()` function, and 5 other `<p>` elements that all have the `indexedParagraph` class. In the JavaScript code, the `getIndexes()` function calls the `getElementsByClassName()` function, which returns the 5 `<p>` elements with the `indexedParagraph` class. It then uses a `for` loop to iterate over that array, and sets the `innerText` variable of each element to display the index of each `<p>` tag. Phew!
-
-{% include codepen-new.html slug-hash="MJgmVx" height="350" %}
-
-Notice that the first `<p>` tag is unaffected, because it doesn't have the `indexedParagraph` class. Also notice that the `onclick` attribute is on a different element than the elements that the JavaScript code changes. It's perfectly normal to have one element that changes another!
-
-# `document.getElementsByTagName()`
-
-Similar to how the `document.getElementsByClassName()` function returns an array of `Element` objects that have the parameter class name, the `document.getElementsByTagName()` function returns an array of `Element` objects that have the parameterized tag name. Here's an example:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>The getElementsByTagName() Function</title>
-    <style>
-      ul {
-        list-style:none;
-      }
-    </style>
-    <script>
-      function addCats(){
-        const liArray = document.getElementsByTagName("li");
-        for(const li of liArray){
-          li.innerText = '😸' + li.innerText;
-        }
-      }
-    </script>
-  </head>
-  <body onload="addCats()">
-    <p>Cat facts:</p>
-    <ul>
-      <li>I like cats.</li>
-      <li>Cats say meow.</li>
-      <li>Cats have whiskers.</li>
-    </ul>
-  </body>
-</html>
-```
-
-The HTML of this webpage contains a `<ul>` element with `<li>` elements that list some facts about cats. The CSS has removed the bullet from the beginning. The `<body>` tag has an `onload` attribute that calls the `addCats()` function when the page loads. In the JavaScript code, the `addCats()` function calls the `getElementsByTagName()` function to get the `<li>` elements, and then it uses a `for` loop to iterate over those elements. For each element, it adds a 😸 cat emoji at the beginning of the content.
-
-{% include codepen-new.html slug-hash="EZYmrj" height="300" %}
+{% include codepen-new.html slug-hash="mRbmmR" height="350" autoplay=true %}
 
 # Modifying Elements
 
-You've seen a few `Element` functions and variables, like `style` that references the element's style and `innerText` that references the content of an element. There are a ton more!
+You've seen one way to modify an element, using the `innerText` field to change the content of an element. There are a ton more!
 
 For a more complete list, check out [W3Schools](http://www.w3schools.com/jsref/dom_obj_all.asp) or [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element). But here are a few examples:
 
-## `appendChild()`
+## innerHTML
 
-The `appendChild()` function adds one `Element` to another.
+This is similar to `innerText`, except the content can include HTML.
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Appending an Element</title>
-    <script>
-      function addParagraph(){
-        
-        //create a new <p> element
-        const newP = document.createElement("p");
-        
-        //create the content for the <p> element
-        const pContent = document.createTextNode("I'm a new paragraph!");
-        
-        //add the content to the <p> element
-        newP.appendChild(pContent);
-        
-        //get the container <div>
-        const containerDiv = document.getElementById("container");
-        
-        //add the <p> element to the <div>
-        containerDiv.appendChild(newP);
-      }
-    </script>
-  </head>
-  <body>
-    <p onclick="addParagraph()">Click to add a p tag below.</p>
-    <div id="container"></div>
-  </body>
-</html>
-```
+{% include codepen-new.html slug-hash="XWzWBBq" height="350" autoplay=true %}
 
-{% include codepen-new.html slug-hash="RKbgyY" height="300" %}
+## style
+
+The `style` property lets you customize the styling of an element.
+
+{% include codepen-new.html slug-hash="zYPYLeJ" height="350" autoplay=true %}
+
+The `style` property has nested properties, for example:
+
+- `style.color` sets the color of an element
+- `style.border` sets the border of an element
+- `style.background` sets the background of an element
+
+These are the same properties that you learned about in CSS!
+
+
+
+
+
+## Creating and Appending Elements
+
+You can use `innerHTML` to add HTML elements to an elements, but for more complicated code, you can use these functions:
+
+- `createElement()` creates an element of a certain tag.
+- `createTextNode()` creates the innermost content of an element. You could also use the `innerText` property.
+- The `appendChild()` function adds one `Element` to another.
+
+{% include codepen-new.html slug-hash="RKbgyY" height="300" autoplay=true %}
 
 This code uses the `document.createElement()` function to create a new `<p>` element, then it uses the `document.createTextNode()` to create content for that `<p>` element. Then it uses the `appendChild()` function to add the content to the `<p>` element, and again to add the `<p>` element to the `<div>` with the `container` id.
 
 ## `element.className`
 
-The `className` variable lets you to get or set the CSS class of an element. 
+The `className` field lets you to get or set the CSS class of an element. 
 
 ```javascript
 const element = document.getElementById("yourIdHere");
@@ -256,64 +152,21 @@ This lets you set the style in CSS, and then change which styles apply in JavaSc
 
 The `element.remove()` function removes an element from the webpage.
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Removing an Element</title>
-    <script>
-      function deleteParagraph(){
-        document.getElementById("deleteMe").remove();
-      }
-    </script>
-  </head>
-  <body>
-    <p id="deleteMe" onclick="deleteParagraph()">Click to delete me.</p>
-    <p>I'm here to stay.</p>
-  </body>
-</html>
-```
-
-{% include codepen-new.html slug-hash="bgbRRJ" height="300" %}
-
-This code uses the `remove()` function to remove an element from the webpage.
+{% include codepen-new.html slug-hash="bgbRRJ" height="300" autoplay=true %}
 
 ## `addEventListener()`
 
 You've seen HTML attributes like `onload` and `onclick` that let you add an event listener using HTML. The `element.addEventListener()` function lets you add an event listener to an element using JavaScript.
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Event Listener</title>
-    <script>
-      let clickCount = 0;
-
-      function setupClickListener(){
-        document.getElementById("clickMe")
-          .addEventListener("click", clicked);
-      }
-
-      function clicked(){
-        clickCount++;
-        document.getElementById("countLabel")
-          .innerText = clickCount;
-      }
-    </script>
-  </head>
-  <body onload="setupClickListener()">
-    <div id="clickMe">Click to add one!</div>
-    <div id="countLabel">0</div>
-  </body>
-</html>
-```
+{% include codepen-new.html slug-hash="mdqdjZe" height="300" autoplay=true %}
 
 This code uses the `onload` attribute to call the `setupClickListener()` function. The `setupClickListener()` function uses the `addEventListener()` function to add the `clicked()` function as a click listener to the element with the `clickMe` id.
 
-These are just a few examples- like I said, there are a TON of variables and functions you can use to make your webpage interactive. Check out [W3Schools](http://www.w3schools.com/jsref/dom_obj_all.asp) or [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element) for more info, and use Google to find what you're looking for. As always, feel free to ask a question in [the forum](http://forum.HappyCoding.io) if you get stuck!
+---
 
-Like with all programming, the idea is that you should combine all of the above (and whatever you find from reading the documentation and doing Google searches) to accomplish your goal.
+These are just a few examples- like I said, there are a TON of variables and functions you can use to make your webpage interactive. Check out [W3Schools](http://www.w3schools.com/jsref/dom_obj_all.asp) or [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element) for more info, and use your favorite search engine to find what you're looking for. As always, feel free to ask a question in [the forum](http://forum.HappyCoding.io) if you get stuck!
+
+Like with all programming, the idea is that you should combine all of the above (and whatever you find from reading the documentation and doing searches) to accomplish your goal.
 
 # Homework
 
