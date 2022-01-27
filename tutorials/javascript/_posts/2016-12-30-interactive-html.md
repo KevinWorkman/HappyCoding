@@ -121,10 +121,6 @@ The `style` property has nested properties, for example:
 
 These are the same properties that you learned about in CSS!
 
-
-
-
-
 ## Creating and Appending Elements
 
 You can use `innerHTML` to add HTML elements to an elements, but for more complicated code, you can use these functions:
@@ -139,7 +135,7 @@ This code uses the `document.createElement()` function to create a new `<p>` ele
 
 ## `element.className`
 
-The `className` field lets you to get or set the CSS class of an element. 
+The `className` field lets you to get or set the CSS class of an element.
 
 ```javascript
 const element = document.getElementById("yourIdHere");
@@ -161,6 +157,50 @@ You've seen HTML attributes like `onload` and `onclick` that let you add an even
 {% include codepen-new.html slug-hash="mdqdjZe" height="300" autoplay=true %}
 
 This code uses the `onload` attribute to call the `setupClickListener()` function. The `setupClickListener()` function uses the `addEventListener()` function to add the `clicked()` function as a click listener to the element with the `clickMe` id.
+
+---
+
+# Input
+
+Now you've seen how to reference HTML elements in your JavaScript, and you've seen examples of properties you can set to modify those elements.
+
+HTML contains various input tags that you can use in your page, and you can use JavaScript to get the values from those input elements. Here's an example:
+
+{% include codepen-new.html slug-hash="wvPBjBz" height="350" autoplay=true %}
+
+First, take a look at the HTML:
+
+```html
+<input id="name-input" />
+<button onclick="sayHello();">
+  Click me!
+</button>
+<p id="output"></p>
+```
+
+The HTML contains three elements:
+
+- An `<input>` element with an ID of `name-input`, which renders as a text box. Notice that the `<input>` tag is self-closing, so it ends in `/>` without a separate closing tag.
+- A `<button>` ellement with an `onclick` attribute that calls the `sayHello()` function.
+- A `<p>` element with an ID of `output`. Notice that the `<p>` element contains no content.
+
+Now, look at the `sayHello()` function:
+
+```javascript
+function sayHello(){
+  let inputElement = document.getElementById('name-input');
+  let name = inputElement.value;
+
+  let outputElement = document.getElementById('output');
+  outputElement.innerText = 'Hello ' + name + '!';
+}
+```
+
+This code uses the `document.getElementById()` function to get a reference to the input element, and then uses the `value` property to get the text typed by the user. Then it uses the `document.getElementById()` function again to get a reference to the output `<p>` tag, and updates its text to show the user a greeting.
+
+This pattern of getting input from the user, doing something with it, and then modifying the page as a result is very common.
+
+HTML has a few other input elements, like text areas that show multiple lines, checkboxes, and radio buttons. The `<input>` tag can also have a `type` attribute, which lets the user enter different kinds of data. Learn more about that on [W3Schools](https://www.w3schools.com/html/html_form_input_types.asp) and [MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types).
 
 ---
 
