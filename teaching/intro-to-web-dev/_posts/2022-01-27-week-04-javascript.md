@@ -22,6 +22,8 @@ Now you know how to use HTML to create content, and CSS to style your content. T
 
 Work through the activities in this page to complete the week!
 
+{% include youtube-embed.html slug="HXblvzlcYsA" %}
+
 ---
 
 # JavaScript
@@ -31,6 +33,7 @@ First, watch the videos and read through the tutorials:
 ## Calling JavaScript
 
 {% include youtube-embed.html slug="gj2MJ8ZGGQ4" %}
+
 {% include url-thumbnail.html url="/tutorials/javascript/calling-javascript" %}
 
 ---
@@ -38,6 +41,7 @@ First, watch the videos and read through the tutorials:
 ## Variables
 
 {% include youtube-embed.html slug="8BUEHZI_FHA" %}
+
 {% include url-thumbnail.html url="/tutorials/javascript/variables" %}
 {% include url-thumbnail.html url="/tutorials/javascript/developer-tools" %}
 
@@ -45,6 +49,7 @@ First, watch the videos and read through the tutorials:
 
 ## Creating Functions
 {% include youtube-embed.html slug="nsLIM6OsdQ0" %}
+
 {% include url-thumbnail.html url="/tutorials/javascript/creating-functions" %}
 
 ---
