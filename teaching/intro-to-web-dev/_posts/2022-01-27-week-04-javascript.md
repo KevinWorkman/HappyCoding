@@ -18,8 +18,6 @@ tags: [teaching]
 
 Welcome to week 4 of Intro to Web Dev!
 
-{% include youtube-embed.html slug="nxB2lfbJ7eg" %}
-
 Now you know how to use HTML to create content, and CSS to style your content. This week you'll learn about JavaScript, which lets you make your content interactive.
 
 Work through the activities in this page to complete the week!
@@ -53,6 +51,8 @@ First, watch the videos and read through the tutorials:
 
 ## Interactive HTML
 
+{% include youtube-embed.html slug="ROMdoqcw_S0" %}
+
 {% include url-thumbnail.html url="/tutorials/javascript/interactive-html" %}
 
 ---
@@ -63,7 +63,7 @@ Now you've seen the fundamentals of JavaScript and DOM manipulation.
 
 To practice that, modify the files in the `week-04-dom-manipulation` directory of your project repo.
 
-{% include youtube-embed.html slug="lebupYDBnJg" %}
+{% include youtube-embed.html slug="--ZmIuWbWMM" %}
 
 # Checklist
 
