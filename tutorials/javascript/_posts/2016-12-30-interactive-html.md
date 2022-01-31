@@ -10,6 +10,7 @@ meta-description: Learn more about creating interactive HTML with JavaScript.
 meta-image: /tutorials/html/javascript/interactive-html-2.png
 tags: [tutorial, javascript, html]
 previousPost: /tutorials/javascript/creating-functions
+nextPost: /tutorials/javascript/if-statements
 lastUpdated: 2022-01-25
 ---
 

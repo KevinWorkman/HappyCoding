@@ -9,7 +9,8 @@ meta-title: Using JavaScript Libraries
 meta-description: Learn about using libraries in JavaScript.
 meta-image: /tutorials/html/javascript/libraries-1.png
 tags: [tutorial, javascript, libraries]
-previousPost: /tutorials/javascript/interactive-html
+previousPost: /tutorials/javascript/if-statements
+nextPost: /tutorials/javascript/fetch
 lastUpdated: 2021-03-19
 ---
 

@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: If Statements
-thumbnail: /tutorials/processing/images/if-statements-6.gif
+thumbnail: /tutorials/javascript/images/if-statements-1.png
 tagline: Make decisions in your code.
 sort-key: 600
 meta-title: If Statements in p5.js
 meta-description: Learn how to use if statements to make decisions in your code.
-meta-image: /tutorials/processing/images/if-statements-5.png
+meta-image: /tutorials/javascript/images/if-statements-1.png
 tags: [tutorial, p5.js, javascript, if-statements]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/debugging
@@ -74,7 +74,7 @@ The **or** operator evaluates to true if **either** of the two boolean values on
 
 To use the **or** operator, type two pipes `||` (they're above the enter key, or `shift + \`) between two boolean values:
 
-```java
+```javascript
 let isTodaySaturday = true;
 let isTodaySunday = false;
 let isTodayWeekend = isTodaySaturday || isTodaySunday;
@@ -319,7 +319,7 @@ That's why the code can check whether the grade is a B by only checking whether 
 
 If you try to use a non-boolean value in an `if` statement, then the code uses the "truthiness" of that value to convert it to a boolean. Values like `0`, `''` (empty string), and `undefined` are "falsy" and convert to `false`, and values like `'42'` and `'hello world'` are "truthy" and convert to `true`.
 
-Here's an example: 
+Here's an example:
 
 {% include p5js-widget.html width=300 height=300 %}
 function setup() {

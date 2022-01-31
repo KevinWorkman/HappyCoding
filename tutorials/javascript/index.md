@@ -23,6 +23,7 @@ Read through these tutorials to learn more about JavaScript:
 {% include url-thumbnail.html url="/tutorials/javascript/developer-tools" %}
 {% include url-thumbnail.html url="/tutorials/javascript/creating-functions" %}
 {% include url-thumbnail.html url="/tutorials/javascript/interactive-html" %}
+{% include url-thumbnail.html url="/tutorials/javascript/if-statements" %}
 {% include url-thumbnail.html url="/tutorials/javascript/libraries" %}
 {% include url-thumbnail.html url="/tutorials/javascript/fetch" %}
 </div>
