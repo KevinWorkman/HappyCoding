@@ -25,6 +25,8 @@ So far, all of the code we've seen runs line by line, executing each line one af
 
 This tutorial introduces **if statements** which let your code take different actions based on conditions that you specify.
 
+{% include youtube-embed.html slug="STjp3G_c-cg" %}
+
 # Booleans
 
 Most values and variables you've seen so far have been numbers or strings, like this:
