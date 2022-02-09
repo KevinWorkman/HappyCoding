@@ -46,3 +46,4 @@ I will point out any behavior that makes others feel unfairly uncomfortable or u
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-02-css" %}
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-03-layout" %}
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-04-javascript" %}
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-05-if-statements" %}
