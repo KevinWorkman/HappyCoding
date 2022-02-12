@@ -3,7 +3,7 @@ layout: tutorial
 title: Bootstrap
 thumbnail: /tutorials/javascript/images/bootstrap-1.png
 tagline: Create a website using Bootstrap.
-sort-key: 900
+sort-key: 2200
 meta-title: Bootstrap
 meta-description: Create a website using Bootstrap.
 meta-image: /tutorials/html/javascript/bootstrap-2.png

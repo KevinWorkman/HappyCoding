@@ -4,7 +4,7 @@ title: Developer Tools
 slug: developer-tools
 thumbnail: /tutorials/javascript/images/developer-tools-2.png
 tagline: Meet your new best friend.
-sort-key: 200
+sort-key: 300
 meta-title: Developer Tools
 meta-description: Meet your new best friend.
 meta-image: /tutorials/javascript/images/developer-tools-3.png
