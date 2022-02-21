@@ -9,7 +9,7 @@ meta-title: JavaScript Variables Tutorial
 meta-description: Store information in variables.
 meta-image: /teaching/intro-to-web-dev/images/week-04-javascript/variables-1.png
 previousPost: /tutorials/javascript/calling-javascript
-nextPost: /tutorials/javascript/creating-functions
+nextPost: /tutorials/javascript/developer-tools
 tags: [tutorial, javascript]
 ---
 

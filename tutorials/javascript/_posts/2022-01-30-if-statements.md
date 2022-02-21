@@ -9,7 +9,7 @@ meta-title: JavaScript Variables Tutorial
 meta-description: Use JavaScript if statements to make decisions in your code.
 meta-image: /tutorials/javascript/images/if-statements-1.png
 previousPost: /tutorials/javascript/interactive-html
-nextPost: /tutorials/javascript/libraries
+nextPost: /tutorials/javascript/for-loops
 tags: [tutorial, javascript]
 ---
 

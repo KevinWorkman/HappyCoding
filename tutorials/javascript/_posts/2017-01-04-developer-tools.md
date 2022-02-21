@@ -9,7 +9,7 @@ meta-title: Developer Tools
 meta-description: Meet your new best friend.
 meta-image: /tutorials/javascript/images/developer-tools-3.png
 tags: [tutorial, javascript, debugging]
-previousPost: /tutorials/javascript/calling-javascript
+previousPost: /tutorials/javascript/variables
 nextPost: /tutorials/javascript/creating-functions
 updated: 2022-01-23
 ---

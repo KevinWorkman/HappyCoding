@@ -9,7 +9,7 @@ meta-description: Start learning how to make interactive webpages.
 meta-image: /tutorials/javascript/images/calling-javascript-4.png
 tags: [tutorial, javascript]
 previousPost: /tutorials/javascript/
-nextPost: /tutorials/javascript/developer-tools
+nextPost: /tutorials/javascript/variables
 updated: 2022-01-23
 ---
 
