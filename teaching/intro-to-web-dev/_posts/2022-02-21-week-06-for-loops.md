@@ -1,13 +1,13 @@
 ---
 layout: default
 title: For Loops and Arrays - Week 06
-thumbnail: /tutorials/javascript/images/for-loops-1.png
+thumbnail: /teaching/intro-to-web-dev/images/for-loops-and-arrays-1.png
 pixelate-thumbnail: true
 tagline: Use for loops and arrays to repeat code multiple times.
 sort-key: 600
 meta-title: If Statements - Intro to Web Dev Week 06
 meta-description: Use for loops and arrays to repeat code multiple times.
-meta-image: /tutorials/javascript/images/for-loops-1.png
+meta-image: /teaching/intro-to-web-dev/images/for-loops-and-arrays-1.png
 hide-video-icon: true
 tags: [teaching]
 ---
@@ -49,6 +49,12 @@ Then, watch this video and read through the tutorial to learn about arrays:
 Now you've seen the fundamentals of `for` loops and arrays in JavaScript.
 
 To practice these concepts, modify the files in the `week-06-for-loops` directory of your project repo.
+
+{% include youtube-embed.html slug="AwR7axaUXbA" %}
+
+This video is an example of coding part of this week's project:
+
+{% include youtube-embed.html slug="MVuydIGAAk0" %}
 
 ---
 
