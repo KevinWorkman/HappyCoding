@@ -1,18 +1,18 @@
 ---
 layout: default
 title: For Loops and Arrays - Week 06
-thumbnail: /teaching/intro-to-web-dev/images/for-loops-and-arrays-1.png
+thumbnail: /teaching/intro-to-web-dev/images/week-06-for-loops-and-arrays/for-loops-and-arrays-1.png
 pixelate-thumbnail: true
 tagline: Use for loops and arrays to repeat code multiple times.
 sort-key: 600
 meta-title: If Statements - Intro to Web Dev Week 06
 meta-description: Use for loops and arrays to repeat code multiple times.
-meta-image: /teaching/intro-to-web-dev/images/for-loops-and-arrays-1.png
+meta-image: /teaching/intro-to-web-dev/images/week-06-for-loops-and-arrays/for-loops-and-arrays-1.png
 hide-video-icon: true
 tags: [teaching]
 ---
 
-# For Loops - Week 06
+# For Loops and Arrays - Week 06
 
 {% include toc.md %}
 
