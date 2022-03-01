@@ -3,6 +3,7 @@ layout: tutorial
 title: Libraries
 slug: libraries
 thumbnail: /tutorials/javascript/images/libraries-1.png
+pixelate-thumbnail: true
 tagline: Learn about using libraries in JavaScript.
 sort-key: 900
 meta-title: Using JavaScript Libraries
