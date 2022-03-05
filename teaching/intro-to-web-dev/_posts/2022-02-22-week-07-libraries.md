@@ -24,7 +24,7 @@ Work through the activities in this page to complete the week!
 
 ---
 
-# JavaScript
+# JavaScript Libraries
 
 First, watch this video and read through the tutorial to learn about JavaScript libraries:
 
@@ -45,6 +45,8 @@ One thing I love about p5.js is that it's a great way to practice the fundamenta
 ---
 
 # Project
+
+{% include youtube-embed.html slug="0-8G28O9MYQ" %}
 
 Now you've seen the fundamentals of JavaScript libraries and p5.js.
 
