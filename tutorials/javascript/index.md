@@ -27,6 +27,7 @@ Read through these tutorials to learn more about JavaScript:
 {% include url-thumbnail.html url="/tutorials/javascript/for-loops" %}
 {% include url-thumbnail.html url="/tutorials/javascript/arrays" %}
 {% include url-thumbnail.html url="/tutorials/javascript/libraries" %}
+{% include url-thumbnail.html url="/tutorials/javascript/objects" %}
 {% include url-thumbnail.html url="/tutorials/javascript/fetch" %}
 </div>
 
