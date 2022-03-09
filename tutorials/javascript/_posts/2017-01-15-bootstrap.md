@@ -3,21 +3,19 @@ layout: tutorial
 title: Bootstrap
 thumbnail: /tutorials/javascript/images/bootstrap-1.png
 tagline: Create a website using Bootstrap.
-sort-key: 2200
+sort-key: 1100
 meta-title: Bootstrap
 meta-description: Create a website using Bootstrap.
 meta-image: /tutorials/html/javascript/bootstrap-2.png
 tags: [tutorial, javascript, css, bootstrap]
-lastUpdated: 2021-03-22
----
-
-**Note:** I wrote this tutorial back in 2017. Since then, I've personally stopped using Bootstrap. I'm leaving this tutorial up for now, but I recommend using vanilla JavaScript and CSS instead!
-
+previousPost: /tutorials/javascript/fetch
+nextPost: /tutorials/javascript/
+updated: 2022-03-09
 ---
 
 {% include toc.md %}
 
-At this point you should have created a few webpages, changed how they look using CSS, and made them interactive using JavaScript. You should also have a basic understanding of [jQuery](/tutorials/html/jquery). If not, then you should probably come back to this tutorial after you've done a few more projects!
+Now you know how to use HTML to create a webpage, how to style it with CSS, and how to make them interactive using JavaScript. You've also learned about JavaScript libraries, which let you use code written by other people.
 
 This tutorial introduces Bootstrap, which is a JavaScript library and a set of CSS styles you can use in your own webpages.
 
@@ -28,17 +26,11 @@ Bootstrap is really two things:
 - It's a bunch of predefined CSS you can use to style your webpage.
 - It's a JavaScript library that makes your webpage interactive.
 
-Bootstrap is written using kQuery, which means that the people who wrote Bootstrap used objects and functions from the jQuery libary. So to use Bootstrap, you have to load JQuery first:
+To use Bootstrap, load both the Bootstrap CSS and the Bootstrap JavaScript library:
 
 ```html
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-```
-
-Then you have to load both the Bootstrap JavaScript and the Bootstrap CSS:
-
-```html
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
 Now that you've loaded the CSS and the JavaScript, you can use both in your page. Let's talk about them one at a time:
@@ -51,70 +43,41 @@ Bootstrap provides a `.css` file with a bunch of style rules that you can use to
 
 For example, look at this page that contains **unstyled** content:
 
-{% include codepen-new.html slug-hash="VPKWrG" height="275" %}
+{% include codepen-new.html slug-hash="VPKWrG" height=400 autoplay=true %}
 
-I've set the `class` attribute of some of these elements, but I haven't written any styles for those classes so everything has the default styling. At this point I could write a `.css` file that styles the content. Or I could use the `.css` file that Bootstrap provides!
+I've set the `class` attribute of some of these elements, but I haven't written any styles for those classes, so everything has the default styling. At this point I could write a `.css` file that styles the content. Or I could use the `.css` file that Bootstrap provides!
 
-{% include codepen-new.html slug-hash="qRajxo" height="275" %}
+{% include codepen-new.html slug-hash="qRajxo" height=400 autoplay=true %}
 
-The only thing that changed is I've added the Bootstrap CSS file (and I've added JQuery and the Bootstrap JavaScript, which technically doesn't do anything yet). In that CSS, Bootstrap contains styles for the classes I used.
+The only thing that changed is I've added the Bootstrap CSS file (and the Bootstrap JavaScript, which doesn't do anything yet). In that CSS, Bootstrap contains styles for the classes I used.
+
+The payoff is I get a reasonably nice-looking webpage, without needing to write any CSS myself.
 
 # Bootstrap JavaScript
 
 The other half of Bootstrap is its JavaScript library, which contains objects and functions that let you create interactive elements. This is usually done automatically based on the `class` attributes in your page, so you usually don't have to write any JavaScript yourself.
 
-Here's an example that creates an interactive dropdown menu:
+Let's start with the HTML, without loading Bootstrap:
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Bootstrap Dropdown Example</title>
-	
-	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-<body>
-	<div class="dropdown">
-		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Oh My</button>
-		<ul class="dropdown-menu">
-			<li><a href=".">Lions</a></li>
-			<li><a href=".">Tigers</a></li>
-			<li><a href=".">Bears</a></li>
-		</ul>
-	</div>
-</body>
-</html>
-```
+{% include codepen-new.html slug-hash="YzEobMV" height=400 autoplay=true %}
 
-This HTML contains a `<div>` element, which contains a `<button>` and a `<ul>` list. Without Bootstrap, those elements would look like this:
+This HTML contains a `<div class="dropdown">` element, which contains a `<button>` and a `<ul>` list. Without Bootstrap, those elements are not interactive, and certainly don't show a dropdown.
 
-<hr />
-<button>Oh My</button>
+But if you add Bootstrap:
 
-<ul>
-	<li><a href=".">Lions</a></li>
-	<li><a href=".">Tigers</a></li>
-	<li><a href=".">Bears</a></li>
-</ul>
-<hr />
+{% include codepen-new.html slug-hash="zNKzep" height=400 autoplay=true %}
 
-But because the code uses Bootstrap, it looks like this:
+The HTML itself has not changed, but now the code loads Bootstrap's CSS and JavaScript. Bootstrap's CSS styles the elements to look like a dropdown, and Bootstrap's JavaScript automatically adds a click listener to the `<button>` to toggle the visibility of the list when it's clicked.
 
-{% include codepen-new.html slug-hash="zNKzep" height="275" %}
-
-Bootstrap's JavaScript adds a click listener to the `<button>` that toggles the visibility of the list. Bootstrap's CSS contains rules that hide the `<ul>` by default, and make it look like a dropdown when it's visible.
-
-Notice that we didn't have to write any JavaScript or CSS ourselves. We get the functionality and a reasonable look-and-feel by including the Bootstrap CSS and JavaScript and using the correct classes on our HTML elements.
+The power of Bootstrap is that you didn't have to write any of that CSS or JavaScript yourself. You get the functionality and a reasonable look-and-feel by including the Bootstrap CSS and JavaScript and using the corresponding classes on your HTML elements.
 
 # Bootstrap Components
 
-Now that you know Bootstrap is both CSS and JavaScript, the next question is: how do you know what CSS classes to use to trigger the correct behavior? If you've been reading the rest of Happy Coding's tutorials, you can probably guess by now that the answer is: consult the documentation!
+Now that you know Bootstrap is both CSS and JavaScript that responds to certain CSS classes, the next question is: how do you know what CSS classes to use to trigger the correct behavior? If you've been reading the rest of these tutorials, you can probably guess by now that the answer is: consult the documentation!
 
-The [Bootstrap documentation](http://getbootstrap.com/components/) contains a bunch of example components (like the dropdown from above) that you can use. If you're interested in using Bootstrap, this page should be your first stop. I recommend reading through that whole thing at least once, and then going back to it later when you need a specific component.
+The [Bootstrap documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) contains a bunch of example components (like the dropdown from above) that you can use. If you're interested in using Bootstrap, this page should be your first stop. I recommend reading through that whole thing at least once, and then going back to it later when you need a specific component.
 
-[W3Schools](http://www.w3schools.com/bootstrap/default.asp) also has a good section of Bootstrap examples. And of course Google is always your best friend.
+[W3Schools](https://www.w3schools.com/bootstrap5/index.php) also has a good section of Bootstrap examples. And of course search engines are always your best friend.
 
 Here are a couple examples of the most common Bootstrap components:
 
@@ -124,125 +87,94 @@ The `container` class lets the content in your website "snap" to certain widths 
 
 Here's an example:
 
-{% include codepen-new.html slug-hash="GrjMqE" height="575" %}
+{% include codepen-new.html slug-hash="GrjMqE" height=400 autoplay=true %}
 
-Try opening this code up in its own window (click Run Pen and then click the [Edit on CodePen](http://codepen.io/KevinWorkman/pen/GrjMqE) link in the upper-right corner) and change the width of the window.
+Try [opening this code up in its own window](https://codepen.io/KevinWorkman/pen/GrjMqE) and then changing the width of the window to see the container "snap" to different widths. This lets you create a responsive webpage without worrying about any styling yourself.
 
 ## Navigation
 
-To create a navigation bar, you can use a `<nav>` tag with the `navbar` class, then a `<ul>` tag with the `nav` and `navbar-nav` classes.
+To create a navigation bar, you can use a `<nav>` tag with the `navbar` class, then a `<ul>` tag with the `navbar-nav` class.
 
-```html
-<nav class="navbar navbar-default">
-	<ul class="nav navbar-nav">
-		<li class="active"><a href="">Home</a></li>
-		<li><a href="">About</a></li>
-		<li><a href="">Cat Pictures</a></li>
-	</ul>
-</nav>
-```
+{% include codepen-new.html slug-hash="rjMgxR" height=400 autoplay=true %}
 
-{% include codepen-new.html slug-hash="rjMgxR" height="575" %}
+(The navigation bar is automatically turned into a vertical menu if it doesn't have enough width, so try [opening this in a new window](https://codepen.io/KevinWorkman/pen/rjMgxR).)
 
-(The navigation bar is automatically turned into a menu if it doesn't have enough width, so try [opening this in a new window](http://codepen.io/KevinWorkman/pen/rjMgxR).)
-
-Note that you can put the `<nav>` inside the `container` `<div>` to give the navigation bar the same width as the content, or you can put it before the `container` to make the navigation span the whole page. Try both and see which you like better!
-
-From here you can do fancier things like putting different types of components inside your nav, or changing how your navigation works on mobile devices. But these fundamentals should get you started!
+From here you can do fancier things like putting different types of components inside your nav, or changing how your navigation works on mobile devices. Check out [Bootstrap's documentation](https://getbootstrap.com/docs/5.1/components/navbar/#responsive-behaviors) for more info!
 
 ## Grid
 
-Bootstrap organizes a page's content into a grid. You can customize the layout of your content by specifying how much room each section of your page should take up in that grid. You do this using the `row` and `col` classes.
+Bootstrap contains a gird layout system that lets you organize your content using the `row` and `col` classes.
 
-Think about it this way: you can have an unlimited number of rows, but inside each row you can only have `12` total columns.
+By default, each row takes up 100% of the container width, and then each column in a row takes up an equal share of the row's width.
 
-Here's an example that has 2 rows that both use all 12 columns:
+Here's an example with  four rows, each with a different number of columns.
 
-{% include codepen-new.html slug-hash="GrjbKd" height="575" %}
+{% include codepen-new.html slug-hash="rNYEXYp" height=400 autoplay=true %}
 
-You won't always use 12 columns, especially if your content is wider than the window (like the above example). You can use fewer columns by changing the number in the `col-xs-#` class name to change how many columns your content should take up. For example, you could use `col-xs-3` to make your content take up 3 columns. This column would take up 25% of its row's width (3 is 25% of 12). You could then add another section that took up 75% of the row's width using the `col-xs-9` class. Notice that the total (3+9) adds up to 12!
+Within each row, each column takes up an equal share of the available width.
 
-It's probably easier to explain using an example, so here's an example that creates 2 rows. The first row contains 2 columns: one that takes up 9 column widths and another that takes up 3 column widths. The second row contains 3 columns, and each takes up 6 column widths.
+Bootstrap divides each row into 12 "template columns", and by default, the `col` class will take up an equal share of those 12 template columns. But you can change that by using the `col-N` classes, where `N` is a number between `1` and `12`. Here's an example:
 
-{% include codepen-new.html slug-hash="egdwaR" height="575" %}
+{% include codepen-new.html slug-hash="LYOKwBq" height=400 autoplay=true %}
 
-Notice how the first row contains a column that takes up 75% (9/12) of the row, and another column that takes up the remaining 25% (3/12).
+Now each row has columns that take up different amounts of template columns. Here are a couple things to notice:
 
-Then the second row contains 3 columns, but notice that the last column (the red one) wraps around into a new row. That's because each row can only have a total of 12 column widths! Each of the 3 rows has a width of 6, so only the first 2 fit on the row, which causes the last column to wrap to a new row.
+- The first row contains a single column that only takes up 3 template columns. The rest of the row is empty.
+- The second row contains a column that takes up 2 template columns, and then another template that takes up the remaining template columns.
+- The third row contains a column that takes up 6 template columns, which is half of the available width, then 2 other columns that each take up half of the remaining width.
+- The fourth row contains 4 columns, each which take up a different number of template columns. Try adding another column to this row. What happens if the next column has `col-6`?
 
-The cool thing about this is that you can specify different layouts for different sized devices and screens. This is super useful, since you don't need a separate version of your website for phones, you just use a different layout.
+You can use Bootstrap's grid layout to organize your page into sections. Here's an example:
 
-Notice the `xs` part of the `col-xs-#` classes we've used so far. That stands for **extra small** and means that phone sized screens (and larger) will use that layout. So far that hasn't been important because we haven't specified any other screen size layouts. But we could add classes for other screen sizes. 
+{% include codepen-new.html slug-hash="GrjbKd" height=400 autoplay=true %}
 
-Here's an example:
+This page splits the page up into three columns: one for the left nav, one for the main content, and another for the right nav.
 
-```html
-<div class="row">
-	<div class="col-xs-12 col-md-4">This section will take up 12 columns on extra small screens, but only 4 columns on medium (and larger) screens.</div>
+Check out [Bootstrap's grid documentation](https://getbootstrap.com/docs/5.1/layout/grid/) for other examples, including using different layouts on different screen sizes.
 
-	<div class="col-xs-12 col-md-8"><p>This section will take up 12 columns on extra small screens, but only 8 columns on medium (and larger) screens.</p></div>
-</div>
-```
+# Custom Styling
 
-This HTML defines a row with two columns. On extra small screens, each column takes up all 12 column widths, which causes them to be shown on their own rows. But on medium (and larger) screens, the first column only takes up 4 column widths, and the second column takes up the remaining 8.
+As you've seen, Bootstrap provides its own CSS styles. But you aren't stuck with the default styles that Bootstrap provides.
 
-{% include codepen-new.html slug-hash="ZLBYLa" height="575" %}
+You can add your own CSS rules for any Bootstrap class to create your own custom style. Keep in mind the **cascading** part of CSS, which means that your styles will be combined with the styles from the main Bootstrap CSS.
 
-(Open this [in its own window](http://codepen.io/KevinWorkman/pen/ZLBYLa) and change the window width!)
+{% include codepen-new.html slug-hash="gOXVYaw" height=400 autoplay=true %}
 
-This is a really powerful feature, so it might seem confusing at first. I recommend putting together a few examples and seeing how they behave when you change the width of your browser. When you get the hang of it, this will let you create layouts that work on mobile devices, desktops, and everything in between.
-
-# Themes
-
-As you've seen, Bootstrap provides CSS its own styles. But you aren't stuck with the default styles that Bootstrap provides.
-
-Instead of using Bootstrap's default `.css` file, you can use other `.css` files that define styles for Bootstrap's classes. These files are called Bootstrap themes, but really they're regular `.css` files.
-
-Here's an example page that uses Bootstrap's default styles, aka the default theme:
-
-{% include codepen-new.html slug-hash="JEbdwK" height="575" %}
-
-And here is that same page using the [Cyborg Theme](https://bootswatch.com/cyborg/) from [Bootswatch](https://bootswatch.com/):
-
-{% include codepen-new.html slug-hash="ygVNxr" height="575" %}
-
-Notice that the only thing that changed is the `.css` file that's loaded in the `<head>` section. This `.css` file defines all of the classes that Bootstrap uses, but with different styles than the default `.css` file. You can download the `.css` file or view it in your browser here: [https://bootswatch.com/3/cyborg/bootstrap.css](https://bootswatch.com/3/cyborg/bootstrap.css)
-
-Try doing a search in that file for the `panel` class to see the styles on it.
-
-You can also add your own CSS rules for any of the Bootstrap classes to create your own custom style. You can do this on top of the default styles or on top of a theme. Keep in mind the **cascading** part of CSS, which means that your styles will be combined with the styles from the main Bootstrap CSS.
-
-For example, you could add some custom styles for a few of the classes in your webpage:
-
-```html
-<style>
-	.navbar{
-		border: thick solid blue;
-	}
-	
-	.panel .panel-heading{
-		background-color:red;
-	}
-	
-	.panel .panel-footer{
-		font-size: 8pt;	
-	}
-	
-	.panel{
-		width: 200px;
-		margin-left:auto;
-		margin-right:auto;
-	}
-</style>
-```
-
-This adds your own custom styles to a few Bootstrap classes. First the main styles from Bootstrap (or whatever theme you're using) are applied, and then your styles **cascade** on top to add a border to the navbar, change the background color of the panel, change the font size of the panel footer, and set the width of the panel.
-
-{% include codepen-new.html slug-hash="bgBVaP" height="575" %}
+This example uses Bootstrap for most of the styling, but adds some custom styling in its own `<style>` tag. These styles then cascade on top of Bootstrap's styles to create the end result.
 
 This gives you the best of both worlds: you get to use all of the styles from Bootstrap, but you still get to customize your site with whatever styles you want.
 
+## Themes
+
+Another feature of Bootstrap is the availability of themes, which are alternative CSS files that style Bootstrap's classes.
+
+To use a theme, instead of loading Bootstrap's default `.css` file, you load a different `.css` file that define styles for Bootstrap's classes. These files are called Bootstrap themes, but really they're regular `.css` files.
+
+Here's an example page that uses Bootstrap's default styles, aka the default theme:
+
+{% include codepen-new.html slug-hash="qRajxo" height=400 autoplay=true %}
+
+And here is that same page using the [Cyborg Theme](https://bootswatch.com/cyborg/) from [Bootswatch](https://bootswatch.com/):
+
+{% include codepen-new.html slug-hash="YzEmKpw" height=400 autoplay=true %}
+
+Notice that the only thing that really changed is the `.css` file that's loaded in the `<head>` section. This `.css` file defines all of the classes that Bootstrap uses, but with different styles than the default `.css` file. You can download the `.css` file or view it in your browser here: [https://bootswatch.com/5/cyborg/bootstrap.css](https://bootswatch.com/5/cyborg/bootstrap.css)
+
+Try doing a search in that file for the `card` class to see the styles on it.
+
+# Bootstrap Pros and Cons
+
+I originally wrote this tutorial back in January of 2017. Back then, I was personally using Bootstrap to style Happy Coding. But since then, I've grown to prefer writing my own CSS. [A little CSS goes a long way](http://bettermotherfuckingwebsite.com/) (warning: that page contains swears), without needing to rely on Bootstrap!
+
+Even though I don't really use Bootstrap myself anymore, I've decided to keep this tutorial up (and to continue teaching Bootstrap) for a couple reasons:
+
+First, it's still really popular. You're pretty much guaranteed to encounter Bootstrap as you're learning how to create webpages, so I wanted to introduce it along with the other concepts you've been learning about. My hope is that I helped *demystify* bootstrap. It's not magic! At the end of the day, it's the same HTML, CSS, and JavaScript that you've already been using.
+
+Second, and most importantly, I wanted to introduce the **concept** of using a frontend framework. There are a ton of frameworks out there, and Bootstrap is just one of them. So more important than using Bootstrap specifically, I wanted to show you the more general process of using a framework, consulting documentation, and trying things out. If you continue learning more about web development, you'll almost certainly encounter other frameworks along the way, and hopefully being exposed to Bootstrap will make them a little easier to understand.
+
+All of that said, you shouldn't feel like you need to use Bootstrap to create a webpage!
+
 # Homework
 
-- Use Bootstrap to style your example webpage. Add some [Bootstrap components](http://getbootstrap.com/components/), like a collapsing navbar or a jumbotron!
+- Use Bootstrap to style your personal webpage. Add some [Bootstrap components](http://getbootstrap.com/components/), like a collapsing navbar or a carousel of images!
 - Keep your eyes peeled for websites that use Bootstrap. Once you start looking, you'll see them everywhere.

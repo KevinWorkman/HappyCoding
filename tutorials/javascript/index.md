@@ -29,16 +29,5 @@ Read through these tutorials to learn more about JavaScript:
 {% include url-thumbnail.html url="/tutorials/javascript/libraries" %}
 {% include url-thumbnail.html url="/tutorials/javascript/objects" %}
 {% include url-thumbnail.html url="/tutorials/javascript/fetch" %}
-</div>
-
----
-
-# Legacy Tutorials
-
-I wrote these tutorials back in 2017. Since then, I've personally stopped using jQuery and Bootstrap, and the `fetch()` function replaced a lot of what's in the old AJAX tutorial. They're still here if you want to learn them, but I recommend using vanilla JavaScript and CSS instead!
-
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/javascript/ajax" %}
-{% include url-thumbnail.html url="/tutorials/javascript/jquery" %}
 {% include url-thumbnail.html url="/tutorials/javascript/bootstrap" %}
 </div>
