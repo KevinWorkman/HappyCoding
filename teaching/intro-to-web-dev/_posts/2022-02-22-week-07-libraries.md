@@ -5,7 +5,7 @@ thumbnail: /tutorials/javascript/images/libraries-1.png
 pixelate-thumbnail: true
 tagline: Take your code to the next level with JavaScript libraries.
 sort-key: 800
-meta-title: JavaScript Libraries - Intro to Web Dev Week 06
+meta-title: JavaScript Libraries - Intro to Web Dev Week 07
 meta-description: Take your code to the next level with JavaScript libraries.
 meta-image: /tutorials/javascript/images/libraries-1.png
 hide-video-icon: true
