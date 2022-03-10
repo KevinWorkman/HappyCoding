@@ -49,3 +49,4 @@ I will point out any behavior that makes others feel unfairly uncomfortable or u
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-05-if-statements" %}
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-06-for-loops-and-arrays" %}
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-07-libraries" %}
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-08-objects" %}
