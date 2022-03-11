@@ -40,16 +40,11 @@ Now you've seen the fundamentals of JavaScript objects.
 
 To practice these concepts, modify the files in the `week-08-objects` directory of your project repo.
 
-**Note:** I'm only going to grade the first **two** requirements in the repo's `README.md` file. So when you finish the project, you code should contain:
-
-- An array with 10 objects, with at least 3 fields in each object
-- A for loop that builds the page HTML based on the values in the array
-
 ---
 
 # Checklist
 
 1. Learn about objects
-2. Follow the directions in the `week-08-objects` directory of your project repo (keep in mind the above note)
+2. Follow the directions in the `week-08-objects` directory of your project repo
 3. Push those changes to GitHub and confirm you can see them in your GitHub Pages site
 4. Get ready to present your work. Make sure your camera and microphone work!
