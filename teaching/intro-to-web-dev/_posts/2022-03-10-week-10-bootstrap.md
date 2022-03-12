@@ -40,6 +40,8 @@ Now you've seen the fundamentals of Bootstrap.
 
 To practice these concepts, modify the files in the `week-10-bootstrap` directory of your project repo.
 
+{% include youtube-embed.html slug="kczt1W5-1UQ" %}
+
 ---
 
 # Checklist

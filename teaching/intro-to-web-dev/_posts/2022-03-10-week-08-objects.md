@@ -40,6 +40,8 @@ Now you've seen the fundamentals of JavaScript objects.
 
 To practice these concepts, modify the files in the `week-08-objects` directory of your project repo.
 
+{% include youtube-embed.html slug="xGlga-54nxA" %}
+
 ---
 
 # Checklist
