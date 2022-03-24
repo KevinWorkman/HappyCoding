@@ -201,7 +201,7 @@ This code uses the `document.getElementById()` function to get a reference to th
 
 This pattern of getting input from the user, doing something with it, and then modifying the page as a result is very common.
 
-HTML has a few other input elements, like text areas that show multiple lines, checkboxes, and radio buttons. The `<input>` tag can also have a `type` attribute, which lets the user enter different kinds of data. Learn more about that on [W3Schools](https://www.w3schools.com/html/html_form_input_types.asp) and [MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types).
+HTML has a few other input elements, like text areas that show multiple lines, [checkboxes](https://www.scaler.com/topics/checkbox-in-html/), and radio buttons. The `<input>` tag can also have a `type` attribute, which lets the user enter different kinds of data. Learn more about that on [W3Schools](https://www.w3schools.com/html/html_form_input_types.asp), [Scaler Topics](https://www.scaler.com/topics/html/html-forms/) and [MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types).
 
 ---
 
