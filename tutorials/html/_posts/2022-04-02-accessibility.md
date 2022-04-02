@@ -160,6 +160,12 @@ It's also possible to create elements using `<div>` tags. Let's say you wanted t
 
 But `<div>` tags don't supply any meaning, other than an arbitrary division of content. If you use CSS to indicate that a `<div>` should be treated like a button, it might be obvious to sighted users that they can click on it. But it won't be obvious to screen reader users, because the screen reader won't announce the content as being clickable.
 
+Here's an example with non-semantic HTML:
+
+{% include codepen-new.html slug-hash="qBpVKNB" height="275" default-tab="html" autoplay=true %}
+
+[View the non-semantic HTML example fullscreen.](https://codepen.io/KevinWorkman/live/qBpVKNB)
+
 It's fine to use tags like `<div>` when you want to group some content without adding any meaning to that grouping. But whenever you want to communicate meaning to your user, use semantic HTML tags rather than arbitrary tags like `<div>` or `<span>`.
 
 If you can't use semantic HTML, see the `aria-role` section below.
