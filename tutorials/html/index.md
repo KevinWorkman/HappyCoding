@@ -28,6 +28,7 @@ If you're ready to start making your own websites, read through these tutorials!
 {% include url-thumbnail.html url="/tutorials/html/html-tags" %}
 {% include url-thumbnail.html url="/tutorials/html/css" %}
 {% include url-thumbnail.html url="/tutorials/html/layout" %}
+{% include url-thumbnail.html url="/tutorials/html/accessibility" %}
 {% include url-thumbnail.html url="/tutorials/html/hosting" %}
 </div>
 
