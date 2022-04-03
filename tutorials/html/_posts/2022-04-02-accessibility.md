@@ -204,7 +204,7 @@ Here's the same example with alt text added:
 
 [View the images with alt text example fullscreen.](https://codepen.io/KevinWorkman/live/qBpVKjd)
 
-Try this version of the page wit ha screen reader. Now the experience is a lot more meaningful!
+Try this version of the page witha screen reader. Now the experience is a lot more meaningful!
 
 If you can't provide an `alt` attribute, see the `aria-label` section below.
 
@@ -216,19 +216,47 @@ In situations where you can't use semantic HTML or provide alt text, you can add
 
 ### aria-label
 
-The `aria-label` attribute is meant for situations where you have an interactive element like a button, whose content is an image, where that image does not have any `alt` text:
+The `aria-label` attribute is meant for situations where you have an interactive element like a button, whose content is an image, where that image does not have any `alt` text.
 
-```html
-<button aria-label="Okay">
-  <img src="thumb_up_icon.png" />
-</button>
-```
+Here's an example without ARIA labels:
 
-You don't always need to specify the `aria-label` attribute! If a button contains text, or contains an image with alt text, then you don't need to specify the `aria-label` attribute. ARIA attributes are for situations where you can't otherwise provide the information.
+{% include codepen-new.html slug-hash="ZEvaRvZ" height=350 default-tab="html" autoplay=true %}
+
+[View the buttons without ARIA labels example fullscreen.](https://codepen.io/KevinWorkman/live/ZEvaRvZ)
+
+Try opening that page and using a screen reader to click one of the buttons. Because the images don't have alt text, the screen reader reads out the file name, which isn't very helpful!
+
+Here's the same example, this time with ARIA labels:
+
+{% include codepen-new.html slug-hash="JjMOZeX" height=400 default-tab="html" autoplay=true %}
+
+[View the images with alt text example fullscreen.](https://codepen.io/KevinWorkman/live/JjMOZeX)
+
+Try this version of the page with a screen reader. Now each button is announced with the right label!
+
+You don't always need to specify the `aria-label` attribute. If a button contains text, or contains an image with alt text, then you don't need to specify the `aria-label` attribute. ARIA attributes are for situations where you can't otherwise provide the information.
 
 ### role
 
-The `role` attribute is meant for situations where you can't use semantic HTML. There are many available [ARIA roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles), like `heading`, `dialog`, and `button`. Use these when you have a non-semantic element that's acting as a semantic element, and you can't use the semantic element for some reason. For example:
+The `role` attribute is meant for situations where you can't use semantic HTML. There are many available [ARIA roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles), like `heading`, `dialog`, and `button`. Use these when you have a non-semantic element that's acting as a semantic element, and you can't use the semantic element for some reason.
+
+Here's an example with non-semantic HTML without any `role` attributes:
+
+{% include codepen-new.html slug-hash="qBpVKNB" height="275" default-tab="html" autoplay=true %}
+
+[View the non-semantic HTML example fullscreen.](https://codepen.io/KevinWorkman/live/qBpVKNB)
+
+Try opening that page and using a screen reader to navigate and click the button. It doesn't really work, because the screen reader doesn't recognize that the divs represent headings and buttons!
+
+To improve this, you can add `role` attributes to each of the non-semantic elements:
+
+{% include codepen-new.html slug-hash="GRyOGey" height=325 default-tab="html" autoplay=true %}
+
+[View the ARIA role example fullscreen.](https://codepen.io/KevinWorkman/live/GRyOGey)
+
+Try this version of the page with a screen reader. Now the headings are treated as headings, and the button is announced as a button.
+
+**Note:** You should only need to use a role attribute if for some reason you **can't** use semantic HTML.
 
 This is bad, because it uses a non-semantic tag to represent a heading, and doesn't specify the heading role:
 
@@ -266,9 +294,17 @@ The focus should also be visible, so you can write CSS that changes the focus st
 
 Links and buttons that are too small can be hard to click. You've probably experienced this yourself if you've ever tried to browse the web on a small mobile devices. This is even more difficult for people with mobility issues.
 
+{% include codepen-new.html slug-hash="GRyyRzP" height="275" default-tab="html" autoplay=true %}
+
+[View the tiny buttons example fullscreen.](https://codepen.io/KevinWorkman/live/GRyyRzP)
+
 With that in mind, [WCAG recommends that clickable elements are sized at least 44x44 pixels](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html). This is mostly for elements like navigation links and interactive buttons- elements like inline links can be the same size as the surrounding text.
 
 Similarly, elements that are too close together can be hard to click. WCAG doesn't have an official spacing recommendation, but generally, [12 pixel spacing](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/) is a reasonable minimum.
+
+{% include codepen-new.html slug-hash="dyJJyrK" height="275" default-tab="html" autoplay=true %}
+
+[View the big buttons example fullscreen.](https://codepen.io/KevinWorkman/live/dyJJyrK)
 
 ## Contrast
 
