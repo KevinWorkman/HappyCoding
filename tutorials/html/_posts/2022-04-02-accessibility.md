@@ -36,6 +36,8 @@ You've probably seen accessible devices in real life before. Here are a few exam
 - Pedestrian crosswalks that help people cross the road.
   - Side note: these can be a great example of accessibility! At a single crosswalk you might see a curb cut instead of a step, patterned markings on the ground, and auditory signals in addition to visible lights and signs.
 
+![pedestrian crosswalk](/tutorials/html/images/accessibility-2.jpg)
+
 One thing worth noting is that many accessible devices improve the experience of *everyone*. For example, wheelchair ramps also help people pushing a stroller or a cart, or people who have difficulty climbing stairs.
 
 # Why is accessibility important?
