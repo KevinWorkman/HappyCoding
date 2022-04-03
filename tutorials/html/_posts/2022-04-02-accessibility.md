@@ -166,6 +166,16 @@ Here's an example with non-semantic HTML:
 
 [View the non-semantic HTML example fullscreen.](https://codepen.io/KevinWorkman/live/qBpVKNB)
 
+Try opening that page and using a screen reader to navigate and click the button. It doesn't really work, because the screen reader doesn't recognize that the divs represent headings and buttons!
+
+Here's the same example with semantic HTML:
+
+{% include codepen-new.html slug-hash="popdKNO" height="275" default-tab="html" autoplay=true %}
+
+[View the semantic HTML example fullscreen.](https://codepen.io/KevinWorkman/live/popdKNO)
+
+Try this version of the page with a screen reader. Now navigating by headings works, and the button is announced as a button!
+
 It's fine to use tags like `<div>` when you want to group some content without adding any meaning to that grouping. But whenever you want to communicate meaning to your user, use semantic HTML tags rather than arbitrary tags like `<div>` or `<span>`.
 
 If you can't use semantic HTML, see the `aria-role` section below.
@@ -174,13 +184,31 @@ If you can't use semantic HTML, see the `aria-role` section below.
 
 Images are another pain point for screen reader users. A sighted user can look at the image to know what it is, but blind users have to guess.
 
-You can improve an image's accessibility by providing an `alt` attribute, like this:
+Here's an example that uses images without alt text:
+
+{% include codepen-new.html slug-hash="RwxjJVK" height="300" default-tab="html" autoplay=true %}
+
+[View the images without alt text example fullscreen.](https://codepen.io/KevinWorkman/live/RwxjJVK)
+
+Try opening that page and using a screen reader to read the contents. Because the images don't have alt text, the screen reader reads out the file name, which isn't very helpful!
+
+Instead, you can improve an image's accessibility by providing an `alt` attribute, like this:
 
 ```html
 <img src="cat.png" alt="A cat frolicking through some red flowers." />
 ```
 
+Here's the same example with alt text added:
+
+{% include codepen-new.html slug-hash="qBpVKjd" height="300" default-tab="html" autoplay=true %}
+
+[View the images with alt text example fullscreen.](https://codepen.io/KevinWorkman/live/qBpVKjd)
+
+Try this version of the page wit ha screen reader. Now the experience is a lot more meaningful!
+
 If you can't provide an `alt` attribute, see the `aria-label` section below.
+
+**Empathy challenge:** Try navigating a photo or video-centric app like Twitter, Instagram, or TikTok with a screen reader. What percentage of posts contain alt text?
 
 ## ARIA Attributes
 
