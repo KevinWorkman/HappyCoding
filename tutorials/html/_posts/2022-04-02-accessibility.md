@@ -119,6 +119,9 @@ Screen readers do pretty much exactly what it sounds like they do: they read the
 Most computers and phones come with a screen reader. Try enabling yours now!
 
 - On Android, enable [TalkBack](https://support.google.com/accessibility/android/answer/6007100) and then go through the [TalkBack tutorial](https://support.google.com/accessibility/android/answer/6283677)
+
+{% include youtube-embed.html slug="Wcjh58iiUKI" %}
+
 - On iPhone or Mac, enable [VoiceOver for iPhone](https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios) or [VoiceOver for Mac](https://support.apple.com/guide/voiceover/turn-voiceover-on-or-off-vo2682/mac)
 - On Windows, enable [Narrator](https://support.microsoft.com/en-us/windows/start-or-stop-narrator-99c201e7-fa7a-9b0b-f947-dee965c1375b) and then go through the [Narrator tutorial](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)
 
@@ -170,6 +173,8 @@ Here's an example with non-semantic HTML:
 
 Try opening that page and using a screen reader to navigate and click the button. It doesn't really work, because the screen reader doesn't recognize that the divs represent headings and buttons!
 
+{% include youtube-embed.html slug="AWgI_-0AMHI" %}
+
 Here's the same example with semantic HTML:
 
 {% include codepen-new.html slug-hash="popdKNO" height="275" default-tab="html" autoplay=true %}
@@ -177,6 +182,8 @@ Here's the same example with semantic HTML:
 [View the semantic HTML example fullscreen.](https://codepen.io/KevinWorkman/live/popdKNO)
 
 Try this version of the page with a screen reader. Now navigating by headings works, and the button is announced as a button!
+
+{% include youtube-embed.html slug="i1aGSzADrkE" %}
 
 It's fine to use tags like `<div>` when you want to group some content without adding any meaning to that grouping. But whenever you want to communicate meaning to your user, use semantic HTML tags rather than arbitrary tags like `<div>` or `<span>`.
 
@@ -194,6 +201,8 @@ Here's an example that uses images without alt text:
 
 Try opening that page and using a screen reader to read the contents. Because the images don't have alt text, the screen reader reads out the file name, which isn't very helpful!
 
+{% include youtube-embed.html slug="rBYxy8XW5jk" %}
+
 Instead, you can improve an image's accessibility by providing an `alt` attribute, like this:
 
 ```html
@@ -207,6 +216,8 @@ Here's the same example with alt text added:
 [View the images with alt text example fullscreen.](https://codepen.io/KevinWorkman/live/qBpVKjd)
 
 Try this version of the page witha screen reader. Now the experience is a lot more meaningful!
+
+{% include youtube-embed.html slug="u11DV-d3rTI" %}
 
 If you can't provide an `alt` attribute, see the `aria-label` section below.
 
@@ -228,6 +239,8 @@ Here's an example without ARIA labels:
 
 Try opening that page and using a screen reader to click one of the buttons. Because the images don't have alt text, the screen reader reads out the file name, which isn't very helpful!
 
+{% include youtube-embed.html slug="8L-Lu9uEyTk" %}
+
 Here's the same example, this time with ARIA labels:
 
 {% include codepen-new.html slug-hash="JjMOZeX" height=400 default-tab="html" autoplay=true %}
@@ -235,6 +248,8 @@ Here's the same example, this time with ARIA labels:
 [View the images with alt text example fullscreen.](https://codepen.io/KevinWorkman/live/JjMOZeX)
 
 Try this version of the page with a screen reader. Now each button is announced with the right label!
+
+{% include youtube-embed.html slug="Pn4Bxqnua5g" %}
 
 You don't always need to specify the `aria-label` attribute. If a button contains text, or contains an image with alt text, then you don't need to specify the `aria-label` attribute. ARIA attributes are for situations where you can't otherwise provide the information.
 
@@ -250,6 +265,8 @@ Here's an example with non-semantic HTML without any `role` attributes:
 
 Try opening that page and using a screen reader to navigate and click the button. It doesn't really work, because the screen reader doesn't recognize that the divs represent headings and buttons!
 
+{% include youtube-embed.html slug="AWgI_-0AMHI" %}
+
 To improve this, you can add `role` attributes to each of the non-semantic elements:
 
 {% include codepen-new.html slug-hash="GRyOGey" height=325 default-tab="html" autoplay=true %}
@@ -257,6 +274,8 @@ To improve this, you can add `role` attributes to each of the non-semantic eleme
 [View the ARIA role example fullscreen.](https://codepen.io/KevinWorkman/live/GRyOGey)
 
 Try this version of the page with a screen reader. Now the headings are treated as headings, and the button is announced as a button.
+
+{% include youtube-embed.html slug="20XGY3BSv3c" %}
 
 **Note:** You should only need to use a role attribute if for some reason you **can't** use semantic HTML.
 
@@ -300,6 +319,8 @@ Links and buttons that are too small can be hard to click. You've probably exper
 
 [View the tiny buttons example fullscreen.](https://codepen.io/KevinWorkman/live/GRyyRzP)
 
+{% include youtube-embed.html slug="SIWVEh-CwCs" %}
+
 With that in mind, [WCAG recommends that clickable elements are sized at least 44x44 pixels](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html). This is mostly for elements like navigation links and interactive buttons- elements like inline links can be the same size as the surrounding text.
 
 Similarly, elements that are too close together can be hard to click. WCAG doesn't have an official spacing recommendation, but generally, [12 pixel spacing](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/) is a reasonable minimum.
@@ -307,6 +328,8 @@ Similarly, elements that are too close together can be hard to click. WCAG doesn
 {% include codepen-new.html slug-hash="dyJJyrK" height="275" default-tab="html" autoplay=true %}
 
 [View the big buttons example fullscreen.](https://codepen.io/KevinWorkman/live/dyJJyrK)
+
+{% include youtube-embed.html slug="FIUq9AfNhiw" %}
 
 ## Contrast
 
