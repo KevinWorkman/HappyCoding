@@ -90,6 +90,8 @@ To really put yourself in the shoes of somebody with a disability, try this chal
 4. Now use your screen reader to use an app that you use often. How does Twitter or Instagram work with a screen reader? Can you use the app with your eyes closed?
 5. Now use your screen reader to use your website.
 
+{% include youtube-embed.html slug="YzzavEWWCvg" %}
+
 How did that work? How did you feel? What was easy or difficult about the experience?
 
 # Disabilities
