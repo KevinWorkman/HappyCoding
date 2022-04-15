@@ -153,7 +153,7 @@ This can be pretty confusing, so here are a few you'll see pretty often.
 
 # Improving Accessibility
 
-If you're new to accessibility, you might be expecting a list of rules you can follow to make sure your site is accessible. But it doesn't really work that way! Because there are so many different ways your website might work, a lot of accessibility is subjective: how hard is your site to use? How painful is it for the people using it? 
+If you're new to accessibility, you might be expecting a list of rules you can follow to make sure your site is accessible. But it doesn't really work that way! Because there are so many different ways your website might work, a lot of accessibility is subjective: how hard is your site to use? How painful is it for the people using it?
 
 In other words, accessibility isn't an either-or, yes-or-no thing. Instead of asking yourself "is my site accessible?", I'd encourage you to think about it as a spectrum: How accessible is my site? What about it is hard to use, and how can I improve that?
 
@@ -388,6 +388,8 @@ Your browser comes with a powerful set of developer tools that help with debuggi
 These developer tools include accessibility checkers that scan a webpage and let you know about certain accessibility issues. These won't catch everything, but they're a good partner to manual testing.
 
 On Chrome, you can use [Lighthouse](https://developers.google.com/web/tools/lighthouse/). On Firefox, you can use [Accessibility Inspector](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/index.html).
+
+{% include youtube-embed.html slug="apcHaiMrU_0" %}
 
 Try running your developer tool's accessibility checker on this website right now!
 
