@@ -34,9 +34,9 @@ First, read through this tutorial to learn about accessibility:
 
 # Project
 
-Now you've seen the fundamentals of Accessibility.
+{% include youtube-embed.html slug="cXpqGF0f-iA" %}
 
-To practice these concepts, do the following:
+Now you've seen the fundamentals of Accessibility. To practice these concepts, do the following:
 
 1. Use a screenreader (like TalkBack for Android or VoiceOver for iPhone) to use some of your previous projects.
 2. Use the accessibility report in your developer tools (like Lighthouse for Chrome) to audit some of your previous projects.
