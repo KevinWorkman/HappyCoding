@@ -14,6 +14,8 @@ tags: [teaching]
 
 # Final Project
 
+{% include youtube-embed.html slug="pQ-DZu0gpUk" title="Final Project" %}
+
 {% include toc.md %}
 
 Congratulations, you've reached the end of Intro to Web Development!
