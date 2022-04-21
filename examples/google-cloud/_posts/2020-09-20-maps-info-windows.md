@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Google Maps Info Windows
-thumbnail: /examples/javascript/libraries/images/washington-dc-tour-1.png
+thumbnail: /examples/javascript/images/washington-dc-tour-1.png
 tagline: Add info windows to your Google map.
 sort-key: 525
 meta-title: Google Maps Info Windows Example
 meta-description: Add info windows to your Google map.
-meta-image: /examples/javascript/libraries/images/washington-dc-tour-2.png
+meta-image: /examples/javascript/images/washington-dc-tour-2.png
 previousPost: /examples/google-cloud/
 tags: [example, javascript, google-cloud, maps]
 ---

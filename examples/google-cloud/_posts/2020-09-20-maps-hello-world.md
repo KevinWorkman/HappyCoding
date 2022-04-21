@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Google Maps Hello World
-thumbnail: /examples/javascript/libraries/images/washington-dc-tour-1.png
+thumbnail: /examples/javascript/images/washington-dc-tour-1.png
 tagline: Add a Google map to your page.
 sort-key: 550
 meta-title: Google Maps Hello World Example
 meta-description: Add a Google map to your page using the Google Maps JavaScript library.
-meta-image: /examples/javascript/libraries/images/washington-dc-tour-2.png
+meta-image: /examples/javascript/images/washington-dc-tour-2.png
 previousPost: /examples/google-cloud/
 tags: [example, javascript, google-cloud, maps]
 ---
