@@ -4,7 +4,7 @@ title: My Quarantine
 meta-title: My Quarantine
 meta-description: Some notes on the first six months of quarantine.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
-updated: 2021-09-11
+updated: 2022-04-23
 tags: [personal, favorite]
 ---
 
@@ -843,7 +843,7 @@ But man, singing along with a crowd and holding hands with a rando sure is nice.
 
 *August 15: negative covid test*
 
-I go backpacking with an old friend. It's truly great to catch up.
+I go backpacking with Mr. Britton. It's truly great to catch up.
 
 ![lake](/blog/images/my-quarantine/2021-08-16-01.jpg)
 
@@ -903,7 +903,7 @@ Oh, Google pushes their return to office date back to January. We'll see.
 
 *September 5: Gritty at Google*
 
-I vote no on the [ridiculous California recall election](https://en.wikipedia.org/wiki/2021_California_gubernatorial_recall_election).
+I vote no in the [ridiculous California recall election](https://en.wikipedia.org/wiki/2021_California_gubernatorial_recall_election).
 
 ![Android statue](/blog/images/my-quarantine/2021-09-05-02.jpg)
 
@@ -998,3 +998,45 @@ As I write this blog and reflect on the past couple years, I can see and feel my
 *November 20: discarded mask*
 
 I'm having trouble finding what to say in these. After almost 2 years, I think maybe we're at "the new normal" that was mentioned so often at the beginning. These monthly entries have turned into my personal diary entries rather than a record of my experience during covid-19, because maybe my experience during covid-19 is just my everyday life now.
+
+# December
+
+Speaking of these monthly entries turning into my own personal diary, I start dating somebody in late November. Being around another person is really, really nice. But I admit to a little bit of culture shock when I go from spending most of my time alone, to spending most of my weekends hanging out with her friends in big public group settings.
+
+![ginger snaps](/blog/images/my-quarantine/2021-12-17.jpg)
+
+*December 17: ginger snaps*
+
+I feel a weird guilt about going to some of these group gatherings. I don't mean that as a value judgment, but it gets at a question that has gnawed at me for the past 2 years: what is the "right" thing to do? Is it to stay inside? To go out in public but wear a mask? To gather at somebody's house without any masks? Something else entirely? Sometimes it feels like my quarantine experience is vastly different from what other people have been experiencing. Am I just forcing myself to follow rules that other people are ignoring? What's the point? 
+
+![bar entry sign](/blog/images/my-quarantine/2021-12-28.jpg)
+
+*December 28: bar entry sign*
+
+# January
+
+![we care about you](/blog/images/my-quarantine/2022-01-01.jpg)
+
+*January 1: we care about you*
+
+In January, my job hosts a booster shot event. There's something funny and depressing about "the smartest people in the world" not understanding how to wait in line. But hey, at least I got the booster.
+
+![booster shot sign](/blog/images/my-quarantine/2022-01-03.jpg)
+
+*January 13: Google booster shots*
+
+Google also sends me a Cue test kit. It comes packaged in a fancy box, and I feel like I'm unwrapping a brand new phone. Google's argument is that by receiving this kit, I'm helping the community by being less likely to use other testing resources, but I can't help but feel guilty about my privilege.
+
+# February
+
+![hiking sign with covid warnings](/blog/images/my-quarantine/2022-02-19.jpg)
+
+*February 19: Tahoe*
+
+![cat wearing a mask](/blog/images/my-quarantine/2022-02-26.jpg)
+
+*February 16: face masks required at all times*
+
+![per cdc guidelines if you are not fully vaccinated please wear a mask](/blog/images/my-quarantine/2022-02-27.jpg)
+
+*February 27: per cdc guidelines*
