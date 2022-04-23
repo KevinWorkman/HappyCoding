@@ -14,8 +14,6 @@ tags: [teaching]
 
 # Final Project
 
-{% include youtube-embed.html slug="pQ-DZu0gpUk" title="Final Project" %}
-
 {% include toc.md %}
 
 Congratulations, you've reached the end of Intro to Web Development!
@@ -46,6 +44,7 @@ Here are a couple ideas to get you thinking, organized roughly by complexity.
 - Find an API that provides interesting data and output it as HTML
   - [The Cat API](https://thecatapi.com/) might be a fun place to start.
 - Code Pong in p5.js
+- Use the Google Maps JavaScript library to show a list of your favorite places. See the [Google Maps tutorial](/tutorials/google-cloud/maps) and the [Washington DC Tour Map example](/examples/javascript/washington-dc-tour) for more info.
 
 **Spicy:**
 
@@ -57,6 +56,7 @@ For more inspiration, check out these resources:
 
 - [CodePen Challenges](https://codepen.io/challenges) gives a different challenge every week. This is a great way to play with web development!
 - [Genuary](https://genuary.art/prompts) is an event that gives you a different procedural generation prompt every day in January. This is a great way to play with p5.js!
+- [The Coding Train](https://thecodingtrain.com/) has a ton of videos, including a [programming with p5.js video series](https://thecodingtrain.com/beginners/p5js/) that has tons of ideas about what you can do with p5.js.
 
 # Grades
 
