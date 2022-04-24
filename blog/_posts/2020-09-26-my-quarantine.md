@@ -977,7 +977,7 @@ I've become increasingly infuriated over facebook's role in disinformation and r
 
 ![test verification](/blog/images/my-quarantine/2021-10-22.jpg)
 
-*October 22: covid-19 vaccine or test verification
+*October 22: covid-19 vaccine or test verification*
 
 # November
 
@@ -1001,7 +1001,7 @@ I'm having trouble finding what to say in these. After almost 2 years, I think m
 
 # December
 
-Speaking of these monthly entries turning into my own personal diary, I start dating somebody in late November. Being around another person is really, really nice. But I admit to a little bit of culture shock when I go from spending most of my time alone, to spending most of my weekends hanging out with her friends in big public group settings.
+Speaking of these monthly entries turning into my own personal diary, I started dating somebody in late November. Being around another person is really, really nice. But I admit to a little bit of culture shock when I go from spending most of my time alone, to spending most of my weekends hanging out with her friends in big public group settings.
 
 ![ginger snaps](/blog/images/my-quarantine/2021-12-17.jpg)
 
@@ -1013,6 +1013,8 @@ I feel a weird guilt about going to some of these group gatherings. I don't mean
 
 *December 28: bar entry sign*
 
+Google announces that they're pushing back RTO, but they don't know when it'll happen. But they promise they'll give 30 days' notice before we have to come back.
+
 # January
 
 ![we care about you](/blog/images/my-quarantine/2022-01-01.jpg)
@@ -1021,7 +1023,7 @@ I feel a weird guilt about going to some of these group gatherings. I don't mean
 
 In January, my job hosts a booster shot event. There's something funny and depressing about "the smartest people in the world" not understanding how to wait in line. But hey, at least I got the booster.
 
-![booster shot sign](/blog/images/my-quarantine/2022-01-03.jpg)
+![booster shot sign](/blog/images/my-quarantine/2022-01-13.jpg)
 
 *January 13: Google booster shots*
 
@@ -1033,6 +1035,8 @@ Google also sends me a Cue test kit. It comes packaged in a fancy box, and I fee
 
 *February 19: Tahoe*
 
+Google announces that we'll have to return to the office on April 4th. I'm pretty annoyed by this, mostly because I hate Google's manipulative "advancing our amazing bet" language. It's presented as "great news!" without any acknowledgement of the fact that we've gotten along just fine working from home for two years. Half the company has never stepped foot in an office, and 75% of the company has spent more time working from home than from the office. So whose culture are we "returning" to?
+
 ![cat wearing a mask](/blog/images/my-quarantine/2022-02-26.jpg)
 
 *February 16: face masks required at all times*
@@ -1040,3 +1044,25 @@ Google also sends me a Cue test kit. It comes packaged in a fancy box, and I fee
 ![per cdc guidelines if you are not fully vaccinated please wear a mask](/blog/images/my-quarantine/2022-02-27.jpg)
 
 *February 27: per cdc guidelines*
+
+# March
+
+We're at the two-year mark. Mask mandates start to be lifted again. The bay has tended to be a pretty cautious area (which I only realized after travelling through other parts of the country last year), so it takes a while before I start seeing a difference. (I'm writing this at the end of April, and most folks, including me, are still wearing masks in places like grocery stores.)
+
+Depending on where you look, the pandemic is either over, or still surging. Twitter has me convinced that it's too early to lift restrictions, as immunocompromised folks beg the rest of the world to have a shred of empathy for them and health professionals point out that hundreds of people are still dying every day.
+
+It's clear by now that the official guidelines published by the CDC are based more on politics than science, which is so infuriating. Towards the beginning of the pandemic, we could at least say "trust the science, it might be changing, but here is our current best understanding" but now we don't even have that.
+
+And I get it. How much whining and manipulation from the far-right can you take before you give in? But I find myself looking for somebody willing to stand by the science instead of capitulating.
+
+![sign saying that Blue Oak Brewing is not responsible for the health status of our customers](/blog/images/my-quarantine/2022-03-10.jpg)
+
+*March 10: Blue Oak Brewing is not responsible for the health status of our customers*
+
+I also find myself wishing for more official, more authoritative messaging about the current status. At the beginning of the pandemic, I got daily unignorable emergency alerts to my phone telling me to quarantine. But I never got an alert telling me it was over. And I know, it's not over. But for the past 2 years, most updates came from word of mouth, "did you hear that the CDC said this" conversations, which further turned everything into a weirdly subjective experience.
+
+![grizzled neighborhood](/blog/images/my-quarantine/2022-03-24.jpg)
+
+*March 24: the return of Corner Cat*
+
+I'm supposed to return to the office on April 4th, but I instead file for an extension. I'll be working from home until at least June.
