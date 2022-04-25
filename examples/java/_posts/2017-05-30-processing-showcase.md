@@ -98,7 +98,7 @@ Anyway, now that you have a bunch of these files, the code first creates a `List
 
 In other words, this program shows each sketch, one at a time, for 60 seconds at a time. This is useful if you want to showcase a bunch of sketches in a student presentation or an art gallery.
 
-If you find this useful, I'd love to [hear from you](/about/contact)!
+If you find this useful, I'd love to [hear from you](/about#contact)!
 
 
 ## Tweak Ideas

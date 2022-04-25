@@ -635,5 +635,5 @@ From here, you could spend some time just playing with what we've learned so far
 
 But again, this Hour of Code wasn't meant to make you an expert coder. We left out a lot, and glossed over some of the more complicated stuff. So if programming seems like something you'd like to learn more about, you might want to spend some more time doing the regular tutorials [here](/tutorials).
 
-If you have any questions, or feedback on this (was anything too complicated or not interesting enough?) please [contact me](/about/contact) or come say hello on [the forum](http://forum.HappyCoding.io)!
+If you have any questions, or feedback on this (was anything too complicated or not interesting enough?) please [contact me](/about#contact) or come say hello on [the forum](http://forum.HappyCoding.io)!
 

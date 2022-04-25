@@ -129,4 +129,4 @@ Instead, I see a ton of value in focusing on the fundamentals. If you offer a si
 
 # Contact Me
 
-I love *love* **love** hearing from teachers. So whether you're still figuring out what works for you, or if you're actively using Happy Coding in your class, please don't hesitate to [contact me](/about/contact)! I'd love to hear from you.
+I love *love* **love** hearing from teachers. So whether you're still figuring out what works for you, or if you're actively using Happy Coding in your class, please don't hesitate to [contact me](/about#contact)! I'd love to hear from you.

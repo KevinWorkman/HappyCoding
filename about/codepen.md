@@ -61,4 +61,4 @@ The CodePen browser editor needs these to run the code inside the browser, but y
 
 ## I have another question!
 
-If you have any other questions, please post in [the forum](http://forum.HappyCoding.io) or [contact me](/about/contact.html).
+If you have any other questions, please post in [the forum](http://forum.HappyCoding.io) or [contact me](/about#contact.html).

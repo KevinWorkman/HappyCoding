@@ -33,12 +33,12 @@ These articles below break down the different ways you might use Happy Coding in
 
 # Contributing
 
-If you have ideas for how this site can be useful for teachers, or if you have resources you'd like to share, please [contact me](/about/contact) or submit issues and pull requests on [GitHub](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing)!
+If you have ideas for how this site can be useful for teachers, or if you have resources you'd like to share, please [contact me](/about#contact) or submit issues and pull requests on [GitHub](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing)!
 
 # Contact Me!
 
 I absolutely love *love* **LOVE** hearing from teachers using Happy Coding's content in their classrooms. I do all of this for fun, for free, in my spare time, and the only way I know it's useful is if you tell me.
 
-So **please** [contact me](/about/contact) and let me know if you're using Happy Coding in your classroom. You'll make my day.
+So **please** [contact me](/about#contact) and let me know if you're using Happy Coding in your classroom. You'll make my day.
 
 I'm also very interested in collaborating and making Happy Coding more useful for teachers. So if you're a teacher and you have ideas about what would make this easier for you to use, please reach out!
