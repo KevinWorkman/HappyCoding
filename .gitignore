@@ -2,7 +2,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 _data/local-keys.yml
-gallery/run-map/RunsJsonMaker/data/routes.json
+gallery/run-map/RunsJsonMaker/**/routes.json
 examples/google-cloud/google-cloud-example-projects/*/target
 examples/google-cloud/google-cloud-example-projects/*/set_vars.cmd
 examples/google-cloud/google-cloud-example-projects/**/env_variables.yaml
