@@ -9,6 +9,8 @@ meta-title: JavaScript Libraries - Intro to Web Dev Week 07
 meta-description: Take your code to the next level with JavaScript libraries.
 meta-image: /tutorials/javascript/images/libraries-1.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-06-for-loops-and-arrays
+nextPost: /teaching/intro-to-web-dev/week-08-objects
 tags: [teaching]
 ---
 

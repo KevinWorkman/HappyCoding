@@ -9,6 +9,8 @@ meta-title: If Statements - Intro to Web Dev Week 06
 meta-description: Use for loops and arrays to repeat code multiple times.
 meta-image: /teaching/intro-to-web-dev/images/week-06-for-loops-and-arrays/for-loops-and-arrays-1.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-05-if-statements
+nextPost: /teaching/intro-to-web-dev/week-07-libraries
 tags: [teaching]
 ---
 

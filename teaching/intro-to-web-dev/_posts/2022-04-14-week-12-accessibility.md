@@ -9,6 +9,8 @@ meta-title: Accessibility - Intro to Web Dev Week 12
 meta-description: Make sure everyone can use your website.
 meta-image: /tutorials/html/images/accessibility-1.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-10-bootstrap
+nextPost: /teaching/intro-to-web-dev/final-project
 tags: [teaching]
 ---
 

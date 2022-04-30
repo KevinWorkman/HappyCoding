@@ -9,6 +9,8 @@ meta-title: Bootstrap - Intro to Web Dev Week 10
 meta-description: Design a webpage using Bootstrap.
 meta-image: /tutorials/javascript/images/bootstrap-3.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-09-fetch
+nextPost: /teaching/intro-to-web-dev/week-12-accessibility
 tags: [teaching]
 ---
 

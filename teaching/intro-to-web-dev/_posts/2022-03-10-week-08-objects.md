@@ -9,6 +9,8 @@ meta-title: JavaScript Objects - Intro to Web Dev Week 08
 meta-description: Group related variables together.
 meta-image: /tutorials/javascript/images/objects-1.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-07-libraries
+nextPost: /teaching/intro-to-web-dev/week-09-fetch
 tags: [teaching]
 ---
 

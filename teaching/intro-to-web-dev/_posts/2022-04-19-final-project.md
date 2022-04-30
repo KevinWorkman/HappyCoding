@@ -9,6 +9,8 @@ meta-title: Final Project - Intro to Web Dev
 meta-description: Practice everything you learned by making your own webpage!
 meta-image: /teaching/intro-to-web-dev/images/final-project/final-project.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-12-accessibility
+nextPost: /teaching/intro-to-web-dev/next
 tags: [teaching]
 ---
 

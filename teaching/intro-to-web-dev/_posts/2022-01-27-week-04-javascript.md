@@ -9,6 +9,8 @@ meta-title: JavaScript - Intro to Web Dev Week 04
 meta-description: Use JavaScript to make your page interactive.
 meta-image: /teaching/intro-to-web-dev/images/week-04-javascript/javascript-1.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-03-layout
+nextPost: /teaching/intro-to-web-dev/week-05-if-statements
 tags: [teaching]
 ---
 

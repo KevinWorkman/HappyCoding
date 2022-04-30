@@ -9,6 +9,8 @@ meta-title: If Statements - Intro to Web Dev Week 05
 meta-description: Use if statements to make decisions in your code.
 meta-image: /tutorials/javascript/images/if-statements-1.png
 hide-video-icon: true
+previousPost: /teaching/intro-to-web-dev/week-04-javascript
+nextPost: /teaching/intro-to-web-dev/week-06-for-loops-and-arrays
 tags: [teaching]
 ---
 
