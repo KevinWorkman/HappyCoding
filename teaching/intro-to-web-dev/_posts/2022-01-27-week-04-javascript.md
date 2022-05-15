@@ -64,6 +64,16 @@ First, watch the videos and read through the tutorials:
 
 ---
 
+# Quiz
+
+1. In your own words, what is JavaScript? What is it used for?
+2. What is the difference between HTML, CSS, and JavaScript?
+3. What is a variable in JavaScript? What are they used for?
+4. What is a function in JavaScript? What are they used for? How do you create and use one?
+5. What is the DOM? What is DOM manipulation? Can you give an example?
+
+---
+
 # Project
 
 Now you've seen the fundamentals of JavaScript and DOM manipulation.
