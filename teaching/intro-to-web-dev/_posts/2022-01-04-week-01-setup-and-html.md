@@ -61,6 +61,14 @@ Now that you have your environment set up, you're ready to start learning about 
 
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/week-01-html" %}
 
+# Quiz
+
+1. In your own words, what are HTML tags?
+2. What's your favorite HTML tag? What does it do? *Note: There is no wrong answer to this question. If you don't have a favorite, pick one you used most often, or one that surprised you.*
+3. What does the `<samp>` tag represent? *Note: This tag was not mentioned in any of this week's content. I'm testing that you can research and read about new tags you haven't seen before. Feel free to use a search engine and resources like W3SChools and MDN to answer this question.*
+4. In your own words, what is GitHub? How are we using it in this class?
+5. In your own words, how do you create, edit, and deploy a webpage?
+
 # Project
 
 *Estimated time: 1 hour*
