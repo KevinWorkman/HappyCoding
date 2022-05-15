@@ -36,6 +36,16 @@ First, watch this video and read through the tutorial:
 
 ---
 
+# Quiz
+
+1. In your own words, what is a boolean?
+2. Please give one example of a boolean operator, and explain what it does.
+3. In your own words, what is an if statement? When might you use one?
+4. What is the difference between an `if` statement, an `else if` statement, and an `else` statement?
+5. What is truthiness in JavaScript? What's an example of a "truthy" value?
+
+---
+
 # Project
 
 Now you've seen the fundamentals of `if` statements in JavaScript.
