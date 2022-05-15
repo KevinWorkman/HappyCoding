@@ -46,6 +46,26 @@ Then, watch this video and read through the tutorial to learn about arrays:
 
 ---
 
+# Quiz
+
+1. In your own words, what is a for loop? When would you use one?
+2. In your own words, what is an array? When would you use one?
+3. What does the array function *indexOf()* do? *Note: This function was not mentioned in any of this week's content. I'm testing that you can research and read about new functions you haven't seen before. Feel free to use a search engine and resources like W3SChools and MDN to answer this question.*
+4. What is the difference between an if statement and a for loop?
+5. What does this code output?
+
+   ```
+   let total = 0;
+   for (let number = 1; number <= 10; number++) {
+    total += number;
+   }
+   console.log(total);
+   ```
+
+   **Note:** Feel free to copy this code into your editor to see the result!
+
+---
+
 # Project
 
 Now you've seen the fundamentals of `for` loops and arrays in JavaScript.
