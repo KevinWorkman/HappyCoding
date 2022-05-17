@@ -36,6 +36,16 @@ First, watch this video and read through the tutorial to learn about JavaScript 
 
 ---
 
+# Quiz
+
+1. In your own words, what is an object in JavaScript?
+2. What's the difference between a primitive value and an object?
+3. What is the difference between objects and arrays?
+4. Let's say you wanted to create an object that represented a student in this course. What are some fields and values you'd give that object?
+5. In your own words, what is object-oriented programming?
+
+---
+
 # Project
 
 Now you've seen the fundamentals of JavaScript objects.

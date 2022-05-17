@@ -46,6 +46,22 @@ One thing I love about p5.js is that it's a great way to practice the fundamenta
 
 ---
 
+# Quiz
+
+1. In your own words, what is a JavaScript library? How do you use one?
+
+2. In your own words, what is p5.js?
+
+3. What's your favorite p5.js variable or function, and what does it do?
+
+   Note: There is no wrong answer to this question. If you don't have a favorite, pick one you used most often, or one that surprised you.
+
+4. What does the p5.js `quad()` function do?
+
+   *Note: This function was not mentioned in any of this week's content. I'm testing that you can research and read about new p5.js functions you haven't seen before. Feel free to use a search engine and resources like the p5.js reference to answer this question.*
+
+5. Let's say you wanted to display the current date and time in your webpage, but you didn't want to format it yourself. How would you find a JavaScript library that formats dates and times for you?
+
 # Project
 
 {% include youtube-embed.html slug="0-8G28O9MYQ" %}

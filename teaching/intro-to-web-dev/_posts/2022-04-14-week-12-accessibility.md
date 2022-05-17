@@ -34,6 +34,16 @@ First, read through this tutorial to learn about accessibility:
 
 ---
 
+# Quiz
+
+1. In your own words, what is accessibility? Why is it important?
+2. What are some examples of accessible devices?
+3. When would you use an ARIA label? When would you **not** need to use an ARIA label?
+4. What are some ways you can check the accessibility of your webpage?
+5. Why is empathy so important when thinking about accessibility?
+
+---
+
 # Project
 
 {% include youtube-embed.html slug="cXpqGF0f-iA" %}

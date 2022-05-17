@@ -36,6 +36,26 @@ First, watch this video and read through the tutorial to learn about Bootstrap:
 
 ---
 
+# Quiz
+
+1. In your own words, what is Bootstrap?
+
+2. What's your favorite Bootstrap component?
+
+   *Note: There is no wrong answer to this question. If you don't have a favorite, pick one you used most often, or one that surprised you.*
+
+3. What does Bootstrap's **modal** component do?
+
+   *Note: This component was not mentioned in any of this week's content. I'm testing that you can research and read about new Bootstrap components you haven't seen before. Feel free to use a search engine and resources like the Bootstrap documentation to answer this question.*
+
+4. How would you go about customizing Bootstrap's default styling?
+
+5. Which did you prefer: writing your own CSS, or using Bootstrap? What did you like or dislike about each?
+
+   *Note: There is no wrong answer to this question. I'm legitimately curious to hear your thoughts!*
+
+---
+
 # Project
 
 Now you've seen the fundamentals of Bootstrap.
