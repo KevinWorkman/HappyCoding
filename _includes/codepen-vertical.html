@@ -1,0 +1,25 @@
+<div class="codepen-container">
+	<div class="codepen-heading">
+		<span class="codepen-title">Code Editor</span>
+		<span class="codepen-about">
+			<a href="/about/codepen" title="About CodePen">?</a>
+		</span>
+	</div>
+	<div class="codepen-body">
+		<p data-height="{{ include.height | plus:125 }}"
+			data-theme-id="41264"
+			data-slug-hash="{{ include.slug-hash }}"
+			{% if include.default-tab %}
+			  data-default-tab="{{ include.default-tab }},result"
+		  {% else %}
+			  data-default-tab="html,js,css,result"
+			{% endif %}
+			data-user="KevinWorkman"
+			data-embed-version="2"
+			{% unless include.autoplay %}data-preview="true"{% endunless %}
+			data-editable="true"
+			class="codepen">
+		See the Pen <a href="http://codepen.io/KevinWorkman/pen/{{ include.slug-hash }}/"></a> by Happy Coding (<a href="http://codepen.io/KevinWorkman">@KevinWorkman</a>) on <a href="http://codepen.io">CodePen</a>.
+		</p>
+	</div>
+</div>
