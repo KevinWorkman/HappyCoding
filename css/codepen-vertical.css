@@ -10,4 +10,6 @@ body.split-output #output > .active {
 
 #result-box {
   border-top: 2px solid black;
+  flex-grow: 1;
+  max-height: 100%;
 }
