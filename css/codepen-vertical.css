@@ -6,12 +6,8 @@
 body.split-output #output > .active {
   width: 100%;
   height: 50%;
-  resize: vertical;
-  flex-grow: 1;
 }
 
 #result-box {
   border-top: 2px solid black;
-  flex-grow: 1;
-  max-height: 100%;
 }
