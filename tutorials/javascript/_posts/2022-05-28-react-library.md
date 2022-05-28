@@ -16,15 +16,15 @@ tags: [tutorial, javascript, react]
 
 React is a popular JavaScript library that's very commonly used to make professional, interactive webpages.
 
-React isn't a single thing. It's more like 5 different things:
+React can be hard to learn, because React isn't a single thing. It's more like 5 different things:
 
 1. A JavaScript library that organizes code into a concept called components
 2. A JavaScript library that lets you load React components into the DOM
-3. A JavaScript library that lets you write in a new syntax called JSX
+3. A JavaScript library that lets you code in a new syntax called JSX
 4. An environment that makes coding with the above libraries a little easier
 5. A way of thinking about how your code is organized
 
-This tutorial introduces the first two concepts: React as a JavaScript library.
+This tutorial introduces the first two concepts: using React as a JavaScript library.
 
 # Building on the Fundamentals
 
@@ -38,7 +38,7 @@ In fact, I think people tend to jump to React way too fast. React is great if yo
 
 # A Brief History
 
-React was created by a developer within Facebook named [Jordan Walke](https://twitter.com/jordwalke) in 2011. React was used to (re)build parts of Facebook and Instagram, and then React was released as open-source in 2013.
+React was created by developers within Facebook in 2011. React was used to (re)build parts of Facebook and Instagram, and then React was released as open-source in 2013.
 
 Although React is open-source, it's still owned and maintained by Facebook. Since 2013, React has grown to include React Native, which is a similar framework designed for mobile app development.
 
@@ -58,7 +58,7 @@ Here's an example that uses all of that to create a task list:
 
 This code uses JavaScript functions and variables to get, create, and modify HTML elements.
 
-The rest of this tutorial will rebuild this example using React.
+The following React tutorials will rebuild this example using React.
 
 # React Library
 
@@ -71,16 +71,14 @@ To load the JavaScript libraries that make up React, start by including these tw
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 ```
 
-The first line loads `react.js`, which provides code related to creating components (more on that below), and the second line loads `react-dom.js`, which provides code related to rendering those components to the DOM.
+The first line loads `react.js`, which provides code related to creating components (you'll learn more about that as you read on), and the second line loads `react-dom.js`, which provides code related to rendering those components to the DOM.
 
 Now that you have the React libraries loaded, you can use code from those libraries in your own code:
 
 ```javascript
 class App extends React.Component {
   render() {
-    let h1Element =
-        React.createElement('h1', {},
-                            'Hello world!');
+    let h1Element = React.createElement('h1', {}, 'Hello world!');
     return h1Element;
   }
 }
@@ -105,6 +103,8 @@ There's a lot going on here, so let's walk through it line by line:
 Putting it all together, it looks like this:
 
 {% include codepen-vertical.html slug-hash="NWXbqjg" height=500 autoplay=true %}
+
+This hello world examples makes sure you're loading React properly. More tutorials are coming soon that will flesh this out and make it more interesting!
 
 # Homework
 
