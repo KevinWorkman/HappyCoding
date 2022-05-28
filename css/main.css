@@ -201,21 +201,17 @@ pre {
 
 /* Code inside code block */
 pre code {
-  color:black;
+  color: black;
   font-size: inherit;
+  font-weight: inherit;
   color: inherit;
-  background-color: transparent;
-  border-radius: 0;
-  padding: 0;
 }
 
 /* Inline code */
 code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 4px;
+  color: green;
+  font-size: 110%;
+  font-weight: bold;
 }
 
 .content img {
