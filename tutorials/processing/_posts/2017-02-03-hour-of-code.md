@@ -26,7 +26,7 @@ Programming is the process of writing instructions that a computer can follow. O
 
 By writing code, you can create **computer programs**. The web browser you're viewing this page with is a program. Apps and games are also programs. Basically, anything a computer can run is a program, and those programs are written using code.
 
-There are different code langauges, and we'll be using a language called [Processing](https://processing.org/). Processing is designed to make it easy to make animated, interactive, and artistic programs. [Here](https://processing.org/exhibition/) are some example programs written using Processing.
+There are different code langauges, and we'll be using a language called [Processing](https://processing.org/). Processing is designed to make it easy to make animated, interactive, and artistic programs. [Here](https://processing.org/examples/) are some example programs written using Processing.
 
 When people think of code, they often think of boring ones and zeroes, but there's more to it than that. Code allows you to create pretty much anything you can think of. It's more of an art or a craft than most people realize, and plenty of artists use code to express themselves.
 

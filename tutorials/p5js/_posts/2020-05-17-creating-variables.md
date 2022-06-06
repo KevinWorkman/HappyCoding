@@ -339,8 +339,8 @@ When you ran the last example, you probably noticed that the flower redrew itsel
 Every time the code inside the `draw` function runs is a new frame, and changing what's on the screen each frame creates an animation. You'll learn more about that in a later tutorial, but for now think about what happens each frame in the above code:
 
 - The code creates variables for the location and side of the flower.
-- The `random` function gives rando mvalues to those variables.
-- The `background(0, 200, 0);` line draws a green background, which clears out what was drawn in previos frames. 
+- The `random` function gives random values to those variables.
+- The `background(0, 200, 0);` line draws a green background, which clears out what was drawn in previous frames. 
 - Then the code draws a new random flower.
 - One second later, this happens again, and again, and again...
 
