@@ -2,9 +2,9 @@
 layout: blog-post
 title: My Quarantine
 meta-title: My Quarantine
-meta-description: Some notes on the first six months of quarantine.
+meta-description: Two years later, welcome to the new normal.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
-updated: 2022-04-23
+updated: 2022-06-05
 tags: [personal, favorite]
 ---
 
@@ -1061,8 +1061,98 @@ And I get it. How much whining and manipulation from the far-right can you take 
 
 I also find myself wishing for more official, more authoritative messaging about the current status. At the beginning of the pandemic, I got daily unignorable emergency alerts to my phone telling me to quarantine. But I never got an alert telling me it was over. And I know, it's not over. But for the past 2 years, most updates came from word of mouth, "did you hear that the CDC said this" conversations, which further turned everything into a weirdly subjective experience.
 
-![grizzled neighborhood](/blog/images/my-quarantine/2022-03-24.jpg)
+![grizzled neighborhood cat](/blog/images/my-quarantine/2022-03-24.jpg)
 
 *March 24: the return of Corner Cat*
 
 I'm supposed to return to the office on April 4th, but I instead file for an extension. I'll be working from home until at least June.
+
+# April
+
+![sign that says face mask require](/blog/images/my-quarantine/2022-04-01.jpg)
+
+*April 1: face mask require*
+
+I don't know how on the nose I want to get with any of this, but something about a "face mask require" sign being put up when this was an empty lot, and seeing fancy condos being constructed around it over the past two years of quarantine... I feel like that means something, but I don't quite know what.
+
+![sign in airport saying facial coverings must still be worn](/blog/images/my-quarantine/2022-04-05.jpg)
+
+*April 5: facial coverings must <sup>still</sup> be worn*
+
+In April I go to Hawaii with Ariel and her family. Airlines are still requiring masks, and all in all travelling isn't too painful. Spending a week with 14 people after two years of isolation is a bit jarring, but overall it's a nice getaway.
+
+![Ariel taking a picture of the beach](/blog/images/my-quarantine/2022-04-07.jpg)
+
+*April 7: meta*
+
+{% include youtube-embed.html slug="Okkw2aNFh-E" %}
+
+![swedish fish sign](/blog/images/my-quarantine/2022-04-13.jpg)
+
+*April 13: Google bribing people back to the office*
+
+Technically we don't have to wear masks anymore, but most people in the bay still are. My policy is to match whatever the people working are doing.
+
+![fence with lots of liberal signs](/blog/images/my-quarantine/2022-04-16.jpg)
+
+*April 16: fence near my neighborhood*
+
+I go into the office for a few minutes a few times (mostly to print stuff out), and every single time, I get an email notifying me that I entered a building with somebody who had covid.
+
+![welcome back sign at google](/blog/images/my-quarantine/2022-04-27-01.jpg)
+
+*April 27: sign at google*
+
+![sign at google asking people to write on sticky notes why they're excited about returning to the office](/blog/images/my-quarantine/2022-04-27-02.jpg)
+
+*April 27: what if I'm excited to not return to the office?*
+
+# May
+
+![crowd of people at a concert](/blog/images/my-quarantine/2022-05-14.jpg)
+
+*May 14: Moon Hooch*
+
+In May I go to a concert, and the person I go with gets covid.
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Wooooh last night was a blast! Tonight we’re in LA, come through!⚡️ <a href="https://t.co/aLS5qNuGOu">pic.twitter.com/aLS5qNuGOu</a></p>&mdash; Moon Hooch 🎷🥁🎷 (@moonhooch) <a href="https://twitter.com/moonhooch/status/1525923451185385474?ref_src=twsrc%5Etfw">May 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+*This is a video of a bunch of people getting covid.*
+
+This is my closest personal brush with covid so far, and it comes with a lot of feelings attached to it. I feel pretty guilty since the concert was my idea, and I feel almost... disappointed? that I don't get it too. It's interesting how much stigma is attached to it. If you get covid, what were you doing wrong? What kind of person does that make you?
+
+![cart of groceries](/blog/images/my-quarantine/2022-05-21.jpg)
+
+*May 21: stocking up just in case I have to quarantine*
+
+Because I had a close brush with covid, I look up the recommended protocols. And it turns out that the recommendations are actually *less* strict than what I've *already* been doing for two years. This is really frustrating for me. What was the point of losing two years of my life if the "right" thing to do *after being exposed to covid* is to wear a mask but otherwise keep going about your business?
+
+I think I know the answer to that question, but I can't help but feel frustrated by it.
+
+![social distancing sign at a farm with a goat](/blog/images/my-quarantine/2022-05-28.jpg)
+
+*May 28: keep one cow apart*
+
+On May 31, 2022, after 806 days (~546 of which were work days) of working from home, I start working from the office again.
+
+I'm doing this for a few reasons: a new person just started on the team and I want to be there for them, technically my temporary remote extension expires on June 1 (although nobody is actually checking that or seems to care), and honestly I want to be able to say I gave it a shot before deciding to officially go full remote.
+
+The office is mostly empty (that's one of the main reasons I went in, to keep "the new guy" company). Google has said that people are supposed to be coming in Tuesday through Thursday, but that's not enforced at all. I'm not sure how long that's going to last.
+
+Most things in my work day are moderately less convenient. I have to walk to a conference room for every meeting, I can't take a break to water my plants, I have to listen to music in my headphones, that kind of thing. It's *fine*, but it's not *better*.
+
+But there is something about Google that has always felt a little insidious, and I'm very suspicious of it now that I'm coming back to the office. It's not as simple as "Google offers you free food so you never want to leave the office" but on my second day of working from the office, I measure it, and I spent 11 hours at my job. And that's by choice: somebody I work with came into the office to use a random laser cutting machine so I stayed late to see that, and then I was there late enough that why wouldn't I stay to pick up free dinner on my way out?
+
+![fridge at google fully stocked with drinks](/blog/images/my-quarantine/2022-05-31-01.jpg)
+
+*May 31: fridge at Google*
+
+And I know that's a very privileged "problem" to be complaining about. But this is one of the reasons I *don't* want to come back to the office. I don't want to fall back into old patterns where Google is my whole life. On the other hand, it is nice to be around humans in a low-pressure social setting. Even though the office is almost empty, it's nice to be able to casually talk to the couple people who are there.
+
+I've thought about this before: I don't need a ton of human contact, but I do need *some* human contact. In the WFH days, going on a walk and waving to the neighbors or laughing at the kids in the park have scratched that itch. But I admit that the office gives you that kind of low-stakes social interaction. I don't think I believe in the "magical hallway conversations" nonsense that the company is talking about, but there is something *easier* about it.
+
+![fancy parsnips with sauce](/blog/images/my-quarantine/2022-05-31-02.jpg)
+
+*May 31: first Google lunch in two years*
+
+We'll see how June goes.
