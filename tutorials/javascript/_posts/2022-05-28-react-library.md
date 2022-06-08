@@ -8,7 +8,7 @@ meta-title: React Tutorial
 meta-description: Use React to build an interactive web app.
 meta-image: /tutorials/javascript/images/react-1.png
 previousPost: /tutorials/javascript/
-nextPost: /tutorials/javascript/
+nextPost: /tutorials/javascript/react-jsx
 tags: [tutorial, javascript, react]
 ---
 
