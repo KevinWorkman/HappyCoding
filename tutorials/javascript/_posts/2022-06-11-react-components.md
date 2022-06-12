@@ -8,7 +8,7 @@ meta-title: React Components Tutorial
 meta-description: Build your webpage out of components.
 meta-image: /tutorials/javascript/images/react-1.png
 previousPost: /tutorials/javascript/react-jsx
-nextPost: /tutorials/javascript/
+nextPost: /tutorials/javascript/react-state
 tags: [tutorial, javascript, react]
 ---
 
