@@ -954,7 +954,7 @@ This tells us that the `ArrayList` class extends `AbstractList`, which extends `
 
 - `ArrayList` extends `AbstractList` and defines implementations of all of the above abstract functions. Internally, it uses an array to hold the objects that are added to it. So when you call the `get()` function on an `ArrayList`, you're actually using an array index behind the scenes. But note that code that calls the `get()` function doesn't have to care about exactly how the code works internally.
 
-The Java API also tells us that the `ArrayList` class implements serveral interfaces. The functions in those interfaces are implemented by the `ArrayList` class. For example, the `List` interface defines functions like `add()` and `get()`. The `ArrayList` class implements these functions using an array. But another implementing class, the `LinkedList` class, implements them using nodes that point to each other, not an array. 
+The Java API also tells us that the `ArrayList` class implements several interfaces. The functions in those interfaces are implemented by the `ArrayList` class. For example, the `List` interface defines functions like `add()` and `get()`. The `ArrayList` class implements these functions using an array. But another implementing class, the `LinkedList` class, implements them using nodes that point to each other, not an array. 
 
 We'll talk more about that later, but the point is that any code that expects a `List` doesn't care how the functions are implemented. So we can write code that does this:
 
