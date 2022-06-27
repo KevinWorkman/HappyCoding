@@ -41,42 +41,30 @@ Components aren't limited to rendering hard-coded HTML. They can also contain ot
 
 {% include codepen-vertical.html slug-hash="zYRdrvr" height=600 autoplay=true %}
 
-First, this example defines a top-level `App` component:
+First, this example defines a top-level `TaskList` component:
 
 ```jsx
-class App extends React.Component {
+class TaskList extends React.Component {
   render() {
     return (
       <div>
         <h1>Task List</h1>
-        <TaskList />
+        <ul>
+          <Task />
+          <Task />
+          <Task />
+        </ul>
       </div>
     );
   }
 }
 ```
 
-This component renders a `<div>` which contains an `<h1>` element and a `<TaskList>` element. But wait, where does that `<TaskList>` element come from? It comes from the `TaskList` component!
+This `TaskList` component renders a `<div>` which contains an `<h1>` element and a `<ul>` element, which then contains `<Task>` elements. But wait, where does that `<Task>` element come from? It comes from the `Task` component!
 
 That's the first magical thing about components: any components you define can be used exactly like you can use any other HTML element! This is also why JSX is handy, because you can reference your components as if they were standard HTML tags.
 
-Here's the `TaskList` component:
-
-```jsx
-class TaskList extends React.Component {
-  render() {
-    return (
-      <ul>
-        <Task />
-        <Task />
-        <Task />
-      </ul>
-    );
-  }
-}
-```
-
-This component renders a `<ul>` tag that contains three `<Task>` elements. And that works fine, because the code also defines a `Task` component:
+Here's the `Task` component:
 
 ```jsx
 class Task extends React.Component {
@@ -98,17 +86,20 @@ First, add an attribute to your JSX element with the name and value of each prop
 class TaskList extends React.Component {
   render() {
     return (
-      <ul>
-        <Task label="Wash the dishes" />
-        <Task label="Do laundry" />
-        <Task label="Walk the dog" />
-      </ul>
+      <div>
+        <h1>Task List</h1>
+        <ul>
+          <Task label="Wash the dishes" />
+          <Task label="Do laundry" />
+          <Task label="Walk the dog" />
+        </ul>
+      </div>
     );
   }
 }
 ```
 
-Then to use a property, use the `props` field, followed by the name of the property you want to access.
+Then to use a property in a component, use the `props` field, followed by the name of the property you want to access.
 
 ```jsx
 class Task extends React.Component {
@@ -178,5 +169,3 @@ This syntax might look a little weird, but it starts making more sense if you ke
 These tutorials are still building up your foundational understanding of React, so this might not seem very useful yet. But the things to remember from this tutorial are that you can define your own React components, which you can think of as stamps. You can also pass in properties to customize the content of those stamps. And you can build nested components, which in this metaphor would be stamps of stamps?
 
 Maybe that metaphor got away from me, but the point is that React lets you organize your page into reusable and customizable units called components.
-
-Coming soon: how to add state to your React components!
