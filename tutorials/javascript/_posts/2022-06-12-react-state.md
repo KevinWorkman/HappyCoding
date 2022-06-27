@@ -114,10 +114,8 @@ Now you know how to use state in your components to change what's shown in the D
 
 You can combine those ideas to create a page that consists of multiple nested stateful components.
 
-Here's an updated version of the todo list example:
+Here's an updated version of the to-do list example:
 
 {% include codepen-vertical.html slug-hash="Yzexwra" height=600 autoplay=true %}
 
-This code defines a top-level `App` component that renders a heading and a `TaskList`. The `TaskList` component renders a list that contains three `Task` elements. The `Task` component takes a `label` property and tracks a `done` boolean in its state. Clicks the task toggles its `done` field, which is used to render `Done` or `Not done` in the DOM.
-
-Coming soon: How to create feedback loops from the top level of your React app, down to individual components, and back again!
+This code defines a top-level `ToDoList` component that renders a heading and a list that contains three `Task` elements. The `Task` component takes a `label` property and tracks a `done` boolean in its state. Clicking the task toggles its `done` field, which is used to render `Done` or `Not done` in the DOM.
