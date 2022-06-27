@@ -214,6 +214,10 @@ code {
   font-weight: bold;
 }
 
+code.language-error {
+  color: red;
+}
+
 .content img {
   max-width:95%;
 }
