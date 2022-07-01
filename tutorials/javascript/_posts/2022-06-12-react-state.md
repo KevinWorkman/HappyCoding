@@ -8,7 +8,7 @@ meta-title: React State Tutorial
 meta-description: Add data to your components.
 meta-image: /tutorials/javascript/images/react-1.png
 previousPost: /tutorials/javascript/react-components
-nextPost: /tutorials/javascript/react-lifting-state
+nextPost: /tutorials/javascript/react-loops
 tags: [tutorial, javascript, react]
 ---
 

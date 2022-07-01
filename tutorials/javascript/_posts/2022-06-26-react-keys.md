@@ -3,12 +3,12 @@ layout: tutorial
 title: Keys
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: How (and Why) to use Keys in React.
-sort-key: 1400
+sort-key: 1500
 meta-title: React Keys Tutorial
 meta-description: How (and Why) to use Keys in React.
 meta-image: /tutorials/javascript/images/react-1.png
-previousPost: /tutorials/javascript/react-lifting-state
-nextPost: /tutorials/javascript/
+previousPost: /tutorials/javascript/react-loops
+nextPost: /tutorials/javascript/react-lifting-state
 tags: [tutorial, javascript, react]
 ---
 
