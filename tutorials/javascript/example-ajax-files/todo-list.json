@@ -1,0 +1,7 @@
+[
+  {"id": 0, "label": "Wash the dishes", "done": false},
+  {"id": 1, "label": "Do laundry", "done": false},
+  {"id": 2, "label": "Walk the dog", "done": true},
+  {"id": 3, "label": "Water the plants", "done": true},
+  {"id": 4, "label": "Study", "done": false}
+]
