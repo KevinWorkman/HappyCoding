@@ -8,7 +8,7 @@ meta-title: React Lifting State Tutorial
 meta-description: Share state between your components.
 meta-image: /tutorials/javascript/images/react-1.png
 previousPost: /tutorials/javascript/react-keys
-nextPost: /tutorials/javascript/
+nextPost: /tutorials/javascript/react-css
 tags: [tutorial, javascript, react]
 ---
 
