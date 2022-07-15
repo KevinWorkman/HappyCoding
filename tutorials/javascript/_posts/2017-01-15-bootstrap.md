@@ -103,7 +103,7 @@ From here you can do fancier things like putting different types of components i
 
 ## Grid
 
-Bootstrap contains a gird layout system that lets you organize your content using the `row` and `col` classes.
+Bootstrap contains a grid layout system that lets you organize your content using the `row` and `col` classes.
 
 By default, each row takes up 100% of the container width, and then each column in a row takes up an equal share of the row's width.
 
