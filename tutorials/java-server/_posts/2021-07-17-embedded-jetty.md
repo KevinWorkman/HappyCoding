@@ -26,7 +26,7 @@ Download that file, and then unzip the directory anywhere. I put mine on my desk
 
 There are a couple of ways to use Jetty to create a server. You can either run a full server that you then add code to, or you can write code that runs an embedded Jetty server.
 
-To learn about running a full Jetty server, check out [this tutorial](/tutorials/java-server/jetty-settup).
+To learn about running a full Jetty server, check out [this tutorial](/tutorials/java-server/jetty-setup).
 
 The rest of this tutorial walks you through running an embedded Jetty server.
 
