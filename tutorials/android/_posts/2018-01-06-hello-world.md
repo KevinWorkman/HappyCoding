@@ -62,7 +62,7 @@ Choose `Empty Activity` here and click `Next`. On the next screen, give your act
 
 Click `Next`, and then click `Finish`.
 
-Android Studio will now build your (currently blank) app. If this is your first time working with Android, the build will probbaly fail. This is normal! It just means you need to install a few more things. Don't worry, Android Studio will do most of the work:  Click the `Install missing platforms and sync project` link. Click the `Install Build Tools` link.
+Android Studio will now build your (currently blank) app. If this is your first time working with Android, the build will probably fail. This is normal! It just means you need to install a few more things. Don't worry, Android Studio will do most of the work:  Click the `Install missing platforms and sync project` link. Click the `Install Build Tools` link.
 
 Finally, your app should build properly!
 
