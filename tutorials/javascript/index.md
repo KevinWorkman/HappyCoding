@@ -45,4 +45,5 @@ Read through these tutorials to learn more about JavaScript:
 {% include url-thumbnail.html url="/tutorials/javascript/react-keys" %}
 {% include url-thumbnail.html url="/tutorials/javascript/react-lifting-state" %}
 {% include url-thumbnail.html url="/tutorials/javascript/react-css" %}
+{% include url-thumbnail.html url="/tutorials/javascript/react-fetch" %}
 </div>
