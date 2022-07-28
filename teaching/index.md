@@ -8,11 +8,19 @@ meta-image: /teaching/guides/images/teaching-1.png
 
 # Teaching
 
+Happy Coding has been used as the source material for several classes, taught by myself and other folks. This page collects the classes that I know about.
+
 Happy Coding starts with the fundamentals of coding designed for folks who have never seen code before, and leads to advanced topics like server-side coding and Android development. So no matter what you're teaching, I hope there's something here you can use.
 
-# Intro to Web Dev
+# Current Classes
 
-I'm currently building an Into to Web Dev course that I'm going to teach in spring 2022.
+During fall 2022, I'm teaching an Intro to Web Dev course that focuses on creativity and self-expression.
+
+{% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/" %}
+
+# Past Classes
+
+This is an older version of the Intro to Web Dev course, taught in spring 2022.
 
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/" %}
 
