@@ -136,6 +136,7 @@ sort-key: 400
 {% include url-thumbnail.html url="/examples/p5js/images/pixel-swapper" %}
 {% include url-thumbnail.html url="/examples/p5js/images/pixel-sorter" %}
 {% include url-thumbnail.html url="/examples/p5js/images/clovers" %}
+{% include url-thumbnail.html url="/examples/p5js/images/poorly-coded-cats" %}
 
 ---
 
