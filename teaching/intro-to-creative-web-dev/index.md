@@ -11,6 +11,10 @@ hide-video-icon: true
 
 Welcome to Intro to Creative Web Dev!
 
+{% include youtube-embed.html slug="12l9747scB4" %}
+
+---
+
 # How it Works
 
 Each week, we'll focus on a different topic. You'll watch videos and read tutorials that introduce the topic, and then you'll build a project that uses it. At the end of each week you'll have a chance to share your project with the rest of the class.
