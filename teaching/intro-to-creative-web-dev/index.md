@@ -36,6 +36,8 @@ This course has a few main goals:
 
 I also love the idea of low floors, high ceilings, and wide walls in education, where a class should be accessible, lead to advanced topics, and have a little something for everybody to explore.
 
+If you have another goal or something else you're hoping to get out of this course, please let me know!
+
 # Code of Conduct
 
 Learning is by nature a vulnerable experience, especially in a class that focuses on self-expression. I want everyone to feel comfortable being themselves, asking questions, and presenting their work with pride. With that in mind, here are some guidelines:
