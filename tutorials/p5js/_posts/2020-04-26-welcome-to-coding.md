@@ -19,7 +19,7 @@ If you're here, that means you're curious about writing code. Hi! Hello! Nice to
 
 Before you dive in, let's define some of the terms we'll be using.
 
-{% include youtube-embed.html slug="mB3cbSO5bRg" %}
+{% include youtube-embed.html slug="55KksCk_3U8" %}
 
 ---
 
