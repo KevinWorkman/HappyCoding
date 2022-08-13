@@ -11,7 +11,7 @@ hide-video-icon: true
 
 Welcome to Intro to Creative Web Dev!
 
-{% include youtube-embed.html slug="12l9747scB4" %}
+{% include youtube-embed.html slug="WQF5fi7bHTQ" %}
 
 ---
 
