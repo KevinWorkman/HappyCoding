@@ -19,6 +19,10 @@ If you're here, that means you're curious about writing code. Hi! Hello! Nice to
 
 Before you dive in, let's define some of the terms we'll be using.
 
+{% include youtube-embed.html slug="mB3cbSO5bRg" %}
+
+---
+
 # What's a computer?
 
 This might sound like an obvious question, but the answer has changed quite a bit over time.
