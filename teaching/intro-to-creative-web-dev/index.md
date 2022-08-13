@@ -9,7 +9,7 @@ hide-video-icon: true
 
 # Intro to Creative Web Development
 
-Welcome to Intro to Web Dev!
+Welcome to Intro to Creative Web Dev!
 
 # How it Works
 
@@ -23,6 +23,18 @@ Most of the projects ask you to come up with something yourself. It might be you
 wrong answer! Pick whatever you want: something meaningful to you, something funny, or something useful. Make it your own!
 
 On the other hand, don't let choice paralysis slow you down. If you're having trouble starting, consider using a placeholder at first and then coming back and changing it later. And don't hesitate to reach out if you want to bounce your ideas off somebody!
+
+# Goals
+
+This course has a few main goals:
+
+1. Gaining **practical knowledge** about making real websites. By the end of this course, you'll be able to create your own interactive websites.
+2. **Demystifying** concepts. Coding is full of scary-sounding words, and this course will make some of those words not so intimidating.
+3. Focusing on the **fundamentals** of web development. There are a million different things we *could* learn. We're going to learn the first set of concepts that let you "graduate" to other topics if you want.
+4. Learning the **process of problem solving**. Coding is mostly searching, reading through documentation, trying random stuff, getting errors, debugging when something goes wrong, and iterating. Those skills are much more important than memorizing which HTML tag creates a list, or which JavaScript function gives you a particular element on the page.
+5. Building projects that are **personally meaningful**, or at least personally interesting. Every project will have plenty of room for self-expression, and you'll come away with projects that are uniquely yours.
+
+I also love the idea of low floors, high ceilings, and wide walls in education, where a class should be accessible, lead to advanced topics, and have a little something for everybody to explore.
 
 # Code of Conduct
 
