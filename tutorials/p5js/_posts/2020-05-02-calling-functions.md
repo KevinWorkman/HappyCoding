@@ -19,6 +19,10 @@ By now you've used the [p5.js editor](https://editor.p5js.org/) to write your fi
 
 In p5.js (and most other languages), one of the tools you'll use most often is the ability to **call a function**.
 
+{% include youtube-embed.html slug="Dg4L2EvHvBg" %}
+
+---
+
 # What's a function?
 
 Writing a program is a little bit like writing a recipe. Similar to how a recipe is a set of steps that another person follows, a program is a set of steps that the computer follows.
@@ -100,7 +104,7 @@ With that goal, you can look at the p5.js reference and ask yourself, *"do any o
 
 Sure enough, the reference tells you there is a [p5.js `rect` function](https://p5js.org/reference/#/p5/rect) , and that it takes 4 parameters: an `x` and `y` position of the upper-left corner of the rectangle, and a `width` and a `height` specifying the size.
 
-Add a line of code to your sketch that calls the `rect` function, passing in values for those 4 parameters: 
+Add a line of code to your sketch that calls the `rect` function, passing in values for those 4 parameters:
 
 {% include p5js-widget.html width=400 height=400 %}
 function setup() {
