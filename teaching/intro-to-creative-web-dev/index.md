@@ -59,3 +59,4 @@ I will point out any behavior that makes others feel unfairly uncomfortable or u
 # Weekly Topics
 
 {% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/week-01-p5js" %}
+{% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/week-02-using-variables" %}
