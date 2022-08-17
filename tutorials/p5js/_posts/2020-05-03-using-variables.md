@@ -15,9 +15,13 @@ nextPost: /tutorials/p5js/creating-variables
 
 {% include toc.md %}
 
-Now you know [how to call functions](/tutorials/p5js/calling-functions) with parameters to tell the computer what to do. 
+Now you know [how to call functions](/tutorials/p5js/calling-functions) with parameters to tell the computer what to do.
 
 But knowing exactly what values to use for those parameters can be annoying, so this tutorial shows you how to use **variables** to make your life a little easier.
+
+{% include youtube-embed.html slug="Z1R-ZbyfD_E" %}
+
+---
 
 Before talking about variables, let's take a step back and talk about **values**.
 
@@ -35,7 +39,7 @@ This line of code passes the values `200`, `150`, and `300` into the `circle` fu
 
 ## Operators
 
-When you get down to the details, computers are really just calculators. They crunch numbers by modifying values with **operators** like `+`, `-`, `*`, and `/`. 
+When you get down to the details, computers are really just calculators. They crunch numbers by modifying values with **operators** like `+`, `-`, `*`, and `/`.
 
 You can apply an operator to two values to get a third value, and you can then use that new value just like you can use any other value. So you could rewrite the above line of code like this:
 
@@ -203,7 +207,7 @@ Great news: it can! This is where **variables** become useful.
 
 # What are variables?
 
-Variables are **names** that hold **values**. 
+Variables are **names** that hold **values**.
 
 You can use a variable wherever you can use a value, including applying operators to them and passing them into functions as parameters. There are a ton of different variables you can use, but for now let's focus on two that you'll use all the time: the `width` and `height` variables.
 
