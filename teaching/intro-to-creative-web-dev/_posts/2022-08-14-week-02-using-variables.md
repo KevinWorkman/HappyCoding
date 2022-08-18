@@ -55,6 +55,10 @@ Now you know how to use variables to get information from the computer.
 
 To practice that, create a p5.js sketch that uses the `width` and `height` variables.
 
+{% include youtube-embed.html slug="-c8JA7wCKrM" %}
+
+---
+
 Your sketch must run without any errors. Your sketch must contain at least **five** function calls that use the `width` and/or `height` variables. You can draw the same shape multiple times, and you can have more than 5 function calls. But I'll be looking for a minimum of 5.
 
 For example:
