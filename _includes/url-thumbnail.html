@@ -7,15 +7,21 @@
 {%- unless thumbnail -%}
   {%- assign thumbnail = post.meta-image -%}
 {%- endunless -%}
+{%- if include.fullsize and post.meta-image -%}
+  {%- assign thumbnail = post.meta-image -%}
+{%- endif -%}
 
 {%- assign description = post.tagline -%}
 {%- unless description -%}
   {%- assign description = post.meta-description -%}
 {%- endunless -%}
 
-<div class="tutorial-link-box">
+<div class="tutorial-link-box {%if include.fullsize %}fullsize{% endif %}">
   <a href="{{ post.url }}" >
-    <img class="thumbnail-image {% if post.pixelate-thumbnail %}pixelated{% endif %}" src="{{ thumbnail }}" alt="{{ post.title}}" />
+    <img
+        class="thumbnail-image {% if post.pixelate-thumbnail %}pixelated{% endif %} {%if include.fullsize %}fullsize{% endif %}"
+        src="{{ thumbnail }}"
+        alt="{{ post.title}}" />
   </a>
   <a class="title" href="{{ post.url }}">
     {{ post.title }}
