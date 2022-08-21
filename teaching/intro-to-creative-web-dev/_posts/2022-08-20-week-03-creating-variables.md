@@ -42,6 +42,10 @@ To practice that, create a p5.js sketch that creates your own variables.
 
 ---
 
+{% include youtube-embed.html slug="kOsUMiuDo6g" %}
+
+---
+
 Your sketch must run without any errors. Your sketch must contain at least **ten** variables that you create using the `let` keyword and then use either as function parameters or to calculate the value of another variable.
 
 For example:
