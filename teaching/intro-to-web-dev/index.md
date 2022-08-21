@@ -3,7 +3,7 @@ layout: default
 title: Intro to Web Dev
 meta-title: Intro to Web Dev
 meta-description: Welcome to Intro to Web Dev!
-meta-image: /teaching/guides/images/teaching-1.png
+meta-image: /teaching/intro-to-web-dev/images/thumbnail.png
 hide-video-icon: true
 ---
 
