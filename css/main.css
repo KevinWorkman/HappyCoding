@@ -269,8 +269,10 @@ code.language-error {
   margin: 0;
 }
 
+/* Pretend the screen is tiny and thumbnails should fill the screen. */
 .tutorial-link-box {
-  width: 200px;
+  width: 95%;
+
   display: inline-block;
   text-align: left;
   vertical-align: top;
@@ -278,10 +280,21 @@ code.language-error {
 }
 
 .tutorial-link-box .thumbnail-image {
-  width:200px;
-  height:100px;
-  max-width:100%;
+  width: 95%;
+
   border: thin solid #323232;
+}
+
+/* But wait! If the screen isn't tiny, thumbnails should be small. */
+@media (min-width:500px){
+  .tutorial-link-box {
+    width: 200px;
+  }
+
+  .tutorial-link-box .thumbnail-image {
+    width:200px;
+    max-width:100%;
+  }
 }
 
 .pixelated {
