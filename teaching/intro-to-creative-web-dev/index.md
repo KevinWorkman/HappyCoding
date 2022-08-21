@@ -3,7 +3,7 @@ layout: default
 title: Intro to Creative Web Dev
 meta-title: Intro to Creative Web Dev
 meta-description: Welcome to Intro to Creative Web Dev!
-meta-image: /teaching/guides/images/teaching-1.png
+meta-image: /tutorials/processing/images/creating-functions-7.png
 hide-video-icon: true
 ---
 
