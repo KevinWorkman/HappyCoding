@@ -12,17 +12,23 @@ Happy Coding has been used as the source material for several classes, taught by
 
 Happy Coding starts with the fundamentals of coding designed for folks who have never seen code before, and leads to advanced topics like server-side coding and Android development. So no matter what you're teaching, I hope there's something here you can use.
 
+---
+
 # Current Classes
 
 During fall 2022, I'm teaching an Intro to Web Dev course that focuses on creativity and self-expression.
 
-{% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/" %}
+{% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/" fullsize=true %}
+
+---
 
 # Past Classes
 
 This is an older version of the Intro to Web Dev course, taught in spring 2022.
 
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev/" %}
+
+---
 
 # General Guides
 
@@ -35,13 +41,19 @@ These articles below break down the different ways you might use Happy Coding in
 {% include url-thumbnail.html url="/teaching/guides/curriculum" %}
 </div>
 
+---
+
 # CS 11111
 
 [CS 11111](http://cs111.org/) is an intro to creative coding course taught at the [University of Chicago](https://www.cs.uchicago.edu/) using Happy Coding as a source. [Check it out](https://www.classes.cs.uchicago.edu/archive/2021/spring/11111-1/schedule.html) for ideas on how to structure a course using Happy Coding!
 
+---
+
 # Contributing
 
 If you have ideas for how this site can be useful for teachers, or if you have resources you'd like to share, please [contact me](/about#contact) or submit issues and pull requests on [GitHub](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing)!
+
+---
 
 # Contact Me!
 
