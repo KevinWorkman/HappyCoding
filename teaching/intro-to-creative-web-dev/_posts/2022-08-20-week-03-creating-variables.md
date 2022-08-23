@@ -42,7 +42,15 @@ To practice that, create a p5.js sketch that creates your own variables.
 
 ---
 
+If it helps, here are a couple code-alongs for how I would approach the project:
+
+This code-along creates a sketch from an abstract shape:
+
 {% include youtube-embed.html slug="kOsUMiuDo6g" %}
+
+This code-along creates a sketch from randomly generated cats:
+
+{% include youtube-embed.html slug="R9UJCuFFsRw" %}
 
 ---
 
