@@ -2,7 +2,7 @@
 layout: default
 title: If Statements - Week 04
 thumbnail: /tutorials/javascript/images/if-statements-1.png
-pixelate-thumbnail: false
+pixelate-thumbnail: true
 tagline: Make decisions in your code.
 sort-key: 130
 meta-title: If Statements - Intro to Web Dev Week 04
@@ -67,6 +67,8 @@ function draw() {
   }
 }
 ```
+
+{% include youtube-embed.html slug="BmFcjcUOZzk" %}
 
 This code contains an `if` statement, an `else if` statement, and an `else` statement that draws different things based on the seconds in the current time. That's 3 out of the 5 required statements.
 
