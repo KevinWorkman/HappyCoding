@@ -16,7 +16,7 @@ tags: [teaching]
 
 {% include toc.md %}
 
-Welcome to week 3 of Intro to Web Dev!
+Welcome to week 3 of Intro to Creative Web Dev!
 
 Now you know how to use p5.js to write code and call functions to draw on the screen, and you know how to use variables like `width` and `height.`
 
