@@ -17,6 +17,10 @@ nextPost: /tutorials/p5js/creating-functions
 
 Now you know [how to use variables](/tutorials/p5js/using-variables) like `width` and `height`. Next you'll learn how to create your own variables!
 
+{% include youtube-embed.html slug="FLboerDlVxc" %}
+
+---
+
 Remember that variables are **names** that hold **values**. You can use a variable anywhere you can use a value, by writing its name. For example:
 
 ```javascript
@@ -53,7 +57,7 @@ let circleDiameter = 100;
 
 This code creates three variables: `circleX` points to a value of `150`, `circleY` points to a value of `200`, and `circleDiameter` points to a value of `100`.
 
-You can use the variables just like you would use any value, which means you can use them as arguments for the `circle` function: 
+You can use the variables just like you would use any value, which means you can use them as arguments for the `circle` function:
 
 {% include p5js-widget.html width=300 height=300 %}
 function setup() {
@@ -340,7 +344,7 @@ Every time the code inside the `draw` function runs is a new frame, and changing
 
 - The code creates variables for the location and side of the flower.
 - The `random` function gives random values to those variables.
-- The `background(0, 200, 0);` line draws a green background, which clears out what was drawn in previous frames. 
+- The `background(0, 200, 0);` line draws a green background, which clears out what was drawn in previous frames.
 - Then the code draws a new random flower.
 - One second later, this happens again, and again, and again...
 
