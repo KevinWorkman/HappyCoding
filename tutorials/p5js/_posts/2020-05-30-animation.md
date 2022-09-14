@@ -21,6 +21,10 @@ You've seen that the `draw` function is called 60 times per second, and you know
 
 This tutorial combines all of those ideas to create animations.
 
+{% include youtube-embed.html slug="lMJmtlp6Yus" %}
+
+---
+
 # What is animation?
 
 In a way, animations are an illusion. When you watch a video (whether that's a cartoon, a tv show, or a movie), what you're really seeing is a series of still images, or frames.
@@ -70,7 +74,7 @@ At the end of this code, `circleY` now holds the value `100`.
 
 Notice that you don't use the `let` keyword when you reassign it, because it's already been created. Also note that you can't reassign variables that you created using the `const` keyword- it has to be the `let` keyword.
 
-Creating a variable is also called **declaring** a variable. The first time you point it to a value using the `=` operator (which is often in the same line as declaring it) is called **initializing** a variable. If you then change the value of the variable, that's called **reassigning** the variable. 
+Creating a variable is also called **declaring** a variable. The first time you point it to a value using the `=` operator (which is often in the same line as declaring it) is called **initializing** a variable. If you then change the value of the variable, that's called **reassigning** the variable.
 
 ```javascript
 // declaration
@@ -176,7 +180,7 @@ Similarly, what if you declared the `circleY` variable inside the `setup` functi
 {% include p5js-widget.html width=200 height=200 %}
 function setup() {
   createCanvas(200, 200);
-  
+
   // state
   let circleY = 0;
 }
@@ -229,7 +233,7 @@ Finally, the `draw` function uses the `circleY` variable to draw the scene, and 
 
 Now you have an animation, but the circle falls off the bottom window and never comes back. Chances are that's not what you want.
 
-To fix this, you can use an `if` statement to check whether the circle has fallen off the bottom of the window. You know the circle is below the bottom of the window when `circleY` is greater than `height`. When this happens, you can reassign `circleY` to move the circle back to the top of the window. 
+To fix this, you can use an `if` statement to check whether the circle has fallen off the bottom of the window. You know the circle is below the bottom of the window when `circleY` is greater than `height`. When this happens, you can reassign `circleY` to move the circle back to the top of the window.
 
 {% include p5js-widget.html width=200 height=200 %}
 // state

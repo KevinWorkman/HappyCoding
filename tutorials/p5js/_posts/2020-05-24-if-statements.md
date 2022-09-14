@@ -19,6 +19,10 @@ Now you know how to [call functions](/tutorials/p5js/calling-function), [use var
 
 Most values and variables you've seen so far have been numbers. This tutorial introduces the idea of a *boolean*, which can only hold two possible values: `true` or `false`. This tutorial also introduces **if statements**, which allow you to perform different actions depending on the value of a boolean.
 
+{% include youtube-embed.html slug="p1n0v0DZNAI" %}
+
+---
+
 # Booleans
 
 Remember that to create a variable, you use the `let` keyword to give your variable a name and a value:
