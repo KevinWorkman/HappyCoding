@@ -38,6 +38,8 @@ Now you know how to create animations in p5.js.
 
 To practice that, create a p5.js sketch that shows an animation.
 
+{% include youtube-embed.html slug="BHqMTazKyMg" %}
+
 Rather than requiring a minimum number of functions or variables, this week I'm specifically looking for any change to what's being drawn to the canvas over time. You can create an animation by changing variables over time, or by using the `random()` function to add randomness to your drawing.
 
 ---
