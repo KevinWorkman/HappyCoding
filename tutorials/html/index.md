@@ -24,6 +24,7 @@ HTML is the one of the most fundamental building blocks of the internet. HTML le
 If you're ready to start making your own websites, read through these tutorials!
 
 <div class="thumbnail-link-container">
+{% include url-thumbnail.html url="/tutorials/html/from-p5js-to-html" %}
 {% include url-thumbnail.html url="/tutorials/html/html" %}
 {% include url-thumbnail.html url="/tutorials/html/html-tags" %}
 {% include url-thumbnail.html url="/tutorials/html/css" %}
