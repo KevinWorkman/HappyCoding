@@ -17,6 +17,8 @@ nextPost: /tutorials/html/html-tags
 
 This guide is designed for folks who have already learned a little p5.js, and want to build on that to learn about HTML.
 
+{% include youtube-embed.html slug="06gLmAR8sKk" %}
+
 ## Coding Languages
 
 Think about how many human languages exist in the world: English, Spanish, Japanese, etc. Each one evolved its own **syntax** (the letters, words, and symbols of a language) and **grammar** (the rules about how you can use those letters, words, and symbols) over many years. For example, some languages put nouns before adjectives. Some languages are written right-to-left instead of left-to-right. Some even use completely different letters and symbols!
