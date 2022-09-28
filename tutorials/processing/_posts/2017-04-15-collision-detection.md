@@ -184,7 +184,7 @@ You can think of a rectangle as a top, bottom, left, and right edge. Then using 
 
 ![rectangle](/tutorials/processing/images/collision-detection-8.png)
 
-In this code, we can see that point `P1` is inside the rectangle because it's between the left and right edges **and** between the top and bottom edges. Point `P2` is **not** inside the rectangle: even though it's between the left and right edges, it's **not** between the top and bottom edges. Point `P3` is **not** inside the rectangle because even though it's between the top and bottom edges, it's not between the left and right edges. And `P4` is definitely not inside the circle because it's not between any of the edges. Again, the best thing you can do is draw out your own examples to see that the pattern holds!
+In this code, we can see that point `P1` is inside the rectangle because it's between the left and right edges **and** between the top and bottom edges. Point `P2` is **not** inside the rectangle: even though it's between the left and right edges, it's **not** between the top and bottom edges. Point `P3` is **not** inside the rectangle because even though it's between the top and bottom edges, it's not between the left and right edges. And `P4` is definitely not inside the rectangle, because it's not between any of the edges. Again, the best thing you can do is draw out your own examples to see that the pattern holds!
 
 Putting this into code, if you have the top-left corner of the rectangle at `rectX, rectY`, that means its left edge is at `rectX` and its top edge is at `rectY`. Then if you have the size of the rectangle `rectWidth` by `rectHeight`, you can get its right edge using `rectX + rectWidth` and its bottom edge using `rectY + rectHeight`.
 
