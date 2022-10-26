@@ -18,6 +18,7 @@ At this point, you're familiar with the fundamentals of HTML and CSS. (If not, r
 Read through these tutorials to learn more about JavaScript:
 
 <div class="thumbnail-link-container">
+{% include url-thumbnail.html url="/tutorials/javascript/from-p5-to-javascript" %}
 {% include url-thumbnail.html url="/tutorials/javascript/calling-javascript" %}
 {% include url-thumbnail.html url="/tutorials/javascript/variables" %}
 {% include url-thumbnail.html url="/tutorials/javascript/developer-tools" %}
