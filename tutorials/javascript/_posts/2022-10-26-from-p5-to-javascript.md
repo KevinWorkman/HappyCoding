@@ -20,6 +20,10 @@ This is where JavaScript comes into play. JavaScript is a programming language t
 
 This tutorial is designed for folks who are already familiar with [p5.js](/tutorials/p5js), which will make it easier to learn JavaScript- because p5.js is JavaScript!
 
+{% include youtube-embed.html slug="zyt807wgvLk" %}
+
+---
+
 # Running JavaScript
 
 With p5.js, you probably used the p5.js editor to run your code, which handled a few things for you automatically. Now that you're using pure JavaScript, you have to do those things yourself.
@@ -32,7 +36,7 @@ This HTML creates a webpage that contains a single `<p>` element.
 
 To add JavaScript to this webpage, add a `<script>` tag inside the `<head>` section of your HTML, and then put your JavaScript code inside that `<script>` tag. Here's an example:
 
-{% include codepen-new.html slug-hash="BQXLBo" height="250" autoplay=true %}
+{% include codepen-new.html slug-hash="BQXLBo" height="260" autoplay=true %}
 
 When the browser loads the webpage, it reads the `<script>` tag and executes the code inside of it. When this code is run, it adds `"Hello world!"` to the page. Try changing the code so it says `"Hello, your_name_here!"` instead.
 
@@ -113,7 +117,7 @@ By default, nothing will run this function. To fix that, add an `onclick` attrib
 
 Putting it all together, it looks like this:
 
-{% include codepen-new.html slug-hash="wvXBeqb" height="250" %}
+{% include codepen-new.html slug-hash="wvXBeqb" height="325" autoplay=true %}
 
 When the user clicks the `<button>` element, the `onclick` attribute tells the browser to call the `showMessage()` function, which then calls the `alert()` function to show a dialog.
 
@@ -141,7 +145,7 @@ outputElement.innerText = 'Hello!';
 
 Putting it all together, it looks like this:
 
-{% include codepen-new.html slug-hash="jOKELqy" height="250" %}
+{% include codepen-vertical.html slug-hash="jOKELqy" height=500 autoplay=true %}
 
 # Input
 
@@ -173,7 +177,7 @@ outputElement.innerText = 'Hello ' + name + '!';
 
 Putting it all together, it looks like this:
 
-{% include codepen-new.html slug-hash="XWYJazB" height="250" %}
+{% include codepen-vertical.html slug-hash="XWYJazB" height=500 autoplay=true %}
 
 # External JavaScript
 
