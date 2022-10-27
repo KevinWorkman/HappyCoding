@@ -34,6 +34,8 @@ First, read through this tutorial:
 
 # Project - Mad Libs
 
+{% include youtube-embed.html slug="-Dhl7xGiUxM" %}
+
 Now you know how to make your page interactive using JavaScript. To practice that, you're going to create an interactive [mad libs game](https://en.wikipedia.org/wiki/Mad_Libs).
 
 The game can be funny, serious, or realistic. You can tell an original story, or you can recreate a scene from your favorite book, movie, or TV show. Make it your own!
