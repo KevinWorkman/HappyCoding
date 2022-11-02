@@ -15,7 +15,7 @@ sort-key: 400
 
 # Calling Functions
 
-{% include url-thumbnail.html url="/examples/p5js/calling-functions/rainbow" %}
+{% include url-thumbnail.html url="/tutorials/p5js/calling-functions/rainbow" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/blue-squares" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/circles" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/pig" %}

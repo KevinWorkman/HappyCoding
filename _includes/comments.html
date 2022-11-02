@@ -1,13 +1,21 @@
+{% assign discourseEmbedUrl = page.discourseEmbedUrl %}
+{% unless discourseEmbedUrl %}
+  {% assign discourseEmbedUrl = page.url %}
+{% endunless %}
+
 <div id='discourse-comments'></div>
 
 <script type="text/javascript">
-DiscourseEmbed = { discourseUrl: location.protocol 
-	+ '//forum.happycoding.io/',
-	discourseEmbedUrl: location.protocol + '//happycoding.io{{page.url}}' };
-	
+DiscourseEmbed = {
+	discourseUrl: 'https://forum.happycoding.io/',
+	discourseEmbedUrl: 'https://happycoding.io{{discourseEmbedUrl}}'
+};
+
 (function() {
-	var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-	d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  var d = document.createElement('script');
+  d.type = 'text/javascript';
+  d.async = true;
+  d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+  document.getElementsByTagName('head')[0].appendChild(d);
 })();
 </script>
