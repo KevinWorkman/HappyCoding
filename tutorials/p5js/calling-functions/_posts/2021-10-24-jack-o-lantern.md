@@ -9,7 +9,9 @@ meta-description: 🎃🎃🎃
 meta-image: /examples/p5js/calling-functions/images/jack-o-lantern-1.png
 tags: [example, p5.js, javascript, calling-functions, 🎃]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/calling-functions
+redirect_from: /examples/p5js/calling-functions/jack-o-lantern
+discourseEmbedUrl: /examples/p5js/calling-functions/jack-o-lantern
 ---
 
 {% include p5js-widget.html width=500 height=500 %}
