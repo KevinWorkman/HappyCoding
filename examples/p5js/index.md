@@ -17,7 +17,7 @@ sort-key: 400
 
 {% include url-thumbnail.html url="/tutorials/p5js/calling-functions/rainbow" %}
 {% include url-thumbnail.html url="/tutorials/p5js/calling-functions/blue-squares" %}
-{% include url-thumbnail.html url="/examples/p5js/calling-functions/circles" %}
+{% include url-thumbnail.html url="/tutorials/p5js/calling-functions/circles" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/pig" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/arcs" %}
 {% include url-thumbnail.html url="/examples/p5js/calling-functions/pumpkin" %}
