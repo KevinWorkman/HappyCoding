@@ -12,7 +12,7 @@ hide-video-icon: true
 tags: [teaching, html, javascript]
 ---
 
-# JavaScript - Week 12
+# JavaScript If Statements - Week 12
 
 {% include toc.md %}
 
@@ -20,13 +20,45 @@ Welcome to week 12 of Intro to Creative Web Dev!
 
 Now you know how to use JavaScript to make your page interactive. This week is about using `if` statements in your JavaScript to make decisions in your code.
 
-JavaScript's `if` statement syntax is very similar to the p5.js `if` statements you learned about way back in week 4!
-
-Work through the activities in this page to complete the week!
+Read through the next section and then work through the project at the bottom to complete the week!
 
 ---
 
-# JavaScript If Statements
+# If Statements
+
+You actually already learned about `if` statements in p5.js during week 4, so let's build on what you already know and then add `if` statements into the mix.
+
+Start with this example code:
+
+{% include codepen-vertical.html slug-hash="QWxNmPZ" height="500" autoplay=true default-tab="js" %}
+
+This HTML contains an input element, an output element, and a button. When the button is clicked, the JavaScript code gets the user's name from the input element, and then adds it to the output element.
+
+**Note:** This is an online editor called CodePen, which works a lot like Replit but can be embedded in websites like this one. You should be able to edit this code directly to play with it, or you can copy it to a Replit project to use it in your own code.
+
+To review the syntax for `if` statements: to create an `if` statement, first start with the `if` keyword, followed by a boolean expression inside of parentheses, followed by `{ }` curly braces. Inside those curly braces, put the code you want to run when the boolean expression is true.
+
+```javascript
+if (name == 'Kevin') {
+  outputElement.innerHTML = "Wow that's my name too!";
+}
+```
+
+This `if` statement checks whether the `name` variable is equal to the string `Kevin`. If so, the code adds `Wow that's my name too!` to the output. If the name is not Kevin, then that line of code is skipped and nothing happens.
+
+We can add this to our example:
+
+{% include codepen-vertical.html slug-hash="KKezRMY" height="500" autoplay=true default-tab="js" %}
+
+Try changing this code so it shows a message for your name!
+
+And just like in p5.js, you can also use `else if` and `else` statements to create multiple branches in your code:
+
+{% include codepen-vertical.html slug-hash="MWXyGBa" height="550" autoplay=true default-tab="js" %}
+
+You can read more about `if` statements in JavaScript here:
+
+{% include url-thumbnail.html url="/tutorials/javascript/if-statements" %}
 
 # Project - Quiz
 
