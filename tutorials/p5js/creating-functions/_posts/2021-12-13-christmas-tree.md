@@ -9,7 +9,9 @@ meta-description: Create a function that draws a Christmas Tree!
 meta-image: /examples/p5js/creating-functions/images/christmas-tree-1.png
 tags: [example, p5.js, javascript, creating-functions]
 includeP5jsWidget: true
-previousPost: /examples/p5js/creating-functions
+previousPost: /tutorials/p5js/creating-functions
+redirect_from: /examples/p5js/creating-functions/christmas-tree
+discourseEmbedUrl: /examples/p5js/creating-functions/christmas-tree
 ---
 
 {% include youtube-embed.html slug="ThvshA0-7Ho" %}
