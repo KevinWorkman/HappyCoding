@@ -9,7 +9,9 @@ meta-description: Style your text with custom fonts.
 meta-image: /examples/p5js/creating-variables/images/typography-1.png
 tags: [example, p5.js, javascript, random, typography]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-variables
+redirect_from: /examples/p5js/creating-variables/typography
+discourseEmbedUrl: /examples/p5js/creating-variables/typography
 ---
 
 {% include youtube-embed.html slug="OMShh4NE24Q" %}
