@@ -8,7 +8,9 @@ meta-title: p5.js Example - Random Notes
 meta-description: Use the p5.sound library to play random notes.
 meta-image: /examples/p5js/libraries/images/random-notes-1.png
 tags: [example, p5.js, javascript, libraries, sound, genuary]
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/libraries
+redirect_from: /examples/p5js/libraries/random-notes
+discourseEmbedUrl: /examples/p5js/libraries/random-notes
 ---
 
 {% include youtube-embed.html slug="6zvX3Aqhk7Y" %}

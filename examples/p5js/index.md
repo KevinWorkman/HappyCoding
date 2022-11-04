@@ -143,7 +143,7 @@ sort-key: 400
 
 # Libraries
 
-{% include url-thumbnail.html url="/examples/p5js/libraries/random-notes" %}
+{% include url-thumbnail.html url="/tutorials/p5js/libraries/random-notes" %}
 
 ---
 
