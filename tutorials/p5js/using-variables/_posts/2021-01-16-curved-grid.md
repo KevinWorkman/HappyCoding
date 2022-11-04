@@ -9,7 +9,9 @@ meta-description: Use the width and height variables to draw a retro-futuristic 
 meta-image: /examples/p5js/using-variables/images/curved-grid-2.png
 tags: [example, p5.js, javascript, using-variables]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/using-variables
+redirect_from: /examples/p5js/using-variables/curved-grid
+discourseEmbedUrl: /examples/p5js/using-variables/curved-grid
 ---
 
 {% include youtube-embed.html slug="C_yAthKA6f4" %}
@@ -29,7 +31,7 @@ function draw() {
 
   // outline
   rect(1, 1, width-2, height-2);
-  
+
   // lower-left
   line(0, 0, width * .1, height);
   line(0, height * .1, width * .2, height);
@@ -41,7 +43,7 @@ function draw() {
   line(0, height * .7, width * .8, height);
   line(0, height * .8, width * .9, height);
   line(0, height * .9, width, height);
-  
+
   // upper-right
   line(width * .9, 0, width, height);
   line(width * .8, 0, width, height * .9);
@@ -68,4 +70,3 @@ This sketch uses the `width` and `height` variables to draw a retro-futuristic c
 - Add more lines. What would 20 lines look like?
 - Add curved grids in all 4 corners.
 - Draw two perpendicular lines that intersect in the middle of the screen. (It might look like a big plus sign.) Now draw a curved grid between all 4 quadrants!
-
