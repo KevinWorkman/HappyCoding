@@ -9,7 +9,6 @@ meta-description: Draw triangles inside triangles inside triangles.
 meta-image: /examples/p5js/creating-variables/images/triangle-inset-2.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
 previousPost: /tutorials/p5js/creating-variables
 redirect_from: /examples/p5js/creating-variables/triangle-inset
 discourseEmbedUrl: /examples/p5js/creating-variables/triangle-inset

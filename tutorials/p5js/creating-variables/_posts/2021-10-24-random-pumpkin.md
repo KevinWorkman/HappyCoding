@@ -9,7 +9,9 @@ meta-description: Use the random() function to draw a random pumpkin.
 meta-image: /examples/p5js/creating-variables/images/random-pumpkin-1.png
 tags: [example, p5.js, javascript, random, 🎃]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-variables
+redirect_from: /examples/p5js/creating-variables/random-pumpkin
+discourseEmbedUrl: /examples/p5js/creating-variables/random-pumpkin
 ---
 
 {% include p5js-widget.html width=500 height=500 %}
