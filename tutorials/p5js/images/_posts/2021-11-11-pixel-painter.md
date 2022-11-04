@@ -9,7 +9,9 @@ meta-description: Turn an image into a digital painting.
 meta-image: /examples/p5js/images/images/pixel-painter-7.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/pixel-painter
+discourseEmbedUrl: /examples/p5js/images/pixel-painter
 ---
 
 This sketch turns an image into a digital painting. Every frame, it chooses a random pixel from the original image, and then draws a dot with that pixel's color.

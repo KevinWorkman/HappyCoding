@@ -9,7 +9,9 @@ meta-description: Rearrange an image into tiles.
 meta-image: /examples/p5js/images/images/image-tiles-1.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/image-tiles
+discourseEmbedUrl: /examples/p5js/images/image-tiles
 ---
 
 This sketch rearranges an image into a bunch of tiles.

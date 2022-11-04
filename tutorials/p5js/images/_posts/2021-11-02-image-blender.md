@@ -9,7 +9,9 @@ meta-description: Use p5.js to blend two images together.
 meta-image: /examples/p5js/images/images/image-blender-1.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/image-blender
+discourseEmbedUrl: /examples/p5js/images/image-blender
 ---
 
 This sketch takes two images and blends them together by taking the average of each pixel.

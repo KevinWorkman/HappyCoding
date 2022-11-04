@@ -9,7 +9,9 @@ meta-description: Make your own image filter.
 meta-image: /examples/p5js/images/images/image-filter-11.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/image-filter
+discourseEmbedUrl: /examples/p5js/images/image-filter
 ---
 
 This sketch loops over every pixel in an image, and for each pixel it calculates a new color based on the original color. This is one way image filters are made! To play around, try changing the `getFilterColor(r, g, b)` function below!

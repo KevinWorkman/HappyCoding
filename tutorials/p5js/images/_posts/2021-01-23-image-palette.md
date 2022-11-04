@@ -9,7 +9,9 @@ meta-description: Replace the colors in an image.
 meta-image: /examples/p5js/images/images/image-palette-11.png
 tags: [example, p5.js, javascript, images, genuary]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/image-palette
+discourseEmbedUrl: /examples/p5js/images/image-palette
 ---
 
 {% include youtube-embed.html slug="gDXynxUzyZo" %}

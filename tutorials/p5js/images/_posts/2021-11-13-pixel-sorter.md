@@ -9,7 +9,9 @@ meta-description: Sort the pixels in an image.
 meta-image: /examples/p5js/images/images/pixel-sorter-1.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/pixel-sorter
+discourseEmbedUrl: /examples/p5js/images/pixel-sorter
 ---
 
 This sketch sorts the pixels in an image, so that lighter pixels float to the top and darker pixels sink to the bottom.

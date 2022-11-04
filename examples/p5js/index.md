@@ -128,16 +128,16 @@ sort-key: 400
 
 # Images
 
-{% include url-thumbnail.html url="/examples/p5js/images/genuary-19" %}
-{% include url-thumbnail.html url="/examples/p5js/images/image-filter" %}
-{% include url-thumbnail.html url="/examples/p5js/images/image-palette" %}
-{% include url-thumbnail.html url="/examples/p5js/images/image-blender" %}
-{% include url-thumbnail.html url="/examples/p5js/images/image-tiles" %}
-{% include url-thumbnail.html url="/examples/p5js/images/pixel-painter" %}
-{% include url-thumbnail.html url="/examples/p5js/images/pixel-swapper" %}
-{% include url-thumbnail.html url="/examples/p5js/images/pixel-sorter" %}
-{% include url-thumbnail.html url="/examples/p5js/images/clovers" %}
-{% include url-thumbnail.html url="/examples/p5js/images/poorly-coded-cats" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/genuary-19" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/image-filter" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/image-palette" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/image-blender" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/image-tiles" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/pixel-painter" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/pixel-swapper" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/pixel-sorter" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/clovers" %}
+{% include url-thumbnail.html url="/tutorials/p5js/images/poorly-coded-cats" %}
 
 ---
 

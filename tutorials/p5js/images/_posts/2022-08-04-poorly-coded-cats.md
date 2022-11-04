@@ -9,7 +9,9 @@ meta-description: Make a stamp out of a cat picture.
 meta-image: /examples/p5js/images/images/poorly-coded-cats-1.png
 tags: [example, p5.js, javascript, images]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/poorly-coded-cats
+discourseEmbedUrl: /examples/p5js/images/poorly-coded-cats
 ---
 
 {% include youtube-embed.html slug="3gXpk2mvTWk" %}

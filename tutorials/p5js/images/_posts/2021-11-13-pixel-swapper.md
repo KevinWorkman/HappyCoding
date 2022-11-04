@@ -9,7 +9,9 @@ meta-description: Rearrange the pixels in an image.
 meta-image: /examples/p5js/images/images/pixel-swapper-1.png
 tags: [example, p5.js, javascript, images]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/images
+redirect_from: /examples/p5js/images/pixel-swapper
+discourseEmbedUrl: /examples/p5js/images/pixel-swapper
 ---
 
 This sketch rearranges the pixels in an image. Every frame, it chooses a random pixel, and swaps it with another random pixel.
