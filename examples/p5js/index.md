@@ -36,7 +36,7 @@ sort-key: 400
 # Creating Variables
 
 {% include url-thumbnail.html url="/tutorials/p5js/creating-variables/triangle-inset" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-variables/pumpkin" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-variables/pumpkin" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-variables/random-pumpkin" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-variables/random-skull" %}
 {% include url-thumbnail.html url="/examples/p5js/creating-variables/typography" %}
