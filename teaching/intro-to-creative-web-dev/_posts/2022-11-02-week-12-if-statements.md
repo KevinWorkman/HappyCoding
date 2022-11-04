@@ -28,6 +28,8 @@ Read through the next section and then work through the project at the bottom to
 
 You actually already learned about `if` statements in p5.js during week 4, so let's build on what you already know and then add `if` statements into the mix.
 
+{% include youtube-embed.html slug="qa1QWuHNGPE" %}
+
 Start with this example code:
 
 {% include codepen-vertical.html slug-hash="QWxNmPZ" height="500" autoplay=true default-tab="js" %}
@@ -63,6 +65,8 @@ You can read more about `if` statements in JavaScript here:
 # Project - Quiz
 
 Now you know how to us `if` statements in your JavaScript. To practice that, you're going to create an interactive quiz.
+
+{% include youtube-embed.html slug="HcJ2Y17KLUg" %}
 
 Your quiz can be funny, serious, or realistic. It can be about yourself, or a cause you care about, or something totally random. Make it your own!
 
