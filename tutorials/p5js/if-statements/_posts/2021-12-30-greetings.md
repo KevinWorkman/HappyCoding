@@ -9,7 +9,9 @@ meta-description: Show a different message based on the time of day.
 meta-image: /examples/p5js/if-statements/images/greetings-1.png
 tags: [example, p5.js, javascript, if-statements]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/if-statements
+redirect_from: /examples/p5js/if-statements/greetings
+discourseEmbedUrl: /examples/p5js/if-statements/greetings
 ---
 
 {% include youtube-embed.html slug="050lEjbygfU" %}

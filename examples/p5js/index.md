@@ -54,8 +54,8 @@ sort-key: 400
 
 # If Statements
 
-{% include url-thumbnail.html url="/examples/p5js/if-statements/greetings" %}
-{% include url-thumbnail.html url="/examples/p5js/if-statements/fizz-buzz" %}
+{% include url-thumbnail.html url="/tutorials/p5js/if-statements/greetings" %}
+{% include url-thumbnail.html url="/tutorials/p5js/if-statements/fizz-buzz" %}
 
 ---
 
