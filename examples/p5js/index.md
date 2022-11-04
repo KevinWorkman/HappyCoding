@@ -61,15 +61,15 @@ sort-key: 400
 
 # Animation
 
-{% include url-thumbnail.html url="/examples/p5js/animation/random-lines" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/falling-line" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/square-fill" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/random-walker" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/bouncing-line" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/pumpkin-patch" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/flickering-jack-o-lantern" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/random-skulls" %}
-{% include url-thumbnail.html url="/examples/p5js/animation/ghost" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/random-lines" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/falling-line" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/square-fill" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/random-walker" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/bouncing-line" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/pumpkin-patch" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/flickering-jack-o-lantern" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/random-skulls" %}
+{% include url-thumbnail.html url="/tutorials/p5js/animation/ghost" %}
 
 ---
 

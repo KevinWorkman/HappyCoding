@@ -9,7 +9,9 @@ meta-description: Fill the screen with random pumpkins.
 meta-image: /examples/p5js/animation/images/pumpkin-patch-1.png
 tags: [example, p5.js, javascript, random, animation, 🎃]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/animation
+redirect_from: /examples/p5js/animation/pumpkin-patch
+discourseEmbedUrl: /examples/p5js/animation/pumpkin-patch
 ---
 
 {% include p5js-widget.html width=400 height=400 %}

@@ -9,14 +9,16 @@ meta-description: Fill the screen with random lines.
 meta-image: /examples/p5js/animation/images/random-lines-3.png
 tags: [example, p5.js, javascript, random, animation]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/animation
+redirect_from: /examples/p5js/animation/random-lines
+discourseEmbedUrl: /examples/p5js/animation/random-lines
 ---
 
 {% include p5js-widget.html width=300 height=300 %}
 function setup() {
   createCanvas(300, 300);
   strokeWeight(5);
-  background(50); 
+  background(50);
 }
 
 function draw() {

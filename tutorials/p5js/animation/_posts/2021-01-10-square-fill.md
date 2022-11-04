@@ -9,7 +9,9 @@ meta-description: Create a border of squares.
 meta-image: /examples/p5js/animation/images/square-fill-3.png
 tags: [example, p5.js, javascript, animation]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/animation
+redirect_from: /examples/p5js/animation/square-fill
+discourseEmbedUrl: /examples/p5js/animation/square-fill
 ---
 
 {% include p5js-widget.html width=300 height=300 %}

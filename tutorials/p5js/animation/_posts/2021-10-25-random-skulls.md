@@ -9,7 +9,9 @@ meta-description: Fill the screen with random skulls.
 meta-image: /examples/p5js/animation/images/random-skulls-1.png
 tags: [example, p5.js, javascript, random, animation, 🎃]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/animation
+redirect_from: /examples/p5js/animation/random-skulls
+discourseEmbedUrl: /examples/p5js/animation/random-skulls
 ---
 
 This sketch draws a bunch of random skulls! Try changing the eye color, or adding a random hat to the skulls, or try generating a different random scene!

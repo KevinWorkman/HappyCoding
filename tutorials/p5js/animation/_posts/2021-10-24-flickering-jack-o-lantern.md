@@ -9,7 +9,9 @@ meta-description: Animate a flickering Jack-o'-lantern.
 meta-image: /examples/p5js/animation/images/flickering-jack-o-lantern-1.png
 tags: [example, p5.js, javascript, random, animation, 🎃]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/animation
+redirect_from: /examples/p5js/animation/flickering-jack-o-lantern
+discourseEmbedUrl: /examples/p5js/animation/flickering-jack-o-lantern
 ---
 
 This sketch creates a flickering Jack-o'-lantern by drawing a pumpkin, and then filling in the eyes and mouth with a random red/yellow color each frame. Try changing the color of the flicker!

@@ -9,7 +9,9 @@ meta-description: Show a falling line that fills the screen.
 meta-image: /examples/p5js/animation/images/falling-line-2.png
 tags: [example, p5.js, javascript, animation]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/animation
+redirect_from: /examples/p5js/animation/falling-line
+discourseEmbedUrl: /examples/p5js/animation/falling-line
 ---
 
 {% include p5js-widget.html width=300 height=300 %}
@@ -72,4 +74,3 @@ This sketch shows a falling line that fills the screen, like paint filling up a 
 - Change the size and speed of the line.
 - Make the line move horizontally instead of vertically.
 - Show a more accurate simulation of paint (or sand) filling up a bucket. Instead of a line, show individual pixels that fill the bottom of the screen.
-
