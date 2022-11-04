@@ -10,6 +10,9 @@ meta-image: /examples/p5js/creating-variables/images/random-skull-1.png
 tags: [example, p5.js, javascript, random, 🎃]
 includeP5jsWidget: true
 previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-variables
+redirect_from: /examples/p5js/creating-variables/random-skull
+discourseEmbedUrl: /examples/p5js/creating-variables/random-skull
 ---
 
 {% include p5js-widget.html width=500 height=500 %}
