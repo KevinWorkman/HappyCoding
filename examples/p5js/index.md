@@ -84,13 +84,13 @@ sort-key: 400
 
 # For Loops
 
-{% include url-thumbnail.html url="/examples/p5js/for-loops/lines-silhouette" %}
-{% include url-thumbnail.html url="/examples/p5js/for-loops/wrong-lines" %}
-{% include url-thumbnail.html url="/examples/p5js/for-loops/vertical-gradient" %}
-{% include url-thumbnail.html url="/examples/p5js/for-loops/flower-grid" %}
-{% include url-thumbnail.html url="/examples/p5js/for-loops/spooky-text" %}
-{% include url-thumbnail.html url="/examples/p5js/for-loops/menorah" %}
-{% include url-thumbnail.html url="/examples/p5js/for-loops/code-rocket" %}
+{% include url-thumbnail.html url="/tutorials/p5js/for-loops/lines-silhouette" %}
+{% include url-thumbnail.html url="/tutorials/p5js/for-loops/wrong-lines" %}
+{% include url-thumbnail.html url="/tutorials/p5js/for-loops/vertical-gradient" %}
+{% include url-thumbnail.html url="/tutorials/p5js/for-loops/flower-grid" %}
+{% include url-thumbnail.html url="/tutorials/p5js/for-loops/spooky-text" %}
+{% include url-thumbnail.html url="/tutorials/p5js/for-loops/menorah" %}
+{% include url-thumbnail.html url="/tutorials/p5js/for-loops/code-rocket" %}
 
 ---
 

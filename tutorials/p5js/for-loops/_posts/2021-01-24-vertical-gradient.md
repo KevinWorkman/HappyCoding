@@ -9,7 +9,9 @@ meta-description: Draw a gradient from one color to another.
 meta-image: /examples/p5js/for-loops/images/wrong-lines-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/for-loops
+redirect_from: /tutorials/p5js/for-loops/vertical-gradient
+discourseEmbedUrl: /tutorials/p5js/for-loops/vertical-gradient
 ---
 
 {% include youtube-embed.html slug="DJgDW3F68Xc" %}
@@ -24,7 +26,7 @@ function setup() {
 
 function draw() {
   const m = 100;
-  
+
   const topR = 255 * noise(frameCount / m);
   const topG = 255 * noise(1000 + frameCount / m);
   const topB = 255 * noise(2000 + frameCount / m);
@@ -34,7 +36,7 @@ function draw() {
 
   const topColor = color(topR, topG, topB);
   const bottomColor = color(bottomR, bottomG, bottomB);
-  
+
   for(let y = 0; y < height; y++) {
     const lineColor = lerpColor(topColor, bottomColor, y / height);
 

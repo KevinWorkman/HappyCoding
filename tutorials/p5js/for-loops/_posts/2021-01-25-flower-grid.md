@@ -9,7 +9,9 @@ meta-description: Draw a grid of random flowers.
 meta-image: /examples/p5js/for-loops/images/flower-grid-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/for-loops
+redirect_from: /tutorials/p5js/for-loops/flower-grid
+discourseEmbedUrl: /tutorials/p5js/for-loops/flower-grid
 ---
 
 {% include youtube-embed.html slug="Bpi_O-VhuCw" %}
@@ -35,7 +37,7 @@ function draw() {
     for (let r = 0; r < rows; r++) {
       const x = c * cellWidth + cellWidth / 2;
       const y = r * cellHeight + cellHeight / 2;
-      
+
       drawFlower(x, y, min(cellWidth, cellHeight));
     }
   }
@@ -45,13 +47,13 @@ function drawFlower(x, y, size) {
   const flowerSize = random(size * .5, size * .95);
   const petalSize = flowerSize / 2;
   const spacing = petalSize / 2;
-  
+
   fill(random(255), random(255), random(255));
   circle(x - spacing, y - spacing, petalSize);
   circle(x + spacing, y - spacing, petalSize);
   circle(x - spacing, y + spacing, petalSize);
   circle(x + spacing, y + spacing, petalSize);
-  
+
   fill(random(255), random(255), random(255));
   circle(x, y, petalSize);
 }

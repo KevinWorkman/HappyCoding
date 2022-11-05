@@ -9,7 +9,9 @@ meta-description: Draw lines the wrong way.
 meta-image: /examples/p5js/for-loops/images/wrong-lines-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/for-loops
+redirect_from: /tutorials/p5js/for-loops/wrong-lines
+discourseEmbedUrl: /tutorials/p5js/for-loops/wrong-lines
 ---
 
 {% include youtube-embed.html slug="lNKFhaOQJys" %}
@@ -71,4 +73,3 @@ I created this for the 22nd day of [Genuary](https://genuary2021.github.io/) whi
 - Give each line a random color, or make the lines progressively darker.
 - Add more lines over time.
 - Base the randomness off the x coordinate instead of the y coordinate.
-

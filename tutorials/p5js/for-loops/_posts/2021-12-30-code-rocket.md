@@ -9,7 +9,9 @@ meta-description: Make a rocket from the whitespace in your code.
 meta-image: /examples/p5js/for-loops/images/code-rocket-1.png
 tags: [example, p5.js, javascript, for-loops]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/for-loops
+redirect_from: /tutorials/p5js/for-loops/code-rocket
+discourseEmbedUrl: /tutorials/p5js/for-loops/code-rocket
 ---
 
 Inspired by this tweet:
