@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Triangle Inset
-thumbnail: /examples/p5js/creating-variables/images/triangle-inset-1.png
+thumbnail: /tutorials/p5js/creating-variables/images/triangle-inset-1.png
 tagline: Draw triangles inside triangles inside triangles.
 sort-key: 300
 meta-title: p5.js Example - Triangle Inset
 meta-description: Draw triangles inside triangles inside triangles.
-meta-image: /examples/p5js/creating-variables/images/triangle-inset-2.png
+meta-image: /tutorials/p5js/creating-variables/images/triangle-inset-2.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-variables
@@ -134,7 +134,7 @@ function draw() {
 
 This sketch draws a triangle inside a triangle inside a triangle inside a triangle inside a triangle.
 
-![mouse ripple](/examples/p5js/creating-variables/images/triangle-inset-3.png)
+![mouse ripple](/tutorials/p5js/creating-variables/images/triangle-inset-3.png)
 
 # Remix Ideas
 

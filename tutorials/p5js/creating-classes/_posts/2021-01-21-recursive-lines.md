@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Recursive Lines
-thumbnail: /examples/p5js/creating-classes/images/recursive-lines-1.png
+thumbnail: /tutorials/p5js/creating-classes/images/recursive-lines-1.png
 tagline: Draw lines that draw other lines.
 sort-key: 1040
 meta-title: p5.js Example - Recursive Lines
 meta-description: Draw lines that draw other lines.
-meta-image: /examples/p5js/creating-classes/images/recursive-lines-1.png
+meta-image: /tutorials/p5js/creating-classes/images/recursive-lines-1.png
 tags: [example, p5.js, javascript, creating-classes, trigonometry, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
@@ -111,10 +111,10 @@ function f(x) {
 
 Each line draws itself, and then spawns a new line at 25%, 50%, and 75% of its own length.
 
-![recursive lines](/examples/p5js/creating-classes/images/recursive-lines-6.png)
-![recursive lines](/examples/p5js/creating-classes/images/recursive-lines-5.png)
-![recursive lines](/examples/p5js/creating-classes/images/recursive-lines-4.gif)
-![recursive lines](/examples/p5js/creating-classes/images/recursive-lines-2.gif)
+![recursive lines](/tutorials/p5js/creating-classes/images/recursive-lines-6.png)
+![recursive lines](/tutorials/p5js/creating-classes/images/recursive-lines-5.png)
+![recursive lines](/tutorials/p5js/creating-classes/images/recursive-lines-4.gif)
+![recursive lines](/tutorials/p5js/creating-classes/images/recursive-lines-2.gif)
 
 # Remix Ideas
 

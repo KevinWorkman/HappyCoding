@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Warmer / Colder
-thumbnail: /examples/p5js/input/images/warmer-colder-1.png
+thumbnail: /tutorials/p5js/input/images/warmer-colder-1.png
 tagline: Play a game of warmer / colder with your computer.
 sort-key: 640
 meta-title: Warmer / Colder - p5.js Example
 meta-description: Play a game of warmer / colder with your computer.
-meta-image: /examples/p5js/input/images/warmer-colder-1.png
+meta-image: /tutorials/p5js/input/images/warmer-colder-1.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/input

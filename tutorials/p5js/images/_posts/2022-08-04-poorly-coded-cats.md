@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Poorly Coded Cats
-thumbnail: /examples/p5js/images/images/poorly-coded-cats-1.png
+thumbnail: /tutorials/p5js/images/images/poorly-coded-cats-1.png
 tagline: Make a stamp out of a cat picture.
 sort-key: 1180
 meta-title: Poorly Coded Cats - p5.js Example
 meta-description: Make a stamp out of a cat picture.
-meta-image: /examples/p5js/images/images/poorly-coded-cats-1.png
+meta-image: /tutorials/p5js/images/images/poorly-coded-cats-1.png
 tags: [example, p5.js, javascript, images]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/images
@@ -28,10 +28,10 @@ This code takes the original cat image and uses it as a randomly colored stamp.
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/XklOOiqXa)
 
-![colorful cats filling the screen](/examples/p5js/images/images/poorly-coded-cats-2.png)
-![black and white cats filling the screen](/examples/p5js/images/images/poorly-coded-cats-3.png)
-![transparent cats filling the screen](/examples/p5js/images/images/poorly-coded-cats-4.png)
-![red and blue cats filling the screen](/examples/p5js/images/images/poorly-coded-cats-5.png)
+![colorful cats filling the screen](/tutorials/p5js/images/images/poorly-coded-cats-2.png)
+![black and white cats filling the screen](/tutorials/p5js/images/images/poorly-coded-cats-3.png)
+![transparent cats filling the screen](/tutorials/p5js/images/images/poorly-coded-cats-4.png)
+![red and blue cats filling the screen](/tutorials/p5js/images/images/poorly-coded-cats-5.png)
 
 # Remix Ideas
 

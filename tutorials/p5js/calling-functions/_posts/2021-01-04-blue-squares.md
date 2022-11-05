@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Blue Squares
-thumbnail: /examples/p5js/calling-functions/images/blue-squares-1.png
+thumbnail: /tutorials/p5js/calling-functions/images/blue-squares-1.png
 tagline: A gradient of blue squares.
 sort-key: 110
 meta-title: p5.js Example - Blue Squares
 meta-description: A gradient of blue squares.
-meta-image: /examples/p5js/calling-functions/images/blue-squares-1.png
+meta-image: /tutorials/p5js/calling-functions/images/blue-squares-1.png
 tags: [example, p5.js, javascript, calling-functions]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/calling-functions
@@ -38,7 +38,7 @@ function draw() {
 
 This sketch creates a gradient of blue squares.
 
-![blue squares](/examples/p5js/calling-functions/images/blue-squares-1.png)
+![blue squares](/tutorials/p5js/calling-functions/images/blue-squares-1.png)
 
 # Remix Ideas
 

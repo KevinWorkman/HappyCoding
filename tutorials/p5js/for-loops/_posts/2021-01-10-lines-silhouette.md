@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Lines Silhouette
-thumbnail: /examples/p5js/for-loops/images/lines-silhouette-3.png
+thumbnail: /tutorials/p5js/for-loops/images/lines-silhouette-3.png
 tagline: Use a for loop to create a silhouette of lines.
 sort-key: 710
 meta-title: p5.js Example - Lines Silhouette
 meta-description: Use a for loop to create a silhouette of lines.
-meta-image: /examples/p5js/for-loops/images/lines-silhouette-2.png
+meta-image: /tutorials/p5js/for-loops/images/lines-silhouette-2.png
 tags: [example, p5.js, javascript, for-loops]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
@@ -41,7 +41,7 @@ function draw() {
 
 This sketch uses a `for` loop to draw a bunch of lines with random lengths to create a silhouette effect.
 
-![lines silhouette](/examples/p5js/for-loops/images/lines-silhouette-1.gif)
+![lines silhouette](/tutorials/p5js/for-loops/images/lines-silhouette-1.gif)
 
 # Remix Ideas
 

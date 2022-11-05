@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Code Rocket
-thumbnail: /examples/p5js/for-loops/images/code-rocket-1.png
+thumbnail: /tutorials/p5js/for-loops/images/code-rocket-1.png
 tagline: Make a rocket from the whitespace in your code.
 sort-key: 810
 meta-title: p5.js Example - Code Rocket
 meta-description: Make a rocket from the whitespace in your code.
-meta-image: /examples/p5js/for-loops/images/code-rocket-1.png
+meta-image: /tutorials/p5js/for-loops/images/code-rocket-1.png
 tags: [example, p5.js, javascript, for-loops]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/for-loops
@@ -24,8 +24,8 @@ This sketch creates a "code rocket" using p5.js:
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/zt9guV3S7)
 
-![code rocket](/examples/p5js/for-loops/images/code-rocket-2.png)
-![code rocket](/examples/p5js/for-loops/images/code-rocket-3.png)
+![code rocket](/tutorials/p5js/for-loops/images/code-rocket-2.png)
+![code rocket](/tutorials/p5js/for-loops/images/code-rocket-3.png)
 
 # Remix Ideas
 

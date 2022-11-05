@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Vertical Gradient
-thumbnail: /examples/p5js/for-loops/images/vertical-gradient-1.png
+thumbnail: /tutorials/p5js/for-loops/images/vertical-gradient-1.png
 tagline: Draw a gradient from one color to another.
 sort-key: 730
 meta-title: p5.js Example - Vertical Gradient
 meta-description: Draw a gradient from one color to another.
-meta-image: /examples/p5js/for-loops/images/wrong-lines-1.png
+meta-image: /tutorials/p5js/for-loops/images/wrong-lines-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
@@ -52,10 +52,10 @@ This sketch uses a `for` loop to draw a vertical gradient.
 
 I created this for the 24th day of [Genuary](https://genuary2021.github.io/) which had a prompt of "500 lines."
 
-![vertical gradient](/examples/p5js/for-loops/images/vertical-gradient-2.png)
-![vertical gradient](/examples/p5js/for-loops/images/vertical-gradient-3.png)
-![vertical gradient](/examples/p5js/for-loops/images/vertical-gradient-4.png)
-![vertical gradient](/examples/p5js/for-loops/images/vertical-gradient-5.png)
+![vertical gradient](/tutorials/p5js/for-loops/images/vertical-gradient-2.png)
+![vertical gradient](/tutorials/p5js/for-loops/images/vertical-gradient-3.png)
+![vertical gradient](/tutorials/p5js/for-loops/images/vertical-gradient-4.png)
+![vertical gradient](/tutorials/p5js/for-loops/images/vertical-gradient-5.png)
 
 # Remix Ideas
 

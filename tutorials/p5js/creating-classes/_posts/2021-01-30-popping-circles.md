@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Popping Circles
-thumbnail: /examples/p5js/creating-classes/images/popping-circles-1.png
+thumbnail: /tutorials/p5js/creating-classes/images/popping-circles-1.png
 tagline: Fill circles with your mouse that pop if they touch.
 sort-key: 1070
 meta-title: p5.js Example - Popping Circles
 meta-description: Fill circles with your mouse that pop if they touch.
-meta-image: /examples/p5js/creating-classes/images/popping-circles-1.png
+meta-image: /tutorials/p5js/creating-classes/images/popping-circles-1.png
 tags: [example, p5.js, javascript, creating-classes, input, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
@@ -110,7 +110,7 @@ This sketch lets you fill the screen with circles by clicking your mouse. But if
 
 I created this for the 29th day of [#genuary](https://genuary2021.github.io/) which had a prompt of "Any shape, none can touch."
 
-![circles](/examples/p5js/creating-classes/images/popping-circles-2.png)
+![circles](/tutorials/p5js/creating-classes/images/popping-circles-2.png)
 
 # Remix Ideas
 

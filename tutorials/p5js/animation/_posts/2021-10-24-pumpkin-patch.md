@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Pumpkin Patch
-thumbnail: /examples/p5js/animation/images/pumpkin-patch-1.png
+thumbnail: /tutorials/p5js/animation/images/pumpkin-patch-1.png
 tagline: Fill the screen with random pumpkins.
 sort-key: 560
 meta-title: p5.js Example - Pumpkin Patch
 meta-description: Fill the screen with random pumpkins.
-meta-image: /examples/p5js/animation/images/pumpkin-patch-1.png
+meta-image: /tutorials/p5js/animation/images/pumpkin-patch-1.png
 tags: [example, p5.js, javascript, random, animation, 🎃]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
@@ -68,7 +68,7 @@ This sketch uses the `random()`` function to make fill the screen with a pumpkin
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/n9UwhbcyO)
 
-![pumpkin patch](/examples/p5js/animation/images/pumpkin-patch-2.png)
+![pumpkin patch](/tutorials/p5js/animation/images/pumpkin-patch-2.png)
 
 This is part of [p5 spooky sketches printout](http://tinyurl.com/p5-spooky-sketches) I made for [CC Fest](http://ccfest.rocks/) in 2019. That printout contains a bunch of Halloween-themed examples of drawing and image manipulation. Feel free to use it on your own or in a classroom!
 

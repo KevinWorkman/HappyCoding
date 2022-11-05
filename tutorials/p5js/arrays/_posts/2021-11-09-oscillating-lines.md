@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Oscillating Lines
-thumbnail: /examples/p5js/arrays/images/oscillating-lines-1.png
+thumbnail: /tutorials/p5js/arrays/images/oscillating-lines-1.png
 tagline: Show lines that oscillate up and down.
 sort-key: 820
 meta-title: Oscillating Lines - p5.js Arrays Example
 meta-description: Use arrays to show lines that oscillate up and down.
-meta-image: /examples/p5js/arrays/images/oscillating-lines-1.png
+meta-image: /tutorials/p5js/arrays/images/oscillating-lines-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
@@ -63,7 +63,7 @@ function draw() {
 
 [Edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/ieWefdCXp)
 
-![oscillating lines](/examples/p5js/arrays/images/oscillating-lines-2.gif)
+![oscillating lines](/tutorials/p5js/arrays/images/oscillating-lines-2.gif)
 
 # Remix Ideas
 

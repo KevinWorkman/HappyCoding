@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Year Percent
-thumbnail: /examples/p5js/using-objects/images/year-percent-1.png
+thumbnail: /tutorials/p5js/using-objects/images/year-percent-1.png
 tagline: How far into the year are we?
 sort-key: 910
 meta-title: p5.js Example - Year Percent
 meta-description: How far into the year are we?
-meta-image: /examples/p5js/using-objects/images/year-percent-1.png
+meta-image: /tutorials/p5js/using-objects/images/year-percent-1.png
 tags: [example, p5.js, javascript, oop]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/using-objects

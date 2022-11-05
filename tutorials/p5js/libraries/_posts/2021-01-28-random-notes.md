@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Random Notes
-thumbnail: /examples/p5js/libraries/images/random-notes-1.png
+thumbnail: /tutorials/p5js/libraries/images/random-notes-1.png
 tagline: Use the p5.sound library to play random notes.
 sort-key: 1210
 meta-title: p5.js Example - Random Notes
 meta-description: Use the p5.sound library to play random notes.
-meta-image: /examples/p5js/libraries/images/random-notes-1.png
+meta-image: /tutorials/p5js/libraries/images/random-notes-1.png
 tags: [example, p5.js, javascript, libraries, sound, genuary]
 previousPost: /tutorials/p5js/libraries
 redirect_from: /examples/p5js/libraries/random-notes
@@ -102,8 +102,8 @@ This sketch uses the [p5.sound library](https://p5js.org/reference/#/libraries/p
 
 I created this for the 28th day of [Genuary](https://genuary2021.github.io/) which had a prompt of "Use sound."
 
-![random notes](/examples/p5js/libraries/images/random-notes-2.png)
-![random notes](/examples/p5js/libraries/images/random-notes-3.png)
+![random notes](/tutorials/p5js/libraries/images/random-notes-2.png)
+![random notes](/tutorials/p5js/libraries/images/random-notes-3.png)
 
 # Remix Ideas
 

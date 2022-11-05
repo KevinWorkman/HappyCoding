@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Isometric Cubes
-thumbnail: /examples/p5js/creating-classes/images/isometric-cubes-1.png
+thumbnail: /tutorials/p5js/creating-classes/images/isometric-cubes-1.png
 tagline: Create an isometric grid of cubes.
 sort-key: 1050
 meta-title: p5.js Example - Recursive Lines
 meta-description: Draw lines that draw other lines.
-meta-image: /examples/p5js/creating-classes/images/recursive-lines-1.png
+meta-image: /tutorials/p5js/creating-classes/images/recursive-lines-1.png
 tags: [example, p5.js, javascript, creating-classes, trigonometry, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
@@ -146,10 +146,10 @@ This sketch shows a structure of cubes laid out in an [isometric](https://en.wik
 
 While coding this, I found these two pages really helpful: [Isometric Tiles Math](http://clintbellanger.net/articles/isometric_math/) and [Understanding isometric grids](https://yal.cc/understanding-isometric-grids/).
 
-![isometric cubes](/examples/p5js/creating-classes/images/isometric-cubes-2.png)
-![isometric cubes](/examples/p5js/creating-classes/images/isometric-cubes-4.png)
-![isometric cubes](/examples/p5js/creating-classes/images/isometric-cubes-5.png)
-![isometric cubes](/examples/p5js/creating-classes/images/isometric-cubes-6.png)
+![isometric cubes](/tutorials/p5js/creating-classes/images/isometric-cubes-2.png)
+![isometric cubes](/tutorials/p5js/creating-classes/images/isometric-cubes-4.png)
+![isometric cubes](/tutorials/p5js/creating-classes/images/isometric-cubes-5.png)
+![isometric cubes](/tutorials/p5js/creating-classes/images/isometric-cubes-6.png)
 
 # Remix Ideas
 

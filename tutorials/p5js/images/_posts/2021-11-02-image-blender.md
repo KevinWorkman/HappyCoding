@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Image Blender
-thumbnail: /examples/p5js/images/images/image-blender-1.png
+thumbnail: /tutorials/p5js/images/images/image-blender-1.png
 tagline: Blend two images together.
 sort-key: 1130
 meta-title: p5.js Example - Image Blender
 meta-description: Use p5.js to blend two images together.
-meta-image: /examples/p5js/images/images/image-blender-1.png
+meta-image: /tutorials/p5js/images/images/image-blender-1.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/images
@@ -19,13 +19,13 @@ This sketch takes two images and blends them together by taking the average of e
 For example, if you start with these images:
 
 <div style="display:flex">
-<img src="/examples/p5js/images/images/image-blender-2.png" style="width:50%" alt="leaf"/>
-<img src="/examples/p5js/images/images/image-blender-3.png" style="width:50%" alt="tree"/>
+<img src="/tutorials/p5js/images/images/image-blender-2.png" style="width:50%" alt="leaf"/>
+<img src="/tutorials/p5js/images/images/image-blender-3.png" style="width:50%" alt="tree"/>
 </div>
 
 The sketch blends them together to create this image:
 
-![blended image](/examples/p5js/images/images/image-blender-4.png)
+![blended image](/tutorials/p5js/images/images/image-blender-4.png)
 
 ```
 let imgOne;
@@ -107,7 +107,7 @@ for (let y = 0; y < imgOne.height; y++) {
 
 This code compares the brightness of each pixel, and draws whichever pixel is brighter. This creates images like this:
 
-![blended image](/examples/p5js/images/images/image-blender-5.png)
+![blended image](/tutorials/p5js/images/images/image-blender-5.png)
 
 This is part of [p5 spooky sketches printout](http://tinyurl.com/p5-spooky-sketches) I made for [CC Fest](http://ccfest.rocks/) in 2019. That printout contains a bunch of Halloween-themed examples of drawing and image manipulation. Feel free to use it on your own or in a classroom!
 

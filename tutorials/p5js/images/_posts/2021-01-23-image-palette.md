@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Image Palette
-thumbnail: /examples/p5js/images/images/image-palette-11.png
+thumbnail: /tutorials/p5js/images/images/image-palette-11.png
 tagline: Replace the colors in an image.
 sort-key: 1120
 meta-title: p5.js Example - Image Palette
 meta-description: Replace the colors in an image.
-meta-image: /examples/p5js/images/images/image-palette-11.png
+meta-image: /tutorials/p5js/images/images/image-palette-11.png
 tags: [example, p5.js, javascript, images, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/images
@@ -101,16 +101,16 @@ I created this for the 23rd day of [Genuary](https://genuary2021.github.io/) whi
 
 The colors reminded me of a sunset, so I applied the palette filter to a few pictures of horizons I've taken recently.
 
-![palette image](/examples/p5js/images/images/image-palette-1.gif)
-![palette image](/examples/p5js/images/images/image-palette-2.gif)
-![palette image](/examples/p5js/images/images/image-palette-3.gif)
-![palette image](/examples/p5js/images/images/image-palette-4.gif)
-![palette image](/examples/p5js/images/images/image-palette-5.gif)
-![palette image](/examples/p5js/images/images/image-palette-6.gif)
-![palette image](/examples/p5js/images/images/image-palette-7.gif)
-![palette image](/examples/p5js/images/images/image-palette-8.gif)
-![palette image](/examples/p5js/images/images/image-palette-9.gif)
-![palette image](/examples/p5js/images/images/image-palette-10.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-1.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-2.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-3.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-4.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-5.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-6.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-7.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-8.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-9.gif)
+![palette image](/tutorials/p5js/images/images/image-palette-10.gif)
 
 # Remix Ideas
 

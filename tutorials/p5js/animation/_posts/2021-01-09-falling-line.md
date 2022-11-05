@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Falling Line
-thumbnail: /examples/p5js/animation/images/falling-line-2.png
+thumbnail: /tutorials/p5js/animation/images/falling-line-2.png
 tagline: Show a falling line that fills the screen.
 sort-key: 510
 meta-title: p5.js Example - Falling Line
 meta-description: Show a falling line that fills the screen.
-meta-image: /examples/p5js/animation/images/falling-line-2.png
+meta-image: /tutorials/p5js/animation/images/falling-line-2.png
 tags: [example, p5.js, javascript, animation]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
@@ -67,7 +67,7 @@ function randomColor() {
 
 This sketch shows a falling line that fills the screen, like paint filling up a bucket.
 
-![falling line](/examples/p5js/animation/images/falling-line-1.gif)
+![falling line](/tutorials/p5js/animation/images/falling-line-1.gif)
 
 # Remix Ideas
 

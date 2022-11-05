@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Bonsai Tree
-thumbnail: /examples/p5js/creating-classes/images/bonsai-tree-1.png
+thumbnail: /tutorials/p5js/creating-classes/images/bonsai-tree-1.png
 tagline: Use recursion to create a digital bonsai tree.
 sort-key: 1020
 meta-title: p5.js Example - Bonsai Tree
 meta-description: Use recursion to create a digital bonsai tree.
-meta-image: /examples/p5js/creating-classes/images/bonsai-tree-1.png
+meta-image: /tutorials/p5js/creating-classes/images/bonsai-tree-1.png
 tags: [example, p5.js, javascript, creating-classes, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
@@ -183,12 +183,12 @@ class Node {
 
 This sketch uses recursion to create a digital bonsai tree. Click a circle to prune it!
 
-I created this for the 18th day of [Genuary](https://genuary2021.github.io/) which had a prompt of “One process grows, another process prunes.” I started by [drawing some ideas](/examples/p5js/creating-classes/images/bonsai-tree-6.jpg) and then [prototyping](/examples/p5js/creating-classes/images/bonsai-tree-5.png). I almost [gave up](https://twitter.com/TheKevinWorkman/status/1351304751707693056), but I eventually landed on an approach that generated new positions randomly, and threw them out if they intersected an existing circle. That's much more manageable than the complicated trigonometry I originally tried to use!
+I created this for the 18th day of [Genuary](https://genuary2021.github.io/) which had a prompt of “One process grows, another process prunes.” I started by [drawing some ideas](/tutorials/p5js/creating-classes/images/bonsai-tree-6.jpg) and then [prototyping](/examples/p5js/creating-classes/images/bonsai-tree-5.png). I almost [gave up](https://twitter.com/TheKevinWorkman/status/1351304751707693056), but I eventually landed on an approach that generated new positions randomly, and threw them out if they intersected an existing circle. That's much more manageable than the complicated trigonometry I originally tried to use!
 
-![bonsai tree](/examples/p5js/creating-classes/images/bonsai-tree-2.png)
-![bonsai tree](/examples/p5js/creating-classes/images/bonsai-tree-3.png)
-![bonsai tree](/examples/p5js/creating-classes/images/bonsai-tree-4.png)
-![bonsai tree](/examples/p5js/creating-classes/images/bonsai-tree-7.gif)
+![bonsai tree](/tutorials/p5js/creating-classes/images/bonsai-tree-2.png)
+![bonsai tree](/tutorials/p5js/creating-classes/images/bonsai-tree-3.png)
+![bonsai tree](/tutorials/p5js/creating-classes/images/bonsai-tree-4.png)
+![bonsai tree](/tutorials/p5js/creating-classes/images/bonsai-tree-7.gif)
 
 # Remix Ideas
 

@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Wrong Lines
-thumbnail: /examples/p5js/for-loops/images/wrong-lines-1.png
+thumbnail: /tutorials/p5js/for-loops/images/wrong-lines-1.png
 tagline: Draw lines the wrong way.
 sort-key: 720
 meta-title: p5.js Example - Wrong Lines
 meta-description: Draw lines the wrong way.
-meta-image: /examples/p5js/for-loops/images/wrong-lines-1.png
+meta-image: /tutorials/p5js/for-loops/images/wrong-lines-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
@@ -64,9 +64,9 @@ This sketch uses a `for` loop to draw lines that get progressively messier.
 
 I created this for the 22nd day of [Genuary](https://genuary2021.github.io/) which had a prompt of "Draw a line. Wrong answers only."
 
-![wrong lines](/examples/p5js/for-loops/images/wrong-lines-2.png)
-![wrong lines](/examples/p5js/for-loops/images/wrong-lines-3.png)
-![wrong lines](/examples/p5js/for-loops/images/wrong-lines-4.png)
+![wrong lines](/tutorials/p5js/for-loops/images/wrong-lines-2.png)
+![wrong lines](/tutorials/p5js/for-loops/images/wrong-lines-3.png)
+![wrong lines](/tutorials/p5js/for-loops/images/wrong-lines-4.png)
 
 # Remix Ideas
 

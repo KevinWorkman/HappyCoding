@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Flickering Jack-o'-Lantern
-thumbnail: /examples/p5js/animation/images/flickering-jack-o-lantern-1.png
+thumbnail: /tutorials/p5js/animation/images/flickering-jack-o-lantern-1.png
 tagline: Animate a flickering Jack-o'-lantern.
 sort-key: 570
 meta-title: p5.js Example - Flickering Jack-o'-Lantern
 meta-description: Animate a flickering Jack-o'-lantern.
-meta-image: /examples/p5js/animation/images/flickering-jack-o-lantern-1.png
+meta-image: /tutorials/p5js/animation/images/flickering-jack-o-lantern-1.png
 tags: [example, p5.js, javascript, random, animation, 🎃]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
@@ -71,7 +71,7 @@ function draw() {
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/JyhofVcMA)
 
-![flickering Jack-o'-lantern](/examples/p5js/animation/images/flickering-jack-o-lantern-2.gif)
+![flickering Jack-o'-lantern](/tutorials/p5js/animation/images/flickering-jack-o-lantern-2.gif)
 
 This is part of [p5 spooky sketches printout](http://tinyurl.com/p5-spooky-sketches) I made for [CC Fest](http://ccfest.rocks/) in 2019. That printout contains a bunch of Halloween-themed examples of drawing and image manipulation. Feel free to use it on your own or in a classroom!
 

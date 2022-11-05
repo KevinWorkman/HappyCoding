@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Ant Colony
-thumbnail: /examples/p5js/creating-classes/images/ant-colony-1.png
+thumbnail: /tutorials/p5js/creating-classes/images/ant-colony-1.png
 tagline: Create an ant colony simulation.
 sort-key: 1060
 meta-title: p5.js Example - Ant Colony
 meta-description: Create an ant colony simulation.
-meta-image: /examples/p5js/creating-classes/images/ant-colony-1.png
+meta-image: /tutorials/p5js/creating-classes/images/ant-colony-1.png
 tags: [example, p5.js, javascript, creating-classes, genuary]
 previousPost: /tutorials/p5js/creating-classes
 redirect_from: /tutorials/p5js/creating-classes/ant-colony
@@ -262,28 +262,28 @@ I created this for the 30th day of [#genuary](https://genuary2021.github.io/) wh
 
 Ants start out travelling randomly, leaving behind pheromones based on when they saw the nest or the food:
 
-![ants](/examples/p5js/creating-classes/images/ant-colony-3.png)
+![ants](/tutorials/p5js/creating-classes/images/ant-colony-3.png)
 
 Over time, ants use these pheromone trails to find a path between the nest and the food:
 
-![ants](/examples/p5js/creating-classes/images/ant-colony-4.png)
+![ants](/tutorials/p5js/creating-classes/images/ant-colony-4.png)
 
 If an obstacle is added, ants go back to travelling around randomly:
 
-![ants](/examples/p5js/creating-classes/images/ant-colony-6.png)
+![ants](/tutorials/p5js/creating-classes/images/ant-colony-6.png)
 
 
 Eventually they use the pheromones to find a new trail:
 
-![ants](/examples/p5js/creating-classes/images/ant-colony-7.png)
+![ants](/tutorials/p5js/creating-classes/images/ant-colony-7.png)
 
-![ants](/examples/p5js/creating-classes/images/ant-colony-8.png)
+![ants](/tutorials/p5js/creating-classes/images/ant-colony-8.png)
 
 Each individual ant follows a set of simple rules, but the colony can adapt to changes in the environment:
 
-![ants](/examples/p5js/creating-classes/images/ant-colony-9.png)
+![ants](/tutorials/p5js/creating-classes/images/ant-colony-9.png)
 
-![ants](/examples/p5js/creating-classes/images/ant-colony-10.png)
+![ants](/tutorials/p5js/creating-classes/images/ant-colony-10.png)
 
 # Remix Ideas
 

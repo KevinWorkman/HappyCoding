@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Accumulating Snow
-thumbnail: /examples/p5js/using-objects/images/accumulating-snow-3.png
+thumbnail: /tutorials/p5js/using-objects/images/accumulating-snow-3.png
 tagline: Draw snow that accumulates on the ground.
 sort-key: 210
 meta-title: Accumulating Snow - Using Objects in p5.js
 meta-description: Draw snow that accumulates on the ground.
-meta-image: /examples/p5js/using-objects/images/accumulating-snow-1.png
+meta-image: /tutorials/p5js/using-objects/images/accumulating-snow-1.png
 tags: [example, p5.js, javascript, objects]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/using-objects
@@ -76,7 +76,7 @@ function mouseDragged() {
 }
 </script>
 
-![accumulating snow](/examples/p5js/using-objects/images/accumulating-snow-2.gif)
+![accumulating snow](/tutorials/p5js/using-objects/images/accumulating-snow-2.gif)
 
 [Edit this sketch in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/PvtHm8EIe)
 

@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Clickable Text
-thumbnail: /examples/p5js/input/images/clickable-text-2.png
+thumbnail: /tutorials/p5js/input/images/clickable-text-2.png
 tagline: Create text that opens a link when you click it.
 sort-key: 610
 meta-title: p5.js Example - Clickable Text
 meta-description: Create text that opens a link when you click it.
-meta-image: /examples/p5js/input/images/clickable-text-3.png
+meta-image: /tutorials/p5js/input/images/clickable-text-3.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/input
@@ -58,7 +58,7 @@ function isMouseInsideText(message, messageX, messageY) {
 
 This sketch creates text that opens a link when you click it. The `textWidth()`, `textAscent()`, and `textDescent()` give you the width and height of a string, which you can use to calculate the [bounding box](https://en.wikipedia.org/wiki/Minimum_bounding_box) of the text. Then you can check whether the mouse is inside that box, which is what the `isMouseInsideText()` function does.
 
-![Black Lives Matter](/examples/p5js/input/images/clickable-text-1.png)
+![Black Lives Matter](/tutorials/p5js/input/images/clickable-text-1.png)
 
 # Remix Ideas
 

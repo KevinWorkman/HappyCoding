@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Pixel Swapper
-thumbnail: /examples/p5js/images/images/pixel-swapper-1.png
+thumbnail: /tutorials/p5js/images/images/pixel-swapper-1.png
 tagline: Rearrange the pixels in an image.
 sort-key: 1160
 meta-title: Pixel Swapper - p5.js Example
 meta-description: Rearrange the pixels in an image.
-meta-image: /examples/p5js/images/images/pixel-swapper-1.png
+meta-image: /tutorials/p5js/images/images/pixel-swapper-1.png
 tags: [example, p5.js, javascript, images]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/images
@@ -89,10 +89,10 @@ function swapPixels() {
 
 The code contains options for swapping or averaging pixels, either close together or far apart. This creates different kinds of animations:
 
-![swapping far away pixels](/examples/p5js/images/images/pixel-swapper-2-swap-global.gif)
-![averaging far away pixels](/examples/p5js/images/images/pixel-swapper-3-avg-global.gif)
-![swapping close pixels](/examples/p5js/images/images/pixel-swapper-4-avg-local.gif)
-![averaging close pixels](/examples/p5js/images/images/pixel-swapper-5-swap-local.gif)
+![swapping far away pixels](/tutorials/p5js/images/images/pixel-swapper-2-swap-global.gif)
+![averaging far away pixels](/tutorials/p5js/images/images/pixel-swapper-3-avg-global.gif)
+![swapping close pixels](/tutorials/p5js/images/images/pixel-swapper-4-avg-local.gif)
+![averaging close pixels](/tutorials/p5js/images/images/pixel-swapper-5-swap-local.gif)
 
 # Remix Ideas
 

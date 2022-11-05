@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Random Lines
-thumbnail: /examples/p5js/animation/images/random-lines-2.png
+thumbnail: /tutorials/p5js/animation/images/random-lines-2.png
 tagline: Fill the screen with random lines.
 sort-key: 520
 meta-title: p5.js Example - Random Lines
 meta-description: Fill the screen with random lines.
-meta-image: /examples/p5js/animation/images/random-lines-3.png
+meta-image: /tutorials/p5js/animation/images/random-lines-3.png
 tags: [example, p5.js, javascript, random, animation]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
@@ -29,7 +29,7 @@ function draw() {
 
 This sketch uses the `random()` function to fill the screen with random lines.
 
-![random lines](/examples/p5js/animation/images/random-lines-1.png)
+![random lines](/tutorials/p5js/animation/images/random-lines-1.png)
 
 # Remix Ideas
 

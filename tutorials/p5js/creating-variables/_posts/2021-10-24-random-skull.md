@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Random Skull
-thumbnail: /examples/p5js/creating-variables/images/random-skull-1.png
+thumbnail: /tutorials/p5js/creating-variables/images/random-skull-1.png
 tagline: Use the random() function to draw a random skull.
 sort-key: 330
 meta-title: p5.js Example - Random Skull
 meta-description: Use the random() function to draw a random skull.
-meta-image: /examples/p5js/creating-variables/images/random-skull-1.png
+meta-image: /tutorials/p5js/creating-variables/images/random-skull-1.png
 tags: [example, p5.js, javascript, random, 🎃]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-variables
@@ -95,7 +95,7 @@ This sketch uses the `random()` function to draw a random skull.
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/KUQZggYc4)
 
-![random pumpkins](/examples/p5js/creating-variables/images/random-skull-2.gif)
+![random pumpkins](/tutorials/p5js/creating-variables/images/random-skull-2.gif)
 
 This is part of [p5 spooky sketches printout](http://tinyurl.com/p5-spooky-sketches) I made for [CC Fest](http://ccfest.rocks/) in 2019. That printout contains a bunch of Halloween-themed examples of drawing and image manipulation. Feel free to use it on your own or in a classroom!
 

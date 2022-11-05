@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Falling Points
-thumbnail: /examples/p5js/arrays/images/falling-points-2.png
+thumbnail: /tutorials/p5js/arrays/images/falling-points-2.png
 tagline: Show falling points that look like snow.
 sort-key: 810
 meta-title: p5.js Example - Falling Points
 meta-description: Use arrays to show falling points that look like snow.
-meta-image: /examples/p5js/arrays/images/falling-points-3.png
+meta-image: /tutorials/p5js/arrays/images/falling-points-3.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
@@ -42,7 +42,7 @@ function draw() {
 
 This sketch uses an array that holds a Y value for every X value across the width of the canvas. It adds a random number to each Y value so that the points fall at different speeds.
 
-![falling points](/examples/p5js/arrays/images/falling-points-1.png)
+![falling points](/tutorials/p5js/arrays/images/falling-points-1.png)
 
 # Remix Ideas
 

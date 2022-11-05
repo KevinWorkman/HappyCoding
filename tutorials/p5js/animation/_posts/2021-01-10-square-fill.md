@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Square Fill
-thumbnail: /examples/p5js/animation/images/square-fill-2.png
+thumbnail: /tutorials/p5js/animation/images/square-fill-2.png
 tagline: Create a border of squares.
 sort-key: 530
 meta-title: p5.js Example - Square Fill
 meta-description: Create a border of squares.
-meta-image: /examples/p5js/animation/images/square-fill-3.png
+meta-image: /tutorials/p5js/animation/images/square-fill-3.png
 tags: [example, p5.js, javascript, animation]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
@@ -52,7 +52,7 @@ function draw() {
 
 This sketch fills the screen with squares, creating a colorful border effect.
 
-![squares filling the canvas](/examples/p5js/animation/images/square-fill-1.gif)
+![squares filling the canvas](/tutorials/p5js/animation/images/square-fill-1.gif)
 
 # Remix Ideas
 

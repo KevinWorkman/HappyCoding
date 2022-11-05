@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Fading Grid
-thumbnail: /examples/p5js/arrays/images/fading-grid-1.png
+thumbnail: /tutorials/p5js/arrays/images/fading-grid-1.png
 tagline: Use a 2D array to show a fading grid.
 sort-key: 830
 meta-title: Fading Grid - p5.js 2D Array Example
 meta-description: Use a 2D array to show a fading grid.
-meta-image: /examples/p5js/arrays/images/fading-grid-1.png
+meta-image: /tutorials/p5js/arrays/images/fading-grid-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
@@ -65,7 +65,7 @@ function draw() {
 
 [Edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/yoCVXKFre)
 
-![fading grid](/examples/p5js/arrays/images/fading-grid-2.gif)
+![fading grid](/tutorials/p5js/arrays/images/fading-grid-2.gif)
 
 # Remix Ideas
 

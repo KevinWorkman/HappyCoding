@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Bouncing Line
-thumbnail: /examples/p5js/animation/images/bouncing-line-4.png
+thumbnail: /tutorials/p5js/animation/images/bouncing-line-4.png
 tagline: Draw a line, pick a new color, move a bit.
 sort-key: 550
 meta-title: p5.js Example - Bouncing Line
 meta-description: Draw a line, pick a new color, move a bit.
-meta-image: /examples/p5js/animation/images/bouncing-line-3.png
+meta-image: /tutorials/p5js/animation/images/bouncing-line-3.png
 tags: [example, p5.js, javascript, animation, random, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
@@ -97,12 +97,12 @@ function draw() {
 
 This sketch draws a line between two points that bounce around, creating a colorful gradient. I created this for the 17th day of [Genuary](https://genuary2021.github.io/prompts#jan17) which had a prompt of "Draw a line, pick a new color, move a bit."
 
-![bouncing line](/examples/p5js/animation/images/bouncing-line-1.png)
-![bouncing line](/examples/p5js/animation/images/bouncing-line-2.png)
-![bouncing curve](/examples/p5js/animation/images/bouncing-line-5.png)
-![bouncing curve](/examples/p5js/animation/images/bouncing-line-6.png)
-![bouncing line](/examples/p5js/animation/images/bouncing-line-7.png)
-![bouncing line](/examples/p5js/animation/images/bouncing-line-8.png)
+![bouncing line](/tutorials/p5js/animation/images/bouncing-line-1.png)
+![bouncing line](/tutorials/p5js/animation/images/bouncing-line-2.png)
+![bouncing curve](/tutorials/p5js/animation/images/bouncing-line-5.png)
+![bouncing curve](/tutorials/p5js/animation/images/bouncing-line-6.png)
+![bouncing line](/tutorials/p5js/animation/images/bouncing-line-7.png)
+![bouncing line](/tutorials/p5js/animation/images/bouncing-line-8.png)
 
 # Remix Ideas
 

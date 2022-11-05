@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Image Tiles
-thumbnail: /examples/p5js/images/images/image-tiles-1.png
+thumbnail: /tutorials/p5js/images/images/image-tiles-1.png
 tagline: Rearrange an image into tiles.
 sort-key: 1140
 meta-title: p5.js Example - Image Tiles
 meta-description: Rearrange an image into tiles.
-meta-image: /examples/p5js/images/images/image-tiles-1.png
+meta-image: /tutorials/p5js/images/images/image-tiles-1.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/images
@@ -93,7 +93,7 @@ function draw() {
 
 [Click here to edit this code in the p5 editor.](https://editor.p5js.org/KevinWorkman/sketches/Sdd4N08uZ)
 
-![image tiles](/examples/p5js/images/images/image-tiles-2.png)
+![image tiles](/tutorials/p5js/images/images/image-tiles-2.png)
 
 This is part of [p5 spooky sketches printout](http://tinyurl.com/p5-spooky-sketches) I made for [CC Fest](http://ccfest.rocks/) in 2019. That printout contains a bunch of Halloween-themed examples of drawing and image manipulation. Feel free to use it on your own or in a classroom!
 

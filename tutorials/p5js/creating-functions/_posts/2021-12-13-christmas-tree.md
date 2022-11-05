@@ -1,12 +1,12 @@
 ---
 title: Christmas Tree
 layout: tutorial
-thumbnail: /examples/p5js/creating-functions/images/christmas-tree-1.png
+thumbnail: /tutorials/p5js/creating-functions/images/christmas-tree-1.png
 tagline: Create a function that draws a Christmas tree.
 sort-key: 420
 meta-title: p5.js Example - Christmas Tree
 meta-description: Create a function that draws a Christmas Tree!
-meta-image: /examples/p5js/creating-functions/images/christmas-tree-1.png
+meta-image: /tutorials/p5js/creating-functions/images/christmas-tree-1.png
 tags: [example, p5.js, javascript, creating-functions]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-functions
@@ -92,7 +92,7 @@ function drawOrnament(x1, y1, x2, y2, x3, y3){
 }
 </script>
 
-![christmas trees](/examples/p5js/creating-functions/images/christmas-tree-2.png)
+![christmas trees](/tutorials/p5js/creating-functions/images/christmas-tree-2.png)
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/IwV7W7VimR)
 

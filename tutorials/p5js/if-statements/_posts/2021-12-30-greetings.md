@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Daily Greetings
-thumbnail: /examples/p5js/if-statements/images/greetings-1.png
+thumbnail: /tutorials/p5js/if-statements/images/greetings-1.png
 tagline: Show a different message based on the time of day.
 sort-key: 800
 meta-title: Daily Greetings - p5.js Example
 meta-description: Show a different message based on the time of day.
-meta-image: /examples/p5js/if-statements/images/greetings-1.png
+meta-image: /tutorials/p5js/if-statements/images/greetings-1.png
 tags: [example, p5.js, javascript, if-statements]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/if-statements
@@ -85,10 +85,10 @@ function drawTimeMessage(message, emoji) {
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/P7xk0ucIp)
 
-![good morning](/examples/p5js/if-statements/images/greetings-2.png)
-![good afternoon](/examples/p5js/if-statements/images/greetings-3.png)
-![good evening](/examples/p5js/if-statements/images/greetings-4.png)
-![go to bed](/examples/p5js/if-statements/images/greetings-5.png)
+![good morning](/tutorials/p5js/if-statements/images/greetings-2.png)
+![good afternoon](/tutorials/p5js/if-statements/images/greetings-3.png)
+![good evening](/tutorials/p5js/if-statements/images/greetings-4.png)
+![go to bed](/tutorials/p5js/if-statements/images/greetings-5.png)
 
 # Remix Ideas
 

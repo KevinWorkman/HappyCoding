@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Jack-o'-Lantern
-thumbnail: /examples/p5js/calling-functions/images/jack-o-lantern-1.png
+thumbnail: /tutorials/p5js/calling-functions/images/jack-o-lantern-1.png
 tagline: 🎃🎃🎃
 sort-key: 160
 meta-title: p5.js Example - Jack-o'-Lantern
 meta-description: 🎃🎃🎃
-meta-image: /examples/p5js/calling-functions/images/jack-o-lantern-1.png
+meta-image: /tutorials/p5js/calling-functions/images/jack-o-lantern-1.png
 tags: [example, p5.js, javascript, calling-functions, 🎃]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/calling-functions
@@ -70,7 +70,7 @@ function draw() {
 
 This sketch calls the `ellipse()` function to draw a pumpkin, and then calls the `triangle()` and `arc()` functions to draw a face on the pumpkin.
 
-![Jack-o'-lantern](/examples/p5js/calling-functions/images/jack-o-lantern-2.png)
+![Jack-o'-lantern](/tutorials/p5js/calling-functions/images/jack-o-lantern-2.png)
 
 This is part of [p5 spooky sketches printout](http://tinyurl.com/p5-spooky-sketches) I made for [CC Fest](http://ccfest.rocks/) in 2019. That printout contains a bunch of Halloween-themed examples of drawing and image manipulation. Feel free to use it on your own or in a classroom!
 

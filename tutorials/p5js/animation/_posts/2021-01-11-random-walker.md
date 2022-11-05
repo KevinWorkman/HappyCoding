@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Random Walker
-thumbnail: /examples/p5js/animation/images/random-walker-1.png
+thumbnail: /tutorials/p5js/animation/images/random-walker-1.png
 tagline: Show a scribble that randomly moves around.
 sort-key: 540
 meta-title: p5.js Example - Random Walker
 meta-description: Show a scribble that randomly moves around.
-meta-image: /examples/p5js/animation/images/random-walker-2.png
+meta-image: /tutorials/p5js/animation/images/random-walker-2.png
 tags: [example, p5.js, javascript, animation]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
@@ -66,7 +66,7 @@ function step() {
 
 This sketch moves a point around the screen randomly, creating a colorful scribble effect.
 
-![random walker](/examples/p5js/animation/images/random-walker-1.png)
+![random walker](/tutorials/p5js/animation/images/random-walker-1.png)
 
 # Remix Ideas
 

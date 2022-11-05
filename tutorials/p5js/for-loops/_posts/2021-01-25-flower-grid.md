@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Flower Grid
-thumbnail: /examples/p5js/for-loops/images/flower-grid-1.png
+thumbnail: /tutorials/p5js/for-loops/images/flower-grid-1.png
 tagline: Draw a grid of random flowers.
 sort-key: 740
 meta-title: p5.js Example - Flower Grid
 meta-description: Draw a grid of random flowers.
-meta-image: /examples/p5js/for-loops/images/flower-grid-1.png
+meta-image: /tutorials/p5js/for-loops/images/flower-grid-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
@@ -65,7 +65,7 @@ This sketch uses a nested `for` loop to draw a grid of random flowers.
 
 I created this for the 25th day of [Genuary](https://genuary2021.github.io/) which had a prompt of "Make a grid of permutations of something."
 
-![flower grid](/examples/p5js/for-loops/images/flower-grid-2.png)
+![flower grid](/tutorials/p5js/for-loops/images/flower-grid-2.png)
 
 # Remix Ideas
 

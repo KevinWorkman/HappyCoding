@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Curved Grid
-thumbnail: /examples/p5js/using-variables/images/curved-grid-1.png
+thumbnail: /tutorials/p5js/using-variables/images/curved-grid-1.png
 tagline: Draw a retro-futuristic curved grid.
 sort-key: 200
 meta-title: p5.js Example - Curved Grid
 meta-description: Use the width and height variables to draw a retro-futuristic curved grid.
-meta-image: /examples/p5js/using-variables/images/curved-grid-2.png
+meta-image: /tutorials/p5js/using-variables/images/curved-grid-2.png
 tags: [example, p5.js, javascript, using-variables]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/using-variables
@@ -60,9 +60,9 @@ function draw() {
 
 This sketch uses the `width` and `height` variables to draw a retro-futuristic curved grid.
 
-![curved grid](/examples/p5js/using-variables/images/curved-grid-3.png)
-![red curved grid](/examples/p5js/using-variables/images/curved-grid-4.png)
-![rainbow curved grid](/examples/p5js/using-variables/images/curved-grid-5.png)
+![curved grid](/tutorials/p5js/using-variables/images/curved-grid-3.png)
+![red curved grid](/tutorials/p5js/using-variables/images/curved-grid-4.png)
+![rainbow curved grid](/tutorials/p5js/using-variables/images/curved-grid-5.png)
 
 # Remix Ideas
 

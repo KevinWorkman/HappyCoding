@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Pi Visualization
-thumbnail: /examples/p5js/arrays/images/pi-visualization-1.png
+thumbnail: /tutorials/p5js/arrays/images/pi-visualization-1.png
 tagline: Visualize the first million digits of pi.
 sort-key: 840
 meta-title: Pi Visualization - p5.js Example
 meta-description: Visualize the first million digits of pi.
-meta-image: /examples/p5js/arrays/images/pi-visualization-1.png
+meta-image: /tutorials/p5js/arrays/images/pi-visualization-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/arrays
@@ -98,18 +98,18 @@ function draw() {
 
 [Edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/1ir7YjLm9)
 
-![pi](/examples/p5js/arrays/images/pi-visualization-3.png)
+![pi](/tutorials/p5js/arrays/images/pi-visualization-3.png)
 
 If this looks like randomness, that's because it is! The digits in pi are random, or at least mostly random. Don't ask me, I just think it looks neat.
 
 Zoomed in:
 
-![pi](/examples/p5js/arrays/images/pi-visualization-5.png)
+![pi](/tutorials/p5js/arrays/images/pi-visualization-5.png)
 
 Other colors:
 
-![pi](/examples/p5js/arrays/images/pi-visualization-4.png)
-![pi](/examples/p5js/arrays/images/pi-visualization-6.png)
+![pi](/tutorials/p5js/arrays/images/pi-visualization-4.png)
+![pi](/tutorials/p5js/arrays/images/pi-visualization-6.png)
 
 # Remix Ideas
 

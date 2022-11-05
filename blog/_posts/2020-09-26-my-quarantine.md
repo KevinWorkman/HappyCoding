@@ -469,19 +469,19 @@ Like I mentioned a year ago, I tend to react to stress by taking more on. So in 
 
 So during this time I do a lot of things I had been putting off: I start a [YouTube channel](https://youtube.com/TheKevinWorkman), I [visualize Sonic the Hedgehog](https://twitter.com/TheKevinWorkman/status/1366079476333862914), I participate in [#genuary](http://localhost:4000/tags/?tag=genuary), I sign up for online dating, and I put out [34 coding examples](https://twitter.com/TheKevinWorkman/status/1356125457565896705) in January alone. By themselves these should be fun things, but I recognize it as a sorta manic coping mechanism. But at least some of the projects look cool.
 
-[![bonsai tree](/examples/p5js/creating-classes/images/bonsai-tree-7.gif)](/examples/p5js/creating-classes/bonsai-tree)
+[![bonsai tree](/tutorials/p5js/creating-classes/images/bonsai-tree-7.gif)](/examples/p5js/creating-classes/bonsai-tree)
 
 *January 18, [bonsai tree](/examples/p5js/creating-classes/bonsai-tree)*
 
-[![flower](/examples/p5js/images/images/genuary-19-2.png)](/examples/p5js/images/genuary-19)
+[![flower](/tutorials/p5js/images/images/genuary-19-2.png)](/examples/p5js/images/genuary-19)
 
 *January 19, [increase the randomness along the Y axis](/examples/p5js/images/genuary-19)*
 
-[![color palette](/examples/p5js/images/images/image-palette-4.gif)](/examples/p5js/images/image-palette)
+[![color palette](/tutorials/p5js/images/images/image-palette-4.gif)](/examples/p5js/images/image-palette)
 
 *January 23, [color palette](/examples/p5js/images/image-palette)*
 
-[![campfire](/examples/p5js/creating-classes/images/campfire-2.gif)](/examples/p5js/creating-classes/campfire)
+[![campfire](/tutorials/p5js/creating-classes/images/campfire-2.gif)](/examples/p5js/creating-classes/campfire)
 
 *January 31, [campfire](/examples/p5js/creating-classes/campfire)*
 

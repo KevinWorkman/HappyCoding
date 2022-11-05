@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Spooky Text
-thumbnail: /examples/p5js/for-loops/images/spooky-text-1.png
+thumbnail: /tutorials/p5js/for-loops/images/spooky-text-1.png
 tagline: Use `sin()` to make spooky text.
 sort-key: 750
 meta-title: p5.js Example - Sp00ky Text
 meta-description: Use sin() to make spooky text.
-meta-image: /examples/p5js/for-loops/images/spooky-text-1.png
+meta-image: /tutorials/p5js/for-loops/images/spooky-text-1.png
 tags: [example, p5.js, javascript, for-loops, 🎃]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
@@ -73,7 +73,7 @@ function mouseClicked(){
 
 [Click here to edit this code in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/wMHZ2LX16)
 
-![spooky text](/examples/p5js/for-loops/images/spooky-text-2.gif)
+![spooky text](/tutorials/p5js/for-loops/images/spooky-text-2.gif)
 
 # Remix Ideas
 

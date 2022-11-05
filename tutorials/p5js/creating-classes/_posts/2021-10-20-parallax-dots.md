@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Parallax Dots
-thumbnail: /examples/p5js/creating-classes/images/parallax-dots-2.png
+thumbnail: /tutorials/p5js/creating-classes/images/parallax-dots-2.png
 tagline: Show three layers of dots.
 sort-key: 1090
 meta-title: p5.js Example - Parallax Dots
 meta-description: Show three layers of dots.
-meta-image: /examples/p5js/creating-classes/images/parallax-dots-2.png
+meta-image: /tutorials/p5js/creating-classes/images/parallax-dots-2.png
 tags: [example, p5.js, javascript, creating-classes]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
@@ -89,10 +89,10 @@ class Dot {
 
 [Click here to view this code in the p5 editor.](https://editor.p5js.org/KevinWorkman/sketches/N4R8UHHGY)
 
-![campfire](/examples/p5js/creating-classes/images/parallax-dots-1.gif)
-![campfire](/examples/p5js/creating-classes/images/parallax-dots-3.png)
-![campfire](/examples/p5js/creating-classes/images/parallax-dots-4.png)
-![campfire](/examples/p5js/creating-classes/images/parallax-dots-5.png)
+![campfire](/tutorials/p5js/creating-classes/images/parallax-dots-1.gif)
+![campfire](/tutorials/p5js/creating-classes/images/parallax-dots-3.png)
+![campfire](/tutorials/p5js/creating-classes/images/parallax-dots-4.png)
+![campfire](/tutorials/p5js/creating-classes/images/parallax-dots-5.png)
 
 # Remix Ideas
 

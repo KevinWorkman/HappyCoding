@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Image Filter
-thumbnail: /examples/p5js/images/images/image-filter-1.png
+thumbnail: /tutorials/p5js/images/images/image-filter-1.png
 tagline: Make your own image filter.
 sort-key: 1120
 meta-title: p5.js Example - Image Filter
 meta-description: Make your own image filter.
-meta-image: /examples/p5js/images/images/image-filter-11.png
+meta-image: /tutorials/p5js/images/images/image-filter-11.png
 tags: [example, p5.js, javascript, images, 🎃]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/images
@@ -84,7 +84,7 @@ function getFilterColor(r, g, b) {
 
 [Click here to edit this code in the p5 editor.](https://editor.p5js.org/KevinWorkman/sketches/9rh8yRToQ)
 
-![filtered image](/examples/p5js/images/images/image-filter-2.png)
+![filtered image](/tutorials/p5js/images/images/image-filter-2.png)
 
 This is part of [p5 spooky sketches printout](http://tinyurl.com/p5-spooky-sketches) I made for [CC Fest](http://ccfest.rocks/) in 2019. That printout contains a bunch of Halloween-themed examples of drawing and image manipulation. Feel free to use it on your own or in a classroom!
 
