@@ -37,7 +37,7 @@ The other one was Elon Musk buying Twitter. This has been coming for a while, an
 
 ## What's in a URL?
 
-One or the main issues I'm trying to fix is that right now, the examples section [feels](/blog/subjective-side-of-code) very separate from the tutorials section. If you're learning about calling functions on `HappyCoding.io/tutorials/p5js/calling-functions`, it's not obvious that you can jump over to `HappyCoding.io/examples/p5js/#calling-functions` to see a bunch of projects you can tweak and remix to practice calling functions.
+One or the main issues I'm trying to fix is that right now, the examples section [feels](/blog/subjective-side-of-code) very separate from the tutorials section. If you're learning about calling functions on `HappyCoding.io/tutorials/p5js/calling-functions`, it's not obvious that you can jump over to `HappyCoding.io/tutorials/p5js/#calling-functions` to see a bunch of projects you can tweak and remix to practice calling functions.
 
 Should I move all of the examples? Maybe to sub-pages of the tutorials? Maybe `HappyCoding.io/tutorials/p5js/calling-funtions` would be the tutorial, and then `HappyCoding.io/tutorials/p5js/calling-functions/rainbow` would be an example that draws a rainbow?
 

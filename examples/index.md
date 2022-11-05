@@ -18,7 +18,7 @@ meta-image: /images/random-walkers-1.png
 
 # Web Development
 
-{% include url-thumbnail.html url="/examples/p5js/" %}
+{% include url-thumbnail.html url="/tutorials/p5js/" %}
 {% include url-thumbnail.html url="/examples/html/" %}
 {% include url-thumbnail.html url="/examples/javascript/" %}
 

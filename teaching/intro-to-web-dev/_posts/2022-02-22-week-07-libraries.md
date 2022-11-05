@@ -72,7 +72,7 @@ To practice these concepts, modify the files in the `week-07-p5js` directory of 
 
 If you want some inspiration, check out these p5.js examples:
 
-{% include url-thumbnail.html url="/examples/p5js/" %}
+{% include url-thumbnail.html url="/tutorials/p5js/" %}
 
 ---
 

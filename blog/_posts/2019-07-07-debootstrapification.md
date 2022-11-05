@@ -11,7 +11,7 @@ tags: [site-update]
 
 [Bootstrap](/tutorials/javascript/bootstrap) is a JavaScript / CSS library that makes it easier to create a nice-looking website, even if you don't have a ton of experience with web design. It relies on [JQuery](/tutorials/javascript/jquery), which is by far the world's most popular JavaScript library. This site was built using Bootstrap. Bootstrap is great.
 
-So why did I spend this [long weekend](https://happycoding.io/examples/p5js/fireworks) getting rid of Bootstrap?
+So why did I spend this [long weekend](https://happycoding.io/tutorials/p5js/fireworks) getting rid of Bootstrap?
 
 # Keeping it Simple
 
