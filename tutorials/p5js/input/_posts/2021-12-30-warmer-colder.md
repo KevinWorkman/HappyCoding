@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/input/images/warmer-colder-1.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/input
-redirect_from: /tutorials/p5js/input/warmer-colder
-discourseEmbedUrl: /tutorials/p5js/images/warmer-colder
+redirect_from: /examples/p5js/input/warmer-colder
+discourseEmbedUrl: /examples/p5js/images/warmer-colder
 ---
 
 This sketch hides a circle, and tells you whether your mouse is getting warmer (closer) or colder (further away).

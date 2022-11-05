@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/for-loops/images/code-rocket-1.png
 tags: [example, p5.js, javascript, for-loops]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/for-loops
-redirect_from: /tutorials/p5js/for-loops/code-rocket
-discourseEmbedUrl: /tutorials/p5js/for-loops/code-rocket
+redirect_from: /examples/p5js/for-loops/code-rocket
+discourseEmbedUrl: /examples/p5js/for-loops/code-rocket
 ---
 
 Inspired by this tweet:

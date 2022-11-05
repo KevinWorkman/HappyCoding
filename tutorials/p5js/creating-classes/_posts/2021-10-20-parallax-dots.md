@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/creating-classes/images/parallax-dots-2.png
 tags: [example, p5.js, javascript, creating-classes]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
-redirect_from: /tutorials/p5js/creating-classes/parallax-dots
-discourseEmbedUrl: /tutorials/p5js/creating-classes/parallax-dots
+redirect_from: /examples/p5js/creating-classes/parallax-dots
+discourseEmbedUrl: /examples/p5js/creating-classes/parallax-dots
 ---
 
 {% include youtube-embed.html slug="Jw0uZD-_HZY" %}

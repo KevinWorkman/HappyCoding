@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/arrays/images/falling-points-3.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
-redirect_from: /tutorials/p5js/arrays/falling-points
-discourseEmbedUrl: /tutorials/p5js/arrays/falling-points
+redirect_from: /examples/p5js/arrays/falling-points
+discourseEmbedUrl: /examples/p5js/arrays/falling-points
 ---
 
 {% include p5js-widget.html width=300 height=300 %}

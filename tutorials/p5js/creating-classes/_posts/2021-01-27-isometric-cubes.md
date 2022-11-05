@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/creating-classes/images/recursive-lines-1.png
 tags: [example, p5.js, javascript, creating-classes, trigonometry, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
-redirect_from: /tutorials/p5js/creating-classes/isometric-cubes
-discourseEmbedUrl: /tutorials/p5js/creating-classes/isometric-cubes
+redirect_from: /examples/p5js/creating-classes/isometric-cubes
+discourseEmbedUrl: /examples/p5js/creating-classes/isometric-cubes
 ---
 
 {% include youtube-embed.html slug="oqgrKWAo24M" %}

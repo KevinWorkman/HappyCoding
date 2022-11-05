@@ -9,8 +9,8 @@ meta-description: Create an ant colony simulation.
 meta-image: /tutorials/p5js/creating-classes/images/ant-colony-1.png
 tags: [example, p5.js, javascript, creating-classes, genuary]
 previousPost: /tutorials/p5js/creating-classes
-redirect_from: /tutorials/p5js/creating-classes/ant-colony
-discourseEmbedUrl: /tutorials/p5js/creating-classes/ant-colony
+redirect_from: /examples/p5js/creating-classes/ant-colony
+discourseEmbedUrl: /examples/p5js/creating-classes/ant-colony
 ---
 
 

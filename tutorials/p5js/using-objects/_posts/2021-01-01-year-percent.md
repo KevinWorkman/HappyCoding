@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/using-objects/images/year-percent-1.png
 tags: [example, p5.js, javascript, oop]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/using-objects
-redirect_from: /tutorials/p5js/using-objects/year-percent
-discourseEmbedUrl: /tutorials/p5js/using-objects/year-percent
+redirect_from: /examples/p5js/using-objects/year-percent
+discourseEmbedUrl: /examples/p5js/using-objects/year-percent
 ---
 
 This sketch shows what percent we are through the year.

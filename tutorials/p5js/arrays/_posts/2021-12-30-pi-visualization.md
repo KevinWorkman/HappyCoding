@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/arrays/images/pi-visualization-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: false
 previousPost: /tutorials/p5js/arrays
-redirect_from: /tutorials/p5js/arrays/pi-visualization
-discourseEmbedUrl: /tutorials/p5js/arrays/pi-visualization
+redirect_from: /examples/p5js/arrays/pi-visualization
+discourseEmbedUrl: /examples/p5js/arrays/pi-visualization
 ---
 
 <style>

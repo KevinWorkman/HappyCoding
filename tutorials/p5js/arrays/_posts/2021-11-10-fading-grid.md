@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/arrays/images/fading-grid-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
-redirect_from: /tutorials/p5js/arrays/fading-grid
-discourseEmbedUrl: /tutorials/p5js/arrays/fading-grid
+redirect_from: /examples/p5js/arrays/fading-grid
+discourseEmbedUrl: /examples/p5js/arrays/fading-grid
 ---
 
 This sketch uses a 2D array to hold values, and decreases changes those values to show a fading grid of cells.

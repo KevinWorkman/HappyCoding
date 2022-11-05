@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/input/images/grouchy-face-1.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/input
-redirect_from: /tutorials/p5js/input/grouchy-face
-discourseEmbedUrl: /tutorials/p5js/images/grouchy-face
+redirect_from: /examples/p5js/input/grouchy-face
+discourseEmbedUrl: /examples/p5js/images/grouchy-face
 ---
 
 {% include p5js-widget.html width=300 height=300 %}

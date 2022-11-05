@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/creating-classes/images/recursive-lines-1.png
 tags: [example, p5.js, javascript, creating-classes, trigonometry, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
-redirect_from: /tutorials/p5js/creating-classes/recursive-lines
-discourseEmbedUrl: /tutorials/p5js/creating-classes/recursive-lines
+redirect_from: /examples/p5js/creating-classes/recursive-lines
+discourseEmbedUrl: /examples/p5js/creating-classes/recursive-lines
 ---
 
 {% include p5js-widget.html width=400 height=400 %}

@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/input/images/clickable-text-3.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/input
-redirect_from: /tutorials/p5js/input/clickable-text
-discourseEmbedUrl: /tutorials/p5js/images/clickable-text
+redirect_from: /examples/p5js/input/clickable-text
+discourseEmbedUrl: /examples/p5js/images/clickable-text
 ---
 
 {% include p5js-widget.html width=300 height=300 %}

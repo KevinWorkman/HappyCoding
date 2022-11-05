@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/arrays/images/oscillating-lines-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
-redirect_from: /tutorials/p5js/arrays/oscillating-lines
-discourseEmbedUrl: /tutorials/p5js/arrays/oscillating-lines
+redirect_from: /examples/p5js/arrays/oscillating-lines
+discourseEmbedUrl: /examples/p5js/arrays/oscillating-lines
 ---
 
 This sketch uses an array to hold line height values, and then changes those values to show oscillating lines.

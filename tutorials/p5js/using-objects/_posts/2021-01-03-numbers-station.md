@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/using-objects/images/numbers-station-1.png
 tags: [example, p5.js, javascript, oop]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/using-objects
-redirect_from: /tutorials/p5js/using-objects/numbers-station
-discourseEmbedUrl: /tutorials/p5js/using-objects/numbers-station
+redirect_from: /examples/p5js/using-objects/numbers-station
+discourseEmbedUrl: /examples/p5js/using-objects/numbers-station
 ---
 
 This sketch uses the [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) class to say random words and numbers, just like a real-life [numbers station](https://en.wikipedia.org/wiki/Numbers_station).

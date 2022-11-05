@@ -9,8 +9,8 @@ meta-description: Use P5.js to put on a fieworks show!
 meta-image: /tutorials/p5js/creating-classes/images/fireworks-1.png
 tags: [example, p5.js, javascript, es6]
 previousPost: /tutorials/p5js/creating-classes
-redirect_from: /tutorials/p5js/creating-classes/fireworks
-discourseEmbedUrl: /tutorials/p5js/creating-classes/fireworks
+redirect_from: /examples/p5js/creating-classes/fireworks
+discourseEmbedUrl: /examples/p5js/creating-classes/fireworks
 ---
 
 <div id="sketch-holder"></div>

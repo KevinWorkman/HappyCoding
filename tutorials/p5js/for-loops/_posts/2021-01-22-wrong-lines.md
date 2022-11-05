@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/for-loops/images/wrong-lines-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
-redirect_from: /tutorials/p5js/for-loops/wrong-lines
-discourseEmbedUrl: /tutorials/p5js/for-loops/wrong-lines
+redirect_from: /examples/p5js/for-loops/wrong-lines
+discourseEmbedUrl: /examples/p5js/for-loops/wrong-lines
 ---
 
 {% include youtube-embed.html slug="lNKFhaOQJys" %}

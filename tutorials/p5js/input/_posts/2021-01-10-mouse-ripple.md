@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/input/images/mouse-ripple-2.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/input
-redirect_from: /tutorials/p5js/input/mouse-ripple
-discourseEmbedUrl: /tutorials/p5js/images/mouse-ripple
+redirect_from: /examples/p5js/input/mouse-ripple
+discourseEmbedUrl: /examples/p5js/images/mouse-ripple
 ---
 
 {% include p5js-widget.html width=300 height=300 %}

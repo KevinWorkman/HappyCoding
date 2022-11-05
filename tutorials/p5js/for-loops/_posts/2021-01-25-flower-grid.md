@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/for-loops/images/flower-grid-1.png
 tags: [example, p5.js, javascript, for-loops, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
-redirect_from: /tutorials/p5js/for-loops/flower-grid
-discourseEmbedUrl: /tutorials/p5js/for-loops/flower-grid
+redirect_from: /examples/p5js/for-loops/flower-grid
+discourseEmbedUrl: /examples/p5js/for-loops/flower-grid
 ---
 
 {% include youtube-embed.html slug="Bpi_O-VhuCw" %}

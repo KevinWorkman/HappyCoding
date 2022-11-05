@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/creating-classes/images/popping-circles-1.png
 tags: [example, p5.js, javascript, creating-classes, input, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
-redirect_from: /tutorials/p5js/creating-classes/popping-circles
-discourseEmbedUrl: /tutorials/p5js/creating-classes/popping-circles
+redirect_from: /examples/p5js/creating-classes/popping-circles
+discourseEmbedUrl: /examples/p5js/creating-classes/popping-circles
 ---
 
 {% include youtube-embed.html slug="AU5WdQOCPkI" %}

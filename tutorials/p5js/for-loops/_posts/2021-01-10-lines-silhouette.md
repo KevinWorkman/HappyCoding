@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/for-loops/images/lines-silhouette-2.png
 tags: [example, p5.js, javascript, for-loops]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
-redirect_from: /tutorials/p5js/for-loops/lines-silhouette
-discourseEmbedUrl: /tutorials/p5js/for-loops/lines-silhouette
+redirect_from: /examples/p5js/for-loops/lines-silhouette
+discourseEmbedUrl: /examples/p5js/for-loops/lines-silhouette
 ---
 
 {% include p5js-widget.html width=300 height=300 %}

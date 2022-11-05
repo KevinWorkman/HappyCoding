@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/creating-classes/images/bonsai-tree-1.png
 tags: [example, p5.js, javascript, creating-classes, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
-redirect_from: /tutorials/p5js/creating-classes/bonsai-tree
-discourseEmbedUrl: /tutorials/p5js/creating-classes/bonsai-tree
+redirect_from: /examples/p5js/creating-classes/bonsai-tree
+discourseEmbedUrl: /examples/p5js/creating-classes/bonsai-tree
 ---
 
 [Click here to view this code in the p5 editor](https://editor.p5js.org/KevinWorkman/sketches/aBlpyozDs), and [click here to view the result by itself](https://editor.p5js.org/KevinWorkman/present/aBlpyozDs).
