@@ -9,7 +9,9 @@ meta-description: Make your computer mad when you click the mouse.
 meta-image: /examples/p5js/input/images/grouchy-face-1.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/input
+redirect_from: /tutorials/p5js/input/grouchy-face
+discourseEmbedUrl: /tutorials/p5js/images/grouchy-face
 ---
 
 {% include p5js-widget.html width=300 height=300 %}

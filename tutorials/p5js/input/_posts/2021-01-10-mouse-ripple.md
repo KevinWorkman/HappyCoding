@@ -9,7 +9,9 @@ meta-description: Show a ripple when you click the mouse.
 meta-image: /examples/p5js/input/images/mouse-ripple-2.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/input
+redirect_from: /tutorials/p5js/input/mouse-ripple
+discourseEmbedUrl: /tutorials/p5js/images/mouse-ripple
 ---
 
 {% include p5js-widget.html width=300 height=300 %}
@@ -24,7 +26,7 @@ function setup() {
   circleX = width / 2;
   circleY = height / 2;
   circleSize = 0;
-  
+
 }
 
 function draw() {
@@ -54,4 +56,3 @@ This sketch shows a ripple effect when you click the mouse.
 - Give each new circle a random color.
 - Make the ripple look more like a drop of water falling into a lake.
 - Add support for multiple ripples at the same time.
-

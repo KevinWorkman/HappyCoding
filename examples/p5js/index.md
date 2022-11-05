@@ -75,10 +75,10 @@ sort-key: 400
 
 # Input
 
-{% include url-thumbnail.html url="/examples/p5js/input/clickable-text" %}
-{% include url-thumbnail.html url="/examples/p5js/input/mouse-ripple" %}
-{% include url-thumbnail.html url="/examples/p5js/input/grouchy-face" %}
-{% include url-thumbnail.html url="/examples/p5js/input/warmer-colder" %}
+{% include url-thumbnail.html url="/tutorials/p5js/input/clickable-text" %}
+{% include url-thumbnail.html url="/tutorials/p5js/input/mouse-ripple" %}
+{% include url-thumbnail.html url="/tutorials/p5js/input/grouchy-face" %}
+{% include url-thumbnail.html url="/tutorials/p5js/input/warmer-colder" %}
 
 ---
 

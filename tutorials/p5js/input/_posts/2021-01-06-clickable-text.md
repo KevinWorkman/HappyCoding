@@ -9,7 +9,9 @@ meta-description: Create text that opens a link when you click it.
 meta-image: /examples/p5js/input/images/clickable-text-3.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/input
+redirect_from: /tutorials/p5js/input/clickable-text
+discourseEmbedUrl: /tutorials/p5js/images/clickable-text
 ---
 
 {% include p5js-widget.html width=300 height=300 %}
@@ -63,4 +65,3 @@ This sketch creates text that opens a link when you click it. The `textWidth()`,
 - Show the bounding box around the text.
 - Try different fonts and styles.
 - Add a link to your portfolio page in your sketches.
-
