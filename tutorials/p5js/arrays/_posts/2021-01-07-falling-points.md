@@ -9,7 +9,9 @@ meta-description: Use arrays to show falling points that look like snow.
 meta-image: /examples/p5js/arrays/images/falling-points-3.png
 tags: [example, p5.js, javascript, input]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/arrays
+redirect_from: /tutorials/p5js/arrays/falling-points
+discourseEmbedUrl: /tutorials/p5js/arrays/falling-points
 ---
 
 {% include p5js-widget.html width=300 height=300 %}
@@ -20,19 +22,19 @@ function setup() {
   for(let x = 0; x < width; x++) {
     drops[x] = random(height);
   }
-  
+
   stroke(255);
 }
 
 function draw() {
   background(32);
-  
+
   for(let x = 0; x < drops.length; x++) {
     drops[x] += random(5);
     if(drops[x] > height){
       drops[x] = 0;
     }
-    
+
     point(x, drops[x]);
   }
 }
@@ -47,4 +49,3 @@ This sketch uses an array that holds a Y value for every X value across the widt
 - Make all the points move at the same speed.
 - Make all the points move horizontally as well as vertically.
 - Make a more realistic simulation of rain or snow.
-

@@ -9,7 +9,9 @@ meta-description: Visualize the first million digits of pi.
 meta-image: /examples/p5js/arrays/images/pi-visualization-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: false
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/arrays
+redirect_from: /tutorials/p5js/arrays/pi-visualization
+discourseEmbedUrl: /tutorials/p5js/arrays/pi-visualization
 ---
 
 <style>
@@ -114,4 +116,3 @@ Other colors:
 - Visualize a different number, like Euler's number or the golden ratio
 - Instead of taking a single digit at a time, what would it look like to take 2 or 3 digits at a time?
 - What would it look like to play connect-the-dots with all of the threes?
-
