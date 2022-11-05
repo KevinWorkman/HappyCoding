@@ -18,7 +18,7 @@ We even have our [first question on the forum](http://forum.happycoding.io/t/pro
 
 Writing the examples was really fun, and it brought me back to exactly what I love about programming: creating bite-sized programs that invite experimentation. That feeling of "what would happen if I changed this variable..." is exactly how programming should feel, and it's the whole point of starting this site.
 
-![random walker art](/examples/processing/animation/images/random-walker-3.png)
+![random walker art](/tutorials/processing/animation/images/random-walker-3.png)
 
 (If you like this art, see [the random walker example](/examples/processing/animation/random-walker) to find out how to create it!)
 

@@ -566,11 +566,11 @@ This program stores a point in `x` and `y` variables, as well as a shade of gray
 
 It does this 60 times per second, which results in "scribbling" randomly on the screen. It's not too exciting to watch, but if you leave it alone for a while it results in cool looking scenes like this:
 
-![black and white scribbles](/examples/processing/animation/images/random-walker-4.png)
+![black and white scribbles](/tutorials/processing/animation/images/random-walker-4.png)
 
 Try writing code that adds color!
 
-![colorful scribbles](/examples/processing/animation/images/random-walker-3.png)
+![colorful scribbles](/tutorials/processing/animation/images/random-walker-3.png)
 
 {% include codepen.html slug-hash="xgzqxR" height="275" %}
 

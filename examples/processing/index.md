@@ -55,9 +55,9 @@ sort-key: 100
 
 # Animation
 
-{% include url-thumbnail.html url="/examples/processing/animation/random-walker" %}
-{% include url-thumbnail.html url="/examples/processing/animation/worms" %}
-{% include url-thumbnail.html url="/examples/processing/animation/vine" %}
+{% include url-thumbnail.html url="/tutorials/processing/animation/random-walker" %}
+{% include url-thumbnail.html url="/tutorials/processing/animation/worms" %}
+{% include url-thumbnail.html url="/tutorials/processing/animation/vine" %}
 
 ---
 

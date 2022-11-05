@@ -10,6 +10,7 @@ meta-image: /tutorials/processing/images/animation-8.png
 tags: [tutorial, processing, animation]
 previousPost: /tutorials/processing/if-statements
 nextPost: /tutorials/processing/input
+redirect_from: /examples/processing/animation
 ---
 
 {% include toc.md %}
@@ -69,7 +70,7 @@ At the end of this code, `circleY` now holds the value `100`.
 
 Notice that you don't give the variable a type when you reassign it, because it already has a type.
 
-Creating a variable (giving it a type and a name) is called **declaring** a variable. The first time you point it to a value using the `=` operator (which is often in the same line as declaring it) is called **initializing** a variable. If you then change the value of the variable, that's called **reassigning** the variable. 
+Creating a variable (giving it a type and a name) is called **declaring** a variable. The first time you point it to a value using the `=` operator (which is often in the same line as declaring it) is called **initializing** a variable. If you then change the value of the variable, that's called **reassigning** the variable.
 
 ```java
 // declaration
@@ -179,7 +180,7 @@ Similarly, what if you declared the `circleY` variable inside the `setup` functi
 ```java
 void setup() {
   size(200, 200);
-  
+
   // state
   float circleY = 0;
 }
@@ -232,7 +233,7 @@ Finally, the `draw` function uses the `circleY` variable to draw the scene, and 
 
 Now you have an animation, but the circle falls off the bottom window and never comes back. Chances are that's not what you want.
 
-To fix this, you can use an `if` statement to check whether the circle has fallen off the bottom of the window. You know the circle is below the bottom of the window when `circleY` is greater than `height`. When this happens, you can reassign `circleY` to move the circle back to the top of the window. 
+To fix this, you can use an `if` statement to check whether the circle has fallen off the bottom of the window. You know the circle is below the bottom of the window when `circleY` is greater than `height`. When this happens, you can reassign `circleY` to move the circle back to the top of the window.
 
 ```java
 // state
