@@ -7,7 +7,7 @@ tagline: Randomly colored random walkers.
 sort-key: 920
 meta-title: Random Walkers
 meta-description: This example detects user input to create scribble art!
-meta-image: /examples/processing/arraylists/images/random-walkers-3.png
+meta-image: /tutorials/processing/arraylists/images/random-walkers-3.png
 tags: [example, processing, generative-art, random-walker, emergence]
 ---
 

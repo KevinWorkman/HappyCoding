@@ -6,7 +6,7 @@ tagline:  Take arrays to the next level.
 sort-key: 1300
 meta-title: Array Functions in p5.js
 meta-description: Take arrays to the next level.
-meta-image: /examples/processing/arraylists/images/random-walkers-3.png
+meta-image: /tutorials/processing/arraylists/images/random-walkers-3.png
 tags: [tutorial, p5.js, javascript, arrays]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes

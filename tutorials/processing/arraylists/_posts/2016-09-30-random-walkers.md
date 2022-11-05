@@ -2,13 +2,16 @@
 layout: tutorial
 title: Random Walkers
 slug: random-walkers
-thumbnail: /examples/processing/arraylists/images/random-walkers-1.gif
+thumbnail: /tutorials/processing/arraylists/images/random-walkers-1.gif
 tagline: Randomly colored random walkers.
 sort-key: 1220
 meta-title: Random Walkers
 meta-description: This example uses random walkers to create scribble art!
-meta-image: /examples/processing/arraylists/images/random-walkers-3.png
+meta-image: /tutorials/processing/arraylists/images/random-walkers-3.png
 tags: [example, processing, animation, arraylist, random-walker, generative-art, emergence]
+previousPost: /tutorials/processing/arraylists
+redirect_from: /examples/processing/arraylists/random-walkers
+discourseEmbedUrl: /examples/processing/arraylists/random-walkers
 ---
 
 This example takes [the previous Random Walker example](/examples/processing/input/random-walker.html) and uses an `ArrayList` instead of an array.
@@ -73,7 +76,7 @@ class RandomWalker {
 ![random walkers](images/random-walkers-2.gif)
 
 {% include codepen.html slug-hash="vXZxYJ" height="275" %}
-    
+
 ## Tweak Ideas
 
 - Make it so the random walkers die when they exit the screen by removing them from the `ArrayList`.

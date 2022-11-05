@@ -105,8 +105,8 @@ sort-key: 100
 
 # ArrayLists
 
-{% include url-thumbnail.html url="/examples/processing/arraylists/flocking" %}
-{% include url-thumbnail.html url="/examples/processing/arraylists/random-walkers" %}
+{% include url-thumbnail.html url="/tutorials/processing/arraylists/flocking" %}
+{% include url-thumbnail.html url="/tutorials/processing/arraylists/random-walkers" %}
 
 ---
 

@@ -6,11 +6,12 @@ tagline: Create an object that stores other objects.
 sort-key: 1300
 meta-title: ArrayLists
 meta-description: Learn how to use ArrayLists in Processing.
-meta-image: /examples/processing/arraylists/images/random-walkers-3.png
+meta-image: /tutorials/processing/arraylists/images/random-walkers-3.png
 tags: [tutorial, processing, arraylist]
 previousPost: /tutorials/processing/creating-classes
 nextPost: /tutorials/processing/images
 updated: 2020-11-14
+redirect_from: /examples/processing/arraylists
 ---
 
 {% include toc.md %}
@@ -268,7 +269,7 @@ void setup() {
 
 void draw() {
   background(50);
- 
+
   // Add a point to the end of the trail at the mouse position
   trail.add(new PVector(mouseX, mouseY));
 
