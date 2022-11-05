@@ -9,7 +9,9 @@ meta-description: How far into the year are we?
 meta-image: /examples/p5js/using-objects/images/year-percent-1.png
 tags: [example, p5.js, javascript, oop]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/using-objects
+redirect_from: /tutorials/p5js/using-objects/year-percent
+discourseEmbedUrl: /tutorials/p5js/using-objects/year-percent
 ---
 
 This sketch shows what percent we are through the year.
@@ -36,7 +38,7 @@ function draw() {
   const formattedPercent = nf(percent, 3, 6) + '%';
 
   background(50);
-  
+
   textSize(24);
   text('We are now', width / 2, height * .25);
 
@@ -54,4 +56,3 @@ The code uses the [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 - Display the year as a loading bar.
 - Show a countdown to an upcoming event.
-

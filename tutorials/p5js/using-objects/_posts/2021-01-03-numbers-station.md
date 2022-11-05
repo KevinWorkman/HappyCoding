@@ -9,7 +9,9 @@ meta-description: Use text-to-speech to create a numbers station.
 meta-image: /examples/p5js/using-objects/images/numbers-station-1.png
 tags: [example, p5.js, javascript, oop]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/using-objects
+redirect_from: /tutorials/p5js/using-objects/numbers-station
+discourseEmbedUrl: /tutorials/p5js/using-objects/numbers-station
 ---
 
 This sketch uses the [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) class to say random words and numbers, just like a real-life [numbers station](https://en.wikipedia.org/wiki/Numbers_station).
@@ -29,12 +31,12 @@ window.speechSynthesis.onvoiceschanged = function() {
 
 // NATO alphabet
 const words = [
-'Alfa', 'Bravo', 'Charlie', 'Delta', 
-'Echo', 'Foxtrot', 'Golf', 'Hotel', 
-'India', 'Juliett', 'Kilo', 'Lima', 
-'Mike', 'November', 'Oscar', 'Papa', 
-'Quebec', 'Romeo', 'Sierra', 'Tango', 
-'Uniform', 'Victor', 'Whiskey', 'X-ray', 
+'Alfa', 'Bravo', 'Charlie', 'Delta',
+'Echo', 'Foxtrot', 'Golf', 'Hotel',
+'India', 'Juliett', 'Kilo', 'Lima',
+'Mike', 'November', 'Oscar', 'Papa',
+'Quebec', 'Romeo', 'Sierra', 'Tango',
+'Uniform', 'Victor', 'Whiskey', 'X-ray',
 'Yankee', 'Zulu'];
 
 // Numbers 0 - 100

@@ -9,7 +9,9 @@ meta-description: Draw snow that accumulates on the ground.
 meta-image: /examples/p5js/using-objects/images/accumulating-snow-1.png
 tags: [example, p5.js, javascript, objects]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/using-objects
+redirect_from: /tutorials/p5js/using-objects/accumulating-snow
+discourseEmbedUrl: /tutorials/p5js/using-objects/accumulating-snow
 ---
 
 {% include youtube-embed.html slug="fQ_kcFRLIto" %}
