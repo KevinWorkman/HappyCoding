@@ -10,8 +10,8 @@ meta-image: /tutorials/p5js/for-loops/images/spooky-text-1.png
 tags: [example, p5.js, javascript, for-loops, 🎃]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/for-loops
-redirect_from: /tutorials/p5js/for-loops/spooky-text
-discourseEmbedUrl: /tutorials/p5js/for-loops/spooky-text
+redirect_from: /examples/p5js/for-loops/spooky-text
+discourseEmbedUrl: /examples/p5js/for-loops/spooky-text
 ---
 
 {% include youtube-embed.html slug="PEO4fhXMQ9s" %}
