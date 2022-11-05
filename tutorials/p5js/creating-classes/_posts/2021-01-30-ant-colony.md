@@ -8,7 +8,9 @@ meta-title: p5.js Example - Ant Colony
 meta-description: Create an ant colony simulation.
 meta-image: /examples/p5js/creating-classes/images/ant-colony-1.png
 tags: [example, p5.js, javascript, creating-classes, genuary]
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-classes
+redirect_from: /tutorials/p5js/creating-classes/ant-colony
+discourseEmbedUrl: /tutorials/p5js/creating-classes/ant-colony
 ---
 
 
@@ -79,7 +81,7 @@ function draw() {
     }
     ant.draw();
   }
-  
+
   if(mouseIsPressed){
     const mouseC = floor(mouseX / cellWidth);
     const mouseR = floor(mouseY / cellHeight);
@@ -122,7 +124,7 @@ class Ant {
         maxNeighborFoodPheromone = cell.foodPheromone;
       }
     }
-    
+
     // release pheromones in the current cell
     const cell = grid[this.c][this.r];
 
@@ -162,7 +164,7 @@ class Ant {
     } else {
       fill(0);
     }
-    
+
     stroke(0);
     ellipse(x, y, cellWidth * .75, cellHeight * .75);
   }
@@ -196,9 +198,9 @@ class Cell {
     if (this.r < rows - 1) {
       neighbors.push(grid[this.c][this.r + 1]);
     }
-    
+
     neighbors = neighbors.filter(cell => !cell.obstacle);
-    
+
     return neighbors;
   }
 
@@ -224,7 +226,7 @@ class Cell {
     stroke(100);
     fill(cellColor);
     rect(this.x, this.y, cellWidth, cellHeight);
-    
+
     // draw the nest
     if(this.c == nestC && this.r == nestR){
       stroke(0);
@@ -242,7 +244,7 @@ class Cell {
                this.x + cellWidth * .75, this.y + cellHeight * .75,
               this.x + cellWidth * .25, this.y + cellHeight * .75);
     }
-    
+
     if(this.obstacle){
       fill(32);
       rect(this.x, this.y, cellWidth, cellHeight);

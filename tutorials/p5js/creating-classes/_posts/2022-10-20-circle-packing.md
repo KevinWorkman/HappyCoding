@@ -9,7 +9,9 @@ meta-description: Fill the screen with circles without overlapping.
 meta-image: /examples/p5js/creating-classes/images/circle-packing-1.png
 tags: [example, p5.js, javascript, creating-classes]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-classes
+redirect_from: /tutorials/p5js/creating-classes/circle-packing
+discourseEmbedUrl: /tutorials/p5js/creating-classes/circle-packing
 ---
 
 Inspired by [Coding Train's circle packing video](https://thecodingtrain.com/challenges/50-animated-circle-packing), this sketch fills the screen with circles without any overlapping.

@@ -9,7 +9,9 @@ meta-description: Draw lines that draw other lines.
 meta-image: /examples/p5js/creating-classes/images/recursive-lines-1.png
 tags: [example, p5.js, javascript, creating-classes, trigonometry, genuary]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-classes
+redirect_from: /tutorials/p5js/creating-classes/recursive-lines
+discourseEmbedUrl: /tutorials/p5js/creating-classes/recursive-lines
 ---
 
 {% include p5js-widget.html width=400 height=400 %}
@@ -49,7 +51,7 @@ class LineDrawer {
     if (this.length < 10) {
       return;
     }
-    
+
     const currentLength = dist(this.startX, this.startY,
                                this.currentX, this.currentY);
 
@@ -99,11 +101,11 @@ This sketch shows lines that draw other lines. Each line draws itself, and 3 oth
 I created this for the 21st day of [Genuary](https://genuary2021.github.io/) which had a prompt of:
 
 ```
-function f(x) { 
-  DRAW(x); 
-  f(1 * x / 4); 
-  f(2 * x / 4); 
-  f(3 * x / 4); 
+function f(x) {
+  DRAW(x);
+  f(1 * x / 4);
+  f(2 * x / 4);
+  f(3 * x / 4);
 }
 ```
 

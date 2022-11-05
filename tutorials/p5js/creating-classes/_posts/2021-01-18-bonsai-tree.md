@@ -9,7 +9,9 @@ meta-description: Use recursion to create a digital bonsai tree.
 meta-image: /examples/p5js/creating-classes/images/bonsai-tree-1.png
 tags: [example, p5.js, javascript, creating-classes, genuary]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-classes
+redirect_from: /tutorials/p5js/creating-classes/bonsai-tree
+discourseEmbedUrl: /tutorials/p5js/creating-classes/bonsai-tree
 ---
 
 [Click here to view this code in the p5 editor](https://editor.p5js.org/KevinWorkman/sketches/aBlpyozDs), and [click here to view the result by itself](https://editor.p5js.org/KevinWorkman/present/aBlpyozDs).
@@ -38,7 +40,7 @@ function draw() {
 
   plant.draw();
   plant.maybeGrow();
-  
+
   stroke(200, 0, 0);
   fill(128, 0, 0);
   quad(plantX - 50, plantY,
@@ -92,7 +94,7 @@ class Node {
     if(child.x < plantBorder || child.x > width - plantBorder){
       return false;
     }
-    
+
     if (child.y < plantBorder || child.y > plantY - 25) {
       return false;
     }
@@ -157,7 +159,7 @@ class Node {
   }
 
   draw() {
-    
+
     // branches
     stroke(139, 69, 19);
     strokeWeight(10);

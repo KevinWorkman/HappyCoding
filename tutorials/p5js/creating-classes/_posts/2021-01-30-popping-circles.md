@@ -9,7 +9,9 @@ meta-description: Fill circles with your mouse that pop if they touch.
 meta-image: /examples/p5js/creating-classes/images/popping-circles-1.png
 tags: [example, p5.js, javascript, creating-classes, input, genuary]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/creating-classes
+redirect_from: /tutorials/p5js/creating-classes/popping-circles
+discourseEmbedUrl: /tutorials/p5js/creating-classes/popping-circles
 ---
 
 {% include youtube-embed.html slug="AU5WdQOCPkI" %}
@@ -38,9 +40,9 @@ function draw() {
     const overlappingCircle = getOverlappingCircle();
     if(overlappingCircle){
       circleFilling = false;
-      circles.splice(circles.indexOf(overlappingCircle), 1); 
+      circles.splice(circles.indexOf(overlappingCircle), 1);
     }
-    
+
     if (isOffScreen()) {
       circleFilling = false;
     }
@@ -62,7 +64,7 @@ function getOverlappingCircle() {
       return c;
     }
   }
-  
+
   return undefined;
 }
 

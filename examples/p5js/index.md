@@ -113,16 +113,16 @@ sort-key: 400
 
 # Creating Classes
 
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/fireworks" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/bonsai-tree" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/loopers" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/recursive-lines" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/popping-circles" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/ant-colony" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/campfire" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/ghosts" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/planets" %}
-{% include url-thumbnail.html url="/examples/p5js/creating-classes/circle-packing" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/fireworks" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/bonsai-tree" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/loopers" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/recursive-lines" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/popping-circles" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/ant-colony" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/campfire" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/ghosts" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/planets" %}
+{% include url-thumbnail.html url="/tutorials/p5js/creating-classes/circle-packing" %}
 
 ---
 

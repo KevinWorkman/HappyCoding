@@ -8,6 +8,9 @@ meta-title: P5.js Fireworks Example
 meta-description: Use P5.js to put on a fieworks show!
 meta-image: /examples/p5js/creating-classes/images/fireworks-1.png
 tags: [example, p5.js, javascript, es6]
+previousPost: /tutorials/p5js/creating-classes
+redirect_from: /tutorials/p5js/creating-classes/fireworks
+discourseEmbedUrl: /tutorials/p5js/creating-classes/fireworks
 ---
 
 <div id="sketch-holder"></div>
@@ -60,7 +63,7 @@ function makeHouses() {
 function mousePressed() {
 	if(mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height){
 		particles.push(new Firework(mouseX, height));
-		return false;	
+		return false;
 	}
 }
 
