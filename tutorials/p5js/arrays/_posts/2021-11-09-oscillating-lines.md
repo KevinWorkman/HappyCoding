@@ -9,7 +9,9 @@ meta-description: Use arrays to show lines that oscillate up and down.
 meta-image: /examples/p5js/arrays/images/oscillating-lines-1.png
 tags: [example, p5.js, javascript, arrays]
 includeP5jsWidget: true
-previousPost: /examples/p5js/
+previousPost: /tutorials/p5js/arrays
+redirect_from: /tutorials/p5js/arrays/oscillating-lines
+discourseEmbedUrl: /tutorials/p5js/arrays/oscillating-lines
 ---
 
 This sketch uses an array to hold line height values, and then changes those values to show oscillating lines.
@@ -68,4 +70,3 @@ function draw() {
 - Change the number of lines, or their colors.
 - Give each line a random color.
 - Make the animation look more like a mountain, or a city, or trees reflected in a pond.
-
