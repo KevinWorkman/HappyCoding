@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Circle Packing
-thumbnail: /examples/p5js/creating-classes/images/circle-packing-1.png
+thumbnail: /tutorials/p5js/creating-classes/images/circle-packing-1.png
 tagline: Fill the screen with circles without overlapping.
 sort-key: 1120
 meta-title: Circle Packing - p5.js Example
 meta-description: Fill the screen with circles without overlapping.
-meta-image: /examples/p5js/creating-classes/images/circle-packing-1.png
+meta-image: /tutorials/p5js/creating-classes/images/circle-packing-1.png
 tags: [example, p5.js, javascript, creating-classes]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/creating-classes
@@ -97,10 +97,10 @@ class Circle {
 
 [Click here to view this code in the p5 editor.](https://editor.p5js.org/KevinWorkman/sketches/5X6XxnAXuz)
 
-![random colored circles](/examples/p5js/creating-classes/images/circle-packing-2.png)
-![red and blue circles](/examples/p5js/creating-classes/images/circle-packing-3.png)
-![green circles](/examples/p5js/creating-classes/images/circle-packing-4.png)
-![black and white circles](/examples/p5js/creating-classes/images/circle-packing-5.png)
+![random colored circles](/tutorials/p5js/creating-classes/images/circle-packing-2.png)
+![red and blue circles](/tutorials/p5js/creating-classes/images/circle-packing-3.png)
+![green circles](/tutorials/p5js/creating-classes/images/circle-packing-4.png)
+![black and white circles](/tutorials/p5js/creating-classes/images/circle-packing-5.png)
 
 # Remix Ideas
 
