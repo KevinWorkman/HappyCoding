@@ -2,7 +2,7 @@
 layout: tutorial
 title: Smiley Face
 slug: smiley-face
-thumbnail: /examples/processing/calling-functions/images/smiley-face-1.png
+thumbnail: /tutorials/processing/calling-functions/images/smiley-face-1.png
 tagline: Draw a smiley face.
 categories: [examples,processing,calling-functions]
 sort-key: 110
@@ -10,6 +10,9 @@ meta-title: Smiley Face
 meta-description: This example calls functions to draw a smiley face.
 meta-image: /examples/processing/creating-functions/images/random-faces-2.png
 tags: [example, processing]
+previousPost: /tutorials/processing/calling-functions
+redirect_from: /examples/processing/calling-functions/smiley-face
+discourseEmbedUrl: /examples/processing/calling-functions/smiley-face
 ---
 
 ```java
@@ -45,7 +48,7 @@ line(60, 125, 140, 125);
 
 This code calls a series of functions do draw a smiley face:
 
-![smiley face](/examples/processing/calling-functions/images/smiley-face-1.png)
+![smiley face](/tutorials/processing/calling-functions/images/smiley-face-1.png)
 
 The `arc()` function takes 6 parameters: the first 4 parameters define an ellipse, and the last 2 parameters specify a limit (in [radians](https://en.wikipedia.org/wiki/Radian)) that causes the computer to only draw part of the ellipse. In radians, `0` is the right-most point of the ellipse, and `pi` (we're using `3.14` which is close enough) is the left-most point of the ellipse. That lets us draw only half the ellipse for the mouth.
 

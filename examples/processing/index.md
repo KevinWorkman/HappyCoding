@@ -16,9 +16,9 @@ sort-key: 100
 
 # Calling Functions
 
-{% include url-thumbnail.html url="/examples/processing/calling-functions/smiley-face" %}
-{% include url-thumbnail.html url="/examples/processing/calling-functions/flower" %}
-{% include url-thumbnail.html url="/examples/processing/calling-functions/heart" %}
+{% include url-thumbnail.html url="/examples/tutorials/calling-functions/smiley-face" %}
+{% include url-thumbnail.html url="/examples/tutorials/calling-functions/flower" %}
+{% include url-thumbnail.html url="/examples/tutorials/calling-functions/heart" %}
 
 ---
 

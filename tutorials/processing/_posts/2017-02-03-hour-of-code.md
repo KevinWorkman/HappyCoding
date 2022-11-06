@@ -174,7 +174,7 @@ The lines that start with `//` forward slashes are **comments** and are ignored 
 
 This code draws a smiley face:
 
-![smiley face](/examples/processing/calling-functions/images/smiley-face-1.png)
+![smiley face](/tutorials/processing/calling-functions/images/smiley-face-1.png)
 
 {% include codepen.html slug-hash="LRzjYb" height="275" %}
 

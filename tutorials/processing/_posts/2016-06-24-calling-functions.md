@@ -11,6 +11,7 @@ meta-image: /tutorials/p5js/images/calling-functions-4.png
 previousPost: /tutorials/processing/what-is-programming
 nextPost: /tutorials/processing/using-variables
 tags: [tutorial,processing,basic]
+redirect_from: /examples/processing/calling-functions
 ---
 
 {% include toc.md %}
@@ -105,7 +106,7 @@ With that goal, you can look at the Processing reference and ask yourself, *"do 
 
 Sure enough, the reference tells you that Processing has a [`rect`](https://processing.org/reference/rect_.html) function, and that it takes 4 parameters: an `x` and `y` position of the upper-left corner of the rectangle, and a `width` and a `height` specifying the size.
 
-Add a line of code to your sketch that calls the `rect` function, passing in values for those 4 parameters: 
+Add a line of code to your sketch that calls the `rect` function, passing in values for those 4 parameters:
 
 ```java
 ellipse(50, 50, 75, 75);
