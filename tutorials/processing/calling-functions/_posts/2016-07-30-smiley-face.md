@@ -4,7 +4,6 @@ title: Smiley Face
 slug: smiley-face
 thumbnail: /tutorials/processing/calling-functions/images/smiley-face-1.png
 tagline: Draw a smiley face.
-categories: [examples,processing,calling-functions]
 sort-key: 110
 meta-title: Smiley Face
 meta-description: This example calls functions to draw a smiley face.
