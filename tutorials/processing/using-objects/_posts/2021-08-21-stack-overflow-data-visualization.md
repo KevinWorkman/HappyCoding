@@ -1,11 +1,11 @@
 ---
 layout: tutorial
 title: Stack Overflow Data Visualization
-thumbnail: /examples/processing/post-images/stack-overflow-data-visualization-3.png
+thumbnail: /tutorials/processing/using-objects/images/stack-overflow-data-visualization-3.png
 tagline: Visualize data from the Stack Overflow API!
 meta-title: Processing Stack Overflow Data Visualization
 meta-description: Use Processing to visualize data from the Stack Overflow API!
-meta-image: /examples/processing/post-images/stack-overflow-data-visualization-3.png
+meta-image: /tutorials/processing/using-objects/images/stack-overflow-data-visualization-3.png
 tags: [example, processing]
 sort-key: 10
 ---
@@ -53,7 +53,7 @@ void setup() {
 
     while (hasMore) {
       println("Fetching page: " + currentPage);
-      
+
       String text = getUrlContent(currentPage);
       JSONObject top = parseJSONObject(text);
       JSONArray itemsArray = top.getJSONArray("items");
@@ -61,13 +61,13 @@ void setup() {
       for (int date : pageList) {
         dates.append(date);
       }
-      
+
       hasMore = top.getBoolean("has_more");
       currentPage++;
     }
 
     println(dates.size());
-    
+
     saveJSONArray(dates, "processing-questions.json");
   }
   catch(Exception e) {
@@ -87,10 +87,10 @@ ArrayList<Integer> convertJsonArrayToDates(JSONArray input) {
 }
 
 String getUrlContent(int currentPage) throws Exception {
-  
+
   String href = "https://api.stackexchange.com/2.3/questions?pagesize=100&order=asc&sort=creation&tagged=processing&site=stackoverflow";
   href += "&page=" + currentPage;
-  
+
   URL url = new URL(href);
   HttpURLConnection connection = (HttpURLConnection) url.openConnection();
   connection.setRequestProperty("Accept-Encoding", "DEFLATE");
@@ -222,7 +222,7 @@ void draw() {
     fill(255);
     text(labelMap.get(date), labelPoint.x, height - border / 2);
   }
-  
+
   //saveFrame("f/#####.png");
 }
 
@@ -287,9 +287,9 @@ In my case that's a chart, but it could be anything you imagine!
 
 # Result
 
-![Stack Overflow animated chart](/examples/processing/post-images/stack-overflow-data-visualization-2.gif)
+![Stack Overflow animated chart](/tutorials/processing/using-objects/images/stack-overflow-data-visualization-2.gif)
 
-![Stack Overflow chart](/examples/processing/post-images/stack-overflow-data-visualization-1.png)
+![Stack Overflow chart](/tutorials/processing/using-objects/images/stack-overflow-data-visualization-1.png)
 
 One thing I like about this project is that it shows "the middle step" of massaging the data. This is a common and crucial step in this kind of project, but it's almost never shown. But this "middle step" was built right into Processing's DNA from the start:
 

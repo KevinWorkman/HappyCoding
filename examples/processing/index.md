@@ -9,9 +9,6 @@ sort-key: 100
 ---
 
 # Processing Examples
-
-{% include url-thumbnail.html url="/examples/processing/stack-overflow-data-visualization" %}
-
 ---
 
 # Calling Functions
@@ -93,6 +90,7 @@ sort-key: 100
 # Using Objects
 
 {% include url-thumbnail.html url="/tutorials/processing/using-objects/eyes" %}
+{% include url-thumbnail.html url="/tutorials/processing/using-objects/stack-overflow-data-visualization" %}
 
 ---
 
