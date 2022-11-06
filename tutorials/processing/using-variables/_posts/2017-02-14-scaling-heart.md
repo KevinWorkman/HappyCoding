@@ -3,7 +3,6 @@ layout: tutorial
 title: Scaling Heart
 thumbnail: /tutorials/processing/using-variables/images/scaling-heart-1.png
 tagline: Scale a heart. ❤
-categories: [examples,processing,using-variables]
 sort-key: 240
 meta-title: Valentine's Day Heart
 meta-description: Use Processing to draw a heart! ❤
