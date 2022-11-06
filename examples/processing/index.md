@@ -49,7 +49,7 @@ sort-key: 100
 
 # If Statements
 
-{% include url-thumbnail.html url="/examples/processing/if-statements/good-morning" %}
+{% include url-thumbnail.html url="/tutorials/processing/if-statements/good-morning" %}
 
 ---
 

@@ -2,13 +2,16 @@
 layout: tutorial
 title: Good Morning
 slug: good-morning
-thumbnail: /examples/processing/if-statements/images/good-morning-1.png
+thumbnail: /tutorials/processing/if-statements/images/good-morning-1.png
 tagline: Say hello based on the time of day.
 meta-title: Good Morning
 meta-description: This example uses if statements to say hello based on the time of day.
-meta-image: /examples/processing/if-statements/images/good-morning-2.png
+meta-image: /tutorials/processing/if-statements/images/good-morning-2.png
 tags: [example, processing, if]
 sort-key: 510
+previousPost: /tutorials/processing/if-statements
+redirect_from: /examples/processing/if-statements/good-morning
+discourseEmbedUrl: /examples/processing/if-statements/good-morning
 ---
 
 ```java
@@ -23,19 +26,19 @@ void draw() {
   if (hour() < 5) {
     //between midnight and 5AM
     text("Go to sleep!", 20, height-20);
-  } 
+  }
   else if (hour() < 12) {
     //between 5AM and noon
     text("Good morning!", 20, height-20);
-  } 
+  }
   else if (hour() < 16) {
     //between noon and 4PM
     text("Good afternoon!", 20, height-20);
-  } 
+  }
   else if (hour() < 21) {
     //between 4PM and 9PM
     text("Good evening!", 20, height-20);
-  } 
+  }
   else {
     //between 9PM and midnight
     text("Good night!", 20, height-20);
@@ -46,7 +49,7 @@ void draw() {
 
 This program uses `if` statements to display a different message depending on what time of day it is:
 
-![good morning](/examples/processing/if-statements/images/good-morning-1.png)
+![good morning](/tutorials/processing/if-statements/images/good-morning-1.png)
 
 This program also uses the `draw()` function, so our code is run 60 times per second. This means that our message will change as soon as the time of day changes. Test this out by running this code and then changing the time on your computer.
 
