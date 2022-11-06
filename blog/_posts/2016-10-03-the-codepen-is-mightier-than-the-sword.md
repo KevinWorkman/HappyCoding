@@ -4,7 +4,7 @@ title: The CodePen is Mightier than the Sword
 slug: the-codepen-is-mightier-than-the-sword
 meta-title: The CodePen is Mightier than the Sword
 meta-description: All of the tutorials and examples now have a code editor embedded directly in them!
-meta-image: /examples/processing/images/images/nes-filter-3.png
+meta-image: /tutorials/processing/images/images/nes-filter-3.png
 tags: [site-update]
 ---
 

@@ -112,8 +112,8 @@ sort-key: 100
 
 # Images
 
-{% include url-thumbnail.html url="/examples/processing/images/nes-filter" %}
-{% include url-thumbnail.html url="/examples/processing/images/mars-perseverance-image-colorizer" %}
+{% include url-thumbnail.html url="/tutorials/processing/images/nes-filter" %}
+{% include url-thumbnail.html url="/tutorials/processing/images/mars-perseverance-image-colorizer" %}
 
 ---
 
