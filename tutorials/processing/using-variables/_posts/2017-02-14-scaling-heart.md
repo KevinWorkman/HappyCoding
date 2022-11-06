@@ -1,14 +1,17 @@
 ---
 layout: tutorial
 title: Scaling Heart
-thumbnail: /examples/processing/using-variables/images/scaling-heart-1.png
+thumbnail: /tutorials/processing/using-variables/images/scaling-heart-1.png
 tagline: Scale a heart. ❤
 categories: [examples,processing,using-variables]
 sort-key: 240
 meta-title: Valentine's Day Heart
 meta-description: Use Processing to draw a heart! ❤
-meta-image: /examples/processing/using-variables/images/scaling-heart-2.png
+meta-image: /tutorials/processing/using-variables/images/scaling-heart-2.png
 tags: [example, processing, ❤]
+previousPost: /tutorials/processing/using-variables
+redirect_from: /examples/processing/using-variables/scaling-heart
+discourseEmbedUrl: /examples/processing/using-variables/scaling-heart
 ---
 
 :heart: ❤ :heart:
@@ -43,7 +46,7 @@ curveVertex(width/2, height*2);
 endShape();
 ```
 
-![heart](/examples/processing/using-variables/images/scaling-heart-2.png)
+![heart](/tutorials/processing/using-variables/images/scaling-heart-2.png)
 
 {% include codepen.html slug-hash="LxaGQM" height="375" %}
 

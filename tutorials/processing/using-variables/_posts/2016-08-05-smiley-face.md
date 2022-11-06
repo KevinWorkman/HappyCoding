@@ -2,13 +2,16 @@
 layout: tutorial
 title: Smiley Face
 slug: smiley-face
-thumbnail: /examples/processing/using-variables/images/smiley-face-2.png
+thumbnail: /tutorials/processing/using-variables/images/smiley-face-2.png
 tagline: Scale a smiley face.
 meta-title: Smiley Face
 meta-description: This example uses variables to scale a drawing of a face.
 meta-image: /tutorials/processing/creating-functions/images/random-faces-2.png
 tags: [example, processing]
 sort-key: 210
+previousPost: /tutorials/processing/using-variables
+redirect_from: /examples/processing/using-variables/smiley-face
+discourseEmbedUrl: /examples/processing/using-variables/smiley-face
 ---
 
 ```java
@@ -44,15 +47,15 @@ line(width*.3, height*.625, width*.7, height*.625);
 
 This code uses the `width` and `height` variables to draw a smiley face that changes size depending on the size of the window.
 
-![smiley face](/examples/processing/using-variables/images/smiley-face-1.png)
+![smiley face](/tutorials/processing/using-variables/images/smiley-face-1.png)
 
 If we change the first line of our code to `size(400, 200)`, then we get a wider smiley face:
 
-![wider smiley face](/examples/processing/using-variables/images/smiley-face-2.png)
+![wider smiley face](/tutorials/processing/using-variables/images/smiley-face-2.png)
 
 If we change the first line of our code to `size(150, 300)`, then we get a taller smiler face:
 
-![taller smiley face](/examples/processing/using-variables/images/smiley-face-3.png);
+![taller smiley face](/tutorials/processing/using-variables/images/smiley-face-3.png);
 
 ## Finding the Right Numbers
 

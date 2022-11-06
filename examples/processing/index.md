@@ -24,10 +24,10 @@ sort-key: 100
 
 # Using Variables
 
-{% include url-thumbnail.html url="/examples/processing/using-variables/smiley-face" %}
-{% include url-thumbnail.html url="/examples/processing/using-variables/flower" %}
-{% include url-thumbnail.html url="/examples/processing/using-variables/jack-o-lantern" %}
-{% include url-thumbnail.html url="/examples/processing/using-variables/scaling-heart" %}
+{% include url-thumbnail.html url="/tutorials/processing/using-variables/smiley-face" %}
+{% include url-thumbnail.html url="/tutorials/processing/using-variables/flower" %}
+{% include url-thumbnail.html url="/tutorials/processing/using-variables/jack-o-lantern" %}
+{% include url-thumbnail.html url="/tutorials/processing/using-variables/scaling-heart" %}
 
 ---
 

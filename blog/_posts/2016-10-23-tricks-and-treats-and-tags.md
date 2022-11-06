@@ -35,7 +35,7 @@ For example, the [Processing flower example](/examples/processing/using-variable
   "title": "Flower",
   "categories": ["examples","processing","using-variables"],
   "url": "/examples/processing/using-variables/flower",
-  "thumbnail": "/examples/processing/using-variables/images/flower-5.png",
+  "thumbnail": "/tutorials/processing/using-variables/images/flower-5.png",
   "tagline": "Scale a flower.",
   "tags": ["example","processing","pretty"]
  }

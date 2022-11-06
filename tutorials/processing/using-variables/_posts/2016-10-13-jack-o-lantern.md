@@ -2,7 +2,7 @@
 layout: tutorial
 title: Jack-o'-Lantern
 slug: jack-o-lantern
-thumbnail: /examples/processing/using-variables/images/jack-o-lantern-1.png
+thumbnail: /tutorials/processing/using-variables/images/jack-o-lantern-1.png
 tagline: Draw a Jack-o'-lantern.
 categories: [examples,processing,using-variables]
 sort-key: 230
@@ -10,6 +10,9 @@ meta-title: Jack-o'-lantern
 meta-description: Use Processing to draw a Jack-o'-lantern!
 meta-image: /tutorials/processing/creating-variables/images/random-jack-o-lantern-2.png
 tags: [example, processing, 🎃]
+previousPost: /tutorials/processing/using-variables
+redirect_from: /examples/processing/using-variables/jack-o-lantern
+discourseEmbedUrl: /examples/processing/using-variables/jack-o-lantern
 ---
 
 :jack_o_lantern: 🎃 :jack_o_lantern:
@@ -50,14 +53,14 @@ line(width*.3, height*.65, width*.7, height*.65);
 
 Try changing the parmaters passed into the `size()` function to change the size of the window, and the size of the Jack-o'-lantern will change automatically.
 
-![🎃](/examples/processing/using-variables/images/jack-o-lantern-2.png) ![🎃](/examples/processing/using-variables/images/jack-o-lantern-3.png) ![🎃](/examples/processing/using-variables/images/jack-o-lantern-4.png)
+![🎃](/tutorials/processing/using-variables/images/jack-o-lantern-2.png) ![🎃](/tutorials/processing/using-variables/images/jack-o-lantern-3.png) ![🎃](/tutorials/processing/using-variables/images/jack-o-lantern-4.png)
 
 🎃 :jack_o_lantern: 🎃
 
 ## Tweak Ideas
 
 - Add teeth to the Jack-o'-lantern's mouth.
-- If we change the ratio of the window (for example, to 500x100) then the Jack-o'-lantern will stretch to fit that new size. Make it so instead of stretching, the Jack-o'-lantern **scales** while maintaining its [aspect ratio](https://en.wikipedia.org/wiki/Aspect_ratio_(image)). 
+- If we change the ratio of the window (for example, to 500x100) then the Jack-o'-lantern will stretch to fit that new size. Make it so instead of stretching, the Jack-o'-lantern **scales** while maintaining its [aspect ratio](https://en.wikipedia.org/wiki/Aspect_ratio_(image)).
 - Draw a whole vine of Jack-o'-lantern.
 - Change the design of the Jack-o'-lantern. Make it scarier, or more detailed, or draw a :cat: cat or a :ghost: ghost!
 - Use a piece of paper and a pen to draw a Jack-o'-lantern by hand. Try to recreate that using code!

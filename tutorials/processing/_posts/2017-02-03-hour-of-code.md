@@ -260,11 +260,11 @@ line(width*.3, height*.625, width*.7, height*.625);
 
 If we change the first line of our code to `size(400, 200)`, then we get a wider smiley face:
 
-![wide smiley face](/examples/processing/using-variables/images/smiley-face-2.png)
+![wide smiley face](/tutorials/processing/using-variables/images/smiley-face-2.png)
 
 If we change the first line of our code to size(150, 300), then we get a taller smiley face:
 
-![tall smiley face](/examples/processing/using-variables/images/smiley-face-3.png)
+![tall smiley face](/tutorials/processing/using-variables/images/smiley-face-3.png)
 
 You can read [this example](/examples/processing/using-variables/smiley-face) for more info on exactly how we figure out what values to multiply `width` and `height` by. But for now just keep in mind that you can use variable to store values, which makes it easier to write code that changes over time.
 
