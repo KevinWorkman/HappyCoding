@@ -8,6 +8,9 @@ meta-description: Use Processing to visualize data from the Stack Overflow API!
 meta-image: /tutorials/processing/using-objects/images/stack-overflow-data-visualization-3.png
 tags: [example, processing]
 sort-key: 10
+previousPost: /tutorials/processing/using-objects
+redirect_from: /examples/processing/mars-perseverance-image-colorizer
+discourseEmbedUrl: /examples/processing/mars-perseverance-image-colorizer
 ---
 
 To celebrate [Processing's 20th anniversary](https://processingfoundation.org/advocacy/pcd-2021), I decided to use Processing to visualize how many questions have been asked in the [Processing](https://stackoverflow.com/questions/tagged/processing) and [p5.js](https://stackoverflow.com/questions/tagged/p5.js) tags on [Stack Overflow](https://stackoverflow.com/).
