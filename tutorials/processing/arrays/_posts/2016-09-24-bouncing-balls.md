@@ -7,7 +7,7 @@ tagline: Make a random bouncing ball pit.
 sort-key: 810
 meta-title: Bouncing Balls
 meta-description: This examples uses arrays to create a bunch of bouncing balls.
-meta-image: /examples/processing/input/images/bouncing-balls-2.png
+meta-image: /tutorials/processing/input/images/bouncing-balls-2.png
 tags: [example, processing, array, animation, random]
 previousPost: /tutorials/processing/arrays
 redirect_from: /examples/processing/arrays/bouncing-balls

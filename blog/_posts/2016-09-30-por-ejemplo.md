@@ -4,7 +4,7 @@ title: Por Ejemplo
 slug: por-ejemplo
 meta-title: Por Ejemplo
 meta-description: Happy Coding now has examples!
-meta-image: /examples/processing/input/images/bouncing-balls-2.png
+meta-image: /tutorials/processing/input/images/bouncing-balls-2.png
 tags: [site-update]
 ---
 

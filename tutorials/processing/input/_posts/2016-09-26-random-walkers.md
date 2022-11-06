@@ -2,13 +2,16 @@
 layout: tutorial
 title: Random Walkers
 slug: random-walkers
-thumbnail: /examples/processing/input/images/random-walkers-2.gif
+thumbnail: /tutorials/processing/input/images/random-walkers-2.gif
 tagline: Randomly colored random walkers.
 sort-key: 920
 meta-title: Random Walkers
 meta-description: This example detects user input to create scribble art!
 meta-image: /tutorials/processing/arraylists/images/random-walkers-3.png
 tags: [example, processing, generative-art, random-walker, emergence]
+previousPost: /tutorials/processing/input
+redirect_from: /examples/processing/input/random-walkers
+discourseEmbedUrl: /examples/processing/input/random-walkers
 ---
 
 Note: This example uses [parallel arrays](https://en.wikipedia.org/wiki/Parallel_array). In other words, we're storing our data across multiple arrays. This is a good way to learn about arrays, but in real life you should use classes instead of parrallel arrays. If you haven't learned about classes yet, don't worry about it too much.
@@ -70,7 +73,7 @@ This code uses the [`append()`](https://processing.org/reference/append_.html) f
 ![random walkers](images/random-walkers-1.gif)
 
 {% include codepen.html slug-hash="GjrvWd" height="275" %}
-    
+
 ## Tweak Ideas
 
 - What happens if you use the `mouseDragged()` function instead of the `mousePressed()` function?

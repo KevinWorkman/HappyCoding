@@ -2,13 +2,16 @@
 layout: tutorial
 title: Pumpkin Patch
 slug: pumpkin-patch
-thumbnail: /examples/processing/input/images/pumpkin-patch-2.gif
+thumbnail: /tutorials/processing/input/images/pumpkin-patch-2.gif
 tagline: Click to add a pumpkin to the patch.
 sort-key: 930
 meta-title: Pumpkin Patch
 meta-description: This example detects user input to grow a pumpkin patch! 🎃
-meta-image: /examples/processing/input/images/pumpkin-patch-3.png
+meta-image: /tutorials/processing/input/images/pumpkin-patch-3.png
 tags: [example, processing, input, 🎃]
+previousPost: /tutorials/processing/input
+redirect_from: /examples/processing/input/pumpkin-patch
+discourseEmbedUrl: /examples/processing/input/pumpkin-patch
 ---
 
 This code takes user input to add a pumpkin to the pumpkin patch whenever the user clicks the mouse.
@@ -49,9 +52,9 @@ void mousePressed() {
   stroke(0, random(50, 200), 0, 100);
   strokeWeight(random(5, 15));
 
-  bezier(previousX, previousY - previousHeight/2, 
-    previousX + random(-100, 100), previousY - previousHeight*2, 
-    nextX + random(-100, 100), nextY - nextHeight*2, 
+  bezier(previousX, previousY - previousHeight/2,
+    previousX + random(-100, 100), previousY - previousHeight*2,
+    nextX + random(-100, 100), nextY - nextHeight*2,
     nextX, nextY - nextHeight/2);
 
   //set the previous pumpkin to the next pumpkin
@@ -61,7 +64,7 @@ void mousePressed() {
 }
 ```
 
-![pumpkin patch](/examples/processing/input/images/pumpkin-patch-1.gif)
+![pumpkin patch](/tutorials/processing/input/images/pumpkin-patch-1.gif)
 
 {% include codepen.html slug-hash="kkzpzg" height="375" %}
 
@@ -70,7 +73,7 @@ This code uses the `bezier()` function to draw curves that connect the pumpkins 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bezier_curve.svg/800px-Bezier_curve.svg.png" style="width:200px" />
 
 You can read more about the `bezier()` function in [the reference](https://processing.org/reference/bezier_.html).
-    
+
 ## Tweak Ideas
 
 - Add leaves to the vines.
