@@ -8,7 +8,7 @@ categories: [examples,processing,using-variables]
 sort-key: 230
 meta-title: Jack-o'-lantern
 meta-description: Use Processing to draw a Jack-o'-lantern!
-meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern-2.png
+meta-image: /tutorials/processing/creating-variables/images/random-jack-o-lantern-2.png
 tags: [example, processing, 🎃]
 ---
 

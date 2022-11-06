@@ -402,7 +402,7 @@ This code is getting pretty complicated, but just take it one line at a time. Th
 
 Anyway, random faces!
 
-![random face](/examples/processing/creating-variables/images/random-face-1.png) ![random face](/examples/processing/creating-variables/images/random-face-2.png) ![random face](/examples/processing/creating-variables/images/random-face-3.png) ![random face](/examples/processing/creating-variables/images/random-face-4.png)
+![random face](/tutorials/processing/creating-variables/images/random-face-1.png) ![random face](/tutorials/processing/creating-variables/images/random-face-2.png) ![random face](/tutorials/processing/creating-variables/images/random-face-3.png) ![random face](/tutorials/processing/creating-variables/images/random-face-4.png)
 
 {% include codepen.html slug-hash="WGkEwL" height="275" %}
 

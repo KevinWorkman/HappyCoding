@@ -2,13 +2,16 @@
 layout: tutorial
 title: "Random Jack-o'-Lantern"
 slug: random-jack-o-lantern
-thumbnail: /examples/processing/creating-variables/images/random-jack-o-lantern-1.png
+thumbnail: /examples/processing/ceating-variables/images/random-jack-o-lantern-1.png
 tagline: "Procedurally generate a Jack-o'-lantern."
 meta-title: Random Jack-o'-Lantern
 meta-description: Procedurally generate a Jack-o'-lantern.
-meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern-2.png
+meta-image: /tutorials/processing/creating-variables/images/random-jack-o-lantern-2.png
 tags: [example, processing, procedural-generation, 🎃]
 sort-key: 320
+previousPost: /tutorials/processing/creating-variables
+redirect_from: /examples/processing/creating-variables/random-jack-o-lantern
+discourseEmbedUrl: /examples/processing/creating-variables/random-jack-o-lantern
 ---
 
 ```java
@@ -66,9 +69,9 @@ line(centerX-mouthWidth/2, mouthY, centerX + mouthWidth/2, mouthY);
 
 This code uses variables along with the `random()` function to procedurally generate random Jack-o'-lanterns. Every time you run the program, you get a different Jack-o'-lantern.
 
-![random Jack-o'-lantern](/examples/processing/creating-variables/images/random-jack-o-lantern-3.png) ![random Jack-o'-lantern](/examples/processing/creating-variables/images/random-jack-o-lantern-4.png) ![random Jack-o'-lantern](/examples/processing/creating-variables/images/random-jack-o-lantern-5.png) ![random Jack-o'-lantern](/examples/processing/creating-variables/images/random-jack-o-lantern-6.png) ![random Jack-o'-lantern](/examples/processing/creating-variables/images/random-jack-o-lantern-7.png)
+![random Jack-o'-lantern](/tutorials/processing/creating-variables/images/random-jack-o-lantern-3.png) ![random Jack-o'-lantern](/tutorials/processing/creating-variables/images/random-jack-o-lantern-4.png) ![random Jack-o'-lantern](/tutorials/processing/creating-variables/images/random-jack-o-lantern-5.png) ![random Jack-o'-lantern](/tutorials/processing/creating-variables/images/random-jack-o-lantern-6.png) ![random Jack-o'-lantern](/tutorials/processing/creating-variables/images/random-jack-o-lantern-7.png)
 
-![random Jack-o'-lantern](/examples/processing/creating-variables/images/random-jack-o-lantern-2.png)
+![random Jack-o'-lantern](/tutorials/processing/creating-variables/images/random-jack-o-lantern-2.png)
 
 ## Tweak Ideas
 

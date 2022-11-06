@@ -33,8 +33,8 @@ sort-key: 100
 
 # Creating Variables
 
-{% include url-thumbnail.html url="/examples/processing/creating-variables/random-face" %}
-{% include url-thumbnail.html url="/examples/processing/creating-variables/random-jack-o-lantern" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-variables/random-face" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-variables/random-jack-o-lantern" %}
 
 ---
 

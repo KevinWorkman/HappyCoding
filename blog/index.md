@@ -3,7 +3,7 @@ layout: default
 title: Happy Blogging
 meta-title: Happy Blogging
 meta-description: Blogs about Happy Coding and random stuff I'm thinking about.
-meta-image: /examples/processing/creating-variables/images/random-jack-o-lantern-2.png
+meta-image: /tutorials/processing/creating-variables/images/random-jack-o-lantern-2.png
 ---
 
 <style>

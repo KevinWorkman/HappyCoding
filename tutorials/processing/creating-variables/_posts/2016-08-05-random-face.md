@@ -2,13 +2,16 @@
 layout: tutorial
 title: Random Face
 slug: random-face
-thumbnail: /examples/processing/creating-variables/images/random-face-4.png
+thumbnail: /tutorials/processing/creating-variables/images/random-face-4.png
 tagline: Procedurally generate a smiley face.
 meta-title: Random Face
 meta-description: This example uses variables to procedurally generate random faces.
 meta-image: /tutorials/processing/creating-functions/images/random-faces-2.png
 tags: [example, processing, procedural-generation]
 sort-key: 310
+previousPost: /tutorials/processing/creating-variables
+redirect_from: /examples/processing/creating-variables/random-face
+discourseEmbedUrl: /examples/processing/creating-variables/random-face
 ---
 
 ```java
@@ -71,10 +74,10 @@ line(faceX - mouthWidth/2, mouthY, faceX + mouthWidth/2, mouthY);
 
 This code uses variables along with the `random()` function to procedurally generate random faces. Every time you run the program, you get a different face.
 
-![random faces](/examples/processing/creating-variables/images/random-face-1.png)
-![random faces](/examples/processing/creating-variables/images/random-face-2.png)
-![random faces](/examples/processing/creating-variables/images/random-face-3.png)
-![random faces](/examples/processing/creating-variables/images/random-face-4.png)
+![random faces](/tutorials/processing/creating-variables/images/random-face-1.png)
+![random faces](/tutorials/processing/creating-variables/images/random-face-2.png)
+![random faces](/tutorials/processing/creating-variables/images/random-face-3.png)
+![random faces](/tutorials/processing/creating-variables/images/random-face-4.png)
 
 This code might seem complicated, but when writing a program like this, you only focus on one small part at a time.
 
