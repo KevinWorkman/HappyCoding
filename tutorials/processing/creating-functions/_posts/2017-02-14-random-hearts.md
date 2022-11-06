@@ -1,13 +1,16 @@
 ---
 layout: tutorial
 title: Random Hearts
-thumbnail: /examples/processing/creating-functions/images/random-hearts-1.png
+thumbnail: /tutorials/processing/creating-functions/images/random-hearts-1.png
 tagline: Draw random hearts. ❤
 sort-key: 440
 meta-title: Random Hearts
 meta-description: Use Processing to draw random hearts! ❤
-meta-image: /examples/processing/creating-functions/images/random-hearts-2.png
+meta-image: /tutorials/processing/creating-functions/images/random-hearts-2.png
 tags: [example, processing, ❤]
+previousPost: /tutorials/processing/creating-functions
+redirect_from: /examples/processing/creating-functions/random-hearts
+discourseEmbedUrl: /examples/processing/creating-functions/random-hearts
 ---
 
 :heart: ❤ :heart:
@@ -63,7 +66,7 @@ This code modifies the heart drawing logic: instead of always drawing in the cen
 
 From there, it's just a matter of putting the code inside the `draw()` function so it's called 60 times per second, and then choosing random values for the above variables. Now we get random hearts!
 
-![random hearts](/examples/processing/creating-functions/images/random-hearts-3.png)
+![random hearts](/tutorials/processing/creating-functions/images/random-hearts-3.png)
 
 {% include codepen.html slug-hash="apMZjW" height="375" %}
 
@@ -72,6 +75,6 @@ From there, it's just a matter of putting the code inside the `draw()` function 
 - Change the color of the heart. Make it a random color!
 - Add somebody's name to the middle of the heart. Send them a nerdy Valentine!
 
-![random hearts](/examples/processing/creating-functions/images/random-hearts-4.png)
-![random hearts](/examples/processing/creating-functions/images/random-hearts-5.png)
-![random hearts](/examples/processing/creating-functions/images/random-hearts-6.png)
+![random hearts](/tutorials/processing/creating-functions/images/random-hearts-4.png)
+![random hearts](/tutorials/processing/creating-functions/images/random-hearts-5.png)
+![random hearts](/tutorials/processing/creating-functions/images/random-hearts-6.png)

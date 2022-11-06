@@ -7,7 +7,7 @@ tagline: Draw a smiley face.
 sort-key: 110
 meta-title: Smiley Face
 meta-description: This example calls functions to draw a smiley face.
-meta-image: /examples/processing/creating-functions/images/random-faces-2.png
+meta-image: /tutorials/processing/creating-functions/images/random-faces-2.png
 tags: [example, processing]
 previousPost: /tutorials/processing/calling-functions
 redirect_from: /examples/processing/calling-functions/smiley-face

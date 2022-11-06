@@ -2,13 +2,16 @@
 layout: tutorial
 title: Turtle Graphics
 slug: turtle-graphics
-thumbnail: /examples/processing/creating-functions/images/turtle-graphics-1.gif
+thumbnail: /tutorials/processing/creating-functions/images/turtle-graphics-1.gif
 tagline: Use functions to create a pen that you can rotate and move.
 sort-key: 430
 meta-title: Turtle Graphics
 meta-description: This example shows you how to use functions to create a pen that you can rotate and move.
-meta-image: /examples/processing/creating-functions/images/turtle-graphics-2.png
+meta-image: /tutorials/processing/creating-functions/images/turtle-graphics-2.png
 tags: [example, processing, procedural-generation, 🐢]
+previousPost: /tutorials/processing/creating-functions
+redirect_from: /examples/processing/creating-functions/turtle-graphics
+discourseEmbedUrl: /examples/processing/creating-functions/turtle-graphics
 ---
 
 Processing uses an absolute coordinate system for its drawing functions, but other programming languages like [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)) use a relative system called [turtle graphics](https://en.wikipedia.org/wiki/Turtle_graphics). :turtle:
@@ -35,30 +38,30 @@ void setup() {
 void draw() {
 
   stroke(random(256), random(256), random(256));
-  
+
   rotateTurtle(random(360));
   float length = random(0, 150);
-  
+
   forward(length);
   rotateTurtle(90);
-  
+
   forward(length);
   rotateTurtle(90);
-  
+
   forward(length);
   rotateTurtle(90);
-  
+
   forward(length);
 }
 
 void forward(float amount) {
-  
+
   float newX = turtleX + cos(radians(turtleHeading)) * amount;
   float newY = turtleY + sin(radians(turtleHeading)) * amount;
 
   line(turtleX, turtleY, newX, newY);
   fill(0);
-  
+
   turtleX = newX;
   turtleY = newY;
 }
@@ -72,7 +75,7 @@ void rotateTurtle(float degrees) {
 
 I ~~pretty much stole~~ borrowed this algorithm from [Secret Coders](http://www.secret-coders.com/), which is an awesome kids book that I highly recommend!
 
-![🐢 graphics](/examples/processing/creating-functions/images/turtle-graphics-3.png)
+![🐢 graphics](/tutorials/processing/creating-functions/images/turtle-graphics-3.png)
 
 ## Tweak Ideas
 

@@ -2,13 +2,16 @@
 layout: tutorial
 title: Random Faces
 slug: random-faces
-thumbnail: /examples/processing/creating-functions/images/random-faces-1.gif
+thumbnail: /tutorials/processing/creating-functions/images/random-faces-1.gif
 tagline: Procedurally generate infinite smiley faces.
 meta-title: Random Faces
 meta-description: This example uses functions to procedurally generate random faces.
-meta-image: /examples/processing/creating-functions/images/random-faces-2.png
+meta-image: /tutorials/processing/creating-functions/images/random-faces-2.png
 tags: [example, processing, procedural-generation]
 sort-key: 410
+previousPost: /tutorials/processing/creating-functions
+redirect_from: /examples/processing/creating-functions/random-faces
+discourseEmbedUrl: /examples/processing/creating-functions/random-faces
 ---
 
 Working from [this simpler example](/examples/processing/creating-variables/random-face) that draws a single random face whenever the program runs, we can use functions to draw a new random face every second:
@@ -84,7 +87,7 @@ void drawFace() {
 
 This code uses variables along with the `random()` function to procedurally generate random faces. Every time you run the program, you get a different face.
 
-![random faces](/examples/processing/creating-functions/images/random-faces-1.gif)
+![random faces](/tutorials/processing/creating-functions/images/random-faces-1.gif)
 
 {% include codepen.html slug-hash="rrGzLB" height="275" %}
 

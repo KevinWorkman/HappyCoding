@@ -4,7 +4,7 @@ title: Tricks and Treats and Tags
 slug: tricks-and-treats-and-tags
 meta-title: Tricks and Treats and Tags
 meta-description: We now have a tag system. Check out the 🎃 tag!
-meta-image: /examples/processing/creating-functions/images/glowing-jack-o-lantern-3.png
+meta-image: /tutorials/processing/creating-functions/images/glowing-jack-o-lantern-3.png
 tags: [site-update]
 ---
  

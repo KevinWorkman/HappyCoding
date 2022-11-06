@@ -40,10 +40,10 @@ sort-key: 100
 
 # Creating Functions
 
-{% include url-thumbnail.html url="/examples/processing/creating-functions/random-faces" %}
-{% include url-thumbnail.html url="/examples/processing/creating-functions/glowing-jack-o-lantern" %}
-{% include url-thumbnail.html url="/examples/processing/creating-functions/random-hearts" %}
-{% include url-thumbnail.html url="/examples/processing/creating-functions/turtle-graphics" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-functions/random-faces" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-functions/glowing-jack-o-lantern" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-functions/random-hearts" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-functions/turtle-graphics" %}
 
 ---
 
