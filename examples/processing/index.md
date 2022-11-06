@@ -76,8 +76,8 @@ sort-key: 100
 
 # Arrays
 
-{% include url-thumbnail.html url="/examples/processing/arrays/bouncing-balls" %}
-{% include url-thumbnail.html url="/examples/processing/arrays/random-walkers" %}
+{% include url-thumbnail.html url="/tutorials/processing/arrays/bouncing-balls" %}
+{% include url-thumbnail.html url="/tutorials/processing/arrays/random-walkers" %}
 
 ---
 
