@@ -2,7 +2,7 @@
 layout: tutorial
 title: "Random Jack-o'-Lantern"
 slug: random-jack-o-lantern
-thumbnail: /examples/processing/ceating-variables/images/random-jack-o-lantern-1.png
+thumbnail: /tutorials/processing/creating-variables/images/random-jack-o-lantern-1.png
 tagline: "Procedurally generate a Jack-o'-lantern."
 meta-title: Random Jack-o'-Lantern
 meta-description: Procedurally generate a Jack-o'-lantern.
