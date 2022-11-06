@@ -4,7 +4,7 @@ title: Happy Commenting
 slug: happy-commenting
 meta-title: Happy Commenting
 meta-description: We now have a comment section! *gulp*
-meta-image: /examples/processing/using-objects/images/eyes-5.png
+meta-image: /tutorials/processing/using-objects/images/eyes-5.png
 tags: [site-update]
 ---
 

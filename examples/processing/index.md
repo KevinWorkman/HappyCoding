@@ -92,7 +92,7 @@ sort-key: 100
 
 # Using Objects
 
-{% include url-thumbnail.html url="/examples/processing/using-objects/eyes" %}
+{% include url-thumbnail.html url="/tutorials/processing/using-objects/eyes" %}
 
 ---
 

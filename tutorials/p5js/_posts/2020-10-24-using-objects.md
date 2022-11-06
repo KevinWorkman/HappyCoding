@@ -6,7 +6,7 @@ tagline: Group related variables together.
 sort-key: 1100
 meta-title: Using Objects in p5.js
 meta-description: Learn how to use objects in p5.js to group related variables together.
-meta-image: /examples/processing/using-objects/images/eyes-5.png
+meta-image: /tutorials/processing/using-objects/images/eyes-5.png
 tags: [tutorial, p5.js, javascript, objects]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/arrays
