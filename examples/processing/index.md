@@ -63,14 +63,14 @@ sort-key: 100
 
 # For Loops
 
-{% include url-thumbnail.html url="/examples/processing/for-loops/random-circles" %}
-{% include url-thumbnail.html url="/examples/processing/for-loops/letters" %}
-{% include url-thumbnail.html url="/examples/processing/for-loops/spiral" %}
-{% include url-thumbnail.html url="/examples/processing/for-loops/random-colors" %}
-{% include url-thumbnail.html url="/examples/processing/for-loops/2d-gradient" %}
-{% include url-thumbnail.html url="/examples/processing/for-loops/radial-gradient" %}
-{% include url-thumbnail.html url="/examples/processing/for-loops/corner-gradient" %}
-{% include url-thumbnail.html url="/examples/processing/for-loops/bouncing-gradient" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/random-circles" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/letters" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/spiral" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/random-colors" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/2d-gradient" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/radial-gradient" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/corner-gradient" %}
+{% include url-thumbnail.html url="/tutorials/processing/for-loops/bouncing-gradient" %}
 
 ---
 

@@ -2,13 +2,16 @@
 layout: tutorial
 title: Random Colors
 slug: random-colors
-thumbnail: /examples/processing/for-loops/images/random-colors-1.png
+thumbnail: /tutorials/processing/for-loops/images/random-colors-1.png
 tagline: Make every pixel a different color.
 meta-title: Random Colors
 meta-description: This example uses nested for loops to make every pixel a random color.
-meta-image: /examples/processing/for-loops/images/random-colors-2.png
+meta-image: /tutorials/processing/for-loops/images/random-colors-2.png
 tags: [example, processing, for-loop]
 sort-key: 710
+previousPost: /tutorials/processing/for-loops
+redirect_from: /examples/processing/for-loops/random-colors
+discourseEmbedUrl: /examples/processing/for-loops/random-colors
 ---
 
 ```java
@@ -32,7 +35,7 @@ void draw() {
 
 This code uses a nested `for` loop to loop over every pixel in the window. For each pixel, it creates a random color and draws a point with that color at that pixel.
 
-![random colors](/examples/processing/for-loops/images/random-colors-1.png)
+![random colors](/tutorials/processing/for-loops/images/random-colors-1.png)
 
 {% include codepen.html slug-hash="ALQopv" height="175" %}
 
