@@ -2,13 +2,16 @@
 layout: tutorial
 title: Random Synthesizer
 slug: random-synthesizer
-thumbnail: /examples/processing/libraries/images/random-synthesizer-1.png
+thumbnail: /tutorials/processing/libraries/images/random-synthesizer-1.png
 tagline: Use the Minim library to play random synthesizer notes.
 meta-title: Random Synthesizer
 meta-description: Use the Minim library to play random synthesizer notes.
-meta-image: /examples/processing/libraries/images/random-synthesizer-2.png
+meta-image: /tutorials/processing/libraries/images/random-synthesizer-2.png
 tags: [example, processing, library]
 sort-key: 1420
+previousPost: /tutorials/processing/libraries
+redirect_from: /examples/processing/libraries/random-synthesizer
+discourseEmbedUrl: /examples/processing/libraries/random-synthesizer
 ---
 
 This code uses the [Minim](http://code.compartmental.net/tools/minim/) library, which makes it possible to play sounds from Processing.
@@ -47,12 +50,12 @@ void draw() {
 The result is a random "song" that sounds like this:
 
 <audio controls>
-	<source src="/examples/processing/libraries/data/random-synthesizer.mp3" type="audio/mpeg">
+	<source src="/tutorials/processing/libraries/data/random-synthesizer.mp3" type="audio/mpeg">
 </audio>
 
 Oh and then just for fun, I'm drawing a randomly colored line with an X value based on the frequency of the note.
 
-![lines](/examples/processing/libraries/images/random-synthesizer-3.png)
+![lines](/tutorials/processing/libraries/images/random-synthesizer-3.png)
 
 ## Tweak Ideas
 

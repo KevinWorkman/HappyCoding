@@ -119,6 +119,6 @@ sort-key: 100
 
 # Libraries
 
-{% include url-thumbnail.html url="/examples/processing/libraries/random-synthesizer" %}
-{% include url-thumbnail.html url="/examples/processing/libraries/notes-recorder" %}
-{% include url-thumbnail.html url="/examples/processing/libraries/random-piano" %}
+{% include url-thumbnail.html url="/tutorials/processing/libraries/random-synthesizer" %}
+{% include url-thumbnail.html url="/tutorials/processing/libraries/notes-recorder" %}
+{% include url-thumbnail.html url="/tutorials/processing/libraries/random-piano" %}

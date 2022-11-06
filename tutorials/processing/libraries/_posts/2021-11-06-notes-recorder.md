@@ -1,13 +1,16 @@
 ---
 layout: tutorial
 title: Notes Recorder
-thumbnail: /examples/processing/libraries/images/random-synthesizer-1.png
+thumbnail: /tutorials/processing/libraries/images/random-synthesizer-1.png
 tagline: Use Minim to play and record notes.
 meta-title: Notes Recorder - Processing Example
 meta-description: Use Minim to play and record notes.
-meta-image: /examples/processing/libraries/images/random-synthesizer-2.png
+meta-image: /tutorials/processing/libraries/images/random-synthesizer-2.png
 tags: [example, processing, library, minim]
 sort-key: 1420
+previousPost: /tutorials/processing/libraries
+redirect_from: /examples/processing/libraries/notes-recorder
+discourseEmbedUrl: /examples/processing/libraries/notes-recorder
 ---
 
 This code uses the [Minim](http://code.compartmental.net/tools/minim/) library to play and record random notes.
@@ -76,7 +79,7 @@ void draw() {
 The result is a random "song" that sounds like this:
 
 <audio controls>
-  <source src="/examples/processing/libraries/data/random-synthesizer.mp3" type="audio/mpeg">
+  <source src="/tutorials/processing/libraries/data/random-synthesizer.mp3" type="audio/mpeg">
 </audio>
 
 This code builds on the [random synthesizer](/examples/processing/libraries/random-synthesizer) example, as well as [Minim's AudioRecorder example](http://code.compartmental.net/minim/audiorecorder_class_audiorecorder.html).

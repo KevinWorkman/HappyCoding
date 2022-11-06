@@ -2,13 +2,16 @@
 layout: tutorial
 title: Random Piano
 slug: random-piano
-thumbnail: /examples/processing/libraries/images/random-piano-1.png
+thumbnail: /tutorials/processing/libraries/images/random-piano-1.png
 tagline: Use the Minim library to play random piano notes.
 meta-title: Random Piano
 meta-description: Use the Minim library to play random piano notes.
-meta-image: /examples/processing/libraries/images/random-piano-2.png
+meta-image: /tutorials/processing/libraries/images/random-piano-2.png
 tags: [example, processing, library]
 sort-key: 1410
+previousPost: /tutorials/processing/libraries
+redirect_from: /examples/processing/libraries/random-piano
+discourseEmbedUrl: /examples/processing/libraries/random-piano
 ---
 
 This code uses the [Minim](http://code.compartmental.net/tools/minim/) library, which makes it possible to play sounds from Processing.
@@ -31,13 +34,13 @@ void setup()
   for (int i = 0; i < notes.length; i++) {
     notes[i] = minim.loadFile("notes/" + i + ".mp3");
   }
-  
+
   frameRate(2);
 }
 
 
 void draw(){
-  
+
   background(0);
 
   int i = int(random(notes.length));
@@ -49,10 +52,10 @@ void draw(){
 I load the sound files into an array, and then I play a random note two times per second. The result is a random "song" that sounds like this:
 
 <audio controls>
-	<source src="/examples/processing/libraries/data/piano.mp3" type="audio/mpeg">
+	<source src="/tutorials/processing/libraries/data/piano.mp3" type="audio/mpeg">
 </audio>
 
-The sketch, including the sound files, can be downloaded [here](/examples/processing/libraries/data/RandomPiano.zip).
+The sketch, including the sound files, can be downloaded [here](/tutorials/processing/libraries/data/RandomPiano.zip).
 
 ## Tweak Ideas
 
