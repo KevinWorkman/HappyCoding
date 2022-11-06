@@ -4,7 +4,7 @@ title: Twitter Cards and Open Graph
 slug: twitter-cards-and-open-graph
 meta-title: Twitter Cards and Open Graph
 meta-description: Ever wonder how sites like Twitter and Facebook figure out what to show when you share a link?
-meta-image: /examples/processing/creating-classes/images/flyers-4.png
+meta-image: /tutorials/processing/creating-classes/images/flyers-4.png
 tags: [site-update]
 ---
 
@@ -39,7 +39,7 @@ For example, Twitter uses [Twitter Cards](https://dev.twitter.com/cards/overview
 <meta name="twitter:site" content="@TheKevinWorkman">
 <meta name="twitter:creator" content="@TheKevinWorkman">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="http://HappyCoding.io/examples/processing/creating-classes/images/flyers-4.png" />
+<meta property="twitter:image" content="http://HappyCoding.io/tutorials/processing/creating-classes/images/flyers-4.png" />
 <meta name="twitter:title" content="Twitter Cards and Open Graph">
 <meta property="twitter:description" content="Ever wonder how Twitter and Facebook figure out what to show when you share a link?" />
 ```
@@ -53,7 +53,7 @@ Similarly, Facebook uses [Open Graph](https://developers.facebook.com/docs/shari
 ```html
 <meta property="og:url" content="http://HappyCoding.io/blog/twitter-cards-and-open-graph" />
 <meta property="og:site_name" content="Happy Coding" />
-<meta property="og:image" content="http://HappyCoding.io/examples/processing/creating-classes/images/flyers-4.png" />
+<meta property="og:image" content="http://HappyCoding.io/tutorials/processing/creating-classes/images/flyers-4.png" />
 <meta property="og:title" content="Twitter Cards and Open Graph" />
 <meta property="og:description" content="Ever wonder how Twitter and Facebook figure out what to show when you share a link?" />
 ```

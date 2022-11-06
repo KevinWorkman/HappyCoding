@@ -98,8 +98,8 @@ sort-key: 100
 
 # Creating Classes
 
-{% include url-thumbnail.html url="/examples/processing/creating-classes/flyers" %}
-{% include url-thumbnail.html url="/examples/processing/creating-classes/flocking" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-classes/flyers" %}
+{% include url-thumbnail.html url="/tutorials/processing/creating-classes/flocking" %}
 
 ---
 
