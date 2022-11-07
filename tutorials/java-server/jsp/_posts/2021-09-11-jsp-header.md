@@ -8,6 +8,9 @@ meta-title: JSP Header
 meta-description: Use Jakara Server Pages to show a header on every page.
 meta-image: /tutorials/java-server/images/jsp-8.png
 tags: [example, java, server, jsp]
+previousPost: /tutorials/java-server/jsp
+redirect_from: /examples/java-server/jsp-header
+discourseEmbedUrl: /examples/java-server/jsp-header
 ---
 
 This example uses [JSP](/tutorials/java-server/jsp) to show a header on every page.
