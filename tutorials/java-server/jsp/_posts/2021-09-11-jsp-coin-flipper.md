@@ -8,6 +8,9 @@ meta-title: JSP Coin Flipper
 meta-description: Use Jakara Server Pages to flip a coin.
 meta-image: /tutorials/java-server/images/jsp-8.png
 tags: [example, java, server, jsp]
+previousPost: /tutorials/java-server/jsp
+redirect_from: /examples/java-server/jsp-coin-flipper
+discourseEmbedUrl: /examples/java-server/jsp-coin-flipper
 ---
 
 This example uses [JSP](/tutorials/java-server/jsp) to flip a coin:
@@ -36,4 +39,3 @@ This example uses [JSP](/tutorials/java-server/jsp) to flip a coin:
 
 - [View this project on GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/jsp-coin-flipper)
 - [Download this project from DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/jsp-coin-flipper)
-
