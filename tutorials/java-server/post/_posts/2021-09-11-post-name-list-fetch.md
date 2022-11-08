@@ -8,6 +8,9 @@ meta-title: Name List - Fetch
 meta-description: Use the fetch function to show a list of names.
 meta-image: /tutorials/java-server/images/post-10.png
 tags: [example, java, server, servlets, post, fetch]
+previousPost: /tutorials/java-server/post
+redirect_from: /examples/java-server/post-name-list-fetch
+discourseEmbedUrl: /examples/java-server/post-name-list-fetch
 ---
 
 This example uses [the fetch function](/tutorials/javascript/fetch) and [POST requests](/tutorials/java-server/post) to get the user's name, and to show a list of every entered name.
