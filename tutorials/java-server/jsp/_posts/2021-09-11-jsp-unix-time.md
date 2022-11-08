@@ -5,9 +5,12 @@ thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use JSP to show the current Unix time.
 sort-key: 300
 meta-title: JSP Unix Time
-meta-description: Use Jakara Server Pages to show the current Unix time.
+meta-description: Use Jakarta Server Pages to show the current Unix time.
 meta-image: /tutorials/java-server/images/jsp-8.png
 tags: [example, java, server, jsp]
+previousPost: /tutorials/java-server/jsp
+redirect_from: /examples/java-server/jsp-unix-time
+discourseEmbedUrl: /examples/java-server/jsp-unix-time
 ---
 
 This example uses [JSP](/tutorials/java-server/jsp) to show the current Unix time.
