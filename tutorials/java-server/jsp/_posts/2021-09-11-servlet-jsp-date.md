@@ -1,13 +1,16 @@
 ---
 layout: tutorial
-title: Servlet JSP Date (Hidden JSP)
+title: Servlet JSP Date
 thumbnail: /tutorials/java-server/images/jsp-7.png
-tagline: Use servlets and JSP to show today's date while hiding the JSP file.
-sort-key: 360
-meta-title: Servlet JSP Date (Hidden JSP)
-meta-description: Use servlets and Jakara Server Pages to show today's date while hiding the JSP file.
+tagline: Use servlets and JSP to show today's date.
+sort-key: 350
+meta-title: Servlet JSP Date
+meta-description: Use servlets and Jakara Server Pages to show today's date.
 meta-image: /tutorials/java-server/images/jsp-8.png
 tags: [example, java, server, servlets, jsp]
+previousPost: /tutorials/java-server/jsp
+redirect_from: /examples/java-server/servlet-jsp-date
+discourseEmbedUrl: /examples/java-server/servlet-jsp-date
 ---
 
 This example uses [servlets](/tutorials/java-server/servlets) and [JSP](/tutorials/java-server/jsp) to show today's date.
@@ -39,7 +42,7 @@ public class DateServlet extends HttpServlet {
     String formattedDate = dateFormat.format(now);
 
     request.setAttribute("date", formattedDate);
-    request.getRequestDispatcher("/WEB-INF/date-view.jsp").forward(request,response);
+    request.getRequestDispatcher("/date-view.jsp").forward(request,response);
   }
 }
 ```
@@ -59,11 +62,9 @@ public class DateServlet extends HttpServlet {
 </html>
 ```
 
-**Note:** Because the `date-view.jsp` file is inside the `WEB-INF` directory, the user can't access it directly.
-
 ![today's date](/tutorials/java-server/images/jsp-9.png)
 
 ---
 
-- [View this project on GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/servlet-jsp-date-v2)
-- [Download this project from DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/servlet-jsp-date-v2)
+- [View this project on GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/servlet-jsp-date)
+- [Download this project from DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/servlet-jsp-date)
