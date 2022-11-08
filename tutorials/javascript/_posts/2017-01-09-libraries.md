@@ -17,9 +17,13 @@ updated: 2022-02-13
 
 {% include toc.md %}
 
-Now you know how to write JavaScript code, and how to use functions like `getElementById()` to make your webpage interactive. You also know how to use `for` loops and arrays.
+Now you know how to write JavaScript code, and how to use functions like `getElementById()` to make your webpage interactive.
 
 This tutorial introduces JavaScript libraries, which lets you take advantage of code that's already written by other people.
+
+{% include youtube-embed.html slug="I43YG2H10iQ" %}
+
+---
 
 # Loading JavaScript
 
@@ -111,7 +115,7 @@ p5.js is a JavaScript library that helps you create animated, interactive webpag
 </html>
 ```
 
-{% include codepen-new.html slug-hash="PobMamd" height="300" %}
+{% include codepen-vertical.html slug-hash="PobMamd" height="700" %}
 
 This file first loads the p5.js JavaScript library:
 
@@ -184,7 +188,7 @@ Here's the same example using the SweetAlert library:
 </html>
 ```
 
-{% include codepen-new.html slug-hash="xxRvzrg" height="300" %}
+{% include codepen-vertical.html slug-hash="xxRvzrg" height="500" autoplay=true %}
 
 ![beautiful alert](/tutorials/javascript/images/libraries-5.png)
 
