@@ -8,6 +8,9 @@ meta-title: Name List - JSP
 meta-description: Use POST requests and JSP to show a list of names.
 meta-image: /tutorials/java-server/images/post-10.png
 tags: [example, java, server, servlets, post, jsp]
+previousPost: /tutorials/java-server/post
+redirect_from: /examples/java-server/post-name-list-jsp
+discourseEmbedUrl: /examples/java-server/post-name-list-jsp
 ---
 
 This example uses an HTML form to create a [POST request](/tutorials/java-server/post) containing the user's name, and then uses [JSP](/tutorials/java-server/jsp) to show a list of all of the entered names.

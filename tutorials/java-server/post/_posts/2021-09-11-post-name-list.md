@@ -8,6 +8,9 @@ meta-title: Name List
 meta-description: Use POST requests to show a list of names.
 meta-image: /tutorials/java-server/images/post-10.png
 tags: [example, java, server, servlets, post]
+previousPost: /tutorials/java-server/post
+redirect_from: /examples/java-server/post-name-list
+discourseEmbedUrl: /examples/java-server/post-name-list
 ---
 
 This example uses an HTML form to create a [POST request](/tutorials/java-server/post) containing the user's name, and then shows a list of all of the entered names.
