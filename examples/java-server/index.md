@@ -60,10 +60,10 @@ These examples build out a social feed website that shows a feed of updates from
 {% include url-thumbnail.html url="/tutorials/java-server/post/post-name-list" %}
 {% include url-thumbnail.html url="/tutorials/java-server/post/post-name-list-jsp" %}
 {% include url-thumbnail.html url="/tutorials/java-server/post/post-name-list-fetch" %}
-{% include url-thumbnail.html url="/tutorials/java-server/user-input-unsanitized" %}
 
 ---
 
-# Libraries
+# Sanitizing User Input
 
-{% include url-thumbnail.html url="/examples/java-server/user-input-escaped" %}
+{% include url-thumbnail.html url="/tutorials/java-server/sanitizing-user-input/user-input-unsanitized" %}
+{% include url-thumbnail.html url="/tutorials/java-server/sanitizing-user-input/user-input-escaped" %}

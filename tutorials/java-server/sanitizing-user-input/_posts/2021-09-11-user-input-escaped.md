@@ -8,6 +8,9 @@ meta-title: Escaping User Input
 meta-description: Use Apache Commons Text to escape user input.
 meta-image: /tutorials/java-server/images/libraries-6.png
 tags: [example, java, server, servlets, post, libraries]
+previousPost: /tutorials/java-server/sanitizing-user-input
+redirect_from: /examples/java-server/user-input-escaped
+discourseEmbedUrl: /examples/java-server/user-input-escaped
 ---
 
 This example uses an the Apache Commons Text library to escape user input. Learn more in the [java server libraries tutorial](/tutorials/java-server/libraries).

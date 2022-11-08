@@ -8,6 +8,9 @@ meta-title: Unsanitized User Input
 meta-description: See what happens when you don't sanitize user input.
 meta-image: /tutorials/java-server/images/post-10.png
 tags: [example, java, server, servlets, post]
+previousPost: /tutorials/java-server/sanitizing-user-input
+redirect_from: /examples/java-server/user-input-unsanitized
+discourseEmbedUrl: /examples/java-server/user-input-unsanitized
 ---
 
 This example uses an HTML form to create a [POST request](/tutorials/java-server/post) containing the user's name.
