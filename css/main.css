@@ -105,16 +105,26 @@ nav {
   justify-content: space-around;
 }
 
+#content-and-comments {
+  vertical-align: top;
+}
+
 .content {
   background-color: #fbfbfb;
   border: thin solid #323232;
   padding: 25px;
-  vertical-align: top;
 
   /* If text isn't wide enough, still stretch. */
   flex-grow: 1;
   /* Prevent code blocks from making content wider than container. */
   max-width: calc(100% - 50px);
+}
+
+#comments {
+    background-color: #fbfbfb;
+    border: thin solid #323232;
+    padding: 25px;
+    margin-top: 50px;
 }
 
 @media screen and (min-width: 400px) {
@@ -135,8 +145,8 @@ nav {
     width: 150px;
   }
 
-  .content {
-    width: 750px;
+  #content-and-comments {
+    width: 800px;
   }
 
   .nav-link {

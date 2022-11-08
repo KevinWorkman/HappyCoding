@@ -1,5 +1,6 @@
 ---
 layout: default
+include_comments: true
 ---
 
 <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
@@ -13,8 +14,6 @@ layout: default
 <p>{{ page.date | date: "%B %-d, %Y" }}</p>
 {% endif %}
 
-<hr />
+<hr>
 
 {{ content }}
-
-{% include comments.html %}

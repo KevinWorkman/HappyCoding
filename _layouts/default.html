@@ -45,7 +45,8 @@
       <div class="left-nav-and-content">
   {% include left-nav.html %}
 
-        <div class="content">
+        <div id="content-and-comments">
+          <div class="content">
 
   {%- assign breadcrumb = page.url | split: '/' -%}
   {%- unless breadcrumb.size < 3 %}
@@ -67,7 +68,13 @@
 
   {% include previous-next-links.html bottom=true %}
 
-        </div> <!-- end content -->
+          </div> <!-- end content -->
+
+  {% if layout.include_comments %}
+ {% include comments.html %}
+ {% endif %}
+        </div> <!-- end content-and-comments -->
+
       </div> <!-- end left-nav-and-content -->
 
       <footer>

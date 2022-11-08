@@ -3,31 +3,35 @@
   {% assign discourseEmbedUrl = page.url %}
 {% endunless %}
 
-<h1>Comments</h1>
+<div id="comments">
 
-<p>
-  Happy Coding is a community of folks just like you learning about coding.
-  <br>
-  Do you have a comment or question? Post it here!
-</p>
+  <h1>Comments</h1>
 
-<div id='discourse-comments'></div>
+  <p>
+    Happy Coding is a community of folks just like you learning about coding.
+    <br>
+    Do you have a comment or question? Post it here!
+  </p>
 
-<p style="font-size: small;">
-  Comments are powered by the <a href="https://forum.happycoding.io">Happy Coding forum</a>. This page has a corresponding forum post, and replies to that post show up as comments here. Click the button above to go to the forum to post a comment!
-</p>
+  <div id='discourse-comments'></div>
 
-<script type="text/javascript">
-DiscourseEmbed = {
-	discourseUrl: 'https://forum.happycoding.io/',
-	discourseEmbedUrl: 'https://happycoding.io{{discourseEmbedUrl}}'
-};
+  <p style="font-size: small;">
+    Comments are powered by the <a href="https://forum.happycoding.io">Happy Coding forum</a>. This page has a corresponding forum post, and replies to that post show up as comments here. Click the button above to go to the forum to post a comment!
+  </p>
 
-(function() {
-  var d = document.createElement('script');
-  d.type = 'text/javascript';
-  d.async = true;
-  d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-  document.getElementsByTagName('head')[0].appendChild(d);
-})();
-</script>
+  <script type="text/javascript">
+    DiscourseEmbed = {
+    	discourseUrl: 'https://forum.happycoding.io/',
+    	discourseEmbedUrl: 'https://happycoding.io{{discourseEmbedUrl}}'
+    };
+
+    (function() {
+      var d = document.createElement('script');
+      d.type = 'text/javascript';
+      d.async = true;
+      d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+      document.getElementsByTagName('head')[0].appendChild(d);
+    })();
+  </script>
+
+</div>
