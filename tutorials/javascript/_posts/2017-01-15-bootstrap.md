@@ -10,7 +10,7 @@ meta-image: /tutorials/html/javascript/bootstrap-2.png
 tags: [tutorial, javascript, css, bootstrap]
 previousPost: /tutorials/javascript/fetch
 nextPost: /tutorials/javascript/
-updated: 2022-03-09
+updated: 2022-11-08
 ---
 
 {% include toc.md %}
@@ -29,8 +29,8 @@ Bootstrap is really two things:
 To use Bootstrap, load both the Bootstrap CSS and the Bootstrap JavaScript library:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
 Now that you've loaded the CSS and the JavaScript, you can use both in your page. Let's talk about them one at a time:
@@ -43,11 +43,11 @@ Bootstrap provides a `.css` file with a bunch of style rules that you can use to
 
 For example, look at this page that contains **unstyled** content:
 
-{% include codepen-new.html slug-hash="VPKWrG" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="VPKWrG" height=825 autoplay=true %}
 
 I've set the `class` attribute of some of these elements, but I haven't written any styles for those classes, so everything has the default styling. At this point I could write a `.css` file that styles the content. Or I could use the `.css` file that Bootstrap provides!
 
-{% include codepen-new.html slug-hash="qRajxo" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="qRajxo" height=950 autoplay=true %}
 
 The only thing that changed is I've added the Bootstrap CSS file (and the Bootstrap JavaScript, which doesn't do anything yet). In that CSS, Bootstrap contains styles for the classes I used.
 
@@ -59,13 +59,13 @@ The other half of Bootstrap is its JavaScript library, which contains objects an
 
 Let's start with the HTML, without loading Bootstrap:
 
-{% include codepen-new.html slug-hash="YzEobMV" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="YzEobMV" height=775 autoplay=true %}
 
 This HTML contains a `<div class="dropdown">` element, which contains a `<button>` and a `<ul>` list. Without Bootstrap, those elements are not interactive, and certainly don't show a dropdown.
 
 But if you add Bootstrap:
 
-{% include codepen-new.html slug-hash="zNKzep" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="zNKzep" height=950 autoplay=true %}
 
 The HTML itself has not changed, but now the code loads Bootstrap's CSS and JavaScript. Bootstrap's CSS styles the elements to look like a dropdown, and Bootstrap's JavaScript automatically adds a click listener to the `<button>` to toggle the visibility of the list when it's clicked.
 
@@ -87,7 +87,7 @@ The `container` class lets the content in your website "snap" to certain widths 
 
 Here's an example:
 
-{% include codepen-new.html slug-hash="GrjMqE" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="GrjMqE" height=800 autoplay=true %}
 
 Try [opening this code up in its own window](https://codepen.io/KevinWorkman/pen/GrjMqE) and then changing the width of the window to see the container "snap" to different widths. This lets you create a responsive webpage without worrying about any styling yourself.
 
@@ -95,7 +95,7 @@ Try [opening this code up in its own window](https://codepen.io/KevinWorkman/pen
 
 To create a navigation bar, you can use a `<nav>` tag with the `navbar` class, then a `<ul>` tag with the `navbar-nav` class.
 
-{% include codepen-new.html slug-hash="rjMgxR" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="rjMgxR" height=600 autoplay=true %}
 
 (The navigation bar is automatically turned into a vertical menu if it doesn't have enough width, so try [opening this in a new window](https://codepen.io/KevinWorkman/pen/rjMgxR).)
 
@@ -107,15 +107,15 @@ Bootstrap contains a grid layout system that lets you organize your content usin
 
 By default, each row takes up 100% of the container width, and then each column in a row takes up an equal share of the row's width.
 
-Here's an example with  four rows, each with a different number of columns.
+Here's an example with four rows, each with a different number of columns.
 
-{% include codepen-new.html slug-hash="rNYEXYp" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="rNYEXYp" height=600 autoplay=true %}
 
 Within each row, each column takes up an equal share of the available width.
 
 Bootstrap divides each row into 12 "template columns", and by default, the `col` class will take up an equal share of those 12 template columns. But you can change that by using the `col-N` classes, where `N` is a number between `1` and `12`. Here's an example:
 
-{% include codepen-new.html slug-hash="LYOKwBq" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="LYOKwBq" height=600 autoplay=true %}
 
 Now each row has columns that take up different amounts of template columns. Here are a couple things to notice:
 
@@ -126,7 +126,7 @@ Now each row has columns that take up different amounts of template columns. Her
 
 You can use Bootstrap's grid layout to organize your page into sections. Here's an example:
 
-{% include codepen-new.html slug-hash="GrjbKd" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="GrjbKd" height=625 autoplay=true %}
 
 This page splits the page up into three columns: one for the left nav, one for the main content, and another for the right nav.
 
@@ -138,7 +138,7 @@ As you've seen, Bootstrap provides its own CSS styles. But you aren't stuck with
 
 You can add your own CSS rules for any Bootstrap class to create your own custom style. Keep in mind the **cascading** part of CSS, which means that your styles will be combined with the styles from the main Bootstrap CSS.
 
-{% include codepen-new.html slug-hash="gOXVYaw" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="gOXVYaw" height=600 autoplay=true %}
 
 This example uses Bootstrap for most of the styling, but adds some custom styling in its own `<style>` tag. These styles then cascade on top of Bootstrap's styles to create the end result.
 
@@ -152,11 +152,11 @@ To use a theme, instead of loading Bootstrap's default `.css` file, you load a d
 
 Here's an example page that uses Bootstrap's default styles, aka the default theme:
 
-{% include codepen-new.html slug-hash="qRajxo" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="qRajxo" height=950 autoplay=true %}
 
 And here is that same page using the [Cyborg Theme](https://bootswatch.com/cyborg/) from [Bootswatch](https://bootswatch.com/):
 
-{% include codepen-new.html slug-hash="YzEmKpw" height=400 autoplay=true %}
+{% include codepen-vertical.html slug-hash="YzEmKpw" height=950 autoplay=true %}
 
 Notice that the only thing that really changed is the `.css` file that's loaded in the `<head>` section. This `.css` file defines all of the classes that Bootstrap uses, but with different styles than the default `.css` file. You can download the `.css` file or view it in your browser here: [https://bootswatch.com/5/cyborg/bootstrap.css](https://bootswatch.com/5/cyborg/bootstrap.css)
 
