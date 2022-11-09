@@ -44,6 +44,8 @@ Then, learn about a specific JavaScript library named Bootstrap:
 
 Now you know how to use libraries in your code, including Bootstrap. To practice that, you're going to use Bootstrap to create a webpage for a fake business.
 
+{% include youtube-embed.html slug="bHabiG3_TQk" %}
+
 The business can be real, imaginary, or aspirational. You can reuse your business from week 10, or you can use a different one.
 
 Your code should contain the following:
