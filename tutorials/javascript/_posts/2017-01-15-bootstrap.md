@@ -19,6 +19,10 @@ Now you know how to use HTML to create a webpage, how to style it with CSS, and 
 
 This tutorial introduces Bootstrap, which is a JavaScript library and a set of CSS styles you can use in your own webpages.
 
+{% include youtube-embed.html slug="iUnfLZg-NvY" %}
+
+---
+
 # Bootstrap
 
 Bootstrap is really two things:
