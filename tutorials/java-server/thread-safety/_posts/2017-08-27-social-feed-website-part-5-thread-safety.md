@@ -8,7 +8,11 @@ meta-title: "Social Feed Website Part 5: Thread Safety"
 meta-description: Let multiple users post messages safely.
 meta-image: /examples/java-server/images/social-feed-website-part-5-thread-safety-8.png
 tags: [example, java, server, jsp, post, sessions, thread-safety]
-redirect_from: /examples/java-server/thread-safety/social-feed-website
+redirect_from:
+ - /examples/java-server/thread-safety/social-feed-website
+ - /examples/java-server/social-feed-website-part-5-thread-safety
+previousPost: /tutorials/java-server/thread-safety
+discourseEmbedUrl: /examples/java-server/social-feed-website-part-5-thread-safety
 ---
 
 This code expands the [social feed website example](/examples/java-server/sessions/social-feed-website) (I recommend reading that before this) and examines its thread safety to allow multiple users to post messages at the same time, to create an example of a social feed web app like Twitter, Tumblr, or Facebook.
@@ -36,7 +40,7 @@ Specifically, let's add a call to `Thread.sleep()` in the code that renders the 
 <html>
 <head>
 	<title>Social Feed Web App</title>
-	
+
 	<script src="/js/jquery-2.2.4.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
@@ -55,7 +59,7 @@ Specifically, let's add a call to `Thread.sleep()` in the code that renders the 
 			<% } %>
 		</ul>
 	</nav>
-	
+
 	<% if(request.getSession().getAttribute("user") != null){ %>
 		<h1>New Message</h1>
 		<form action="/feed/" method="POST">	  	
@@ -63,16 +67,16 @@ Specifically, let's add a call to `Thread.sleep()` in the code that renders the 
 		  		<label class="form-control-label">Message:</label>
 				<textarea name="message" class="form-control"></textarea>
 			</div>
-			
+
 			<button type="submit" class="btn btn-primary">Send</button>
 		</form>
-		
+
 		<hr/>
 	<% } %>
-	
+
 	<h1><%= request.getAttribute("title") %></h1>
 
-	<% 
+	<%
 	List<Post> posts = (List<Post>)request.getAttribute("posts");
 	if(posts == null || posts.isEmpty()){
 	%>
@@ -80,21 +84,21 @@ Specifically, let's add a call to `Thread.sleep()` in the code that renders the 
 	<%
 	}
 	else{
-		for(Post post : posts){ 
+		for(Post post : posts){
 			Thread.sleep(5000);
 	%>
 			<div class="panel panel-default">
 				<div class="panel-heading"><h4><a href="/feed/<%= post.getUser() %>"><%= post.getUser() %></a></h4></div>
 				<div class="panel-body"><%= post.getMessage() %></div>
 				<div class="panel-footer">at <%= post.getDate().toString() %></div>
-			
+
 			</div>
 	<%
-		} 
+		}
 	}
 	%>
 </div>
-		
+
 </body>
 </html>
 ```
@@ -149,29 +153,29 @@ import org.jsoup.safety.Whitelist;
 import feed.data.Post;
 
 public class FeedServlet extends HttpServlet {
-	
+
 	/**
 	 * All of the posts, ordered by time. New messages at the
 	 * beginning, old messages at the end. We're using a ConcurrentLinkedDeque
 	 * so inserting at the beginning is very fast and it's thread-safe.
 	 */
 	private ConcurrentLinkedDeque<Post> postsByTime = new ConcurrentLinkedDeque<>();
-	
+
 	/**
 	 * Map of user names to posts made by that user.
 	 */
 	private Map<String, ConcurrentLinkedDeque<Post>> postsByUser = new HashMap<>();
-	
+
 	/**
 	 * Adds a post to the postsByTime and postsByUser data structures.
 	 */
 	private void addPost(String user, String message, long time){
-		
+
 		String sanitizedMessage = Jsoup.clean(message, Whitelist.none());
-		
+
 		Post post = new Post(user, sanitizedMessage, new Date(time));
 		postsByTime.addFirst(post);
-		
+
 		if(!postsByUser.containsKey(user)){
 			postsByUser.put(user, new ConcurrentLinkedDeque<>());
 		}
@@ -182,27 +186,27 @@ public class FeedServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		String requestUrl = request.getRequestURI();
 		String user = requestUrl.substring("/feed/".length());
-		
+
 		if("".equals(user)){
 			request.setAttribute("title", "All Posts");
 			request.setAttribute("posts", postsByTime);
-		} 
+		}
 		else{
 			request.setAttribute("title", "Posts by " +  Jsoup.clean(user, Whitelist.none()));
-			
+
 			if(postsByUser.containsKey(user)){
 				request.setAttribute("posts", postsByUser.get(user));
 			}
 		}
-		
+
 		request.getRequestDispatcher("/WEB-INF/jsp/feed.jsp").forward(request,response);
 	}
-	
+
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		
+
 		HttpSession session = request.getSession();
-		
+
 		String username = (String)session.getAttribute("user");
 		if(username != null){
 			String message = request.getParameter("message");
@@ -225,7 +229,7 @@ This class now uses `ConcurrentLinkedDeque` instead of a `LinkedList`. Now we ne
 <html>
 <head>
 	<title>Social Feed Web App</title>
-	
+
 	<script src="/js/jquery-2.2.4.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
@@ -244,7 +248,7 @@ This class now uses `ConcurrentLinkedDeque` instead of a `LinkedList`. Now we ne
 			<% } %>
 		</ul>
 	</nav>
-	
+
 	<% if(request.getSession().getAttribute("user") != null){ %>
 		<h1>New Message</h1>
 		<form action="/feed/" method="POST">	  	
@@ -252,16 +256,16 @@ This class now uses `ConcurrentLinkedDeque` instead of a `LinkedList`. Now we ne
 		  		<label class="form-control-label">Message:</label>
 				<textarea name="message" class="form-control"></textarea>
 			</div>
-			
+
 			<button type="submit" class="btn btn-primary">Send</button>
 		</form>
-		
+
 		<hr/>
 	<% } %>
-	
+
 	<h1><%= request.getAttribute("title") %></h1>
 
-	<% 
+	<%
 	ConcurrentLinkedDeque<Post> posts = (ConcurrentLinkedDeque<Post>)request.getAttribute("posts");
 	if(posts == null || posts.isEmpty()){
 	%>
@@ -269,21 +273,21 @@ This class now uses `ConcurrentLinkedDeque` instead of a `LinkedList`. Now we ne
 	<%
 	}
 	else{
-		for(Post post : posts){ 
+		for(Post post : posts){
 			Thread.sleep(5000);
 	%>
 			<div class="panel panel-default">
 				<div class="panel-heading"><h4><a href="/feed/<%= post.getUser() %>"><%= post.getUser() %></a></h4></div>
 				<div class="panel-body"><%= post.getMessage() %></div>
 				<div class="panel-footer">at <%= post.getDate().toString() %></div>
-			
+
 			</div>
 	<%
-		} 
+		}
 	}
 	%>
 </div>
-		
+
 </body>
 </html>
 ```
@@ -301,37 +305,37 @@ import org.mindrot.jbcrypt.BCrypt;
 public class UserDataStore {
 
 	private static UserDataStore instance = new UserDataStore();
-	
+
 	/**
 	 * Map of usernames to their hashed passwords.
 	 */
 	private Map<String, String> usernamePasswordMap = new HashMap<>();
-	
+
 	public static UserDataStore getInstance(){
 		return instance;
 	}
-	
+
 	// This class is a singleton. Call getInstance() instead.
 	private UserDataStore(){}
-	
+
 	public boolean isUsernameTaken(String username){
 		return usernamePasswordMap.containsKey(username);
 	}
-	
+
 	public void registerUser(String username, String password){
 		String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
 		usernamePasswordMap.put(username, hashedPassword);
 	}
 
 	public boolean isLoginCorrect(String username, String password) {
-		
+
 		// username isn't registered
 		if(!usernamePasswordMap.containsKey(username)){
 			return false;
 		}
-		
+
 		String storedPasswordHash = usernamePasswordMap.get(username);
-		
+
 		return BCrypt.checkpw(password, storedPasswordHash);
 	}
 }
@@ -360,37 +364,37 @@ import org.mindrot.jbcrypt.BCrypt;
 public class UserDataStore {
 
 	private static UserDataStore instance = new UserDataStore();
-	
+
 	/**
 	 * Map of usernames to their hashed passwords.
 	 */
 	private Map<String, String> usernamePasswordMap = new HashMap<>();
-	
+
 	public static UserDataStore getInstance(){
 		return instance;
 	}
-	
+
 	// This class is a singleton. Call getInstance() instead.
 	private UserDataStore(){}
-	
+
 	public synchronized boolean isUsernameTaken(String username){
 		return usernamePasswordMap.containsKey(username);
 	}
-	
+
 	public synchronized void registerUser(String username, String password){
 		String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
 		usernamePasswordMap.put(username, hashedPassword);
 	}
 
 	public synchronized boolean isLoginCorrect(String username, String password) {
-		
+
 		// username isn't registered
 		if(!usernamePasswordMap.containsKey(username)){
 			return false;
 		}
-		
+
 		String storedPasswordHash = usernamePasswordMap.get(username);
-		
+
 		return BCrypt.checkpw(password, storedPasswordHash);
 	}
 }
