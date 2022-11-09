@@ -8,6 +8,9 @@ meta-title: "Hello World Server Example: Static Website"
 meta-description: Run a server that shows a static website.
 meta-image: /tutorials/java-server/images/servlets-7.png
 tags: [example, java, server]
+previousPost: /tutorials/java-server/web-app
+redirect_from: /examples/java-server/hello-world-static-website
+discourseEmbedUrl: /examples/java-server/hello-world-static-website
 ---
 
 This example only contains a single HTML file:

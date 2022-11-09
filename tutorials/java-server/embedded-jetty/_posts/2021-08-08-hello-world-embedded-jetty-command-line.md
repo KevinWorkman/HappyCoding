@@ -8,6 +8,9 @@ meta-title: "Hello World Server Example: Embedded Jetty (Command Line)"
 meta-description: Use the command line to run an embedded Jetty server.
 meta-image: /tutorials/java-server/images/jetty-setup-4.png
 tags: [example, java, server, jetty]
+previousPost: /tutorials/java-server/embedded-jetty
+redirect_from: /examples/java-server/hello-world-embedded-jetty-command-line
+discourseEmbedUrl: /examples/java-server/hello-world-embedded-jetty-command-line
 ---
 
 This example contains an HTML file and a servlet class, as well as a class with a `main()` method that runs an embedded Jetty server.

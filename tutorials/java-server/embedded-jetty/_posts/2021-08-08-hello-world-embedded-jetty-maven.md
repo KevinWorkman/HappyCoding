@@ -8,6 +8,9 @@ meta-title: "Hello World Server Example: Embedded Jetty (Maven)"
 meta-description: Use Maven to run an embedded Jetty server.
 meta-image: /tutorials/java-server/images/jetty-setup-4.png
 tags: [example, java, server, jetty]
+previousPost: /tutorials/java-server/embedded-jetty
+redirect_from: /examples/java-server/hello-world-embedded-jetty-maven
+discourseEmbedUrl: /examples/java-server/hello-world-embedded-jetty-maven
 ---
 
 
@@ -172,7 +175,7 @@ public class ServerMain {
     // Look for annotations in the classes directory (dev server) and in the
     // jar file (live server)
     webAppContext.setAttribute(
-        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern", 
+        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern",
         ".*/target/classes/|.*\\.jar");
 
     // Start the server! 🚀

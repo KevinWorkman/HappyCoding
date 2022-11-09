@@ -8,6 +8,9 @@ meta-title: "Hello World Server Example: Command Line"
 meta-description: Use the command line to run a server.
 meta-image: /tutorials/java-server/images/servlets-7.png
 tags: [example, java, server]
+previousPost: /tutorials/java-server/web-app
+redirect_from: /examples/java-server/hello-world-command-line
+discourseEmbedUrl: /examples/java-server/hello-world-command-line
 ---
 
 This example contains an HTML file and a servlet class:

@@ -8,6 +8,9 @@ meta-title: "Hello World Server Example: Maven"
 meta-description: Use Maven to build a web app.
 meta-image: /tutorials/java-server/images/servlets-7.png
 tags: [example, java, server]
+previousPost: /tutorials/java-server/web-app
+redirect_from: /examples/java-server/hello-world-maven
+discourseEmbedUrl: /examples/java-server/hello-world-maven
 ---
 
 This example uses [Maven](https://maven.apache.org/) to build a `.war` file that can run inside a [Jetty](/tutorials/java-server/jetty-setup) or [Tomcat](/tutorials/java-server/tomcat) server.

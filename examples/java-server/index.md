@@ -22,11 +22,11 @@ redirect_from:
 
 These examples show different ways to create a barebones "hello world" server.
 
-{% include url-thumbnail.html url="/examples/java-server/hello-world-static-website" %}
-{% include url-thumbnail.html url="/examples/java-server/hello-world-command-line" %}
-{% include url-thumbnail.html url="/examples/java-server/hello-world-maven" %}
-{% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-command-line" %}
-{% include url-thumbnail.html url="/examples/java-server/hello-world-embedded-jetty-maven" %}
+{% include url-thumbnail.html url="/tutorials/java-server/web-app/hello-world-static-website" %}
+{% include url-thumbnail.html url="/tutorials/java-server/web-app/hello-world-command-line" %}
+{% include url-thumbnail.html url="/tutorials/java-server/web-app/hello-world-maven" %}
+{% include url-thumbnail.html url="/tutorials/java-server/embedded-jetty/hello-world-embedded-jetty-command-line" %}
+{% include url-thumbnail.html url="/tutorials/java-server/embedded-jetty/hello-world-embedded-jetty-maven" %}
 
 ---
 
