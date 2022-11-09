@@ -8,7 +8,11 @@ meta-title: "Social Feed Website Part 4: Sessions"
 meta-description: Let users login and create their own posts.
 meta-image: /examples/java-server/images/social-feed-website-part-5-sessions-8.png
 tags: [example, java, server, jsp, post, sessions]
-redirect_from: /examples/java-server/sessions/social-feed-website
+redirect_from:
+ - /examples/java-server/sessions/social-feed-website
+ - /examples/java-server/social-feed-website-part-4-sessions
+previousPost: /tutorials/java-server/sessions
+discourseEmbedUrl: /examples/java-server/social-feed-website-part-4-sessions
 ---
 
 This code expands the [social feed website example](/examples/java-server/post/social-feed-website) (I recommend reading that before this) and adds the ability for users to login and create their own posts to create an example of a social feed web app like Twitter, Tumblr, or Facebook.
@@ -36,26 +40,26 @@ import javax.servlet.http.HttpSession;
 import feed.data.Post;
 
 public class FeedServlet extends HttpServlet {
-	
+
 	/**
 	 * All of the posts, ordered by time. New messages at the
 	 * beginning, old messages at the end. We're using a LinkedList
 	 * so inserting at the beginning is very fast.
 	 */
 	private LinkedList<Post> postsByTime = new LinkedList<>();
-	
+
 	/**
 	 * Map of user names to posts made by that user.
 	 */
 	private Map<String, LinkedList<Post>> postsByUser = new HashMap<>();
-	
+
 	/**
 	 * Adds a post to the postsByTime and postsByUser data structures.
 	 */
 	private void addPost(String user, String message, long time){
 		Post post = new Post(user, message, new Date(time));
 		postsByTime.addFirst(post);
-		
+
 		if(!postsByUser.containsKey(user)){
 			postsByUser.put(user, new LinkedList<>());
 		}
@@ -66,27 +70,27 @@ public class FeedServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		String requestUrl = request.getRequestURI();
 		String user = requestUrl.substring("/feed/".length());
-		
+
 		if("".equals(user)){
 			request.setAttribute("title", "All Posts");
 			request.setAttribute("posts", postsByTime);
-		} 
+		}
 		else{
 			request.setAttribute("title", "Posts by " + user);
-			
+
 			if(postsByUser.containsKey(user)){
 				request.setAttribute("posts", postsByUser.get(user));
 			}
 		}
-		
+
 		request.getRequestDispatcher("/WEB-INF/jsp/feed.jsp").forward(request,response);
 	}
-	
+
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		
+
 		HttpSession session = request.getSession();
-		
+
 		String username = (String)session.getAttribute("user");
 		if(username != null){
 			String message = request.getParameter("message");
@@ -109,7 +113,7 @@ This looks pretty much the same, except the `doPost()` function now gets the use
 <html>
 <head>
 	<title>Social Feed Web App</title>
-	
+
 	<script src="/js/jquery-2.2.4.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
@@ -128,7 +132,7 @@ This looks pretty much the same, except the `doPost()` function now gets the use
 			<% } %>
 		</ul>
 	</nav>
-	
+
 	<% if(request.getSession().getAttribute("user") != null){ %>
 		<h1>New Message</h1>
 		<form action="/feed/" method="POST">	  	
@@ -136,16 +140,16 @@ This looks pretty much the same, except the `doPost()` function now gets the use
 		  		<label class="form-control-label">Message:</label>
 				<textarea name="message" class="form-control"></textarea>
 			</div>
-			
+
 			<button type="submit" class="btn btn-primary">Send</button>
 		</form>
-		
+
 		<hr/>
 	<% } %>
-	
+
 	<h1><%= request.getAttribute("title") %></h1>
 
-	<% 
+	<%
 	List<Post> posts = (List<Post>)request.getAttribute("posts");
 	if(posts == null || posts.isEmpty()){
 	%>
@@ -153,20 +157,20 @@ This looks pretty much the same, except the `doPost()` function now gets the use
 	<%
 	}
 	else{
-		for(Post post : posts){ 
+		for(Post post : posts){
 	%>
 			<div class="panel panel-default">
 				<div class="panel-heading"><h4><a href="/feed/<%= post.getUser() %>"><%= post.getUser() %></a></h4></div>
 				<div class="panel-body"><%= post.getMessage() %></div>
 				<div class="panel-footer">at <%= post.getDate().toString() %></div>
-			
+
 			</div>
 	<%
-		} 
+		}
 	}
 	%>
 </div>
-		
+
 </body>
 </html>
 ```
@@ -184,37 +188,37 @@ import org.mindrot.jbcrypt.BCrypt;
 public class UserDataStore {
 
 	private static UserDataStore instance = new UserDataStore();
-	
+
 	/**
 	 * Map of usernames to their hashed passwords.
 	 */
 	private Map<String, String> usernamePasswordMap = new HashMap<>();
-	
+
 	public static UserDataStore getInstance(){
 		return instance;
 	}
-	
+
 	// This class is a singleton. Call getInstance() instead.
 	private UserDataStore(){}
-	
+
 	public boolean isUsernameTaken(String username){
 		return usernamePasswordMap.containsKey(username);
 	}
-	
+
 	public void registerUser(String username, String password){
 		String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
 		usernamePasswordMap.put(username, hashedPassword);
 	}
 
 	public boolean isLoginCorrect(String username, String password) {
-		
+
 		// username isn't registered
 		if(!usernamePasswordMap.containsKey(username)){
 			return false;
 		}
-		
+
 		String storedPasswordHash = usernamePasswordMap.get(username);
-		
+
 		return BCrypt.checkpw(password, storedPasswordHash);
 	}
 }
@@ -237,13 +241,13 @@ public class LoginServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		request.getRequestDispatcher("/WEB-INF/jsp/login.jsp").forward(request, response);
 	}
-	
+
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-	
+
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		
+
 		if(UserDataStore.getInstance().isLoginCorrect(username, password)){
 			request.getSession().setAttribute("user", username);
 			response.sendRedirect("/feed/");
@@ -265,7 +269,7 @@ The `LoginServlet` class handles requests related to logging in. The `doGet()` f
 <html>
 <head>
 	<title>Login - Social Feed Web App</title>
-	
+
 	<script src="/js/jquery-2.2.4.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
@@ -278,7 +282,7 @@ The `LoginServlet` class handles requests related to logging in. The `doGet()` f
 			<li><a href="/feed/">Social Feed Web App</a></li>
 		</ul>
 	</nav>
-	
+
 	<h1>Login</h1>
 	<% if(request.getAttribute("loginError") != null){ %>
 		<h2 style="color:red"><%= request.getAttribute("loginError") %></h2>
@@ -289,19 +293,19 @@ The `LoginServlet` class handles requests related to logging in. The `doGet()` f
 			<label class="form-control-label">Name:</label>
 			<input type="text" name="username" class="form-control">
 		</div>
-	  	
+
 	  	<div class="form-group">
 	  		<label class="form-control-label">Password:</label>
 			<input type="password" name="password" class="form-control">
 		</div>
-		
+
 		<button type="submit" class="btn btn-primary">Login</button>
 	</form>
-	
+
 	<p>Don't have an account? Register <a href="/register">here</a>!</p>
 
 </div>
-		
+
 </body>
 </html>
 ```
@@ -323,13 +327,13 @@ public class RegisterServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		request.getRequestDispatcher("/WEB-INF/jsp/register.jsp").forward(request, response);
 	}
-	
+
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-	
+
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		
+
 		if(UserDataStore.getInstance().isUsernameTaken(username)){
 			request.setAttribute("registerError", "That username is already taken.");
 			request.getRequestDispatcher("/WEB-INF/jsp/register.jsp").forward(request,response);
@@ -352,7 +356,7 @@ This class is very similar to `LoginServlet.java`, except instead of handling lo
 <html>
 <head>
 	<title>Register - Social Feed Web App</title>
-	
+
 	<script src="/js/jquery-2.2.4.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
@@ -365,7 +369,7 @@ This class is very similar to `LoginServlet.java`, except instead of handling lo
 			<li><a href="/feed/">Social Feed Web App</a></li>
 		</ul>
 	</nav>
-	
+
 	<h1>Register</h1>
 	<% if(request.getAttribute("registerError") != null){ %>
 		<h2 style="color:red"><%= request.getAttribute("registerError") %></h2>
@@ -376,17 +380,17 @@ This class is very similar to `LoginServlet.java`, except instead of handling lo
 			<label class="form-control-label">Name:</label>
 			<input type="text" name="username" class="form-control">
 		</div>
-	  	
+
 	  	<div class="form-group">
 	  		<label class="form-control-label">Password:</label>
 			<input type="password" name="password" class="form-control">
 		</div>
-		
+
 		<button type="submit" class="btn btn-primary">Register</button>
 	</form>
 
 </div>
-		
+
 </body>
 </html>
 ```
@@ -438,7 +442,7 @@ Finally, we need to allow users to logout. Clicking the `Logout` button triggers
 		<servlet-name>LoginServlet</servlet-name>
 		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
 		<servlet-name>LogoutServlet</servlet-name>
 		<servlet-class>LogoutServlet</servlet-class>
@@ -448,7 +452,7 @@ Finally, we need to allow users to logout. Clicking the `Logout` button triggers
 		<servlet-name>LogoutServlet</servlet-name>
 		<url-pattern>/logout</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
 		<servlet-name>RegisterServlet</servlet-name>
 		<servlet-class>RegisterServlet</servlet-class>
