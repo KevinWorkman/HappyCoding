@@ -8,8 +8,11 @@ meta-title: "Social Feed Website Part 1: Servlets"
 meta-description: Use servlets to show user posts.
 meta-image: /examples/java-server/images/social-feed-website-part-1-servlets-4.png
 tags: [example, java, server, servlets]
-redirect_from: /examples/java-server/servlets/social-feed-website
-
+redirect_from:
+ - /examples/java-server/servlets/social-feed-website
+ - /examples/java-server/social-feed-website-part-1-servlets
+previousPost: /tutorials/java-server/servlets
+discourseEmbedUrl: /examples/java-server/social-feed-website-part-1-servlets
 ---
 
 This example uses a servlet to create a barebones example of a social feed web app like Twitter, Tumblr, or Facebook.
@@ -32,25 +35,25 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class FeedServlet extends HttpServlet {
-	
+
 	/**
 	 * All of the posts, ordered by time. Old messages at the
 	 * beginning, new messages at the end.
 	 */
 	private List<Post> postsByTime = new ArrayList<>();
-	
+
 	/**
 	 * Map of user names to posts made by that user.
 	 */
 	private Map<String, List<Post>> postsByUser = new HashMap<>();
-	
+
 	@Override
 	public void init(){
-		
+
 		long now = System.currentTimeMillis();
 		// for fake data, add an offset so posts aren't all at the same time
 		long offset = 15*60*1000;
-		
+
 		// add a bunch of fake data for testing
 		addPost("Ada", "Hello world!", now+offset);
 		addPost("Grace", "I've always been more interested in the future than in the past.", now+offset*2);
@@ -61,14 +64,14 @@ public class FeedServlet extends HttpServlet {
 		addPost("Grace", "Please cut off a nanosecond and send it over to me.", now+offset*7);
 		addPost("Stanley", "Growl!", now+offset*8);
 	}
-	
+
 	/**
 	 * Adds a post to the postsByTime and postsByUser data structures.
 	 */
 	private void addPost(String user, String message, long time){
 		Post post = new Post(user, message, new Date(time));
 		postsByTime.add(post);
-		
+
 		if(!postsByUser.containsKey(user)){
 			postsByUser.put(user, new ArrayList<>());
 		}
@@ -80,7 +83,7 @@ public class FeedServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		String requestUrl = request.getRequestURI();
 		String user = requestUrl.substring("/feed/".length());
-		
+
 		if("".equals(user)){
 			// the URL is just /feed/, so show all posts
 			out.println("<h1>All Posts</h1>");
@@ -101,7 +104,7 @@ public class FeedServlet extends HttpServlet {
 			}
 		}
 	}
-	
+
 	/**
 	 * Renders the HTML for the Post to the response's PrintWriter.
 	 */
@@ -125,7 +128,7 @@ public class Post {
 	private String user;
 	private String message;
 	private Date date;
-	
+
 	public Post(String user, String message, Date date) {
 		this.user = user;
 		this.message = message;
@@ -147,7 +150,7 @@ public class Post {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-	
+
 	public Date getDate() {
 		return date;
 	}
@@ -155,7 +158,7 @@ public class Post {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	
+
 }
 ```
 

@@ -34,7 +34,7 @@ These examples show different ways to create a barebones "hello world" server.
 
 These examples build out a social feed website that shows a feed of updates from users.
 
-{% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-1-servlets" %}
+{% include url-thumbnail.html url="/tutorials/java-server/servlets/social-feed-website-part-1-servlets" %}
 {% include url-thumbnail.html url="/tutorials/java-server/jsp/social-feed-website-part-2-jsp" %}
 {% include url-thumbnail.html url="/tutorials/java-server/post/social-feed-website-part-3-post-requests" %}
 {% include url-thumbnail.html url="/examples/java-server/social-feed-website-part-4-sessions" %}
