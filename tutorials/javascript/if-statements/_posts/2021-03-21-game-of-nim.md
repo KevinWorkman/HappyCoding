@@ -8,6 +8,9 @@ meta-title: Game of Nim - JavaScript Example
 meta-description: Play the Game of Nim against the computer!
 meta-image: /examples/javascript/images/game-of-nim-2.png
 tags: [example, html, javascript]
+previousPost: /tutorials/javascript/if-statements
+redirect_from: /examples/javascript/game-of-nim
+discourseEmbedUrl: /examples/javascript/game-of-nim
 ---
 
 <script>
@@ -52,7 +55,7 @@ tags: [example, html, javascript]
         choice = 1 + Math.floor(Math.random() * 3);
       }
     }
-    
+
     log('Computer subtracts ' + choice);
     subtract(choice);
 
@@ -211,7 +214,7 @@ This code lets you play the [Game of Nim](https://en.wikipedia.org/wiki/Nim) aga
             choice = 1 + Math.floor(Math.random() * 3);
           }
         }
-        
+
         log('Computer subtracts ' + choice);
         subtract(choice);
 

@@ -10,7 +10,7 @@ sort-key: 200
 
 # If Statements
 
-{% include url-thumbnail.html url="/examples/javascript/feed-the-ducks" %}
+{% include url-thumbnail.html url="/tutorials/javascript/if-statements/feed-the-ducks" %}
 
 # For Loops
 
@@ -19,7 +19,7 @@ sort-key: 200
 # JavaScript Examples
 
 {% include url-thumbnail.html url="/tutorials/javascript/fetch/etsy-listings" %}
-{% include url-thumbnail.html url="/examples/javascript/game-of-nim" %}
+{% include url-thumbnail.html url="/tutorials/javascript/if-statements/game-of-nim" %}
 {% include url-thumbnail.html url="/examples/javascript/remove-whats-happening" %}
 
 # JavaScript Library Examples
