@@ -77,7 +77,7 @@ With that in mind, projects will be worth 50 points, but you can choose any comb
 - 15 points: DOM manipulation
 - 15 points: Bootstrap grid
 - 15 points: Flexbox
-- 40 points: JavaScript library (not counting p5.js or Bootstrap)
+- 40 points: JavaScript library (not counting p5.js, Bootstrap, or Sweet Alert)
   - This is worth so much because there are a ton of JavaScript libraries out there, and each one is different, so I didn't want to limit you too much.
   - Note that **loading** a JavaScript library doesn't count unless you **use** it!
 
