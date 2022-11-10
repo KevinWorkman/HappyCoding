@@ -30,7 +30,7 @@ This example only contains a single HTML file:
 </html>
 ```
 
-You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-static-website).
+You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-static-website) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-static-website).
 
 You can copy this directory into a [Tomcat](/tutorials/java-server/tomcat) or [Jetty](/tutorials/java-server/jetty-setup) server.
 

@@ -95,6 +95,6 @@ public class ServerMain {
 }
 ```
 
-You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line).
+You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-embedded-jetty-command-line).
 
 See the [Embedded Jetty](/tutorials/java-server/embedded-jetty) tutorial for instructions on compiling and running this example.

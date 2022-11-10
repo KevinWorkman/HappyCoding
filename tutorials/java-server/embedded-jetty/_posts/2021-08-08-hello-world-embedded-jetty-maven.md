@@ -194,6 +194,6 @@ You can run this locally by executing this command:
 mvn package exec:java
 ```
 
-You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-embedded-jetty-maven).
+You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-embedded-jetty-maven) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-embedded-jetty-maven).
 
 See the [Embedded Jetty](/tutorials/java-server/embedded-jetty) tutorial for more info!

@@ -68,5 +68,5 @@ public class DateServlet extends HttpServlet {
 
 ---
 
-- [View this project on GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/servlet-jsp-date-v2)
-- [Download this project from DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/servlet-jsp-date-v2)
+- [View this project on GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/servlet-jsp-date-v2)
+- [Download this project from DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/servlet-jsp-date-v2)

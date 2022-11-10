@@ -37,5 +37,5 @@ This example uses [JSP](/tutorials/java-server/jsp) to flip a coin:
 
 ![coin flipper webpage](/tutorials/java-server/images/jsp-2.png)
 
-- [View this project on GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/jsp-coin-flipper)
-- [Download this project from DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/jsp-coin-flipper)
+- [View this project on GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/jsp-coin-flipper)
+- [Download this project from DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/jsp-coin-flipper)

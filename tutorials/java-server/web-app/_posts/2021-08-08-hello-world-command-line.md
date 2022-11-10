@@ -54,6 +54,6 @@ public class HelloWorldServlet extends HttpServlet {
 }
 ```
 
-You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-command-line) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/java-server/java-server-example-projects/hello-world-command-line).
+You can view the directory [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-command-line) or download it as a zip file [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/java-server/java-server-example-projects/hello-world-command-line).
 
 See the [Anatomy of a Web App](/tutorials/java-server/web-app) tutorial for instructions on compiling and packaging this example.
