@@ -8,6 +8,9 @@ meta-title: Etsy Listings - JavaScript Example
 meta-description: Use the fetch function to get data from an API.
 meta-image: /examples/javascript/images/etsy-listings-3.png
 tags: [example, html, javascript, fetch]
+previousPost: /tutorials/javascript/fetch
+redirect_from: /examples/javascript/etsy-listings
+discourseEmbedUrl: /examples/javascript/etsy-listings
 ---
 
 
