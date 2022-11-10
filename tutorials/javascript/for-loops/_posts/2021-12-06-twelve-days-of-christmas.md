@@ -8,6 +8,9 @@ meta-title: Twelve Days of Christmas - JavaScript Example
 meta-description: Use a for loop to sing the Twelve Days of Christmas
 meta-image: /examples/javascript/images/twelve-days-of-christmas-1.png
 tags: [example, html, javascript]
+previousPost: /tutorials/javascript/for-loops
+redirect_from: /examples/javascript/twelve-days-of-christmas
+discourseEmbedUrl: /examples/javascript/twelve-days-of-christmas
 ---
 
 {% include youtube-embed.html slug="X5bb0QbSoqo" %}

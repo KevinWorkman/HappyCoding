@@ -14,7 +14,7 @@ sort-key: 200
 
 # For Loops
 
-{% include url-thumbnail.html url="/examples/javascript/twelve-days-of-christmas" %}
+{% include url-thumbnail.html url="/tutorials/javascript/for-loops/twelve-days-of-christmas" %}
 
 # JavaScript Examples
 
