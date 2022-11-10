@@ -8,7 +8,11 @@ meta-title: Washington DC Tour
 meta-description: Take a tour of my favorite Washington DC places!
 meta-image: /examples/javascript/images/washington-dc-tour-2.png
 tags: [example, javascript, libraries, maps]
-redirect_from: /examples/javascript/libraries/washington-dc-tour
+previousPost: /tutorials/javascript/libraries
+redirect_from:
+ - /examples/javascript/washington-dc-tour
+ - /examples/javascript/libraries/washington-dc-tour
+discourseEmbedUrl: /examples/javascript/washington-dc-tour
 ---
 
 <style>
@@ -81,43 +85,43 @@ Here's the source code that created this map:
         title: "House Where Lincoln Died",
         description: "This isn't a museum. It's just a room you walk into. It's free and takes 30 seconds, but it really stuck with me. Then notice there's a kitchy Lincoln's Waffles right next door, all in the shadow of the FBI building. Very DC."}
     ];
-  
+
     function createMap() {
       var element = document.getElementById('map');
-    
+
       var mapOptions = {
         center: {lat: 38.8899, lng: -77.0192},
         zoom: 12,
         mapTypeId: 'hybrid'
       };
-    
+
       map = new google.maps.Map(element, mapOptions);
-      
+
       for(var i = 0; i < places.length; i++){
         addPlace(places[i]);
       }
     }
-    
+
     function addPlace(place){
       var marker = new google.maps.Marker({
         position: place,
         map: map
       });
-      
+
       marker.addListener('click', function() {
         document.getElementById("title").innerHTML = place.title;
         document.getElementById("description").innerHTML = place.description;
       });
     }
   </script>
-  
+
   <style>
     #map{
       width:500px;
       height:500px;
       float: left;
     }
-    
+
     #info{
       width: 400px;
       margin-left: 520px;
@@ -133,7 +137,7 @@ Here's the source code that created this map:
     <h1 id="title"></h1>
     <p id="description">Click a marker for more info!</p>
   </div>
-  
+
 </body>
 </html>
 ```

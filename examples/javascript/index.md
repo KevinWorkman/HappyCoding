@@ -24,8 +24,8 @@ sort-key: 200
 
 # JavaScript Library Examples
 
-{% include url-thumbnail.html url="/examples/javascript/simple-weather-map" %}
-{% include url-thumbnail.html url="/examples/javascript/washington-dc-tour" %}
+{% include url-thumbnail.html url="/tutorials/javascript/libraries/simple-weather-map" %}
+{% include url-thumbnail.html url="/tutorials/javascript/libraries/washington-dc-tour" %}
 
 # Bootstrap Examples
 

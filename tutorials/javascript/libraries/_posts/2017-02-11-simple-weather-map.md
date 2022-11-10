@@ -8,7 +8,11 @@ meta-title: Simple Weather Map
 meta-description: Just a simple weather map. No ads, no clickbait, just a map.
 meta-image: /examples/javascript/images/simple-weather-map-2.png
 tags: [example, javascript, libraries, maps]
-redirect_from: /examples/javascript/libraries/simple-weather-map
+previousPost: /tutorials/javascript/libraries
+redirect_from:
+ - /examples/javascript/simple-weather-map
+ - /examples/javascript/libraries/simple-weather-map
+discourseEmbedUrl: /examples/javascript/simple-weather-map
 ---
 
 <div id="map" style="width:100%; height:500px;"></div>
@@ -117,7 +121,7 @@ redirect_from: /examples/javascript/libraries/simple-weather-map
       addWeatherFrame(0, getDateString(new Date()), 1);
     }
   }
-     
+
   function addWeatherFrame(index, frameWeatherDate, frameOpacity){
 
     var frame = new google.maps.ImageMapType({
@@ -130,7 +134,7 @@ redirect_from: /examples/javascript/libraries/simple-weather-map
     });
     map.overlayMapTypes.setAt(index, frame);        
   }
-     
+
   function incrementAnimationFrame(){
     map.overlayMapTypes.getAt(currentAnimationFrame).setOpacity(0);
     currentAnimationFrame++;
@@ -139,7 +143,7 @@ redirect_from: /examples/javascript/libraries/simple-weather-map
     }
     map.overlayMapTypes.getAt(currentAnimationFrame).setOpacity(1);
   }
-    
+
   function setAnimateHelpTextVisibility(){
     var animateWeather = document.getElementById("animateWeatherCheckBox").checked;
     if(animateWeather){
@@ -164,7 +168,7 @@ Here's the source code that created this map:
   <title>Simple Weather Map</title>
   <script>
     var map;
- 
+
     var currentAnimationFrame = 0;
     var animationFrames = 0;
     var animationIntervalFunctionId;
@@ -174,7 +178,7 @@ Here's the source code that created this map:
         center: {lat: 39.7, lng: -96.2}, zoom: 4
       });
       refreshWeatherLayer();
-      
+
       //weather layer refreshes at the next 5 minute mark
       var now = new Date().getTime();
       var msSinceLastFive = now % (5*60*1000);
@@ -185,7 +189,7 @@ Here's the source code that created this map:
         setInterval(refreshWeatherLayer, 5*60*1000);
       }, msUntilNextFive + 10*100);
     }
-    
+
     //probably a smarter way to format dates
     function getDateString(date){     
 
@@ -208,30 +212,30 @@ Here's the source code that created this map:
       if(minute < 10){
         minute = "0" + minute;
       }
-         
+
       return year.toString()+month.toString()+day.toString()+hour.toString()+minute.toString();   
     }
-     
+
     function refreshWeatherLayer(){
       var animateWeather = document.getElementById("animateWeatherCheckBox").checked;
       var weatherAnimationPastFrameCount = 24;
       var weatherAnimationInterval = 100;
-    
+
       setWeather(animateWeather, weatherAnimationPastFrameCount, weatherAnimationInterval);
     }
-     
+
     function setWeather(animate, weatherAnimationPastFrameCount, weatherAnimationInterval){
-             
+
       if(animationIntervalFunctionId){
         clearInterval(animationIntervalFunctionId);        
       }
-      
+
       //remove previous overlays
       map.overlayMapTypes.clear();
-              
+
       if(animate){       
         var baseDate = new Date();
-        
+
         var i = 0;
         for(var index = -weatherAnimationPastFrameCount; index <= 0; index++){   
           var frameDate = new Date(baseDate.getTime() + index * 5 * 60 * 1000);
@@ -246,9 +250,9 @@ Here's the source code that created this map:
         addWeatherFrame(0, getDateString(new Date()), 1);
       }  
     }
-     
+
     function addWeatherFrame(index, frameWeatherDate, frameOpacity){
-                 
+
       var frame = new google.maps.ImageMapType({
         getTileUrl: function(coord, zoom) {
           return "http://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/ridge::USCOMP-N0Q-" + frameWeatherDate + "/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
@@ -259,7 +263,7 @@ Here's the source code that created this map:
       });
       map.overlayMapTypes.setAt(index, frame);        
     }
-     
+
     function incrementAnimationFrame(){
       map.overlayMapTypes.getAt(currentAnimationFrame).setOpacity(0);
       currentAnimationFrame++;
@@ -268,7 +272,7 @@ Here's the source code that created this map:
       }
       map.overlayMapTypes.getAt(currentAnimationFrame).setOpacity(1);
     }
-    
+
     function setAnimateHelpTextVisibility(){
       var animateWeather = document.getElementById("animateWeatherCheckBox").checked;
       if(animateWeather){
@@ -285,7 +289,7 @@ Here's the source code that created this map:
 
   <h1>Simple Weather Map</h1>
   <div id="map" style="width:100%; height:500px;"></div>
-        
+
   <div style="float:left;">
     <label style="font-size:16pt"><input type="checkbox" id="animateWeatherCheckBox" onclick="refreshWeatherLayer(); setAnimateHelpTextVisibility();" style="width:25px; height:25px;">Animate</label>
     <ul id="animateHelpText" style="display:none;">
@@ -294,7 +298,7 @@ Here's the source code that created this map:
       <li>Uncheck this before moving or zooming the map.</li>
     </ul>
   </div>
-  
+
   <div style="float:right;">
     <ul>
       <li>Weather data from <a href="https://mesonet.agron.iastate.edu/ogc/">Iowa State University Mesonet</a>.</li>
