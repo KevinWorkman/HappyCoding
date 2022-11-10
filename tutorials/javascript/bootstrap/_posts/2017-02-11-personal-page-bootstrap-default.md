@@ -8,6 +8,9 @@ meta-title: Personal Webpage (default Bootstrap styles)
 meta-description: Use Bootstrap to style your personal webpage.
 meta-image: /examples/javascript/images/personal-page-bootstrap-default-2.png
 tags: [example, javascript, html, css, bootstrap]
+previousPost: /tutorials/javascript/bootstrap
+redirect_from: /examples/javascript/personal-page-bootstrap-default
+discourseEmbedUrl: /examples/javascript/personal-page-bootstrap-default
 ---
 
 This is an example personal webpage:
@@ -36,16 +39,16 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 				<li><a href="cats.html">Cat Pictures</a></li>
 			</ul>
 		</nav>
-	
+
 		<div class="jumbotron">
 			<p>Admit it. You just came here for the cat pictures.</p>
 			<p><a class="btn btn-primary btn-lg" href="cats.html" role="button">Meow</a></p>
 		</div>
-		
+
 		<h1>My Personal Page</h1>
-		
+
 		<p>Welcome to my personal page. This is just an example webpage. It uses Bootstrap!</p>
-	
+
 		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
 	</div>
 </body>
@@ -70,11 +73,11 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 				<li><a href="cats.html">Cat Pictures</a></li>
 			</ul>
 		</nav>
-	
+
 		<h1>About My Personal Page</h1>
-		
+
 		<p>This is an example about section. You might explain more about yourself, or the webpage, or give links to other resources.</p>
-		
+
 		<p>My name is Kevin. I write programming tutorials at <a href="http://HappyCoding.io">HappyCoding.io</a>, and I have a cat named Stanley. My favorite color is black, but if that doesn't count then I'll choose green. I also like comic books and playing bikes.</p>
 
 		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
@@ -93,7 +96,7 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 	<style>
 		img{
-			width:75%;	
+			width:75%;
 		}
 	</style>
 </head>
@@ -106,23 +109,23 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 				<li class="active"><a href="cats.html">Cat Pictures</a></li>
 			</ul>
 		</nav>
-	
+
 		<h1>Cat Pictures 🐈</h1>
-		
+
 		<p>Here are some pictures of my cat, Stanley:</p>
-		
+
 		<div class="row">
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-1.jpg" />
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-2.jpg" />
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-3.jpg" />
 		</div>
-		
+
 		<div class="row">
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-4.jpg" />
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-5.jpg" />
 			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-6.jpg" />
 		</div>
-			
+
 		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
 	</div>
 </body>

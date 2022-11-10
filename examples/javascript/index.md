@@ -29,5 +29,5 @@ sort-key: 200
 
 # Bootstrap Examples
 
-{% include url-thumbnail.html url="/examples/javascript/personal-page-bootstrap-default" %}
-{% include url-thumbnail.html url="/examples/javascript/personal-page-bootstrap-cyborg" %}
+{% include url-thumbnail.html url="/tutorials/javascript/boostrap/personal-page-bootstrap-default" %}
+{% include url-thumbnail.html url="/tutorials/javascript/bootstrap/personal-page-bootstrap-cyborg" %}
