@@ -8,6 +8,9 @@ meta-title: Remove What's Happening from Twitter - JavaScript Example
 meta-description: Remove clickbait from the internet.
 meta-image: /images/logo-800x400.png
 tags: [example, html, javascript]
+previousPost: /tutorials/javascript/interactive-html
+redirect_from: /examples/javascript/remove-whats-happening
+discourseEmbedUrl: /examples/javascript/remove-whats-happening
 ---
 
 {% include youtube-embed.html slug="nj3Hij5LUsg" %}
