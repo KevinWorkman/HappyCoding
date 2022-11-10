@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: "Social Feed Website Part 4: Sessions"
-thumbnail: /examples/java-server/images/social-feed-website-part-5-sessions-7.png
+thumbnail: /tutorials/java-server/images/social-feed-website-part-5-sessions-7.png
 tagline: Let users login and create their own posts.
 sort-key: 230
 meta-title: "Social Feed Website Part 4: Sessions"
 meta-description: Let users login and create their own posts.
-meta-image: /examples/java-server/images/social-feed-website-part-5-sessions-8.png
+meta-image: /tutorials/java-server/images/social-feed-website-part-5-sessions-8.png
 tags: [example, java, server, jsp, post, sessions]
 redirect_from:
  - /examples/java-server/sessions/social-feed-website
@@ -470,7 +470,7 @@ This `web.xml` file ties everything together by mapping the URLs to their corres
 
 Here's what it looks like in action! When you first load the page, no posts are shown:
 
-![no posts](/examples/java-server/images/social-feed-website-part-5-sessions-1.png)
+![no posts](/tutorials/java-server/images/social-feed-website-part-5-sessions-1.png)
 
 I can click the `Login` link to show the login page:
 
@@ -478,21 +478,21 @@ I can click the `Login` link to show the login page:
 
 Then I can click the register link to go to the registration page:
 
-![registration page](/examples/java-server/images/social-feed-website-part-5-sessions-3.png)
+![registration page](/tutorials/java-server/images/social-feed-website-part-5-sessions-3.png)
 
 I can fill out the registration form and click `Register`, which takes me back to the homepage:
 
-![new message form](/examples/java-server/images/social-feed-website-part-5-sessions-4.png)
+![new message form](/tutorials/java-server/images/social-feed-website-part-5-sessions-4.png)
 
 Notice now that the navigation bar shows a link to my personal feed, as well as a logout link. I'm also given a form for posting a new message.
 
-![message submitted](/examples/java-server/images/social-feed-website-part-5-sessions-5.png)
+![message submitted](/tutorials/java-server/images/social-feed-website-part-5-sessions-5.png)
 
 Now that I'm logged in, I can submit messages, which are then shown on the homepage and in my personal feed.
 
 I can also logout, register as a new user, and post as that user instead:
 
-![posting as Stanley](/examples/java-server/images/social-feed-website-part-5-sessions-6.png)
+![posting as Stanley](/tutorials/java-server/images/social-feed-website-part-5-sessions-6.png)
 
 Because we're using sessions, this will work for multiple people using different computers. Each user has their own session, so we can track whether each one is logged in. Try accessing the page from multiple browsers!
 

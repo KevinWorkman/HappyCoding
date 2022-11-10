@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Server Examples
-thumbnail: /tutorials/java-server/java-server-example-projects/social-feed-website-part-1-servlets-3.png
+thumbnail: /tutorials/java-server/images/social-feed-website-part-1-servlets-3.png
 meta-title: Java Server Examples
 meta-description: Examples of server-side coding.
-meta-image: /tutorials/java-server/java-server-example-projects/social-feed-website-part-1-servlets-4.png
+meta-image: /tutorials/java-server/images/social-feed-website-part-1-servlets-4.png
 sort-key: 500
 redirect_from:
  - /examples/java-server/servlets

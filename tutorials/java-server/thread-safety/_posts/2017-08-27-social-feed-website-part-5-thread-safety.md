@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: "Social Feed Website Part 5: Thread Safety"
-thumbnail: /examples/java-server/images/social-feed-website-part-5-thread-safety-7.png
+thumbnail: /tutorials/java-server/images/social-feed-website-part-5-thread-safety-7.png
 tagline: Let multiple users post messages safely.
 sort-key: 240
 meta-title: "Social Feed Website Part 5: Thread Safety"
 meta-description: Let multiple users post messages safely.
-meta-image: /examples/java-server/images/social-feed-website-part-5-thread-safety-8.png
+meta-image: /tutorials/java-server/images/social-feed-website-part-5-thread-safety-8.png
 tags: [example, java, server, jsp, post, sessions, thread-safety]
 redirect_from:
  - /examples/java-server/thread-safety/social-feed-website
@@ -116,7 +116,7 @@ Test the code by following these steps:
 
 If you create a new post while they're being rendered, you'll get a `ConcurrentModificationException`:
 
-![ConcurrentModificationException](/examples/java-server/images/social-feed-website-part-5-thread-safety-1.png)
+![ConcurrentModificationException](/tutorials/java-server/images/social-feed-website-part-5-thread-safety-1.png)
 
 Believe it or not, this is good news! It's much better to catch these errors now than only finding out about them after you already have users.
 

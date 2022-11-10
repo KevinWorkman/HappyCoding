@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: "Social Feed Website Part 2: JSP"
-thumbnail: /examples/java-server/images/social-feed-website-part-2-jsp-3.png
+thumbnail: /tutorials/java-server/images/social-feed-website-part-2-jsp-3.png
 tagline: Use JSP to render user posts.
 sort-key: 210
 meta-title: "Social Feed Website Part 2: JSP"
 meta-description: Use JSP to render user posts.
-meta-image: /examples/java-server/images/social-feed-website-part-2-jsp-4.png
+meta-image: /tutorials/java-server/images/social-feed-website-part-2-jsp-4.png
 tags: [example, java, server, jsp]
 redirect_from:
  - /examples/java-server/jsp/social-feed-website
@@ -224,11 +224,11 @@ Finally, we need a `web.xml` file to map the URL to the servlet class:
 
 This file maps any URL starting with `/feeds/` to our servlet, which then sends the request to our JSP file. Now if you run this web app and visit [http://localhost:8080/feed/](http://localhost:8080/feed/) in your browser, you should see this:
 
-![social feeds website feed page](/examples/java-server/images/social-feed-website-part-2-jsp-1.png)
+![social feeds website feed page](/tutorials/java-server/images/social-feed-website-part-2-jsp-1.png)
 
 If you click one of the usernames, you'll be taken to their profile page which only shows their posts:
 
-![social feeds website user page](/examples/java-server/images/social-feed-website-part-2-jsp-2.png)
+![social feeds website user page](/tutorials/java-server/images/social-feed-website-part-2-jsp-2.png)
 
 ## Tweak Ideas
 
