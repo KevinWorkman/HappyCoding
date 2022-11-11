@@ -29,5 +29,5 @@ sort-key: 400
 
 # Processing in Java
 
-{% include url-thumbnail.html url="/examples/java/swing-control-window" %}
-{% include url-thumbnail.html url="/examples/java/processing-showcase" %}
+{% include url-thumbnail.html url="/tutorials/java/processing-in-java/swing-control-window" %}
+{% include url-thumbnail.html url="/tutorials/java/processing-in-java/processing-showcase" %}
