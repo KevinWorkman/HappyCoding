@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Google Maps Tour
-thumbnail: /examples/javascript/images/washington-dc-tour-1.png
+thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 tagline: Take a tour of Google's campus.
 sort-key: 600
 meta-title: Google Maps Tour Example
 meta-description: Take a tour of Google's campus using the Google Maps JavaScript library.
-meta-image: /examples/javascript/images/washington-dc-tour-2.png
+meta-image: /tutorials/javascript/images/washington-dc-tour-2.png
 previousPost: /examples/google-cloud/
 tags: [example, javascript, google-cloud, maps]
 ---

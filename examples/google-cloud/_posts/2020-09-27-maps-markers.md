@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Google Maps Marker
-thumbnail: /examples/javascript/images/washington-dc-tour-1.png
+thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 tagline: Add  marker to your Google map.
 sort-key: 515
 meta-title: Google Maps Marker Example
 meta-description: Add a marker to your Google map.
-meta-image: /examples/javascript/images/washington-dc-tour-2.png
+meta-image: /tutorials/javascript/images/washington-dc-tour-2.png
 previousPost: /examples/google-cloud/
 tags: [example, javascript, google-cloud, maps]
 ---

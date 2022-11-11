@@ -1,12 +1,12 @@
 ---
 title: Personal Webpage (Cyborg Bootstrap theme)
 layout: tutorial
-thumbnail: /examples/javascript/images/personal-page-bootstrap-cyborg-1.png
+thumbnail: /tutorials/javascript/images/personal-page-bootstrap-cyborg-1.png
 tagline: Use Bootstrap themes to style your personal webpage.
 sort-key: 200
 meta-title: Personal Webpage (Cyborg Bootstrap theme)
 meta-description: Use Bootstrap themes to style your personal webpage.
-meta-image: /examples/javascript/images/personal-page-bootstrap-cyborg-2.png
+meta-image: /tutorials/javascript/images/personal-page-bootstrap-cyborg-2.png
 tags: [example, javascript, html, css, bootstrap]
 previousPost: /tutorials/javascript/bootstrap
 redirect_from: /examples/javascript/personal-page-bootstrap-cyborg

@@ -1,12 +1,12 @@
 ---
 title: Personal Webpage (default Bootstrap styles)
 layout: tutorial
-thumbnail: /examples/javascript/images/personal-page-bootstrap-default-1.png
+thumbnail: /tutorials/javascript/images/personal-page-bootstrap-default-1.png
 tagline: Use Bootstrap to style your personal webpage.
 sort-key: 100
 meta-title: Personal Webpage (default Bootstrap styles)
 meta-description: Use Bootstrap to style your personal webpage.
-meta-image: /examples/javascript/images/personal-page-bootstrap-default-2.png
+meta-image: /tutorials/javascript/images/personal-page-bootstrap-default-2.png
 tags: [example, javascript, html, css, bootstrap]
 previousPost: /tutorials/javascript/bootstrap
 redirect_from: /examples/javascript/personal-page-bootstrap-default

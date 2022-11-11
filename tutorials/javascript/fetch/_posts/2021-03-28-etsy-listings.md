@@ -1,12 +1,12 @@
 ---
 title: Etsy API
 layout: tutorial
-thumbnail: /examples/javascript/images/etsy-listings-2.png
+thumbnail: /tutorials/javascript/images/etsy-listings-2.png
 tagline: Use the fetch function to get data from an API.
 sort-key: 100
 meta-title: Etsy Listings - JavaScript Example
 meta-description: Use the fetch function to get data from an API.
-meta-image: /examples/javascript/images/etsy-listings-3.png
+meta-image: /tutorials/javascript/images/etsy-listings-3.png
 tags: [example, html, javascript, fetch]
 previousPost: /tutorials/javascript/fetch
 redirect_from: /examples/javascript/etsy-listings
@@ -51,7 +51,7 @@ function buildEtsyThumbnail(listing) {
 }
 ```
 
-![etsy listings](/examples/javascript/images/etsy-listings-1.png)
+![etsy listings](/tutorials/javascript/images/etsy-listings-1.png)
 
 {% include codepen-new.html slug-hash="abpZPEO" height="500" %}
 

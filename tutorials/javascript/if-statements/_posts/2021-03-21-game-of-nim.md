@@ -1,12 +1,12 @@
 ---
 title: Game of Nim
 layout: tutorial
-thumbnail: /examples/javascript/images/game-of-nim-1.png
+thumbnail: /tutorials/javascript/images/game-of-nim-1.png
 tagline: Play the Game of Nim against the computer!
 sort-key: 100
 meta-title: Game of Nim - JavaScript Example
 meta-description: Play the Game of Nim against the computer!
-meta-image: /examples/javascript/images/game-of-nim-2.png
+meta-image: /tutorials/javascript/images/game-of-nim-2.png
 tags: [example, html, javascript]
 previousPost: /tutorials/javascript/if-statements
 redirect_from: /examples/javascript/game-of-nim

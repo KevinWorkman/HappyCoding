@@ -1,12 +1,12 @@
 ---
 title: Feed the Ducks
 layout: tutorial
-thumbnail: /examples/javascript/images/feed-the-ducks-1.png
+thumbnail: /tutorials/javascript/images/feed-the-ducks-1.png
 tagline: Create an interactive story using if statements!
 sort-key: 110
 meta-title: Feed the Ducks - JavaScript Example
 meta-description: Create an interactive story using if statements!
-meta-image: /examples/javascript/images/feed-the-ducks-1.png
+meta-image: /tutorials/javascript/images/feed-the-ducks-1.png
 tags: [example, html, javascript]
 previousPost: /tutorials/javascript/if-statements
 redirect_from: /examples/javascript/feed-the-ducks

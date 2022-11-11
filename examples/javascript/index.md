@@ -1,10 +1,10 @@
 ---
 layout: default
 title: JavaScript Examples
-thumbnail: /examples/javascript/images/washington-dc-tour-1.png
+thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 meta-title: JavaScript Examples
 meta-description: Interactive websites using JavaScript.
-meta-image: /examples/javascript/images/washington-dc-tour-2.png
+meta-image: /tutorials/javascript/images/washington-dc-tour-2.png
 sort-key: 200
 ---
 

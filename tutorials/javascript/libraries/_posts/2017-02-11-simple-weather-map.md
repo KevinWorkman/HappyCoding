@@ -1,12 +1,12 @@
 ---
 title: Simple Weather Map
 layout: tutorial
-thumbnail: /examples/javascript/images/simple-weather-map-1.png
+thumbnail: /tutorials/javascript/images/simple-weather-map-1.png
 tagline: View the current weather on a map.
 sort-key: 100
 meta-title: Simple Weather Map
 meta-description: Just a simple weather map. No ads, no clickbait, just a map.
-meta-image: /examples/javascript/images/simple-weather-map-2.png
+meta-image: /tutorials/javascript/images/simple-weather-map-2.png
 tags: [example, javascript, libraries, maps]
 previousPost: /tutorials/javascript/libraries
 redirect_from:
