@@ -15,13 +15,13 @@ discourseEmbedUrl: /examples/javascript/personal-page-bootstrap-default
 
 This is an example personal webpage:
 
-<iframe src="/examples/javascript/files/personal-page-bootstrap-default/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
+<iframe src="/tutorials/javascript/files/personal-page-bootstrap-default/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
 
-Click [here](/examples/javascript/files/personal-page-bootstrap-default/home.html) to open the page in its own window.
+Click [here](/tutorials/javascript/files/personal-page-bootstrap-default/home.html) to open the page in its own window.
 
 This page contains basically the same three HTML files as the [unstyled](/examples/html/personal-webpage-unstyled), [light styled](/examples/html/personal-webpage-light-styles), and the [dark styled](/examples/html/personal-webpage-dark-styles) personal webpage examples:
 
-### [home.html](/examples/javascript/files/personal-page-bootstrap-default/home.html)
+### [home.html](/tutorials/javascript/files/personal-page-bootstrap-default/home.html)
 
 ```html
 <!DOCTYPE html>
@@ -55,7 +55,7 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 </html>
 ```
 
-### [about.html](/examples/javascript/files/personal-page-bootstrap-default/about.html)
+### [about.html](/tutorials/javascript/files/personal-page-bootstrap-default/about.html)
 
 ```html
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 </html>
 ```
 
-### [cats.html](/examples/javascript/files/personal-page-bootstrap-default/cats.html)
+### [cats.html](/tutorials/javascript/files/personal-page-bootstrap-default/cats.html)
 
 ```html
 <!DOCTYPE html>

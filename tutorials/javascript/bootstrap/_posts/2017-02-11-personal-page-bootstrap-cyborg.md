@@ -15,13 +15,13 @@ discourseEmbedUrl: /examples/javascript/personal-page-bootstrap-cyborg
 
 This is an example personal webpage:
 
-<iframe src="/examples/javascript/files/personal-page-bootstrap-cyborg/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
+<iframe src="/tutorials/javascript/files/personal-page-bootstrap-cyborg/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
 
-Click [here](/examples/javascript/files/personal-page-bootstrap-cyborg/home.html) to open the page in its own window.
+Click [here](/tutorials/javascript/files/personal-page-bootstrap-cyborg/home.html) to open the page in its own window.
 
 This page contains the exact same three HTML files as the [default Bootstrap styled personal webpage](/examples/javascript/personal-page-bootstrap-default) example:
 
-### [home.html](/examples/javascript/files/personal-page-bootstrap-cyborg/home.html)
+### [home.html](/tutorials/javascript/files/personal-page-bootstrap-cyborg/home.html)
 
 ```html
 <!DOCTYPE html>
@@ -55,7 +55,7 @@ This page contains the exact same three HTML files as the [default Bootstrap sty
 </html>
 ```
 
-### [about.html](/examples/javascript/files/personal-page-bootstrap-cyborg/about.html)
+### [about.html](/tutorials/javascript/files/personal-page-bootstrap-cyborg/about.html)
 
 ```html
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ This page contains the exact same three HTML files as the [default Bootstrap sty
 </html>
 ```
 
-### [cats.html](/examples/javascript/files/personal-page-bootstrap-cyborg/cats.html)
+### [cats.html](/tutorials/javascript/files/personal-page-bootstrap-cyborg/cats.html)
 
 ```html
 <!DOCTYPE html>
