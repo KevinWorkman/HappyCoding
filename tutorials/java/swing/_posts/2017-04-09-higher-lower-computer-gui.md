@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Higher Lower
-thumbnail: /examples/java/images/higher-lower-random-computer-player-2.png
+thumbnail: /tutorials/java/images/higher-lower-random-computer-player-2.png
 tagline: Guessing game gui
 sort-key: 220
 meta-title: Circle Button
 meta-description: Create a custom class that shows a circle button.
-meta-image: /examples/java/images/higher-lower-random-computer-player-3.png
+meta-image: /tutorials/java/images/higher-lower-random-computer-player-3.png
 tags: [example, java, swing]
 previousPost: /tutorials/java/swing
 redirect_from: /examples/java/higher-lower-computer-gui
@@ -157,15 +157,15 @@ This code uses a `CardLayout` to split the game into three screens:
 
 The start screen shows an intro message to the user.
 
-![start screen](/examples/java/images/higher-lower-computer-gui-1.png)
+![start screen](/tutorials/java/images/higher-lower-computer-gui-1.png)
 
 When the user clicks the button, the main play screen is shown:
 
-![play screen](/examples/java/images/higher-lower-computer-gui-2.png)
+![play screen](/tutorials/java/images/higher-lower-computer-gui-2.png)
 
 On this play screen, the computer updates the GUI based on random guesses and the user's input. Eventually the computer will guess correctly, and the GUI will show the end screen:
 
-![end screen](/examples/java/images/higher-lower-computer-gui-3.png)
+![end screen](/tutorials/java/images/higher-lower-computer-gui-3.png)
 
 If the user clicks the restart button, the variables that keep track of the game are reset, and the GUI goes back to the start screen.
 

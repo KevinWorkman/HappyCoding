@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: Swing Control Window
-thumbnail: /examples/java/images/swing-control-window-4.png
+thumbnail: /tutorials/java/images/swing-control-window-4.png
 tagline: Create a Processing sketch with a Swing control window.
 sort-key: 310
 meta-title: Swing Control Window
 meta-description: Create a Processing sketch with a Swing control window.
-meta-image: /examples/java/images/swing-control-window-5.png
+meta-image: /tutorials/java/images/swing-control-window-5.png
 tags: [example, java, processing, processing-in-java]
 previousPost: /tutorials/java/processing-in-java
 redirect_from: /examples/java/swing-control-window
@@ -109,15 +109,15 @@ public class Main {
 
 This class just creates instances of the `ProcessingSketch` and `SwingGui` classes, passing the `ProcessingSketch` instance into the `SwingGui` constructor. Then it calls the `run()` and `show()` functions to display both screens:
 
-![Processing sketch and Swing control window](/examples/java/images/swing-control-window-1.png)
+![Processing sketch and Swing control window](/tutorials/java/images/swing-control-window-1.png)
 
 When the user clicks the button, a color picker is shown:
 
-![color picker](/examples/java/images/swing-control-window-2.png)
+![color picker](/tutorials/java/images/swing-control-window-2.png)
 
 Note that this is a Swing component, and we don't have to do anything special to display it. And when a user picks a color from it, our code communicates that color from Swing to Processing, and the color in our Processing sketch changes:
 
-![pink Processing sketch](/examples/java/images/swing-control-window-3.png)
+![pink Processing sketch](/tutorials/java/images/swing-control-window-3.png)
 
 This is just a basic example, but it shows the general setup of creating a Swing GUI and a Processing sketch and communicating data between them.
 

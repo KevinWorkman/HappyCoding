@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: Circle Button
-thumbnail: /examples/java/images/circle-button-1.png
+thumbnail: /tutorials/java/images/circle-button-1.png
 tagline: Rectangle buttons are so last year.
 sort-key: 210
 meta-title: Circle Button
@@ -170,7 +170,7 @@ public class GuiMain{
 }
 ```
 
-![circle button](/examples/java/images/circle-button-3.png)
+![circle button](/tutorials/java/images/circle-button-3.png)
 
 You might have to tweak some of this code to make it work with different layout managers, but the basic idea is the same: you extend the `JButton` class and then override functions to change the default behavior to make your own custom components.
 

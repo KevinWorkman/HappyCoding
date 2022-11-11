@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Java Examples
-thumbnail: /examples/java/images/higher-lower-human-player-2.png
+thumbnail: /tutorials/java/images/higher-lower-human-player-2.png
 meta-title: Java Examples
 meta-description: Games, GUIs, and more.
-meta-image: /examples/java/images/higher-lower-human-player-3.png
+meta-image: /tutorials/java/images/higher-lower-human-player-3.png
 sort-key: 400
 ---
 
