@@ -8,6 +8,9 @@ meta-title: Circle Button
 meta-description: Create a custom class that shows a circle button.
 meta-image: examples/java/images/circle-button-2.png
 tags: [example, java, swing]
+previousPost: /tutorials/java/swing
+redirect_from: /examples/java/circle-button
+discourseEmbedUrl: /examples/java/circle-button
 ---
 
 This code defines a class that extends the `JButton` class and overrides a few methods to make a circular button.
@@ -23,7 +26,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class CircleButton extends JButton{
-	
+
 	private boolean mouseOver = false;
 	private boolean mousePressed = false;
 
@@ -32,9 +35,9 @@ public class CircleButton extends JButton{
 		setOpaque(false);
 		setFocusPainted(false);
 		setBorderPainted(false);
-		
+
 		MouseAdapter mouseListener = new MouseAdapter(){
-			
+
 			@Override
 			public void mousePressed(MouseEvent me){
 				if(contains(me.getX(), me.getY())){
@@ -42,55 +45,55 @@ public class CircleButton extends JButton{
 					repaint();
 				}
 			}
-			
+
 			@Override
 			public void mouseReleased(MouseEvent me){
 				mousePressed = false;
 				repaint();
 			}
-			
+
 			@Override
 			public void mouseExited(MouseEvent me){
 				mouseOver = false;
 				mousePressed = false;
 				repaint();
 			}
-			
+
 			@Override
 			public void mouseMoved(MouseEvent me){
 				mouseOver = contains(me.getX(), me.getY());
 				repaint();
-			}	
+			}
 		};
-		
+
 		addMouseListener(mouseListener);
 		addMouseMotionListener(mouseListener);		
 	}
-	
+
 	private int getDiameter(){
 		int diameter = Math.min(getWidth(), getHeight());
 		return diameter;
 	}
-	
+
 	@Override
 	public Dimension getPreferredSize(){
 		FontMetrics metrics = getGraphics().getFontMetrics(getFont());
 		int minDiameter = 10 + Math.max(metrics.stringWidth(getText()), metrics.getHeight());
 		return new Dimension(minDiameter, minDiameter);
 	}
-	
+
 	@Override
 	public boolean contains(int x, int y){
 		int radius = getDiameter()/2;
 		return Point2D.distance(x, y, getWidth()/2, getHeight()/2) < radius;
 	}
-	
+
 	@Override
 	public void paintComponent(Graphics g){
-		
+
 		int diameter = getDiameter();
 		int radius = diameter/2;
-		
+
 		if(mousePressed){
 			g.setColor(Color.LIGHT_GRAY);
 		}
@@ -98,7 +101,7 @@ public class CircleButton extends JButton{
 			g.setColor(Color.WHITE);
 		}
 		g.fillOval(getWidth()/2 - radius, getHeight()/2 - radius, diameter, diameter);
-		
+
 		if(mouseOver){
 			g.setColor(Color.BLUE);
 		}
@@ -106,7 +109,7 @@ public class CircleButton extends JButton{
 			g.setColor(Color.BLACK);
 		}
 		g.drawOval(getWidth()/2 - radius, getHeight()/2 - radius, diameter, diameter);
-		
+
 		g.setColor(Color.BLACK);
 		g.setFont(getFont());
 		FontMetrics metrics = g.getFontMetrics(getFont());
@@ -138,31 +141,31 @@ import java.awt.event.ActionEvent;
 public class GuiMain{
 
 	public static void main(String[] args){
-	
+
 		JFrame frame = new JFrame("Circle Button Demo");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		JLabel circleLabel = new JLabel("Exciting circle button:");
-		
+
 		CircleButton circleButton = new CircleButton("Click me!");
 		circleButton.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e){
 					System.out.println("Clicked!");
 				}
 		});
-		
+
 		JLabel normalLabel = new JLabel("Boring square button:");
 		JButton normalButton = new JButton("Okay");
-		
+
 		JPanel panel = new JPanel();
 		panel.add(circleLabel);
 		panel.add(circleButton);
 		panel.add(normalLabel);
 		panel.add(normalButton);
 		frame.add(panel);
-		
+
 		frame.setSize(300, 150);
-		frame.setVisible(true);	
+		frame.setVisible(true);
 	}
 }
 ```

@@ -22,8 +22,8 @@ sort-key: 400
 
 # Swing
 
-{% include url-thumbnail.html url="/examples/java/circle-button" %}
-{% include url-thumbnail.html url="/examples/java/higher-lower-computer-gui" %}
+{% include url-thumbnail.html url="/tutorials/java/swing/circle-button" %}
+{% include url-thumbnail.html url="/tutorials/java/swing/higher-lower-computer-gui" %}
 
 ---
 

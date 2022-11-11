@@ -8,6 +8,9 @@ meta-title: Circle Button
 meta-description: Create a custom class that shows a circle button.
 meta-image: /examples/java/images/higher-lower-random-computer-player-3.png
 tags: [example, java, swing]
+previousPost: /tutorials/java/swing
+redirect_from: /examples/java/higher-lower-computer-gui
+discourseEmbedUrl: /examples/java/higher-lower-computer-gui
 ---
 
 This code creates a GUI that plays the higher/lower guessing game with the user.
@@ -25,30 +28,30 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class HigherLowerGui{
-	
+
 	private int min = 1;
 	private int max = 100;
 	private int guess;
 	private int guesses = 0;
-	
+
 	private JLabel guessLabel;
 	private JButton higherButton;
 	private JButton lowerButton;
 	private JLabel endLabel;
-	
+
 	public HigherLowerGui(){
 		JFrame frame = new JFrame("Higher Lower");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		CardLayout cardLayout = new CardLayout();
 		JPanel mainPanel = new JPanel(cardLayout);
-		
+
 		JLabel startLabel = new JLabel("Pick a whole number between 1 and 100.");
 		startLabel.setHorizontalAlignment(JLabel.CENTER);
 		startLabel.setFont(startLabel.getFont().deriveFont(18f));
 		startLabel.setBackground(Color.CYAN);
 		startLabel.setOpaque(true);
-		
+
 		JButton startButton = new JButton("I'm ready!");
 		startButton.setFont(startButton.getFont().deriveFont(18f));
 		startButton.addActionListener(new ActionListener(){
@@ -61,11 +64,11 @@ public class HigherLowerGui{
 		startPanel.add(startLabel, BorderLayout.CENTER);
 		startPanel.add(startButton, BorderLayout.SOUTH);
 		mainPanel.add(startPanel, "start");
-		
+
 		guessLabel = new JLabel();
 		guessLabel.setHorizontalAlignment(JLabel.CENTER);
 		guessLabel.setFont(guessLabel.getFont().deriveFont(18f));
-		
+
 		JButton yesButton = new JButton("Yes that's my number!");
 		yesButton.setFont(yesButton.getFont().deriveFont(18f));
 		yesButton.addActionListener(new ActionListener(){
@@ -74,7 +77,7 @@ public class HigherLowerGui{
 					cardLayout.show(mainPanel, "end");
 				}
 		});
-		
+
 		higherButton = new JButton();
 		higherButton.setFont(higherButton.getFont().deriveFont(18f));
 		higherButton.addActionListener(new ActionListener(){
@@ -83,7 +86,7 @@ public class HigherLowerGui{
 					nextGuess();
 				}
 		});
-		
+
 		lowerButton = new JButton();
 		lowerButton.setFont(lowerButton.getFont().deriveFont(18f));
 		lowerButton.addActionListener(new ActionListener(){
@@ -92,7 +95,7 @@ public class HigherLowerGui{
 					nextGuess();
 				}
 		});
-		
+
 		JPanel buttonPanel = new JPanel();
 		buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));
 		yesButton.setAlignmentX(JButton.CENTER_ALIGNMENT);
@@ -101,19 +104,19 @@ public class HigherLowerGui{
 		buttonPanel.add(yesButton);
 		buttonPanel.add(lowerButton);
 		buttonPanel.add(higherButton);
-		
+
 		JPanel playPanel = new JPanel(new BorderLayout());
 		playPanel.add(guessLabel, BorderLayout.CENTER);
 		playPanel.add(buttonPanel, BorderLayout.SOUTH);
 		mainPanel.add(playPanel, "play");
-		
+
 		endLabel = new JLabel();
 		endLabel.setHorizontalAlignment(JLabel.CENTER);
 		endLabel.setFont(endLabel.getFont().deriveFont(18f));
 		endLabel.setBackground(Color.DARK_GRAY);
 		endLabel.setOpaque(true);
 		endLabel.setForeground(Color.WHITE);
-		
+
 		JButton restartButton = new JButton("Restart");
 		restartButton.setFont(restartButton.getFont().deriveFont(18f));
 		restartButton.addActionListener(new ActionListener(){
@@ -124,12 +127,12 @@ public class HigherLowerGui{
 						cardLayout.show(mainPanel, "start");
 				}
 		});
-		
+
 		JPanel endPanel = new JPanel(new BorderLayout());
 		endPanel.add(endLabel, BorderLayout.CENTER);
 		endPanel.add(restartButton,BorderLayout.SOUTH);
 		mainPanel.add(endPanel, "end");
-		
+
 		frame.add(mainPanel);
 		frame.setSize(400, 400);
 		frame.setVisible(true);
@@ -138,12 +141,12 @@ public class HigherLowerGui{
 	private void nextGuess(){
 		guesses++;
 		guess = min + (int)(Math.random() * (max - min + 1));
-		
+
 		guessLabel.setText("Is your number " + guess + "?");
 		higherButton.setText("My number is higher than " + guess + ".");
 		lowerButton.setText("My number is lower than " + guess + ".");
 	}
-	
+
 	public static void main(String[] args){
 		new HigherLowerGui();
 	}
