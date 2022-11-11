@@ -8,6 +8,9 @@ meta-title: Free Paycheck Calculator
 meta-description: This Java program finds months that have free paychecks in them.
 meta-image: /examples/java/images/free-paycheck-calculator-2.png
 tags: [example, java, hello-world, util]
+previousPost: /tutorials/java/hello-world
+redirect_from: /examples/java/free-paycheck-calculator
+discourseEmbedUrl: /examples/java/free-paycheck-calculator
 ---
 
 If you get paid every two weeks, every once in a while you'll hit a month where you get three paychecks. If your budget assumes you only get two paychecks per month, then that third paycheck is basically free money!
@@ -25,31 +28,31 @@ import java.util.Scanner;
 public class FreePaycheckCalculator{
 
 	public static void main(String... args){
-		
+
 		//get paycheck date from user
 		System.out.println("When is your next paycheck? Example: March 14");
 		Scanner scanner = new Scanner(System.in);
 		String userString = scanner.nextLine();
 		scanner.close();
-		
+
 		//parser needs year, try current year first
 		String year = Year.now().toString();
 		userString += " " + year;
-		
+
 		//convert input String to LocalDate
 		DateTimeFormatter inputFormat = DateTimeFormatter.ofPattern("MMMM d yyyy");
 		LocalDate userDate = LocalDate.parse(userString, inputFormat);
-		
+
 		//if the user's date is before current date, that means it's next year
 		LocalDate now = LocalDate.now();
 		if(userDate.compareTo(now) < 0){
-			userDate = userDate.plusYears(1);	
+			userDate = userDate.plusYears(1);
 		}
-		
+
 		System.out.println("Here are the months you'll get a free paycheck:");
-		
+
 		DateTimeFormatter outputFormat = DateTimeFormatter.ofPattern("MMMM yyyy");
-		
+
 		//find 10 months with 3 paychecks in them
 		int freePaychecksFound = 0;
 		int currentMonth = userDate.getMonthValue();

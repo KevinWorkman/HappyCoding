@@ -8,6 +8,9 @@ meta-title: Higher Lower (Random Computer Player)
 meta-description: Think of a number and the computer will guess what it is.
 meta-image: /examples/java/images/higher-lower-random-computer-player-3.png
 tags: [example, java, hello-world, higher-lower]
+previousPost: /tutorials/java/hello-world
+redirect_from: /examples/java/higher-lower-random-computer-player
+discourseEmbedUrl: /examples/java/higher-lower-random-computer-player
 ---
 
 This program creates a computer that plays the higher-lower number guessing game with you. You pick a number, and the computer tries to guess what it is. Each time the computer guesses, you tell it whether the number you're thinking of is higher or lower than your number. The computer "remembers" your answers and gets closer with every guess.
@@ -18,32 +21,32 @@ import java.util.Scanner;
 public class HigherLowerRandom{
 
 	public static void main(String[] args){
-	
+
 		System.out.println("Think of a whole number betwen 1 and 100. I'll guess what it is!");
 		System.out.println("When you're ready, type yes and press enter.");
-		
+
 		Scanner scanner = new Scanner(System.in);
 		//ignore the yes
 		scanner.nextLine();
-		
+
 		int min = 1;
 		int max = 100;
-		
+
 		int guesses = 0;
 		boolean done = false;
 		while(!done){
-			
+
 			int guess = min + (int)(Math.random() * (max - min + 1));
 			guesses++;
-			
+
 			System.out.println("My guess is: " + guess);
 			System.out.println("Please type yes if I got it right.");
 			System.out.println("Please type higher if your number is greater than " + guess + ".");
 			System.out.println("Please type lower if your number is less than " + guess + ".");
 			System.out.println("Then press enter.");
-			
+
 			String answer = scanner.nextLine();
-						
+
 			if(answer.equals("lower")){
 				max = guess - 1;
 			}
@@ -52,7 +55,7 @@ public class HigherLowerRandom{
 			}
 			else{
 				System.out.println("Hooray!");
-				System.out.println("It took me " + guesses + " guesses to get it right. Thanks for playing!");	
+				System.out.println("It took me " + guesses + " guesses to get it right. Thanks for playing!");
 				done = true;
 			}
 		}

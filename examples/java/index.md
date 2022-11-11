@@ -14,9 +14,9 @@ sort-key: 400
 
 # Hello World
 
-{% include url-thumbnail.html url="/examples/java/higher-lower-human-player" %}
-{% include url-thumbnail.html url="/examples/java/higher-lower-random-computer-player" %}
-{% include url-thumbnail.html url="/examples/java/free-paycheck-calculator" %}
+{% include url-thumbnail.html url="/tutorials/java/hello-world/higher-lower-human-player" %}
+{% include url-thumbnail.html url="/tutorials/java/hello-world/higher-lower-random-computer-player" %}
+{% include url-thumbnail.html url="/tutorials/java/hello-world/free-paycheck-calculator" %}
 
 ---
 

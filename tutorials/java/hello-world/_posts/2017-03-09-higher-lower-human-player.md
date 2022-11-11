@@ -8,6 +8,9 @@ meta-title: Higher Lower (Human Player)
 meta-description: Try to guess what number the computer is thinking.
 meta-image: /examples/java/images/higher-lower-human-player-3.png
 tags: [example, java, hello-world, higher-lower]
+previousPost: /tutorials/java/hello-world
+redirect_from: /examples/java/higher-lower-human-player
+discourseEmbedUrl: /examples/java/higher-lower-human-player
 ---
 
 This program creates a computer that plays the higher-lower number guessing game with you. The computer picks a number, and you try to guess what it is. Each time you guess, the computer tells you whether the number it's thinking of is higher or lower than your guess.
@@ -18,21 +21,21 @@ import java.util.Scanner;
 public class HigherLowerHumanPlayer{
 
 	public static void main(String[] args){
-	
+
 		int number = (int)(1 + Math.random() * 100);
-		
+
 		System.out.println("I'm thinking of a whole number betwen 1 and 100. Guess what it is!");
 		System.out.println("Please type a whole number and press enter.");
-		
+
 		Scanner scanner = new Scanner(System.in);
-		
+
 		int guesses = 0;
 		boolean done = false;
 		while(!done){
-			
+
 			int playerGuess = scanner.nextInt();
 			guesses++;
-			
+
 			if(number < playerGuess){
 				System.out.println("The number I'm thinking of is lower than " + playerGuess + ".");
 				System.out.println("Guess again! (Please type a whole number and press enter.)");
@@ -43,7 +46,7 @@ public class HigherLowerHumanPlayer{
 			}
 			else{
 				System.out.println("That's correct! I was thinking of a " + number + ".");
-				System.out.println("It took you " + guesses + " guesses to get it right. Thanks for playing!");	
+				System.out.println("It took you " + guesses + " guesses to get it right. Thanks for playing!");
 				done = true;
 			}
 		}
