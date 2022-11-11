@@ -15,13 +15,13 @@ discourseEmbedUrl: /examples/html/personal-page-light-styles
 
 This is an example personal webpage:
 
-<iframe src="/examples/html/files/personal-page-light-styles/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
+<iframe src="/tutorials/html/files/personal-page-light-styles/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
 
-Click [here](/examples/html/files/personal-page-light-styles/home.html) to open the page in its own window.
+Click [here](/tutorials/html/files/personal-page-light-styles/home.html) to open the page in its own window.
 
 This page contains basically the same three HTML files as the [unstyled personal webpage example](/examples/html/personal-webpage-unstyled):
 
-### [home.html](/examples/html/files/personal-page-light-styles/home.html)
+### [home.html](/tutorials/html/files/personal-page-light-styles/home.html)
 
 ```html
 <!DOCTYPE html>
@@ -48,7 +48,7 @@ This page contains basically the same three HTML files as the [unstyled personal
 </html>
 ```
 
-### [about.html](/examples/html/files/personal-page-light-styles/about.html)
+### [about.html](/tutorials/html/files/personal-page-light-styles/about.html)
 
 ```html
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ This page contains basically the same three HTML files as the [unstyled personal
 </html>
 ```
 
-### [cats.html](/examples/html/files/personal-page-light-styles/cats.html)
+### [cats.html](/tutorials/html/files/personal-page-light-styles/cats.html)
 
 ```html
 <!DOCTYPE html>
@@ -113,7 +113,7 @@ This page contains basically the same three HTML files as the [unstyled personal
 
 But it also contains a CSS file that contains styles:
 
-### [light-styles.css](/examples/html/files/personal-page-light-styles/light-styles.css)
+### [light-styles.css](/tutorials/html/files/personal-page-light-styles/light-styles.css)
 
 ```css
 body{

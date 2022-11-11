@@ -15,13 +15,13 @@ discourseEmbedUrl: /examples/html/personal-page-unstyled
 
 This is an example personal webpage:
 
-<iframe src="/examples/html/files/personal-page-unstyled/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
+<iframe src="/tutorials/html/files/personal-page-unstyled/home.html" width="95%" height="500px" style="border: thin solid black;"></iframe>
 
-Click [here](/examples/html/files/personal-page-unstyled/home.html) to open the page in its own window.
+Click [here](/tutorials/html/files/personal-page-unstyled/home.html) to open the page in its own window.
 
 This page is three files that link to each other:
 
-### [home.html](/examples/html/files/personal-page-unstyled/home.html)
+### [home.html](/tutorials/html/files/personal-page-unstyled/home.html)
 
 ```html
 <!DOCTYPE html>
@@ -45,7 +45,7 @@ This page is three files that link to each other:
 </html>
 ```
 
-### [about.html](/examples/html/files/personal-page-unstyled/about.html)
+### [about.html](/tutorials/html/files/personal-page-unstyled/about.html)
 
 ```html
 <!DOCTYPE html>
@@ -71,7 +71,7 @@ This page is three files that link to each other:
 </html>
 ```
 
-### [cats.html](/examples/html/files/personal-page-unstyled/cats.html)
+### [cats.html](/tutorials/html/files/personal-page-unstyled/cats.html)
 
 ```html
 <!DOCTYPE html>

@@ -115,15 +115,15 @@ This page contains basically the same three HTML files as the [unstyled](/exampl
 		<p>Here are some pictures of my cat, Stanley:</p>
 
 		<div class="row">
-			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-1.jpg" />
-			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-2.jpg" />
-			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-3.jpg" />
+			<img class="col-xs-12 col-md-4" src="http://happycoding.io/tutorials/html/files/images/cat-1.jpg" />
+			<img class="col-xs-12 col-md-4" src="http://happycoding.io/tutorials/html/files/images/cat-2.jpg" />
+			<img class="col-xs-12 col-md-4" src="http://happycoding.io/tutorials/html/files/images/cat-3.jpg" />
 		</div>
 
 		<div class="row">
-			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-4.jpg" />
-			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-5.jpg" />
-			<img class="col-xs-12 col-md-4" src="http://happycoding.io/examples/html/files/images/cat-6.jpg" />
+			<img class="col-xs-12 col-md-4" src="http://happycoding.io/tutorials/html/files/images/cat-4.jpg" />
+			<img class="col-xs-12 col-md-4" src="http://happycoding.io/tutorials/html/files/images/cat-5.jpg" />
+			<img class="col-xs-12 col-md-4" src="http://happycoding.io/tutorials/html/files/images/cat-6.jpg" />
 		</div>
 
 		<footer>Learn more at <a href="http://HappyCoding.io/examples/javascript/personal-page-bootstrap-default">HappyCoding.io</a>!</footer>
