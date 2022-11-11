@@ -1,12 +1,12 @@
 ---
 title: Rainbow Logo
 layout: tutorial
-thumbnail: /examples/html/images/rainbow-logo-1.png
+thumbnail: /tutorials/html/images/rainbow-logo-1.png
 tagline: Use CSS to create a rainbow logo!
 sort-key: 110
 meta-title: Rainbow Logo
 meta-description: This example shows how to use CSS to create a rainbow logo.
-meta-image: /examples/html/images/rainbow-logo-2.png
+meta-image: /tutorials/html/images/rainbow-logo-2.png
 tags: [example, html, css]
 previousPost: /tutorials/html/css
 redirect_from: /examples/html/rainbow-logo
@@ -44,7 +44,7 @@ This program uses the `<span>` class to style each individual letter in the text
 </html>
 ```
 
-![rainbow logo](/examples/html/images/rainbow-logo-3.png)
+![rainbow logo](/tutorials/html/images/rainbow-logo-3.png)
 
 {% include codepen.html slug-hash="zodxYj" height="375" %}
 

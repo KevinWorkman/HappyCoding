@@ -1,12 +1,12 @@
 ---
 title: Rainbow Divs
 layout: tutorial
-thumbnail: /examples/html/images/rainbow-divs-1.png
+thumbnail: /tutorials/html/images/rainbow-divs-1.png
 tagline: Use CSS to create colored divs.
 sort-key: 130
 meta-title: Rainbow Divs
 meta-description: Use CSS to create colored divs.
-meta-image: /examples/html/images/rainbow-divs-1.png
+meta-image: /tutorials/html/images/rainbow-divs-1.png
 tags: [example, html, css]
 previousPost: /tutorials/html/css
 redirect_from: /examples/html/rainbow-divs
@@ -74,7 +74,7 @@ This example uses HTML and CSS to create a border of colored divs.
 </html>
 ```
 
-![rainbow divs](/examples/html/images/rainbow-divs-2.png)
+![rainbow divs](/tutorials/html/images/rainbow-divs-2.png)
 
 {% include codepen-new.html slug-hash="GRNZebK" height="350" %}
 

@@ -2,10 +2,10 @@
 layout: default
 categories: [examples, html2]
 title: HTML Examples
-thumbnail: /examples/html/images/rainbow-logo-1.png
+thumbnail: /tutorials/html/images/rainbow-logo-1.png
 meta-title: HTML Examples
 meta-description: Example webpages using HTML and CSS.
-meta-image: /examples/html/images/rainbow-logo-2.png
+meta-image: /tutorials/html/images/rainbow-logo-2.png
 sort-key: 200
 ---
 

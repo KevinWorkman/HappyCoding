@@ -1,12 +1,12 @@
 ---
 title: Asimov's Empire, Robot, and Foundation Series (CSS Tables)
 layout: tutorial
-thumbnail: /examples/html/images/asimov-empire-robots-foundation-tables-2.png
+thumbnail: /tutorials/html/images/asimov-empire-robots-foundation-tables-2.png
 tagline: Use CSS to create colored tables!
 sort-key: 120
 meta-title: Asimov's Empire, Robot, and Foundation Series (CSS Tables)
 meta-description: Use CSS to create colored tables!
-meta-image: /examples/html/images/asimov-empire-robots-foundation-tables.png
+meta-image: /tutorials/html/images/asimov-empire-robots-foundation-tables.png
 tags: [example, html, css]
 previousPost: /tutorials/html/css
 redirect_from: /examples/html/asimov-empire-robots-foundation-tables
@@ -17,7 +17,7 @@ This example uses HTML and CSS to show all of the books in Isaac Asimov's Empire
 
 I originally wrote this HTML to create screenshots of the tables I then posted in [this answer](https://scifi.stackexchange.com/a/235311/26220) on the Sci-Fi Stack Exchange.
 
-<img src="/examples/html/images/asimov-empire-robots-foundation-tables-3.png" style="border: thin solid black;" />
+<img src="/tutorials/html/images/asimov-empire-robots-foundation-tables-3.png" style="border: thin solid black;" />
 
 # CSS
 

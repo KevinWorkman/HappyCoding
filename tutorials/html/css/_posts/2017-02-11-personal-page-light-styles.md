@@ -1,12 +1,12 @@
 ---
 title: Personal Webpage (light styles)
 layout: tutorial
-thumbnail: /examples/html/images/personal-page-light-styles-1.png
+thumbnail: /tutorials/html/images/personal-page-light-styles-1.png
 tagline: Add styles to your personal webpage.
 sort-key: 520
 meta-title: Personal Webpage (light styles)
 meta-description: Add styles to your personal webpage.
-meta-image: /examples/html/images/personal-page-light-styles-2.png
+meta-image: /tutorials/html/images/personal-page-light-styles-2.png
 tags: [example, html, css]
 previousPost: /tutorials/html/css
 redirect_from: /examples/html/personal-page-light-styles

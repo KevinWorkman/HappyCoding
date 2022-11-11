@@ -1,12 +1,12 @@
 ---
 title: Personal Webpage (dark styles)
 layout: tutorial
-thumbnail: /examples/html/images/personal-page-dark-styles-1.png
+thumbnail: /tutorials/html/images/personal-page-dark-styles-1.png
 tagline: Add dark styles to your personal webpage.
 sort-key: 530
 meta-title: Personal Webpage (dark styles)
 meta-description: Give you personal webpage a sp00ky dark theme!
-meta-image: /examples/html/images/personal-page-dark-styles-2.png
+meta-image: /tutorials/html/images/personal-page-dark-styles-2.png
 tags: [example, html, css]
 previousPost: /tutorials/html/css
 redirect_from: /examples/html/personal-page-dark-styles
