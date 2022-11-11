@@ -8,6 +8,9 @@ meta-title: Processing Showcase
 meta-description: Create a Java program that cycles through Processing sketches.
 meta-image: /tutorials/processing/images/processing-icon-large-1.png
 tags: [example, java, processing, processing-in-java]
+previousPost: /tutorials/java/processing-in-java
+redirect_from: /examples/java/processing-showcase
+discourseEmbedUrl: /examples/java/processing-showcase
 ---
 
 If you have a bunch of Processing sketches and want to show them one after the other, you can use this Java program:
@@ -22,13 +25,13 @@ import processing.core.PApplet;
 public class ProcessingShowcase {
 
 	public static void main(String[] args){
-		
+
 		List<PApplet> sketches = new ArrayList<>();
 		sketches.add(new ProcessingSketchOne());
 		sketches.add(new ProcessingSketchTwo());
 		//add sketch classes here!
 
-		
+
 		//this is optional, but causes the sketches to appear in random order
 		//copy this to where the index is reset to randomize whenever you loop
 		Collections.shuffle(sketches);
@@ -42,17 +45,17 @@ public class ProcessingShowcase {
 				PApplet sketch = sketches.get(currentSketchIndex);
 				String[] processingArgs = {""};
 				PApplet.runSketch(processingArgs, sketch);
-				
-				// this is useful after we've looped	
+
+				// this is useful after we've looped
 				sketch.getSurface().resumeThread();
-				
+
 				//how long do you want each sketch to display for
 				//60 seconds
 				Thread.sleep(60*1000);
 
 				// prevent sketches from continuing to run while they're hidden
 				sketch.getSurface().pauseThread();
-				
+
 				//hide the sketch
 				sketch.getSurface().setVisible(false);
 			}

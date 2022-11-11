@@ -8,6 +8,9 @@ meta-title: Swing Control Window
 meta-description: Create a Processing sketch with a Swing control window.
 meta-image: /examples/java/images/swing-control-window-5.png
 tags: [example, java, processing, processing-in-java]
+previousPost: /tutorials/java/processing-in-java
+redirect_from: /examples/java/swing-control-window
+discourseEmbedUrl: /examples/java/swing-control-window
 ---
 
 This program creates a Java application that contains a Processing sketch and a Swing GUI. The Swing GUI contains a button that shows a color picker, and that color is sent to the Processing sketch to be displayed.
@@ -22,7 +25,7 @@ public class ProcessingSketch extends PApplet{
 	private float red = 64;
 	private float green = 64;
 	private float blue = 64;
-	
+
 	public void settings(){
 		size(500, 500);
 	}
@@ -30,13 +33,13 @@ public class ProcessingSketch extends PApplet{
 	public void draw(){
 		background(red, green, blue);
 	}
-	
+
 	public void setColor(float red, float green, float blue) {
 		this.red = red;
 		this.green = green;
 		this.blue = blue;
 	}
-	
+
 	public void run(){
 		String[] processingArgs = {"ProcessingSketch"};
 		PApplet.runSketch(processingArgs, this);
@@ -59,27 +62,27 @@ import javax.swing.JColorChooser;
 import javax.swing.JFrame;
 
 public class SwingGui {
-	
+
 	private JFrame frame;
 
 	public SwingGui(ProcessingSketch sketch){
 		frame = new JFrame("Controls");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		JButton pickColor = new JButton("Color...");
 		pickColor.addActionListener(new ActionListener(){
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e){
 				Color color = JColorChooser.showDialog(pickColor, "Color Picker", Color.RED);
 				sketch.setColor(color.getRed(), color.getGreen(), color.getBlue());
 			}
 		});
-		
+
 		frame.add(pickColor);
 		frame.setSize(200, 100);
 	}
-	
+
 	public void show(){
 		frame.setVisible(true);
 	}
@@ -97,7 +100,7 @@ public class Main {
 	public static void main(String[] args){
 		ProcessingSketch sketch = new ProcessingSketch();
 		SwingGui swingGui = new SwingGui(sketch);
-		
+
 		sketch.run();
 		swingGui.show();
 	}
