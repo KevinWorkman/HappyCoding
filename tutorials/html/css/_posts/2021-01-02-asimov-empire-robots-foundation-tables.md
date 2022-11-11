@@ -8,6 +8,9 @@ meta-title: Asimov's Empire, Robot, and Foundation Series (CSS Tables)
 meta-description: Use CSS to create colored tables!
 meta-image: /examples/html/images/asimov-empire-robots-foundation-tables.png
 tags: [example, html, css]
+previousPost: /tutorials/html/css
+redirect_from: /examples/html/asimov-empire-robots-foundation-tables
+discourseEmbedUrl: /examples/html/asimov-empire-robots-foundation-tables
 ---
 
 This example uses HTML and CSS to show all of the books in Isaac Asimov's Empire, Robot, and Foundation series in the order they were published in, the order I recommend reading them, and chronological order.

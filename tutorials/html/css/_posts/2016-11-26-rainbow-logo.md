@@ -8,6 +8,9 @@ meta-title: Rainbow Logo
 meta-description: This example shows how to use CSS to create a rainbow logo.
 meta-image: /examples/html/images/rainbow-logo-2.png
 tags: [example, html, css]
+previousPost: /tutorials/html/css
+redirect_from: /examples/html/rainbow-logo
+discourseEmbedUrl: /examples/html/rainbow-logo
 ---
 
 This program uses the `<span>` class to style each individual letter in the text `Happy Coding!`. It then uses a mix of internal styles inside the `<head>` section and inline styles on each `<span>` tag to create a rainbow logo on a black background.
@@ -24,9 +27,9 @@ This program uses the `<span>` class to style each individual letter in the text
 				font-size:96pt;
 				font-family: "Lucida Console", Monaco, monospace;
 			}
-			
+
 			p{
-				line-height: 0pt;	
+				line-height: 0pt;
 			}
 		</style>
 	</head>

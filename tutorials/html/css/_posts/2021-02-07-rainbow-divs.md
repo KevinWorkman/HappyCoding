@@ -8,6 +8,9 @@ meta-title: Rainbow Divs
 meta-description: Use CSS to create colored divs.
 meta-image: /examples/html/images/rainbow-divs-1.png
 tags: [example, html, css]
+previousPost: /tutorials/html/css
+redirect_from: /examples/html/rainbow-divs
+discourseEmbedUrl: /examples/html/rainbow-divs
 ---
 
 {% include youtube-embed.html slug="7Ret6UaOj9U" %}
