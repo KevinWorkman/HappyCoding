@@ -9,6 +9,9 @@ meta-description: Let users upload images and other files.
 meta-image: /tutorials/google-cloud/images/blobstore-5.png
 previousPost: /examples/google-cloud/
 tags: [example, java, server, google-cloud, app-engine, cloud-storage]
+previousPost: /tutorials/google-cloud/cloud-storage
+redirect_from: /examples/google-cloud/cloud-storage-hello-world
+discourseEmbedUrl: /examples/google-cloud/cloud-storage-hello-world
 ---
 
 This is a barebones example webapp that lets the user upload files to Google Cloud Storage.
@@ -54,7 +57,7 @@ Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/ho
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
     </dependency>
-    
+
     <!-- Google Cloud Storage -->
     <dependency>
       <groupId>com.google.cloud</groupId>
@@ -179,15 +182,15 @@ public class ServerMain {
     webAppContext.setResourceBase(webAppDir.toURI().toString());
 
     // Enable annotations so the server sees classes annotated with @WebServlet.
-    webAppContext.setConfigurations(new Configuration[]{ 
+    webAppContext.setConfigurations(new Configuration[]{
       new AnnotationConfiguration(),
-      new WebInfConfiguration(), 
+      new WebInfConfiguration(),
     });
 
     // Look for annotations in the classes directory (dev server) and in the
     // jar file (live server)
     webAppContext.setAttribute(
-        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern", 
+        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern",
         ".*/target/classes/|.*\\.jar");
 
     // Handle static resources, e.g. html files.
@@ -250,7 +253,7 @@ public class UploadServlet extends HttpServlet {
     response.getWriter().println("<p>Your image:</p>");
     response.getWriter().println("<img src=\"" + uploadedFileUrl + "\"  />");
   }
-  
+
   /** Uploads a file to Cloud Storage and returns the uploaded file's URL. */
   private static String uploadToCloudStorage(String fileName, InputStream fileInputStream) {
     String projectId = "happy-coding-gcloud";
@@ -279,7 +282,7 @@ public class UploadServlet extends HttpServlet {
   <body>
     <h1>Google Cloud Storage Hello World</h1>
     <p>This form lets you upload a file to Google Cloud Storage.</p>
-    
+
     <form method="POST" enctype="multipart/form-data" action="/upload">
 
       <p>Type some text:</p>

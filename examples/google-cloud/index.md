@@ -25,7 +25,7 @@ sort-key: 700
 
 # Cloud Storage
 
-{% include url-thumbnail.html url="/examples/google-cloud/cloud-storage-hello-world" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/cloud-storage/cloud-storage-hello-world" %}
 
 # Cloud Vision
 
