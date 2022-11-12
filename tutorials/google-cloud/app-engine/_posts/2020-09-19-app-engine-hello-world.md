@@ -1,25 +1,23 @@
 ---
 layout: tutorial
-title: Shoutbox V1 (POST Requests)
-thumbnail: /tutorials/java-server/images/post-9.png
-tagline: Use POST requests to create a shoutbox.
-sort-key: 500
-meta-title:  Shoutbox V1 (POST Requests)
-meta-description: Use POST requests to create a shoutbox.
-meta-image: /tutorials/java-server/images/post-10.png
-previousPost: /examples/google-cloud/
-tags: [example, java, google-cloud, app-engine, post]
+title: App Engine Hello World
+thumbnail: /tutorials/java-server/images/hosting-google-app-engine-5.png
+tagline: Deploy your web app.
+sort-key: 100
+meta-title: Google App Engine Hello World Example
+meta-description: Deploy your web app on Google App Engine.
+meta-image: /tutorials/java-server/images/hosting-google-app-engine-6.png
+tags: [example, java, server, google-cloud, app-engine]
+previousPost: /tutorials/google-cloud/app-engine
+redirect_from: /examples/google-cloud/app-engine-hello-world
+discourseEmbedUrl: /examples/google-cloud/app-engine-hello-world
 ---
 
-This project uses POST requests to create a [shoutbox](https://en.wikipedia.org/wiki/Shoutbox) where users can post short messages.
+This is a barebones example webapp using Google Cloud.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/shoutbox-v1).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/shoutbox-v1).
-
-![input](/examples/google-cloud/google-cloud-example-projects/shoutbox-v1/screenshot-1.png)
-
-![shoutbox](/examples/google-cloud/google-cloud-example-projects/shoutbox-v1/screenshot-2.png)
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world).
 
 **pom.xml**
 
@@ -32,7 +30,7 @@ Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/ho
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.happycoding</groupId>
-  <artifactId>shoutbox-v1</artifactId>
+  <artifactId>app-engine-hello-world</artifactId>
   <version>1</version>
 
   <properties>
@@ -172,15 +170,15 @@ public class ServerMain {
     webAppContext.setResourceBase(webAppDir.toURI().toString());
 
     // Enable annotations so the server sees classes annotated with @WebServlet.
-    webAppContext.setConfigurations(new Configuration[]{ 
+    webAppContext.setConfigurations(new Configuration[]{
       new AnnotationConfiguration(),
-      new WebInfConfiguration(), 
+      new WebInfConfiguration(),
     });
 
     // Look for annotations in the classes directory (dev server) and in the
     // jar file (live server)
     webAppContext.setAttribute(
-        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern", 
+        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern",
         ".*/target/classes/|.*\\.jar");
 
     // Handle static resources, e.g. html files.
@@ -196,76 +194,46 @@ public class ServerMain {
 }
 ```
 
-**MessageServlet.java**
+**HelloWorldServlet.java**
 
-`MessageServlet.java` is a Java servlet that contains a `doGet()` function that loads messages from Datastore and outputs them as HTML, and a `doPost()` function that stores new messages in an `ArrayList`.
+`HelloWorldServlet.java` is a Java servlet that returns some HTML content.
 
 ```java
 package io.happycoding.servlets;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/message")
-public class MessageServlet extends HttpServlet {
-
-  // In-memory data structure for a simple example.
-  // This is for testing only!
-  // In real life you'd want to use persistent storage like Datastore.
-  private List<String> messages = new ArrayList<>();
+@WebServlet("/hello")
+public class HelloWorldServlet extends HttpServlet {
 
   @Override
-  public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    response.setContentType("text/html;");
-    response.getWriter().println("<h1>Shoutbox</h1>");
-    response.getWriter().println("<ul>");
-    for(String message: messages) {
-    	response.getWriter().println("<li>" + message + "</li>");
-    }
-    response.getWriter().println("</ul>");
-    response.getWriter().println("<p><a href=\"/\">Back</a></p>");
-  }
-
-  @Override
-  public void doPost(HttpServletRequest request, HttpServletResponse response)
+  public void doGet(HttpServletRequest request, HttpServletResponse response)
       throws IOException {
-
-    String message = request.getParameter("message");
-    messages.add(message);
- 
-    // Redirect to /message.
-    // The request will be routed to the doGet() function above.
-    response.sendRedirect("/message");
+    response.setContentType("text/html;");
+    response.getOutputStream().println("<h1>Hello world!</h1>");
   }
 }
 ```
 
 **index.html**
 
- `index.html` is an HTML file that shows a form with a file input.
+ `index.html` is an HTML file that shows static content.
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Shoutbox v1</title>
+    <title>Google Cloud Hello World</title>
   </head>
   <body>
-    <h1>Shoutbox v1</h1>
-    <p>Type a message and click submit:</p>
-
-    <form method="POST" action="/message">
-      <textarea name="message"></textarea>
-      <br/>
-      <button>Submit</button>
-    </form>
-
+    <h1>Google Cloud Hello World</h1>
+    <p>This is a sample HTML file. Click <a href="/hello">here</a> to see content served from a servlet.</p>
     <p>Learn more at <a href="https://happycoding.io">HappyCoding.io</a>.</p>
   </body>
 </html>
@@ -277,13 +245,11 @@ You can run this locally by executing this command:
 mvn package exec:java
 ```
 
-Then visit <http://localhost:8080> in your web browser, and you should see this:
+Then visit http://localhost:8080 in your web browser, and you should see this:
 
-![input](/examples/google-cloud/google-cloud-example-projects/shoutbox-v1/screenshot-1.png)
-
-![shoutbox](/examples/google-cloud/google-cloud-example-projects/shoutbox-v1/screenshot-2.png)
+![app engine hello world](/examples/google-cloud/images/app-engine-hello-world-1.png)
 
 Learn more in these tutorials:
 
-{% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
-{% include url-thumbnail.html url="/tutorials/java-server/post" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/setup" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}

@@ -20,8 +20,8 @@ sort-key: 700
 
 # Hello World
 
-{% include url-thumbnail.html url="/examples/google-cloud/app-engine-hello-world" %}
-{% include url-thumbnail.html url="/examples/google-cloud/shoutbox-v1" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/app-engine/app-engine-hello-world" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/app-engine/shoutbox-v1" %}
 
 # Cloud Storage
 
