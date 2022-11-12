@@ -20,9 +20,9 @@ View the code for this project [here](https://github.com/KevinWorkman/HappyCodin
 
 Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
 
-![file input](/examples/google-cloud/images/cloud-storage-hello-world-1.png)
+![file input](/tutorials/google-cloud/images/cloud-storage-hello-world-1.png)
 
-![image uploaded](/examples/google-cloud/images/cloud-storage-hello-world-2.png)
+![image uploaded](/tutorials/google-cloud/images/cloud-storage-hello-world-2.png)
 
 **pom.xml**
 
@@ -310,9 +310,9 @@ mvn package exec:java
 
 Then visit http://localhost:8080 in your web browser, and you should see this:
 
-![file input](/examples/google-cloud/images/cloud-storage-hello-world-1.png)
+![file input](/tutorials/google-cloud/images/cloud-storage-hello-world-1.png)
 
-![image uploaded](/examples/google-cloud/images/cloud-storage-hello-world-2.png)
+![image uploaded](/tutorials/google-cloud/images/cloud-storage-hello-world-2.png)
 
 Learn more in these tutorials:
 

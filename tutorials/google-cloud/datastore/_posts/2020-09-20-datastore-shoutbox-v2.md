@@ -20,9 +20,9 @@ View the code for this project [here](https://github.com/KevinWorkman/HappyCodin
 
 Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
 
-![input](/examples/google-cloud/images/datastore-shoutbox-v2-1.png)
+![input](/tutorials/google-cloud/images/datastore-shoutbox-v2-1.png)
 
-![shoutbox](/examples/google-cloud/images/datastore-shoutbox-v2-2.png)
+![shoutbox](/tutorials/google-cloud/images/datastore-shoutbox-v2-2.png)
 
 **pom.xml**
 
@@ -309,9 +309,9 @@ Follow the directions [here](/tutorials/google-cloud/datastore#running-datastore
 
 Then visit <http://localhost:8080> in your web browser, and you should see this:
 
-![input](/examples/google-cloud/images/datastore-shoutbox-v2-1.png)
+![input](/tutorials/google-cloud/images/datastore-shoutbox-v2-1.png)
 
-![shoutbox](/examples/google-cloud/images/datastore-shoutbox-v2-2.png)
+![shoutbox](/tutorials/google-cloud/images/datastore-shoutbox-v2-2.png)
 
 Learn more in these tutorials:
 

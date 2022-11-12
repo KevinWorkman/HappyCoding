@@ -247,7 +247,7 @@ mvn package exec:java
 
 Then visit http://localhost:8080 in your web browser, and you should see this:
 
-![app engine hello world](/examples/google-cloud/images/app-engine-hello-world-1.png)
+![app engine hello world](/tutorials/google-cloud/images/app-engine-hello-world-1.png)
 
 Learn more in these tutorials:
 
