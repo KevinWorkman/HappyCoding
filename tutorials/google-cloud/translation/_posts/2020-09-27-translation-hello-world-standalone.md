@@ -9,6 +9,9 @@ meta-description: Use Google Translate in your own code.
 meta-image: /tutorials/google-cloud/images/translation-3.png
 previousPost: /examples/google-cloud/
 tags: [example, java, google-cloud, translation]
+previousPost: /tutorials/google-cloud/translation
+redirect_from: /examples/google-cloud/translation-hello-world-standalone
+discourseEmbedUrl: /examples/google-cloud/translation-hello-world-standalone
 ---
 
 This is a command line program that uses [Google Translate](/tutorials/google-cloud/translation) to translate some text.
@@ -71,7 +74,7 @@ public class TranslationHelloWorld {
 
     // Create an instance of Translate to send the translation request
     Translate translate = TranslateOptions.getDefaultInstance().getService();
-    
+
     // Translate into Spanish (es)
     Translation translation =
         translate.translate(originalText, TranslateOption.targetLanguage("es"));

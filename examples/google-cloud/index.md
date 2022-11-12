@@ -50,5 +50,5 @@ sort-key: 700
 
 # Translation
 
-{% include url-thumbnail.html url="/examples/google-cloud/translation-hello-world-standalone" %}
-{% include url-thumbnail.html url="/examples/google-cloud/translation-hello-world-webapp" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/translation/translation-hello-world-standalone" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/translation/translation-hello-world-webapp" %}
