@@ -64,12 +64,6 @@ meta-description: You can code. HappyCoding.io is a collection of tutorials and 
 </div>
 <hr>
 
-<h2>New Examples</h2>
-<div class="thumbnail-link-container">
-{% include recent-posts.html posts=site.categories.examples count=6 %}
-</div>
-<hr>
-
 <h2>Latest Blog Post</h2>
 {% for post in site.categories.blog limit:1 %}
   <a href="{{ post.url }}" title="{{ post.title }}">
