@@ -34,7 +34,7 @@ sort-key: 700
 
 # Datastore
 
-{% include url-thumbnail.html url="/examples/google-cloud/datastore-shoutbox-v2" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/datastore/datastore-shoutbox-v2" %}
 
 # Google Maps
 

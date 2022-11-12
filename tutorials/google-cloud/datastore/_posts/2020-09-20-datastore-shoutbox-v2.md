@@ -9,6 +9,9 @@ meta-description: Store data using Google Datastore.
 meta-image: /tutorials/google-cloud/images/datastore-2.png
 previousPost: /examples/google-cloud/
 tags: [example, java, google-cloud, app-engine, datastore]
+previousPost: /tutorials/google-cloud/datastore
+redirect_from: /examples/google-cloud/datastore-shoutbox-v2
+discourseEmbedUrl: /examples/google-cloud/datastore-shoutbox-v2
 ---
 
 This project uses POST requests and Datastore to create a [shoutbox](https://en.wikipedia.org/wiki/Shoutbox) where users can post short messages.
@@ -179,15 +182,15 @@ public class ServerMain {
     webAppContext.setResourceBase(webAppDir.toURI().toString());
 
     // Enable annotations so the server sees classes annotated with @WebServlet.
-    webAppContext.setConfigurations(new Configuration[]{ 
+    webAppContext.setConfigurations(new Configuration[]{
       new AnnotationConfiguration(),
-      new WebInfConfiguration(), 
+      new WebInfConfiguration(),
     });
 
     // Look for annotations in the classes directory (dev server) and in the
     // jar file (live server)
     webAppContext.setAttribute(
-        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern", 
+        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern",
         ".*/target/classes/|.*\\.jar");
 
     // Handle static resources, e.g. html files.
@@ -236,7 +239,7 @@ public class MessageServlet extends HttpServlet {
     response.setContentType("text/html;");
     response.getWriter().println("<h1>Shoutbox</h1>");
     response.getWriter().println("<ul>");
-    
+
     Datastore datastore = DatastoreOptions.getDefaultInstance().getService();
 
     Query<Entity> query = Query.newEntityQueryBuilder()
@@ -250,16 +253,16 @@ public class MessageServlet extends HttpServlet {
       String message = entity.getString("text");
       response.getWriter().println("<li>" + message + "</li>");
     }
-    
+
     response.getWriter().println("</ul>");
     response.getWriter().println("<p><a href=\"/\">Back</a></p>");
   }
-  
+
   @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
     String text = request.getParameter("message");
-    
+
     Datastore datastore = DatastoreOptions.getDefaultInstance().getService();
     KeyFactory keyFactory = datastore.newKeyFactory().setKind("Message");
     FullEntity messageEntity = Entity.newBuilder(keyFactory.newKey())
