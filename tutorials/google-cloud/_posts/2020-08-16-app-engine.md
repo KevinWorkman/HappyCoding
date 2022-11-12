@@ -29,7 +29,7 @@ Those commands deploy to App Engine, either locally or to your live server. This
 
 # Hello World
 
-If you haven't already, you can download a barebones [example webapp](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world).
+If you haven't already, you can download a barebones [example webapp](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/app-engine-hello-world).
 
 This project is an `app-engine-hello-world` directory with subdirectories that contain 5 files::
 
@@ -248,7 +248,7 @@ I like Jetty and servlets because they allow me to focus on the fundamentals, bu
 
 # Summary
 
-App Engine can run any Java program, and the [hello world example](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world) uses [Jetty](https://www.eclipse.org/jetty/) to create a server. The `pom.xml` file packages all of the static content and dependencies into a single executable jar file. That jar file can be run either locally or uploaded to App Engine to run a live server.
+App Engine can run any Java program, and the [hello world example](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/app-engine-hello-world) uses [Jetty](https://www.eclipse.org/jetty/) to create a server. The `pom.xml` file packages all of the static content and dependencies into a single executable jar file. That jar file can be run either locally or uploaded to App Engine to run a live server.
 
 # Learn More
 

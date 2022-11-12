@@ -16,11 +16,11 @@ discourseEmbedUrl: /examples/google-cloud/maps-google-tour
 
 This project uses the Google Maps JavaScript library to create a map that shows various landmarks around Google.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/maps-google-tour).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/maps-google-tour).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/maps-google-tour).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/maps-google-tour).
 
-![google tour map](/examples/google-cloud/google-cloud-example-projects/maps-google-tour/screenshot.png)
+![google tour map](/tutorials/google-cloud/google-cloud-example-projects/maps-google-tour/screenshot.png)
 
 **index.html**
 
@@ -82,7 +82,7 @@ Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/ho
 
 Change `YOUR_API_KEY` to your actual API key and then open the file in your browser. You should see this:
 
-![google tour map](/examples/google-cloud/google-cloud-example-projects/maps-google-tour/screenshot.png)
+![google tour map](/tutorials/google-cloud/google-cloud-example-projects/maps-google-tour/screenshot.png)
 
 Learn more in these tutorials:
 

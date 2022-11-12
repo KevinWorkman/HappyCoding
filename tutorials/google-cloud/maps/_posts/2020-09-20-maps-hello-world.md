@@ -16,11 +16,11 @@ discourseEmbedUrl: /examples/google-cloud/maps-hello-world
 
 This project uses the Google Maps API to add a map to the page.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/maps-hello-world).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/maps-hello-world).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/maps-hello-world).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/maps-hello-world).
 
-![google map](/examples/google-cloud/google-cloud-example-projects/maps-hello-world/screenshot.png)
+![google map](/tutorials/google-cloud/google-cloud-example-projects/maps-hello-world/screenshot.png)
 
 **index.html**
 
@@ -58,7 +58,7 @@ Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/ho
 
 Change `YOUR_API_KEY` to your actual API key and then open the file in your browser. You should see this:
 
-![google tour map](/examples/google-cloud/google-cloud-example-projects/maps-hello-world/screenshot.png)
+![google tour map](/tutorials/google-cloud/google-cloud-example-projects/maps-hello-world/screenshot.png)
 
 Learn more in these tutorials:
 

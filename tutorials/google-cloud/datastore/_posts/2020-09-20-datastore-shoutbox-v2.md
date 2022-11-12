@@ -16,9 +16,9 @@ discourseEmbedUrl: /examples/google-cloud/datastore-shoutbox-v2
 
 This project uses POST requests and Datastore to create a [shoutbox](https://en.wikipedia.org/wiki/Shoutbox) where users can post short messages.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
 
 ![input](/tutorials/google-cloud/images/datastore-shoutbox-v2-1.png)
 

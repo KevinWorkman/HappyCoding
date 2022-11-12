@@ -170,7 +170,7 @@ To switch to the Java 11 runtime, you need to do a few things:
    <googleCloudProjectId>YOU_PROJECT_ID_HERE</googleCloudProjectId>
    ```
 
-Go to [GitHub](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/examples/google-cloud/google-cloud-example-projects/app-engine-hello-world/pom.xml) for a full example `pom.xml` file.
+Go to [GitHub](https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/tutorials/google-cloud/google-cloud-example-projects/app-engine-hello-world/pom.xml) for a full example `pom.xml` file.
 
 At this point, you'll get errors when you try to deploy your code to a local or live server.
 

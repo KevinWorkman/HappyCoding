@@ -16,9 +16,9 @@ discourseEmbedUrl: /examples/google-cloud/natural-language-hello-world-webapp
 
 This is a web app that uses [Google Cloud Natural Language](/tutorials/google-cloud/natural-language) to analyze some text uploaded by the user.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/natural-language-hello-world-webapp).
 
 ![text input](/tutorials/google-cloud/images/natural-language-1.png)
 

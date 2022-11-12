@@ -16,9 +16,9 @@ discourseEmbedUrl: /examples/google-cloud/cloud-storage-hello-world
 
 This is a barebones example webapp that lets the user upload files to Google Cloud Storage.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/cloud-storage-hello-world).
 
 ![file input](/tutorials/google-cloud/images/cloud-storage-hello-world-1.png)
 

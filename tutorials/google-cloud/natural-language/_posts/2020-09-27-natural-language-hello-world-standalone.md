@@ -16,9 +16,9 @@ discourseEmbedUrl: /examples/google-cloud/natural-language-hello-world-standalon
 
 This is a command line program that uses [Google Cloud Natural Language](/tutorials/google-cloud/natural-language) to perform sentiment analysis on some text.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/natural-language-hello-world-standalone).
 
 This example prints out the sentiment score for the string `"Happy coding!"`.
 

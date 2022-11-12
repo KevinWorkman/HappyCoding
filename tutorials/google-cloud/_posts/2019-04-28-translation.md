@@ -51,7 +51,7 @@ To add the library to your classpath, add this maven dependency to your `pom.xml
 
 You can call the Cloud Translation library from any Java code, including standalone (non-server) code. To see how the library works, let's start with that.
 
-You can view this [hello world](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-standalone) example project, or download it as a `.zip` file from [DownGit](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-standalone).
+You can view this [hello world](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-standalone) example project, or download it as a `.zip` file from [DownGit](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-standalone).
 
 First, create a `String` that contains the text you want to translate:
 
@@ -145,7 +145,7 @@ Try changing the above code to translate different strings into different langua
 
 The above example performs sentiment analysis in a standalone Java application. This is useful if you want to build a desktop application or analyze some text on your own computer. But you can also use the Translation API in server code, which comes in handy if you want to build a web app.
 
-You can view this example project from [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp), or download it as a `.zip` file from [DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp).
+You can view this example project from [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-webapp), or download it as a `.zip` file from [DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-webapp).
 
 Let's start with the servlet:
 

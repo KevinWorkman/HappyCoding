@@ -16,9 +16,9 @@ discourseEmbedUrl: /examples/google-cloud/cloud-vision-hello-world-webapp
 
 This is a web app that uses [Google Cloud Vision](/tutorials/google-cloud/vision) to analyze an image uploaded by the user.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-webapp).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-webapp).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-webapp).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-webapp).
 
 ![file input](/tutorials/google-cloud/images/cloud-vision-hello-world-webapp-1.png)
 

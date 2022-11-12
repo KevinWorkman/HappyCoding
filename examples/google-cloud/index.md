@@ -12,9 +12,9 @@ sort-key: 700
 
 # Google Cloud Examples
 
-[View the code for these projects here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects).
+[View the code for these projects here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects).
 
-[Download all of the code as a zip file from DownGit here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects).
+[Download all of the code as a zip file from DownGit here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects).
 
 ---
 

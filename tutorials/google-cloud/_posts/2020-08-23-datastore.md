@@ -29,7 +29,7 @@ There was also a standalone Datastore library which has since been deprecated. T
 
 Before continuing, make sure you understand how `POST` requests work. If you're unfamiliar with `POST` requests, read the [POST requests](/tutorials/java-server/post) tutorial first!
 
-Let's start with an example webapp that uses POST requests to store data in an `ArrayList`. You can download this example project from [DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/shoutbox-v1).
+Let's start with an example webapp that uses POST requests to store data in an `ArrayList`. You can download this example project from [DownGit](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/shoutbox-v1).
 
 **index.html**
 
@@ -289,7 +289,7 @@ public class MessageServlet extends HttpServlet {
 }
 ```
 
-You can download this example project from [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
+You can download this example project from [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/datastore-shoutbox-v2).
 
 # Running Datastore Locally
 

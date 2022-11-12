@@ -16,11 +16,11 @@ discourseEmbedUrl: /examples/google-cloud/translation-hello-world-webapp
 
 This is a web app that uses [Google Translate](/tutorials/google-cloud/translation) to analyze some text uploaded by the user.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-webapp).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-webapp).
 
-![text input](/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp/screenshot.png)
+![text input](/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-webapp/screenshot.png)
 
 **pom.xml**
 
@@ -338,7 +338,7 @@ mvn package exec:java
 
 Then visit <http://localhost:8080> in your web browser, and you should see this:
 
-![text input](/examples/google-cloud/google-cloud-example-projects/translation-hello-world-webapp/screenshot.png)
+![text input](/tutorials/google-cloud/google-cloud-example-projects/translation-hello-world-webapp/screenshot.png)
 
 Learn more in these tutorials:
 

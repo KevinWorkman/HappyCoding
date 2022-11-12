@@ -16,9 +16,9 @@ discourseEmbedUrl: /examples/google-cloud/cloud-vision-hello-world-standalone
 
 This is a command line program that uses [Google Cloud Vision](/tutorials/google-cloud/vision) to analyze an image.
 
-View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-standalone).
+View the code for this project [here](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-standalone).
 
-Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/examples/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-standalone).
+Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/home?url=https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/tutorials/google-cloud/google-cloud-example-projects/cloud-vision-hello-world-standalone).
 
 For example, here is the result for analyzing this image:
 
