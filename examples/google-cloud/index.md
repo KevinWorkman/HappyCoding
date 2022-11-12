@@ -29,8 +29,8 @@ sort-key: 700
 
 # Cloud Vision
 
-{% include url-thumbnail.html url="/examples/google-cloud/cloud-vision-hello-world-standalone" %}
-{% include url-thumbnail.html url="/examples/google-cloud/cloud-vision-hello-world-webapp" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/vision/cloud-vision-hello-world-standalone" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/vision/cloud-vision-hello-world-webapp" %}
 
 # Datastore
 

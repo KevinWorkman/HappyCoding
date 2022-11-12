@@ -9,6 +9,9 @@ meta-description: Use machine learning to analyze images.
 meta-image: /tutorials/google-cloud/images/vision-4.png
 previousPost: /examples/google-cloud/
 tags: [example, java, google-cloud, cloud-vision]
+previousPost: /tutorials/google-cloud/vision
+redirect_from: /examples/google-cloud/cloud-vision-hello-world-standalone
+discourseEmbedUrl: /examples/google-cloud/cloud-vision-hello-world-standalone
 ---
 
 This is a command line program that uses [Google Cloud Vision](/tutorials/google-cloud/vision) to analyze an image.
