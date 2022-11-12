@@ -38,10 +38,10 @@ sort-key: 700
 
 # Google Maps
 
-{% include url-thumbnail.html url="/examples/google-cloud/maps-hello-world" %}
-{% include url-thumbnail.html url="/examples/google-cloud/maps-markers" %}
-{% include url-thumbnail.html url="/examples/google-cloud/maps-info-windows" %}
-{% include url-thumbnail.html url="/examples/google-cloud/maps-google-tour" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/maps/maps-hello-world" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/maps/maps-markers" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/maps/maps-info-windows" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/maps/maps-google-tour" %}
 
 # Cloud Natural Language
 

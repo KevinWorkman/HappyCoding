@@ -9,6 +9,9 @@ meta-description: Take a tour of Google's campus using the Google Maps JavaScrip
 meta-image: /tutorials/javascript/images/washington-dc-tour-2.png
 previousPost: /examples/google-cloud/
 tags: [example, javascript, google-cloud, maps]
+previousPost: /tutorials/google-cloud/maps
+redirect_from: /examples/google-cloud/maps-google-tour
+discourseEmbedUrl: /examples/google-cloud/maps-google-tour
 ---
 
 This project uses the Google Maps JavaScript library to create a map that shows various landmarks around Google.

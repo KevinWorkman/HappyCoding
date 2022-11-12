@@ -9,6 +9,9 @@ meta-description: Add a Google map to your page using the Google Maps JavaScript
 meta-image: /tutorials/javascript/images/washington-dc-tour-2.png
 previousPost: /examples/google-cloud/
 tags: [example, javascript, google-cloud, maps]
+previousPost: /tutorials/google-cloud/maps
+redirect_from: /examples/google-cloud/maps-hello-world
+discourseEmbedUrl: /examples/google-cloud/maps-hello-world
 ---
 
 This project uses the Google Maps API to add a map to the page.
