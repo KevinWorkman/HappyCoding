@@ -45,8 +45,8 @@ sort-key: 700
 
 # Cloud Natural Language
 
-{% include url-thumbnail.html url="/examples/google-cloud/natural-language-hello-world-standalone" %}
-{% include url-thumbnail.html url="/examples/google-cloud/natural-language-hello-world-webapp" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/natural-language/natural-language-hello-world-standalone" %}
+{% include url-thumbnail.html url="/tutorials/google-cloud/natural-language/natural-language-hello-world-webapp" %}
 
 # Translation
 

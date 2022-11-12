@@ -9,6 +9,9 @@ meta-description: Use machine learning to analyze natural language.
 meta-image: /tutorials/google-cloud/images/natural-language-4.png
 previousPost: /examples/google-cloud/
 tags: [example, java, google-cloud, natural-language]
+previousPost: /tutorials/google-cloud/natural-language
+redirect_from: /examples/google-cloud/natural-language-hello-world-standalone
+discourseEmbedUrl: /examples/google-cloud/natural-language-hello-world-standalone
 ---
 
 This is a command line program that uses [Google Cloud Natural Language](/tutorials/google-cloud/natural-language) to perform sentiment analysis on some text.
@@ -70,7 +73,7 @@ public class NaturalLanguageHelloWorld {
   public static void main(String[] args) throws IOException {
 
     String text = "Happy coding!";
-    
+
     // Create a Document containing plain text content
     Document doc = Document.newBuilder()
       .setContent(text).setType(Type.PLAIN_TEXT).build();

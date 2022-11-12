@@ -9,6 +9,9 @@ meta-description: Use machine learning to analyze natural language.
 meta-image: /tutorials/google-cloud/images/natural-language-4.png
 previousPost: /examples/google-cloud/
 tags: [example, java, google-cloud, app-engine, natural-language, sentiment-analysis]
+previousPost: /tutorials/google-cloud/natural-language
+redirect_from: /examples/google-cloud/natural-language-hello-world-webapp
+discourseEmbedUrl: /examples/google-cloud/natural-language-hello-world-webapp
 ---
 
 This is a web app that uses [Google Cloud Natural Language](/tutorials/google-cloud/natural-language) to analyze some text uploaded by the user.
@@ -54,7 +57,7 @@ Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/ho
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
     </dependency>
-    
+
     <!-- Google Cloud Natural Language -->
     <dependency>
       <groupId>com.google.cloud</groupId>
@@ -130,7 +133,7 @@ Download the code as a `.zip` from DownGit [here](https://downgit.github.io/#/ho
           </execution>
         </executions>
       </plugin>
-      
+
       <!-- App Engine plugin for deploying to the live site. -->
       <plugin>
         <groupId>com.google.cloud.tools</groupId>
@@ -190,15 +193,15 @@ public class ServerMain {
     webAppContext.setResourceBase(webAppDir.toURI().toString());
 
     // Enable annotations so the server sees classes annotated with @WebServlet.
-    webAppContext.setConfigurations(new Configuration[]{ 
+    webAppContext.setConfigurations(new Configuration[]{
       new AnnotationConfiguration(),
-      new WebInfConfiguration(), 
+      new WebInfConfiguration(),
     });
 
     // Look for annotations in the classes directory (dev server) and in the
     // jar file (live server)
     webAppContext.setAttribute(
-        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern", 
+        "org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern",
         ".*/target/classes/|.*\\.jar");
 
     // Handle static resources, e.g. html files.
