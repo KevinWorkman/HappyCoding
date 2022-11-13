@@ -1,0 +1,8 @@
+{%- assign pageUrl = include.url | append: "/" -%}
+
+{%- assign posts = site.posts | sort: 'sort-key' -%}
+  {%- for post in posts  -%}
+    {% if post.url contains pageUrl %}
+        {% include url-thumbnail.html url=post.url %}
+    {%- endif -%}
+  {% endfor %}

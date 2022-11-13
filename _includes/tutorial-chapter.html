@@ -1,0 +1,21 @@
+{%- assign post = site.posts | where:"url", include.url | first -%}
+{%- unless post -%}
+  {%- assign post = site.pages | where:"url", include.url | first -%}
+{%- endunless -%}
+
+<div class="tutorial-chapter">
+  <h2>
+    {% if include.chapter %}Chapter {{ include.chapter }}:{% endif %}
+    {{ post.title }}
+  </h2>
+  {% include url-thumbnail.html url=post.url fullsize=true %}
+
+  {% unless include.hideExamples %}
+    <hr>
+
+    <h3>{{ post.title }} Examples</h3>
+    {% include examples-for-tutorial.html url=post.url %}
+  {% endunless %}
+</div>
+
+<hr>
