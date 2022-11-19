@@ -84,7 +84,7 @@ nav {
   justify-content: space-between;
 }
 
-.left-nav-and-content {
+.left-nav-and-sections {
   display: flex;
   justify-content: space-between;
 }
@@ -114,25 +114,24 @@ nav {
   margin-right: 5px;
 }
 
-#content-and-comments {
+#sections {
   vertical-align: top;
   max-width: 100%;
 }
 
-.content {
+.section {
   background-color: #fbfbfb;
   border: thin solid #323232;
   padding: 25px;
+  margin-bottom: 50px;
+}
 
+.content {
   /* If text isn't wide enough, still stretch. */
   flex-grow: 1;
 }
 
 #comments {
-    background-color: #fbfbfb;
-    border: thin solid #323232;
-    padding: 25px;
-    margin-top: 50px;
 }
 
 #left-nav ul {

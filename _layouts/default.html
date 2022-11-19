@@ -45,11 +45,11 @@
         </div>
       </nav>
 
-      <div class="left-nav-and-content">
+      <div class="left-nav-and-sections">
   {% include left-nav.html %}
 
-        <div id="content-and-comments">
-          <div class="content">
+        <div id="sections">
+          <div class="section content">
 
   {%- assign breadcrumb = page.url | split: '/' -%}
   {%- unless breadcrumb.size < 3 %}
@@ -78,11 +78,11 @@
           </div> <!-- end content -->
 
   {% if layout.include_comments %}
- {% include comments.html %}
- {% endif %}
-        </div> <!-- end content-and-comments -->
+    {% include comments.html %}
+  {% endif %}
+        </div> <!-- end sections -->
 
-      </div> <!-- end left-nav-and-content -->
+      </div> <!-- end left-nav-and-sections -->
 
       <footer>
         <a href="https://twitter.com/TheKevinWorkman">
