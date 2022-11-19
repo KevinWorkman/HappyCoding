@@ -1,0 +1,12 @@
+/* If the screen isn't tiny, thumbnails should be small. */
+/* Fullsize thumbnails should not be made small, even on non-tiny screens. */
+@media (min-width:500px){
+  .tutorial-link-box:not(.fullsize) {
+    width: 200px;
+  }
+
+  .thumbnail-image:not(.fullsize) {
+    width:200px;
+    max-width:100%;
+  }
+}

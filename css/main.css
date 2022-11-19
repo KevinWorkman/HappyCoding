@@ -30,7 +30,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,9 +49,11 @@ nav {
 }
 
 .nav-links {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  align-items: center;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 .navbar-home {
@@ -84,16 +86,15 @@ nav {
 
 .left-nav-and-content {
   display: flex;
+  justify-content: space-between;
 }
 
 #left-nav {
-  /* Default style for mobile, see @media below. */
-  display: none;
+  width: 200px;
   float: left;
   background-color: #fbfbfb;
   border: thin solid #323232;
   padding: 10px;
-  margin-right:25px;
   height: fit-content;
   overflow: hidden;
   vertical-align: top;
@@ -105,8 +106,17 @@ nav {
   justify-content: space-around;
 }
 
+.smallThumbnailLink {
+  display: inline-flex;
+}
+
+.smallThumbnailLink img {
+  margin-right: 5px;
+}
+
 #content-and-comments {
   vertical-align: top;
+  max-width: 100%;
 }
 
 .content {
@@ -116,8 +126,6 @@ nav {
 
   /* If text isn't wide enough, still stretch. */
   flex-grow: 1;
-  /* Prevent code blocks from making content wider than container. */
-  max-width: calc(100% - 50px);
 }
 
 #comments {
@@ -125,33 +133,6 @@ nav {
     border: thin solid #323232;
     padding: 25px;
     margin-top: 50px;
-}
-
-@media screen and (min-width: 400px) {
-  .nav-links {
-    grid-gap: 0 25px;
-  }
-}
-
-/* Body has 10px margin * 2, content is 1000px, + 20px for scrollbar. */
-@media screen and (min-width: 1040px) {
-
-  .nav-links {
-    grid-template-columns: auto auto auto auto auto auto;
-  }
-
-  #left-nav {
-    display: inline-block;
-    width: 150px;
-  }
-
-  #content-and-comments {
-    width: 800px;
-  }
-
-  .nav-link {
-    width: initial;
-  }
 }
 
 #left-nav ul {
@@ -293,19 +274,6 @@ code.language-error {
   width: 95%;
 
   border: thin solid #323232;
-}
-
-/* But wait! If the screen isn't tiny, thumbnails should be small. */
-/* Fullsize thumbnails should not be made small, even on non-tiny screens. */
-@media (min-width:500px){
-  .tutorial-link-box:not(.fullsize) {
-    width: 200px;
-  }
-
-  .thumbnail-image:not(.fullsize) {
-    width:200px;
-    max-width:100%;
-  }
 }
 
 .pixelated {

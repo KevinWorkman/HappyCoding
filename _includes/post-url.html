@@ -9,4 +9,19 @@
   {%- assign pageUrl = include.url | append: "/" -%}
   {%- assign post = site.pages | where:"url", pageUrl | first -%}
 {%- endunless -%}
-<a href="{{ post.url }}">{{ post.title }}</a>
+{%- assign title = include.title -%}
+{%- unless title -%}
+  {%- assign title = post.title -%}
+{%- endunless -%}
+{%- assign thumbnail = post.thumbnail -%}
+{%- unless thumbnail -%}
+  {%- assign thumbnail = post.meta-image -%}
+{%- endunless -%}
+{%- unless thumbnail -%}
+  {%- assign thumbnail = "/images/logo-800x400.png" -%}
+{%- endunless -%}
+
+<div class="smallThumbnailLink">
+  <img src="{{ thumbnail }}" style="height: 20px">
+  <a class="{{ include.class }}" href="{{ post.url }}">{{ title }}</a>
+</div>

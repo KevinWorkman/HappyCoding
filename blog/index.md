@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Happy Blogging
-meta-title: Happy Blogging
+title: Blog
+meta-title: Happy Coding Blog
 meta-description: Blogs about Happy Coding and random stuff I'm thinking about.
-meta-image: /tutorials/processing/creating-variables/images/random-jack-o-lantern-2.png
+thumbnail: /images/logo-800x400.png
+meta-image: /images/logo-800x400.png
 ---
 
 <style>
 .blog-thumbnail{
-  width: 600px;	
+  width: 600px;
 }
 </style>
 

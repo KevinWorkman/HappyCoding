@@ -1,57 +1,23 @@
-    <div id="left-nav">
-      <ul>
-        <li>
-          <details {% if page.url contains "/tutorials" %}open{% endif %}>
-            <summary>{% include left-nav-link.html url="/tutorials" %}</summary>
-            <ul>
-              {% include left-nav-section.html title="p5.js" url="/tutorials/p5js" %}
-              {% include left-nav-section.html title="HTML" url="/tutorials/html" %}
-              {% include left-nav-section.html title="JavaScript" url="/tutorials/javascript" %}
-              {% include left-nav-section.html title="Processing" url="/tutorials/processing" %}
-              {% include left-nav-section.html title="Java" url="/tutorials/java/" %}
-              {% include left-nav-section.html title="Java Server" url="/tutorials/java-server" %}
-              {% include left-nav-section.html title="Google Cloud" url="/tutorials/google-cloud" %}
-              {% include left-nav-section.html title="Android" url="/tutorials/android" %}
-              {% include left-nav-section.html title="LibGDX" url="/tutorials/libgdx" %}
-              {% include left-nav-section.html title="How-To Guides" url="/tutorials/how-to" %}
-            </ul>
-          </details>
-        </li>
-        <li><hr></li>
-        <li>
-          <details {% if page.url contains "/examples" %}open{% endif %}>
-            <summary>{% include left-nav-link.html url="/examples" %}</summary>
-            <ul>
-              {% include left-nav-section.html title="p5.js" url="/tutorials/p5js/" %}
-              {% include left-nav-section.html title="HTML" url="/examples/html/" %}
-              {% include left-nav-section.html title="JavaScript" url="/examples/javascript/" %}
-              {% include left-nav-section.html title="Processing" url="/examples/processing/" %}
-              {% include left-nav-section.html title="Java" url="/examples/java/" %}
-              {% include left-nav-section.html title="Java Server" url="/examples/java-server/" %}
-              {% include left-nav-section.html title="Google Cloud" url="/examples/google-cloud/" %}
-            </ul>
-          </details>
-        </li>
-        <li><hr></li>
-        <li>{% include left-nav-section.html title="Gallery" url="/gallery/" %}</li>
-        <li><hr></li>
-        <li>{% include left-nav-section.html title="Blog" url="/blog/" %}</li>
-        <li><hr></li>
-        <li><a href="https://forum.happycoding.io">Forum</a></li>
-      </ul>
-
-      <hr>
-      <div class="left-nav-social-icons">
-        <a href="https://twitter.com/TheKevinWorkman">
-          <img class="nav-img" src="/images/twitter.png" alt="twitter"/></a>
-        <a href="https://github.com/KevinWorkman/HappyCoding">
-          <img class="nav-img" src="/images/GitHub-Mark-32px.png" alt="github" /></a>
-        <div style="flex-basis: 100%"></div>
-        <a href="https://www.etsy.com/shop/HappyCoding">
-          <img class="nav-img" src="/images/etsy.png" alt="etsy" /></a>
-        <a href="https://www.youtube.com/user/kevinaworkman">
-          <img class="nav-img" src="/images/youtube.png" alt="youtube" /></a>
-        <a href="/feed.xml">
-          <img class="nav-img" src="/images/rss.png" alt="RSS" /></a>	
-      </div>
-    </div>
+{% if page.url contains "/tutorials/p5js" %}
+  {% include left-nav-p5js.html %}
+{% elsif page.url contains "/tutorials/javascript" %}
+  {% include left-nav-javascript.html %}
+{% elsif page.url contains "/tutorials/processing" %}
+  {% include left-nav-processing.html %}
+{% elsif page.url contains "/tutorials/java" %}
+  {% include left-nav-java.html %}
+{% elsif page.url contains "/tutorials/java-server" %}
+  {% include left-nav-java-server.html %}
+{% elsif page.url contains "/tutorials/google-cloud" %}
+  {% include left-nav-google-cloud.html %}
+{% elsif page.url contains "/tutorials/android" %}
+  {% include left-nav-android.html %}
+{% elsif page.url contains "/tutorials/libgdx" %}
+  {% include left-nav-libgdx.html %}
+{% elsif page.url contains "/tutorials/how-to" %}
+  {% include left-nav-how-to.html %}
+{% elsif page.url contains "/blog" %}
+  {% include left-nav-blog.html %}
+{% else %}
+  {% include left-nav-main.html %}
+{% endif %}

@@ -1,0 +1,44 @@
+<style>
+  #left-nav .not-current + ul {
+    display:block;
+  }
+</style>
+
+<div id="left-nav">
+  <ul>
+    {% include tutorial-section-left-nav-section.html title="Android Tutorials" url="/tutorials/android" %}
+
+    <hr>
+
+    <li>{% include post-url.html url="/tutorials/p5js" %}</li>
+    <li>{% include post-url.html url="/tutorials/processing" %}</li>
+    <li>{% include post-url.html url="/tutorials/java" %}</li>
+    <li>{% include post-url.html url="/tutorials/javascript" %}</li>
+    <li>{% include post-url.html url="/tutorials/java-server" %}</li>
+    <li>{% include post-url.html url="/tutorials/google-cloud" %}</li>
+    <li>{% include post-url.html url="/tutorials/libgdx" %}</li>
+    <li>{% include post-url.html url="/tutorials/how-to" %}</li>
+
+    <li><hr></li>
+    <li>{% include post-url.html url="/gallery" %}</li>
+    <li><hr></li>
+    <li>{% include post-url.html url="/blog" %}</li>
+    <li><hr></li>
+    <li><a href="https://forum.happycoding.io">Forum</a></li>
+
+    <hr>
+    <div class="left-nav-social-icons">
+      <a href="https://twitter.com/TheKevinWorkman">
+        <img class="nav-img" src="/images/twitter.png" alt="twitter"/></a>
+      <a href="https://github.com/KevinWorkman/HappyCoding">
+        <img class="nav-img" src="/images/GitHub-Mark-32px.png" alt="github" /></a>
+      <div style="flex-basis: 100%"></div>
+      <a href="https://www.etsy.com/shop/HappyCoding">
+        <img class="nav-img" src="/images/etsy.png" alt="etsy" /></a>
+      <a href="https://www.youtube.com/user/kevinaworkman">
+        <img class="nav-img" src="/images/youtube.png" alt="youtube" /></a>
+      <a href="/feed.xml">
+        <img class="nav-img" src="/images/rss.png" alt="RSS" /></a>
+    </div>
+  </ul>
+</div>

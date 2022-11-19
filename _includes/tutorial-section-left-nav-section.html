@@ -1,0 +1,17 @@
+{%- assign postPrefix = include.url | append: "/" -%}
+
+<li class="left-nav-section">
+  {% include post-url.html url=include.url title=include.title class=class %}
+  <ul>
+  {%- assign posts = site.posts | sort: 'sort-key' -%}
+    {%- for post in posts  -%}
+      {% assign postLevel = post.url | split: "/" %}
+
+      {% if postLevel.size == 4 and post.url contains postPrefix %}
+
+        {% include tutorial-chapter-left-nav-section.html title=post.title url=post.url %}
+
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+</li>

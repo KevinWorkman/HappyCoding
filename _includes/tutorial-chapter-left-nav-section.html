@@ -1,0 +1,20 @@
+{%- assign exampleUrlPrefix = include.url | append: "/" -%}
+{% if page.url contains include.url %}
+  {% assign class = "current" %}
+{% endif %}
+
+<hr>
+<li class="left-nav-section">
+  {% include post-url.html url=include.url title=include.title class=class %}
+
+  <ul>
+  {%- assign posts = site.posts | sort: 'sort-key' -%}
+    {%- for post in posts  -%}
+      {% assign postLevel = post.url | split: "/" %}
+
+      {% if postLevel.size == 5 and post.url contains exampleUrlPrefix %}
+        <li>{%- include left-nav-link.html url=post.url -%}</li>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+</li>

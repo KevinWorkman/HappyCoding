@@ -1,20 +1,13 @@
 <li class="left-nav-section">
-  <details {% if page.url contains include.url %}open{% endif %}>
-    <summary>
-      <a href="{{ include.url }}"
-        {% if page.url contains include.url %}class="current"{% endif %}>
-        {{ include.title }}
-      </a>
-    </summary>
-    <ul>
-    {%- assign posts = site.posts | sort: 'sort-key' -%}
-      {%- for post in posts  -%}
-        {% if post.url contains include.url %}
-          {% unless post.ignoreLeftNav %}
-            <li>{%- include left-nav-link.html url=post.url -%}</li>
-          {% endunless %}
-        {%- endif -%}
-      {% endfor %}
-    </ul>
-  </details>
+  {% include post-url.html url=include.url title=include.title class=class %}
+  <ul>
+  {%- assign posts = site.posts | sort: 'sort-key' -%}
+    {%- for post in posts  -%}
+      {% if post.url contains include.url %}
+        {% unless post.ignoreLeftNav %}
+          <li>{%- include left-nav-link.html url=post.url -%}</li>
+        {% endunless %}
+      {%- endif -%}
+    {% endfor %}
+  </ul>
 </li>

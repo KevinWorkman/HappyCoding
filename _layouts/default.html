@@ -14,6 +14,9 @@
         href="https://fonts.googleapis.com/css?family=Lato&display=swap">
     <link rel="stylesheet" type="text/css" href="/css/syntax.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/small.css">
+    <link rel="stylesheet" type="text/css" href="/css/medium.css">
+    <link rel="stylesheet" type="text/css" href="/css/large.css">
 
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
 
@@ -50,15 +53,19 @@
 
   {%- assign breadcrumb = page.url | split: '/' -%}
   {%- unless breadcrumb.size < 3 %}
-    {% assign breadcrumbUrl = "" -%}
-    {%- for section in breadcrumb -%}
-      {%- unless section == "" -%}
-        {%- assign breadcrumbUrl = breadcrumbUrl
-            | append: "/" | append: section %}
-        {% include post-url.html url=breadcrumbUrl -%}
-        {%- unless forloop.last %} / {% endunless -%}
-      {%- endunless -%}
-    {%- endfor %}
+    <div class="breadcrumb" style="display:flex;">
+      {% assign breadcrumbUrl = "" -%}
+      {%- for section in breadcrumb -%}
+        {%- unless section == "" -%}
+          {%- assign breadcrumbUrl = breadcrumbUrl
+              | append: "/" | append: section %}
+          {% include post-url.html url=breadcrumbUrl -%}
+          {%- unless forloop.last %}
+            <span style="margin: 0 5px;">/</span>
+          {% endunless -%}
+        {%- endunless -%}
+      {%- endfor %}
+    </div>
         <hr/>
   {%- endunless -%}
 
