@@ -1,8 +1,27 @@
+{%- assign post = site.posts | where:"url", include.url | first -%}
 {%- assign pageUrl = include.url | append: "/" -%}
 
 {%- assign posts = site.posts | sort: 'sort-key' -%}
-  {%- for post in posts  -%}
-    {% if post.url contains pageUrl %}
+{%- assign examples = "" | split: "this makes an empty array" -%}
+{%- for post in posts  -%}
+  {% if post.url contains pageUrl %}
+    {%- assign examples = examples | push: post -%}
+  {%- endif -%}
+{% endfor %}
+
+{% if examples.size > 0 %}
+  {% if include.include_section_container %}
+    <div class="section">
+  {% endif %}
+    <h3>{{ post.title }} Examples</h3>
+
+    <div class="thumbnail-link-container">
+      {%- for post in examples  -%}
         {% include url-thumbnail.html url=post.url %}
-    {%- endif -%}
-  {% endfor %}
+      {% endfor %}
+    </div>
+
+  {% if include.include_section_container %}
+    </div>
+  {% endif %}
+{% endif %}
