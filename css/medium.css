@@ -1,6 +1,23 @@
+/* Screen is bigger than a phone but not big enough to show the left nav. */
 /* If the screen isn't tiny, thumbnails should be small. */
 /* Fullsize thumbnails should not be made small, even on non-tiny screens. */
-@media (min-width:500px){
+@media (min-width:842px) { /* 802 + 20 for body margin + 20 for scroll bar */
+  .container {
+    width: 802px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #sections {
+    vertical-align: top;
+    width: 802px; /* content is 750, padding is 25 + 25, border is 1 + 1 */
+    max-width: 100%;
+  }
+
+  .content {
+    width: 750px;
+  }
+
   .tutorial-link-box:not(.fullsize) {
     width: 200px;
   }
