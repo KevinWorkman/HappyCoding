@@ -1,13 +1,13 @@
-<li class="left-nav-section">
-  {% include post-url.html url=include.url title=include.title class=class %}
+<div class="left-nav-tutorial-section">
+  {% include post-url.html url=include.url title="Blog" class=class %}
   <ul>
-  {%- assign posts = site.posts | sort: 'sort-key' -%}
+  {%- assign posts = site.posts -%}
     {%- for post in posts  -%}
-      {% if post.url contains include.url %}
+      {% if post.url contains "/blog" %}
         {% unless post.ignoreLeftNav %}
           <li>{%- include left-nav-link.html url=post.url -%}</li>
         {% endunless %}
       {%- endif -%}
     {% endfor %}
   </ul>
-</li>
+</div>
