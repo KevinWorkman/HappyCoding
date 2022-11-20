@@ -46,6 +46,10 @@
   <div class="left-nav-section">
     {% include left-nav-blog.html %}
   </div>
+{% elsif page.url contains "/gallery" %}
+  <div class="left-nav-section">
+    {% include left-nav-gallery.html %}
+  </div>
 {% endif %}
 
 <div class="left-nav-section">
