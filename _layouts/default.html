@@ -53,15 +53,17 @@
 
   {%- assign breadcrumb = page.url | split: '/' -%}
   {%- unless breadcrumb.size < 3 %}
-    <div class="breadcrumb" style="display:flex;">
+    <div class="breadcrumbs">
       {% assign breadcrumbUrl = "" -%}
       {%- for section in breadcrumb -%}
         {%- unless section == "" -%}
           {%- assign breadcrumbUrl = breadcrumbUrl
               | append: "/" | append: section %}
-          {% include post-url.html url=breadcrumbUrl -%}
+          <div class="breadcrumb">
+            {% include post-url.html url=breadcrumbUrl -%}
+          </div>
           {%- unless forloop.last %}
-            <span style="margin: 0 5px;">/</span>
+            <span>/</span>
           {% endunless -%}
         {%- endunless -%}
       {%- endfor %}

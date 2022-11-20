@@ -151,6 +151,16 @@ nav {
   display: none;
 }
 
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.breadcrumb {
+  margin: 0 5px;
+}
+
 p, li {
   font-size: 1.1em;
 }
