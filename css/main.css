@@ -90,14 +90,20 @@ nav {
 }
 
 #left-nav {
-  width: 200px;
+  width: 225px;
   float: left;
-  background-color: #fbfbfb;
-  border: thin solid #323232;
-  padding: 10px;
   height: fit-content;
   overflow: hidden;
   vertical-align: top;
+}
+
+#left-nav .left-nav-section {
+  margin-bottom: 25px;
+  background-color: #fbfbfb;
+  border: thin solid #323232;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .left-nav-social-icons {
@@ -143,10 +149,6 @@ nav {
 /* Nested ul should be indented a bit. */
 #left-nav ul ul {
   padding-left: 5px;
-}
-
-#left-nav .left-nav-section {
-  margin-top: 10px;
 }
 
 #left-nav .left-nav-section li {
