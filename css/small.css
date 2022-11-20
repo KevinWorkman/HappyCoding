@@ -1,7 +1,16 @@
+.container {
+  width: 100%;
+}
+
 #left-nav {
   display: none;
 }
 
 #sections {
   width: 100%;
+}
+
+/* Thumbnails should fill the width. */
+.tutorial-link-box {
+  width: 95%;
 }

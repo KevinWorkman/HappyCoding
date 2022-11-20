@@ -35,7 +35,6 @@ body {
 }
 
 .container {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -74,10 +73,6 @@ nav {
   font-size: 24pt;
   padding: 10px;
   color: black;
-}
-
-#social-nav-link {
-  text-align: center
 }
 
 .nav-img {
@@ -123,10 +118,6 @@ nav {
 
 .smallThumbnailLink img {
   margin-right: 5px;
-}
-
-#sections {
-  vertical-align: top;
 }
 
 .section {
@@ -210,10 +201,6 @@ code.language-error {
   max-width:95%;
 }
 
-.jumbotron {
-  /* padding: 25px; */
-}
-
 .jumbotron h1 {
   font-size: 68px;
   margin: 0;
@@ -240,7 +227,6 @@ code.language-error {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-
 }
 
 .intro-tut {
@@ -257,10 +243,11 @@ code.language-error {
   margin: 0;
 }
 
-/* Pretend the screen is tiny and thumbnails should fill the screen. */
-.tutorial-link-box, .fullsize .tutorial-link-box{
+.fullsize .tutorial-link-box {
   width: 95%;
+}
 
+.tutorial-link-box{
   display: inline-block;
   text-align: left;
   vertical-align: top;
@@ -268,8 +255,7 @@ code.language-error {
 }
 
 .thumbnail-image {
-  width: 95%;
-
+  width: 100%;
   border: thin solid #323232;
 }
 
