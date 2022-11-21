@@ -22,27 +22,21 @@ The full code for the examples used in these tutorials is available on [GitHub](
 
 These tutorials have been updated to use Java 11 and the latest Cloud SDK.
 
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/google-cloud/setup" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/app-engine" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/datastore" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/oauth-2" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/cloud-storage" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/vision" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/natural-language" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/translation" %}
-{% include url-thumbnail.html url="/tutorials/google-cloud/maps" %}
-</div>
-
----
+{% include tutorial-chapter.html url="/tutorials/google-cloud/setup" chapter=1 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/app-engine" chapter=2 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/datastore" chapter=3 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/oauth-2" chapter=4 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/cloud-storage" chapter=5 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/vision" chapter=6 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/natural-language" chapter=7 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/translation" chapter=8 %}
+{% include tutorial-chapter.html url="/tutorials/google-cloud/maps" chapter=9 %}
 
 # Migrating Google Cloud from Java 8 to Java 11
 
 Have an existing Java 8 Google Cloud project that you want to migrate to Google Cloud's Java 11 runtime? Follow this guide:
 
-{% include url-thumbnail.html url="/tutorials/google-cloud/migrating-to-java-11" %}
-
----
+{% include tutorial-chapter.html url="/tutorials/google-cloud/migrating-to-java-11" %}
 
 # Legacy Java 8 Tutorials
 
