@@ -17,12 +17,12 @@ p5.js is a coding language for making creative, animated, interactive, and artis
 
 ---
 
-{% include tutorial-chapter.html url="/tutorials/p5js/welcome-to-coding" chapter=1 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/p5js/welcome-to-coding" chapter=1 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/calling-functions" chapter=2 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/using-variables" chapter=3 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/creating-variables" chapter=4 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/creating-functions" chapter=5 %}
-{% include tutorial-chapter.html url="/tutorials/p5js/debugging" chapter=6 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/p5js/debugging" chapter=6 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/if-statements" chapter=7 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/animation" chapter=8 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/random" chapter=9 %}
@@ -31,11 +31,11 @@ p5.js is a coding language for making creative, animated, interactive, and artis
 {% include tutorial-chapter.html url="/tutorials/p5js/arrays" chapter=12 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/using-objects" chapter=13 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/creating-classes" chapter=14 %}
-{% include tutorial-chapter.html url="/tutorials/p5js/array-functions" chapter=15 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/p5js/array-functions" chapter=15 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/images" chapter=16 %}
-{% include tutorial-chapter.html url="/tutorials/p5js/web-dev" chapter=17 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/p5js/web-dev" chapter=17 %}
 {% include tutorial-chapter.html url="/tutorials/p5js/libraries" chapter=18 %}
-{% include tutorial-chapter.html url="/tutorials/p5js/next" chapter=18 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/p5js/next" chapter=18 %}
 
 # More Info
 

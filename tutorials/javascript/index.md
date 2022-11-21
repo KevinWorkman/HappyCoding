@@ -18,17 +18,17 @@ At this point, you're familiar with the fundamentals of HTML and CSS. (If not, r
 
 ---
 
-{% include tutorial-chapter.html url="/tutorials/javascript/from-p5-to-javascript" chapter=1 hideExamples=true %}
-{% include tutorial-chapter.html url="/tutorials/javascript/calling-javascript" chapter=2 hideExamples=true %}
-{% include tutorial-chapter.html url="/tutorials/javascript/variables" chapter=3 hideExamples=true %}
-{% include tutorial-chapter.html url="/tutorials/javascript/developer-tools" chapter=4 hideExamples=true %}
-{% include tutorial-chapter.html url="/tutorials/javascript/creating-functions" chapter=5 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/javascript/from-p5-to-javascript" chapter=1 %}
+{% include tutorial-chapter.html url="/tutorials/javascript/calling-javascript" chapter=2 %}
+{% include tutorial-chapter.html url="/tutorials/javascript/variables" chapter=3 %}
+{% include tutorial-chapter.html url="/tutorials/javascript/developer-tools" chapter=4 %}
+{% include tutorial-chapter.html url="/tutorials/javascript/creating-functions" chapter=5 %}
 {% include tutorial-chapter.html url="/tutorials/javascript/interactive-html" chapter=6 %}
 {% include tutorial-chapter.html url="/tutorials/javascript/if-statements" chapter=7 %}
 {% include tutorial-chapter.html url="/tutorials/javascript/for-loops" chapter=8 %}
-{% include tutorial-chapter.html url="/tutorials/javascript/arrays" chapter=9 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/javascript/arrays" chapter=9 %}
 {% include tutorial-chapter.html url="/tutorials/javascript/libraries" chapter=10 %}
-{% include tutorial-chapter.html url="/tutorials/javascript/objects" chapter=11 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/javascript/objects" chapter=11 %}
 {% include tutorial-chapter.html url="/tutorials/javascript/fetch" chapter=12 %}
 {% include tutorial-chapter.html url="/tutorials/javascript/bootstrap" chapter=13 %}
 
