@@ -6,7 +6,7 @@ tagline: Safely handle multiple requests at the same time.
 sort-key: 700
 meta-title: Thread Safety
 meta-description: Learn how to safely handle multiple requests at the same time.
-meta-image: /tutorials/java-server/images/thread-safety-9.png
+meta-image: /tutorials/java-server/images/thread-safety-8.png
 tags: [tutorial, java, server, threading]
 ---
 
@@ -36,9 +36,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class ThreadingServlet extends HttpServlet {
-	
+
 	private int total = 0;
-	
+
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		response.getOutputStream().println("<h1>Current total: " + total + "</h1>");
@@ -46,22 +46,22 @@ public class ThreadingServlet extends HttpServlet {
 		response.getOutputStream().println("<input type=\"submit\" value=\"+10\">");
 		response.getOutputStream().println("</form>");
 	}
-	
+
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		
+
 		for(int i = 0; i < 10; i++){
 			total++;
-			
+
 			// this just delays the code by 1 second each time, so the request takes 10 seconds
 			try {
 				Thread.sleep(1000);
-			} 
+			}
 			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
-		
+
 		response.sendRedirect("/total");
 	}
 }
@@ -73,7 +73,7 @@ This servlet class contains a single `int` variable named `total`. The `doGet()`
 // this just delays the code by 1 second each time, so the request takes 10 seconds
 try {
 	Thread.sleep(1000);
-} 
+}
 catch (InterruptedException e) {
 	e.printStackTrace();
 }
@@ -166,7 +166,7 @@ public class BalanceServlet extends HttpServlet {
 			//let's pretend the request takes ten seconds to complete
 			try {
 				Thread.sleep(10*1000);
-			} 
+			}
 			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -228,15 +228,15 @@ public class BalanceServlet extends HttpServlet {
 		synchronized(this){
 			//first check whether we have enough
 			if(balance > 10){
-	
+
 				//let's pretend the request takes ten seconds to complete
 				try {
 					Thread.sleep(10*1000);
-				} 
+				}
 				catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-	
+
 				//make a withdrawal
 				balance -= 10;
 			}
@@ -300,7 +300,7 @@ public class BalanceServlet extends HttpServlet {
 			//let's pretend the request takes ten seconds to complete
 			try {
 				Thread.sleep(10*1000);
-			} 
+			}
 			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -335,7 +335,7 @@ public class ThreadingServlet extends HttpServlet {
 		synchronized(this){
 			response.getOutputStream().println("<h1>Current total: " + total + "</h1>");
 		}
-		
+
 		response.getOutputStream().println("<form action=\"/total\" method=\"POST\">");
 		response.getOutputStream().println("<input type=\"submit\" value=\"+10\">");
 		response.getOutputStream().println("</form>");
@@ -346,14 +346,14 @@ public class ThreadingServlet extends HttpServlet {
 
 		//only one thread can enter these synchronized blocks at a time
 		synchronized(this){
-			
+
 			for(int i = 0; i < 10; i++){
 				total++;
 
 				// this just delays the code by 1 second each time, so the request takes 10 seconds
 				try {
 					Thread.sleep(1000);
-				} 
+				}
 				catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -384,7 +384,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ListServlet extends HttpServlet {
 
 	private List<String> list = new ArrayList<String>();
-	
+
 	public ListServlet(){
 		list.add("lions");
 		list.add("tigers");
@@ -400,18 +400,18 @@ public class ListServlet extends HttpServlet {
 		response.getOutputStream().println("<h1>Animals</h1>");
 		response.getOutputStream().println("<ul>");
 		for(String animal : list){
-			
+
 			try {
 				Thread.sleep(2000);
-			} 
+			}
 			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			
+
 			response.getOutputStream().println("<li>" + animal + "</li>");
 		}
 		response.getOutputStream().println("</ul>");
-		
+
 		response.getOutputStream().println("<form action=\"/animals\" method=\"POST\">");
 		response.getOutputStream().println("<input type=\"input\" name=\"animal\" value=\"monkeys\">");
 		response.getOutputStream().println("<input type=\"submit\" value=\"Add\">");
@@ -421,14 +421,14 @@ public class ListServlet extends HttpServlet {
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		String animal = request.getParameter("animal");
-		
+
 		try {
 			Thread.sleep(4000);
-		} 
+		}
 		catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 		list.add(animal);
 		response.sendRedirect("/animals");
 	}

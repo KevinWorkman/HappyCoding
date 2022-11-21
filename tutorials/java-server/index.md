@@ -42,31 +42,24 @@ In other words, old tutorials will talk about Java EE and use the old `javax` pa
 
 This is all really confusing, so if you have a question, please reach out to me on [the Happy Coding forum](https://forum.happycoding.io)!
 
-# Tutorials
+# Java Server Tutorials
 
 After you've run a server, read through these tutorials in order.
 
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/java-server/web-app" %}
-{% include url-thumbnail.html url="/tutorials/java-server/client-server" %}
-{% include url-thumbnail.html url="/tutorials/java-server/servlets" %}
-{% include url-thumbnail.html url="/tutorials/java-server/jsp" %}
-{% include url-thumbnail.html url="/tutorials/java-server/eclipse-ee" %}
-{% include url-thumbnail.html url="/tutorials/java-server/post" %}
-{% include url-thumbnail.html url="/tutorials/java-server/libraries" %}
-{% include url-thumbnail.html url="/tutorials/java-server/sanitizing-user-input" %}
-{% include url-thumbnail.html url="/tutorials/java-server/sessions" %}
-{% include url-thumbnail.html url="/tutorials/java-server/secure-password-storage" %}
-{% include url-thumbnail.html url="/tutorials/java-server/thread-safety" %}
-{% include url-thumbnail.html url="/tutorials/java-server/hosting-aws" %}
-{% include url-thumbnail.html url="/tutorials/java-server/hosting-google-app-engine" %}
-{% include url-thumbnail.html url="/tutorials/java-server/databases" %}
-{% include url-thumbnail.html url="/tutorials/java-server/uploading-files" %}
-</div>
-
-# Advanced
-
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/java-server/rest-api" %}
-{% include url-thumbnail.html url="/tutorials/java-server/struts" %}
-</div>
+{% include tutorial-chapter.html url="/tutorials/java-server/web-app" chapter=1 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/client-server" chapter=2 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/servlets" chapter=3 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/jsp" chapter=4 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/eclipse-ee" chapter=5 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/post" chapter=6 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/libraries" chapter=7 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/sanitizing-user-input" chapter=8 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/sessions" chapter=9 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/secure-password-storage" chapter=10 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/thread-safety" chapter=11 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/hosting-aws" chapter=12 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/hosting-google-app-engine" chapter=13 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/databases" chapter=14 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/uploading-files" chapter=15 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/rest-api" chapter=16 %}
+{% include tutorial-chapter.html url="/tutorials/java-server/struts" chapter=17 %}

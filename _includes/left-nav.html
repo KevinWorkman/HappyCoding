@@ -18,13 +18,13 @@
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="Processing Tutorials" url="/tutorials/processing" %}
   </div>
-{% elsif page.url contains "/tutorials/java" %}
-  <div class="left-nav-section">
-    {% include tutorial-section-left-nav-section.html title="Java Tutorials" url="/tutorials/java" %}
-  </div>
 {% elsif page.url contains "/tutorials/java-server" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="Server Tutorials" url="/tutorials/java-server" %}
+  </div>
+{% elsif page.url contains "/tutorials/java" %}
+  <div class="left-nav-section">
+    {% include tutorial-section-left-nav-section.html title="Java Tutorials" url="/tutorials/java" %}
   </div>
 {% elsif page.url contains "/tutorials/google-cloud" %}
   <div class="left-nav-section">
