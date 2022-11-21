@@ -7,6 +7,7 @@ meta-title: Java Server Tutorials
 meta-description: Learn how to create dynamic web apps!
 meta-image: /tutorials/java-server/images/servlets-7.png
 sort-key: 500
+redirect_from: /examples/java-server
 ---
 
 # Java Server Tutorials

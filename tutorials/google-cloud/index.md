@@ -6,6 +6,7 @@ categories: [tutorials, java]
 meta-title: Google Cloud Tutorials
 meta-description: Learn how to use Google Cloud to create apps and websites!
 meta-image: /tutorials/google-cloud/images/google-cloud-icon-2.png
+redirect_from: /examples/google-cloud
 previousPost: /tutorials/
 nextPost: /tutorials/google-cloud/setup
 sort-key: 700

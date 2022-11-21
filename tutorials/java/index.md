@@ -7,6 +7,7 @@ meta-title: Java Tutorials
 meta-description: Learn how to program in Java!
 meta-image: /tutorials/java/images/setup-6.png
 sort-key: 400
+redirect_from: /examples/java
 ---
 
 # Java Tutorials

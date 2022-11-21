@@ -7,6 +7,7 @@ meta-title: p5.js Tutorials
 meta-description: Learn how to create p5.js sketches!
 meta-image: /tutorials/p5js/images/hello-world-3.png
 sort-key: 600
+redirect_from: /examples/p5js
 nextPost: /tutorials/p5js/welcome-to-coding
 ---
 

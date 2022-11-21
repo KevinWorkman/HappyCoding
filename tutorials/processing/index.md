@@ -7,6 +7,7 @@ meta-title: Processing Tutorials
 meta-description: Learn how to program in Processing!
 meta-image: /tutorials/processing/images/processing-icon-large-1.png
 sort-key: 100
+redirect_from: /examples/processing
 ---
 
 # Processing Tutorials

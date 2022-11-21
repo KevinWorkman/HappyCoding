@@ -4,6 +4,7 @@ title: Tutorials
 meta-title: Tutorials
 meta-description: Learn how to code with HappyCoding.io!
 meta-image: /tutorials/processing/creating-functions/images/random-faces-2.png
+redirect_from: /examples
 ---
 
 # Tutorials

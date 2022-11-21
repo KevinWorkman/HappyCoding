@@ -7,6 +7,7 @@ meta-title: HTML Tutorials
 meta-description: Learn how to use HTML to create a webpage.
 meta-image: /tutorials/html/images/html-3.png
 sort-key: 200
+redirect_from: /examples/html
 ---
 
 # HTML Tutorials

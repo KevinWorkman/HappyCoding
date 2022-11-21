@@ -9,6 +9,7 @@ meta-image: /tutorials/javascript/images/calling-javascript-3.png
 sort-key: 300
 nextPost: /tutorials/javascript/calling-javascript
 lastUpdated: 2022-01-23
+redirect_from: /examples/javascript
 ---
 
 # JavaScript Tutorials
