@@ -12,27 +12,18 @@ redirect_from: /examples/java
 
 # Java Tutorials
 
-These tutorials assume you're already familiar with the basics of programming and that you've already read [the Processing tutorials](/tutorials/processing/). You can build on that knowledge to "graduate" to Java!
-
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/java/setup" %}
-{% include url-thumbnail.html url="/tutorials/java/hello-world" %}
-{% include url-thumbnail.html url="/tutorials/java/creating-classes" %}
-{% include url-thumbnail.html url="/tutorials/java/errors" %}
-{% include url-thumbnail.html url="/tutorials/java/inheritance" %}
-{% include url-thumbnail.html url="/tutorials/java/swing" %}
-{% include url-thumbnail.html url="/tutorials/java/libraries" %}
-{% include url-thumbnail.html url="/tutorials/java/eclipse" %}
-{% include url-thumbnail.html url="/tutorials/java/exporting-jars" %}
-</div>
+These tutorials assume you're already familiar with the fundamentals of coding and that you've already worked through [the Processing tutorials](/tutorials/processing/). You can build on that knowledge to "graduate" to Java!
 
 ---
 
-# Advanced Java Tutorials
-
-Check these out as you need them.
-
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/java/processing-in-java" %}
-{% include url-thumbnail.html url="/tutorials/java/unit-testing" %}
-</div>
+{% include tutorial-chapter.html url="/tutorials/java/setup" chapter=1 %}
+{% include tutorial-chapter.html url="/tutorials/java/hello-world" chapter=2 %}
+{% include tutorial-chapter.html url="/tutorials/java/creating-classes" chapter=3 %}
+{% include tutorial-chapter.html url="/tutorials/java/errors" chapter=4 %}
+{% include tutorial-chapter.html url="/tutorials/java/inheritance" chapter=5 %}
+{% include tutorial-chapter.html url="/tutorials/java/swing" chapter=6 %}
+{% include tutorial-chapter.html url="/tutorials/java/libraries" chapter=7 %}
+{% include tutorial-chapter.html url="/tutorials/java/eclipse" chapter=8 %}
+{% include tutorial-chapter.html url="/tutorials/java/processing-in-java" chapter=9 %}
+{% include tutorial-chapter.html url="/tutorials/java/unit-testing" chapter=10 %}
+{% include tutorial-chapter.html url="/tutorials/java/exporting-jars" chapter=11 %}

@@ -10,11 +10,7 @@
   </h2>
   {% include url-thumbnail.html url=post.url fullsize=true %}
 
-  {% unless include.hideExamples %}
-    <hr>
-
-    {% include examples-for-tutorial.html url=post.url %}
-  {% endunless %}
+  {% include examples-for-tutorial.html url=post.url include_top_hr=true %}  
 </div>
 
 <hr>

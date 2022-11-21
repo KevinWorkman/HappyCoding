@@ -10,6 +10,11 @@
 {% endfor %}
 
 {% if examples.size > 0 %}
+
+  {% if include.include_top_hr %}
+    <hr>
+  {% endif %}
+
   {% if include.include_section_container %}
     <div class="section">
   {% endif %}
