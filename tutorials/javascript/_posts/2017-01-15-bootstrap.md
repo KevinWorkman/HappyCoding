@@ -6,7 +6,7 @@ tagline: Create a website using Bootstrap.
 sort-key: 1100
 meta-title: Bootstrap
 meta-description: Create a website using Bootstrap.
-meta-image: /tutorials/html/javascript/bootstrap-2.png
+meta-image: /tutorials/javascript/images/bootstrap-2.png
 tags: [tutorial, javascript, css, bootstrap]
 previousPost: /tutorials/javascript/fetch
 nextPost: /tutorials/javascript/

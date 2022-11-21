@@ -8,7 +8,7 @@ tagline: Learn about using libraries in JavaScript.
 sort-key: 900
 meta-title: Using JavaScript Libraries
 meta-description: Learn about using libraries in JavaScript.
-meta-image: /tutorials/html/javascript/libraries-1.png
+meta-image: /tutorials/javascript/images/libraries-1.png
 tags: [tutorial, javascript, libraries]
 previousPost: /tutorials/javascript/arrays
 nextPost: /tutorials/javascript/fetch

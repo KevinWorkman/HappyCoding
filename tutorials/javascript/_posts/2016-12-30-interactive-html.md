@@ -7,7 +7,7 @@ tagline: Learn about creating interactive HTML with JavaScript.
 sort-key: 500
 meta-title: Interactive HTML
 meta-description: Learn more about creating interactive HTML with JavaScript.
-meta-image: /tutorials/html/javascript/interactive-html-2.png
+meta-image: /tutorials/javascript/images/interactive-html-2.png
 tags: [tutorial, javascript, html]
 previousPost: /tutorials/javascript/creating-functions
 nextPost: /tutorials/javascript/if-statements

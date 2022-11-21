@@ -7,7 +7,7 @@ tagline: Learn about creating functions in JavaScript.
 sort-key: 400
 meta-title: Creating Functions
 meta-description: Learn more about creating functions in JavaScript.
-meta-image: /tutorials/html/javascript/creating-functions-2.png
+meta-image: /tutorials/javascript/images/creating-functions-2.png
 tags: [tutorial, javascript]
 previousPost: /tutorials/javascript/developer-tools
 nextPost: /tutorials/javascript/interactive-html
@@ -136,4 +136,3 @@ What happens if you show the greeting before you set the name? You'll see `Hello
 # Homework
 
 - Modify the above webapge to contain a third element that shows a dialog that says goodbye to the user.
-
