@@ -12,38 +12,29 @@ redirect_from: /examples/processing
 
 # Processing Tutorials
 
-Just want to get your feet wet? Try the hour of code!
+Processing is a coding language for making creative, animated, interactive, and artistic projects. It's designed for folks who are new to coding, so it's the perfect place to start. It's also built on top of Java, so it's a great way to learn the fundamentals of coding, even if your eventual goal is to learn other languages.
 
-{% include url-thumbnail.html url="/tutorials/processing/hour-of-code" %}
+---
 
-## Learn to Code with Processing
+{% include tutorial-chapter.html url="/tutorials/processing/what-is-programming" chapter=1 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/processing/calling-functions" chapter=2 %}
+{% include tutorial-chapter.html url="/tutorials/processing/using-variables" chapter=3 %}
+{% include tutorial-chapter.html url="/tutorials/processing/creating-variables" chapter=4 %}
+{% include tutorial-chapter.html url="/tutorials/processing/creating-functions" chapter=5 %}
+{% include tutorial-chapter.html url="/tutorials/processing/debugging" chapter=6 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/processing/if-statements" chapter=7 %}
+{% include tutorial-chapter.html url="/tutorials/processing/animation" chapter=8 %}
+{% include tutorial-chapter.html url="/tutorials/processing/input" chapter=9 %}
+{% include tutorial-chapter.html url="/tutorials/processing/for-loops" chapter=10 %}
+{% include tutorial-chapter.html url="/tutorials/processing/arrays" chapter=11 %}
+{% include tutorial-chapter.html url="/tutorials/processing/using-objects" chapter=12 %}
+{% include tutorial-chapter.html url="/tutorials/processing/creating-classes" chapter=13 %}
+{% include tutorial-chapter.html url="/tutorials/processing/arraylists" chapter=14 %}
+{% include tutorial-chapter.html url="/tutorials/processing/images" chapter=15 %}
+{% include tutorial-chapter.html url="/tutorials/processing/libraries" chapter=16 %}
+{% include tutorial-chapter.html url="/tutorials/processing/collision-detection" chapter=17 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/processing/exporting-applications" chapter=18 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/processing/processing-js" chapter=19 hideExamples=true %}
+{% include tutorial-chapter.html url="/tutorials/processing/next" chapter=20 hideExamples=true %}
 
-Serious about learning how to program? Go through these in order:
-
-<div class="thumbnail-link-container">
-{% include url-thumbnail.html url="/tutorials/processing/what-is-programming" %}
-{% include url-thumbnail.html url="/tutorials/processing/calling-functions" %}
-{% include url-thumbnail.html url="/tutorials/processing/using-variables" %}
-{% include url-thumbnail.html url="/tutorials/processing/creating-variables" %}
-{% include url-thumbnail.html url="/tutorials/processing/creating-functions" %}
-{% include url-thumbnail.html url="/tutorials/processing/debugging" %}
-{% include url-thumbnail.html url="/tutorials/processing/if-statements" %}
-{% include url-thumbnail.html url="/tutorials/processing/animation" %}
-{% include url-thumbnail.html url="/tutorials/processing/input" %}
-{% include url-thumbnail.html url="/tutorials/processing/for-loops" %}
-{% include url-thumbnail.html url="/tutorials/processing/arrays" %}
-{% include url-thumbnail.html url="/tutorials/processing/using-objects" %}
-{% include url-thumbnail.html url="/tutorials/processing/creating-classes" %}
-{% include url-thumbnail.html url="/tutorials/processing/arraylists" %}
-{% include url-thumbnail.html url="/tutorials/processing/images" %}
-{% include url-thumbnail.html url="/tutorials/processing/libraries" %}
-{% include url-thumbnail.html url="/tutorials/processing/exporting-applications" %}
-{% include url-thumbnail.html url="/tutorials/processing/processing-js" %}
-{% include url-thumbnail.html url="/tutorials/processing/next" %}
-</div>
-
-## Advanced Processing Tutorials
-
-Read through these as you need them!
-
-{% include url-thumbnail.html url="/tutorials/processing/collision-detection" %}
+{% include tutorial-chapter.html url="/tutorials/processing/hour-of-code" hideExamples=true %}

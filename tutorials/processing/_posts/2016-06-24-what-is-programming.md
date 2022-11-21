@@ -7,7 +7,7 @@ tagline: Get ready to write some code.
 sort-key: 100
 meta-title: What is Programming?
 meta-description: Before diving into the code, let's talk about the terms we'll be using.
-meta-image: /examples/processing/images/what-is-programming-2.png
+meta-image: /tutorials/processing/images/what-is-programming-2.png
 previousPost: /tutorials/processing/
 nextPost: /tutorials/processing/calling-functions
 tags: [tutorial,processing,fundamentals]
