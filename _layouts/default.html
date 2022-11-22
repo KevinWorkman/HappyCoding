@@ -12,7 +12,7 @@
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Lato&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css">
+    <link rel="stylesheet" type="text/css" href="/css/tocbot.css">
     <link rel="stylesheet" type="text/css" href="/css/syntax.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/small.css">
@@ -29,8 +29,7 @@
     <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
     {% endif -%}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
-
+    <script src="/js/tocbot.min.js"></script>
     <script src="/js/modernizr-transitions.js"></script>
     <script src="/js/main.js"></script>
   </head>
@@ -121,7 +120,6 @@
                 contentSelector: '.content',
                 headingSelector: 'h1, h2, h3',
                 collapseDepth: 3,
-                scrollSmooth: false,
                 headingsOffset: 100,
               });
             } else {
