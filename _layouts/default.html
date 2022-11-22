@@ -12,11 +12,15 @@
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css">
     <link rel="stylesheet" type="text/css" href="/css/syntax.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/small.css">
     <link rel="stylesheet" type="text/css" href="/css/medium.css">
     <link rel="stylesheet" type="text/css" href="/css/large.css">
+    {% if layout.include_right_nav %}
+      <link rel="stylesheet" type="text/css" href="/css/x-large.css" id="x-large-css">
+    {% endif %}
 
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
 
@@ -24,6 +28,9 @@
     {%- if page.includeP5jsWidget %}
     <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
     {% endif -%}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
+
     <script src="/js/modernizr-transitions.js"></script>
     <script src="/js/main.js"></script>
   </head>
@@ -95,6 +102,33 @@
   {% endif %}
 
         </div> <!-- end sections -->
+
+        {% if layout.include_right_nav %}
+          <div id="right-nav">
+            <div id="right-nav-toc"></div>
+          </div>
+          <script>
+            const contentDiv = document.getElementsByClassName('content')[0];
+            const headingCount =
+                contentDiv.getElementsByTagName('h1').length +
+                contentDiv.getElementsByTagName('h2').length +
+                contentDiv.getElementsByTagName('h3').length;
+            if (headingCount > 3) {
+              tocbot.init({
+                // Where to render the table of contents.
+                tocSelector: '#right-nav-toc',
+                // Where to grab the headings to build the table of contents.
+                contentSelector: '.content',
+                headingSelector: 'h1, h2, h3',
+                collapseDepth: 3,
+                scrollSmooth: false,
+                headingsOffset: 100,
+              });
+            } else {
+              document.getElementById('x-large-css').disabled = true;
+            }
+          </script>
+        {% endif %}
 
       </div> <!-- end left-nav-and-sections -->
 

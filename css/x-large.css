@@ -1,0 +1,28 @@
+/* The screen is big enough to show the left and right nav bars. */
+@media screen and (min-width: 1322px) {
+
+  .container {
+    /* 225 (left nav) + 25 (gap) + 802 (content) + 25 (gap) + 225 (right nav) */
+    width: 1302px;
+  }
+
+  #right-nav {
+    display: inline-block;
+    width: 225px;
+  }
+
+  #right-nav-toc {
+    position: sticky;
+    top: 50px;
+    overflow: hidden;
+  }
+
+  .toc-list {
+    list-style: none;
+  }
+
+  .is-active-link::before {
+    background-color: #323232;
+  }
+
+}

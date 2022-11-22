@@ -90,7 +90,6 @@ nav {
 }
 
 #left-nav {
-  width: 225px;
   float: left;
   height: fit-content;
   overflow: hidden;
@@ -104,6 +103,19 @@ nav {
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
+}
+
+#right-nav {
+  width: 225px;
+}
+
+#right-nav-toc {
+  background-color: #fbfbfb;
+  border: thin solid #323232;
+  box-sizing: border-box;
+  width: 225px;
+  padding: 10px;
+  height: fit-content;
 }
 
 .left-nav-social-icons {

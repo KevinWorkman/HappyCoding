@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+#right-nav {
+  display: none;
+}
+
 /* Thumbnails should fill the width. */
 .tutorial-link-box {
   width: 95%;
