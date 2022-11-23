@@ -237,7 +237,12 @@ code.language-error {
 }
 
 .jumbotron p {
-  font-size: 23px;
+  font-size: 24px;
+}
+
+/* TODO: probably a smarter way to not make homepage tutorial boxes too big */
+.jumbotron .tutorial-link-box p {
+  font-size: 1.1em;
 }
 
 #markdown-toc {

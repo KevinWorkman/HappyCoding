@@ -2,96 +2,151 @@
 layout: default
 title: Happy Coding
 meta-title: Happy Coding
-meta-description: You can code. HappyCoding.io is a collection of tutorials and examples that start at the absolute basics and take you through advanced coding topics.
+meta-description: HappyCoding.io is a collection of coding tutorials, and a community of folks just like you learning how to code.
 ---
 
-<div class="jumbotron">
+<style>
+  #left-nav {
+    position: sticky;
+    top: 50px;
+  }
+</style>
 
-  <img src="/images/logo-vertical-large.png"
-       style="image-rendering: pixelated;" />
-  <hr>
+<!-- From default.html layout: -->
+<!-- <div class="section content"> -->
+  <div class="jumbotron">
 
-	<h1>You can code.</h1>
+  	<h1>Learn to code!</h1>
 
-	<p>Code is more than just ones and zeroes. Code is a <strong>creative process</strong> that lets you express yourself, reach other people, generate art, and make stuff in new ways every day.</p>
+    <p>Happy Coding is a collection of <a href="/tutorials">coding tutorials</a>, starting with the fundamentals of <a href="/tutorials/p5js">creative coding</a> and leading to advanced topics like <a href="/tutorials/java-server">server-side coding</a>, <a href="/tutorials/android">Android development</a>, and <a href="/tutorials/how-to/interview">technical interviewing</a>.</p>
 
-	<p>Happy Coding is a collection of <strong><a href="/tutorials">tutorials</a></strong> and <strong><a href="/examples">examples</a></strong>, starting with the fundamentals of creative coding and ending with advanced topics like server-side coding and Android development.</p>
+    <p>I believe the internet can be <strong>better</strong> than what the big tech companies have turned it into. Happy Coding is my attempt to share my knowledge, with these promises:</p>
 
-	<p>It's also a <strong><a href="https://forum.happycoding.io">community</a></strong> of people learning how to code. So if you're stuck on something or have a question, come say "hello world" on the <strong><a href="https://forum.happycoding.io">forum</a></strong>!</p>
-</div>
-<hr>
+    <ul style="list-style:none; font-size:24px;">
+      <li style="font-size:24px;">🙅‍♂️ No annoying ads</li>
+      <li style="font-size:24px;">🎉 No desperate popups begging to show notifications</li>
+      <li style="font-size:24px;">🪤 No clickbait</li>
+    </ul>
 
-<h2>Getting Started</h2>
+   <p>Happy Coding is also a <a href="https://forum.happycoding.io">community</a> of people learning how to code. So if you're stuck on something or have a question, come say "hello world" on the <a href="https://forum.happycoding.io">forum</a>!</p>
 
-<p>Are you new to coding? Start here! Dive into creative coding with p5.js.</p>
-{% include url-thumbnail.html url="/tutorials/p5js/" fullsize=true %}
-<hr>
+  </div> <!-- end jumbotron -->
+</div> <!-- end section content -->
 
-<p>Have some Java experience? Start with Processing!</p>
-{% include url-thumbnail.html url="/tutorials/processing/" fullsize=true %}
-<hr>
+<div class="section content">
+  <div class="jumbotron">
+	  <p>Code is more than just ones and zeroes. Code is a <strong>creative process</strong> that lets you express yourself, reach other people, generate art, and make stuff in new ways every day.</p>
 
-<p>Not sure where to start? Start with this meta-guide about learning how to code with Happy Coding!</p>
-{% include url-thumbnail.html url="/tutorials/how-to/learn-coding" fullsize=true %}
-<hr>
+    <h2>Getting Started</h2>
 
-<p><a href="/tutorials">Check out all of the tutorials here!</a></p>
-<hr>
+    <p>Are you new to coding? Start here! Dive into creative coding with p5.js.</p>
 
-<h2>Who are you?</h2>
-<img src="/images/pixel-kevin.png" alt="Kevin and Stanley"
-    style="border: thin solid #323232;" />
-<p>Hi! I'm <a href="https://kevinworkman.com">Kevin</a>!</p>
+    {% include url-thumbnail.html url="/tutorials/p5js/" fullsize=true %}
 
-<p>By day I'm a software engineer at Google, and by night I teach at <a href="https://www.millersville.edu">Millersville University</a>.
+    <hr>
 
-<p>By later night I maintain this site, where I post coding <a href="/tutorials">tutorials</a>, <a href="/examples">examples</a>, and <a href="/blog">other ramblings</a>. I do all of this for free, in my spare time, just for fun. I'm a person, not a company!</p>
+    <p>Here are some other tutorials to help you get started:</p>
 
-<p>I support diversity in tech, and I believe I have a responsibility to open the door for new coders- especially those who feel unwelcome, or who might not know how fun it is. Happy Coding is my attempt to show new folks a path from the fundamentals of coding, to every concept I've learned about so far.</p>
+    <div class="thumbnail-link-container">
+      {% include url-thumbnail.html url="/tutorials/how-to/learn-coding" %}
+      {% include url-thumbnail.html url="/tutorials/processing/" %}
+    </div>
 
-<p>I love talking about all of this stuff, so please come say "hello world" on the <a href="https://forum.happycoding.io">forum</a>!</p>
-<hr>
+    <hr>
 
-<h2>New Videos</h2>
+    <p><a href="/tutorials">Check out all of the tutorials here!</a></p>
 
-<iframe width="600" height="350" style="width:100%" src="https://www.youtube.com/embed/videoseries?list=PLty5Qt07EFvCRZ79uzn7ofzwPdlKpLH4h" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div> <!-- end jumbotron -->
+</div> <!-- end section content -->
 
-<hr>
+<div class="section content">
+  <div class="jumbotron">
 
-<h2>New Tutorials</h2>
-<div class="thumbnail-link-container">
-{% include recent-posts.html posts=site.categories.tutorials count=6 %}
-</div>
-<hr>
+    <h2>Who are you?</h2>
 
-<h2>Latest Blog Post</h2>
-{% for post in site.categories.blog limit:1 %}
-  <a href="{{ post.url }}" title="{{ post.title }}">
-    <h2>{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</h2>
-    {% if post.meta-image %}
-    <img class="blog-thumbnail" src="{{ post.meta-image }}"
-        alt="{{ post.title }}" style="width: 600px;" />
-    {% endif %}
-  </a>
-  <p>{{ post.meta-description }}</p>
-  <p>(<a href="{{ post.url }}">Read the rest here.</a>)</p>
-{% endfor %}
+    <img src="/images/pixel-kevin.png"
+         alt="Pixelated Kevin and Stanley"
+         style="border: thin solid #323232;" />
 
-<hr>
+    <p>Hi! I'm <a href="https://kevinworkman.com">Kevin</a>!</p>
 
-<h2>Popular Blog Posts</h2>
-<div class="thumbnail-link-container">
-{% for post in site.categories.blog %}
-  {% if post.tags contains "favorite" %}
-    {% include url-thumbnail.html url=post.url showDate=true %}
-  {% endif %}
-{% endfor %}
-</div>
-<p><a href="/blog">Read more blog posts here!</a></p>
+    <p>By day I'm a software engineer at Google, and by night I teach at <a href="https://www.millersville.edu">Millersville University</a>.
 
-<hr>
+    <p>By later night I maintain this site, where I post coding <a href="/tutorials">tutorials</a> and <a href="/blog">other nerdy ramblings</a>. I do this for free, in my spare time, just for fun. I'm a person, not a company!</p>
 
-<h2>Happy Arting</h2>
-<p>You can also check out creative coding prints on the <a href="https://www.etsy.com/shop/HappyCoding">Happy Coding Etsy</a>!</p>
-<div id="etsy-listings"></div>
-<script src="/js/etsy-listings.js"></script>
+    <p>I support diversity in tech, and I believe I have a responsibility to open the door for new coders- especially those who feel unwelcome, or who might not know how fun it is. Happy Coding is my attempt to show new folks a path from the fundamentals of coding, to every concept I've learned about so far.</p>
+
+    <p>I love talking about all of this stuff, so please come say "hello world" on the <a href="https://forum.happycoding.io">forum</a>!</p>
+
+  </div> <!-- end jumbotron -->
+</div> <!-- end section content -->
+
+<div class="section content">
+  <div class="jumbotron">
+
+    <h2>Newest Video</h2>
+
+    <iframe width="600" height="350" style="width:100%" src="https://www.youtube.com/embed/videoseries?list=PLty5Qt07EFvCRZ79uzn7ofzwPdlKpLH4h" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  </div> <!-- end jumbotron -->
+</div> <!-- end section content -->
+
+<div class="section content">
+  <div class="jumbotron">
+
+    <h2>New Tutorials</h2>
+
+    <div class="thumbnail-link-container">
+      {% include recent-posts.html posts=site.categories.tutorials count=6 %}
+    </div>
+
+  </div> <!-- end jumbotron -->
+</div> <!-- end section content -->
+
+<div class="section content">
+  <div class="jumbotron">
+
+    <h2>Latest Blog Post</h2>
+
+    {% for post in site.categories.blog limit:1 %}
+      <a href="{{ post.url }}" title="{{ post.title }}">
+        <h2>{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</h2>
+        {% if post.meta-image %}
+          <img class="blog-thumbnail" src="{{ post.meta-image }}"
+               alt="{{ post.title }}" style="width: 600px;" />
+        {% endif %}
+      </a>
+      <p>{{ post.meta-description }}</p>
+      <p>(<a href="{{ post.url }}">Read the rest here.</a>)</p>
+    {% endfor %}
+
+    <hr>
+
+    <h2>Popular Blog Posts</h2>
+
+    <div class="thumbnail-link-container">
+      {% for post in site.categories.blog %}
+        {% if post.tags contains "favorite" %}
+          {% include url-thumbnail.html url=post.url showDate=true %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <hr>
+
+    <p><a href="/blog">Read more blog posts here!</a></p>
+
+  </div> <!-- end jumbotron -->
+</div> <!-- end section content -->
+
+<div class="section content">
+
+  <h2>Happy Arting</h2>
+
+  <p>You can also check out creative coding prints on the <a href="https://www.etsy.com/shop/HappyCoding">Happy Coding Etsy</a>!</p>
+
+  <div id="etsy-listings"></div>
+  <script src="/js/etsy-listings.js"></script>
+
+<!-- From default.html layout: -->
+<!-- </div> <!-- end section content -->
