@@ -24,6 +24,9 @@
       {%- for post in examples  -%}
         {% include url-thumbnail.html url=post.url %}
       {% endfor %}
+
+      {% include url-thumbnail.html url="/tutorials/how-to/add-your-own-example" %}
+
     </div>
 
   {% if include.include_section_container %}
