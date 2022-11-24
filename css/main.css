@@ -39,6 +39,23 @@ body {
   margin-right: auto;
 }
 
+.hero-container {
+  width: 100%;
+  aspect-ratio: 2/1;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container h1 {
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 72px;
+  text-align: center;
+  color: white;
+}
+
 nav {
   display: flex;
   justify-content: space-around;

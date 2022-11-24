@@ -50,6 +50,14 @@
         </div>
       </nav>
 
+      {% if layout.show_hero_image %}
+        <div class="section" id="hero-section">
+          <div class="hero-container" style="width:100%; aspect-ratio:2/1; background-image:url({{page.meta-image}}); background-size:cover;">
+            <h1>{{ page.title }}</h1>
+        </div>
+        </div>
+      {% endif %}
+
       <div class="left-nav-and-sections">
   {% include left-nav.html %}
 

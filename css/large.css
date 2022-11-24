@@ -1,15 +1,19 @@
 /* The screen is big enough to show the left nav bar. */
 @media screen and (min-width: 1100px) {
 
-.container {
-  width: 1050px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .container {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   #left-nav {
     display: inline-block;
     width: 225px;
+  }
+
+  #hero-section {
+    display: block;
   }
 
   .content {

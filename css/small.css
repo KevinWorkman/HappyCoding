@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+#hero-section {
+  display: none;
+}
+
 #left-nav {
   display: none;
 }
