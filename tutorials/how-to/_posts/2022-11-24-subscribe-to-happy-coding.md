@@ -26,11 +26,13 @@ This works because every tutorial and example page on Happy coding has a corresp
 
 # RSS
 
-[RSS](https://en.wikipedia.org/wiki/RSS) (**r**eally **s**imple **s**yndication) is a way to subscribe to any website without relying on a social media company. You can use any RSS reader to subscribe to any webpage with an RSS feed.
+RSS feed: `https://happycoding.io/feed.xml`
+
+[RSS](https://en.wikipedia.org/wiki/RSS) (**r**eally **s**imple **s**yndication) is a way to subscribe to any website without relying on a social media company. You can use any RSS reader to subscribe to any webpage with an RSS feed, which is really just a file that contains information about the webpage.
 
 [Feedly](https://feedly.com) is a nice modern RSS reader that's free for following up to 100 RSS feeds. You can [subscribe to Happy Coding on Feedly](https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fhappycoding.io%2Ffeed.xml).
 
-[Feedrabbit](https://feedrabbit.com) is another RSS reader that delivers new posts to your email. You can [subscribte to Happy Coding on Feedrabbit](https://feedrabbit.com/subscriptions/new?url=happycoding.io).
+[Feedrabbit](https://feedrabbit.com) is another RSS reader that delivers new posts to your email. You can [subscribe to Happy Coding on Feedrabbit](https://feedrabbit.com/subscriptions/new?url=happycoding.io).
 
 Don't worry too much about picking an RSS reader. One of the nice things about RSS is that you can always switch to a different RSS reader later!
 
