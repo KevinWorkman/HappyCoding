@@ -22,7 +22,6 @@ td, th{
 <p id="duration-div"></p>
 
 <p><strong>Tutorials:</strong> <span id="tutorial-count">Loading...</span></p>
-<p><strong>Examples:</strong> <span id="example-count">Loading...</span></p>
 <p><strong>Blogs:</strong> <span id="blog-count">Loading...</span></p>
 <p><strong>Gallery:</strong> <span id="gallery-count">Loading...</span></p>
 
@@ -36,7 +35,7 @@ td, th{
 
 <h2>Printed Pages</h2>
 
-<p>This is a <strong>very</strong> rough estimate of how many pages it would take to print the site out. It (incorrectly) assumes that a line is 150 characters long and a page is 66 lines. It doesn't count images or embedded CodePens.</p>
+<p>This is a <strong>very</strong> rough estimate of how many pages it would take to print the site out. It (incorrectly) assumes that a line is 150 characters long and a page is 66 lines. It doesn't count images or embedded code editors.</p>
 
 <p><strong>Printed pages:</strong> <span id="printed-pages-count">Loading...</span></p>
 
@@ -67,7 +66,7 @@ if(start || end){
   }
 
   if(end){
-    duration += end + '.';	
+    duration += end + '.';
   }	else{
     duration += 'now.';
   }
@@ -79,7 +78,7 @@ function maybeDrawChart(){
   if (dataLoaded && libraryLoaded) {
     drawPostsChart();
     drawPrintedPagesChart();
-  }	
+  }
 }
 window.onresize = maybeDrawChart;
 
@@ -113,10 +112,10 @@ function createTooltip(post, label, count, includeTitle){
     tooltip += post.title;
 
     //if(post.thumbnail){
-    //	tooltip += '<br/><img stlye="width:50px;" src="' + post.thumbnail + '" />'; 	
+    //	tooltip += '<br/><img stlye="width:50px;" src="' + post.thumbnail + '" />';
     //}
-	} 
-	return tooltip;			
+	}
+	return tooltip;
 }
 
 function compareByDate(postOne, postTwo) {
@@ -155,7 +154,6 @@ fetch('/api/site.json')
   posts.sort(compareByDate);
 
   let tutorialCount = 0;
-  let exampleCount = 0;
   let blogCount = 0;
   let galleryCount = 0;
   let printedPagesCount = 0;
@@ -163,15 +161,14 @@ fetch('/api/site.json')
   posts.forEach((post) => {
 
     if (start && post.date < start){
-      return;	
+      return;
     }
 
     if (end && post.date > end){
-      return;	
+      return;
     }
 
     let tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount);
-    let exampleTooltip = createTooltip(post, 'Examples', exampleCount);
     let blogTooltip = createTooltip(post, 'Blogs', blogCount);
     let galleryTooltip = createTooltip(post, 'Gallery', galleryCount);
 
@@ -180,9 +177,6 @@ fetch('/api/site.json')
     if ('tutorials' == category) {
       tutorialCount++;
       tutorialTooltip = createTooltip(post, 'Tutorials', tutorialCount, true);
-    } else if ('examples' == category) {
-      exampleCount++;
-      exampleTooltip = createTooltip(post, 'Examples', exampleCount, true);
 		} else if ('blog' == category) {
       blogCount++;
       blogTooltip = createTooltip(post, 'Blogs', blogCount, true);
@@ -190,13 +184,13 @@ fetch('/api/site.json')
       galleryCount++;
       galleryTooltip = createTooltip(post, 'Gallery', galleryCount, true);
 		} else {
-      console.log('OTHER: ' + post.date + ': ' + post.title + ' - ' + post.categories[0]);	
+      console.log('OTHER: ' + post.date + ': ' + post.title + ' - ' + post.categories[0]);
 		}
-		
+
     printedPagesCount += post.printedPages;
     const printedPagesTooltip = createTooltip(post, 'Printed pages', printedPagesCount, true) + ' (' + post.printedPages + ')';
 
-    addDataRow(post.date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip);
+    addDataRow(post.date, tutorialCount, tutorialTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip);
   });
 
   if (end) {
@@ -204,8 +198,6 @@ fetch('/api/site.json')
     addDataRow(end,
         tutorialCount,
         endTitle + 'Tutorials: ' + tutorialCount,
-        exampleCount,
-        endTitle + 'Examples: ' + exampleCount,
         blogCount,
         endTitle + 'Blogs: ' + blogCount,
         galleryCount,
@@ -218,8 +210,6 @@ fetch('/api/site.json')
     addDataRow(today,
         tutorialCount,
         endTitle + 'Tutorials: ' + tutorialCount,
-        exampleCount,
-        endTitle + 'Examples: ' + exampleCount,
         blogCount,
         endTitle + 'Blogs: ' + blogCount,
         galleryCount,
@@ -229,7 +219,6 @@ fetch('/api/site.json')
 	}
 
   document.querySelector('#tutorial-count').innerText = tutorialCount;
-  document.querySelector('#example-count').innerText = exampleCount;
   document.querySelector('#blog-count').innerText = blogCount;
   document.querySelector('#gallery-count').innerText = galleryCount;
   document.querySelector('#printed-pages-count').innerText = printedPagesCount;
@@ -242,22 +231,19 @@ fetch('/api/site.json')
   maybeDrawChart();
 });
 
-function addDataRow(date, tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip){
+function addDataRow(date, tutorialCount, tutorialTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip, printedPagesCount, printedPagesTooltip){
 
   if(tutorialCount == 0){
-    tutorialCount = null;	
-  }
-  if(exampleCount == 0){
-    exampleCount = null;	
+    tutorialCount = null;
   }
   if(blogCount == 0){
-    blogCount = null;	
+    blogCount = null;
   }
   if(galleryCount == 0){
-    galleryCount = null;	
+    galleryCount = null;
   }
-	
-  const rowArray = [new Date(date), tutorialCount, tutorialTooltip, exampleCount, exampleTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip];
+
+  const rowArray = [new Date(date), tutorialCount, tutorialTooltip, blogCount, blogTooltip, galleryCount, galleryTooltip];
 	postsChartDataArray.push(rowArray);
 
   const printedPagesRowArray = [new Date(date), printedPagesCount, printedPagesTooltip];
@@ -284,8 +270,6 @@ function drawPostsChart() {
   const data = new google.visualization.DataTable();
   data.addColumn('date', 'Date');
   data.addColumn('number', 'Tutorials');
-  data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
-  data.addColumn('number', 'Examples');
   data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
   data.addColumn('number', 'Blogs');
   data.addColumn({type:'string', role:'tooltip', 'p': {'html': true} });
