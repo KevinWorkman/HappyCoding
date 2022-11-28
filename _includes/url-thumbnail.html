@@ -14,7 +14,7 @@
 {%- assign description = post.tagline -%}
 {%- unless description -%}
   {%- assign description = post.meta-description -%}
-{%- endunless -%}
+{%- endunless %}
 
 <div class="tutorial-link-box {%if include.fullsize %}fullsize{% endif %}">
   <a href="{{ post.url }}" >
@@ -25,12 +25,14 @@
   </a>
   <a class="title" href="{{ post.url }}">
     {{ post.title }}
-    {% unless post.hide-video-icon %}
-      {% if post.content contains "youtube.com/embed" -%}▶{%- endif -%}
-    {% endunless %}
+    {%- unless post.hide-video-icon -%}
+      {% if post.content contains "youtube.com/embed" -%}
+        ▶
+      {% endif -%}
+    {%- endunless %}
   </a>
-  {%- if include.showDate -%}
+  {%- if include.showDate %}
     <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-  {%- endif -%}
+  {%- endif %}
   <p>{{ description }}</p>
 </div>

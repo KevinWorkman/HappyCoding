@@ -19,8 +19,7 @@
 {%- endunless -%}
 {%- unless thumbnail -%}
   {%- assign thumbnail = "/images/logo-800x400.png" -%}
-{%- endunless -%}
-
+{%- endunless %}
 <div class="smallThumbnailLink">
   <img src="{{ thumbnail }}">
   <a class="{{ include.class }}" href="{{ post.url }}">{{ title }}</a>

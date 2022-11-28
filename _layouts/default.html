@@ -1,3 +1,15 @@
+<!--
+Hello there!
+
+If you're looking at this source code in your browser, you might notice some weird formatting, extra whitespace, or improper indentation. That's because this site is built with Jekyll, so the HTML is generated from other files.
+
+Check out the source code on GitHub: https://github.com/KevinWorkman/HappyCoding
+
+Learn more about Jekyll: https://happycoding.io/tutorials/html/jekyll
+
+Ask a question or come say hello in the forum: https://forum.happycoding.io
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -50,16 +62,17 @@
         </div>
       </nav>
 
-      {% if layout.show_hero_image %}
+      {%- if layout.show_hero_image %}
         <div class="section" id="hero-section">
-          <div class="hero-container" style="width:100%; aspect-ratio:2/1; background-image:url({{page.meta-image}}); background-size:cover;">
+          <div class="hero-container"
+               style="width:100%; aspect-ratio:2/1; background-image:url({{page.meta-image}}); background-size:cover;">
             <h1>{{ page.title }}</h1>
+          </div>
         </div>
-        </div>
-      {% endif %}
+      {%- endif %}
 
       <div class="left-nav-and-sections">
-  {% include left-nav.html %}
+        {%- include left-nav.html %}
 
         <div id="sections">
           <div class="section content">
@@ -86,7 +99,7 @@
 
   {% include previous-next-links.html %}
 
-  {{ content }}
+{{ content }}
 
   {% include previous-next-links.html bottom=true %}
 

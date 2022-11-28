@@ -1,21 +1,21 @@
-{% assign createdPosts = include.posts %}
-{% assign updatedPosts = include.posts | sort: "updated" | reverse %}
+{%- assign createdPosts = include.posts -%}
+{%- assign updatedPosts = include.posts | sort: "updated" | reverse -%}
 
-{% assign createdIndex = 0 %}
-{% assign updatedIndex = 0 %}
+{%- assign createdIndex = 0 -%}
+{%- assign updatedIndex = 0 -%}
 
-{% for i in (1..include.count) %}
-  {% assign createdDate = createdPosts[createdIndex].date | date: "%Y-%m-%d" %}
-  {% assign updatedDate = updatedPosts[updatedIndex].updated | date: "%Y-%m-%d" %}
+{%- for i in (1..include.count) -%}
+  {%- assign createdDate = createdPosts[createdIndex].date | date: "%Y-%m-%d" -%}
+  {%- assign updatedDate = updatedPosts[updatedIndex].updated | date: "%Y-%m-%d" -%}
 
-  {% if createdDate > updatedDate or updatedDate == nil %}
-    {% capture url %}{{createdPosts[createdIndex].url}}{% endcapture %}
+  {%- if createdDate > updatedDate or updatedDate == nil -%}
+    {%- capture url %}{{createdPosts[createdIndex].url}}{% endcapture %}
     {% include url-thumbnail.html url=url %}
-    {% assign createdIndex = createdIndex | plus:1 %}
-  {% else %}
-    {% capture url %}{{updatedPosts[updatedIndex].url}}{% endcapture %}
+    {% assign createdIndex = createdIndex | plus:1 -%}
+  {%- else -%}
+    {%- capture url %}{{updatedPosts[updatedIndex].url}}{% endcapture -%}
     {% include url-thumbnail.html url=url %}
-    {% assign updatedIndex = updatedIndex | plus:1 %}
-  {% endif %}
+    {%- assign updatedIndex = updatedIndex | plus:1 -%}
+  {%- endif -%}
 
-{% endfor %}
+{%- endfor -%}

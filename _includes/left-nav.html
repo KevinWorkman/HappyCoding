@@ -1,93 +1,112 @@
-<style>
-  #left-nav .not-current + ul {
-    display:block;
-  }
-</style>
 
 <div id="left-nav">
 
-{% if page.url contains "/tutorials/p5js" %}
+{%- if page.url contains "/tutorials/p5js" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="p5.js Tutorials" url="/tutorials/p5js" %}
   </div>
-{% elsif page.url contains "/tutorials/javascript" %}
+{%- elsif page.url contains "/tutorials/javascript" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="JavaScript Tutorials" url="/tutorials/javascript" %}
   </div>
-{% elsif page.url contains "/tutorials/processing" %}
+{%- elsif page.url contains "/tutorials/processing" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="Processing Tutorials" url="/tutorials/processing" %}
   </div>
-{% elsif page.url contains "/tutorials/java-server" %}
+{%- elsif page.url contains "/tutorials/java-server" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="Server Tutorials" url="/tutorials/java-server" %}
   </div>
-{% elsif page.url contains "/tutorials/java" %}
+{%- elsif page.url contains "/tutorials/java" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="Java Tutorials" url="/tutorials/java" %}
   </div>
-{% elsif page.url contains "/tutorials/google-cloud" %}
+{%- elsif page.url contains "/tutorials/google-cloud" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="Google Cloud" url="/tutorials/google-cloud" %}
   </div>
-{% elsif page.url contains "/tutorials/android" %}
+{%- elsif page.url contains "/tutorials/android" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="Android Tutorials" url="/tutorials/android" %}
   </div>
-{% elsif page.url contains "/tutorials/libgdx" %}
+{%- elsif page.url contains "/tutorials/libgdx" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="libGDX Tutorials" url="/tutorials/libgdx" %}
   </div>
-{% elsif page.url contains "/tutorials/how-to" %}
+{%- elsif page.url contains "/tutorials/how-to" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="How-To Guides" url="/tutorials/how-to" %}
   </div>
-{% elsif page.url contains "/blog" %}
+{%- elsif page.url contains "/blog" %}
   <div class="left-nav-section">
     {% include left-nav-blog.html %}
   </div>
-{% elsif page.url contains "/gallery" %}
+{%- elsif page.url contains "/gallery" %}
   <div class="left-nav-section">
     {% include left-nav-gallery.html %}
   </div>
-{% endif %}
+{%- endif %}
 
-<div class="left-nav-section">
-  <ul>
-    <li>{% include post-url.html url="/tutorials/p5js" %}</li>
-    <li>{% include post-url.html url="/tutorials/javascript" %}</li>
-    <li>{% include post-url.html url="/tutorials/processing" %}</li>
-    <li>{% include post-url.html url="/tutorials/java" %}</li>
-    <li>{% include post-url.html url="/tutorials/java-server" %}</li>
-    <li>{% include post-url.html url="/tutorials/google-cloud" title="Google Cloud" %}</li>
-    <li>{% include post-url.html url="/tutorials/android" %}</li>
-    <li>{% include post-url.html url="/tutorials/libgdx" %}</li>
-    <li>{% include post-url.html url="/tutorials/how-to" %}</li>
+  <div class="left-nav-section">
+    <ul>
+      <li>
+        {% include post-url.html url="/tutorials/p5js" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/javascript" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/processing" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/java" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/java-server" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/google-cloud" title="Google Cloud" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/android" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/libgdx" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/how-to" %}
+      </li>
 
-    <li><hr></li>
-    <li>{% include post-url.html url="/gallery" %}</li>
-    <li><hr></li>
-    <li>{% include post-url.html url="/blog" %}</li>
-    <li><hr></li>
-    <li>{% include post-url.html url="/teaching" %}</li>
-    <li><hr></li>
-    <li><a href="https://forum.happycoding.io">Forum</a></li>
+      <li><hr></li>
+      <li>
+        {% include post-url.html url="/gallery" %}
+      </li>
+      <li><hr></li>
+      <li>
+        {% include post-url.html url="/blog" %}
+      </li>
+      <li><hr></li>
+      <li>
+        {% include post-url.html url="/teaching" %}
+      </li>
+      <li><hr></li>
+      <li><a href="https://forum.happycoding.io">Forum</a></li>
 
-    <hr>
-    <div class="left-nav-social-icons">
-      <a href="https://twitter.com/TheKevinWorkman">
-        <img class="nav-img" src="/images/twitter.png" alt="twitter"/></a>
-      <a href="https://github.com/KevinWorkman/HappyCoding">
-        <img class="nav-img" src="/images/GitHub-Mark-32px.png" alt="github" /></a>
-      <div style="flex-basis: 100%"></div>
-      <a href="https://www.etsy.com/shop/HappyCoding">
-        <img class="nav-img" src="/images/etsy.png" alt="etsy" /></a>
-      <a href="https://www.youtube.com/user/kevinaworkman">
-        <img class="nav-img" src="/images/youtube.png" alt="youtube" /></a>
-      <a href="/feed.xml">
-        <img class="nav-img" src="/images/rss.png" alt="RSS" /></a>
-    </div>
-  </ul>
-</div>
+      <hr>
+      <div class="left-nav-social-icons">
+        <a href="https://twitter.com/TheKevinWorkman">
+          <img class="nav-img" src="/images/twitter.png" alt="twitter"/></a>
+        <a href="https://github.com/KevinWorkman/HappyCoding">
+          <img class="nav-img" src="/images/GitHub-Mark-32px.png" alt="github" /></a>
+        <div style="flex-basis: 100%"></div>
+        <a href="https://www.etsy.com/shop/HappyCoding">
+          <img class="nav-img" src="/images/etsy.png" alt="etsy" /></a>
+        <a href="https://www.youtube.com/user/kevinaworkman">
+          <img class="nav-img" src="/images/youtube.png" alt="youtube" /></a>
+        <a href="/feed.xml">
+          <img class="nav-img" src="/images/rss.png" alt="RSS" /></a>
+      </div>
+    </ul>
+  </div>
 
 </div> <!-- end left-nav -->

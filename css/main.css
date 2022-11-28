@@ -186,11 +186,6 @@ nav {
   font-weight: bolder;
 }
 
-/* Hide sections when we're not in them. */
-#left-nav .not-current + ul {
-  display: none;
-}
-
 .breadcrumbs {
   display: flex;
   flex-wrap: wrap;
