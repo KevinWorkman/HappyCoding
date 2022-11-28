@@ -1,9 +1,9 @@
 /* The screen is big enough to show the left and right nav bars. */
-@media screen and (min-width: 1322px) {
+@media screen and (min-width: 1340px) {
 
   .container {
-    /* 225 (left nav) + 25 (gap) + 802 (content) + 25 (gap) + 225 (right nav) */
-    width: 1302px;
+    /* 225 (left nav) + 25 (gap) + 800 (content) + 25 (gap) + 225 (right nav) */
+    width: 1300px;
   }
 
   #right-nav {

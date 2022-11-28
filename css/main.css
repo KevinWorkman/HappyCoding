@@ -67,6 +67,7 @@ nav {
   border: thin solid #323232;
   -webkit-transition: background-color 10s linear;
   transition: background-color 10s linear;
+  box-sizing: border-box;
 }
 
 .nav-links {
@@ -111,6 +112,7 @@ nav {
   height: fit-content;
   overflow: hidden;
   vertical-align: top;
+  box-sizing: border-box;
 }
 
 #left-nav .left-nav-section {
@@ -122,8 +124,13 @@ nav {
   box-sizing: border-box;
 }
 
+#sections {
+  box-sizing: border-box;
+}
+
 #right-nav {
   width: 225px;
+  box-sizing: border-box;
 }
 
 #right-nav-toc {
@@ -157,7 +164,7 @@ nav {
   background-color: #fbfbfb;
   border: thin solid #323232;
   padding: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #left-nav ul {

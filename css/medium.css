@@ -1,15 +1,19 @@
 /* Screen is bigger than a phone but not big enough to show the left nav. */
-@media (min-width:842px) { /* 802 + 20 for body margin + 20 for scroll bar */
+@media (min-width:840px) { /* 800 + 20 for body margin + 20 for scroll bar */
   .container {
-    width: 802px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
 
   #sections {
     vertical-align: top;
-    width: 802px; /* content is 750, padding is 25 + 25, border is 1 + 1 */
+    width: 800px; /* content is 750, padding is 25 + 25 */
     max-width: 100%;
+  }
+
+  #hero-section {
+    display: block;
   }
 
   .content {
@@ -20,6 +24,7 @@
 /* On tiny screens, thumbnails fill the screen width. Make them smaller on bigger screens. */
 /* Fullsize thumbnails should not be smaller, even on non-tiny screens. */
 @media (min-width:500px) {
+
   .tutorial-link-box:not(.fullsize) {
     width: 200px;
   }
