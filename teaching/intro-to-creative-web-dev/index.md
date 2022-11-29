@@ -71,3 +71,4 @@ I will point out any behavior that makes others feel unfairly uncomfortable or u
 {% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/week-12-if-statements" %}
 {% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/week-13-libraries" %}
 {% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/final-project" %}
+{% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/next" %}
