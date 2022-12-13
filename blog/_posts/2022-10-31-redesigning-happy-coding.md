@@ -4,7 +4,7 @@ title: Redesigning Happy Coding
 meta-title: Redesigning Happy Coding
 meta-description: Brainstorming about a potential redesign.
 meta-image: /blog/images/redesigning-happy-coding/thumbnail.jpg
-tags: [dev-log]
+tags: [dev-log, site-update]
 ---
 
 <style>

@@ -4,7 +4,7 @@ title: Redesigning Happy Coding Part 2
 meta-title: Redesigning Happy Coding Part 2
 meta-description: Announcing a redesign of Happy Coding!
 meta-image: /blog/images/redesigning-happy-coding-part-2/thumbnail.png
-tags: [dev-log]
+tags: [dev-log, site-update]
 ---
 
 <style>
