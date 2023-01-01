@@ -3,6 +3,10 @@
 {% if page.url contains include.url %}
   {% assign class = "current" %}
 {% endif %}
+{%- assign level = include.level -%}
+{%- unless level -%}
+  {%- assign level = 5 -%}
+{%- endunless -%}
 
 <hr>
 <li class="left-nav-tutorial-chapter">
@@ -13,7 +17,7 @@
     {%- for post in posts  -%}
       {% assign postLevel = post.url | split: "/" %}
 
-      {% if postLevel.size == 5 and post.url contains exampleUrlPrefix %}
+      {% if postLevel.size == level and post.url contains exampleUrlPrefix %}
         <li>{%- include left-nav-link.html url=post.url -%}</li>
       {%- endif -%}
     {% endfor %}
