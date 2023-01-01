@@ -21,6 +21,10 @@
     list-style: none;
   }
 
+  .toc-list-item {
+    margin-bottom: 5px;
+  }
+
   .is-active-link::before {
     background-color: #323232;
   }
