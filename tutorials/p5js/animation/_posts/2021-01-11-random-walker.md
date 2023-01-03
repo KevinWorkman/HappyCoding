@@ -1,20 +1,83 @@
 ---
 layout: tutorial
 title: Random Walker
-thumbnail: /tutorials/p5js/animation/images/random-walker-1.png
+thumbnail: /tutorials/p5js/animation/images/random-walker-4.png
 tagline: Show a scribble that randomly moves around.
 sort-key: 540
 meta-title: p5.js Example - Random Walker
 meta-description: Show a scribble that randomly moves around.
 meta-image: /tutorials/p5js/animation/images/random-walker-2.png
-tags: [example, p5.js, javascript, animation]
+tags: [example, p5.js, javascript, animation, genuary]
 includeP5jsWidget: true
 previousPost: /tutorials/p5js/animation
 redirect_from: /examples/p5js/animation/random-walker
 discourseEmbedUrl: /examples/p5js/animation/random-walker
+updated: 2023-01-02
 ---
 
-<iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/m2lT4QojnGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+These sketches move a point around the screen randomly, creating a colorful scribble effect. This is a visualization of my favorite algorithm, the [random walker](https://en.wikipedia.org/wiki/Random_walker_algorithm)!
+
+{% include youtube-embed.html slug="yBVeCXnxQYs" %}
+
+<br>
+
+{% include p5js-widget.html width=300 height=300 %}
+let x;
+let y;
+
+let r;
+let g;
+let b;
+
+function setup() {
+  createCanvas(300, 300);
+  x = width / 2;
+  y = height / 2;
+
+  r = random(255);
+  g = random(255);
+  b = random(255);
+
+  background(32);
+}
+
+function draw() {
+
+  let nextX = x + random(-20, 20);
+  let nextY = y + random(-20, 20);
+  nextX = constrain(nextX, 0, width);
+  nextY = constrain(nextY, 0, height);
+
+  r += random(-10, 10);
+  g += random(-10, 10);
+  b += random(-10, 10);
+  r = constrain(r, 0, 255);
+  g = constrain(g, 0, 255);
+  b = constrain(b, 0, 255);
+
+  stroke(r, g, b);
+  line(x, y, nextX, nextY);
+
+  x = nextX;
+  y = nextY;
+}
+</script>
+
+([Edit this sketch in the p5.js editor.](https://editor.p5js.org/KevinWorkman/sketches/2eAaIBlau))
+
+![random walker](/tutorials/p5js/animation/images/random-walker-5.png)
+
+Just for fun, here's a sped up version of the above video:
+
+{% include youtube-embed.html slug="nmUPkb_GrBc" %}
+
+<br>
+
+---
+
+Here's another take on the random walker algorithm. This one uses a `for` loop to speed up the animation.
+
+{% include youtube-embed.html slug="m2lT4QojnGg" %}
 
 ---
 
@@ -63,8 +126,6 @@ function step() {
   point(x, y);
 }
 </script>
-
-This sketch moves a point around the screen randomly, creating a colorful scribble effect.
 
 ![random walker](/tutorials/p5js/animation/images/random-walker-1.png)
 
