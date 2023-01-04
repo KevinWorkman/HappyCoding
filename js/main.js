@@ -24,7 +24,7 @@ const backgroundObj = backgrounds[Math.floor(Math.random()*backgrounds.length)];
 
 function setRandomBackground(){
 	const backgroundUrl = "/images/backgrounds/" + backgroundObj.img + "-light.png";
-	
+
 	document.getElementsByTagName("body")[0].style.backgroundImage = "url(" + backgroundUrl + ")";
 	document.querySelector("#background-link").innerHTML = "Like the background? Check out its <a href='/images/backgrounds/code/" + backgroundObj.code + "'>source code</a> or <a href='https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds'>contribute your own background</a>!";
 }
@@ -47,9 +47,9 @@ function setRandomSocialLink() {
   let alt;
   const r = Math.random();
   if (r < .25) {
-    alt = 'twitter';
-    href = 'https://twitter.com/TheKevinWorkman';
-    src = '/images/twitter.png';
+    alt = 'Mastodon';
+    href = 'https://mastodon.art/@KevinWorkman';
+    src = '/images/mastodon.svg';
   } else if (r < .5) {
     alt = 'github';
     href = 'https://github.com/KevinWorkman/HappyCoding';
