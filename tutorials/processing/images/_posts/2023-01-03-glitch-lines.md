@@ -84,6 +84,12 @@ void drawOneLine() {
 
 ---
 
+Here's a coding timelapse of the above video:
+
+{% include youtube-embed.html slug="ILvxsJcuJf4" %}
+
+---
+
 # Remix Ideas
 
 - Use this code on your own images.
