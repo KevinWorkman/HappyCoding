@@ -79,3 +79,17 @@ window.onload = function() {
 if(Modernizr.csstransitions){
 	setInterval(randomizeNavColor, 10000);
 }
+
+console.log('█ █ ███');
+console.log('█ █   █');
+console.log('███ ███ ███ ███ █ █');
+console.log('█ █ █ █ █ █ █ █ █ █');
+console.log('█ █ ███ ███ ███ ███');
+console.log('        █   █     █');
+console.log('  ███   █   █   ███       █');
+console.log('  █         █             █');
+console.log('  █   ███ ███ ███ ███ ███ █');
+console.log('  █   █ █ █ █  █  █ █ █ █');
+console.log('  ███ ███ ███ ███ █ █ ███ █');
+console.log('                        █');
+console.log('                      ███');
