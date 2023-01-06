@@ -80,16 +80,26 @@ if(Modernizr.csstransitions){
 	setInterval(randomizeNavColor, 10000);
 }
 
-console.log('█ █ ███');
-console.log('█ █   █');
-console.log('███ ███ ███ ███ █ █');
-console.log('█ █ █ █ █ █ █ █ █ █');
-console.log('█ █ ███ ███ ███ ███');
-console.log('        █   █     █');
-console.log('  ███   █   █   ███       █');
-console.log('  █         █             █');
-console.log('  █   ███ ███ ███ ███ ███ █');
-console.log('  █   █ █ █ █  █  █ █ █ █');
-console.log('  ███ ███ ███ ███ █ █ ███ █');
-console.log('                        █');
-console.log('                      ███');
+function printConsoleGreeting() {
+  const r = Math.floor(Math.random() * 255);
+	const g = Math.floor(Math.random() * 255);
+  const b = Math.floor(Math.random() * 255);
+	const c = '\u001b[38;2;' + r + ';' + g + ';' + b + 'm';
+
+	console.log(c + '█ █  ███');
+	console.log(c + '█ █    █');
+	console.log(c + '███  ███  ███  ███  █ █');
+	console.log(c + '█ █  █ █  █ █  █ █  █ █');
+	console.log(c + '█ █  ███  ███  ███  ███');
+	console.log(c + '          █    █      █');
+	console.log(c + '   ███    █    █    ███          █');
+	console.log(c + '   █           █                 █');
+	console.log(c + '   █    ███  ███  ███  ███  ███  █');
+	console.log(c + '   █    █ █  █ █   █   █ █  █ █');
+	console.log(c + '   ███  ███  ███  ███  █ █  ███  █');
+	console.log(c + '                              █');
+	console.log(c + '                            ███');
+	console.log('');
+	console.log('If you found this message, come say hi on the Happy Coding forum! https://forum.happycoding.io');
+}
+printConsoleGreeting();
