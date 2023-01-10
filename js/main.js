@@ -81,6 +81,7 @@ if(Modernizr.csstransitions){
 }
 
 function printConsoleGreeting() {
+	// Use an ANSI escape code to set the color.
   const r = Math.floor(Math.random() * 255);
 	const g = Math.floor(Math.random() * 255);
   const b = Math.floor(Math.random() * 255);
