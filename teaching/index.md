@@ -16,17 +16,18 @@ Happy Coding starts with the fundamentals of coding designed for folks who have 
 
 # Current Classes
 
-During fall 2022, I'm teaching an Intro to Web Dev course that focuses on creativity and self-expression.
+During spring 2023, I'm teaching an Intro to Web Dev course that focuses on creativity and self-expression.
 
-{% include url-thumbnail.html url="/teaching/intro-to-creative-web-dev/" fullsize=true %}
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev-2023-spring/" fullsize=true %}
 
 ---
 
 # Past Classes
 
-This is an older version of the Intro to Web Dev course, taught in spring 2022.
+These are older versions of the Intro to Web Dev course, taught in 2022.
 
-{% include url-thumbnail.html url="/teaching/intro-to-web-dev/" %}
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev-2022-fall/" %}
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev-2022-spring/" %}
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: tutorial
 title: Variables
-thumbnail: /teaching/intro-to-web-dev/images/week-04-javascript/variables-1.png
+thumbnail: /teaching/intro-to-web-dev-2022-spring/images/week-04-javascript/variables-1.png
 pixelate-thumbnail: true
 tagline: Store information in variables.
 sort-key: 200
 meta-title: JavaScript Variables Tutorial
 meta-description: Store information in variables.
-meta-image: /teaching/intro-to-web-dev/images/week-04-javascript/variables-1.png
+meta-image: /teaching/intro-to-web-dev-2022-spring/images/week-04-javascript/variables-1.png
 previousPost: /tutorials/javascript/calling-javascript
 nextPost: /tutorials/javascript/developer-tools
 tags: [tutorial, javascript]

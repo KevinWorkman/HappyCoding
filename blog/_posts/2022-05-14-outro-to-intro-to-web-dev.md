@@ -17,7 +17,7 @@ tags: [teaching]
 
 Class dismissed!
 
-For the past 16 weeks, I've been teaching [Intro to Web Development](/teaching/intro-to-web-dev). This is my first "real" full-semester teaching job, so I wanted to introspect a bit on how it went and what I learned. Overall, I'm happy with the class. I learned a lot, and working with students is always super interesting and rewarding. But here are some thoughts I had, in roughly chronological order.
+For the past 16 weeks, I've been teaching [Intro to Web Development](/teaching/intro-to-web-dev-2022-spring). This is my first "real" full-semester teaching job, so I wanted to introspect a bit on how it went and what I learned. Overall, I'm happy with the class. I learned a lot, and working with students is always super interesting and rewarding. But here are some thoughts I had, in roughly chronological order.
 
 And just for fun, I'm going to include screenshots of random projects (with student permission, of course).
 
