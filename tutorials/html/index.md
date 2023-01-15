@@ -27,6 +27,8 @@ If you're ready to start making your own websites, read through these tutorials!
 <div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/html/from-p5js-to-html" %}
 {% include url-thumbnail.html url="/tutorials/html/html" %}
+{% include url-thumbnail.html url="/tutorials/html/online-code-editors" %}
+{% include url-thumbnail.html url="/tutorials/html/local-files" %}
 {% include url-thumbnail.html url="/tutorials/html/html-tags" %}
 {% include url-thumbnail.html url="/tutorials/html/css" %}
 {% include url-thumbnail.html url="/tutorials/html/layout" %}
