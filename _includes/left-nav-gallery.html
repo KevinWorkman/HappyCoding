@@ -1,5 +1,5 @@
 <div class="left-nav-tutorial-section">
-  {% include post-url.html url=include.url title="Gallery" class="current" %}
+  {% include post-url.html url="/gallery" class="current" %}
   <ul>
   {%- assign posts = site.posts | sort: 'sort-key' -%}
     {%- for post in posts  -%}
