@@ -106,6 +106,16 @@ meta-description: HappyCoding.io is a collection of coding tutorials, and a comm
 <div class="section content">
   <div class="jumbotron">
 
+    <h2>Featured Post</h2>
+
+    {% include url-thumbnail.html url="/gallery/arc-scribbler" fullsize=true %}
+
+  </div> <!-- end jumbotron -->
+</div> <!-- end section content -->
+
+<div class="section content">
+  <div class="jumbotron">
+
     <h2>Latest Blog Post</h2>
 
     {% for post in site.categories.blog limit:1 %}
