@@ -166,4 +166,4 @@ Try it now!
 # Homework
 
 - Use your developer tools to inspect the elements used by the webpages you visit most often. Try using your developer tools to modify these webpages. Don't worry, any changes you make go away as soon as you refresh, so you won't break anything!
-- Read [soft corruptor](http://cordite.org.au/poetry/game/soft-corruptor/), and HTML poem by [Everest Pipkin](https://everest-pipkin.com/). Then write your own HTML poem using the `<details>` and `<summary>` tags.
+- Read [soft corruptor](http://cordite.org.au/poetry/game/soft-corruptor/), an HTML poem by [Everest Pipkin](https://everest-pipkin.com/). Then write your own HTML poem using the `<details>` and `<summary>` tags.
