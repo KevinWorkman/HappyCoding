@@ -9,7 +9,9 @@ meta-image: /gallery/movie-colors/images/thumbnail-2.png
 
 # Gallery
 
-Here are various projects I've worked on. They use the concepts from the [tutorials](/tutorials), but they're a little bigger and more involved than the [examples](/examples).
+This page contains some personal projects I've worked on. They tend to be a little bigger and messier than the [tutorials](/tutorials), but they use many of the same concepts.
+
+---
 
 {% include url-thumbnail.html url="/gallery/movie-colors/index" %}
 {% include url-thumbnail.html url="/gallery/comic-book-colors/index" %}
@@ -18,6 +20,8 @@ Here are various projects I've worked on. They use the concepts from the [tutori
 {% include url-thumbnail.html url="/gallery/music/index" %}
 {% include url-thumbnail.html url="/gallery/46-million-turkeys" %}
 {% include url-thumbnail.html url="/gallery/arc-scribbler" %}
+
+---
 
 # Ludum Dare
 
@@ -28,7 +32,3 @@ Here are various projects I've worked on. They use the concepts from the [tutori
 {% include url-thumbnail.html url="/gallery/the-next-generation-ld-46/index" %}
 {% include url-thumbnail.html url="/gallery/emojavoid-ld-47/index" %}
 {% include url-thumbnail.html url="/gallery/rabbit-hole/index" %}
-
-## Other Links
-
-{% include url-thumbnail.html url="/gallery/links" %}
