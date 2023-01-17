@@ -10,7 +10,7 @@ tags: [site-update]
 
 The site now has random background images that were generated using Processing code, and you can view the source code that generated the background by scrolling to the bottom of the page and looking in the footer!
 
-The random backgrounds aren't new. I've been using backgrounds from [Subtle Patterns](http://subtlepatterns.com/), and they've been great.
+The random backgrounds aren't new. I've been using backgrounds from [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/), and they've been great.
 
 But I wanted something a little more codey. Something that was a little bit fun and encouraged people to play around and learn more.
 
@@ -20,7 +20,7 @@ So I decided to generate static images ahead of time using Processing. The `save
 
 ```java
 void keyPressed(){
- save("circles-1.png"); 
+ save("circles-1.png");
 }
 
 void draw(){
@@ -66,8 +66,8 @@ For that to tile, I need the blue circle to wrap by drawing it on the right side
 
 So my buffers look like this:
 
-![](/blog/images/background-info/buffers-7.png) 
-![](/blog/images/background-info/buffers-5.png)  ![](/blog/images/background-info/buffers-6.png) 
+![](/blog/images/background-info/buffers-7.png)
+![](/blog/images/background-info/buffers-5.png)  ![](/blog/images/background-info/buffers-6.png)
 
 Which I combine into one image by just drawing them all to the screen:
 
@@ -93,8 +93,8 @@ It took me a while to debug this. Maybe my random location was off, or maybe the
 
 I finally realized that the draw order of the buffers mattered. In the above pictures, I'm drawing the right and bottom buffers last, which means they're drawn on top of the center buffer. This causes those circles to be drawn on top of the other circles instead of being drawn in the order they were originally drawn. Let's say we had these buffers:
 
-![](/blog/images/background-info/buffers-12.png) 
-![](/blog/images/background-info/buffers-11.png) 
+![](/blog/images/background-info/buffers-12.png)
+![](/blog/images/background-info/buffers-11.png)
 ![](/blog/images/background-info/buffers-10.png)
 
 Because the right buffer is drawn on top of the center buffer, the stacked image looks like this:
@@ -157,7 +157,7 @@ void draw() {
   fill(random(256), random(256), random(256));
   ellipse(random(width), random(height), 30, 30);
 }
- 
+
 void ellipse(float x, float y, float w, float h) {
   for (int yOffset = -1; yOffset <= 1; yOffset++) {
     for (int xOffset = -1; xOffset <= 1; xOffset++) {
@@ -181,6 +181,6 @@ I can override any other drawing function, like `rect()` or `line()`, which mean
 
 I came up with a few designs, which you can view on [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/images/backgrounds), or just look at the background of the page you're looking at right now! (Refresh to get a new random background.) You can also view the source code that generated that image by scrolling to the bottom and finding it in the footer, or by going to [GitHub](https://github.com/KevinWorkman/HappyCoding/tree/gh-pages/images/backgrounds/code).
 
-I love when sites have little easter eggs like this, so I'm hoping that at the very least this is fun and encourages people to see the artistic side of programming when they realize that the background images were created using code. 
+I love when sites have little easter eggs like this, so I'm hoping that at the very least this is fun and encourages people to see the artistic side of programming when they realize that the background images were created using code.
 
 I'd also love if people went a step further and wanted to contribute their own backgrounds! I've written a [guide](https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds) on how to submit your own backgrounds, and I'd love to see what other people come up with!
