@@ -19,6 +19,8 @@
   "url": {{ post.url | jsonify }},
   "thumbnail": {{ post.thumbnail | jsonify }},
   "tagline": {{ post.tagline | jsonify }},
+  "metaDescription": {{ post.meta-description | jsonify }},
+  "metaImage": {{ post.meta-image | jsonify }},
   "tags": {{ post.tags | jsonify }},
   "date": {{ post.date | jsonify }},
   "printedPages": {{ pageCount }}
