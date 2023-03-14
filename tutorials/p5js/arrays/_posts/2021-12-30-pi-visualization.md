@@ -15,7 +15,7 @@ discourseEmbedUrl: /examples/p5js/arrays/pi-visualization
 ---
 
 <style>
-img {
+img, .hero-container {
   image-rendering: pixelated;
 }
 </style>
