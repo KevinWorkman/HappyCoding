@@ -38,7 +38,7 @@ If you were more comfortable in p5.js, you might also read this tutorial:
 
 # Project - Quiz
 
-Now you know how to us `if` statements in your JavaScript. To practice that, you're going to create an interactive quiz.
+Now you know how to use `if` statements in your JavaScript code. To practice that, you're going to create an interactive quiz.
 
 {% include youtube-embed.html slug="HcJ2Y17KLUg" %}
 
