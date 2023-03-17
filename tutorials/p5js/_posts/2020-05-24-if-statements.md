@@ -2,7 +2,7 @@
 layout: tutorial
 title: If Statements
 thumbnail: /tutorials/javascript/images/if-statements-1.png
-tagline: Make decisions in your code.
+tagline: Make decisions in your p5.js code.
 sort-key: 600
 meta-title: If Statements in p5.js
 meta-description: Learn how to use if statements to make decisions in your code.

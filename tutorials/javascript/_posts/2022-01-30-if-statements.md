@@ -3,7 +3,7 @@ layout: tutorial
 title: If Statements
 thumbnail: /tutorials/javascript/images/if-statements-1.png
 pixelate-thumbnail: true
-tagline: Make decisions in your code.
+tagline: Make decisions in your JavaScript code.
 sort-key: 600
 meta-title: JavaScript Variables Tutorial
 meta-description: Use JavaScript if statements to make decisions in your code.
