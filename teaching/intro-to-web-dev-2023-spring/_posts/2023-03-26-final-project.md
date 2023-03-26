@@ -61,21 +61,21 @@ I want you to focus on stretching your web development muscles and building some
 
 With that in mind, projects will be worth 50 points, but you can choose any combination from below to get to 50:
 
-- 5 points: HTML tags
+- 3 points: HTML tags
   - If you're using p5.js, add at least one new HTML tag to the `index.html` file!
-- 5 points: CSS
+- 3 points: CSS
   - If you're using p5.js, add at least one style for the HTML you added.
   - If you're using Bootstrap, add at least one style on top of Bootstrap's styling.
-- 5 points: An event callback (like `onclick` or `onload`) **or** p5.js `setup()` and `draw()` functions.
-- 10 points: Animation
-- 10 points: Input
+- 3 points: An event callback (like `onclick` or `onload`) **or** p5.js `setup()` and `draw()` functions.
+- 6 points: Animation
+- 6 points: Input
   - This can be in p5.js, or in vanilla JavaScript by getting an input element's value.
-- 10 points: Bootstrap component
-- 15 points: If statements
-- 15 points: DOM manipulation (changing the page with JavaScript)
-- 15 points: Bootstrap grid
-- 15 points: Flexbox
-- 40 points: JavaScript library (not counting p5.js, Bootstrap, or Sweet Alert)
+- 6 points: Bootstrap component
+- 10 points: If statements
+- 10 points: DOM manipulation (changing the page with JavaScript)
+- 10 points: Bootstrap grid
+- 10 points: Flexbox
+- 20 points: JavaScript library (not counting p5.js, Bootstrap, or Sweet Alert)
   - This is worth so much because there are a ton of JavaScript libraries out there, and each one is different, so I didn't want to limit you too much.
   - Note that **loading** a JavaScript library doesn't count unless you **use** it!
 
