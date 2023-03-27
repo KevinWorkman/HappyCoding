@@ -59,7 +59,7 @@ For more inspiration, check out these resources:
 
 I want you to focus on stretching your web development muscles and building something that's personally meaningful to you, rather than worrying too much about jumping through hoops for grades.
 
-With that in mind, projects will be worth 50 points, but you can choose any combination from below to get to 50:
+With that in mind, projects will be worth 30 points, but you can choose any combination from below to get to 30:
 
 - 3 points: HTML tags
   - If you're using p5.js, add at least one new HTML tag to the `index.html` file!
