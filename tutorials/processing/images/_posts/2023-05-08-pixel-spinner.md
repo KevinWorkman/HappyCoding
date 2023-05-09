@@ -69,8 +69,16 @@ void rotateImage() {
 }
 ```
 
-<video width="95%" autoplay muted loop>
+<video width="95%" controls muted loop>
   <source src="/tutorials/processing/images/images/pixel-spinner-2.mp4" type="video/mp4">
+</video>
+
+<video width="95%" controls muted loop>
+  <source src="/tutorials/processing/images/images/pixel-spinner-3.mp4" type="video/mp4">
+</video>
+
+<video width="95%" controls muted loop>
+  <source src="/tutorials/processing/images/images/pixel-spinner-4.mp4" type="video/mp4">
 </video>
 
 ---
