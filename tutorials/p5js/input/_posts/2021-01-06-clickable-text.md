@@ -15,7 +15,7 @@ discourseEmbedUrl: /examples/p5js/images/clickable-text
 ---
 
 {% include p5js-widget.html width=300 height=300 %}
-const message = '#BlackLivesMatter';
+const message = '#HappyCoding';
 const messageX = 20;
 const messageY = 150;
 
@@ -42,7 +42,7 @@ function draw() {
 
 function mouseClicked() {
   if (isMouseInsideText(message, messageX, messageY)) {
-    window.open('https://blacklivesmatter.com/', '_blank');
+    window.open('https://happycoding.io/', '_blank');
   }
 }
 
@@ -58,7 +58,7 @@ function isMouseInsideText(message, messageX, messageY) {
 
 This sketch creates text that opens a link when you click it. The `textWidth()`, `textAscent()`, and `textDescent()` give you the width and height of a string, which you can use to calculate the [bounding box](https://en.wikipedia.org/wiki/Minimum_bounding_box) of the text. Then you can check whether the mouse is inside that box, which is what the `isMouseInsideText()` function does.
 
-![Black Lives Matter](/tutorials/p5js/input/images/clickable-text-1.png)
+![Happy Coding](/tutorials/p5js/input/images/clickable-text-1.png)
 
 # Remix Ideas
 
