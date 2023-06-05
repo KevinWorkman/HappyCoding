@@ -4,7 +4,7 @@ title: My Quarantine
 meta-title: My Quarantine
 meta-description: Two years later, welcome to the new normal.
 meta-image: /blog/images/my-quarantine/thumbnail.jpg
-updated: 2022-06-05
+updated: 2023-06-04
 tags: [personal, favorite]
 ---
 
@@ -149,7 +149,7 @@ Quarantine restrictions mean that a bunch of Google internship programs from all
 
 *May 23, quarantine mustache*
 
-I started going on walks every day after work. This was a huge improvement to my mental health, I think because it helps separate my work from my home life, even though they happen 10 feet away from each other. 
+I started going on walks every day after work. This was a huge improvement to my mental health, I think because it helps separate my work from my home life, even though they happen 10 feet away from each other.
 
 The funny thing is that I'm writing this in September, and when I first thought back to when I started my walks, I would have guessed it was in March. I was very surprised to look back at my location history and see that it was almost 2 months into quarantine when I started my daily walks. I wonder what else I'm misremembering.
 
@@ -1007,7 +1007,7 @@ Speaking of these monthly entries turning into my own personal diary, I started 
 
 *December 17: ginger snaps*
 
-I feel a weird guilt about going to some of these group gatherings. I don't mean that as a value judgment, but it gets at a question that has gnawed at me for the past 2 years: what is the "right" thing to do? Is it to stay inside? To go out in public but wear a mask? To gather at somebody's house without any masks? Something else entirely? Sometimes it feels like my quarantine experience is vastly different from what other people have been experiencing. Am I just forcing myself to follow rules that other people are ignoring? What's the point? 
+I feel a weird guilt about going to some of these group gatherings. I don't mean that as a value judgment, but it gets at a question that has gnawed at me for the past 2 years: what is the "right" thing to do? Is it to stay inside? To go out in public but wear a mask? To gather at somebody's house without any masks? Something else entirely? Sometimes it feels like my quarantine experience is vastly different from what other people have been experiencing. Am I just forcing myself to follow rules that other people are ignoring? What's the point?
 
 ![bar entry sign](/blog/images/my-quarantine/2021-12-28.jpg)
 
@@ -1156,3 +1156,23 @@ I've thought about this before: I don't need a ton of human contact, but I do ne
 *May 31: first Google lunch in two years*
 
 We'll see how June goes.
+
+# 2023
+
+I've been meaning to update this blog post. I knew it had been a couple months since my last update, so I was surprised when I opened up my editor and saw that it's actually been exactly a year.
+
+In that year, I moved to Menlo Park, and moved jobs (again). I took a road trip (and a plane trip) to Austin and back down to Los Angeles. I also road tripped around the Pacific Northwest, and I decided to move to Oregon. Going to bars or restaurants feels mostly normal, although workers around here usually still wear masks (and I still try to match them).
+
+Is the pandemic over? I don't know. Apparently the national emergency has officially ended, and most places have lifted their mask mandates and vaccine requirements. But I also know that people are still dying from Covid.
+
+I generally still wear a mask in places where workers are wearing masks, and I've come to associate people wearing masks with intelligence and liberalism. I know that's problematic, but in-groups gonna in-group.
+
+I've been coming into the office twice a week, mostly to hang out with one of my coworkers. That's been fine, but it doesn't really make _working_ any easier, especially now that I've moved teams. But my org inside Google has paused requests to go fully remote, which is frustrating to say the least. I'm in the process of moving to Oregon, so we'll see what happens with that.
+
+I feel like I should wrap this up with some great insight about how Covid and quarantine shaped my life. Working from home has allowed me to start teaching at Millersville, and opened up the possibility of finally leaving silicon valley. On the other hand I feel like my life plan has been delayed by a few years, and if I'm honest I think my social skills are still atrophied as a result of having spent so much time alone.
+
+But mostly I'm left with a feeling that things should have been better. The public health crisis could have been a cultural moment where we all came together, but instead it quickly turned into political theater, made worse by clickbait and divisive, polarizing (social) media. I didn't lose anyone to Covid, but I did lose people to Covid misinformation and alt-right propaganda.
+
+But life goes on. I suppose this is "the new normal" that we all talked about back in 2020.
+
+<iframe src="https://photos.kevinworkman.com/frame/slideshow?key=jpJk5b&speed=3&transition=fade&autoStart=1&captions=0&navigation=1&playButton=0&randomize=0&transitionSpeed=2" width="95%" height="600" frameborder="no" scrolling="no"></iframe>
