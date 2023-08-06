@@ -30,11 +30,12 @@ I'm currently writing these tutorials in preparation for a class I'm teaching th
   {% include url-thumbnail.html url="/tutorials/interviewing/resources" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/picking-a-language" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/fundamentals" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
 
   <!--
   {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
-  {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
   -->
+
 </div>
 
 ---
@@ -42,7 +43,6 @@ I'm currently writing these tutorials in preparation for a class I'm teaching th
 ## Coming Soon
 
 - Complexity
-- Arrays and Strings
 - Maps
 - Sets
 - Queues and Stacks
