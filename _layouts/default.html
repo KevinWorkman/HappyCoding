@@ -127,7 +127,9 @@ If you found this message, come say hi on the Happy Coding forum! https://forum.
   {% endif %}
 
   {% if layout.include_comments %}
-    {% include comments.html %}
+    {% unless page.disable_comments %}
+      {% include comments.html %}
+    {% endunless %}
   {% endif %}
 
         </div> <!-- end sections -->
