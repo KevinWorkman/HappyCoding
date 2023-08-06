@@ -26,8 +26,10 @@ I'm currently writing these tutorials in preparation for a class I'm teaching th
 
 <div class="thumbnail-link-container">
   {% include url-thumbnail.html url="/tutorials/interviewing/motivation" %}
-  <!--
   {% include url-thumbnail.html url="/tutorials/interviewing/history" %}
+
+  <!--
+
   {% include url-thumbnail.html url="/tutorials/interviewing/resources" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/picking-a-language" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/fundamentals" %}
@@ -40,7 +42,6 @@ I'm currently writing these tutorials in preparation for a class I'm teaching th
 
 ## Coming Soon
 
-- History
 - Resources
 - Picking a Language
 - Fundamentals
