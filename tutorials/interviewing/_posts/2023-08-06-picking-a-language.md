@@ -9,6 +9,7 @@ meta-description: What programming language should I use in a job interview?
 meta-image: /tutorials/interviewing/images/picking-a-language-1.jpg
 previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
+disable_comments: true
 ---
 
 {% include toc.md %}
