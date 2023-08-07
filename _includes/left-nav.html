@@ -37,6 +37,10 @@
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="How-To Guides" url="/tutorials/how-to" %}
   </div>
+{%- elsif page.url contains "/tutorials/interviewing" %}
+  <div class="left-nav-section">
+    {% include tutorial-section-left-nav-section.html title="Interviewing Tutorials" url="/tutorials/interviewing" %}
+  </div>
 {%- elsif page.url contains "/blog" %}
   <div class="left-nav-section">
     {% include left-nav-blog.html %}
@@ -79,6 +83,9 @@
       </li>
       <li>
         {% include post-url.html url="/tutorials/how-to" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/interviewing" %}
       </li>
 
       <li><hr></li>

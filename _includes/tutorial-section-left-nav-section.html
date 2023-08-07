@@ -1,7 +1,7 @@
 {%- assign postPrefix = include.url | append: "/" -%}
 
 <div class="left-nav-tutorial-section">
-  {% include post-url.html url=include.url title=include.title class=class %}
+  {% include post-url.html url=include.url title=include.title class="current" %}
   <ul>
   {%- assign posts = site.posts | sort: 'sort-key' -%}
     {%- for post in posts  -%}
