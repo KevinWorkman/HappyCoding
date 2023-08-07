@@ -31,18 +31,13 @@ I'm currently writing these tutorials in preparation for a class I'm teaching th
   {% include url-thumbnail.html url="/tutorials/interviewing/picking-a-language" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/fundamentals" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
-
-  <!--
   {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
-  -->
-
 </div>
 
 ---
 
 ## Coming Soon
 
-- Complexity
 - Maps
 - Sets
 - Queues and Stacks
