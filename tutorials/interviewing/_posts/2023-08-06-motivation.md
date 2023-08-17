@@ -15,10 +15,15 @@ tags: [tutorial, interviewing]
 
 <div id="forum-excerpt" style="display:none;">
   <p>I posted a new article that talks about my motivation for creating technical interviewing tutorials.</p>
-  
+
   <p>Check it out here:</p>
 
-  {% include url-thumbnail.html url="/tutorials/interviewing/motivation" %}
+  <a href="/tutorials/interviewing/motivation">
+    <img src="{{ page.meta-image }}">
+    <h2>{{ page.meta-title }}</h2>
+  </a>
+
+  <p>{{ page.meta-description }}</p>
 </div>
 
 Big tech's interviewing process is fundamentally broken.
