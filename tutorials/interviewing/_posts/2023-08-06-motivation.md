@@ -15,7 +15,10 @@ tags: [tutorial, interviewing]
 
 <div id="forum-excerpt" style="display:none;">
   <p>I posted a new article that talks about my motivation for creating technical interviewing tutorials.</p>
-  <p>Check it out here: <a href="/tutorials/interviewing/motivation">Motivation</a></p>
+  
+  <p>Check it out here:</p>
+
+  {% include url-thumbnail.html url="/tutorials/interviewing/motivation" %}
 </div>
 
 Big tech's interviewing process is fundamentally broken.
