@@ -6,25 +6,13 @@ tagline: Some disclaimers and opinions before we dive into interviewing.
 sort-key: 100
 meta-title: Motivation
 meta-description: Some disclaimers and opinions before we dive into interviewing.
+forumExcerpt: I posted a new article that talks about my motivation for creating technical interviewing tutorials.
 meta-image: /tutorials/interviewing/images/motivation-1.jpg
 previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
 ---
 
 {% include toc.md %}
-
-<div id="forum-excerpt" style="display:none;">
-  <p>I posted a new article that talks about my motivation for creating technical interviewing tutorials.</p>
-
-  <p>Check it out here:</p>
-
-  <a href="/tutorials/interviewing/motivation">
-    <img src="{{ page.meta-image }}">
-    <h2>{{ page.meta-title }}</h2>
-  </a>
-
-  <p>{{ page.meta-description }}</p>
-</div>
 
 Big tech's interviewing process is fundamentally broken.
 
