@@ -9,7 +9,7 @@ meta-description: Your interviews might include a linked list, but they'll defin
 meta-image: /tutorials/interviewing/images/fundamentals-1.jpg
 previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
-disable_comments: true
+forumExcerpt: Big tech interviews are infamous for their focus on complex data structure and algorithm questions. It's tempting to jump straight to studying the most advanced techniques you can find. But the most important technical concepts you can study are the fundamentals of your language. Here's an article that talks about the fundamental concepts used in technical interviews.
 ---
 
 {% include toc.md %}

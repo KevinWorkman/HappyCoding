@@ -9,7 +9,7 @@ meta-description: How to measure time and space complexity.
 meta-image: /tutorials/interviewing/images/complexity-1.jpg
 previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
-disable_comments: true
+forumExcerpt: Algorithmic analysis. Time and space complexity. Big-O notation. These terms come up often in interviewing, and they generally bring with them a sense of fear and uncertainty, if not outright dread. I posted a new article explaining these concepts from a more practical perspective.
 ---
 
 {% include toc.md %}
