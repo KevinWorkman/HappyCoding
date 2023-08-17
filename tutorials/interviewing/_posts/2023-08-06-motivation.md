@@ -9,7 +9,6 @@ meta-description: Some disclaimers and opinions before we dive into interviewing
 meta-image: /tutorials/interviewing/images/motivation-1.jpg
 previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
-disable_comments: true
 ---
 
 {% include toc.md %}
