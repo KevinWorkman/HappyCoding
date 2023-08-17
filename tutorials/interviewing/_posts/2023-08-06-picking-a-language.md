@@ -9,7 +9,7 @@ meta-description: What programming language should I use in a job interview?
 meta-image: /tutorials/interviewing/images/picking-a-language-1.jpg
 previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
-forumExcerpt: One of the first questions I get from people preparing to interview is: what programming language should I use during my interviews? I wrote an article that explains my answer.
+forumExcerpt: "One of the first questions I get from people preparing to interview is: what programming language should I use during my interviews? I wrote an article that explains my answer."
 ---
 
 {% include toc.md %}
