@@ -13,6 +13,11 @@ tags: [tutorial, interviewing]
 
 {% include toc.md %}
 
+<div id="forum-excerpt" style="display:none;">
+  <p>I posted a new article that talks about my motivation for creating technical interviewing tutorials.</p>
+  <p>Check it out here: <a href="/tutorials/interviewing/motivation">Motivation</a></p>
+</div>
+
 Big tech's interviewing process is fundamentally broken.
 
 There, I said it. Now that that's out of the way, let's talk about why I'm putting these tutorials together.
