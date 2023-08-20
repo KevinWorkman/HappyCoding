@@ -9,6 +9,7 @@ meta-description: Return the index of an item, even if it's not in the array.
 meta-image: /tutorials/interviewing/images/arrays-1.jpg
 tags: [example, java, arrays, interviewing]
 previousPost: /tutorials/interviewing/arrays
+forumExcerpt: I posted a new code along for the Search Insert Position Leetcode problem.
 ---
 
 {% include youtube-embed.html slug="lKSifjGMsDs" %}

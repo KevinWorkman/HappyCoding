@@ -9,6 +9,7 @@ meta-description: Return whether a string is the same forward and backward.
 meta-image: /tutorials/interviewing/images/arrays-1.jpg
 tags: [example, java, arrays, interviewing]
 previousPost: /tutorials/interviewing/arrays
+forumExcerpt: I posted a new code along for the Valid Palindrome problem.
 ---
 
 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) is a Leetcode problem that presents this question:
