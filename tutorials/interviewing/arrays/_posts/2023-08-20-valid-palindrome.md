@@ -12,13 +12,15 @@ previousPost: /tutorials/interviewing/arrays
 forumExcerpt: I posted a new code along for the Valid Palindrome problem.
 ---
 
+{% include youtube-embed.html slug="6bBY72MFoyc" %}
+
+---
+
 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) is a Leetcode problem that presents this question:
 
 > A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 >
 > Given a string `s`, return `true` if it is a palindrome, or `false` otherwise.
-
-{% include youtube-embed.html slug="6bBY72MFoyc" %}
 
 Notably, the input can contain symbols that you need to strip out first. I did this using the `replaceAll()` function, but you could also do this using two pointers.
 

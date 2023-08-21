@@ -12,18 +12,6 @@ tags: [tutorial, interview, career]
 
 # Technical Interviewing Tutorials
 
----
-
-<div style="display:flex; align-items: center; justify-content: space-evenly;">
-  <img src="/tutorials/interviewing/images/construction-1.gif">
-  <strong>Under Construction!</strong>
-  <img src="/tutorials/interviewing/images/construction-2.gif">
-</div>
-
-I'm currently writing these tutorials in preparation for a class I'm teaching that starts at the end of August 2023. If you're reading this, I appreciate any early feedback. Or if you want to wait until it's finished, come back in September!
-
----
-
 <div class="thumbnail-link-container">
   {% include url-thumbnail.html url="/tutorials/interviewing/motivation" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/history" %}
@@ -33,6 +21,16 @@ I'm currently writing these tutorials in preparation for a class I'm teaching th
   {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
 </div>
+
+---
+
+<div style="display:flex; align-items: center; justify-content: space-evenly;">
+  <img src="/tutorials/interviewing/images/construction-1.gif">
+  <strong>Under Construction!</strong>
+  <img src="/tutorials/interviewing/images/construction-2.gif">
+</div>
+
+I'm currently writing these tutorials for a class I'm teaching through fall 2023. Feel free to [subscribe to Happy Coding](/tutorials/how-to/subscribe-to-happy-coding) and follow along!
 
 ---
 
