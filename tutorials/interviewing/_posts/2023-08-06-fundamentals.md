@@ -125,3 +125,10 @@ The goal is to show that you're taking advantage of the language, instead of wor
 This might seem like a lot, but the best way to practice the fundamentals is by writing code. That can be through Leetcode, or your own personal projects.
 
 You'll also learn more if you force yourself to code in an editor with as few features as possible: no code generation, no autocomplete, no syntax highlighting. Because that's what you'll be using in an interview.
+
+# Practice Questions
+
+- [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle-ii/)
+- [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+- [Find the Index of the first Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
