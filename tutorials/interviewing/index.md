@@ -21,6 +21,7 @@ tags: [tutorial, interview, career]
   {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/maps" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/sets" %}
 </div>
 
 ---
@@ -37,9 +38,8 @@ I'm currently writing these tutorials for a class I'm teaching through fall 2023
 
 ## Coming Soon
 
-- Maps
-- Sets
-- Queues and Stacks
+- Queues
+- Stacks
 - Behavioral Interviews
 - Nodes and Linked Lists
 - Graphs
