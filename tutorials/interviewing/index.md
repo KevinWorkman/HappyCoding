@@ -20,6 +20,7 @@ tags: [tutorial, interview, career]
   {% include url-thumbnail.html url="/tutorials/interviewing/fundamentals" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/maps" %}
 </div>
 
 ---
