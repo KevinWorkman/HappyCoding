@@ -8,7 +8,8 @@ meta-title: Motivation
 meta-description: Some disclaimers and opinions before we dive into interviewing.
 forumExcerpt: I posted a new article that talks about my motivation for creating technical interviewing tutorials.
 meta-image: /tutorials/interviewing/images/motivation-1.jpg
-previousPost: /tutorials/interviews
+previousPost: /tutorials/interviewing
+nextPost: /tutorials/interviewing/history
 tags: [tutorial, interviewing]
 ---
 

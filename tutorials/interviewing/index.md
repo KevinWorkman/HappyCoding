@@ -8,18 +8,30 @@ meta-title: Interviewing Tutorials
 meta-description: What to expect and how to approach tech interviews.
 meta-image: /tutorials/interviewing/images/interviewing-1.jpg
 tags: [tutorial, interview, career]
+nextPost: /tutorials/interviewing/motivation
 ---
 
 # Technical Interviewing Tutorials
+
+---
+
+## Framing
 
 <div class="thumbnail-link-container">
   {% include url-thumbnail.html url="/tutorials/interviewing/motivation" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/history" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/resources" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/picking-a-language" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
+</div>
+
+---
+
+## Coding
+
+<div class="thumbnail-link-container">
   {% include url-thumbnail.html url="/tutorials/interviewing/fundamentals" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
-  {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/maps" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/sets" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/stacks" %}

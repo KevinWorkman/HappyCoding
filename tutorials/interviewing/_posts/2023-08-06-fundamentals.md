@@ -3,11 +3,12 @@ layout: tutorial
 title: Fundamentals
 thumbnail: /tutorials/interviewing/images/fundamentals-1.jpg
 tagline: Your interviews might include a linked list, but they'll definitely include a for loop.
-sort-key: 500
+sort-key: 600
 meta-title: Fundamentals
 meta-description: Your interviews might include a linked list, but they'll definitely include a for loop.
 meta-image: /tutorials/interviewing/images/fundamentals-1.jpg
-previousPost: /tutorials/interviews
+previousPost: /tutorials/interviewing/complexity
+nextPost: /tutorials/interviewing/arrays
 tags: [tutorial, interviewing]
 forumExcerpt: Big tech interviews are infamous for their focus on complex data structure and algorithm questions. It's tempting to jump straight to studying the most advanced techniques you can find. But the most important technical concepts you can study are the fundamentals of your language. Here's an article that talks about the fundamental concepts used in technical interviews.
 ---
