@@ -68,90 +68,74 @@ In fact, any recursive function that calls itself as its last step (in other wor
 
 I'm not saying you should _never_ use recursion, but you also shouldn't _always_ use it just because you can. Whether you use it depends on the problem and whether recursion makes your code easier to understand.
 
-# Example: Merge Sort
+# Example: Binary Search
 
-Merge sort is one of the most famous recursive algorithms, and it sorts an array by recursively halving it into smaller and smaller subarrays, until the subarrays only have a single element in them. A single-element subarray is technically already sorted. It then merges the subarrays back together by selecting the smallest elements from each subarray in order, so that the result is sorted.
+Binary search is one of the most famous recursive algorithms. It finds an element in a sorted array by splitting the array in half, around a center index. If the target element is less than the center element, it recursively calls itself to look in the left half. If the target element is greater than the center element, binary search recursively calls itself to look in the right half of the array. It repeats this process until it finds the target element at the center index of a subarray, or until the subarrays contain zero elements.
+
+The code looks like this:
 
 ```java
-void mergeSort(int[] nums) {
-  mergeSort(nums, 0, nums.length - 1);
-  return nums;
+public int binarySearch(int[] array, int target) {
+    return binarySearch(array, target, 0, array.length - 1);
 }
 
-// Recursive helper function that sorts the specified subarray.
-// Note: startIndex and endIndex are inclusive boundaries.
-void mergeSort(int[] array, int startIndex, int endIndex) {
-  // If the subarray is less than two elements, we're done.
-  if(startIndex >= endIndex) {
-    return;
+// Recursive helper function
+int binarySearch(int[] array, int target, int left, int right) {
+  // If left and right have crossed, target is not in the array.
+  if(left > right) {
+    return -1;
   }
 
-  // Split the subarray into two sub-subarrays and mergesort them.
-  int centerIndex = (startIndex + endIndex) / 2;
-  mergeSort(array, startIndex, centerIndex);
-  mergeSort(array, centerIndex + 1, endIndex);
+  // Calculate the center index.
+  int center = (left + right) / 2;
 
-  // Merge the two sorted sub-subarrays into a single subarray.
-  merge(array, startIndex, centerIndex, endIndex);
-}
-
-// Merge two sorted halves of a subarray into a single sorted subarray.
-// Note: startIndex and endIndex are inclusive boundaries.
-void merge(int[] array, int startIndex, int centerIndex, int endIndex) {
-  // Create copies of the left and right halves.
-  // Arrays.copyOfRange endIndex is exclusive, so add one.
-  int[] leftArray = Arrays.copyOfRange(array, startIndex, centerIndex + 1);
-  int[] rightArray = Arrays.copyOfRange(array, centerIndex + 1, endIndex + 1);
-
-  int arrayIndex = startIndex;
-  int leftIndex = 0;
-  int rightIndex = 0;
-
-  // Look through the left and right halves, selecting the smallest from each in order.
-  while(leftIndex < leftArray.length && rightIndex < rightArray.length) {
-    if(leftArray[leftIndex] < rightArray[rightIndex]) {
-      array[arrayIndex] = leftArray[leftIndex];
-      leftIndex++;
-    } else {
-      array[arrayIndex] = rightArray[rightIndex];
-      rightIndex++;
-    }
-
-    arrayIndex++;
+  // Target is to the left of the center.
+  if (target < array[center]) {
+    return binarySearch(array, target, left, center - 1);
   }
 
-  // Copy the remaining values from the left array into the output.
-  while(leftIndex < leftArray.length) {
-    array[arrayIndex] = leftArray[leftIndex];
-    leftIndex++;
-    arrayIndex++;
+  // Target is to the right of the center.
+  if(target > array[center]){
+    return binarySearch(array, target, center + 1, right);
   }
 
-  // Copy the remaining values from the right array into the output.
-  while(rightIndex < rightArray.length) {
-    array[arrayIndex] = rightArray[rightIndex];
-    rightIndex++;
-    arrayIndex++;
-  }
+  // If the code reaches here, then the target is at the center index.
+  return center;
 }
 ```
 
-# Algorithmic Complexity
+# Algorithmic Complexity: Logarithms
 
 The algorithmic complexity of recursive algorithms depend on exactly how you're splitting up your data.
 
-For merge sort, the algorithmic complexity is `O(n log n)`. Here's an image that demonstrates why:
+For binary search, the algorithmic complexity is `O(log n)`.
 
-![Visualization of merge sort. Each level has O(n) complexity, and there are log 2 n levels, for a total complexity of O(n log n)](/tutorials/interviewing/images/recursion-2.png)
+To understand why, think about the fact that binary search divides the array in half each time it calls itself, and it stops when the array size is 1. So to find out how many times binary search will need to call itself, you need to ask: how many times can I divide `array.length` in half until I reach a size of `1`?
 
-Each "level" of the merge sort algorithm requires `O(n)` complexity, because it merges the sorted subarrays together. And since it splits the data in half each level, the number of levels will be <code>log<sub>2</sub>n</code>. So the total steps is <code>n * log<sub>2</sub>n</code>.
+There's a mathematical concept for that: logarithms!
 
-Similar to how you drop multipliers when converting from individual steps to big O notation, <code>n * log<sub>2</sub>n</code> becomes `O(n * log n)`.
+Logarithms tell you how many times you can divide a number by another number before reaching 1. For example, to find out how many times you can divide `64` by `2` until you reach `1`, you could count:
 
-That's the algorithmic complexity for merge sort, but the algorithmic complexity of other recursive algorithms depends on what they're doing. For example, the recursive `factorial()` function above has an algorithmic complexity of `O(n)`. I'll talk more about recursive algorithmic complexity in the next tutorial.
+1. 64 / 2 = 32
+2. 32 / 2 = 16
+3. 16 / 2 = 8
+4. 8 / 2 = 4
+5. 4 / 2 = 2
+6. 2 / 2 = 1
+
+Or you can write it as a logarithm: <code>log<sub>2</sub>64</code>
+
+That logarithm is a shorthand for "however many times you an divide 64 by 2 until reaching 1".
+
+So when dealing with recursive functions that split the input into smaller factors, the algorithmic complexity often (but not always!) involves logarithms. Since binary search splits the array in half, it will call itself <code>log<sub>2</sub>n</code> times.
+
+And similar to how you drop multipliers when converting from individual steps to big O notation, <code>log<sub>2</sub>n</code> becomes `O(log n)`.
+
+That's the algorithmic complexity for binary search, but the algorithmic complexity of other recursive algorithms depends on what they're doing. For example, the recursive `factorial()` function above has an algorithmic complexity of `O(n)`.
 
 # Practice Questions
 
+- [Binary Search](https://leetcode.com/problems/binary-search/)
 - [Sort an Array](https://leetcode.com/problems/sort-an-array/)
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)
