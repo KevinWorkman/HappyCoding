@@ -7,7 +7,7 @@ sort-key: 1300
 meta-title: Dynamic Programming - Interviewing Tutorial
 meta-description: Remember calculations to improve efficiency.
 meta-image: /tutorials/interviewing/images/dynamic-programming-1.jpg
-previousPost: /tutorials/interviewing/queues
+previousPost: /tutorials/interviewing/recursion
 tags: [tutorial, interviewing]
 forumExcerpt: I posted a new article about using dynamic programming in technical interviews.
 ---
