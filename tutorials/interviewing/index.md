@@ -37,6 +37,7 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/stacks" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/queues" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/recursion" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/dynamic-programming" %}
 </div>
 
 ---
@@ -53,8 +54,6 @@ I'm currently writing these tutorials for a class I'm teaching through fall 2023
 
 ## Coming Soon
 
-- Recursion
-- Dynamic Programming
 - Behavioral Interviews
 - Nodes and Linked Lists
 - Graphs

@@ -8,13 +8,14 @@ meta-title: Recursion - Interviewing Tutorial
 meta-description: Use recursion in technical interviews.
 meta-image: /tutorials/interviewing/images/recursion-1.jpg
 previousPost: /tutorials/interviewing/queues
+nextPost: /tutorials/interviewing/dynamic-programming
 tags: [tutorial, interviewing]
 forumExcerpt: I posted a new article about using recursion in technical interviews.
 ---
 
 Now you've seen a few different data structure that each have properties that make them useful for certain kinds of technical interview questions.
 
-This article talks about recursion, which is a technique that's often used in technical interviews.
+This article switches gears a bit. Instead of talking about another data structure, this article talks about recursion, which is a technique that's often used in technical interviews.
 
 # Recursion is Recursive
 
@@ -42,7 +43,7 @@ The `factorial()` function calls the `factorial()` function, which calls the `fa
 
 # Base Case
 
-If a function calls itself without a way of breaking out of it, eventually you'll trigger a `StackOverflowError`.
+If a function calls itself too many times without breaking out of the call stack, eventually it'll trigger a `StackOverflowError`.
 
 To avoid this, make sure you have a **base case** that prevents the function from infinitely calling itself.
 
@@ -70,7 +71,7 @@ I'm not saying you should _never_ use recursion, but you also shouldn't _always_
 
 # Example: Binary Search
 
-Binary search is one of the most famous recursive algorithms. It finds an element in a sorted array by splitting the array in half, around a center index. If the target element is less than the center element, it recursively calls itself to look in the left half. If the target element is greater than the center element, binary search recursively calls itself to look in the right half of the array. It repeats this process until it finds the target element at the center index of a subarray, or until the subarrays contain zero elements.
+Binary search is one of the most famous recursive algorithms. It finds an element in a sorted array by splitting the array in half, around a center index. If the target element is less than the center element, it recursively calls itself to look in the left half of the array. If the target element is greater than the center element, binary search recursively calls itself to look in the right half of the array. It repeats this process until it finds the target element at the center index of a subarray, or until the subarrays contain zero elements.
 
 The code looks like this:
 
@@ -106,7 +107,7 @@ int binarySearch(int[] array, int target, int left, int right) {
 
 # Algorithmic Complexity: Logarithms
 
-The algorithmic complexity of recursive algorithms depend on exactly how you're splitting up your data.
+The algorithmic complexity of recursive algorithms depends on exactly how you're splitting up your data.
 
 For binary search, the algorithmic complexity is `O(log n)`.
 
@@ -131,7 +132,7 @@ So when dealing with recursive functions that split the input into smaller facto
 
 And similar to how you drop multipliers when converting from individual steps to big O notation, <code>log<sub>2</sub>n</code> becomes `O(log n)`.
 
-That's the algorithmic complexity for binary search, but the algorithmic complexity of other recursive algorithms depends on what they're doing. For example, the recursive `factorial()` function above has an algorithmic complexity of `O(n)`.
+That's the algorithmic complexity for binary search, but the algorithmic complexity of other recursive algorithms depends on what they're doing. For example, the recursive `factorial()` function above has an algorithmic complexity of `O(n)`, because it calls itself a linear amount of times.
 
 # Practice Questions
 
