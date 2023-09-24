@@ -144,3 +144,4 @@ That's the algorithmic complexity for binary search, but the algorithmic complex
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [Power of Two](https://leetcode.com/problems/power-of-two/)
 - [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)
+- [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)

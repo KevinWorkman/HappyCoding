@@ -221,3 +221,4 @@ There's a debate to be had about whether this solution "counts" as dynamic progr
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [Power of Two](https://leetcode.com/problems/power-of-two/)
 - [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)
+- [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
