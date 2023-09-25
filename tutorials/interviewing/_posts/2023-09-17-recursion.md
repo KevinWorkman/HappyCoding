@@ -126,7 +126,7 @@ Logarithms tell you how many times you can divide a number by another number bef
 
 Or you can write it as a logarithm: <code>log<sub>2</sub>64</code>
 
-That logarithm is a shorthand for "however many times you an divide 64 by 2 until reaching 1".
+That logarithm is a shorthand for "however many times you can divide 64 by 2 until reaching 1".
 
 So when dealing with recursive functions that split the input into smaller factors, the algorithmic complexity often (but not always!) involves logarithms. Since binary search splits the array in half, it will call itself <code>log<sub>2</sub>n</code> times.
 
@@ -145,3 +145,4 @@ That's the algorithmic complexity for binary search, but the algorithmic complex
 - [Power of Two](https://leetcode.com/problems/power-of-two/)
 - [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)
 - [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+- [Triangle](https://leetcode.com/problems/triangle/)
