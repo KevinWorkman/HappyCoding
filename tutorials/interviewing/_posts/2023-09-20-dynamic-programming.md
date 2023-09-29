@@ -133,7 +133,7 @@ Map<Integer, Integer> cache = new HashMap<>();
 }
 
 int fibonacci(int n) {
-  if(cache.containsKey(n)){
+  if(cache.containsKey(n)) {
     return cache.get(n);
   }
 
