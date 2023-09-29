@@ -22,7 +22,14 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/history" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/resources" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/picking-a-language" %}
-  {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
+</div>
+
+---
+
+## Telling Your Story
+
+<div class="thumbnail-link-container">
+  {% include url-thumbnail.html url="/tutorials/interviewing/resumes" %}
 </div>
 
 ---
@@ -31,6 +38,7 @@ nextPost: /tutorials/interviewing/motivation
 
 <div class="thumbnail-link-container">
   {% include url-thumbnail.html url="/tutorials/interviewing/fundamentals" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/maps" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/sets" %}
@@ -60,4 +68,3 @@ I'm currently writing these tutorials for a class I'm teaching through fall 2023
 - Trees
 - Matrixes
 - System Design
-- Resumes
