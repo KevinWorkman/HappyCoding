@@ -30,6 +30,7 @@ nextPost: /tutorials/interviewing/motivation
 
 <div class="thumbnail-link-container">
   {% include url-thumbnail.html url="/tutorials/interviewing/resumes" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/behavioral" %}
 </div>
 
 ---
@@ -62,7 +63,8 @@ I'm currently writing these tutorials for a class I'm teaching through fall 2023
 
 ## Coming Soon
 
-- Behavioral Interviews
+- Getting Started
+- Helper Functions
 - Nodes and Linked Lists
 - Graphs
 - Trees
