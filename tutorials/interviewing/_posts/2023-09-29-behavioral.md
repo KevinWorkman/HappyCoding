@@ -163,3 +163,7 @@ Your questions should be your own, but here are a couple that I would ask if I w
 - If you could change one thing about your company, what would it be?
 
 This article contained a few pieces of advice that have worked for me, but you should be yourself! Think about what story you want to tell about yourself, and look for ways to genuinely tell it. Ask questions you're actually curious about. And keep an eye on that clock!
+
+# Learn More
+
+- Google calls their behavioral interviews *Googleyness and Leadership interviews*. [Here is a talk given by Google recruiters that contains more info about Googleyness and Leadership interviews](https://careersonair.withgoogle.com/events/gl-interview-basics).
