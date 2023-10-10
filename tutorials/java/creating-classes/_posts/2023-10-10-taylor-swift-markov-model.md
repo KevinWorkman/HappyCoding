@@ -199,3 +199,12 @@ It must look at me, mine
 Cause I would
 I still be fun
 ```
+
+# Remix Ideas
+
+- Train a Markov model on your own text file. Try lyrics from other musicians, movie scripts, historical speeches.
+- Think about how you want to handle punctuation, or capitalization.
+- Add code that imports a thesaurus file, and then swap out random words for their synonyms.
+- Add code that imports a rhyme file, and then make sure your songs rhyme.
+- Instead of mapping every individual word to the word that follows, take words in groups of three. Map the first two words to the third word that follows it. This helps with more logical and consistent output.
+- Add [stemming](https://en.wikipedia.org/wiki/Stemming) logic so words like jumping, jumps, and jumped all map to the same root word *jump*.
