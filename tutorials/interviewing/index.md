@@ -47,6 +47,7 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/queues" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/recursion" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/dynamic-programming" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/linked-lists" %}
 </div>
 
 ---
