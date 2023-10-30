@@ -49,6 +49,7 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/dynamic-programming" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/linked-lists" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/trees" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/graphs" %}
 </div>
 
 ---
@@ -67,6 +68,5 @@ I'm currently writing these tutorials for a class I'm teaching through fall 2023
 
 - Getting Started
 - Helper Functions
-- Graphs
 - Matrixes
 - System Design
