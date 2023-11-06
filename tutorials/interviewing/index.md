@@ -54,19 +54,3 @@ nextPost: /tutorials/interviewing/motivation
 </div>
 
 ---
-
-<div style="display:flex; align-items: center; justify-content: space-evenly;">
-  <img src="/tutorials/interviewing/images/construction-1.gif">
-  <strong>Under Construction!</strong>
-  <img src="/tutorials/interviewing/images/construction-2.gif">
-</div>
-
-I'm currently writing these tutorials for a class I'm teaching through fall 2023. Feel free to [subscribe to Happy Coding](/tutorials/how-to/subscribe-to-happy-coding) and follow along!
-
----
-
-## Coming Soon
-
-- Getting Started
-- Helper Functions
-- System Design
