@@ -7,11 +7,10 @@ sort-key: 300
 meta-title: Resources
 meta-description: Links and other resources for technical interview practice.
 meta-image: /tutorials/interviewing/images/resources-1.jpg
-previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
 forumExcerpt: As big tech interviews have moved to brain-teaser data structure and algorithm questions, an entire meta-industry has sprung up around teaching people how to answer those questions. I wrote an article that lists some of these resources.
 previousPost: /tutorials/interviewing/history
-nextPost: /tutorials/interviewing/picking-a-language
+nextPost: /tutorials/interviewing/resumes
 ---
 
 {% include toc.md %}

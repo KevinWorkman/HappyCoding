@@ -3,11 +3,12 @@ layout: tutorial
 title: Behavioral Interviews
 thumbnail: /tutorials/interviewing/images/behavioral-1.jpg
 tagline: Where do you see yourself in five years?
-sort-key: 1600
+sort-key: 430
 meta-title: Behavioral Interviews - Interviewing Tutorial
 meta-description: Where do you see yourself in five years?
 meta-image: /tutorials/interviewing/images/behavioral-1.jpg
 previousPost: /tutorials/interviewing/resumes
+nextPost: /tutorials/interviewing/picking-a-language
 tags: [tutorial, interviewing]
 forumExcerpt: I posted a new article about telling your story in behavioral interviews.
 ---

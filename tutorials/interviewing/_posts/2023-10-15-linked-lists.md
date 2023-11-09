@@ -7,7 +7,8 @@ sort-key: 1600
 meta-title: Linked Lists - Interviewing Tutorial
 meta-description: One thing leads to another.
 meta-image: /tutorials/interviewing/images/linked-lists-1.jpg
-previousPost: /tutorials/interviewing/behavioral
+previousPost: /tutorials/interviewing/dynamic-programming
+nextPost: /tutorials/interviewing/trees
 tags: [tutorial, interviewing]
 forumExcerpt: I posted a new article about using linked list data structures in technical interviews.
 ---

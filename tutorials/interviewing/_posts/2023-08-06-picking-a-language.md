@@ -3,15 +3,14 @@ layout: tutorial
 title: Picking a Language
 thumbnail: /tutorials/interviewing/images/picking-a-language-1.jpg
 tagline: What programming language should I use in a job interview?
-sort-key: 400
+sort-key: 470
 meta-title: Picking a Language
 meta-description: What programming language should I use in a job interview?
 meta-image: /tutorials/interviewing/images/picking-a-language-1.jpg
-previousPost: /tutorials/interviews
 tags: [tutorial, interviewing]
 forumExcerpt: "One of the first questions I get from people preparing to interview is: what programming language should I use during my interviews? I wrote an article that explains my answer."
-previousPost: /tutorials/interviewing/resources
-nextPost: /tutorials/interviewing/complexity
+previousPost: /tutorials/interviewing/behavioral
+nextPost: /tutorials/interviewing/fundamentals
 ---
 
 {% include toc.md %}

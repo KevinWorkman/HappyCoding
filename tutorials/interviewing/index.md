@@ -21,7 +21,6 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/motivation" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/history" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/resources" %}
-  {% include url-thumbnail.html url="/tutorials/interviewing/picking-a-language" %}
 </div>
 
 ---
@@ -38,6 +37,7 @@ nextPost: /tutorials/interviewing/motivation
 ## Coding
 
 <div class="thumbnail-link-container">
+  {% include url-thumbnail.html url="/tutorials/interviewing/picking-a-language" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/fundamentals" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/complexity" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/arrays" %}
@@ -52,5 +52,3 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/graphs" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/matrices" %}
 </div>
-
----
