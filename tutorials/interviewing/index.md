@@ -52,3 +52,14 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/graphs" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/matrices" %}
 </div>
+
+---
+
+<p style="display:flex; align-items:center;">
+(Thumbnail art by &nbsp;
+  <a style="display:flex; align-items:center;" href="https://www.etsy.com/shop/MiddleBeanStudio">
+    <img src="/tutorials/interviewing/images/middle-bean-studio.jpg"
+    alt="" style="width:25px; border-radius:50%;">
+    Middle Bean Studio
+  </a>!)
+</p>
