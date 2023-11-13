@@ -51,6 +51,7 @@ nextPost: /tutorials/interviewing/motivation
   {% include url-thumbnail.html url="/tutorials/interviewing/trees" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/graphs" %}
   {% include url-thumbnail.html url="/tutorials/interviewing/matrices" %}
+  {% include url-thumbnail.html url="/tutorials/interviewing/system-design" %}
 </div>
 
 ---
