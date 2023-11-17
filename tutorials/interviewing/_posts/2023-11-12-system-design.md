@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 title: System Design
-thumbnail: /tutorials/interviewing/images/interviewing-1.jpg
+thumbnail: /tutorials/interviewing/images/system-design-1.jpg
 tagline: Break the system down.
 sort-key: 2000
 meta-title: System Design - Technical Interviewing Tutorial
 meta-description: Break the system down.
-meta-image: /tutorials/interviewing/images/interviewing-1.jpg
+meta-image: /tutorials/interviewing/images/system-design-1.jpg
 previousPost: /tutorials/interviewing/matrices
 nextPost: /tutorials/interviewing
 tags: [tutorial, interviewing]
