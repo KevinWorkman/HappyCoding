@@ -4,28 +4,28 @@ title: Teaching
 meta-title: Teaching with HappyCoding.io
 meta-description: Ideas for using Happy Coding in a classroom.
 meta-image: /teaching/guides/images/teaching-1.png
+updated: 2023-12-12
 ---
 
 # Teaching
 
+I'm a firm believer in the idea of *"low floors, high ceilings, and wide walls"* in education. Happy Coding starts with the fundamentals of coding, with tutorials and guides designed for folks who have never seen code before. These lead to advanced topics like server-side coding, Android development, and even interviewing for a job. So no matter what you're teaching, I hope there's something here you can use.
+
 Happy Coding has been used as the source material for several classes, taught by myself and other folks. This page collects the classes that I know about.
 
-Happy Coding starts with the fundamentals of coding designed for folks who have never seen code before, and leads to advanced topics like server-side coding and Android development. So no matter what you're teaching, I hope there's something here you can use.
+---
+
+# Technical Interviewing
+
+{% include url-thumbnail.html url="/teaching/technical-interviewing-2023-fall" fullsize=true %}
 
 ---
 
-# Current Classes
+# Intro to Web Dev
 
-During spring 2023, I'm teaching an Intro to Web Dev course that focuses on creativity and self-expression.
+I've taught three versions of Intro to Web Dev.
 
-{% include url-thumbnail.html url="/teaching/intro-to-web-dev-2023-spring/" fullsize=true %}
-
----
-
-# Past Classes
-
-These are older versions of the Intro to Web Dev course, taught in 2022.
-
+{% include url-thumbnail.html url="/teaching/intro-to-web-dev-2023-spring/" %}
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev-2022-fall/" %}
 {% include url-thumbnail.html url="/teaching/intro-to-web-dev-2022-spring/" %}
 
@@ -33,7 +33,7 @@ These are older versions of the Intro to Web Dev course, taught in 2022.
 
 # General Guides
 
-These articles below break down the different ways you might use Happy Coding in different kinds of classrooms and contexts.
+These articles below break down the different ways you might use Happy Coding in various kinds of classrooms and contexts.
 
 <div class="thumbnail-link-container" style="max-width:650px; margin:auto;">
 {% include url-thumbnail.html url="/teaching/guides/hour" %}
