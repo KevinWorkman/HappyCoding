@@ -76,10 +76,10 @@ This code calls Processing's `ellipse` function, which tells the computer to dra
 
 The `ellipse` function takes 4 parameters: an `x` position, a `y` position, a `width`, and a `height`. The first two parameters tell the computer where the circle should be, and the last two parameters tell the computer how big the circle should be.
 
-So to draw a circle at an `x` position of `50`, a `y` position of `75`, with a `width` and `height` of `20`, you'd write this line of code:
+So to draw a circle at an `x` position of `50`, a `y` position of `50`, with a `width` and `height` of `75`, you'd write this line of code:
 
 ```java
-ellipse(50, 75, 20, 20);
+ellipse(50, 50, 75, 75);
 ```
 
 Open up your Processing editor, type that line of code, and then hit the run button. You should see something that looks like this:
