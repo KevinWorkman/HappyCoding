@@ -88,7 +88,7 @@ Open up your Processing editor, type that line of code, and then hit the run but
 
 If you don't feel like opening up your Processing editor, you can run the code directly in this online editor:
 
-{% include codepen.html slug-hash="EgwaxP" height="173" %}
+{% include codepen-new.html slug-hash="EgwaxP" height="100" %}
 
 If this is your first time seeing the online editor, you might want to [read more about it](/about/codepen.html).
 
