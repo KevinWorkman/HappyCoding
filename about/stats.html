@@ -2,6 +2,7 @@
 layout: default
 title: Stats
 ---
+
 <style>
 .google-visualization-tooltip{
 	width: auto !important;
@@ -25,13 +26,13 @@ td, th{
 <p><strong>Blogs:</strong> <span id="blog-count">Loading...</span></p>
 <p><strong>Gallery:</strong> <span id="gallery-count">Loading...</span></p>
 
-<hr/>
+<hr>
 
 <h2>Total Posts Over Time</h2>
 
 <div id="posts-chart-div"></div>
 
-<hr/>
+<hr>
 
 <h2>Printed Pages</h2>
 
@@ -41,13 +42,57 @@ td, th{
 
 <div id="printed-pages-chart-div"></div>
 
-<hr/>
+<hr>
 
 <h2>Longest Posts</h2>
 
 <div id="printed-pages-table-div"></div>
 
+<hr>
+
+<h2>Time Range</h2>
+
+<div style="display:flex; justify-content:space-between; width:175px">
+  <span>Start:</span>
+	<input type="date" id="start" class="date-input">
+</div>
+
+<br>
+
+<div style="display:flex; justify-content:space-between; width:175px">
+  <span>End:</span>
+	<input type="date" id="end" class="date-input">
+</div>
+
+<br>
+
+<button onclick="applyDates()">Apply</button>
+
 <script>
+
+function applyDates() {
+	const startDate = document.querySelector('#start').value;
+	const endDate = document.querySelector('#end').value;
+
+  let url = '/about/stats';
+
+	if(startDate || endDate){
+		url += '?'
+	}
+
+	if(startDate) {
+		url += 'start=' + startDate;
+		if(endDate){
+			url += '&';
+		}
+	}
+
+	if(endDate){
+		url += 'end=' + endDate;
+	}
+
+	window.location.href = url;
+}
 
 let dataLoaded = false;
 let libraryLoaded = false;
@@ -56,6 +101,14 @@ const printedPagesChartDataArray = []
 
 const start = getParameterByName('start');
 const end = getParameterByName('end');
+
+if(start) {
+	document.querySelector('#start').value = start;
+}
+
+if(end) {
+	document.querySelector('#end').value = end;
+}
 
 if(start || end){
   let duration = 'Between ';
@@ -255,10 +308,25 @@ function createPrintedPagesTable(posts){
 
 	let tableHtml = '<table><tr><th>Post</th><th>Printed Pages</th></tr>';
 
-  for (let i = 0; i < 10; i++) {
-    const post = posts[i];
+  let tableRowCount = 0;
+
+  for (const post of posts) {
+
+		if (start && post.date < start){
+			continue;
+		}
+
+		if (end && post.date > end){
+			continue;
+		}
+
     tableHtml += '<tr><td><a href="' + post.url + '">' + post.title + '</a></td>';
     tableHtml += '<td>' + post.printedPages + '</td></tr>'
+
+		tableRowCount++;
+		if (tableRowCount >= 10) {
+			break;
+		}
   }
 
   tableHtml += '</table>'
