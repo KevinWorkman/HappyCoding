@@ -5,14 +5,12 @@
 {% assign lineCount = 0 %}
 {% assign lines = post.content | strip_html | newline_to_br | split: '<br />' %}
 {% for line in lines %}
-	{% assign line = line | strip %}
-	{% if line != blank %}
-		{% assign charCount = line | size %}
-		{% assign pLines = charCount | divided_by: 150 | plus: 1 %}
-		{% assign lineCount = lineCount | plus: pLines %}
-	{% endif %}
+  {% assign line = line | strip %}
+    {% assign charCount = line | size %}
+    {% assign pLines = charCount | divided_by: 85 | plus: 1 %}
+    {% assign lineCount = lineCount | plus: pLines %}
 {% endfor %}
-{% assign pageCount = lineCount | divided_by: 43 | plus: 1  %}
+{% assign pageCount = lineCount | divided_by: 50 | plus: 1  %}
  {
   "title": {{ post.title | jsonify }},
   "categories": {{ post.categories | jsonify }},
