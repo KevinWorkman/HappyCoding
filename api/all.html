@@ -1,0 +1,10 @@
+---
+layout: default
+title: All Posts
+meta-title: All Posts
+meta-description: Every page on Happy Coding.
+---
+
+{% for post in site.posts %}
+  {% include url-thumbnail.html url=post.url %}
+{% endfor %}
