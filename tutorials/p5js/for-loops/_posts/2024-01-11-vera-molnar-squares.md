@@ -102,6 +102,7 @@ function drawCell(x, y) {
 ![Randomly colored squares](/tutorials/p5js/for-loops/images/vera-molnar-squares-2.png)
 ![Blue and green squares](/tutorials/p5js/for-loops/images/vera-molnar-squares-3.png)
 ![Grayscale squares](/tutorials/p5js/for-loops/images/vera-molnar-squares-4.png)
+![Animation of randomly colored squares appearing in a grid](/tutorials/p5js/for-loops/images/vera-molnar-squares-5.gif)
 
 # Remix Ideas
 
