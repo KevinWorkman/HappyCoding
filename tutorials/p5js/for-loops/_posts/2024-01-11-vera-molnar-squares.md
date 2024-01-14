@@ -17,6 +17,10 @@ forumExcerpt: For genuary, I created a p5.js sketch that draws squares in the st
 
 ---
 
+{% include youtube-embed.html slug="eykSzznPimQ " %}
+
+---
+
 [Genuary](https://genuary.art/) is an event that provides a different prompt every day through January, and creative coders make generative art based on the prompt each day. This year, Genuary 6th's prompt was *"In the style of Vera Molnár"*.
 
 [Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r) was an early digital artist, and she created [really interesting artwork](https://duckduckgo.com/?t=ffab&q=Vera+Moln%C3%A1r+&iax=images&ia=images) back before creative coding was really a thing!
