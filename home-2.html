@@ -86,19 +86,35 @@
 
     <script>
 
-      let codingIndex = 0;
-      function scroll() {
-        codingIndex++;
-        const words = ['Coding', 'Arting', 'Building', 'Compiling', 'Computing', 'Creating', 'Designing', 'Doing', 'Hacking', 'Learning', 'Making', 'Nerding', 'Programming', 'Starting',];
-        const word = words[codingIndex % words.length];
-        document.getElementById('coding-span').innerText = word;
+      function animateHappyCodingOut() {
+        const codingSpan = document.getElementById('coding-span');
+        codingSpan.style.color = 'transparent';
+
+        setTimeout(animateHappyCodingIn, 500);
+      }
+
+      let prevWord = 'Coding';
+      function animateHappyCodingIn() {
+        const words = ['Coding', 'Arting', 'Building', 'Changing', 'Compiling', 'Composing', 'Computing', 'Creating', 'Designing', 'Discovering', 'Doing', 'Finding', 'Generating', 'Hacking', 'Imagining', 'Inventing', 'Learning', 'Making', 'Nerding', 'Programming', 'Starting',];
+
+        let word;
+        do {
+          word = words[Math.floor(words.length * Math.random())];
+        } while (word == prevWord);
+
+        prevWord = word;
+
+        const codingSpan = document.getElementById('coding-span');
+        codingSpan.innerText = word;
+
+        codingSpan.style.color = '#323232';
+
+        setTimeout(animateHappyCodingOut, 3000);
       }
 
       function load() {
-        const container = document.querySelector('.container');
-        document.addEventListener("scrollend", (event) => {
-          scroll();
-        });
+
+        setTimeout(animateHappyCodingOut, 3000);
 
         AOS.init({
 
@@ -165,14 +181,15 @@
 
       <!-- background: radial-gradient(circle at 50% 50%, #fbfbfb, #bbffbb); -->
 
-      <div data-aos="fade-up" class="section content" style="background: repeating-radial-gradient(
+      <div data-aos="fade-up" class="section content" style="align-items: start;
+      background: repeating-radial-gradient(
       circle at 0 0,
       #aaffaa,
       #aaffaa 10px,
       #fbfbfb 10px,
       #fbfbfb 20px
     );">
-        <h2 style="font-size:100px; font-family: 'HappyCoding', monospace;">Happy <span id="coding-span">Coding</span></h2>
+        <h2 style="font-size:100px; font-family: 'HappyCoding', monospace;">Happy <span id="coding-span" style="display: inline-block; transition: color 500ms ease-in-out">Coding</span></h2>
       </div>
 
       <div data-aos="fade-up" class="section content" style="display:flex; align-items: center; background:radial-gradient(circle at 25% 50%, #fbfbfb, #ffffbb);">
