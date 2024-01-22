@@ -54,6 +54,9 @@
         width: 100%;
         height: 100%;
         margin: 0;
+
+        /* Fix bug in AOS that adds margins for fade-left items. */
+        overflow-x: hidden;
       }
 
       .content {
