@@ -48,15 +48,46 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script>
+      function setup() {
+        const canvas = createCanvas(windowWidth, windowHeight);
+        canvas.id('sketch');
+        canvas.parent('body');
+
+        background('#fbfbfb');
+        noStroke();
+      }
+
+      function draw() {
+        const min = 100;
+        const max = 255;
+        fill(random(min, max), random(min, max), random(min, max));
+        circle(random(width), random(height), random(25));
+      }
+    </script>
+
     <style>
 
-      body {
+      #sketch {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: -1;
         width: 100%;
         height: 100%;
-        margin: 0;
+      }
+
+      body {
+        /* Fix bug in AOS that adds margins for fade-left items. */
+        overflow-x: hidden;
       }
 
       .container {
+        overflow-x: hidden;
+      }
+
+      .content {
         width: 100%;
       }
 
@@ -71,46 +102,53 @@
         align-items:center;
 
         box-sizing: border-box;
-        border:none;
-        border-top: thick solid #323232;
-        border-bottom: thick solid #323232;
 
-        min-height: 100vh;
-      }
-
-      .content {
-        width: 100%;
+        /* min-height: 100vh; */
       }
 
       .tutorial-link-box {
         background-color:#fff6;
         text-align: center;
       }
-
-
-
     </style>
 
     <script>
 
-      let codingIndex = 0;
-      function scroll() {
-        codingIndex++;
-        const words = ['Coding', 'Arting', 'Building', 'Compiling', 'Computing', 'Creating', 'Designing', 'Doing', 'Hacking', 'Learning', 'Making', 'Nerding', 'Programming', 'Starting',];
-        const word = words[codingIndex % words.length];
-        document.getElementById('coding-span').innerText = word;
+      function animateHappyCodingOut() {
+        const codingSpan = document.getElementById('coding-span');
+        codingSpan.style.color = 'transparent';
+
+        setTimeout(animateHappyCodingIn, 500);
+      }
+
+      let prevWord = 'Coding';
+      function animateHappyCodingIn() {
+        const words = ['Coding', 'Arting', 'Building', 'Changing', 'Compiling', 'Composing', 'Computing', 'Creating', 'Designing', 'Discovering', 'Doing', 'Finding', 'Generating', 'Hacking', 'Imagining', 'Inventing', 'Learning', 'Making', 'Nerding', 'Programming', 'Starting',];
+
+        let word;
+        do {
+          word = words[Math.floor(words.length * Math.random())];
+        } while (word == prevWord);
+
+        prevWord = word;
+
+        const codingSpan = document.getElementById('coding-span');
+        codingSpan.innerText = word;
+
+        codingSpan.style.color = '#323232';
+
+        setTimeout(animateHappyCodingOut, 3000);
       }
 
       function load() {
-        console.log('on load');
-        const container = document.querySelector('.container');
-        document.addEventListener("scrollend", (event) => {
-          scroll();
-        });
+
+        setTimeout(animateHappyCodingOut, 3000);
 
         AOS.init({
 
         });
+
+        setRandomBackground();
       }
 
     </script>
@@ -118,7 +156,7 @@
     <script src="https://forum.happycoding.io/javascripts/embed-topics.js"></script>
 
   </head>
-  <body onload="load();">
+  <body id="body" onload="load();">
     <div class="container">
       <nav>
         <a class="navbar-home" href="/">Happy Coding</a>
@@ -141,19 +179,23 @@
 
 <!--style="background: radial-gradient(circle at 50% 15%, #fbfbfb, #ffbb88)"-->
 
-        <div class="section content"
-          style="background: repeating-linear-gradient(45deg, rgba(0, 191, 255, .5), rgba(0, 191, 255, .5) 1px, transparent 1px, transparent 15px),
-     repeating-linear-gradient(-45deg, rgba(255, 105, 180, .5), rgba(255, 105, 180, .5) 1px, transparent 1px, transparent 15px);"
-
-        >
+        <div class="section content" id="tutorials"
+          style="background-color: #fbfbfb;">
 
           <h2 style="font-size:75px; text-align:center; margin-bottom:0; font-family: 'HappyCoding', monospace; width:fit-content; margin-left: auto; margin-right: auto; background-color:#fff6;">Learn to code!</h2>
 
-          <hr>
+          <hr style="width: 95%;">
 
           <p style="font-size:25px; text-align:center; background-color:#fff6;">Code is more than just ones and zeroes. Code is a <strong>creative process</strong> that lets you express yourself, reach other people, generate art, and make stuff in new ways every day.</p>
 
-          <hr>
+          <hr style="width: 95%;">
+
+          <style>
+            #tutorials .tutorial-link-box .title {
+              font-weight: bold;
+            }
+
+          </style>
 
           <div class="thumbnail-link-container">
             {% include url-thumbnail.html url="/tutorials/how-to/learn-coding" %}
@@ -173,17 +215,11 @@
 
       <!-- background: radial-gradient(circle at 50% 50%, #fbfbfb, #bbffbb); -->
 
-      <div data-aos="fade-up" class="section content" style="background: repeating-radial-gradient(
-      circle at 0 0,
-      #aaffaa,
-      #aaffaa 10px,
-      #fbfbfb 10px,
-      #fbfbfb 20px
-    );">
-        <h2 style="font-size:150px; font-family: 'HappyCoding', monospace;">Happy <span id="coding-span">Coding</span></h2>
+      <div data-aos="fade-up" class="section content" style="align-items: start;">
+        <h2 style="font-size:100px; font-family: 'HappyCoding', monospace;">Happy <span id="coding-span" style="display: inline-block; transition: color 500ms ease-in-out">Coding</span></h2>
       </div>
 
-      <div data-aos="fade-up" class="section content" style="display:flex; align-items: center; background:radial-gradient(circle at 25% 50%, #fbfbfb, #ffffbb);">
+      <div data-aos="fade-up" class="section content" style="display:flex; align-items: center;">
         <div style="display:flex; justify-content:space-evenly; align-items:center; width:100%;">
 
           <img src="/images/pixel-kevin.png"
@@ -210,12 +246,7 @@
       </div> <!-- end section content -->
 
 
-      <div class="section content" data-aos="fade-up" style="justify-content: space-evenly; background: repeating-linear-gradient(
-        45deg,
-        #ffdddd,
-        #ffdddd 10px,
-        #fbfbfb 10px,
-        #fbfbfb 20px);">
+      <div class="section content" data-aos="fade-up" style="justify-content: space-evenly;">
 
         <style>
           .promise-div {
@@ -224,6 +255,7 @@
             background:#fbfbfb;
             margin-bottom:50px;
             width:300px;
+            text-align:center;
           }
         </style>
 
@@ -266,10 +298,10 @@
             <p>Tired of big tech nonsense? Me too! I'm doing this for fun, not for shareholder profit.</p>
           </div>
 
-          <div data-aos="fade-left" class="promise-div">
+          <div data-aos="fade-up" class="promise-div">
             <h3>Open Source</h3>
             <hr>
-            <p>Happy Coding is open source under a CC-BY license. That means you can use anything you find on Happy Coding for whatever you want, as long as you link back here for anyone who wants to learn more.</p>
+            <p><a href="/license.html">Happy Coding is open source.</a> You can use anything you find on Happy Coding, as long as you link back here.</p>
           </div>
 
         </div>
@@ -277,15 +309,10 @@
 
       </div> <!-- end section content -->
 
-      <div class="section content" data-aos="fade-up" style="background: linear-gradient(135deg, #333 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, #333 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, #333 25%, transparent 25%),
-    linear-gradient(45deg, #333 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: #ff8a00;">
-       <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">Most importantly, Happy Coding is a community of people learning how to code.</p>
+      <div class="section content" data-aos="fade-up" style="text-align:center;">
+       <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">Most importantly, Happy Coding is a <strong><a href="https://forum.happycoding.io">community</a></strong> of people learning and creating together.</p>
 
-       <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">Here are a few recent posts from the community:</p>
+       <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">Here are a few recent posts from Happy Coders:</p>
 
        <style>
          d-topics-list {
@@ -301,7 +328,7 @@
        <d-topics-list discourse-url="https://forum.happycoding.io" per-page="7" template="complete"></d-topics-list>
 
        <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">
-          If you're stuck on something or have a question, come say "hello world" on the <a href="https://forum.happycoding.io">forum</a>!
+          If you're stuck on something, have a question, or just want to say hi, <br> <strong><a href="https://forum.happycoding.io">come say "hello world" on the Happy Coding forum!</a></strong>
        </p>
 
      </div>
@@ -312,28 +339,7 @@
        }
      </style>
 
-     <div class="section content" id="new-tutorials-div" data-aos="fade-up" style="
-     background:
-    radial-gradient(
-      circle farthest-side at top left,
-      rgba(0, 255, 0, 0.5),
-      transparent
-    ),
-    radial-gradient(
-      circle farthest-side at top right,
-      rgba(0, 200, 200, 0.5),
-      transparent
-    ),
-    radial-gradient(
-      circle farthest-side at bottom left,
-      rgba(200, 0, 255, 0.5),
-      transparent
-    ),
-    radial-gradient(
-      circle farthest-side at bottom right,
-      rgb(32, 32, 32),
-      transparent
-    );">
+     <div class="section content" id="new-tutorials-div" data-aos="fade-up" style="">
 
        <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">New Tutorials</h2>
 
@@ -353,12 +359,11 @@
        </style>
 
        <div id="recent-tutorials" class="thumbnail-link-container">
-         {% include recent-posts.html posts=site.categories.tutorials count=7 %}
+         {% include recent-posts.html posts=site.categories.tutorials count=9 %}
        </div>
      </div> <!-- end section content -->
 
-<div class="section content" data-aos="fade-up" style="background-image: radial-gradient(#8aff00 35%, transparent 35%);
-  background-size: 8px 8px;">
+<div class="section content" data-aos="fade-up" style="">
 
     <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Newest Video</h2>
 
@@ -375,7 +380,7 @@
 
 
 
-<div class="section content" data-aos="fade-up" style="background: repeating-linear-gradient( 135deg, #ddffdd, #ddffdd 10px, #fbfbfb 10px, #fbfbfb 20px)">
+<div class="section content" data-aos="fade-up" style="">
 
 
     <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Latest Blog Post</h2>
@@ -403,11 +408,14 @@
     <h2>Popular Blog Posts</h2>
 
     <div class="thumbnail-link-container">
-      {% for post in site.categories.blog %}
-        {% if post.tags contains "favorite" %}
-          {% include url-thumbnail.html url=post.url %}
-        {% endif %}
-      {% endfor %}
+      {% include url-thumbnail.html url="/blog/locus-of-control-learned-helplessness" %}
+      {% include url-thumbnail.html url="/blog/ten-years" %}
+      {% include url-thumbnail.html url="/blog/my-quarantine" %}
+      {% include url-thumbnail.html url="/blog/checking-my-privilege" %}
+      {% include url-thumbnail.html url="/blog/ludum-memories" %}
+      {% include url-thumbnail.html url="/blog/black-lives-matter-to-me" %}
+      {% include url-thumbnail.html url="/blog/subjective-side-of-code" %}
+      {% include url-thumbnail.html url="/blog/quadrilateral-of-creativity" %}
     </div>
 
     <hr style="width: 95%; margin-bottom:25px;">
@@ -416,7 +424,7 @@
 
 </div> <!-- end section content -->
 
-<div class="section content" data-aos="fade-up" style="background:repeating-radial-gradient( circle at 50% 50%, #ffddff, #ffddff 10px, #fbfbfb 10px, #fbfbfb 20px );">
+<div class="section content" data-aos="fade-up" style="">
 
   <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Support Happy Coding</h2>
 

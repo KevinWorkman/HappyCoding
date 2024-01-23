@@ -116,9 +116,7 @@
 
         setTimeout(animateHappyCodingOut, 3000);
 
-        AOS.init({
-
-        });
+        AOS.init({});
 
         setRandomBackground();
       }
@@ -151,17 +149,24 @@
 
 <!--style="background: radial-gradient(circle at 50% 15%, #fbfbfb, #ffbb88)"-->
 
-        <div class="section content"
+        <div class="section content" id="tutorials"
           style="background: repeating-linear-gradient(45deg, rgba(0, 191, 255, .5), rgba(0, 191, 255, .5) 1px, transparent 1px, transparent 15px),
      repeating-linear-gradient(-45deg, rgba(255, 105, 180, .5), rgba(255, 105, 180, .5) 1px, transparent 1px, transparent 15px); background-color: #fbfbfb;">
 
           <h2 style="font-size:75px; text-align:center; margin-bottom:0; font-family: 'HappyCoding', monospace; width:fit-content; margin-left: auto; margin-right: auto; background-color:#fff6;">Learn to code!</h2>
 
-          <hr>
+          <hr style="width: 95%;">
 
           <p style="font-size:25px; text-align:center; background-color:#fff6;">Code is more than just ones and zeroes. Code is a <strong>creative process</strong> that lets you express yourself, reach other people, generate art, and make stuff in new ways every day.</p>
 
-          <hr>
+          <hr style="width: 95%;">
+
+          <style>
+            #tutorials .tutorial-link-box .title {
+              font-weight: bold;
+            }
+
+          </style>
 
           <div class="thumbnail-link-container">
             {% include url-thumbnail.html url="/tutorials/how-to/learn-coding" %}
@@ -276,7 +281,7 @@
             <p>Tired of big tech nonsense? Me too! I'm doing this for fun, not for shareholder profit.</p>
           </div>
 
-          <div data-aos="fade-left" class="promise-div">
+          <div data-aos="fade-up" class="promise-div">
             <h3>Open Source</h3>
             <hr>
             <p><a href="/license.html">Happy Coding is open source.</a> You can use anything you find on Happy Coding, as long as you link back here.</p>
@@ -408,11 +413,14 @@
     <h2>Popular Blog Posts</h2>
 
     <div class="thumbnail-link-container">
-      {% for post in site.categories.blog %}
-        {% if post.tags contains "favorite" %}
-          {% include url-thumbnail.html url=post.url %}
-        {% endif %}
-      {% endfor %}
+      {% include url-thumbnail.html url="/blog/locus-of-control-learned-helplessness" %}
+      {% include url-thumbnail.html url="/blog/ten-years" %}
+      {% include url-thumbnail.html url="/blog/my-quarantine" %}
+      {% include url-thumbnail.html url="/blog/checking-my-privilege" %}
+      {% include url-thumbnail.html url="/blog/ludum-memories" %}
+      {% include url-thumbnail.html url="/blog/black-lives-matter-to-me" %}
+      {% include url-thumbnail.html url="/blog/subjective-side-of-code" %}
+      {% include url-thumbnail.html url="/blog/quadrilateral-of-creativity" %}
     </div>
 
     <hr style="width: 95%; margin-bottom:25px;">
