@@ -89,3 +89,5 @@ function setRandomP5Background() {
 
   new p5(randomSketch);
 }
+
+setRandomP5Background();

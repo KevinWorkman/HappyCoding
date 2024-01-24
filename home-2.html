@@ -48,7 +48,20 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="/js/backgrounds.js"></script>
+
+
     <style>
+
+      #background-sketch {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+      }
 
       body {
         /* Fix bug in AOS that adds margins for fade-left items. */
@@ -116,9 +129,11 @@
 
         setTimeout(animateHappyCodingOut, 3000);
 
-        AOS.init({});
+        AOS.init({
 
-        setRandomBackground();
+        });
+
+
       }
 
     </script>
@@ -126,7 +141,7 @@
     <script src="https://forum.happycoding.io/javascripts/embed-topics.js"></script>
 
   </head>
-  <body onload="load();">
+  <body id="body" onload="load();">
     <div class="container">
       <nav>
         <a class="navbar-home" href="/">Happy Coding</a>
@@ -150,8 +165,7 @@
 <!--style="background: radial-gradient(circle at 50% 15%, #fbfbfb, #ffbb88)"-->
 
         <div class="section content" id="tutorials"
-          style="background: repeating-linear-gradient(45deg, rgba(0, 191, 255, .5), rgba(0, 191, 255, .5) 1px, transparent 1px, transparent 15px),
-     repeating-linear-gradient(-45deg, rgba(255, 105, 180, .5), rgba(255, 105, 180, .5) 1px, transparent 1px, transparent 15px); background-color: #fbfbfb;">
+          style="background-color: #fbfbfb;">
 
           <h2 style="font-size:75px; text-align:center; margin-bottom:0; font-family: 'HappyCoding', monospace; width:fit-content; margin-left: auto; margin-right: auto; background-color:#fff6;">Learn to code!</h2>
 
@@ -186,18 +200,11 @@
 
       <!-- background: radial-gradient(circle at 50% 50%, #fbfbfb, #bbffbb); -->
 
-      <div data-aos="fade-up" class="section content" style="align-items: start;
-      background: repeating-radial-gradient(
-      circle at 0 0,
-      #aaffaa,
-      #aaffaa 10px,
-      #fbfbfb 10px,
-      #fbfbfb 20px
-    );">
+      <div data-aos="fade-up" class="section content" style="align-items: start;">
         <h2 style="font-size:100px; font-family: 'HappyCoding', monospace;">Happy <span id="coding-span" style="display: inline-block; transition: color 500ms ease-in-out">Coding</span></h2>
       </div>
 
-      <div data-aos="fade-up" class="section content" style="display:flex; align-items: center; background:radial-gradient(circle at 25% 50%, #fbfbfb, #ffffbb);">
+      <div data-aos="fade-up" class="section content" style="display:flex; align-items: center;">
         <div style="display:flex; justify-content:space-evenly; align-items:center; width:100%;">
 
           <img src="/images/pixel-kevin.png"
@@ -224,12 +231,7 @@
       </div> <!-- end section content -->
 
 
-      <div class="section content" data-aos="fade-up" style="justify-content: space-evenly; background: repeating-linear-gradient(
-        45deg,
-        #ffdddd,
-        #ffdddd 10px,
-        #fbfbfb 10px,
-        #fbfbfb 20px);">
+      <div class="section content" data-aos="fade-up" style="justify-content: space-evenly;">
 
         <style>
           .promise-div {
@@ -292,7 +294,7 @@
 
       </div> <!-- end section content -->
 
-      <div class="section content" data-aos="fade-up" style="text-align:center; background: radial-gradient(circle at 50% 25%, #fbfbfb, #bbffff);"">
+      <div class="section content" data-aos="fade-up" style="text-align:center;">
        <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">Most importantly, Happy Coding is a <strong><a href="https://forum.happycoding.io">community</a></strong> of people learning and creating together.</p>
 
        <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">Here are a few recent posts from Happy Coders:</p>
@@ -322,28 +324,7 @@
        }
      </style>
 
-     <div class="section content" id="new-tutorials-div" data-aos="fade-up" style="
-     background:
-    radial-gradient(
-      circle farthest-side at top left,
-      rgba(0, 255, 0, 0.5),
-      transparent
-    ),
-    radial-gradient(
-      circle farthest-side at top right,
-      rgba(0, 200, 200, 0.5),
-      transparent
-    ),
-    radial-gradient(
-      circle farthest-side at bottom left,
-      rgba(200, 0, 255, 0.5),
-      transparent
-    ),
-    radial-gradient(
-      circle farthest-side at bottom right,
-      rgb(32, 32, 32),
-      transparent
-    );">
+     <div class="section content" id="new-tutorials-div" data-aos="fade-up" style="">
 
        <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">New Tutorials</h2>
 
@@ -367,8 +348,7 @@
        </div>
      </div> <!-- end section content -->
 
-<div class="section content" data-aos="fade-up" style="background-image: radial-gradient(#8aff00 35%, transparent 35%);
-  background-size: 8px 8px;">
+<div class="section content" data-aos="fade-up" style="">
 
     <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Newest Video</h2>
 
@@ -385,7 +365,7 @@
 
 
 
-<div class="section content" data-aos="fade-up" style="background: repeating-linear-gradient( 135deg, #ddffdd, #ddffdd 10px, #fbfbfb 10px, #fbfbfb 20px)">
+<div class="section content" data-aos="fade-up" style="">
 
 
     <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Latest Blog Post</h2>
@@ -429,7 +409,7 @@
 
 </div> <!-- end section content -->
 
-<div class="section content" data-aos="fade-up" style="background:repeating-radial-gradient( circle at 50% 50%, #ffddff, #ffddff 10px, #fbfbfb 10px, #fbfbfb 20px );">
+<div class="section content" data-aos="fade-up" style="">
 
   <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Support Happy Coding</h2>
 
