@@ -8,7 +8,7 @@
 
   #sections {
     vertical-align: top;
-    width: 800px; /* content is 750, padding is 25 + 25 */
+    width: 800px;
     max-width: 100%;
   }
 
@@ -17,7 +17,7 @@
   }
 
   .content {
-    width: 750px;
+    width: 800px;
   }
 }
 

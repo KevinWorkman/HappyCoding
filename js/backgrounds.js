@@ -1,4 +1,6 @@
 function setRandomP5Background() {
+  let isPlaying = true;
+
   function setupBackgroundSketch(sketch){
     const canvas = sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
     canvas.id('background-sketch');
@@ -9,6 +11,15 @@ function setRandomP5Background() {
     sketch.windowResized = function() {
       // Add extra height because mobile browsers move the bg when scrolling up.
       sketch.resizeCanvas(sketch.windowWidth, sketch.windowHeight + 100, false);
+    }
+
+    sketch.mouseClicked = function(){
+      isPlaying = !isPlaying;
+      if(isPlaying) {
+        sketch.loop();
+      } else {
+        sketch.noLoop();
+      }
     }
   }
 
@@ -90,4 +101,4 @@ function setRandomP5Background() {
   new p5(randomSketch);
 }
 
-setRandomP5Background();
+//setRandomP5Background();

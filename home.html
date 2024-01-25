@@ -1,68 +1,14 @@
 ---
+layout: body
+title: Happy Coding
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Happy Coding</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta property="article:published_time" content="" />
-    <meta property="twitter:url" content="https://HappyCoding.io/" />
-    <meta property="og:url" content="https://HappyCoding.io/" />
-    <meta name="twitter:site" content="@TheKevinWorkman">
-    <meta name="twitter:creator" content="@TheKevinWorkman">
-    <meta property="og:site_name" content="Happy Coding" /><meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:image" content="https://HappyCoding.io/logo-vertical-large.png" />
-    <meta property="og:image" content="https://HappyCoding.io/logo-vertical-large.png" />
-    <meta name="twitter:title" content="Happy Coding">
-    <meta property="og:title" content="Happy Coding" />
-    <meta property="twitter:description" content="HappyCoding.io is a collection of coding tutorials, and a community of folks just like you learning how to code." />
-    <meta property="og:description" content="HappyCoding.io is a collection of coding tutorials, and a community of folks just like you learning how to code." />
-    <meta name="description" content="HappyCoding.io is a collection of coding tutorials, and a community of folks just like you learning how to code.">
-
-    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Happy Coding" />
-
-    <meta name="google-site-verification"
-        content="_MHA_HyjRN41hU7ocjslu4AdeVWgiS_9QAiSuonBmEI" />
-
-
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Lato&display=swap">
-    <link rel="stylesheet" type="text/css" href="/css/tocbot.css">
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/small.css">
-    <link rel="stylesheet" type="text/css" href="/css/medium.css">
-    <link rel="stylesheet" type="text/css" href="/css/large.css">
-
-
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
-
-    <script async src="//assets.codepen.io/assets/embed/ei.js"></script><script src="/js/tocbot.min.js"></script>
-    <script src="/js/modernizr-transitions.js"></script>
-    <script src="/js/main.js"></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
-    <script src="/js/backgrounds.js"></script>
-
-
     <style>
-
-      #background-sketch {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-      }
-
       body {
         /* Fix bug in AOS that adds margins for fade-left items. */
         overflow-x: hidden;
@@ -94,6 +40,12 @@
       .tutorial-link-box {
         background-color:#fff6;
         text-align: center;
+      }
+
+      hr {
+        height: 5px;
+        color: #323232;
+        background-color: #323232;
       }
     </style>
 
@@ -133,36 +85,15 @@
 
         });
 
-        
+
       }
+
+      window.onload = load;
 
     </script>
 
     <script src="https://forum.happycoding.io/javascripts/embed-topics.js"></script>
 
-  </head>
-  <body id="body" onload="load();">
-    <div class="container">
-      <nav>
-        <a class="navbar-home" href="/">Happy Coding</a>
-        <div class="nav-links">
-          <a class="nav-link" href="/tutorials">Tutorials</a>
-          <a class="nav-link" href="/blog">Blog</a>
-          <a class="nav-link" href="/about">About</a>
-          <a class="nav-link" href="http://forum.HappyCoding.io">Forum</a>
-          <a id="social-nav-link" href="https://twitter.com/TheKevinWorkman">
-            <img id="social-nav-img" class="social-img"
-                src="/images/twitter.png" alt="twitter" />
-          </a>
-          <script>setRandomSocialLink();</script>
-        </div>
-      </nav>
-
-      <div class="left-nav-and-sections">
-        <div id="sections">
-
-
-<!--style="background: radial-gradient(circle at 50% 15%, #fbfbfb, #ffbb88)"-->
 
         <div class="section content" id="tutorials"
           style="background-color: #fbfbfb;">
@@ -209,7 +140,7 @@
 
           <img src="/images/pixel-kevin.png"
                alt="Pixelated Kevin and Stanley"
-               style="width: 30%; height:fit-content; border: thin solid #323232;" />
+               style="width: 30%; height:fit-content; border: 5px solid #323232;" />
 
           <div style="width: 50%;">
             <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Who are you?</h2>
@@ -235,55 +166,59 @@
 
         <style>
           .promise-div {
-            border: thin solid #323232;
+            border: 5px solid #323232;
             padding: 5px;
             background:#fbfbfb;
             margin-bottom:50px;
             width:300px;
             text-align:center;
           }
+
+          .promise-div p {
+            background-color: #fbfbfb66;
+          }
         </style>
 
         <p style="font-size:25px; background:#fbfbfb;">I believe the internet can be <strong>better</strong> than what the big tech companies have turned it into. Happy Coding is my attempt to share my knowledge, with these promises:</p>
 
         <div style="font-size:25px; width: 100%; display:flex; flex-wrap: wrap; justify-content: space-around;">
-          <div data-aos="fade-right" class="promise-div">
+          <div data-aos="fade-right" class="promise-div" style="background: radial-gradient(#fbfbfb, #ffaaaa);">
             <h3>No annoying ads</h3>
             <hr>
             <p>Happy Coding is ad-free!</p>
           </div>
 
-          <div data-aos="fade-up" class="promise-div">
+          <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(#fbfbfb, #ffddaa);">
             <h3>No desperate popups</h3>
             <hr>
             <p>Why do websites want to show notifications anyway?</p>
           </div>
 
-          <div data-aos="fade-left" class="promise-div">
+          <div data-aos="fade-left" class="promise-div" style="background: radial-gradient(#fbfbfb, #ffffaa);">
             <h3>No clickbait</h3>
             <hr>
             <p>No shady SEO, no dark patterns, no engagement hacks.</p>
           </div>
 
-          <div data-aos="fade-right" class="promise-div">
+          <div data-aos="fade-right" class="promise-div" style="background: radial-gradient(#fbfbfb, #aaffaa);">
             <h3>Human content</h3>
             <hr>
             <p>Every tutorial and article is written by a real life human: me!</p>
           </div>
 
-          <div data-aos="fade-up" class="promise-div">
+          <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(#fbfbfb, lightblue);">
             <h3>Authenticity</h3>
             <hr>
             <p>I post about stuff I'm genuinely interested in!</p>
           </div>
 
-          <div data-aos="fade-left" class="promise-div">
+          <div data-aos="fade-left" class="promise-div" style="background: radial-gradient(#fbfbfb, violet);">
             <h3>Small tech</h3>
             <hr>
             <p>Tired of big tech nonsense? Me too! I'm doing this for fun, not for shareholder profit.</p>
           </div>
 
-          <div data-aos="fade-up" class="promise-div">
+          <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(circle, rgba(255,170,170,1) 0%, rgba(255,221,170,1) 20%, rgba(255,255,170,1) 40%, rgba(170,255,170,1) 60%, rgba(170,170,255,1) 80%, rgba(255,170,255,1) 100%);">
             <h3>Open Source</h3>
             <hr>
             <p><a href="/license.html">Happy Coding is open source.</a> You can use anything you find on Happy Coding, as long as you link back here.</p>
@@ -495,48 +430,3 @@
 
 
           </div> <!-- end content -->
-
-
-
-
-
-        </div> <!-- end sections -->
-
-
-
-      </div> <!-- end left-nav-and-sections -->
-
-      <footer>
-        <!-- <a href="https://twitter.com/TheKevinWorkman">
-          <img class="footer-img" src="/images/twitter.png" alt="twitter" /></a> -->
-        <a rel="me" href="https://mastodon.art/@KevinWorkman">
-          <img class="nav-img" src="/images/mastodon.svg" alt="Mastodon" /></a>
-        <a href="https://github.com/KevinWorkman/HappyCoding">
-          <img class="footer-img" src="/images/GitHub-Mark-32px.png" alt="github" /></a>
-        <a href="https://www.etsy.com/shop/HappyCoding">
-          <img class="footer-img" src="/images/etsy.png" alt="etsy" /></a>
-        <a href="https://www.youtube.com/user/kevinaworkman">
-          <img class="footer-img" src="/images/youtube.png" alt="youtube" /></a>
-        <a href="/feed.xml">
-          <img class="footer-img" src="/images/rss.png" alt="RSS" /></a>
-
-        <p>Question? Request? Just want to talk about coding? Come say hi on
-          <a href="http://forum.happycoding.io/">forum.HappyCoding.io</a>!</p>
-        <p><a href="/license.html">HappyCoding.io is open source.</a> -
-          <a href="https://github.com/KevinWorkman/HappyCoding/wiki/Contributing">
-            How to contribute?</a> -
-          <a href="https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/index.html">
-            View or edit this page's source on GitHub!</a></p>
-        <p id="background-link"></p>
-      </footer>
-    </div><!-- end container -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-91668549-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
-</html>

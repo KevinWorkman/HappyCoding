@@ -1,87 +1,11 @@
-<!--
-
-█ █ ███                 ███       █             █
-█ █   █                 █         █             █
-███ ███ ███ ███ █ █     █   ███ ███ ███ ███ ███ █
-█ █ █ █ █ █ █ █ █ █     █   █ █ █ █  █  █ █ █ █
-█ █ ███ ███ ███ ███     ███ ███ ███ ███ █ █ ███ █
-        █   █     █                           █
-        █   █   ███                         ███
-
-Hello there!
-
-If you're looking at this source code in your browser, you might notice some weird formatting, extra whitespace, or improper indentation. That's because this site is built with Jekyll, so the HTML is generated from other files.
-
-Check out the source code on GitHub: https://github.com/KevinWorkman/HappyCoding
-
-Learn more about Jekyll: https://happycoding.io/tutorials/html/jekyll
-
-If you found this message, come say hi on the Happy Coding forum! https://forum.happycoding.io
--->
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-{%- if page.title == "Happy Coding" %}
-    <title>Happy Coding</title>
-{%- else -%}
-    <title>{{ page.title }} - Happy Coding</title>
-{%- endif %}
-
-{% include meta.html %}
-
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Lato&display=swap">
-    <link rel="stylesheet" type="text/css" href="/css/tocbot.css">
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/small.css">
-    <link rel="stylesheet" type="text/css" href="/css/medium.css">
-    <link rel="stylesheet" type="text/css" href="/css/large.css">
-    {% if layout.include_right_nav %}
-      <link rel="stylesheet" type="text/css" href="/css/x-large.css" id="x-large-css">
-    {% endif %}
-
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
-
-    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-    {%- if page.includeP5jsWidget %}
-    <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    {% endif -%}
-
-    <script src="/js/tocbot.min.js"></script>
-    <script src="/js/modernizr-transitions.js"></script>
-    <script src="/js/main.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <nav>
-        <a class="navbar-home" href="/">Happy Coding</a>
-        <div class="nav-links">
-          <a class="nav-link" href="/tutorials">Tutorials</a>
-          <a class="nav-link" href="/blog">Blog</a>
-          <a class="nav-link" href="/about">About</a>
-          <a class="nav-link" href="http://forum.HappyCoding.io">Forum</a>
-          <a id="social-nav-link" href="https://twitter.com/TheKevinWorkman">
-            <img id="social-nav-img" class="social-img"
-                src="/images/twitter.png" alt="twitter" />
-          </a>
-          <script>setRandomSocialLink();</script>
-        </div>
-      </nav>
-
-      {%- if layout.show_hero_image %}
-        <div class="section" id="hero-section">
-          <div class="hero-container"
-               style="width:100%; aspect-ratio:2/1; background-image:url({{page.meta-image}}); background-size:cover;">
-            <h1>{{ page.title }}</h1>
-          </div>
-        </div>
-      {%- endif %}
+---
+layout: body
+---
 
       <div class="left-nav-and-sections">
-        {%- include left-nav.html %}
+        {%- unless page.hideLeftNav -%}
+          {%- include left-nav.html %}
+        {%- endunless -%}
 
         <div id="sections">
           <div class="section content">
@@ -163,31 +87,3 @@ If you found this message, come say hi on the Happy Coding forum! https://forum.
         {% endif %}
 
       </div> <!-- end left-nav-and-sections -->
-
-      <footer>
-        <!-- <a href="https://twitter.com/TheKevinWorkman">
-          <img class="footer-img" src="/images/twitter.png" alt="twitter" /></a> -->
-        <a rel="me" href="https://mastodon.art/@KevinWorkman">
-          <img class="nav-img" src="/images/mastodon.svg" alt="Mastodon" /></a>
-        <a href="https://github.com/KevinWorkman/HappyCoding">
-          <img class="footer-img" src="/images/GitHub-Mark-32px.png" alt="github" /></a>
-        <a href="https://www.etsy.com/shop/HappyCoding">
-          <img class="footer-img" src="/images/etsy.png" alt="etsy" /></a>
-        <a href="https://www.youtube.com/user/kevinaworkman">
-          <img class="footer-img" src="/images/youtube.png" alt="youtube" /></a>
-        <a href="/feed.xml">
-          <img class="footer-img" src="/images/rss.png" alt="RSS" /></a>
-
-        <p>Question? Request? Just want to talk about coding? Come say hi on
-          <a href="http://forum.happycoding.io/">forum.HappyCoding.io</a>!</p>
-        <p><a href="/license.html">HappyCoding.io is open source.</a> -
-          <a href="https://github.com/KevinWorkman/HappyCoding/wiki/Contributing">
-            How to contribute?</a> -
-          <a href="https://github.com/KevinWorkman/HappyCoding/blob/gh-pages/{{ page.path }}">
-            View or edit this page's source on GitHub!</a></p>
-        <p id="background-link"></p>
-      </footer>
-    </div><!-- end container -->
-{% include analytics.html %}
-  </body>
-</html>

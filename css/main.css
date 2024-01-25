@@ -34,6 +34,15 @@ body {
   transition: background-image 1s linear;
 }
 
+#background-sketch {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +73,7 @@ nav {
   align-items: center;
   background-color: #fbfbfb;
   margin-bottom: 25px;
-  border: thin solid #323232;
+  border: 5px solid #323232;
   -webkit-transition: background-color 10s linear;
   transition: background-color 10s linear;
   box-sizing: border-box;
@@ -118,7 +127,7 @@ nav {
 #left-nav .left-nav-section {
   margin-bottom: 25px;
   background-color: #fbfbfb;
-  border: thin solid #323232;
+  border: 5px solid #323232;
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
@@ -135,7 +144,7 @@ nav {
 
 #right-nav-toc {
   background-color: #fbfbfb;
-  border: thin solid #323232;
+  border: 5px solid #323232;
   box-sizing: border-box;
   width: 225px;
   padding: 10px;
@@ -161,8 +170,9 @@ nav {
 }
 
 .section {
+  box-sizing: border-box;
   background-color: #fbfbfb;
-  border: thin solid #323232;
+  border: 5px solid #323232;
   padding: 25px;
   margin-bottom: 25px;
 }
@@ -306,7 +316,7 @@ code.language-error {
 
 .thumbnail-image {
   width: 100%;
-  border: thin solid #323232;
+  border: 5px solid #323232;
 }
 
 .pixelated {
@@ -362,7 +372,7 @@ code.language-error {
 }
 
 .etsy-thumbnail img {
-  border: thin solid #323232;
+  border: 5px solid #323232;
 }
 
 /* Tags */
@@ -383,7 +393,7 @@ footer {
   padding-bottom: 10px;
   text-align: center;
   background-color: #fbfbfb;
-  border: thin solid #323232;
+  border: 5px solid #323232;
 }
 
 .social-img {
