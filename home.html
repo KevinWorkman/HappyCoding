@@ -169,6 +169,37 @@ title: Happy Coding
 
 </div> <!-- end section content -->
 
+<div class="section content" id="new-tutorials-div" data-aos="fade-up" style="">
+
+  <style>
+    #new-tutorials-div img {
+      max-width: 100%;
+    }
+  </style>
+
+  <h2>New Tutorials</h2>
+
+  <hr>
+    <p style="font-size:25px;">Check out the newest tutorials, hot off the press!</p>
+  <hr>
+
+  {% for post in site.categories.tutorials limit:1 %}
+    {% include url-thumbnail.html url=post.url fullsize=true %}
+  {% endfor %}
+
+  <hr>
+
+  <style>
+    /* Hide the most recent post because it's shown big above. */
+    #recent-tutorials .tutorial-link-box:first-child {
+      display: none;
+    }
+  </style>
+
+  <div id="recent-tutorials" class="thumbnail-link-container">
+    {% include recent-posts.html posts=site.categories.tutorials count=9 %}
+  </div>
+</div> <!-- end section content -->
 
 <div class="section content" data-aos="fade-up" style="justify-content: space-evenly;">
 
@@ -191,7 +222,9 @@ title: Happy Coding
 
   <hr>
 
-  <p style="font-size:25px; margin-bottom:25px;">I believe the internet can be <strong>better</strong> than what the big tech companies have turned it into. Happy Coding is my attempt to share my knowledge, with these promises:</p>
+  <p style="font-size:25px; margin-bottom:25px;">I believe the internet can be <strong>better</strong> than what big tech companies have turned it into. Happy Coding is my attempt to create the kind of website I wish I saw more of: a place for people to learn and connect without living in the shadow of a big tech company.</p>
+
+  <hr style="margin-bottom: 25px;">
 
   <div style="font-size:25px; width: 100%; display:flex; flex-wrap: wrap; justify-content: space-around;">
     <div data-aos="fade-right" class="promise-div" style="background: radial-gradient(#fbfbfb, #ffaaaa);">
@@ -221,13 +254,13 @@ title: Happy Coding
     <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(#fbfbfb, lightblue);">
       <h3>Authenticity</h3>
       <hr>
-      <p>I post about stuff I'm genuinely interested in!</p>
+      <p>I post about stuff I'm genuinely interested in, not what I think will get clicks.</p>
     </div>
 
     <div data-aos="fade-left" class="promise-div" style="background: radial-gradient(#fbfbfb, violet);">
       <h3>Small tech</h3>
       <hr>
-      <p>Tired of big tech nonsense? Me too! I'm doing this for fun, not for shareholder profit.</p>
+      <p>I'm doing this for fun, not for shareholder profit.</p>
     </div>
 
     <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(circle, rgba(255,170,170,1) 0%, rgba(255,221,170,1) 20%, rgba(255,255,170,1) 40%, rgba(170,255,170,1) 60%, rgba(170,170,255,1) 80%, rgba(255,170,255,1) 100%);">
@@ -236,6 +269,33 @@ title: Happy Coding
       <p><a href="/license.html">Happy Coding is open source.</a> You can use anything you find on Happy Coding, as long as you link back here.</p>
     </div>
 
+  </div>
+
+  <hr>
+
+  <p style="font-size:25px; margin-bottom:25px;">If that resonates with you, I'd love to hear from you on the <a href="https://forum.happycoding.io">Happy Coding Forum</a>!</p>
+
+</div> <!-- end section content -->
+
+<div class="section content" id="tutorials">
+
+  <h2>Featured Tutorials</h2>
+
+  <hr>
+
+  <p style="font-size:25px;">Code along with some of my favorite tutorials!</p>
+
+  <hr>
+
+  <div class="thumbnail-link-container">
+    {% include url-thumbnail.html url="/tutorials/p5js/creating-classes/bonsai-tree" %}
+    {% include url-thumbnail.html url="/tutorials/p5js/images/poorly-coded-cats" %}
+    {% include url-thumbnail.html url="/tutorials/java-server/secure-password-storage" %}
+    {% include url-thumbnail.html url="/tutorials/javascript/libraries/simple-weather-map" %}
+    {% include url-thumbnail.html url="/tutorials/processing/images/pixel-spinner" %}
+    {% include url-thumbnail.html url="/tutorials/processing/images/mars-perseverance-image-colorizer" %}
+    {% include url-thumbnail.html url="/tutorials/processing/for-loops/spiral" %}
+    {% include url-thumbnail.html url="/tutorials/java/libraries/mastodon4j" %}
   </div>
 
 </div> <!-- end section content -->
@@ -273,48 +333,23 @@ title: Happy Coding
 
 </div> <!-- end section content -->
 
-<div class="section content" id="new-tutorials-div" data-aos="fade-up" style="">
-
-  <style>
-    #new-tutorials-div img {
-      max-width: 100%;
-    }
-  </style>
-
-  <h2>New Tutorials</h2>
-
-  <hr>
-
-  {% for post in site.categories.tutorials limit:1 %}
-    {% include url-thumbnail.html url=post.url fullsize=true %}
-  {% endfor %}
-
-  <hr>
-
-  <style>
-    /* Hide the most recent post because it's shown big above. */
-    #recent-tutorials .tutorial-link-box:first-child {
-      display: none;
-    }
-  </style>
-
-  <div id="recent-tutorials" class="thumbnail-link-container">
-    {% include recent-posts.html posts=site.categories.tutorials count=9 %}
-  </div>
-</div> <!-- end section content -->
-
 <div class="section content" data-aos="fade-up">
 
   <h2>Happy Viewing</h2>
 
   <hr>
+
   <p style="font-size: 25px;">Check out the newest Happy Coding video!</p>
+
+  <hr>
 
   <div style="width: 100%; border: 5px solid #323232;">
     <div style="padding-top: 56.25%; position: relative;">
       <iframe style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;" height=720 width=1280 src="https://www.youtube.com/embed/videoseries?list=PLty5Qt07EFvCRZ79uzn7ofzwPdlKpLH4h" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
+
+  <hr>
 
   <p style="font-size:50px;"><a href="https://www.youtube.com/playlist?list=PLty5Qt07EFvCRZ79uzn7ofzwPdlKpLH4h">Watch the Happy Coding playlist here.</a></p>
 </div> <!-- end section content -->
@@ -345,9 +380,13 @@ title: Happy Coding
     {% endfor %}
   </div>
 
-  <hr>
+</div> <!-- end section content -->
+
+<div class="section content" data-aos="fade-up">
 
   <h2>Popular Blog Posts</h2>
+
+  <hr>
 
   <div class="thumbnail-link-container">
     {% include url-thumbnail.html url="/blog/locus-of-control-learned-helplessness" %}
@@ -362,7 +401,7 @@ title: Happy Coding
 
   <hr>
 
-  <p style="font-size:25px;"><a href="/blog">Read more blog posts here!</a></p>
+  <p style="font-size:50px;"><a href="/blog">Read more blog posts here!</a></p>
 
 </div> <!-- end section content -->
 
