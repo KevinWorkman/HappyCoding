@@ -1,26 +1,38 @@
 function setRandomP5Background() {
-  let isPlaying = true;
+  // let isPlaying = true;
+
+  let originalWidth;
+  let originalHeight;
 
   function setupBackgroundSketch(sketch){
-    const canvas = sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
+    const canvas = sketch.createCanvas(sketch.windowWidth, sketch.windowHeight + 100);
+    originalWidth = sketch.width;
+    originalHeight = sketch.height;
+
     canvas.id('background-sketch');
     canvas.parent('body');
 
     sketch.background('#fbfbfb');
 
     sketch.windowResized = function() {
+
+    if(sketch.abs(sketch.windowWidth - originalWidth) > 100 ||
+       sketch.abs(sketch.windowHeight - originalHeight) > 100) {
       // Add extra height because mobile browsers move the bg when scrolling up.
       sketch.resizeCanvas(sketch.windowWidth, sketch.windowHeight + 100, false);
+      originalWidth = sketch.width;
+      originalHeight = sketch.height;
     }
+  }
 
-    sketch.mouseClicked = function(){
-      isPlaying = !isPlaying;
-      if(isPlaying) {
-        sketch.loop();
-      } else {
-        sketch.noLoop();
-      }
-    }
+    // sketch.mouseClicked = function(){
+    //   isPlaying = !isPlaying;
+    //   if(isPlaying) {
+    //     sketch.loop();
+    //   } else {
+    //     sketch.noLoop();
+    //   }
+    // }
   }
 
   function circles(sketch) {
@@ -101,4 +113,4 @@ function setRandomP5Background() {
   new p5(randomSketch);
 }
 
-//setRandomP5Background();
+setRandomP5Background();

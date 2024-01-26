@@ -72,9 +72,9 @@ function setRandomSocialLink() {
   imgElement.alt = alt;
 }
 
-window.onload = function() {
-  setRandomBackground();
-}
+// window.onload = function() {
+//   setRandomBackground();
+// }
 
 if(Modernizr.csstransitions){
 	setInterval(randomizeNavColor, 10000);
