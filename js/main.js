@@ -1,34 +1,3 @@
-const backgrounds = [
-	{img: "circles-1", code: "Circles.pde"},
-	{img: "diamond-circles-1", code: "DiamondCircles.pde"},
-	{img: "diamond-circles-2", code: "DiamondCircles.pde"},
-	{img: "diamond-circles-3", code: "DiamondCircles.pde"},
-	{img: "diamonds-1", code: "Diamonds.pde"},
-	{img: "diamonds-2", code: "Diamonds.pde"},
-	{img: "diagonal-1", code: "Diagonal.pde"},
-	{img: "diagonal-2", code: "Diagonal.pde"},
-	{img: "lines-1", code: "Lines.pde"},
-	{img: "random-walker-1", code: "RandomWalker.pde"},
-	{img: "rotated-squares-1", code: "RotatedSquares.pde"},
-	{img: "rotating-lines-1", code: "RotatingLines.pde"},
-	{img: "rotating-lines-2", code: "RotatingLines.pde"},
-	{img: "squares-1", code: "Squares.pde"},
-	{img: "squares-2", code: "Square.pde"},
-	{img: "squares-3", code: "Square.pde"},
-	{img: "squares-nested-1", code: "NestedSquares.pde"},
-	{img: "worms-1", code: "Worms.pde"},
-	{img: "worms-2", code: "Worms.pde"}
-];
-
-const backgroundObj = backgrounds[Math.floor(Math.random()*backgrounds.length)];
-
-function setRandomBackground(){
-	const backgroundUrl = "/images/backgrounds/" + backgroundObj.img + "-light.png";
-
-	document.getElementsByTagName("body")[0].style.backgroundImage = "url(" + backgroundUrl + ")";
-	document.querySelector("#background-link").innerHTML = "Like the background? Check out its <a href='/images/backgrounds/code/" + backgroundObj.code + "'>source code</a> or <a href='https://github.com/KevinWorkman/HappyCoding/wiki/Contributing-Backgrounds'>contribute your own background</a>!";
-}
-
 function randomizeNavColor(){
   const bgColor = 'rgb(' +
       randomInt(200, 255) + ', ' +
@@ -104,3 +73,7 @@ function printConsoleGreeting() {
 	console.log('If you found this message, come say hi on the Happy Coding forum! https://forum.happycoding.io');
 }
 printConsoleGreeting();
+
+function load() {
+	setRandomBackground();
+}
