@@ -1,9 +1,14 @@
 const backgrounds = [
-  {img: "diagonal-lines-blue-green.png", code: "https://editor.p5js.org/KevinWorkman/sketches/IkburmYPS"},
-  {img: "diagonal-lines-dark.png", code: "https://editor.p5js.org/KevinWorkman/sketches/IkburmYPS"},
+  {img: "diagonal-lines-black.png", code: "https://editor.p5js.org/KevinWorkman/sketches/IkburmYPS"},
+  {img: "diagonal-lines-green-blue.png", code: "https://editor.p5js.org/KevinWorkman/sketches/IkburmYPS"},
   {img: "diagonal-lines-gray.png", code: "https://editor.p5js.org/KevinWorkman/sketches/IkburmYPS"},
   {img: "diagonal-lines-rgb.png", code: "https://editor.p5js.org/KevinWorkman/sketches/IkburmYPS"},
 	{img: "vertical-lines-rgb.png", code: "https://editor.p5js.org/KevinWorkman/sketches/VaUz-dp0o"},
+  {img: "random-walker-blue.png", code: "https://editor.p5js.org/KevinWorkman/sketches/WaDzOi85M"},
+  {img: "random-walker-black.png", code: "https://editor.p5js.org/KevinWorkman/sketches/WaDzOi85M"},
+  {img: "random-walker-gray.png", code: "https://editor.p5js.org/KevinWorkman/sketches/WaDzOi85M"},
+  {img: "random-walker-green-blue.png", code: "https://editor.p5js.org/KevinWorkman/sketches/WaDzOi85M"},
+  {img: "random-walker-red-blue.png", code: "https://editor.p5js.org/KevinWorkman/sketches/WaDzOi85M"},
   {img: "random-walker-rgb.png", code: "https://editor.p5js.org/KevinWorkman/sketches/WaDzOi85M"},
 ];
 
