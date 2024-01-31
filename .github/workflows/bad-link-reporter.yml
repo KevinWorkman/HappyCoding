@@ -5,7 +5,7 @@ name: Bad Link Reporter
 
 env:
   # Files examined by the workflow:
-  files: '*.md,*.html'
+  files: '*.md'
 
   # Label assigned to issues created by this workflow:
   labels: bug
@@ -24,7 +24,7 @@ on:
     # 4:00 AM on Mondays
     - cron: 00 04 * * 1
   push:
-    paths: ['**.md', '**.html']
+    paths: ['**.md']
   workflow_dispatch:
 
 # The rest of this file should be left as-is ─────────────────────────
