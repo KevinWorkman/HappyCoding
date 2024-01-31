@@ -5,6 +5,10 @@
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="p5.js Tutorials" url="/tutorials/p5js" %}
   </div>
+{%- elsif page.url contains "/tutorials/html" %}
+  <div class="left-nav-section">
+    {% include tutorial-section-left-nav-section.html title="HTML Tutorials" url="/tutorials/html" %}
+  </div>
 {%- elsif page.url contains "/tutorials/javascript" %}
   <div class="left-nav-section">
     {% include tutorial-section-left-nav-section.html title="JavaScript Tutorials" url="/tutorials/javascript" %}
@@ -59,6 +63,9 @@
     <ul>
       <li>
         {% include post-url.html url="/tutorials/p5js" %}
+      </li>
+      <li>
+        {% include post-url.html url="/tutorials/html" %}
       </li>
       <li>
         {% include post-url.html url="/tutorials/javascript" %}
