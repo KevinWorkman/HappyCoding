@@ -1,0 +1,46 @@
+# GitHub Actions workflow for Baler (BAd Link reportER) version 2.0.1.
+# https://github.com/marketplace/actions/baler-bad-link-reporter
+
+name: Bad Link Reporter
+
+env:
+  # Files examined by the workflow:
+  files: '*.md,*.html'
+
+  # Label assigned to issues created by this workflow:
+  labels: bug
+
+  # Number of previous issues to check for duplicate reports.
+  lookback: 100
+
+  # Time (sec) to wait on an unresponsive URL before trying once more.
+  timeout: 15
+
+  # Optional file containing a list of URLs to ignore, one per line:
+  ignore: .github/workflows/ignored-urls.txt
+
+on:
+  schedule:
+    # 4:00 AM on Mondays
+    - cron: 00 04 * * 1
+  push:
+    paths: ['**.md', '**.html']
+  workflow_dispatch:
+
+# The rest of this file should be left as-is ─────────────────────────
+
+run-name: Test links in Markdown files
+jobs:
+  Baler:
+    name: Link checker and reporter
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: caltechlibrary/baler@v2
+        with:
+          files:    ${{github.event.inputs.files    || env.files}}
+          labels:   ${{github.event.inputs.labels   || env.labels}}
+          ignore:   ${{github.event.inputs.ignore   || env.ignore}}
+          timeout:  ${{github.event.inputs.timeout  || env.timeout}}
+          lookback: ${{github.event.inputs.lookback || env.lookback}}
