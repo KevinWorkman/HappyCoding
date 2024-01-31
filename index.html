@@ -3,7 +3,6 @@ layout: body
 title: Happy Coding
 ---
 
-
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -99,18 +98,15 @@ title: Happy Coding
     setTimeout(animateHappyCodingOut, 2000);
   }
 
-  function load() {
+  function loadHome() {
+    // Setting window.onload overwrites body onload, so call load() here.
+    load();
 
     setTimeout(animateHappyCodingOut, 3000);
-
     AOS.init({});
   }
-
-  window.onload = load;
-
+  window.onload = loadHome;
 </script>
-
-<script src="https://forum.happycoding.io/javascripts/embed-topics.js"></script>
 
 <div class="section content" id="tutorials">
 
@@ -299,6 +295,8 @@ title: Happy Coding
   </div>
 
 </div> <!-- end section content -->
+
+<script src="https://forum.happycoding.io/javascripts/embed-topics.js"></script>
 
 <div class="section content" data-aos="fade-up" style="text-align:center;">
 
