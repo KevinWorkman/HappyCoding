@@ -1,165 +1,496 @@
 ---
-layout: default
+layout: body
 title: Happy Coding
-meta-title: Happy Coding
-meta-description: HappyCoding.io is a collection of coding tutorials, and a community of folks just like you learning how to code.
 ---
 
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <style>
-  #left-nav {
-    position: sticky;
-    top: 50px;
+  body {
+    /* Fix bug in AOS that adds margins for fade-left items. */
+    overflow-x: hidden;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  #sections {
+    width: 100%;
+  }
+
+  .section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+
+    box-sizing: border-box;
+  }
+
+  .tutorial-link-box {
+    background-color:#fff6;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'HappyCoding', monospace;
+    font-size:75px;
+    text-align:center;
+    margin: 0;
+  }
+
+  p {
+    margin: 15px 0;
+  }
+
+  hr {
+    width: 95%;
+    height: 5px;
+    color: #323232;
+    background-color: #323232;
+  }
+
+  #tutorials .tutorial-link-box .title {
+    font-weight: bold;
+  }
+
+  #happy-coding-animation {
+    display: none;
+  }
+
+  @media screen and (min-width: 1090px) {
+    #happy-coding-animation {
+      display: block;
+    }
   }
 </style>
 
-<!-- From default.html layout: -->
-<!-- <div class="section content"> -->
-  <div class="jumbotron">
+<script>
+  function animateHappyCodingOut() {
+    const codingSpan = document.getElementById('coding-span');
+    codingSpan.style.color = 'transparent';
+    setTimeout(animateHappyCodingIn, 500);
+  }
 
-  	<h1>Learn to code!</h1>
+  let prevWord = 'Coding';
+  function animateHappyCodingIn() {
+    const words = ['Coding', 'Arting', 'Building', 'Changing', 'Compiling', 'Composing', 'Computing', 'Creating', 'Designing', 'Discovering', 'Doing', 'Finding', 'Generating', 'Hacking', 'Imagining', 'Inventing', 'Learning', 'Making', 'Nerding', 'Programming', 'Starting',];
 
-    <p>Happy Coding is a collection of <a href="/tutorials">coding tutorials</a>, starting with the fundamentals of <a href="/tutorials/p5js">creative coding</a> and leading to advanced topics like <a href="/tutorials/java-server">server-side coding</a>, <a href="/tutorials/android">Android development</a>, and <a href="/tutorials/how-to/interview">technical interviewing</a>.</p>
+    let word;
+    do {
+      word = words[Math.floor(words.length * Math.random())];
+    } while (word == prevWord);
 
-    <p>I believe the internet can be <strong>better</strong> than what the big tech companies have turned it into. Happy Coding is my attempt to share my knowledge, with these promises:</p>
+    prevWord = word;
 
-    <ul style="list-style:none; font-size:24px;">
-      <li style="font-size:24px;">🙅‍♂️ No annoying ads</li>
-      <li style="font-size:24px;">🎉 No desperate popups begging to show notifications</li>
-      <li style="font-size:24px;">🪤 No clickbait</li>
-    </ul>
+    const codingSpan = document.getElementById('coding-span');
+    codingSpan.innerText = word;
 
-   <p>Happy Coding is also a <a href="https://forum.happycoding.io">community</a> of people learning how to code. So if you're stuck on something or have a question, come say "hello world" on the <a href="https://forum.happycoding.io">forum</a>!</p>
+    codingSpan.style.color = '#323232';
 
-  </div> <!-- end jumbotron -->
+    setTimeout(animateHappyCodingOut, 2000);
+  }
+
+  function load() {
+
+    setTimeout(animateHappyCodingOut, 3000);
+
+    AOS.init({});
+  }
+
+  window.onload = load;
+
+</script>
+
+<script src="https://forum.happycoding.io/javascripts/embed-topics.js"></script>
+
+<div class="section content" id="tutorials">
+
+  <h2>Learn to code!</h2>
+
+  <hr>
+
+  <p style="font-size:25px; text-align:center; background-color:#fff6;">Code is more than just ones and zeroes. Code is a <strong>creative process</strong> that lets you express yourself, reach other people, generate art, and make stuff in new ways every day.</p>
+
+  <hr>
+
+  <div class="thumbnail-link-container">
+    {% include url-thumbnail.html url="/tutorials/how-to/learn-coding" %}
+    {% include url-thumbnail.html url="/tutorials/p5js/" %}
+    {% include url-thumbnail.html url="/tutorials/javascript/" %}
+    {% include url-thumbnail.html url="/tutorials/processing/" %}
+    {% include url-thumbnail.html url="/tutorials/java/" %}
+    {% include url-thumbnail.html url="/tutorials/java-server/" %}
+    {% include url-thumbnail.html url="/tutorials/google-cloud/" %}
+    {% include url-thumbnail.html url="/tutorials/android/" %}
+    {% include url-thumbnail.html url="/tutorials/libgdx/" %}
+    {% include url-thumbnail.html url="/tutorials/how-to/" %}
+    {% include url-thumbnail.html url="/tutorials/interviewing/" %}
+  </div>
+
 </div> <!-- end section content -->
 
-<div class="section content">
-  <div class="jumbotron">
-	  <p>Code is more than just ones and zeroes. Code is a <strong>creative process</strong> that lets you express yourself, reach other people, generate art, and make stuff in new ways every day.</p>
+<div data-aos="fade-up" class="section content" id="happy-coding-animation">
+  <h2 style="font-size:100px; text-align:left;">
+    Happy
+    <span id="coding-span" style="display: inline-block; transition: color 500ms ease-in-out">Coding</span>
+  </h2>
+</div>
 
-    <h2>Getting Started</h2>
+<div data-aos="fade-up" class="section content" style="text-align: center;">
 
-    <p>Are you new to coding? Start here! Dive into creative coding with p5.js.</p>
+  <h2 style="font-size:75px; margin-bottom:0; font-family: 'HappyCoding', monospace;">Who are you?</h2>
 
-    {% include url-thumbnail.html url="/tutorials/p5js/" fullsize=true %}
+  <hr style="width: 95%;">
 
-    <hr>
+  <p style="font-size:25px;">Hi! I'm <a href="https://kevinworkman.com">Kevin</a>!</p>
 
-    <p>Here are some other tutorials to help you get started:</p>
+  <img src="/images/pixel-kevin.png"
+       alt="Pixelated Kevin and Stanley"
+       style="width: 50%; height:fit-content; border: 5px solid #323232;" />
 
-    <div class="thumbnail-link-container">
-      {% include url-thumbnail.html url="/tutorials/how-to/learn-coding" %}
-      {% include url-thumbnail.html url="/tutorials/processing/" %}
+  <p style="font-size:25px;">By day I'm a software engineer at <strong><span style="color:#4285f4">G</span><span style="color:#db4437">o</span><span style="color:#f4b400">o</span><span style="color:#4285f4">g</span><span style="color:#0f9d58">l</span><span style="color:#db4437">e</span></strong>, and by night I teach at <a href="https://www.millersville.edu">Millersville University</a>.
+
+  <p style="font-size:25px;">By later night I maintain this site. I do this for free, in my spare time, just for fun.</p>
+
+  <p style="font-size:25px;"><strong>I'm a person, not a company!</strong></p>
+
+  <p style="font-size:25px;">I support diversity in tech, and I believe I have a responsibility to open the door for new coders- especially those who feel unwelcome, or who might not know how fun it is. Happy Coding is my attempt to show new folks a path from the fundamentals of coding, to every concept I've learned about so far.</p>
+
+  <p style="font-size:25px;">I love talking about all of this stuff, so please come say "hello world" on the <a href="https://forum.happycoding.io">forum</a>!</p>
+
+</div> <!-- end section content -->
+
+<div class="section content" id="new-tutorials-div" data-aos="fade-up" style="">
+
+  <style>
+    #new-tutorials-div img {
+      max-width: 100%;
+    }
+  </style>
+
+  <h2>New Tutorials</h2>
+
+  <hr>
+    <p style="font-size:25px;">Check out the newest tutorials, hot off the press!</p>
+  <hr>
+
+  {% for post in site.categories.tutorials limit:1 %}
+    {% include url-thumbnail.html url=post.url fullsize=true %}
+  {% endfor %}
+
+  <hr>
+
+  <style>
+    /* Hide the most recent post because it's shown big above. */
+    #recent-tutorials .tutorial-link-box:first-child {
+      display: none;
+    }
+  </style>
+
+  <div id="recent-tutorials" class="thumbnail-link-container">
+    {% include recent-posts.html posts=site.categories.tutorials count=9 %}
+  </div>
+</div> <!-- end section content -->
+
+<div class="section content" data-aos="fade-up" style="justify-content: space-evenly;">
+
+  <h2>Happier Interneting</h2>
+
+  <style>
+    .promise-div {
+      border: 5px solid #323232;
+      padding: 5px;
+      background:#fbfbfb;
+      margin-bottom:50px;
+      width:300px;
+      text-align:center;
+    }
+
+    .promise-div p {
+      background-color: #fbfbfb66;
+    }
+  </style>
+
+  <hr>
+
+  <p style="font-size:25px; margin-bottom:25px;">I believe the internet can be <strong>better</strong> than what big tech companies have turned it into. Happy Coding is my attempt to create the kind of website I wish I saw more of: a place for people to learn and connect without living in the shadow of a big tech company.</p>
+
+  <hr style="margin-bottom: 25px;">
+
+  <div style="font-size:25px; width: 100%; display:flex; flex-wrap: wrap; justify-content: space-around;">
+    <div data-aos="fade-right" class="promise-div" style="background: radial-gradient(#fbfbfb, #ffaaaa);">
+      <h3>No annoying ads</h3>
+      <hr>
+      <p>Happy Coding is ad-free!</p>
     </div>
 
-    <hr>
-
-    <p><a href="/tutorials">Check out all of the tutorials here!</a></p>
-
-  </div> <!-- end jumbotron -->
-</div> <!-- end section content -->
-
-<div class="section content">
-  <div class="jumbotron">
-
-    <h2>Who are you?</h2>
-
-    <img src="/images/pixel-kevin.png"
-         alt="Pixelated Kevin and Stanley"
-         style="border: thin solid #323232;" />
-
-    <p>Hi! I'm <a href="https://kevinworkman.com">Kevin</a>!</p>
-
-    <p>By day I'm a software engineer at Google, and by night I teach at <a href="https://www.millersville.edu">Millersville University</a>.
-
-    <p>By later night I maintain this site, where I post coding <a href="/tutorials">tutorials</a> and <a href="/blog">other nerdy ramblings</a>. I do this for free, in my spare time, just for fun. I'm a person, not a company!</p>
-
-    <p>I support diversity in tech, and I believe I have a responsibility to open the door for new coders- especially those who feel unwelcome, or who might not know how fun it is. Happy Coding is my attempt to show new folks a path from the fundamentals of coding, to every concept I've learned about so far.</p>
-
-    <p>I love talking about all of this stuff, so please come say "hello world" on the <a href="https://forum.happycoding.io">forum</a>!</p>
-
-  </div> <!-- end jumbotron -->
-</div> <!-- end section content -->
-
-<div class="section content">
-  <div class="jumbotron">
-
-    <h2>Newest Video</h2>
-
-    <iframe width="600" height="350" style="width:100%" src="https://www.youtube.com/embed/videoseries?list=PLty5Qt07EFvCRZ79uzn7ofzwPdlKpLH4h" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-  </div> <!-- end jumbotron -->
-</div> <!-- end section content -->
-
-<div class="section content">
-  <div class="jumbotron">
-
-    <h2>New Tutorials</h2>
-
-    <div class="thumbnail-link-container">
-      {% include recent-posts.html posts=site.categories.tutorials count=6 %}
+    <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(#fbfbfb, #ffddaa);">
+      <h3>No desperate popups</h3>
+      <hr>
+      <p>Why do websites want to show notifications anyway?</p>
     </div>
 
-  </div> <!-- end jumbotron -->
+    <div data-aos="fade-left" class="promise-div" style="background: radial-gradient(#fbfbfb, #ffffaa);">
+      <h3>No clickbait</h3>
+      <hr>
+      <p>No shady SEO, no dark patterns, no engagement hacks.</p>
+    </div>
+
+    <div data-aos="fade-right" class="promise-div" style="background: radial-gradient(#fbfbfb, #aaffaa);">
+      <h3>Human content</h3>
+      <hr>
+      <p>Every tutorial and article is written by a real life human: me!</p>
+    </div>
+
+    <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(#fbfbfb, lightblue);">
+      <h3>Authenticity</h3>
+      <hr>
+      <p>I post about stuff I'm genuinely interested in, not what I think will get clicks.</p>
+    </div>
+
+    <div data-aos="fade-left" class="promise-div" style="background: radial-gradient(#fbfbfb, violet);">
+      <h3>Small tech</h3>
+      <hr>
+      <p>I'm doing this for fun, not for shareholder profit.</p>
+    </div>
+
+    <div data-aos="fade-up" class="promise-div" style="background: radial-gradient(circle, rgba(255,170,170,1) 0%, rgba(255,221,170,1) 20%, rgba(255,255,170,1) 40%, rgba(170,255,170,1) 60%, rgba(170,170,255,1) 80%, rgba(255,170,255,1) 100%);">
+      <h3>Open Source</h3>
+      <hr>
+      <p><a href="/license.html">Happy Coding is open source.</a> You can use anything you find on Happy Coding, as long as you link back here.</p>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <p style="font-size:25px; margin-bottom:25px;">If that resonates with you, I'd love to hear from you on the <a href="https://forum.happycoding.io">Happy Coding Forum</a>!</p>
+
 </div> <!-- end section content -->
 
-<div class="section content">
-  <div class="jumbotron">
+<div class="section content" id="tutorials" data-aos="fade-up">
 
-    <h2>Featured Post</h2>
+  <h2>Featured Tutorials</h2>
 
-    {% include url-thumbnail.html url="/gallery/arc-scribbler" fullsize=true %}
+  <hr>
 
-  </div> <!-- end jumbotron -->
+  <p style="font-size:25px;">Code along with some of my favorite tutorials!</p>
+
+  <hr>
+
+  <div class="thumbnail-link-container">
+    {% include url-thumbnail.html url="/tutorials/p5js/creating-classes/bonsai-tree" %}
+    {% include url-thumbnail.html url="/tutorials/p5js/images/poorly-coded-cats" %}
+    {% include url-thumbnail.html url="/tutorials/java-server/secure-password-storage" %}
+    {% include url-thumbnail.html url="/tutorials/javascript/libraries/simple-weather-map" %}
+    {% include url-thumbnail.html url="/tutorials/processing/images/pixel-spinner" %}
+    {% include url-thumbnail.html url="/tutorials/processing/images/mars-perseverance-image-colorizer" %}
+    {% include url-thumbnail.html url="/tutorials/processing/for-loops/spiral" %}
+    {% include url-thumbnail.html url="/tutorials/java/libraries/mastodon4j" %}
+  </div>
+
 </div> <!-- end section content -->
 
-<div class="section content">
-  <div class="jumbotron">
+<div class="section content" data-aos="fade-up" style="text-align:center;">
 
-    <h2>Latest Blog Post</h2>
+  <h2>Happy Coders</h2>
 
+  <hr>
+
+  <p style="font-size:25px; background-color: #fbfbfb;">Most importantly, Happy Coding is a <strong><a href="https://forum.happycoding.io">community</a></strong> of people learning and creating together.</p>
+
+  <p style="font-size:25px; background-color: #fbfbfb;">Here are a few recent posts from Happy Coders:</p>
+
+  <hr>
+
+  <style>
+    d-topics-list {
+      display: block;
+      width: 100%;
+    }
+
+    d-topics-list iframe {
+      width: 100%;
+    }
+  </style>
+
+  <d-topics-list discourse-url="https://forum.happycoding.io" per-page="7" template="complete"></d-topics-list>
+
+  <hr>
+
+  <p style="font-size:25px; background-color: #fbfbfb; padding: 10px;">
+     If you're stuck on something, have a question, or just want to say hi, <br> <strong><a href="https://forum.happycoding.io">come say "hello world" on the Happy Coding forum!</a></strong>
+  </p>
+
+</div> <!-- end section content -->
+
+<div class="section content" data-aos="fade-up">
+
+  <h2>Happy Viewing</h2>
+
+  <hr>
+
+  <p style="font-size: 25px;">Check out the newest Happy Coding video!</p>
+
+  <hr>
+
+  <div style="width: 100%; border: 5px solid #323232;">
+    <div style="padding-top: 56.25%; position: relative;">
+      <iframe style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;" height=720 width=1280 src="https://www.youtube.com/embed/videoseries?list=PLty5Qt07EFvCRZ79uzn7ofzwPdlKpLH4h" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <hr>
+
+  <p style="font-size:50px;"><a href="https://www.youtube.com/playlist?list=PLty5Qt07EFvCRZ79uzn7ofzwPdlKpLH4h">Watch the Happy Coding playlist here.</a></p>
+</div> <!-- end section content -->
+
+<div class="section content" data-aos="fade-up" style="">
+
+  <h2>Happy Blogging</h2>
+
+  <hr>
+
+  <p style="font-size:25px;">I post devlogs, reflections on the tech industry, and other nerdiness on the <a href="/blog">Happy Coding Blog</a>. Here's the latest post!</p>
+
+  <hr>
+
+  <style>
+    #newest-blog .title {
+      font-size: 50px;
+    }
+
+    #newest-blog p {
+      font-size: 25px;
+    }
+  </style>
+
+  <div id="newest-blog">
     {% for post in site.categories.blog limit:1 %}
-      <a href="{{ post.url }}">
-        <h2>{{ post.title }}</h2>
-      </a>
-      <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-      <a href="{{ post.url }}">
-        <img class="blog-thumbnail"
-             src="{{ post.meta-image }}"
-             alt="{{ post.title }}"
-             style="width: 600px; border: thin solid #323232;" />
-      </a>
-      <p>{{ post.meta-description }}</p>
-      <p>(<a href="{{ post.url }}">Read the rest here.</a>)</p>
+      {% include url-thumbnail.html url=post.url fullsize=true %}
     {% endfor %}
+  </div>
 
-    <hr>
-
-    <h2>Popular Blog Posts</h2>
-
-    <div class="thumbnail-link-container">
-      {% for post in site.categories.blog %}
-        {% if post.tags contains "favorite" %}
-          {% include url-thumbnail.html url=post.url showDate=true %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <hr>
-
-    <p><a href="/blog">Read more blog posts here!</a></p>
-
-  </div> <!-- end jumbotron -->
 </div> <!-- end section content -->
 
-<div class="section content">
+<div class="section content" data-aos="fade-up">
 
-  <h2>Happy Arting</h2>
+  <h2>Popular Blog Posts</h2>
 
-  <p>You can also check out creative coding prints on the <a href="https://www.etsy.com/shop/HappyCoding">Happy Coding Etsy</a>!</p>
+  <hr>
 
-  <div id="etsy-listings"></div>
-  <script src="/js/etsy-listings.js"></script>
+  <div class="thumbnail-link-container">
+    {% include url-thumbnail.html url="/blog/locus-of-control-learned-helplessness" %}
+    {% include url-thumbnail.html url="/blog/ten-years" %}
+    {% include url-thumbnail.html url="/blog/my-quarantine" %}
+    {% include url-thumbnail.html url="/blog/checking-my-privilege" %}
+    {% include url-thumbnail.html url="/blog/ludum-memories" %}
+    {% include url-thumbnail.html url="/blog/black-lives-matter-to-me" %}
+    {% include url-thumbnail.html url="/blog/subjective-side-of-code" %}
+    {% include url-thumbnail.html url="/blog/quadrilateral-of-creativity" %}
+  </div>
 
-<!-- From default.html layout: -->
-<!-- </div> <!-- end section content -->
+  <hr>
+
+  <p style="font-size:50px;"><a href="/blog">Read more blog posts here!</a></p>
+
+</div> <!-- end section content -->
+
+<div class="section content" data-aos="fade-up">
+
+  <h2>Happy Teaching</h2>
+
+  <hr>
+
+  <p style="font-size:25px;">I love hearing from teachers who use Happy Coding in their classrooms. I'm a teacher myself, and I tend to use Happy Coding as the textbook for the classes I teach.</p>
+
+  <p style="font-size:25px;">Check out the <a href="/teaching">teaching section</a> for more info.</p>
+
+  <p style="font-size:25px;">If you're a teacher thinking about using Happy Coding, I'd love to <a href="https://forum.happycoding.io">hear from you!</a></p>
+
+</div> <!-- end section content -->
+
+<div class="section content" data-aos="fade-up" style="">
+
+  <h2>Support Happy Coding</h2>
+
+  <hr>
+
+  <p style="font-size:25px;">If you want to support Happy Coding, consider purchasing some merch!</p>
+
+  <div id="etsy-listings">
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/1135182793/happy-coding-mug">
+        <img src="https://i.etsystatic.com/19391223/r/il/754406/3518066892/il_794xN.3518066892_fnv1.jpg">
+      </a>
+      <a href="https://www.etsy.com/listing/1135182793/happy-coding-mug">Happy Coding Mug</a>
+    </div>
+
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/1064758407/happy-coding-sticker-dark">
+        <img src="https://i.etsystatic.com/19391223/r/il/40fe88/3301449255/il_794xN.3301449255_dtnq.jpg">
+      </a>
+      <a href="https://www.etsy.com/listing/1064758407/happy-coding-sticker-dark">Happy Coding Sticker - Dark</a>
+    </div>
+
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/1064754295/happy-coding-sticker-light">
+        <img src="https://i.etsystatic.com/19391223/r/il/8e706d/3301436503/il_794xN.3301436503_s5y0.jpg">
+      </a>
+      <a href="https://www.etsy.com/listing/1064754295/happy-coding-sticker-light">Happy Coding Sticker - Dark</a>
+    </div>
+
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/1052400223/happy-coding-t-shirt">
+        <img src="https://i.etsystatic.com/19391223/r/il/67e924/3207997284/il_794xN.3207997284_8az4.jpg">
+      </a>
+      <a href="https://www.etsy.com/listing/1052400223/happy-coding-t-shirt">Happy Coding Shirt</a>
+    </div>
+  </div>
+
+  <p style="font-size:25px;">You can also check out creative coding prints on the <a href="https://www.etsy.com/shop/HappyCoding">Happy Coding Etsy</a>!</p>
+
+  <div id="etsy-listings">
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/679045433/random-walker-algorithm-art-print-poster">
+        <img src="https://i.etsystatic.com/19391223/r/il/f6f416/1763090326/il_640xN.1763090326_1c48.jpg" style="width: 163px; height:163px;">
+      </a>
+      <a href="https://www.etsy.com/listing/679045433/random-walker-algorithm-art-print-poster">Random Walker Art Print</a>
+    </div>
+
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/805018649/colorful-spiral-poster-algorithmically">
+        <img src="https://i.etsystatic.com/19391223/r/il/886bee/2297102006/il_794xN.2297102006_m9it.jpg">
+      </a>
+      <a href="https://www.etsy.com/listing/805018649/colorful-spiral-poster-algorithmically">Spiral Art Print</a>
+    </div>
+
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/777499438/finding-nemo-all-frames-movie-poster">
+        <img src="https://i.etsystatic.com/19391223/r/il/4b8e12/2293650867/il_924xN.2293650867_bdu5.jpg" style="width: 163px; height:163px;">
+      </a>
+      <a href="https://www.etsy.com/listing/777499438/finding-nemo-all-frames-movie-poster">Finding Nemo All Frames Movie Poster</a>
+    </div>
+
+    <div class="etsy-thumbnail">
+      <a href="https://www.etsy.com/listing/845411511/taylor-swift-folklore-album-song">
+        <img src="https://i.etsystatic.com/19391223/r/il/1c87e6/2482944205/il_640xN.2482944205_77pa.jpg" style="width: 163px; height:163px;">
+      </a>
+      <a href="https://www.etsy.com/listing/845411511/taylor-swift-folklore-album-song">Taylor Swift - folklore - Album Song Visualization Poster</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <p style="font-size:25px;">The best way to support Happy Coding is by saying hi on the <a href="https://forum.happycoding.io">forum</a>!</p>
+
+</div> <!-- end section content -->
