@@ -41,14 +41,6 @@ function setRandomSocialLink() {
   imgElement.alt = alt;
 }
 
-// window.onload = function() {
-//   setRandomBackground();
-// }
-
-if(Modernizr.csstransitions){
-	setInterval(randomizeNavColor, 10000);
-}
-
 function printConsoleGreeting() {
 	// Use an ANSI escape code to set the color.
   const r = Math.floor(Math.random() * 255);
@@ -76,4 +68,8 @@ printConsoleGreeting();
 
 function load() {
 	setRandomBackground();
+
+  if(Modernizr.csstransitions){
+  	setInterval(randomizeNavColor, 10000);
+  }
 }
