@@ -167,7 +167,12 @@ nav {
   background-color: #fbfbfb;
   border: 5px solid #323232;
   padding: 25px;
-  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.left-nav-and-sections .section {
+  margin-top: 0;
 }
 
 #left-nav ul {
