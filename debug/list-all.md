@@ -1,6 +1,6 @@
 ---
 title: List All
-layout: default
+layout: left-and-right-navs
 ---
 
 Pages:

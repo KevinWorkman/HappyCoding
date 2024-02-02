@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Using Variables - Week 06
 thumbnail: /tutorials/processing/images/using-variables-7.png
 pixelate-thumbnail: false

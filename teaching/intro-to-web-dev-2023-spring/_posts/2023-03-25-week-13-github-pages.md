@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: GitHub Pages - Week 13
 thumbnail: /tutorials/html/images/github-pages-8.png
 tagline: Create your own webpage using GitHub Pages.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Intro to Creative Web Dev (Fall 2022)
 meta-title: Intro to Creative Web Dev (Fall 2022)
 meta-description: Welcome to Intro to Creative Web Dev!

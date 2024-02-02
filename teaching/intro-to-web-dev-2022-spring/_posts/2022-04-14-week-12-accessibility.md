@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Accessibility - Week 12
 thumbnail: /tutorials/html/images/accessibility-1.png
 pixelate-thumbnail: true

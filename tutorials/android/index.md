@@ -1,6 +1,6 @@
 ---
 title: Android Tutorials
-layout: default
+layout: left-and-right-navs
 thumbnail: /tutorials/android/images/hello-world-8.png
 categories: [tutorials, android]
 meta-title: Android Tutorials

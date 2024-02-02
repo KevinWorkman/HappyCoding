@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: JavaScript - Week 09
 thumbnail: /tutorials/javascript/images/js-1.png
 pixelate-thumbnail: true

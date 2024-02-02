@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: JavaScript Libraries - Week 13
 thumbnail: /tutorials/javascript/images/libraries-1.png
 pixelate-thumbnail: true

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Final Project
 thumbnail: /teaching/intro-to-web-dev-2022-spring/images/final-project/final-project.png
 pixelate-thumbnail: true

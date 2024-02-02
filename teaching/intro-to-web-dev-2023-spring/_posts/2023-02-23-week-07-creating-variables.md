@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Creating Variables - Week 07
 thumbnail: /tutorials/processing/images/creating-functions-7.png
 pixelate-thumbnail: false

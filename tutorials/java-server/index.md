@@ -1,6 +1,6 @@
 ---
 title: Server Tutorials
-layout: default
+layout: left-and-right-navs
 thumbnail: /tutorials/java-server/images/java-ee-1.png
 categories: [tutorials, java]
 meta-title: Java Server Tutorials

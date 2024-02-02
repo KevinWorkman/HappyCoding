@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: About
 ---
 

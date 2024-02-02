@@ -1,6 +1,6 @@
 ---
 title: p5.js Tutorials
-layout: default
+layout: left-and-right-navs
 thumbnail: /tutorials/p5js/images/hello-world-2.png
 categories: [tutorials, p5.js, javascript]
 meta-title: p5.js Tutorials

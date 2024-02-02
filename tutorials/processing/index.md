@@ -1,6 +1,6 @@
 ---
 title: Processing Tutorials
-layout: default
+layout: left-and-right-navs
 thumbnail: /tutorials/processing/images/processing-icon-small-1.png
 categories: [tutorials, processing]
 meta-title: Processing Tutorials

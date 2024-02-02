@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Animation - Week 05
 thumbnail: /tutorials/processing/images/animation-8.png
 pixelate-thumbnail: true

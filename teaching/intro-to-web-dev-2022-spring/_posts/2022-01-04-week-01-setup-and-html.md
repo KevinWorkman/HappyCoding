@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Setup and HTML - Week 01
 thumbnail: /tutorials/html/images/html-2.png
 tagline: Set up your environment and use HTML to create a webpage.

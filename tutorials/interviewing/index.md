@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Interviewing
 thumbnail: /tutorials/interviewing/images/interviewing-1.jpg
 tagline: What to expect and how to approach tech interviews.

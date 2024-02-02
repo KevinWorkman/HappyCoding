@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Tutorials
 meta-title: Tutorials
 meta-description: Learn how to code with HappyCoding.io!

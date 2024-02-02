@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: "CodePen"
 meta-title: About CodePen
 meta-description: Learn more about how HappyCoding.io uses CodePen!

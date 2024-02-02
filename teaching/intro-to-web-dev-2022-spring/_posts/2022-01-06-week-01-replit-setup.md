@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Replit Setup
 thumbnail: /teaching/intro-to-web-dev-2022-spring/images/week-01-setup-and-html/replit-setup.png
 pixelate-thumbnail: true

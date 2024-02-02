@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Nesting HTML Tags - Week 02
 thumbnail: /tutorials/html/images/html-3.png
 pixelate-thumbnail: true

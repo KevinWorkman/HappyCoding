@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Bootstrap - Week 10
 thumbnail: /tutorials/javascript/images/bootstrap-3.png
 pixelate-thumbnail: true

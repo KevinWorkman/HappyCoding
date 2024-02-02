@@ -1,6 +1,6 @@
 ---
 title: LibGDX Tutorials
-layout: default
+layout: left-and-right-navs
 thumbnail: /tutorials/libgdx/images/libgdx-1.png
 categories: [tutorials, libgdx]
 meta-title: LibGDX Tutorials

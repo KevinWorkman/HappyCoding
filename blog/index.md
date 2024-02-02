@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Blog
 meta-title: Happy Coding Blog
 meta-description: Blogs about Happy Coding and random stuff I'm thinking about.

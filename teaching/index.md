@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-and-right-navs
 title: Teaching
 meta-title: Teaching with HappyCoding.io
 meta-description: Ideas for using Happy Coding in a classroom.

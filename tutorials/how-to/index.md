@@ -1,6 +1,6 @@
 ---
 title: How-To Guides
-layout: default
+layout: left-and-right-navs
 thumbnail: /tutorials/how-to/images/how-to-1.png
 categories: [tutorials, how-to]
 meta-title: How-To Guides
