@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: New Nav Font
 meta-title: New Nav Font
 meta-description: The trials and tribulations of aligning text.

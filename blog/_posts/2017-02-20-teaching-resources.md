@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Teaching Resources
 meta-title: Teaching
 meta-description: Happy Coding now has teaching resources!

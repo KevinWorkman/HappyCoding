@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Feliz Left Nav-idad
 meta-title: Feliz Left Nav-idad
 meta-description: Here's a list of everything I googled while I added a left nav to the site.

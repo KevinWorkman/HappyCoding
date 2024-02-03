@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Redesigning Happy Coding
 meta-title: Redesigning Happy Coding
 meta-description: Brainstorming about a potential redesign.

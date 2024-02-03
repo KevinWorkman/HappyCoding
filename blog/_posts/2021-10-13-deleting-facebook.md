@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Deleting Facebook
 meta-title: Deleting Facebook
 meta-description: I'm deleting the Happy Coding Facebook page!

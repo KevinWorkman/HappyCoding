@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Server Tutorials
 meta-title: Server Tutorials
 meta-description: Happy Coding now has server tutorials!

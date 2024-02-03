@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: The Subjective Side of Code
 meta-title: The Subjective Side of Code
 meta-description: "You might be surprised to hear that a lot of decisions about code come down to a subjective, opinionated question: how does this code make you feel?"

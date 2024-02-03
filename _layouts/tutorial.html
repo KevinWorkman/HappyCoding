@@ -8,6 +8,15 @@ show_hero_image: true
 
 <h1>{{ page.title }}</h1>
 
+<hr>
+
+{% if page.updated %}
+<p class="date">Created on {{ page.date | date: "%B %-d, %Y" }}
+<br>Updated on {{ page.updated | date: "%B %-d, %Y" }}</p>
+{% else %}
+<p class="date">{{ page.date | date: "%B %-d, %Y" }}</p>
+{% endif %}
+
 {%- for tag in page.tags %}
   <a href="/tags/?tag={{tag}}" class="label label-default">{{tag}}</a>
 {%- endfor -%}

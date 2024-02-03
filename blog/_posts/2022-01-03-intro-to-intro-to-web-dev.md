@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Intro to Intro to Web Development
 meta-title: Intro to Intro to Web Development
 meta-description: I got a teaching job! Here are some ramblings about how the class might work. Feedback is appreciated!

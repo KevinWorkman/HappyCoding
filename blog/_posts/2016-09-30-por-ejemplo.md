@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Por Ejemplo
 slug: por-ejemplo
 meta-title: Por Ejemplo

@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: New and Improved p5.js and Processing Tutorials
 meta-title: New and Improved p5.js and Processing Tutorials
 meta-description: Happy Coding Now Has New and Improved p5.js and Processing Tutorials

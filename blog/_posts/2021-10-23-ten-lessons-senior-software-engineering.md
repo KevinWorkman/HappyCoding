@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Ten Lessons from "Senior" Software Engineering
 meta-title: Ten Lessons from "Senior" Software Engineering
 meta-description: Turns out software engineering is more than writing code.

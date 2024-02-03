@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Background Info
 slug: background-info
 meta-title: Background Info

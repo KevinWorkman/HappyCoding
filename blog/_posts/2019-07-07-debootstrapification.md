@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Debootstrapification
 meta-title: Debootstrapification
 meta-description: Lose 24,503 lines of code with this one weird trick!

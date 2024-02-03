@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: "Hello World"
 slug: hello-world
 meta-title: Hello World

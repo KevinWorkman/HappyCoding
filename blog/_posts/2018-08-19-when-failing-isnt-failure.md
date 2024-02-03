@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: When Failing isn't Failure
 meta-title: When Failing isn't Failure
 meta-description: I failed at Ludum Dare, and that's okay.

@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Happy Commenting
 slug: happy-commenting
 meta-title: Happy Commenting

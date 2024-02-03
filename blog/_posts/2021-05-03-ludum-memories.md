@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Ludum Memories
 meta-title: Ludum Memories
 meta-description: 10 years of Ludum Dare.

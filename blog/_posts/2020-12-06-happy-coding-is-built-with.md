@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Happy Coding is Built With
 meta-title: Happy Coding is Built With
 meta-description: Here's a list of everything I use to create Happy Coding.

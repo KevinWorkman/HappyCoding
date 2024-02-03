@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: My Quarantine
 meta-title: My Quarantine
 meta-description: Two years later, welcome to the new normal.

@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: tutorial
 title: Outro to Intro to Web Dev
 meta-title: Outro to Intro to Web Dev
 meta-description: A retrospective on my first real teaching job.
