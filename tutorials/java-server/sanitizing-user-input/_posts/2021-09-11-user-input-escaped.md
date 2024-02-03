@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Escaping User Input
 thumbnail: /tutorials/java-server/images/libraries-5.png
 tagline: Use Apache Commons Text to escape user input.

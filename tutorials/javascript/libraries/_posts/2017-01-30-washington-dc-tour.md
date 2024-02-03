@@ -1,6 +1,6 @@
 ---
 title: Washington DC Tour
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 tagline: Take a tour of my favorite Washington DC places!
 sort-key: 100

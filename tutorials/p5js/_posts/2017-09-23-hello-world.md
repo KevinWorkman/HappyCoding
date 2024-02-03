@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Hello World
 thumbnail: /tutorials/p5js/images/hello-world-2.png
 tagline: Say hello to P5.js!

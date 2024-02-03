@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: GitHub Pages
 thumbnail: /tutorials/html/images/github-pages-8.png
 tagline: Create your own webpage using GitHub Pages.

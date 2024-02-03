@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Happy Arting
 meta-title: Happy Arting
 meta-description: Stanley has wares if you have coin.

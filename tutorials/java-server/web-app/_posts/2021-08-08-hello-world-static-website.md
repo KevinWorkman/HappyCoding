@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Hello World: Static Website"
 thumbnail: /tutorials/java-server/images/java-ee-1.png
 tagline: Run a server that shows a static website.

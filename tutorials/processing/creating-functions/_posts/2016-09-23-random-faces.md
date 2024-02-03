@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Faces
 slug: random-faces
 thumbnail: /tutorials/processing/creating-functions/images/random-faces-1.gif

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Processing.js
 thumbnail: /tutorials/processing/images/processing-js-1.png
 tagline: Embed your sketch in a webpage.

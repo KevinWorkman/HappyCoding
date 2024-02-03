@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pixel Sorter
 thumbnail: /tutorials/p5js/images/images/pixel-sorter-1.png
 tagline: Sort the pixels in an image.

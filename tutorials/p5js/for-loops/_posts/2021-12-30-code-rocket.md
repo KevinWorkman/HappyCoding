@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Code Rocket
 thumbnail: /tutorials/p5js/for-loops/images/code-rocket-1.png
 tagline: Make a rocket from the whitespace in your code.

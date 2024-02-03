@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Corner Gradient
 slug: corner-gradient
 thumbnail: /tutorials/processing/for-loops/images/corner-gradient-1.png

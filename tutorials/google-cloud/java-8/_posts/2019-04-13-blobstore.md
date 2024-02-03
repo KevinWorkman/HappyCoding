@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Blobstore (Java 8)
 thumbnail: /tutorials/google-cloud/images/blobstore-4.png
 tagline: Allow users to upload images and other files.

@@ -1,6 +1,6 @@
 ---
 title: Feed the Ducks
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/feed-the-ducks-1.png
 tagline: Create an interactive story using if statements!
 sort-key: 110

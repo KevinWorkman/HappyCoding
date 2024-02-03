@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Hello World: Embedded Jetty (Command Line)"
 thumbnail: /tutorials/java-server/images/jetty-setup-4.png
 tagline: Use the command line to run an embedded Jetty server.

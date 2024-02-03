@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Black Lives Matter to Me
 meta-title: Black Lives Matter to Me
 meta-description: "How confirmation bias and us-vs-them mentalities have affected my understanding of #BlackLivesMatter."

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Piano
 slug: random-piano
 thumbnail: /tutorials/processing/libraries/images/random-piano-1.png

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Exporting Jar Files
 thumbnail: /tutorials/java/images/exporting-jars-5.png
 tagline: Package your code so other people can run it.

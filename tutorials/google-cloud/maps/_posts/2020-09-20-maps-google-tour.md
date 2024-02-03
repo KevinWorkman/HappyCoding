@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Google Maps Tour
 thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 tagline: Take a tour of Google's campus.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Accumulating Snow
 thumbnail: /tutorials/p5js/using-objects/images/accumulating-snow-3.png
 tagline: Draw snow that accumulates on the ground.

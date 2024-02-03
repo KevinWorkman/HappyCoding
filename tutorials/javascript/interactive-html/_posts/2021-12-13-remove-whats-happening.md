@@ -1,6 +1,6 @@
 ---
 title: Remove What's Happening
-layout: tutorial
+layout: post
 thumbnail: /images/logo-800x400.png
 tagline: Remove clickbait from the internet.
 sort-key: 130

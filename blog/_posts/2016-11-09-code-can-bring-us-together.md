@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Code Can Bring Us Together
 slug: code-can-bring-us-together
 meta-title: Code Can Bring Us Together

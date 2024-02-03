@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Calling Functions
 slug: calling-functions
 thumbnail: /tutorials/p5js/images/calling-functions-4.png

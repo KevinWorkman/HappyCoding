@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Ant Colony
 thumbnail: /tutorials/p5js/creating-classes/images/ant-colony-1.png
 tagline: Create an ant colony simulation.

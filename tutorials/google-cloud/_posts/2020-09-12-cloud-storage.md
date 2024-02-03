@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Cloud Storage
 thumbnail: /tutorials/google-cloud/images/blobstore-4.png
 tagline: Let users upload images and other files.

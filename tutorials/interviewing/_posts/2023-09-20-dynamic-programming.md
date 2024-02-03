@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Dynamic Programming
 thumbnail: /tutorials/interviewing/images/dynamic-programming-1.jpg
 tagline: Remember calculations to improve efficiency.

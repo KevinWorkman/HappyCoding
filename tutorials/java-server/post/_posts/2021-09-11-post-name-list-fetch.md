@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Name List - Fetch
 thumbnail: /tutorials/java-server/images/post-9.png
 tagline: Use the fetch function to show a list of names.

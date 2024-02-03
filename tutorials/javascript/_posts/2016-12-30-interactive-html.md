@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Interactive HTML
 slug: interactive-html
 thumbnail: /tutorials/javascript/images/interactive-html-1.png

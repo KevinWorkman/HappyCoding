@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Image Tiles
 thumbnail: /tutorials/p5js/images/images/image-tiles-1.png
 tagline: Rearrange an image into tiles.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Datastore (Java 8)
 thumbnail: /tutorials/google-cloud/images/datastore-1.png
 tagline: Store your data.

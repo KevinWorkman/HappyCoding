@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Cloud Vision Web App Hello World
 thumbnail: /tutorials/google-cloud/images/vision-3.png
 tagline: Use machine learning to analyze images.

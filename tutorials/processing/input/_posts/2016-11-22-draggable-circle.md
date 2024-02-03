@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Draggable Circle
 slug: draggable-circle
 thumbnail: /tutorials/processing/input/images/draggable-circle-1.gif

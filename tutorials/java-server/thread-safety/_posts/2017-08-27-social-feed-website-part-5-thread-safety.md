@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Social Feed Website Part 5: Thread Safety"
 thumbnail: /tutorials/java-server/images/social-feed-website-part-5-thread-safety-7.png
 tagline: Let multiple users post messages safely.

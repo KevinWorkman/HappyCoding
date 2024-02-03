@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Hosting on AWS
 thumbnail: /tutorials/java-server/images/hosting-aws-9.png
 tagline: Host your server on AWS so other people can use your web app.

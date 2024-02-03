@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Processing in Java
 thumbnail: /tutorials/java/images/processing-in-java-4.png
 tagline: Use Processing as a Java library.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Name List
 thumbnail: /tutorials/java-server/images/post-9.png
 tagline: Use POST requests to show a list of names.

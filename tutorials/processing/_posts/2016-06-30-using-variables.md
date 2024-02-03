@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Using Variables
 slug: using-variables
 thumbnail: /tutorials/processing/images/using-variables-7.png

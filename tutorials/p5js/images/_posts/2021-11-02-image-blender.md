@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Image Blender
 thumbnail: /tutorials/p5js/images/images/image-blender-1.png
 tagline: Blend two images together.

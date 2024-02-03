@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Smiley Face
 slug: smiley-face
 thumbnail: /tutorials/processing/calling-functions/images/smiley-face-1.png

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Twitter Cards and Open Graph
 slug: twitter-cards-and-open-graph
 meta-title: Twitter Cards and Open Graph

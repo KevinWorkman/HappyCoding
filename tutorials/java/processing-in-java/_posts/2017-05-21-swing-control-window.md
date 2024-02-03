@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Swing Control Window
 thumbnail: /tutorials/java/images/swing-control-window-4.png
 tagline: Create a Processing sketch with a Swing control window.

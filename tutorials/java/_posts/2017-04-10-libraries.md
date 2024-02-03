@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Libraries
 thumbnail: /tutorials/java/images/libraries-3.png
 tagline: The power of other people's code.

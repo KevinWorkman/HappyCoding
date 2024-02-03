@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Libraries
 thumbnail: /tutorials/p5js/images/libraries-2.png
 tagline: Use libraries to expand what p5.js can do.

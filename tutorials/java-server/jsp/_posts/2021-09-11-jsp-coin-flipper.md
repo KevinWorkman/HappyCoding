@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: JSP Coin Flipper
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use JSP to flip a coin.

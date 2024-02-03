@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Turtle Graphics
 slug: turtle-graphics
 thumbnail: /tutorials/processing/creating-functions/images/turtle-graphics-1.gif

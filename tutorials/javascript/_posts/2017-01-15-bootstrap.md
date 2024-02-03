@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Bootstrap
 thumbnail: /tutorials/javascript/images/bootstrap-1.png
 tagline: Create a website using Bootstrap.

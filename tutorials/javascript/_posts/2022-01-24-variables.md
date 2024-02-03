@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Variables
 thumbnail: /teaching/intro-to-web-dev-2022-spring/images/week-04-javascript/variables-1.png
 pixelate-thumbnail: true

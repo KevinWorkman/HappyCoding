@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Complexity
 thumbnail: /tutorials/interviewing/images/complexity-1.jpg
 tagline: How to measure time and space complexity.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Tricks and Treats and Tags
 slug: tricks-and-treats-and-tags
 meta-title: Tricks and Treats and Tags

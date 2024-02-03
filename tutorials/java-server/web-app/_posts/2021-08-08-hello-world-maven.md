@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Hello World: Maven"
 thumbnail: /tutorials/java-server/images/java-ee-1.png
 tagline: Use Maven to build a web app.

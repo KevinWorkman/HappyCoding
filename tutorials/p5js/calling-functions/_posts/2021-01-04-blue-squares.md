@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Blue Squares
 thumbnail: /tutorials/p5js/calling-functions/images/blue-squares-2.png
 tagline: A gradient of blue squares.

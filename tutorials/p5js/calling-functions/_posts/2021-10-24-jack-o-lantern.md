@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Jack-o'-Lantern
 thumbnail: /tutorials/p5js/calling-functions/images/jack-o-lantern-1.png
 tagline: 🎃🎃🎃

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: ArrayLists
 thumbnail: /tutorials/processing/images/arraylists-1.gif
 tagline: Create an object that stores other objects.

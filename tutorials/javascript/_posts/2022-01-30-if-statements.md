@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: If Statements
 thumbnail: /tutorials/javascript/images/if-statements-1.png
 pixelate-thumbnail: true

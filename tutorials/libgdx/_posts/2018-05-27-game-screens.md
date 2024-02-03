@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Multiple Game Screens
 thumbnail: /tutorials/libgdx/images/game-screens-3.png
 tagline: Show different screens in your game.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Uploading Files
 thumbnail: /tutorials/java-server/images/uploading-files-1.png
 tagline: Let users upload images and other files.

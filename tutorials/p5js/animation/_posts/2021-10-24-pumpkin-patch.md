@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pumpkin Patch
 thumbnail: /tutorials/p5js/animation/images/pumpkin-patch-1.png
 tagline: Fill the screen with random pumpkins.

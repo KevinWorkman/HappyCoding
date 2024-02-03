@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Creating Classes
 thumbnail: /tutorials/java/images/creating-classes-2.png
 tagline: Learn more about creating classes.

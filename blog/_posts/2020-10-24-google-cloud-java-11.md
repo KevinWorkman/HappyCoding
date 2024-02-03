@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Google Cloud Java 11 Migration
 meta-title: Google Cloud Java 11 Migration
 meta-description: Some ranting and rambling about the surprisingly painful Google Cloud Java 11 migration.

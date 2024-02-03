@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Typography
 thumbnail: /tutorials/p5js/creating-variables/images/typography-1.png
 tagline: Style your text with custom fonts.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Inheritance
 thumbnail: /tutorials/java/images/inheritance-2.png
 tagline: Take OOP to the next level.

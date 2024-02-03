@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Embedded Jetty
 thumbnail: /tutorials/java-server/images/jetty-setup-4.png
 tagline: Run a Jetty server from Java code.

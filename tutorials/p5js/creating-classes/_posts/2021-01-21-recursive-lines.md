@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Recursive Lines
 thumbnail: /tutorials/p5js/creating-classes/images/recursive-lines-1.png
 tagline: Draw lines that draw other lines.

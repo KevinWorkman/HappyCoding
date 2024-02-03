@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Higher Lower (Random Computer Player)
 thumbnail: /tutorials/java/images/higher-lower-random-computer-player-2.png
 tagline: Think of a number and the computer will guess what it is.

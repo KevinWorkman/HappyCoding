@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Lines Silhouette
 thumbnail: /tutorials/p5js/for-loops/images/lines-silhouette-3.png
 tagline: Use a for loop to create a silhouette of lines.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Popping Circles
 thumbnail: /tutorials/p5js/creating-classes/images/popping-circles-1.png
 tagline: Fill circles with your mouse that pop if they touch.

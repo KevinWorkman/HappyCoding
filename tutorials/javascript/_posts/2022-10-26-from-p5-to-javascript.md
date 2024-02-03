@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: From p5.js to JavaScript
 thumbnail: /tutorials/javascript/images/js-1.png
 tagline: Build on your p5.js knowledge to learn JavaScript.

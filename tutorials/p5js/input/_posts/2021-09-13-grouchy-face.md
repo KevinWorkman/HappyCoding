@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Grouchy Face
 thumbnail: /tutorials/p5js/input/images/grouchy-face-1.png
 tagline: Make your computer mad when you click the mouse.

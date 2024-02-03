@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Higher Lower (Human Player)
 thumbnail: /tutorials/java/images/higher-lower-human-player-2.png
 tagline: Try to guess what number the computer is thinking.

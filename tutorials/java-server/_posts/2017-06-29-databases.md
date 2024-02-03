@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Databases
 thumbnail: /tutorials/java-server/images/databases-2.png
 tagline: Store your data in a database.

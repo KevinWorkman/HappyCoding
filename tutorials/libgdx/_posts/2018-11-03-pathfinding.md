@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pathfinding
 thumbnail: /tutorials/libgdx/images/pathfinding-13.png
 tagline: From A to B. 

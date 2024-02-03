@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Image Palette
 thumbnail: /tutorials/p5js/images/images/image-palette-11.png
 tagline: Replace the colors in an image.

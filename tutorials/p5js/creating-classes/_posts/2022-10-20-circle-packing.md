@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Circle Packing
 thumbnail: /tutorials/p5js/creating-classes/images/circle-packing-1.png
 tagline: Fill the screen with circles without overlapping.

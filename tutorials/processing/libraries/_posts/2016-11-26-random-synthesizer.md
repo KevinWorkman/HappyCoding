@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Synthesizer
 slug: random-synthesizer
 thumbnail: /tutorials/processing/libraries/images/random-synthesizer-1.png

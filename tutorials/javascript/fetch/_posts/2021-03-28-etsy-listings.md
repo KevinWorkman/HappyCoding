@@ -1,6 +1,6 @@
 ---
 title: Etsy API
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/etsy-listings-2.png
 tagline: Use the fetch function to get data from an API.
 sort-key: 100

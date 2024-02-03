@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Walker
 thumbnail: /tutorials/p5js/animation/images/random-walker-4.png
 tagline: Show a scribble that randomly moves around.

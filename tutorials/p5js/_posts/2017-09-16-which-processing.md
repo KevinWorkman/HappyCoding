@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Which Processing should I use?
 thumbnail: /tutorials/p5js/images/which-processing-1.png
 tagline: Should I use p5.js or Processing?

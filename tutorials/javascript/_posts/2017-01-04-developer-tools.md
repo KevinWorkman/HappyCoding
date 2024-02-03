@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Developer Tools
 slug: developer-tools
 thumbnail: /tutorials/javascript/images/developer-tools-2.png

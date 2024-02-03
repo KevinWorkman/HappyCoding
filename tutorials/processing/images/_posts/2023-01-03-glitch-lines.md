@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Glitch Lines
 thumbnail: /tutorials/processing/images/images/glitch-lines-1.png
 tagline: Make glitch art from your images.

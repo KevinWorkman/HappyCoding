@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Parallax Dots
 thumbnail: /tutorials/p5js/creating-classes/images/parallax-dots-2.png
 tagline: Show three layers of dots.

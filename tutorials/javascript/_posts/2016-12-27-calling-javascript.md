@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Calling JavaScript
 thumbnail: /tutorials/javascript/images/calling-javascript-3.png
 tagline: Start making interactive webpages.

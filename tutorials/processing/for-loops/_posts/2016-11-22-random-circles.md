@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Circles
 slug: random-circles
 thumbnail: /tutorials/processing/for-loops/images/random-circles-1.png

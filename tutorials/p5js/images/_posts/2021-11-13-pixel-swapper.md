@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pixel Swapper
 thumbnail: /tutorials/p5js/images/images/pixel-swapper-1.png
 tagline: Rearrange the pixels in an image.

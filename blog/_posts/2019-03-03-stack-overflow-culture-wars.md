@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: The Stack Overflow Culture Wars
 meta-title: The Stack Overflow Culture Wars
 meta-description: Stack Overflow's identity crisis.

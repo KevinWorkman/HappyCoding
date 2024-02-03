@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Authentication (Java 8)
 thumbnail: /tutorials/google-cloud/images/authentication-1.png
 tagline: Allow users to login.

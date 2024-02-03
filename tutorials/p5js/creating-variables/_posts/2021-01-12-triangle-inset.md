@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Triangle Inset
 thumbnail: /tutorials/p5js/creating-variables/images/triangle-inset-1.png
 tagline: Draw triangles inside triangles inside triangles.

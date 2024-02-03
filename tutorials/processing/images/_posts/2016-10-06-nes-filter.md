@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: NES Filter
 slug: nes-filter
 thumbnail: /tutorials/processing/images/images/nes-filter-2.png

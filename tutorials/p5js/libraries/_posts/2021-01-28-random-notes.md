@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Notes
 thumbnail: /tutorials/p5js/libraries/images/random-notes-1.png
 tagline: Use the p5.sound library to play random notes.

@@ -42,16 +42,6 @@ redirect_from: /examples
   }
 </style>
 
-<div class="section content" style="text-align: center;" markdown="1">
-
-# This is a test
-
-- apples
-- bananas
-- lizards
-
-</div>
-
 <div class="section content" style="text-align: center;">
 
 <h1>Tutorials</h1>

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Accessibility
 thumbnail: /tutorials/html/images/accessibility-1.png
 pixelate-thumbnail: true

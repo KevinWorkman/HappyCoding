@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Skull
 thumbnail: /tutorials/p5js/creating-variables/images/random-skull-1.png
 tagline: Use the random() function to draw a random skull.

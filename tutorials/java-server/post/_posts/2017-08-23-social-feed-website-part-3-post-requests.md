@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Social Feed Website Part 3: Post Requests"
 thumbnail: /tutorials/java-server/images/social-feed-website-part-3-post-requests-3.png
 tagline: Let users create their own posts.

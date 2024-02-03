@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Unit Testing
 thumbnail: /tutorials/java/images/unit-testing-1.png
 tagline: JUnit and Mockito

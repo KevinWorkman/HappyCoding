@@ -1,6 +1,6 @@
 ---
 title: Personal Webpage (Cyborg Bootstrap theme)
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/personal-page-bootstrap-cyborg-1.png
 tagline: Use Bootstrap themes to style your personal webpage.
 sort-key: 200

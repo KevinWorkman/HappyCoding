@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Warmer / Colder
 thumbnail: /tutorials/p5js/input/images/warmer-colder-1.png
 tagline: Play a game of warmer / colder with your computer.

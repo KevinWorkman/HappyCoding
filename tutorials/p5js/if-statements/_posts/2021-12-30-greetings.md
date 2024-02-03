@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Daily Greetings
 thumbnail: /tutorials/p5js/if-statements/images/greetings-1.png
 tagline: Show a different message based on the time of day.

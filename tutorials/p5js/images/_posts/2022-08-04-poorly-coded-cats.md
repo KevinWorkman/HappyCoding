@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Poorly Coded Cats
 thumbnail: /tutorials/p5js/images/images/poorly-coded-cats-1.png
 tagline: Make a stamp out of a cat picture.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Hello World: Embedded Jetty (Maven)"
 thumbnail: /tutorials/java-server/images/jetty-setup-4.png
 tagline: Use Maven to run an embedded Jetty server.

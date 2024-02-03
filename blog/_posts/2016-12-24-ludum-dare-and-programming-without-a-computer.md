@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Ludum Dare and Programming Without a Computer
 slug: ludum-dare-and-programming-without-a-computer
 meta-title: Ludum Dare and Programming Without a Computer

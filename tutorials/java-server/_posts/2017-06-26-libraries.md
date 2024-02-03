@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Libraries
 thumbnail: /tutorials/java-server/images/libraries-5.png
 tagline: Use libraries in your server code.

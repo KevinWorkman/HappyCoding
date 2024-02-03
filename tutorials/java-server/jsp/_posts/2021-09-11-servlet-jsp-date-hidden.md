@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Servlet JSP Date (Hidden JSP)
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use servlets and JSP to show today's date while hiding the JSP file.

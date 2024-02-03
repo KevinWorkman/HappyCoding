@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: GitHub Profile README
 thumbnail: /tutorials/html/images/github-profile-readme-11.png
 tagline: Make your GitHub profile your own.

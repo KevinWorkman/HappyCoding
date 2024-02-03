@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Fundamentals
 thumbnail: /tutorials/interviewing/images/fundamentals-1.jpg
 tagline: Your interviews might include a linked list, but they'll definitely include a for loop.

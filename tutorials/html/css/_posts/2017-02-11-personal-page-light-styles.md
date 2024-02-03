@@ -1,6 +1,6 @@
 ---
 title: Personal Webpage (light styles)
-layout: tutorial
+layout: post
 thumbnail: /tutorials/html/images/personal-page-light-styles-1.png
 tagline: Add styles to your personal webpage.
 sort-key: 520

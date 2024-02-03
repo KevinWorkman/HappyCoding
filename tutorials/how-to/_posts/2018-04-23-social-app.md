@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Build a Social App
 thumbnail: /tutorials/processing/images/hour-of-code-11.png
 tagline: How to build a social networking app.

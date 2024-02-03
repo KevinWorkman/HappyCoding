@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Exporting Applications
 thumbnail: /tutorials/processing/images/exporting-applications-5.png
 tagline: Share your programs with other people.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Flower Grid
 thumbnail: /tutorials/p5js/for-loops/images/flower-grid-1.png
 tagline: Draw a grid of random flowers.

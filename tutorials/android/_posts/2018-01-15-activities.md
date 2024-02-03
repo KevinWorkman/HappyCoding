@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Activities
 thumbnail: /tutorials/android/images/activities-1.png
 tagline: Explore the Android lifecycle.

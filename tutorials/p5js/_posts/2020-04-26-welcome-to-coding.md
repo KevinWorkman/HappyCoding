@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Welcome to Coding
 thumbnail: /tutorials/p5js/images/hello-world-3.png
 tagline: Get ready to write some code!

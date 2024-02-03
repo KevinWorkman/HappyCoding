@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Random Jack-o'-Lantern"
 slug: random-jack-o-lantern
 thumbnail: /tutorials/processing/creating-variables/images/random-jack-o-lantern-1.png

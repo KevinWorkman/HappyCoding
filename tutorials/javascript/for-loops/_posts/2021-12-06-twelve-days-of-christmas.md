@@ -1,6 +1,6 @@
 ---
 title: Twelve Days of Christmas
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/twelve-days-of-christmas-1.png
 tagline: Use a for loop to sing the Twelve Days of Christmas
 sort-key: 120

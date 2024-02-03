@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Animation
 thumbnail: /tutorials/processing/images/animation-7.gif
 tagline: Create animated visualizations.

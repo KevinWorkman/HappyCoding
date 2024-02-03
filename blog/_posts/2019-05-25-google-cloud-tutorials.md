@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Google Cloud Tutorials
 meta-title: Google Cloud Tutorials
 meta-description: Happy Coding now has Google Cloud tutorials!

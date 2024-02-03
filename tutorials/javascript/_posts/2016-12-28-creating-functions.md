@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Creating Functions
 slug: creating-functions
 thumbnail: /tutorials/javascript/images/creating-functions-1.png

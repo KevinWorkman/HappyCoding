@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Creating Classes
 thumbnail: /tutorials/processing/images/creating-classes-4.gif
 tagline:  Create blueprints for your own objects.

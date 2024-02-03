@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Motivation
 thumbnail: /tutorials/interviewing/images/motivation-1.jpg
 tagline: Some disclaimers and opinions before we dive into interviewing.

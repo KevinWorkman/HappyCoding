@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Social Feed Website Part 2: JSP"
 thumbnail: /tutorials/java-server/images/social-feed-website-part-2-jsp-3.png
 tagline: Use JSP to render user posts.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Clickable Text
 thumbnail: /tutorials/p5js/input/images/clickable-text-2.png
 tagline: Create text that opens a link when you click it.

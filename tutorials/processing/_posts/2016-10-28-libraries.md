@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Libraries
 thumbnail: /tutorials/processing/images/libraries-7.png
 tagline: Use libraries to expand what Processing can do.

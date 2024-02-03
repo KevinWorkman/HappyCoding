@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Add Your Own Example
 thumbnail: /tutorials/how-to/images/add-your-own-example-1.png
 tagline: Add your own example to Happy Coding.

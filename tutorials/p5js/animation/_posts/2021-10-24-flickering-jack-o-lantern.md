@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Flickering Jack-o'-Lantern
 thumbnail: /tutorials/p5js/animation/images/flickering-jack-o-lantern-1.png
 tagline: Animate a flickering Jack-o'-lantern.

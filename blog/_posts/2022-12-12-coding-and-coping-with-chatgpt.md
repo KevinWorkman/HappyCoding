@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Coding and Coping with ChatGPT
 meta-title: Coding and Coping with ChatGPT
 meta-description: Exploring the power, limitations, and ethics of ChatGPT and machine learning.

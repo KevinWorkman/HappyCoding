@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Checking My Privilege
 meta-title: Checking My Privilege
 meta-description: Me, privileged? No way! (Yes way.)

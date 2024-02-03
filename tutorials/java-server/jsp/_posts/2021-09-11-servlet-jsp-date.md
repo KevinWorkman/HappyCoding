@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Servlet JSP Date
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use servlets and JSP to show today's date.

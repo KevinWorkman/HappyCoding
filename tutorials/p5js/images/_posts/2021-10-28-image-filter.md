@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Image Filter
 thumbnail: /tutorials/p5js/images/images/image-filter-1.png
 tagline: Make your own image filter.

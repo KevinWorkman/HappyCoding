@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Notes Recorder
 thumbnail: /tutorials/processing/libraries/images/random-synthesizer-1.png
 tagline: Use Minim to play and record notes.

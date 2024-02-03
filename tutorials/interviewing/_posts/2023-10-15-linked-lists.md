@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Linked Lists
 thumbnail: /tutorials/interviewing/images/linked-lists-1.jpg
 tagline: One thing leads to another.

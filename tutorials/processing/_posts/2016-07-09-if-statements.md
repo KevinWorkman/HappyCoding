@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: If Statements
 thumbnail: /tutorials/processing/images/if-statements-6.gif
 tagline: Make decisions in your code.

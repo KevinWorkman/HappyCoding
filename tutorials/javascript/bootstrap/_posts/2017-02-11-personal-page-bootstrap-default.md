@@ -1,6 +1,6 @@
 ---
 title: Personal Webpage (default Bootstrap styles)
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/personal-page-bootstrap-default-1.png
 tagline: Use Bootstrap to style your personal webpage.
 sort-key: 100

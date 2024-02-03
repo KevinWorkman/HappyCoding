@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Debugging
 thumbnail: /tutorials/processing/images/debugging-6.png
 tagline: How to fix errors in your code.

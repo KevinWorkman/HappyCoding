@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: What is Happy Coding?
 meta-title: What is HappyCoding.io?
 meta-description: Some ramblings and reflections on the future of Happy Coding.

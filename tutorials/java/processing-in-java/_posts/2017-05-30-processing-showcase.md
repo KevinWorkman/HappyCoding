@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Processing Showcase
 thumbnail: /tutorials/processing/images/processing-icon-small-1.png
 tagline: Create a Java program that cycles through Processing sketches.

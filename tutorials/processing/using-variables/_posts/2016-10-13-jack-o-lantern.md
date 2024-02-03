@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Jack-o'-Lantern
 slug: jack-o-lantern
 thumbnail: /tutorials/processing/using-variables/images/jack-o-lantern-1.png

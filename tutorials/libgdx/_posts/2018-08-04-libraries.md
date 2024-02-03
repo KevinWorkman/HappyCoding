@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Libraries
 thumbnail: /tutorials/libgdx/images/libraries-3.png
 tagline: Cross-platform code. 

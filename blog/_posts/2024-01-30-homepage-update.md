@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Homepage Update
 meta-title: Homepage Update
 meta-description: Don't judge a website by its homepage.

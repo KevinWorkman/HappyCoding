@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Google Maps Marker
 thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 tagline: Add  marker to your Google map.

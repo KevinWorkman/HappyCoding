@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Square Fill
 thumbnail: /tutorials/p5js/animation/images/square-fill-2.png
 tagline: Create a border of squares.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: From p5.js to HTML
 thumbnail: /tutorials/p5js/images/hello-world-3.png
 pixelate-thumbnail: true

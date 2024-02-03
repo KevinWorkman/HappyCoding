@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Colors
 slug: random-colors
 thumbnail: /tutorials/processing/for-loops/images/random-colors-1.png

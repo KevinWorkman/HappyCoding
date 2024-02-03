@@ -1,6 +1,6 @@
 ---
 title: Christmas Tree
-layout: tutorial
+layout: post
 thumbnail: /tutorials/p5js/creating-functions/images/christmas-tree-1.png
 tagline: Create a function that draws a Christmas tree.
 sort-key: 420

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Curved Grid
 thumbnail: /tutorials/p5js/using-variables/images/curved-grid-1.png
 tagline: Draw a retro-futuristic curved grid.

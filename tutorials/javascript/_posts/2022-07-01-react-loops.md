@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Loops
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: Use loops and iterate over arrays.

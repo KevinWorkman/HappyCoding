@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: App Engine (Java 8)
 thumbnail: /tutorials/java-server/images/hosting-google-app-engine-5.png
 tagline: Deploy your web app.

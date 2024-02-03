@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Scaling Heart
 thumbnail: /tutorials/processing/using-variables/images/scaling-heart-1.png
 tagline: Scale a heart. ❤

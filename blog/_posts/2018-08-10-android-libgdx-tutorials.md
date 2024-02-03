@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Android and LibGDX Tutorials
 meta-title: Android and LibGDX Tutorials
 meta-description: Happy Coding now has Android and LibGDX tutorials!

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Translation Standalone Hello World
 thumbnail: /tutorials/google-cloud/images/translation-2.png
 tagline:  Use Google Translate in your own code.

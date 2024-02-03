@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Array Functions
 thumbnail: /tutorials/processing/images/arraylists-1.gif
 tagline:  Take arrays to the next level.

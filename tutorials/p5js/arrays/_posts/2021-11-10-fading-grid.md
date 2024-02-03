@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Fading Grid
 thumbnail: /tutorials/p5js/arrays/images/fading-grid-1.png
 tagline: Use a 2D array to show a fading grid.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Face
 slug: random-face
 thumbnail: /tutorials/processing/creating-variables/images/random-face-4.png

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: How to Sell Digital Art Online
 thumbnail: /tutorials/how-to/images/sell-digital-art-online-3.png
 tagline: How to sell your art on Etsy.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Custom Drawing
 thumbnail: /tutorials/android/images/custom-drawing-4.png
 tagline: Create your own View.

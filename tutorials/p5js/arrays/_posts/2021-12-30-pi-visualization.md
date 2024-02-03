@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pi Visualization
 thumbnail: /tutorials/p5js/arrays/images/pi-visualization-1.png
 tagline: Visualize the first million digits of pi.

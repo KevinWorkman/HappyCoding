@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: The CodePen is Mightier than the Sword
 slug: the-codepen-is-mightier-than-the-sword
 meta-title: The CodePen is Mightier than the Sword

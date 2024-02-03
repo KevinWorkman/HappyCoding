@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: React State
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: Add data to your components.

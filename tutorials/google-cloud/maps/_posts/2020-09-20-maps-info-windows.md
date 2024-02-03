@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Google Maps Info Windows
 thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 tagline: Add info windows to your Google map.

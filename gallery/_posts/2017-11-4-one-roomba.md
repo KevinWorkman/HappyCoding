@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: One Roomba
 thumbnail: /gallery/images/one-roomba-1.png
 tagline: Ludum Dare 37

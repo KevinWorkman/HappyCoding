@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Google Maps Hello World
 thumbnail: /tutorials/javascript/images/washington-dc-tour-1.png
 tagline: Add a Google map to your page.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Simple Reference
 thumbnail:  /tutorials/processing/images/hour-of-code-11.png
 tagline: Just the drawing functions.

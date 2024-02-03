@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: JSP Header
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use JSP to show a header on every page.

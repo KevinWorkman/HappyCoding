@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Earth Moon Emoji Orbit
 thumbnail: /tutorials/p5js/arrays/images/earth-moon-emoji-orbit-1.png
 tagline: Use arrays of emojis to show the moon orbiting the earth.

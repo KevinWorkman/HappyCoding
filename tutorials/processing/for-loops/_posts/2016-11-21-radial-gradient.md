@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Radial Gradient
 slug: radial-gradient
 thumbnail: /tutorials/processing/for-loops/images/radial-gradient-1.png

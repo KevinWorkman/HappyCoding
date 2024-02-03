@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Creating Variables
 thumbnail: /tutorials/processing/images/creating-variables-thumbnail.gif
 tagline: Give your code a memory.

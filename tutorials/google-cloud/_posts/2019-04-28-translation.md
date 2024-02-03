@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Translation
 thumbnail: /tutorials/google-cloud/images/translation-2.png
 tagline: ¡Feliz codificación!

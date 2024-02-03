@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Hearts
 thumbnail: /tutorials/processing/creating-functions/images/random-hearts-1.png
 tagline: Draw random hearts. ❤

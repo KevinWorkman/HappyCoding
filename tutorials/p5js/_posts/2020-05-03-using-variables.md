@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Using Variables
 thumbnail: /tutorials/processing/images/using-variables-7.png
 tagline: Get information from the computer.

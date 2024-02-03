@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Hello World
 thumbnail: /tutorials/libgdx/images/hello-world-3.png
 tagline: Create your first libGDX game.

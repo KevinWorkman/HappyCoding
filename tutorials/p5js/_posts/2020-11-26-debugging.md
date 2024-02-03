@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Debugging
 thumbnail: /tutorials/p5js/images/hello-world-3.png
 tagline: Learn how to debug your p5.js code.

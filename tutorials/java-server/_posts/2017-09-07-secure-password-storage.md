@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Secure Password Storage
 thumbnail: /tutorials/java-server/images/secure-password-storage-1.png
 tagline: How to (not) store passwords.

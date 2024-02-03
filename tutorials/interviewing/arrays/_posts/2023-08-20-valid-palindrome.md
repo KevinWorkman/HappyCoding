@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Valid Palindrome
 thumbnail: /tutorials/interviewing/images/arrays-1.jpg
 tagline: Return whether a string is the same forward and backward.

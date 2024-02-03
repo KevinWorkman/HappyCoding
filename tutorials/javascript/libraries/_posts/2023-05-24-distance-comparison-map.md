@@ -1,6 +1,6 @@
 ---
 title: Distance Comparison Map
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/libraries/images/distance-comparison-map-1.png
 tagline: Compare distances on multiple maps.
 sort-key: 300

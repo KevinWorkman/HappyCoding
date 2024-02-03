@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Arc Scribbler
 thumbnail: /gallery/images/arc-scribbler-1.png
 tagline: Turn left, turn right, repeat.

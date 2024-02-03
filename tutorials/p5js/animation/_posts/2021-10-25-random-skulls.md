@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Skulls
 thumbnail: /tutorials/p5js/animation/images/random-skulls-2.png
 tagline: Fill the screen with random skulls.

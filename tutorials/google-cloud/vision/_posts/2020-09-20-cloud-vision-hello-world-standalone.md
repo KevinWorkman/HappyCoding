@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Cloud Vision Standalone Hello World
 thumbnail: /tutorials/google-cloud/images/vision-3.png
 tagline: Use machine learning to analyze images.

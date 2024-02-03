@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: JSP Unix Time
 thumbnail: /tutorials/java-server/images/jsp-7.png
 tagline: Use JSP to show the current Unix time.

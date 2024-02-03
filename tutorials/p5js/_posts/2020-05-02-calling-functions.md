@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Calling Functions
 thumbnail: /tutorials/p5js/images/calling-functions-4.png
 tagline: Tell the computer what to do.

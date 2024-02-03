@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Bouncing Gradient
 slug: bouncing-gradient
 thumbnail: /tutorials/processing/for-loops/images/bouncing-gradient-1.png

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Wrong Lines
 thumbnail: /tutorials/p5js/for-loops/images/wrong-lines-1.png
 tagline: Draw lines the wrong way.

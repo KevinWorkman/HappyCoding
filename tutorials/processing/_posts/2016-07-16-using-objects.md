@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Using Objects
 thumbnail: /tutorials/processing/images/using-objects-2.gif
 tagline: Group related variables together.

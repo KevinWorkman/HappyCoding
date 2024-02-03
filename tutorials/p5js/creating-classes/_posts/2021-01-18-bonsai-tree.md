@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Bonsai Tree
 thumbnail: /tutorials/p5js/creating-classes/images/bonsai-tree-1.png
 tagline: Use recursion to create a digital bonsai tree.

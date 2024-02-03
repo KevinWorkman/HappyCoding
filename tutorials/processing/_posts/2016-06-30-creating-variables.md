@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Creating Variables
 slug: creating-variables
 thumbnail: /tutorials/processing/images/creating-variables-thumbnail.gif

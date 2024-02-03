@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Creating Functions
 thumbnail: /tutorials/processing/images/creating-functions-9.gif
 tagline: Write your own custom functions.

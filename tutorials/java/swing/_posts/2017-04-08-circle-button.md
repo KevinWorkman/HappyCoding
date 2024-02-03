@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Circle Button
 thumbnail: /tutorials/java/images/circle-button-1.png
 tagline: Rectangle buttons are so last year.

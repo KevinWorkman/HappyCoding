@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Falling Points
 thumbnail: /tutorials/p5js/arrays/images/falling-points-2.png
 tagline: Show falling points that look like snow.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Subscribe to Happy Coding
 thumbnail: /tutorials/how-to/images/subscribe-to-happy-coding-2.png
 tagline: Don't miss new posts from Happy Coding.

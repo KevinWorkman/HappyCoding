@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Isometric Cubes
 thumbnail: /tutorials/p5js/creating-classes/images/isometric-cubes-1.png
 tagline: Create an isometric grid of cubes.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Spooky Text
 thumbnail: /tutorials/p5js/for-loops/images/spooky-text-1.png
 tagline: Use `sin()` to make spooky text.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Mars Perseverance Image Colorizer
 thumbnail: /tutorials/processing/images/images/mars-6.png
 tagline: Colorize images coming from Mars!

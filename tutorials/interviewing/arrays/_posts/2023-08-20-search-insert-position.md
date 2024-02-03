@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Search Insert Position
 thumbnail: /tutorials/interviewing/images/arrays-1.jpg
 tagline: Return the index of an item, even if it's not in the array.

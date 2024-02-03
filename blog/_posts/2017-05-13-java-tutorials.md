@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Java Tutorials
 meta-title: Java Tutorials
 meta-description: Happy Coding now has Java tutorials!

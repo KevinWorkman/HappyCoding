@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: How to Learn Coding
 thumbnail: /tutorials/how-to/images/learn-coding-1.png
 tagline: How to teach yourself to code using Happy Coding.

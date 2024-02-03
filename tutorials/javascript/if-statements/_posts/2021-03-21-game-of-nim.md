@@ -1,6 +1,6 @@
 ---
 title: Game of Nim
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/game-of-nim-1.png
 tagline: Play the Game of Nim against the computer!
 sort-key: 100

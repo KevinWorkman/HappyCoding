@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Numbers Station
 thumbnail: /tutorials/p5js/using-objects/images/numbers-station-1.png
 tagline: Use text-to-speech to create a numbers station.

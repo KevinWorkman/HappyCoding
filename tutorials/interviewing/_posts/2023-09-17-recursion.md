@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Recursion
 thumbnail: /tutorials/interviewing/images/recursion-1.jpg
 tagline: To understand recursion, first understand recursion.

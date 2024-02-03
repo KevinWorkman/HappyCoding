@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Lifting State
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: Share state between components.

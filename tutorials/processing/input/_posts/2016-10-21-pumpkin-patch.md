@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pumpkin Patch
 slug: pumpkin-patch
 thumbnail: /tutorials/processing/input/images/pumpkin-patch-2.gif

@@ -1,6 +1,6 @@
 ---
 title: Asimov's Empire, Robot, and Foundation Series (CSS Tables)
-layout: tutorial
+layout: post
 thumbnail: /tutorials/html/images/asimov-empire-robots-foundation-tables-2.png
 tagline: Use CSS to create colored tables!
 sort-key: 120

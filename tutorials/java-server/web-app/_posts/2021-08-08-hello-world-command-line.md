@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Hello World: Command Line"
 thumbnail: /tutorials/java-server/images/java-ee-1.png
 tagline: Use the command line to run a server.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Jetty Setup
 thumbnail: /tutorials/java-server/images/jetty-setup-4.png
 tagline: Run your own Jetty server.

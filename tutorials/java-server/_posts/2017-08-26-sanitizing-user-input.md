@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Sanitizing User Input
 thumbnail: /tutorials/java-server/images/sanitizing-user-input-7.png
 tagline: Safely handle user input.

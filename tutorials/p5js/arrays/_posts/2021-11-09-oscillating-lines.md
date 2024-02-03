@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Oscillating Lines
 thumbnail: /tutorials/p5js/arrays/images/oscillating-lines-1.png
 tagline: Show lines that oscillate up and down.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Good Morning
 slug: good-morning
 thumbnail: /tutorials/processing/if-statements/images/good-morning-1.png

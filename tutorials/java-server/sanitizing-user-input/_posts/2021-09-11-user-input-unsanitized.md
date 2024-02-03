@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Unsanitized User Input
 thumbnail: /tutorials/java-server/images/post-9.png
 tagline: See what happens when you don't sanitize user input.

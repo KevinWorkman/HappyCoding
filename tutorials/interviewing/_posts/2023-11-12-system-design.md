@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: System Design
 thumbnail: /tutorials/interviewing/images/system-design-1.jpg
 tagline: Break the system down.

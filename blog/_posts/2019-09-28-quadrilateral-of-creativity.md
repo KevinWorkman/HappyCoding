@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: The Quadrilateral of Creativity
 meta-title: The Quadrilateral of Creativity
 meta-description: The 4 corners of creativity.

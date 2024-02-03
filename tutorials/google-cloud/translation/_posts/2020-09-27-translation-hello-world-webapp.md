@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Translation Web App Hello World
 thumbnail: /tutorials/google-cloud/images/translation-2.png
 tagline: Use Google Translation in your own web app.

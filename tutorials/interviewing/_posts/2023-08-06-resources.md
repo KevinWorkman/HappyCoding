@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Resources
 thumbnail: /tutorials/interviewing/images/resources-1.jpg
 tagline: Links and other resources for interview practice.

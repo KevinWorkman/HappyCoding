@@ -1,6 +1,6 @@
 ---
 title: Rainbow Logo
-layout: tutorial
+layout: post
 thumbnail: /tutorials/html/images/rainbow-logo-1.png
 tagline: Use CSS to create a rainbow logo!
 sort-key: 110

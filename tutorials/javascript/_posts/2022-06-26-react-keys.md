@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Keys
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: How (and Why) to use Keys in React.

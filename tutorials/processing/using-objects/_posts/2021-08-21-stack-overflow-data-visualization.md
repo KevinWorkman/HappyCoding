@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Stack Overflow Data Visualization
 thumbnail: /tutorials/processing/using-objects/images/stack-overflow-data-visualization-3.png
 tagline: Visualize data from the Stack Overflow API!

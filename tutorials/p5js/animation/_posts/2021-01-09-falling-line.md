@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Falling Line
 thumbnail: /tutorials/p5js/animation/images/falling-line-2.png
 tagline: Show a falling line that fills the screen.

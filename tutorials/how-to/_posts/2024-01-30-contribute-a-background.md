@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Contribute a Background
 thumbnail: /tutorials/how-to/images/add-a-background-thumbnail.png
 tagline: Contribute your own background image to Happy Coding!

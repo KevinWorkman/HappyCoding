@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Taylor Swift Markov Model
 thumbnail: /tutorials/java/images/taylor-swift-2.png
 tagline: Teach an AI to write Taylor Swift lyrics.

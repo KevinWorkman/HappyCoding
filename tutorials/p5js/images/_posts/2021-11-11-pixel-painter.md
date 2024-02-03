@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pixel Painter
 thumbnail: /tutorials/p5js/images/images/pixel-painter-7.png
 tagline: Turn an image into a digital painting.

@@ -1,6 +1,6 @@
 ---
 title: Rainbow Divs
-layout: tutorial
+layout: post
 thumbnail: /tutorials/html/images/rainbow-divs-1.png
 tagline: Use CSS to create colored divs.
 sort-key: 130

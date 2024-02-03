@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Walkers
 slug: random-walkers
 thumbnail: /tutorials/processing/arrays/images/random-walkers-6.gif

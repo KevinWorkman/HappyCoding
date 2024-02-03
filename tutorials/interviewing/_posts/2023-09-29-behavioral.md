@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Behavioral Interviews
 thumbnail: /tutorials/interviewing/images/behavioral-1.jpg
 tagline: Where do you see yourself in five years?

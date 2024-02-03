@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: How to Interview
 thumbnail: /tutorials/how-to/images/interview-2.jpg
 tagline: What to expect and how to approach tech interviews.

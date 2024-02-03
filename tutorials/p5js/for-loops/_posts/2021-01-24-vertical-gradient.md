@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Vertical Gradient
 thumbnail: /tutorials/p5js/for-loops/images/vertical-gradient-1.png
 tagline: Draw a gradient from one color to another.

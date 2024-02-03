@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Libraries
 slug: libraries
 thumbnail: /tutorials/javascript/images/libraries-1.png

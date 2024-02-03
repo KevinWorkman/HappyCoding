@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Thread Safety
 thumbnail: /tutorials/java-server/images/thread-safety-7.png
 tagline: Safely handle multiple requests at the same time.

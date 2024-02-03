@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Bouncing Balls
 slug: bouncing-balls
 thumbnail: /tutorials/processing/arrays/images/bouncing-balls-1.gif

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Merge Sort
 thumbnail: /tutorials/interviewing/images/recursion-1.jpg
 tagline: Use recursion to sort an array.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Higher Lower
 thumbnail: /tutorials/java/images/higher-lower-random-computer-player-2.png
 tagline: Guessing game gui

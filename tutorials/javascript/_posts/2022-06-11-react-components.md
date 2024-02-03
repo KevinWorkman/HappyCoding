@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: React Components
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: Build your webpage out of components.

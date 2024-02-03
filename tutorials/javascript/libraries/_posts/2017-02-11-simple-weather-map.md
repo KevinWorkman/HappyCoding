@@ -1,6 +1,6 @@
 ---
 title: Simple Weather Map
-layout: tutorial
+layout: post
 thumbnail: /tutorials/javascript/images/simple-weather-map-1.png
 tagline: View the current weather on a map.
 sort-key: 100

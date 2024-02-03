@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Picking a Language
 thumbnail: /tutorials/interviewing/images/picking-a-language-1.jpg
 tagline: What programming language should I use in a job interview?

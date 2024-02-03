@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Natural Language Standalone Hello World
 thumbnail: /tutorials/google-cloud/images/natural-language-3.png
 tagline:  Use machine learning to analyze natural language.

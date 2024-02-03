@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Truchet Tiles
 thumbnail: /tutorials/p5js/images/images/truchet-tiles-1.png
 tagline: Rotate interlocking images to create a pattern.

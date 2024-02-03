@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: 46 Million Turkeys
 thumbnail: /gallery/images/46-million-turkeys-1.png
 tagline: Happy Thanksgiving!

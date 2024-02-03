@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Random Lines
 thumbnail: /tutorials/p5js/animation/images/random-lines-2.png
 tagline: Fill the screen with random lines.

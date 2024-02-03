@@ -1,6 +1,6 @@
 ---
 title: Fireworks
-layout: tutorial
+layout: post
 thumbnail: /tutorials/p5js/creating-classes/images/fireworks-2.png
 tagline: Ooh! Aah!
 sort-key: 1010

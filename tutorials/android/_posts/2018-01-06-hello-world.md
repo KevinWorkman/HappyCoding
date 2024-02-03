@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Hello World
 thumbnail: /tutorials/android/images/hello-world-10.png
 tagline: Create your first Android app.

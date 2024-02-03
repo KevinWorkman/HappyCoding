@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Glowing Jack-o'-Lantern"
 slug: glowing-jack-o-lantern
 thumbnail: /tutorials/processing/creating-functions/images/glowing-jack-o-lantern-2.gif

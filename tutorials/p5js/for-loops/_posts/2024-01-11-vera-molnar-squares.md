@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Vera Molnár Squares
 thumbnail: /tutorials/p5js/for-loops/images/vera-molnar-squares-1.png
 tagline: Code a design inspired by Vera Molnár.

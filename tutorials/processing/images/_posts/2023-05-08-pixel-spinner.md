@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Pixel Spinner
 thumbnail: /tutorials/processing/images/images/pixel-spinner-1.png
 tagline: Move pixels around the center.

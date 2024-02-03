@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: React
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: Use React to build an interactive web app.

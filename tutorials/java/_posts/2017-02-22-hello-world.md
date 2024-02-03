@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Hello World
 thumbnail: /tutorials/java/images/hello-world-3.png
 tagline: Write, compile, and run your first Java application.

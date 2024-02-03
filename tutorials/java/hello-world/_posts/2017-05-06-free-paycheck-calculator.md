@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Free Paycheck Calculator
 thumbnail: /tutorials/java/images/free-paycheck-calculator-1.png
 tagline: Find months that have three paychecks in them.

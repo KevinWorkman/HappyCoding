@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Bouncing Line
 thumbnail: /tutorials/p5js/animation/images/bouncing-line-4.png
 tagline: Draw a line, pick a new color, move a bit.

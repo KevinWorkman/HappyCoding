@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Mouse Ripple
 thumbnail: /tutorials/p5js/input/images/mouse-ripple-3.png
 tagline: Show a ripple when you click the mouse.

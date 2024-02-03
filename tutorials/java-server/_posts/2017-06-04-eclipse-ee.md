@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Eclipse EE
 thumbnail: /tutorials/java/images/eclipse-15.png
 tagline: Use Eclipse to write server code.

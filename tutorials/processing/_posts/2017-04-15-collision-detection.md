@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Collision Detection
 thumbnail: /tutorials/processing/images/collision-detection-16.png
 tagline: Trigger an action when objects overlap.

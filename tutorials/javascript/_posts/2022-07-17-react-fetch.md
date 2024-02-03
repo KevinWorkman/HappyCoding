@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Fetching Data
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: Fetch data from a server in React.

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Hour of Code
 thumbnail: /tutorials/processing/images/hour-of-code-11.png
 tagline: Learn the basics of programming in an hour!

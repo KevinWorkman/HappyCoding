@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: JavaScript Tutorials
 meta-title: JavaScript Tutorials
 meta-description: Happy Coding now has JavaScript tutorials!

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Nesting HTML Tags
 thumbnail: /tutorials/html/images/html-2.png
 tagline: Put HTML tags inside other HTML tags.

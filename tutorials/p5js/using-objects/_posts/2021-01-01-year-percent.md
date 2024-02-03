@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Year Percent
 thumbnail: /tutorials/p5js/using-objects/images/year-percent-1.png
 tagline: How far into the year are we?

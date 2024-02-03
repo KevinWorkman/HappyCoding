@@ -1,6 +1,6 @@
 ---
 title: Personal Webpage (dark styles)
-layout: tutorial
+layout: post
 thumbnail: /tutorials/html/images/personal-page-dark-styles-1.png
 tagline: Add dark styles to your personal webpage.
 sort-key: 530

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Migrating to Java 11
 thumbnail: /tutorials/google-cloud/images/google-cloud-icon-1.png
 tagline: Upgrade from Java 8 to Java 11.

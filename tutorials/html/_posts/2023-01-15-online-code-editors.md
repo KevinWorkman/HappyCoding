@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Online Code Editors
 thumbnail: /tutorials/html/images/html-2.png
 tagline: Write HTML directly in your browser.

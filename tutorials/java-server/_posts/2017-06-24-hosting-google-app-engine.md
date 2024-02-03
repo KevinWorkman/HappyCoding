@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Hosting on Google App Engine
 thumbnail: /tutorials/java-server/images/hosting-google-app-engine-5.png
 tagline: Host your server on Google App Engine so other people can use your web app.

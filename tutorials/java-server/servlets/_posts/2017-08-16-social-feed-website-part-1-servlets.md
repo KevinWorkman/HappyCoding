@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: "Social Feed Website Part 1: Servlets"
 thumbnail: /tutorials/java-server/images/social-feed-website-part-1-servlets-3.png
 tagline: Use servlets to show user posts.

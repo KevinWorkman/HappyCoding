@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Remove Element
 thumbnail: /tutorials/interviewing/images/arrays-1.jpg
 tagline: Remove an element from an array in-place.

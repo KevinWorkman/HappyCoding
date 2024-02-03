@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Client / Server Communication
 thumbnail: /tutorials/java-server/images/client-server-7.png
 tagline: Learn about clients, servers, requests, and responses.

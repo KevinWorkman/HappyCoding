@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Square Lines
 thumbnail: /tutorials/p5js/animation/images/square-lines-1.png
 tagline: Fill a square with lines.

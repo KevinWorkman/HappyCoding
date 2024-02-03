@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Local Files
 thumbnail: /tutorials/html/images/html-2.png
 tagline: Write HTML on your own computer.

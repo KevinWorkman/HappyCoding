@@ -1,6 +1,6 @@
 ---
 title: Personal Webpage (no styles)
-layout: tutorial
+layout: post
 thumbnail: /tutorials/html/images/personal-page-unstyled-1.png
 tagline: Check out my basic personal webpage.
 sort-key: 510

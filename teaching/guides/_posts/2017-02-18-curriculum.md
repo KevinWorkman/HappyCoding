@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: post
 title: Multi-Year Curriculum
 thumbnail: /teaching/guides/images/curriculum-3.png
 tagline: Plan a multi-year curriculum with Happy Coding.
