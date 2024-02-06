@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: If Statements - Week 05
 thumbnail: /tutorials/javascript/images/if-statements-1.png
 pixelate-thumbnail: true

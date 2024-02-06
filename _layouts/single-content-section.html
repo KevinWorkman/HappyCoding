@@ -1,0 +1,32 @@
+---
+layout: left-and-right-navs
+---
+
+<div class="section content">
+
+  {% include breadcrumbs.html %}
+  {% include previous-next-links.html %}
+
+  {{ content }}
+
+  {% include previous-next-links.html bottom=true %}
+
+</div> <!-- end content -->
+
+{% if layout.include_examples %}
+  {% assign tutorialUrl = "" -%}
+  {%- for breadcrumb in breadcrumbs -%}
+    {%- unless breadcrumb == "" or forloop.index0 > 3 %}
+      {%- assign tutorialUrl = tutorialUrl | append: "/" | append: breadcrumb %}
+    {%- endunless -%}
+  {%- endfor %}
+
+  {% include examples-for-tutorial.html url=tutorialUrl title= post.title include_section_container=true %}
+
+{% endif %}
+
+{% if layout.include_comments %}
+  {% unless page.disable_comments %}
+    {% include comments.html %}
+  {% endunless %}
+{% endif %}

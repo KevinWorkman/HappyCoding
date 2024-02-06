@@ -1,6 +1,6 @@
 ---
 title: Gallery
-layout: left-and-right-navs
+layout: single-content-section
 thumbnail: /gallery/movie-colors/images/thumbnail-1.png
 meta-title: Gallery
 meta-description: Bigger examples of what code can do.

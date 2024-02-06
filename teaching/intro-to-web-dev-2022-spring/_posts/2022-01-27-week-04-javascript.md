@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: JavaScript - Week 04
 thumbnail: /teaching/intro-to-web-dev-2022-spring/images/week-04-javascript/javascript-1.png
 pixelate-thumbnail: true

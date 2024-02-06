@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: JavaScript Libraries - Week 07
 thumbnail: /tutorials/javascript/images/libraries-1.png
 pixelate-thumbnail: true

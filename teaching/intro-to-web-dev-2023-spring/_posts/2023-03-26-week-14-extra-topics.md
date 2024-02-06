@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: Extra Topics - Week 14
 thumbnail: /tutorials/processing/images/creating-functions-7.png
 tagline: Other web dev topics that didn't fit in other weeks.

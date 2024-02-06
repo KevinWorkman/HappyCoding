@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: Bootstrap - Week 12
 thumbnail: /tutorials/javascript/images/bootstrap-3.png
 pixelate-thumbnail: true

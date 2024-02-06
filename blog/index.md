@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: Blog
 meta-title: Happy Coding Blog
 meta-description: Blogs about Happy Coding and random stuff I'm thinking about.

@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: JavaScript Objects - Week 08
 thumbnail: /tutorials/javascript/images/objects-1.png
 pixelate-thumbnail: true

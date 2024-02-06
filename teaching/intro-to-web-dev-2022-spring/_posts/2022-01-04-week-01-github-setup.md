@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: GitHub Setup
 thumbnail: /teaching/intro-to-web-dev-2022-spring/images/week-01-setup-and-html/github-logo.png
 tagline: Set up GitHub and get ready to code!

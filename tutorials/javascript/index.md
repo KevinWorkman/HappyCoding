@@ -1,6 +1,6 @@
 ---
 title: JavaScript Tutorials
-layout: left-and-right-navs
+layout: single-content-section
 thumbnail: /tutorials/javascript/images/js-1.png
 categories: [tutorials, javascript]
 meta-title: JavaScript Tutorials

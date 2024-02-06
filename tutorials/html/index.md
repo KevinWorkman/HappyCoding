@@ -1,6 +1,6 @@
 ---
 title: HTML Tutorials
-layout: left-and-right-navs
+layout: single-content-section
 thumbnail: /tutorials/html/images/html-2.png
 categories: [tutorials,html]
 meta-title: HTML Tutorials

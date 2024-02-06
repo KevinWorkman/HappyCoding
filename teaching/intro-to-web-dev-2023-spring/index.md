@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: Intro to Web Dev (Spring 2023)
 meta-title: Intro to Web Dev (Spring 2023)
 meta-description: Welcome to Intro to Web Dev!

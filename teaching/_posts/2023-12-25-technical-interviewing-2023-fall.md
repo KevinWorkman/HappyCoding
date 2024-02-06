@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: Technical Interviewing (Fall 2023)
 meta-title: Technical Interviewing (Fall 2023)
 meta-description: What to expect and how to approach tech interviews.

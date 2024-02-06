@@ -1,6 +1,6 @@
 ---
 title: Google Cloud Tutorials
-layout: left-and-right-navs
+layout: single-content-section
 thumbnail: /tutorials/google-cloud/images/google-cloud-icon-1.png
 categories: [tutorials, java]
 meta-title: Google Cloud Tutorials

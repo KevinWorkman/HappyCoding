@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: Creating Variables - Week 03
 thumbnail: /tutorials/processing/images/creating-functions-7.png
 pixelate-thumbnail: false

@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: For Loops and Arrays - Week 06
 thumbnail: /teaching/intro-to-web-dev-2022-spring/images/week-06-for-loops-and-arrays/for-loops-and-arrays-1.png
 pixelate-thumbnail: true

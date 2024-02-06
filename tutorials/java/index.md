@@ -1,6 +1,6 @@
 ---
 title: Java Tutorials
-layout: left-and-right-navs
+layout: single-content-section
 thumbnail: /tutorials/java/images/java-1.png
 categories: [tutorials, java]
 meta-title: Java Tutorials

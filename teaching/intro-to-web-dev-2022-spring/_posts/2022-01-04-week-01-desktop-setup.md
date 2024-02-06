@@ -1,5 +1,5 @@
 ---
-layout: left-and-right-navs
+layout: single-content-section
 title: Desktop Setup
 thumbnail: /teaching/intro-to-web-dev-2022-spring/images/week-01-setup-and-html/desktop-setup.png
 pixelate-thumbnail: true

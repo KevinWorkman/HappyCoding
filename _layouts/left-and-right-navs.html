@@ -8,54 +8,7 @@ layout: body
         {%- endunless -%}
 
         <div id="sections">
-          <div class="section content">
-
-  {%- assign breadcrumbs = page.url | split: '/' -%}
-  {%- unless breadcrumbs.size < 3 %}
-    <div class="breadcrumbs">
-      {% assign breadcrumbUrl = "" -%}
-      {%- for section in breadcrumbs -%}
-        {%- unless section == "" -%}
-          {%- assign breadcrumbUrl = breadcrumbUrl
-              | append: "/" | append: section %}
-          <div class="breadcrumb">
-            {% include post-url.html url=breadcrumbUrl -%}
-          </div>
-          {%- unless forloop.last %}
-            <span>/</span>
-          {% endunless -%}
-        {%- endunless -%}
-      {%- endfor %}
-    </div>
-        <hr/>
-  {%- endunless -%}
-
-  {% include previous-next-links.html %}
-
-{{ content }}
-
-  {% include previous-next-links.html bottom=true %}
-
-          </div> <!-- end content -->
-
-  {% if layout.include_examples %}
-    {% assign tutorialUrl = "" -%}
-    {%- for breadcrumb in breadcrumbs -%}
-      {%- unless breadcrumb == "" or forloop.index0 > 3 %}
-        {%- assign tutorialUrl = tutorialUrl | append: "/" | append: breadcrumb %}
-      {%- endunless -%}
-    {%- endfor %}
-
-    {% include examples-for-tutorial.html url=tutorialUrl title= post.title include_section_container=true %}
-
-  {% endif %}
-
-  {% if layout.include_comments %}
-    {% unless page.disable_comments %}
-      {% include comments.html %}
-    {% endunless %}
-  {% endif %}
-
+          {{ content }}
         </div> <!-- end sections -->
 
         {% if layout.include_right_nav %}

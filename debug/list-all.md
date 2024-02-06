@@ -1,6 +1,6 @@
 ---
 title: List All
-layout: left-and-right-navs
+layout: single-content-section
 ---
 
 Pages:
