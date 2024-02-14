@@ -161,20 +161,39 @@ redirect_from: /examples
 
 <div class="section content">
 
-<h1>How-To</h1>
+  <h1>Gallery</h1>
 
-<p>General how-to guides not specific to any language.</p>
+  <hr>
 
-{% include url-thumbnail.html url="/tutorials/how-to/" %}
+  <p>If you're looking for some inspiration, check out the gallery of bigger projects.</p>
+
+  {% include url-thumbnail.html url="/gallery/" fullsize=true %}
 
 </div>
 
 <div class="section content">
 
-<h1>Teaching</h1>
+  <h1>How-To</h1>
 
-<p>Happy Coding has been used as the source material for several classes, taught by myself and other folks.</p>
+  <hr>
 
-{% include url-thumbnail.html url="/teaching/" %}
+  <p>General how-to guides not specific to any language.</p>
+
+  <div class="thumbnail-link-container">
+    {% include url-thumbnail.html url="/tutorials/how-to/" %}
+    {% include url-thumbnail.html url="/tutorials/interviewing/" %}
+  </div>
+
+</div>
+
+<div class="section content">
+
+  <h1>Teaching</h1>
+
+  <hr>
+
+  <p>Happy Coding has been used as the source material for several classes, taught by myself and other folks.</p>
+
+  {% include url-thumbnail.html url="/teaching/" %}
 
 </div>
