@@ -112,4 +112,4 @@ function drawCell(x, y) {
 
 - Change the number of squares, or play with different colors.
 - Draw different shapes, like circles or polygons.
-- Check out other [art by Vera Molnár]((https://duckduckgo.com/?t=ffab&q=Vera+Moln%C3%A1r+&iax=images&ia=images)) for inspiration!
+- Check out other [art by Vera Molnár](https://duckduckgo.com/?t=ffab&q=Vera+Moln%C3%A1r+&iax=images&ia=images) for inspiration!
