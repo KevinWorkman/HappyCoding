@@ -10,6 +10,7 @@ meta-image: /tutorials/html/images/internet-1.jpg
 tags: [tutorial, html]
 previousPost: /tutorials/html/
 nextPost: /tutorials/html/html
+forumExcerpt: I'm preparing to teach Intro to Web Dev again, and this semester we're starting with a brief history of the internet.
 ---
 
 The internet is so ubiquitous now, that most people take it for granted. The phone in your pocket gives you access to almost anything you can imagine, any question you can ask, any person you want to connect with. But the internet is still relatively new. This article talks through a brief history of the internet, so you have a better sense of how web development fits into the larger picture.
