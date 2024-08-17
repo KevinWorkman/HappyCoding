@@ -7,20 +7,21 @@
 
   <h1>Comments</h1>
 
-  {% if page.forumExcerpt %}
-    <div id="forum-excerpt" style="display:none;">
+  <div id="forum-excerpt" style="display:none;">
+
+    {% if page.forumExcerpt %}
       <p>{{ page.forumExcerpt }}</p>
 
       <p>Check it out here:</p>
+    {% endif %}
 
-      <a href="{{ page.url }}">
-        <img src="{{ page.meta-image }}">
-        <h2>{{ page.meta-title }}</h2>
-      </a>
+    <a href="{{ page.url }}">
+      <img src="{{ page.meta-image }}">
+      <h2>{{ page.meta-title }}</h2>
+    </a>
 
-      <p>{{ page.meta-description }}</p>
-    </div>
-  {% endif %}
+    <p>{{ page.meta-description }}</p>
+  </div>
 
   <p>
     Happy Coding is a community of folks just like you learning about coding.
