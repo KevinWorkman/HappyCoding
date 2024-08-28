@@ -1,15 +1,16 @@
 ---
 layout: post
 title: Online Code Editors
-thumbnail: /tutorials/html/images/html-2.png
+thumbnail: /tutorials/html/images/online-code-editors-2.png
 tagline: Write HTML directly in your browser.
 sort-key: 225
 meta-title: Online Code Editors
 meta-description: Write HTML directly in your browser.
-meta-image: /tutorials/html/images/html-3.png
+meta-image: /tutorials/html/images/online-code-editors-2.png
 tags: [tutorial, html]
 previousPost: /tutorials/html/
 nextPost: /tutorials/html/html-tags
+updated: 2024-08-27
 ---
 
 {% include toc.md %}
@@ -18,68 +19,44 @@ Now you know, at a high level, that HTML is a coding language used for building 
 
 This tutorial introduces a couple online code editors, which let you write HTML directly in your browser without downloading or installing anything.
 
-# Replit
+# Glitch
 
-There are many online editors out there, but for now I recommend using [Replit](https://replit.com/).
+There are many online editors out there, but for now I recommend using [Glitch](https://glitch.com/).
 
-(I like Replit because it's powerful enough for all of our projects, and the default code it gives you is less overwhelming than the default code that some other editors give you.)
+(I like Glitch because it's powerful enough for all of our projects, and its free tier lets you create as many projects as you want.)
 
-To use Replit, first [sign up for a free Replit account](https://replit.com/signup).
+To use Glitch, first [sign up for a free Glitch account](https://glitch.com/signup).
 
-After you login, click the blue `+ Create` button in the upper-left corner. You should see a dialog like this:
+Glitch is a little unique in that it doesn't use passwords by default. You can login using a GitHub or Google account, or you can have Glitch email you a login link. For now, I recommend that last option. click the **Email Magic Link** button on the signup page, then check your email for a link that lets you login to Glitch.
 
-![Replit project create dialog](/tutorials/html/images/from-p5js-to-html-1.png)
+After you login, you can create new projects in Glitch. I personally believe the default projects Glitch gives you are a little too involved, so for now I recommend opening this project:
 
-Select the **HTML, CSS, JS** template. Optionally name your project (which Replit calls a Repl), and then click the blue `+ Create Repl` button.
+<p style="font-size:x-large"><a target="_blank" href="https://glitch.com/edit/#!/remix/happycoding-html-template">Remix Happy Coding's HTML Template</a></p>
+
+When you click that, Glitch copies the starter code over into a new project in your Glitch account.
 
 You should now see something like this:
 
-![Replit editor](/tutorials/html/images/from-p5js-to-html-2.png)
+![Glitch editor](/tutorials/html/images/online-code-editors-1.png)
 
-Welcome to the Replit editor! Some of this might look similar to the p5.js editor. The left tab shows the files in your project- the only one you care about for now is the `index.html` file. The middle tab shows an editor for your code, and the right tab shows the result of your code.
+Welcome to the Glitch editor! The left tab shows the files in your project. Currently, you only have a single `index.html` file. The middle tab shows an editor for your code, and the right tab shows the result of your code.
 
-Try clicking the green `Run` button at the top of Replit. You should see "Hello world" display in the right tab.
+Try changing the text `Hello world!` to include your name. The preview on the right side should automatically refresh.
 
-## Getting Started with Replit
-
-The default HTML code that Replit gives you can be a little overwhelming. So for now, **delete all of the code in the index.html file**. You should see an empty editor:
-
-![empty Replit editor](/tutorials/html/images/from-p5js-to-html-3.png)
-
-Next, copy this code into the `index.html` file:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My First Webpage</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <p>Welcome to my first webpage!</p>
-  </body>
-</html>
-```
-
-This code is a little more manageable. Click the green `Run` button at the top, and you should see this:
-
-![hello world webpage](/tutorials/html/images/from-p5js-to-html-4.png)
-
-Again, if you're new to coding and HTML, I recommend using Replit. But there are some other online code editors you're likely to encounter.
+Again, if you're new to coding and HTML, I recommend using Glitch. But there are some other online code editors you're likely to encounter.
 
 # CodePen
 
-For these tutorials, I use [CodePen](/about/codepen) to embed a code editor directly in the page. You can edit the code in the CodePen editor and see your changes directly. Try it now:
+For the tutorials I post to Happy Coding, I often use [CodePen](/about/codepen) to embed a code editor directly in the page. You can edit the code in the CodePen editor and see your changes directly. Try it now:
 
 {% include codepen-new.html slug-hash="yVyzPO" height="150" %}
 
-I use CodePen because it lets me embed code directly in these tutorials, and I recommend using CodePen for experiments and small test projects. But for bigger projects, I'd recommend using Replit.
+I use CodePen because it lets me embed code directly in these tutorials, but for most purposes I'd recommend using Glitch.
 
 # Other Code Editors
 
-There are many other online code editors. Here are a few worth checking out:
+There are many other online code editors. Here are a couple you're likely to encounter:
 
-- [Glitch](https://glitch.com/) is similar to Replit. The main reason I recommend Replit over Glitch is because Glitch gives you slightly more complicated starter code. But if that's not a concern (you usually delete the starter code anyway), Glitch is great.
 - [JSFiddle](https://jsfiddle.net/) is similar to CodePen. It's great for small projects and sending small examples.
 - [W3Schools Editor](https://www.w3schools.com/tryit/) is an embedded editor in a lot of [W3Schools](https://www.w3schools.com/html/default.asp) tutorials. It's a great way to try out new HTML tags as you learn about them.
 
@@ -89,4 +66,6 @@ Don't be afraid to try out a few different editors and see which one you like th
 
 Now you should have a code editor set up. Next, you'll start writing your own HTML!
 
+<div class="thumbnail-link-container">
 {% include url-thumbnail.html url="/tutorials/html/html-tags" %}
+</div>
