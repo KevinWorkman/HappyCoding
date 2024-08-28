@@ -33,7 +33,9 @@ After you login, you can create new projects in Glitch. I personally believe the
 
 <p style="font-size:x-large"><a target="_blank" href="https://glitch.com/edit/#!/remix/happycoding-html-template">Remix Happy Coding's HTML Template</a></p>
 
-When you click that, Glitch copies the starter code over into a new project in your Glitch account.
+You can also [open the template](https://glitch.com/edit/#!/happycoding-html-template) and then click the **Remix** button.
+
+Either way, when you remix the template, Glitch copies the starter code over into a new project in your Glitch account.
 
 You should now see something like this:
 
