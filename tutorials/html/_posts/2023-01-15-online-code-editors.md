@@ -21,6 +21,8 @@ This tutorial introduces a couple online code editors, which let you write HTML 
 
 # Glitch
 
+{% include youtube-embed.html slug="grfN-XZaHCE" %}
+
 There are many online editors out there, but for now I recommend using [Glitch](https://glitch.com/).
 
 (I like Glitch because it's powerful enough for all of our projects, and its free tier lets you create as many projects as you want.)
