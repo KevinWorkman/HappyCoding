@@ -18,6 +18,10 @@ lastUpdated: 2022-01-25
 
 Now you know how to write JavaScript code, and you know how to set up events in your HTML to call functions that you write. So far you've used functions like `alert()` and `console.log()` to interact with the user. But "real" JavaScript usually modifies something on the page.
 
+{% include youtube-embed.html slug="sAicqianxcM" %}
+
+---
+
 # Referencing HTML Elements
 
 Remember from [the CSS tutorials](/tutorials/html/css) that there are several ways to reference an HTML element: by tag, by class, and by id. Take this example webpage:

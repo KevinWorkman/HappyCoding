@@ -23,6 +23,10 @@ This code calls the `document.write()` function and passes `'Hello world!'` into
 
 You can pass parameters directly into a function, but that often gets tedious if you need to use the same value multiple times. Instead, you can use **variables** to make your life a little easier.
 
+{% include youtube-embed.html slug="1J6LVJWxb1w" %}
+
+---
+
 # Values
 
 Variables let you store values so you can use them multiple times. So before we talk about variables, let's talk about values for a second.
