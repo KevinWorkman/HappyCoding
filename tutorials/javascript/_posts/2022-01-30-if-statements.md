@@ -25,7 +25,7 @@ So far, all of the code we've seen runs line by line, executing each line one af
 
 This tutorial introduces **if statements** which let your code take different actions based on conditions that you specify.
 
-{% include youtube-embed.html slug="STjp3G_c-cg" %}
+{% include youtube-embed.html slug="2cTPXpwMzf0" %}
 
 # Booleans
 
@@ -236,6 +236,10 @@ Here’s an example:
 This code creates a `volume` variable, and then uses that variable in an `if` statement. Since it’s not a boolean, the code checks its truthiness to convert it to a boolean.
 
 Try changing `volume` to `0` to see what happens!
+
+# If Statements and DOM Manipulation
+
+{% include youtube-embed.html slug="lvxyBjE_8r0" %}
 
 # Learn More
 
