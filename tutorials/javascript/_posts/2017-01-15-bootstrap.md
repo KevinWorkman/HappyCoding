@@ -33,8 +33,8 @@ Bootstrap is really two things:
 To use Bootstrap, load both the Bootstrap CSS and the Bootstrap JavaScript library:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
 Now that you've loaded the CSS and the JavaScript, you can use both in your page. Let's talk about them one at a time:
