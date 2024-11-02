@@ -9,7 +9,8 @@ meta-description: Learn how to make your GitHub profile your own using a GitHub 
 meta-image:  /tutorials/html/images/github-profile-readme-12.png
 tags: [tutorial, html, github-pages]
 previousPost: /tutorials/html/
-nextPost: /tutorials/html/github-pages
+nextPost: /tutorials/html/github-desktop
+updated: 2024-11-01
 ---
 
 {% include youtube-embed.html slug="_G2gTWtyonQ" %}
@@ -32,15 +33,7 @@ Before you get started, [sign up for a GitHub account](https://github.com/join).
 
 Git is a **version control system** which is a fancy way of saying that Git helps you track different versions of files. If you've ever written a paper and then saved a file called `my-paper-final.txt` and then realized you needed to change it, so you saved a file called `my-paper-final-2.txt` and then made even more changes, eventually saving a file called `my-paper-final-really-final-this-time-3.txt`, then that's another kind of version control system. Git is a way of automating that.
 
-I'm mentioning Git because GitHub uses it behind the scenes. You can [download the command line version of Git](https://git-scm.com/downloads), but if you're new to Git and GitHub, it might be easier to use GitHub Desktop.
-
-# GitHub Desktop
-
-[GitHub Desktop](https://desktop.github.com/) is an application that lets you store your files in GitHub, without needing to know anything about Git or the command line.
-
-I personally use GitHub Desktop for everything I do by myself on GitHub. For group projects I usually use the command line, but for now I would recommend using GitHub Desktop.
-
-You can use whichever approach you're most comfortable with: GitHub Desktop or Git through the command line. I recommend using GitHub Desktop for now, but I'll include instructions for both below!
+I'm mentioning Git because GitHub uses it behind the scenes. But for now, you only need to keep in mind that GitHub is a website that uses git to let people collaborate on coding projects.
 
 # Create a Repo
 
@@ -62,33 +55,11 @@ And here's the magic part: whatever is in that file will show up in your GitHub 
 
 ![GitHub profile](/tutorials/html/images/github-profile-readme-3.png)
 
-# Clone Your Repo
-
-You can edit your profile README file directly in GitHub in your browser, but one of the things I love about the profile README feature is that it's a good way to practice the whole GitHub process, so let's do that!
-
-Instead of editing your README file in the browser, clone your repo by clicking the `Code` button and then the `Open with GitHub Desktop` option. That should automatically open GitHub Desktop, and then click the `Clone` button to download your repo to your computer.
-
-![Open GitHub Desktop](/tutorials/html/images/github-profile-readme-4.png)
-
-![GitHub Desktop](/tutorials/html/images/github-profile-readme-5.png)
-
-If you're using the command line instead of GitHub Desktop, run this command to clone your repo:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-```
-
 # Modify Your README File
 
-Now that your `README.md` file is on your computer, you can use your favorite text editor to modify it.
+Click the pencil icon in the upper-right corner of your GitHub profile. That opens a web editor that lets you edit your `README.md` file.
 
-You can edit your `README.md` file using any text editor. You can use whatever text editor came with your computer, like [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac.
-
-If you want additional features, you can download a [text editor](https://en.wikipedia.org/wiki/List_of_text_editors) like [Atom](https://atom.io/) or [Notepad++](https://notepad-plus-plus.org/). But make sure you are **not** using a word processor like Microsoft Word, because it’ll try to add its own formatting to your text.
-
-Don’t stress out too much about finding the exactly correct text editor. Use whatever came with your computer for now, and you can always try a few text editors out and see which one you like the best later.
-
-Open your `README.md` file in your text editor and change its contents to describe yourself. Here's what I might start with:
+Modify its contents to describe yourself. Here's what I might start with:
 
 ```markdown
 # Hello World!
@@ -96,41 +67,19 @@ Open your `README.md` file in your text editor and change its contents to descri
 My name is Kevin, and here are a few things I'm working on:
 
 - Happy Coding
-- Software Product Sprint
-- Google Maps
+- Google
+- Millersville University
 
 I **love** nerding out about creative coding, so don't hesitate to reach out!
 ```
 
 Don't worry too much about making this perfect. You can always change it later. For now, focus on making a tiny change so you can test out uploading your changes!
 
-# Upload Your Changes
+When you're done, click the **Commit changes...** button, and then click **Commit changes** in the dialog that pops up.
 
-Save your `README.md` file, and then open GitHub Desktop. You should see your changes, like this:
+Finally, navigate back to your GitHub profile page to confirm your changes are live!
 
-![GitHub Desktop add changes](/tutorials/html/images/github-profile-readme-6.png)
-
-To upload your changes, you need to do three things:
-
-1. **Add** your changes by selecting the checkbox next to the `README.md` file.
-2. **Commit** your changes by typing a message in the text box and then clicking the `Commit to main` button.
-3. **Push** your changes by clicking the `Push origin` button in the upper-right corner.
-
-![GitHub Desktop push changes](/tutorials/html/images/github-profile-readme-7.png)
-
-Now you should see your changes in GitHub, both in your repo and on your profile!
-
-![GitHub profile](/tutorials/html/images/github-profile-readme-8.png)
-
-If you're using the command line instead of GitHub Desktop, you'd run these commands:
-
-```bash
-git add README.md
-git commit README.md "introducing myself in my profile READEME file"
-git push origin main
-```
-
-Congratulations, you've practiced the fundamentals of using GitHub! Now you know how to  clone a repo, make changes to the files in that repo, and then upload those changes back to the repo!
+![Updated GitHub profile](/tutorials/html/images/github-profile-readme-13.png)
 
 # Markdown
 
@@ -140,9 +89,9 @@ Markdown is a way to format text that is then converted into HTML. It's used on 
 
 For example, `**this**` Markdown is converted to `<strong>this</strong>` HTML, which your browser renders as bold text. My `README.md` file above also contains `# Hello World` which is rendered as an `<h1>` heading, and a list specified by multiple lines that start with a `-` dash.
 
-You can learn more about Markdown using guides like [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) and [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+You can learn more about Markdown using guides like [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 
-Try using markdown to add a link to your Instagram feed, or to your favorite Spotify playlist. Try adding a picture of yourself or a screenshot of what you're working on! Don't forget that google is your friend: try googling "markdown images" for more resources. Upload your changes to GitHub and double-check that they work on your profile!
+Try using markdown to add a link to your Instagram feed, or to your favorite Spotify playlist. Try adding a picture of yourself or a screenshot of what you're working on! Don't forget that search engines are your friend: try searching for "markdown images" for more resources. Upload your changes to GitHub and double-check that they work on your profile!
 
 # HTML
 
@@ -178,7 +127,7 @@ GitHub profile READMEs are a great way to dip your toes into HTML, and if you're
 
 # Next Steps
 
-You now know everything you need to make your GitHub profile README your own! Create a repo, clone it, modify your `README.md` file, and then upload it to see the changes in your GitHub profile!
+You now know everything you need to make your GitHub profile README your own!
 
 Check out the [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme) repo for a ton of examples of what other folks have done with their GitHub profile READMEs.
 
