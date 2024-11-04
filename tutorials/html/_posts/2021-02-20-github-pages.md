@@ -10,9 +10,10 @@ meta-image:  /tutorials/html/images/github-pages-9.png
 tags: [tutorial, html, github-pages]
 previousPost: /tutorials/html/github-profile-readme
 nextPost: /tutorials/html/jekyll
+updated: 2024-11-03
 ---
 
-{% include youtube-embed.html slug="Fcfk9YGkEbc" %}
+{% include youtube-embed.html slug="rAYSNnSUAWI" %}
 
 ---
 

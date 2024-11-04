@@ -10,10 +10,10 @@ meta-image:  /tutorials/html/images/github-profile-readme-12.png
 tags: [tutorial, html, github-pages]
 previousPost: /tutorials/html/
 nextPost: /tutorials/html/github-desktop
-updated: 2024-11-01
+updated: 2024-11-03
 ---
 
-{% include youtube-embed.html slug="_G2gTWtyonQ" %}
+{% include youtube-embed.html slug="FsZPFObGWeE" %}
 
 ---
 
