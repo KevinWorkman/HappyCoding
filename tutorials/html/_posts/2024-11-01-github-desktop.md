@@ -11,7 +11,7 @@ tags: [tutorial, html, github-pages]
 previousPost: /tutorials/html/github-profile-readme
 nextPost: /tutorials/html/github-pages
 updated: 2024-11-03
-forumExcerpt: I posted a new article about GitHub Desktop. This ties into a bunch of other tuts about GitHub and web development.
+forumExcerpt: I posted a new article about GitHub Desktop, which lets you interact with your GitHub repo on your own computer.
 ---
 
 {% include youtube-embed.html slug="T03YpoGpt4g" %}

@@ -3,13 +3,13 @@ layout: post
 title: Bootstrap
 thumbnail: /tutorials/javascript/images/bootstrap-1.png
 tagline: Create a website using Bootstrap.
-sort-key: 1100
+sort-key: 975
 meta-title: Bootstrap
 meta-description: Create a website using Bootstrap.
 meta-image: /tutorials/javascript/images/bootstrap-2.png
 tags: [tutorial, javascript, css, bootstrap]
-previousPost: /tutorials/javascript/fetch
-nextPost: /tutorials/javascript/
+previousPost: /tutorials/javascript/libraries
+nextPost: /tutorials/javascript/fetch
 updated: 2022-11-08
 ---
 

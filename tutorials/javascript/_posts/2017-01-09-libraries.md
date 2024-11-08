@@ -5,13 +5,13 @@ slug: libraries
 thumbnail: /tutorials/javascript/images/libraries-1.png
 pixelate-thumbnail: true
 tagline: Learn about using libraries in JavaScript.
-sort-key: 900
+sort-key: 950
 meta-title: Using JavaScript Libraries
 meta-description: Learn about using libraries in JavaScript.
 meta-image: /tutorials/javascript/images/libraries-1.png
 tags: [tutorial, javascript, libraries]
-previousPost: /tutorials/javascript/arrays
-nextPost: /tutorials/javascript/fetch
+previousPost: /tutorials/javascript/objects
+nextPost: /tutorials/javascript/bootstrap
 updated: 2022-02-13
 ---
 

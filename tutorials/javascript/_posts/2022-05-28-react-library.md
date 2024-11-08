@@ -3,7 +3,7 @@ layout: post
 title: React
 thumbnail: /tutorials/javascript/images/react-1.png
 tagline: Use React to build an interactive web app.
-sort-key: 1000
+sort-key: 1120
 meta-title: React Tutorial
 meta-description: Use React to build an interactive web app.
 meta-image: /tutorials/javascript/images/react-1.png
