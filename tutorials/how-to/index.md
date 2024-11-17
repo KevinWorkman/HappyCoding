@@ -22,4 +22,5 @@ These are general tutorials about general topics that don't fit anywhere else on
   {% include url-thumbnail.html url="/tutorials/how-to/add-your-own-example" %}
   {% include url-thumbnail.html url="/tutorials/how-to/subscribe-to-happy-coding" %}
   {% include url-thumbnail.html url="/tutorials/how-to/contribute-a-background" %}
+  {% include url-thumbnail.html url="/tutorials/how-to/machine-learning" %}
 </div>
