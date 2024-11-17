@@ -8,7 +8,7 @@ meta-title: Machine Learning
 meta-description: Demystifying ML
 meta-image: /tutorials/how-to/images/ml-14.png
 tags: [tutorial, how-to]
-forumExcerpt: I wrote a tutorial about machine learning, and how tools like ChatGPT works behind the scenes.
+forumExcerpt: I wrote a tutorial about machine learning, and how tools like ChatGPT work behind the scenes.
 ---
 
 <style>
