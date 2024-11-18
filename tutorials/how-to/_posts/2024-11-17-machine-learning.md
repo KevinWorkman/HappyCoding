@@ -24,6 +24,10 @@ forumExcerpt: I wrote a tutorial about machine learning, and how tools like Chat
 
 Whether machine learning will live up to that hype remains to be seen, along with whether big tech companies will adequately address the very real ethical concerns around the technology. But either way, machine learning is a large part of the conversations about the tech industry right now, so I wanted to write down some thoughts on the subject in the hopes that it might help demystify some of those conversations.
 
+{% include youtube-embed.html slug="FK9zsP1N1sc" %}
+
+---
+
 # Disclaimers
 
 I am not an expert in machine learning. I learned some of the foundational concepts back in grad school, but that was ten years ago, and much of the technology has evolved since then. I've had to learn a bit about it for my job, but I absolutely do not claim to be an expert- or even to be particularly knowledgeable.
