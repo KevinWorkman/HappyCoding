@@ -139,4 +139,4 @@ What happens if you show the greeting before you set the name? You'll see `Hello
 
 # Homework
 
-- Modify the above webapge to contain a third element that shows a dialog that says goodbye to the user.
+- Modify the above webpage to contain a third element that shows a dialog that says goodbye to the user.
