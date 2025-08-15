@@ -1,17 +1,23 @@
 ---
 layout: post
 title: Online Code Editors
-thumbnail: /tutorials/html/images/online-code-editors-2.png
+thumbnail: /tutorials/html/images/neocities-1.png
 tagline: Write HTML directly in your browser.
 sort-key: 225
 meta-title: Online Code Editors
 meta-description: Write HTML directly in your browser.
-meta-image: /tutorials/html/images/online-code-editors-2.png
+meta-image: /tutorials/html/images/neocities-1.png
 tags: [tutorial, html]
 previousPost: /tutorials/html/
 nextPost: /tutorials/html/html-tags
-updated: 2024-08-27
+updated: 2025-08-14
 ---
+
+<style>
+  .content img {
+    border: thin solid #323232;
+  }
+</style>
 
 {% include toc.md %}
 
@@ -19,35 +25,93 @@ Now you know, at a high level, that HTML is a coding language used for building 
 
 This tutorial introduces a couple online code editors, which let you write HTML directly in your browser without downloading or installing anything.
 
-# Glitch
+# Neocities
 
-{% include youtube-embed.html slug="5g5laQST0Tg" %}
+There are many online editors out there, but for now I recommend using [Neocities](https://neocities.org).
 
-There are many online editors out there, but for now I recommend using [Glitch](https://glitch.com/).
+I like Neocities because its free tier is powerful enough for all of our projects. I also can't help but love its retro vibe.
 
-(I like Glitch because it's powerful enough for all of our projects, and its free tier lets you create as many projects as you want.)
+To use Neocities, first [sign up for a free Neocities account](https://neocities.org/#new).
 
-To use Glitch, first [sign up for a free Glitch account](https://glitch.com/signup).
+![Neocities registration form](/tutorials/html/images/neocities-2.png)
 
-Glitch is a little unique in that it doesn't use passwords by default. You can login using a GitHub or Google account, or you can have Glitch email you a login link. For now, I recommend that last option. click the **Email Magic Link** button on the signup page, then check your email for a link that lets you login to Glitch.
+You can only have one username per email, which means you can only create one website per email. That's fine, because you can have multiple directories and pages within a site, like this:
 
-After you login, you can create new projects in Glitch. I personally believe the default projects Glitch gives you are a little too involved, so for now I recommend opening this project:
+- `kevinworkman.neocities.org/exampleone/mypage.html`
+- `kevinworkman.neocities.org/exampletwo/myotherpage.html`
+- `kevinworkman.neocities.org/examplethree/yetanotherpage.html`
 
-<p style="font-size:x-large"><a target="_blank" href="https://glitch.com/edit/#!/remix/happycoding-html-template">Remix Happy Coding's HTML Template</a></p>
+But you can only change the username part of your site either by upgrading to a paid account, or by registering with a new email address, so choose carefully!
 
-You can also [open the template](https://glitch.com/edit/#!/happycoding-html-template) and then click the **Remix** button.
+If Neocities asks you whether you want a free account or a supporter account, you can select the free option. You can always upgrade later if you want to support Neocities or want to have multiple websites.
 
-Either way, when you remix the template, Glitch copies the starter code over into a new project in your Glitch account.
+![Neocities account upgrade](/tutorials/html/images/neocities-3.png)
+
+If Neocities asks whether you want to visit tutorials, you can select **Go to the dashboard**. You can always come back to the tutorials later!
+
+![Neocities tutorial option screen](/tutorials/html/images/neocities-4.png)
+
+Finally, you should see your website's dashboard:
+
+![Neocities dashboard](/tutorials/html/images/neocities-5.png)
+
+By default, Neocities populates your website with a few files. You'll learn more about them as you work through these tutorials, but for a quick summary:
+
+- `index.html` is the default HTML file that people will see when they visit your site
+- `neocities.png` is an image that's used in the HTML file
+- `not_found.html` is the error page that's shown if somebody tries to access a file that doesn't exist
+- `style.css` is a CSS file that sets the styling of your website
+
+You can click the red link with your website's URL (it looks like `yourusername.neocities.org`) to see your current site. It should look like this:
+
+![Neocities default page](/tutorials/html/images/neocities-6.png)
+
+Back in your site's dashboard, hover your mouse over the `index.html` file and then click the **Edit** button.
+
+![Neocities edit button](/tutorials/html/images/neocities-7.png)
 
 You should now see something like this:
 
-![Glitch editor](/tutorials/html/images/online-code-editors-1.png)
+![Neocities editor](/tutorials/html/images/neocities-8.png)
 
-Welcome to the Glitch editor! The left tab shows the files in your project. Currently, you only have a single `index.html` file. The middle tab shows an editor for your code, and the right tab shows the result of your code.
+Welcome to the Neocities editor! This file already contains some HTML content. You'll learn more about HTML in the next couple tutorials, but for now, replace the contents of the file with this:
 
-Try changing the text `Hello world!` to include your name. The preview on the right side should automatically refresh.
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Amazing Website</title>
+  </head>
+  <body>
+    <h1>Welcome to my amazing website!</h1>
 
-Again, if you're new to coding and HTML, I recommend using Glitch. But there are some other online code editors you're likely to encounter.
+    <p>Here are some of my favorite animals:</p>
+    <ul>
+      <li>Cats</li>
+      <li>Bees</li>
+      <li>Snails</li>
+    </ul>
+  </body>
+</html>
+```
+
+Then click the **Save** button at the top, and then click the **Dashboard** in the upper-left corner.
+
+Back in the dashboard, you should now see **My Amazing Website** at the top:
+
+![Updated Neocities dashboard](/tutorials/html/images/neocities-9.png)
+
+That's coming from the `<title>` tag in your `index.html` file!
+
+Next, click your website's URL again, or refresh the tab if you already have it open, and you should see this:
+
+![Updated Neocities website](/tutorials/html/images/neocities-10.png)
+
+This might not look like the best website in the world, but it means you were able to edit your HTML file and see your changes in your live site.
+
+Try changing the list of your favorite animals by editing the `index.html` file, saving it, and then refreshing your website again.
+
+If you're new to coding and HTML, I recommend using Geocities. But there are some other online code editors you're likely to encounter.
 
 # CodePen
 
@@ -55,7 +119,7 @@ For the tutorials I post to Happy Coding, I often use [CodePen](/about/codepen) 
 
 {% include codepen-new.html slug-hash="yVyzPO" height="150" %}
 
-I use CodePen because it lets me embed code directly in these tutorials, but for most purposes I'd recommend using Glitch.
+I use CodePen because it lets me embed code directly in these tutorials, but for most purposes I'd recommend using Geocities.
 
 # Other Code Editors
 
