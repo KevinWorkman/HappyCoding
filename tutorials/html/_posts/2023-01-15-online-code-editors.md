@@ -57,10 +57,11 @@ Finally, you should see your website's dashboard:
 
 By default, Neocities populates your website with a few files. You'll learn more about them as you work through these tutorials, but for a quick summary:
 
-- `index.html` is the default HTML file that people will see when they visit your site
-- `neocities.png` is an image that's used in the HTML file
-- `not_found.html` is the error page that's shown if somebody tries to access a file that doesn't exist
-- `style.css` is a CSS file that sets the styling of your website
+- `index.html` is the default HTML file that people will see when they visit your site.
+- `neocities.png` is an image that's used in the HTML file.
+- `not_found.html` is the error page that's shown if somebody tries to access a file that doesn't exist.
+- `robots.txt` tells web crawlers (like Google and AI trainers) whether they're allowed to use your site. By default, everything is allowed, but you can turn them off if you want.
+- `style.css` is a CSS file that sets the styling of your website.
 
 You can click the red link with your website's URL (it looks like `yourusername.neocities.org`) to see your current site. It should look like this:
 
