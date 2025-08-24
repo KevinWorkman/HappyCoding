@@ -11,6 +11,7 @@ tags: [tutorial, html]
 previousPost: /tutorials/html/intro-to-the-internet
 nextPost: /tutorials/html/html
 forumExcerpt: I'm preparing to teach Intro to Web Dev again, and this semester we're starting with website builders before diving into HTML.
+updated: 2025-08-24
 ---
 
 If you're reading this, you're probably curious about building a website. In the following tutorials, you'll learn how to create your own website from scratch, by writing code in languages like HTML, CSS, and JavaScript.
@@ -37,9 +38,9 @@ Here are some things to look for:
 
 Here are a few popular options:
 
-- [Webflow](https://webflow.com/) is what I currently recommend folks start with, mostly because it has a free tier.
+- [Wix](https://www.wix.com/) is very popular, and offers a free tier.
+- [Webflow](https://webflow.com/) also offers a free tier.
 - [Squarespace](https://www.squarespace.com/) is currently one of the most popular website builders, and it works for everything from small portfolio pages to complicated e-commerce shops.
-- [Wix](https://www.wix.com/) is another really popular website builder. It's very similar to Squarespace.
 - [WordPress](https://wordpress.com/) was originally designed for blogs, but it has since evolved to support many kinds of websites. Wordpress can get pretty involved, but it's also extremely popular. Some estimates say that over 40% of all websites on the internet are built with Wordpress!
 - [Shopify](https://www.shopify.com/) is another popular option, geared around e-commerce sites.
 
