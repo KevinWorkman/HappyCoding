@@ -21,6 +21,8 @@ updated: 2025-08-14
 
 {% include toc.md %}
 
+{% include youtube-embed.html slug="Dq5MYv2BUwg" %}
+
 Now you know, at a high level, that HTML is a coding language used for building websites. But to write HTML, you need an HTML editor!
 
 This tutorial introduces a couple online code editors, which let you write HTML directly in your browser without downloading or installing anything.
