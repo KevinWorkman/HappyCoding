@@ -97,7 +97,7 @@ URLs contains a few parts:
 
 - **Fragments:** This is the part of the URL after a `#` hash symbol. This is used to link directly to a specific section on a page.
 
-  - For example, `https://happycoding.io/tutorials/html/into-to-the-internet#urls` links to this section. Try it out!
+  - For example, `https://happycoding.io/tutorials/html/intro-to-the-internet#urls` links to this section. Try it out!
 
 Not every URL contains all of these parts. Start looking for them as you navigate the internet and share links!
 
