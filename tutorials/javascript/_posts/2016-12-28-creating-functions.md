@@ -28,8 +28,6 @@ That might be okay for this example, but a lot of JavaScript code is meant to in
 
 The answer is that you can create functions that are only called *after* the page is done loading.
 
-{% include youtube-embed.html slug="1B6_X5eEjrY" %}
-
 ---
 
 # Declaring Functions

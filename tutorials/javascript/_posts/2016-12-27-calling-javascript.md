@@ -21,7 +21,7 @@ HTML is a **markup language**, which lets you specify the content of a webpage. 
 
 This is where JavaScript comes into play. JavaScript is a programming language that runs in the browser and lets you create interactive webpages.
 
-{% include youtube-embed.html slug="ELJZhOisne4" %}
+{% include youtube-embed.html slug="zsz_YxEhx2M" %}
 
 ---
 

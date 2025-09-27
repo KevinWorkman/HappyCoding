@@ -18,7 +18,7 @@ lastUpdated: 2022-01-25
 
 Now you know how to write JavaScript code, and you know how to set up events in your HTML to call functions that you write. So far you've used functions like `alert()` and `console.log()` to interact with the user. But "real" JavaScript usually modifies something on the page.
 
-{% include youtube-embed.html slug="sAicqianxcM" %}
+{% include youtube-embed.html slug="LT1BoFr10tI " %}
 
 ---
 
