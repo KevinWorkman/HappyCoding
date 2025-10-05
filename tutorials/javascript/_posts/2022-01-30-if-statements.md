@@ -11,6 +11,7 @@ meta-image: /tutorials/javascript/images/if-statements-1.png
 previousPost: /tutorials/javascript/interactive-html
 nextPost: /tutorials/javascript/for-loops
 tags: [tutorial, javascript]
+updated: 2025-10-05
 ---
 
 {% include toc.md %}
@@ -25,7 +26,11 @@ So far, all of the code we've seen runs line by line, executing each line one af
 
 This tutorial introduces **if statements** which let your code take different actions based on conditions that you specify.
 
-{% include youtube-embed.html slug="2cTPXpwMzf0" %}
+{% include youtube-embed.html slug="Efm2ff-Kfzw" %}
+
+{% include youtube-embed.html slug="TQlldPNGc90" %}
+
+{% include youtube-embed.html slug="9C6yN-OTx7w" %}
 
 # Booleans
 
