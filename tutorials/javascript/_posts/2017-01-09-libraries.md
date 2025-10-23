@@ -21,7 +21,7 @@ Now you know how to write JavaScript code, and how to use functions like `getEle
 
 This tutorial introduces JavaScript libraries, which lets you take advantage of code that's already written by other people.
 
-{% include youtube-embed.html slug="CUP3fVNkyTI" %}
+{% include youtube-embed.html slug="G0AhuXj-_uQ" %}
 
 ---
 
@@ -156,7 +156,7 @@ My personal favorite JavaScript library is [p5.js](/tutorials/p5js).
 
 ---
 
-{% include youtube-embed.html slug="H4b48p5k1kA" %}
+{% include youtube-embed.html slug="oW0c9aKc0bY" %}
 
 ---
 
