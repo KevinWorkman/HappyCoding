@@ -11,6 +11,7 @@ function randomInt(min, max) {
 }
 
 function setRandomSocialLink() {
+  return;
   let href;
   let src;
   let alt;
@@ -29,7 +30,7 @@ function setRandomSocialLink() {
     src = '/images/etsy.png';
   } else {
     alt = 'youtube';
-    href = 'https://youtube.com/TheKevinWorkman';
+    href = 'https://www.youtube.com/@KevinWorkman';
     src = '/images/youtube.png';
   }
 
