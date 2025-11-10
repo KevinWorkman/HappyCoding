@@ -61,6 +61,7 @@ These organizations help reach out to girls, minorities, and other under-represe
 - [Code Academy](https://www.codecademy.com/)
 - [Khan Academy](https://www.khanacademy.org/)
 - [W3Schools](http://www.w3schools.com/)
+- [The Learning People](https://www.learningpeople.com/uk/courses/coding-courses/)
 
 ## Code Jams
 
