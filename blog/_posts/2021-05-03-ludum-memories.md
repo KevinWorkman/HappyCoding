@@ -222,7 +222,7 @@ This is by no means the only Ludum Dare that I dropped out of, but it is the onl
 
 [\#000000](/gallery/ludum-dare-45/index) starts the player with black (`#000000`), and you make choices to change your color to white (`#ffffff`). Different choices result in a different path through the color space, which gives each player their own gradient that they can download as a souvenir.
 
-This game got 13th for innovation, and seeing everyone [post their gradients](https://ldjam.com/events/ludum-dare/45/$170999) was super cool.
+This game got 13th for innovation, and seeing everyone [post their gradients](https://ldj.am/$170999) was super cool.
 
 ![LD 45](/blog/images/ludum-memories/ld45-1.png)
 
